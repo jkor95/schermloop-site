@@ -1,12 +1,150 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": null,
-    "headlines": []
+    "updatedAt": "2026-10-25T22:38:34+00:00",
+    "headlines": [
+      {
+        "title": "Ruim tachtig gewonden nadat bus in ravijn stort bij Barcelona",
+        "url": "https://www.nu.nl/buitenland/6414376/ruim-tachtig-gewonden-nadat-bus-in-ravijn-stort-bij-barcelona.html",
+        "date": "Sun, 25 Oct 2026 23:20:38 +0100"
+      },
+      {
+        "title": "Rentree Frenkie de Jong valt in het water door goals Mbappé bij Barcelona-Real",
+        "url": "https://www.nu.nl/voetbal/6414364/rentree-frenkie-de-jong-valt-in-het-water-door-goals-mbappe-bij-barcelona-real.html",
+        "date": "Sun, 25 Oct 2026 23:03:54 +0100"
+      },
+      {
+        "title": "Stembureaus Brazilië twee uur langer open nadat hooggerechtshof ingrijpt",
+        "url": "https://www.nu.nl/buitenland/6414373/stembureaus-brazilie-twee-uur-langer-open-nadat-hooggerechtshof-ingrijpt.html",
+        "date": "Sun, 25 Oct 2026 22:54:55 +0100"
+      },
+      {
+        "title": "Sven Kockelmann wint Sonja Barend Award voor interview met Dick Schoof",
+        "url": "https://www.nu.nl/media/6414375/sven-kockelmann-wint-sonja-barend-award-voor-interview-met-dick-schoof.html",
+        "date": "Sun, 25 Oct 2026 22:47:53 +0100"
+      },
+      {
+        "title": "Video | Haven op Texel staat onder water door storm Boelo",
+        "url": "https://www.nu.nl/331639/video/haven-op-texel-staat-onder-water-door-storm-boelo.html",
+        "date": "Sun, 25 Oct 2026 22:47:31 +0100"
+      },
+      {
+        "title": "Antonelli moet titelfeest ondanks zege in Austin uitstellen, Verstappen derde",
+        "url": "https://www.nu.nl/formule-1/6414372/antonelli-moet-titelfeest-ondanks-zege-in-austin-uitstellen-verstappen-derde.html",
+        "date": "Sun, 25 Oct 2026 22:40:26 +0100"
+      },
+      {
+        "title": "Oud-president Vucic erkent nederlaag Servische verkiezingen, studenten winnen",
+        "url": "https://www.nu.nl/buitenland/6414366/oud-president-vucic-erkent-nederlaag-servische-verkiezingen-studenten-winnen.html",
+        "date": "Sun, 25 Oct 2026 21:59:38 +0100"
+      }
+    ]
   },
   "weather": {
     "source": "Buienradar",
     "place": "Dordrecht",
-    "rain": []
+    "rain": [
+      {
+        "time": "23:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.21
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
+      }
+    ],
+    "temperature": 12.2,
+    "description": "Zwaar bewolkt",
+    "station": "Meetstation Rotterdam",
+    "weatherUpdatedAt": "2026-10-25T22:38:35+00:00",
+    "rainUpdatedAt": "2026-10-25T22:38:36+00:00"
   }
 }
