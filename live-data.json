@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-25T23:34:45+00:00",
+    "updatedAt": "2026-10-25T23:59:42+00:00",
     "headlines": [
       {
         "title": "Doden en duizenden huizen zonder stroom na storm Boelo in Verenigd Koninkrijk",
@@ -44,22 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
       {
         "time": "00:55",
         "mmHour": 0.0
@@ -139,12 +123,28 @@
       {
         "time": "02:30",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
       }
     ],
     "temperature": 12.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-25T23:34:46+00:00",
-    "rainUpdatedAt": "2026-10-25T23:34:46+00:00"
+    "weatherUpdatedAt": "2026-10-25T23:59:42+00:00",
+    "rainUpdatedAt": "2026-10-25T23:59:43+00:00"
   }
 }
