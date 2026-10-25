@@ -1,0 +1,12 @@
+{
+  "news": {
+    "source": "NU.nl",
+    "updatedAt": null,
+    "headlines": []
+  },
+  "weather": {
+    "source": "Buienradar",
+    "place": "Dordrecht",
+    "rain": []
+  }
+}
