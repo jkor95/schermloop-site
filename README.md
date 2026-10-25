@@ -1,0 +1,1 @@
+SchermLoop: de openbare applicatiecode. De presentatiebestanden staan uitsluitend in jkor95/schermloop-private. GitHub Pages: Settings > Pages > Deploy from branch main / (root). Voor het afspelen is een fine-grained token met Contents: Read vereist; voor beheer Contents: Read and write. Beide tokens uitsluitend op schermloop-private.
