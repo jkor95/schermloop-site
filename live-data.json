@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-25T22:38:34+00:00",
+    "updatedAt": "2026-10-25T23:02:37+00:00",
     "headlines": [
       {
         "title": "Ruim tachtig gewonden nadat bus in ravijn stort bij Barcelona",
@@ -29,8 +29,8 @@
         "date": "Sun, 25 Oct 2026 22:47:31 +0100"
       },
       {
-        "title": "Antonelli moet titelfeest ondanks zege in Austin uitstellen, Verstappen derde",
-        "url": "https://www.nu.nl/formule-1/6414372/antonelli-moet-titelfeest-ondanks-zege-in-austin-uitstellen-verstappen-derde.html",
+        "title": "Antonelli moet titelfeest uitstellen ondanks zege in Austin, Verstappen derde",
+        "url": "https://www.nu.nl/formule-1/6414372/antonelli-moet-titelfeest-uitstellen-ondanks-zege-in-austin-verstappen-derde.html",
         "date": "Sun, 25 Oct 2026 22:40:26 +0100"
       },
       {
@@ -44,26 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:40",
-        "mmHour": 0.21
-      },
-      {
-        "time": "23:45",
-        "mmHour": 0.21
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
       {
         "time": "00:05",
         "mmHour": 0.0
@@ -139,12 +119,32 @@
       {
         "time": "01:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
       }
     ],
     "temperature": 12.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-25T22:38:35+00:00",
-    "rainUpdatedAt": "2026-10-25T22:38:36+00:00"
+    "weatherUpdatedAt": "2026-10-25T23:02:38+00:00",
+    "rainUpdatedAt": "2026-10-25T23:02:39+00:00"
   }
 }
