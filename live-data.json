@@ -1,8 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-25T23:02:37+00:00",
+    "updatedAt": "2026-10-25T23:34:45+00:00",
     "headlines": [
+      {
+        "title": "Doden en duizenden huizen zonder stroom na storm Boelo in Verenigd Koninkrijk",
+        "url": "https://www.nu.nl/buitenland/6414379/doden-en-duizenden-huizen-zonder-stroom-na-storm-boelo-in-verenigd-koninkrijk.html",
+        "date": "Mon, 26 Oct 2026 00:10:27 +0100"
+      },
       {
         "title": "Ruim tachtig gewonden nadat bus in ravijn stort bij Barcelona",
         "url": "https://www.nu.nl/buitenland/6414376/ruim-tachtig-gewonden-nadat-bus-in-ravijn-stort-bij-barcelona.html",
@@ -32,11 +37,6 @@
         "title": "Antonelli moet titelfeest uitstellen ondanks zege in Austin, Verstappen derde",
         "url": "https://www.nu.nl/formule-1/6414372/antonelli-moet-titelfeest-uitstellen-ondanks-zege-in-austin-verstappen-derde.html",
         "date": "Sun, 25 Oct 2026 22:40:26 +0100"
-      },
-      {
-        "title": "Oud-president Vucic erkent nederlaag Servische verkiezingen, studenten winnen",
-        "url": "https://www.nu.nl/buitenland/6414366/oud-president-vucic-erkent-nederlaag-servische-verkiezingen-studenten-winnen.html",
-        "date": "Sun, 25 Oct 2026 21:59:38 +0100"
       }
     ]
   },
@@ -44,30 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
       {
         "time": "00:35",
         "mmHour": 0.0
@@ -139,12 +115,36 @@
       {
         "time": "02:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.2,
+    "temperature": 12.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-25T23:02:38+00:00",
-    "rainUpdatedAt": "2026-10-25T23:02:39+00:00"
+    "weatherUpdatedAt": "2026-10-25T23:34:46+00:00",
+    "rainUpdatedAt": "2026-10-25T23:34:46+00:00"
   }
 }
