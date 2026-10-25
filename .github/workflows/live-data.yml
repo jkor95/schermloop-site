@@ -1,5 +1,9 @@
 name: Live nieuws en weer verversen
 on:
+  push:
+    paths:
+      - 'scripts/update_live.py'
+      - '.github/workflows/live-data.yml'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
