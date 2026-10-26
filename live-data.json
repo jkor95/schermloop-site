@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T20:20:17+00:00",
+    "updatedAt": "2026-10-26T20:58:41+00:00",
     "headlines": [
+      {
+        "title": "Verdachte van dodelijke schietpartij bij Parijs ontkent racistisch motief",
+        "url": "https://www.nu.nl/buitenland/6414492/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.html",
+        "date": "Mon, 26 Oct 2026 21:19:29 +0100",
+        "summary": "De verdachte van de dodelijke schietpartij in een voorstad van Parijs ontkent dat hij een racistisch motief had. Bij het incident kwam een man om het leven. Vijf anderen raakten gewond, onder wie twee kinderen.",
+        "imageUrl": "https://images.nu.nl/m/lmxx25qap2h6_sqr256/489/0/1422/1422/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.jpg"
+      },
       {
         "title": "Video | Enorm boorplatform verdwijnt tijdens installatie in zee bij Gabon",
         "url": "https://www.nu.nl/331661/video/enorm-boorplatform-verdwijnt-tijdens-installatie-in-zee-bij-gabon.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 19:35:56 +0100",
         "summary": "De ongeregeldheden bij Walibi Fright Nights afgelopen zaterdag waren niet nieuw. Elk jaar zijn er tijdens het halloweenevenement van het pretpark in Biddinghuizen incidenten zoals vechtpartijen. \"Acteurs spreken ook wel van zwarte zaterdag.\"",
         "imageUrl": "https://images.nu.nl/m/5gjxi1famijf_sqr256/98/0/478/478/geweld-walibi-fright-night-is-jaarlijks-probleem-wordt-al-zwarte-zaterdag-genoemd.jpg"
-      },
-      {
-        "title": "Microsoft biedt kwart van werknemers vertrekregeling aan om kosten te drukken",
-        "url": "https://www.nu.nl/economie/6414482/microsoft-biedt-kwart-van-werknemers-vertrekregeling-aan-om-kosten-te-drukken.html",
-        "date": "Mon, 26 Oct 2026 18:28:29 +0100",
-        "summary": "Microsoft heeft 60.000 werknemers in de Verenigde Staten, het Verenigd Koninkrijk, Canada en India een regeling aangeboden om vrijwillig te vertrekken. Het softwarebedrijf wil de kosten omlaagbrengen en wil zich meer richten op AI.",
-        "imageUrl": "https://images.nu.nl/m/9e9xztyap1up_sqr256/906/7/5376/5376/microsoft-biedt-kwart-van-werknemers-vertrekregeling-aan-om-kosten-te-drukken.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
       {
         "time": "22:00",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "23:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.8,
+    "temperature": 12.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T20:20:17+00:00",
-    "rainUpdatedAt": "2026-10-26T20:20:17+00:00"
+    "weatherUpdatedAt": "2026-10-26T20:58:41+00:00",
+    "rainUpdatedAt": "2026-10-26T20:58:42+00:00"
   }
 }
