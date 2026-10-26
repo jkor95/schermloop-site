@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T07:29:36+00:00",
+    "updatedAt": "2026-10-26T07:30:35+00:00",
     "headlines": [
       {
         "title": "PostNL ziet dat Nederlanders veel minder pakketjes uit het buitenland bestellen",
@@ -158,7 +158,7 @@
     "temperature": 10.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T07:29:36+00:00",
-    "rainUpdatedAt": "2026-10-26T07:29:37+00:00"
+    "weatherUpdatedAt": "2026-10-26T07:30:35+00:00",
+    "rainUpdatedAt": "2026-10-26T07:30:37+00:00"
   }
 }
