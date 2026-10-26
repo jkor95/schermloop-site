@@ -19,7 +19,124 @@ function rainDescription(rain){if(!Array.isArray(rain)||!rain.length)return 'Reg
 function updateWeatherCorner(){let el=$('weather-corner');if(!el)return;el.hidden=!liveSettings.cornerWeather;if(el.hidden)return;const w=liveSnapshot?.weather||{};el.replaceChildren();let title=document.createElement('b');title.textContent='Dordrecht · Buienradar';let current=document.createElement('div');current.textContent=w.temperature==null?'Weer wordt bijgewerkt':Math.round(Number(w.temperature))+' °C · '+(w.description||'Actueel weer');let rain=document.createElement('small');rain.textContent=rainDescription(w.rain);el.append(title,current,rain)}
 async function pollLive(){try{const url='https://api.github.com/repos/jkor95/schermloop-site/contents/live-data.json?ref=main&refresh='+Date.now();const res=await fetch(url,{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});if(!res.ok)throw Error('GitHub HTTP '+res.status);const record=await res.json();const raw=atob((record.content||'').replace(/\s/g,''));liveSnapshot=JSON.parse(decodeURIComponent(escape(raw)));updateWeatherCorner()}catch(e){console.warn('Live gegevens kunnen niet worden bijgewerkt',e)}}
 function liveHeading(host,title,subtitle){const header=document.createElement('div');header.className='live-title';const h=document.createElement('h2');h.textContent=title;const sub=document.createElement('p');sub.textContent=subtitle;header.append(h,sub);host.append(header)}
+
+const RADAR_LAT=51.79103,RADAR_LON=4.68571;
+let radarCache={frame:null,checked:0};
+function rainLevel(mm){if(mm>=10)return 'heavy';if(mm>=2.5)return 'moderate';if(mm>=0.1)return 'light';return 'dry'}
+function svgRain(tag,attributes,text){const el=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attributes||{}))el.setAttribute(key,String(value));if(text!==undefined)el.textContent=text;return el}
+function rainForecastLine(host,points){
+  const samples=Array.isArray(points)?points.slice(0,25).filter(p=>Number.isFinite(Number(p.mmHour))):[];
+  if(samples.length<2){host.textContent='Regenverwachting tijdelijk niet beschikbaar';return}
+  const values=samples.map(p=>Math.max(0,Number(p.mmHour)||0));
+  const peak=Math.max(...values);
+  const ceiling=[1,2.5,5,10,20,40,80].find(x=>peak<=x)||Math.ceil(peak/20)*20;
+  const maxX=700,minX=54,top=16,bottom=210,plotHeight=bottom-top,span=maxX-minX;
+  const svg=svgRain('svg',{viewBox:'0 0 740 255',role:'img','aria-label':'Verwachte neerslagintensiteit van '+samples[0].time+' tot '+samples[samples.length-1].time+', maximaal '+peak.toFixed(1)+' millimeter per uur'});
+  const x=i=>minX+(i/(samples.length-1))*span;
+  const y=v=>bottom-Math.min(v,ceiling)/ceiling*plotHeight;
+  const ticks=[0,ceiling/2,ceiling];
+  for(const tick of ticks){const yy=y(tick);svg.append(svgRain('line',{x1:minX,x2:maxX,y1:yy,y2:yy,class:'rain-grid'}));svg.append(svgRain('text',{x:minX-9,y:yy+5,'text-anchor':'end',class:'rain-axis-label'},tick.toLocaleString('nl-NL',{maximumFractionDigits:1})))}
+  for(const threshold of [2.5,10]){if(threshold>=ceiling)continue;const yy=y(threshold);svg.append(svgRain('line',{x1:minX,x2:maxX,y1:yy,y2:yy,class:threshold===10?'rain-threshold-heavy':'rain-threshold-moderate'}))}
+  const path=values.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  svg.append(svgRain('path',{d:path+' L'+maxX+' '+bottom+' L'+minX+' '+bottom+' Z',class:'rain-chart-area'}));
+  for(let i=1;i<samples.length;i++){const level=rainLevel(Math.max(values[i-1],values[i]));svg.append(svgRain('line',{x1:x(i-1),y1:y(values[i-1]),x2:x(i),y2:y(values[i]),class:'rain-segment rain-'+level}))}
+  for(let i=0;i<samples.length;i++){if(i%6!==0&&i!==samples.length-1)continue;const xx=x(i);svg.append(svgRain('text',{x:xx,y:239,'text-anchor':i===0?'start':i===samples.length-1?'end':'middle',class:'rain-axis-label'},samples[i].time))}
+  svg.append(svgRain('text',{x:14,y:17,class:'rain-axis-label'},'mm/u'));
+  host.append(svg);
+}
+async function latestRadarFrame(){
+  if(radarCache.frame&&Date.now()-radarCache.checked<300000)return radarCache.frame;
+  const response=await fetch('https://api.rainviewer.com/public/weather-maps.json',{cache:'no-store'});
+  if(!response.ok)throw Error('Radarservice niet bereikbaar');
+  const manifest=await response.json();
+  const past=manifest?.radar?.past;
+  const frame=Array.isArray(past)?past[past.length-1]:null;
+  if(!frame||!/^\/v2\/radar\/[a-zA-Z0-9]+$/.test(frame.path)||!Number.isFinite(Number(frame.time)))throw Error('Geen actueel radarbeeld');
+  if(Math.abs(Date.now()/1000-Number(frame.time))>3600)throw Error('Radarbeelden zijn verouderd');
+  radarCache={frame:{path:frame.path,time:Number(frame.time)},checked:Date.now()};
+  return radarCache.frame
+}
+async function populateDordrechtRadar(view){
+  const message=view.querySelector('.radar-map-message'),tiles=view.querySelector('.radar-map-tiles');
+  try{
+    const frame=await latestRadarFrame();
+    if(!view.isConnected)return;
+    const width=view.clientWidth||400,height=view.clientHeight||270;
+    const zoom=7,tileSize=256,count=2**zoom;
+    const tileX=(RADAR_LON+180)/360*count;
+    const latRadians=RADAR_LAT*Math.PI/180;
+    const tileY=(1-Math.asinh(Math.tan(latRadians))/Math.PI)/2*count;
+    const minX=Math.floor(tileX-(width/2)/tileSize),maxX=Math.floor(tileX+(width/2)/tileSize);
+    const minY=Math.floor(tileY-(height/2)/tileSize),maxY=Math.floor(tileY+(height/2)/tileSize);
+    tiles.replaceChildren();
+    let loadedRadar=0,failedRadar=0,expectedRadar=0;
+    for(let ty=minY;ty<=maxY;ty++)for(let tx=minX;tx<=maxX;tx++){
+      if(tx<0||tx>=count||ty<0||ty>=count)continue;
+      const left=Math.round(width/2+(tx-tileX)*tileSize);
+      const top=Math.round(height/2+(ty-tileY)*tileSize);
+      for(const type of ['base','radar']){
+        const tile=document.createElement('img');tile.className='radar-map-tile radar-tile-'+type;
+        tile.alt='';tile.decoding='async';tile.loading='eager';
+        tile.style.left=left+'px';tile.style.top=top+'px';
+        if(type==='base')tile.src='https://tile.openstreetmap.org/'+zoom+'/'+tx+'/'+ty+'.png';
+        else{
+          expectedRadar++;
+          tile.onload=()=>{loadedRadar++;if(message&&loadedRadar>0)message.hidden=true};
+          tile.onerror=()=>{failedRadar++;if(message&&failedRadar>=expectedRadar&&loadedRadar===0){message.hidden=false;message.textContent='Radarlaag tijdelijk niet beschikbaar'}};
+          tile.src='https://tilecache.rainviewer.com'+frame.path+'/256/'+zoom+'/'+tx+'/'+ty+'/2/1_1.png'
+        }
+        tiles.append(tile)
+      }
+    }
+    const stamp=view.querySelector('.radar-map-timestamp');
+    if(stamp)stamp.textContent='Gemeten '+new Date(frame.time*1000).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'});
+    if(message)message.hidden=true;
+  }catch(error){if(message){message.hidden=false;message.textContent='Radar tijdelijk niet beschikbaar'}const stamp=view.querySelector('.radar-map-timestamp');if(stamp)stamp.textContent='Geen actueel radarbeeld';console.warn('Dordrecht radar:',error)}
+}
+function makeWeatherPage(page,w){
+  page.classList.add('weather-page');
+  liveHeading(page,'Weer & regenverwachting','Dordrecht · neerslag komende 2 uur');
+  const conditions=document.createElement('div');conditions.className='live-conditions weather-current';
+  const temperature=document.createElement('strong');temperature.textContent=w.temperature==null?'-- °C':Math.round(Number(w.temperature))+' °C';
+  const summary=document.createElement('div');
+  const description=document.createElement('h3');description.textContent=w.description||'Actueel weer wordt bijgewerkt';
+  const next=document.createElement('p');next.textContent=rainDescription(w.rain);
+  summary.append(description,next);conditions.append(temperature,summary);page.append(conditions);
+  const layout=document.createElement('div');layout.className='weather-dashboard';
+  const forecast=document.createElement('section');forecast.className='weather-panel weather-forecast';
+  const h=document.createElement('h3');h.textContent='Regenverwachting Dordrecht';
+  const sub=document.createElement('p');sub.className='weather-panel-sub';sub.textContent='Verwachte intensiteit · millimeter per uur';
+  const chart=document.createElement('div');chart.className='weather-chart';
+  rainForecastLine(chart,w.rain);
+  const legend=document.createElement('div');legend.className='rain-intensity-legend';
+  for(const [name,label] of [['light','Licht < 2,5'],['moderate','Matig 2,5–10'],['heavy','Zwaar ≥ 10']]){
+    const chip=document.createElement('span');chip.className='rain-legend-'+name;
+    const dot=document.createElement('i');dot.setAttribute('aria-hidden','true');
+    chip.append(dot,document.createTextNode(label+' mm/u'));legend.append(chip)
+  }
+  forecast.append(h,sub,chart,legend);
+  const radar=document.createElement('section');radar.className='weather-panel weather-radar';
+  const rh=document.createElement('h3');rh.textContent='Live regenradar · Dordrecht';
+  const radarNote=document.createElement('p');radarNote.className='weather-panel-sub';radarNote.textContent='Gemeten buien in de omgeving';
+  const map=document.createElement('div');map.className='radar-map';
+  const tiles=document.createElement('div');tiles.className='radar-map-tiles';
+  const marker=document.createElement('div');marker.className='radar-map-marker';marker.textContent='● Dordrecht';
+  const msg=document.createElement('span');msg.className='radar-map-message';msg.textContent='Radar wordt geladen…';
+  const stamp=document.createElement('span');stamp.className='radar-map-timestamp';
+  map.append(tiles,marker,msg,stamp);
+  const credits=document.createElement('div');credits.className='radar-map-credits';
+  credits.append(document.createTextNode('Radar: '));
+  const radarCredit=document.createElement('a');radarCredit.href='https://www.rainviewer.com/';radarCredit.target='_blank';radarCredit.rel='noopener noreferrer';radarCredit.textContent='RainViewer';
+  const osmCredit=document.createElement('a');osmCredit.href='https://www.openstreetmap.org/copyright';osmCredit.target='_blank';osmCredit.rel='noopener noreferrer';osmCredit.textContent='© OpenStreetMap';
+  credits.append(radarCredit,document.createTextNode(' · Kaart: '),osmCredit);
+  radar.append(rh,radarNote,map,credits);layout.append(forecast,radar);page.append(layout);
+  const foot=document.createElement('p');foot.className='live-foot';foot.textContent='Lokale verwachting: ';
+  const source=document.createElement('a');source.href='https://www.buienradar.nl/';source.target='_blank';source.rel='noopener noreferrer';source.textContent='Buienradar.nl';
+  foot.append(source,document.createTextNode(w.rainUpdatedAt?' · Bijgewerkt '+new Date(w.rainUpdatedAt).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'}):''),' · Radar toont waarnemingen, geen voorspelde beweging.');page.append(foot);
+  populateDordrechtRadar(map)
+}
+
 function renderLiveSlide(stage,type,slide){const page=document.createElement('div');page.className='live-slide';stage.append(page);if(type==='live-bulletin'){liveHeading(page,slide.title,'Mededelingen'+(slide.parts>1?' · Deel '+slide.part+' van '+slide.parts:''));const body=document.createElement('div');body.className='live-bulletin-body';if(Array.isArray(slide.points)&&slide.points.length){body.classList.add('has-points');const list=document.createElement('ul');list.className='live-bulletin-points';if(slide.points.length>4)list.classList.add('dense');for(const point of slide.points){const line=document.createElement('li');line.textContent=point;list.append(line)}body.append(list)}else{body.textContent=slide.body}page.append(body);const foot=document.createElement('p');foot.className='live-foot';foot.textContent='Actuele mededelingen';page.append(foot);return}if(type==='live-news'){const n=liveSnapshot?.news||{};const pageNumber=Number(slide.newsPage)||0;liveHeading(page,'Nieuws van NU.nl','Pagina '+(pageNumber+1)+' van 3 · automatisch bijgewerkt');const list=document.createElement('div');list.className='live-story-list';const entries=(n.headlines||[]).slice(pageNumber*2,pageNumber*2+2);entries.forEach(entry=>{const story=document.createElement('article');story.className='live-story';const body=document.createElement('div');body.className='live-story-body';const h=document.createElement('h3');h.textContent=entry.title;body.append(h);if(entry.summary){const summary=document.createElement('p');summary.textContent=entry.summary;body.append(summary)}const source=document.createElement('small');source.textContent='NU.nl';body.append(source);if(entry.imageUrl&&/^https:\/\//.test(entry.imageUrl)){const img=document.createElement('img');img.src=entry.imageUrl;img.alt='Nieuwsbeeld bij '+entry.title;img.referrerPolicy='no-referrer';img.loading='eager';story.append(img)}story.append(body);list.append(story)});if(!entries.length){const empty=document.createElement('p');empty.textContent='Het laatste nieuws wordt opgehaald.';list.append(empty)}page.append(list);const foot=document.createElement('p');foot.className='live-foot';foot.textContent='Bron: NU.nl'+(n.updatedAt?' · Bijgewerkt '+new Date(n.updatedAt).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'}):'');page.append(foot);return}
-const w=liveSnapshot?.weather||{};liveHeading(page,'Weer & regenverwachting','Dordrecht · Buienradar');const conditions=document.createElement('div');conditions.className='live-conditions';const temperature=document.createElement('strong');temperature.textContent=w.temperature==null?'-- °C':Math.round(Number(w.temperature))+' °C';const summary=document.createElement('div');const description=document.createElement('h3');description.textContent=w.description||'Actueel weer wordt bijgewerkt';const next=document.createElement('p');next.textContent=rainDescription(w.rain);summary.append(description,next);conditions.append(temperature,summary);page.append(conditions);const label=document.createElement('p');label.textContent='Neerslagverwachting komende twee uur';page.append(label);const rain=document.createElement('div');rain.className='live-rain';const values=(w.rain||[]).slice(0,25);const max=Math.max(1,...values.map(p=>Number(p.mmHour)||0));for(const p of values){const wrapper=document.createElement('div');wrapper.className='live-rain-col';const bar=document.createElement('div');bar.className='live-rain-bar';bar.style.height=Math.max(2,Math.round((Number(p.mmHour)||0)/max*100))+'%';bar.title=p.time+' · '+p.mmHour+' mm/u';wrapper.append(bar);rain.append(wrapper)}if(values.length===0){rain.textContent='De Buienradar-verwachting wordt opgehaald.'}page.append(rain);const times=document.createElement('div');times.className='live-rain-times';if(values.length){for(let i=0;i<values.length;i+=6){const span=document.createElement('span');span.textContent=values[i].time;times.append(span)}}page.append(times);const foot=document.createElement('p');foot.className='live-foot';foot.textContent='Bron: ';const source=document.createElement('a');source.href='https://www.buienradar.nl/';source.target='_blank';source.rel='noopener noreferrer';source.textContent='Buienradar.nl';foot.append(source,document.createTextNode(w.rainUpdatedAt?' · Bijgewerkt '+new Date(w.rainUpdatedAt).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'}):''));page.append(foot)}
+const w=liveSnapshot?.weather||{};makeWeatherPage(page,w)}
 async function loadPlaylist(){try{const incoming=await json('data/runtime.json');await loadLiveSettings();await loadBulletins();items=addLiveSlides(Array.isArray(incoming.slides)?incoming.slides:[]);$('info').textContent=items.length+' onderdelen beschikbaar, waaronder '+bulletinSlides.length+' Excel-mededeling(en). Klik op Start presentatie.'+(bulletinLoadError?' '+bulletinLoadError:'')}catch(e){$('info').textContent='Afspeellijst niet geladen: '+e.message}}async function refresh(){if(!running)return;try{const incoming=await json('data/runtime.json');if(Array.isArray(incoming.slides)){await loadLiveSettings();await loadBulletins();updateWeatherCorner();const next=addLiveSlides(incoming.slides);if(bulletinLoadError)$('info').textContent=bulletinLoadError;const old=JSON.stringify(items),fresh=JSON.stringify(next);if(old!==fresh){items=next;sequence++;playLoop()}}}catch(e){$('info').textContent='Verbinding tijdelijk verbroken: '+e.message}}async function asset(path){if(objects.has(path))return objects.get(path);const ext=path.toLowerCase().split('.').pop();const mime={jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',webp:'image/webp',gif:'image/gif',mp4:'video/mp4',webm:'video/webm'}[ext]||'application/octet-stream';let url=URL.createObjectURL(new Blob([await bytes(path)],{type:mime}));objects.set(path,url);return url}async function playLoop(){const my=++sequence;const screen=$('screen'),stage=$('stage');screen.style.display='flex';while(running&&my===sequence){if(!items.length){stage.textContent='Geen presentatie ingesteld';await new Promise(r=>setTimeout(r,3000));await refresh();continue}for(const slide of items){if(!running||my!==sequence)break;if(!slide.path)continue;try{if(slide.type==='live-news'||slide.type==='live-weather'||slide.type==='live-bulletin'){stage.replaceChildren();renderLiveSlide(stage,slide.type,slide);await new Promise(r=>setTimeout(r,Math.max(5,Number(slide.duration)||20)*1000));continue}let url=await asset(slide.path);stage.replaceChildren();let video=/\.(mp4|webm)$/i.test(slide.path),el=document.createElement(video?'video':'img');el.src=url;stage.appendChild(el);if(video){el.muted=true;el.autoplay=true;el.playsInline=true;await new Promise(resolve=>{let timeout=setTimeout(resolve,600000);el.onended=el.onerror=()=>{clearTimeout(timeout);resolve()};el.play().catch(e=>{$('info').textContent='Video kan niet starten: '+e.message;resolve()})})}else await new Promise(r=>setTimeout(r,Math.max(2,Number(slide.duration)||10)*1000))}catch(e){$('info').textContent=e.message;await new Promise(r=>setTimeout(r,2000))}}}}async function loadAdmin(){let data=await json('data/playlist.json');items=Array.isArray(data.items)?data.items:[];await loadLiveSettings();if($('live-news')){$('live-news').checked=!!liveSettings.news.enabled;$('news-duration').value=liveSettings.news.duration||25;$('live-weather').checked=!!liveSettings.weather.enabled;$('weather-duration').value=liveSettings.weather.duration||20;$('corner-weather').checked=!!liveSettings.cornerWeather}render()}function render(){let root=$('items');root.replaceChildren();items.forEach((item,i)=>{let li=document.createElement('li'),label=document.createElement('span');label.textContent=item.name||item.path;li.append(label);let buttons=[['↑',()=>move(i,-1)],['↓',()=>move(i,1)],['Verwijder',()=>{items.splice(i,1);render()}]];if(item.type!=='video')buttons.unshift(['Tijd '+(item.duration||10)+'s',()=>{let n=prompt('Weergavetijd in seconden (2–600)',item.duration||10);if(n!==null&&+n>=2&&+n<=600){item.duration=+n;render()}}]);if(item.type==='pptx')buttons.unshift(['Dia-tijden instellen',()=>pptxTimes(item,li)]);for(let [name,fn] of buttons){let b=document.createElement('button');b.textContent=name;b.onclick=fn;li.append(b)}root.append(li)})}async function pptxTimes(item,li){let section=li.querySelector('.pptx-times');if(section){section.remove();return}section=document.createElement('div');section.className='pptx-times';section.textContent='Dia’s ophalen…';li.append(section);try{const name=item.path.split('/').pop().replace(/\.[^.]+$/,'').replace(/[^A-Za-z0-9_-]/g,'_');const entries=await request('media/derived/'+name);const slides=entries.filter(x=>/^dia-\d+\.png$/i.test(x.name)).sort((a,b)=>Number(a.name.match(/\d+/)[0])-Number(b.name.match(/\d+/)[0]));section.replaceChildren();if(!slides.length){section.textContent='De dia’s worden nog verwerkt. Probeer het straks opnieuw.';return}item.slideDurations??={};for(const slide of slides){const n=String(Number(slide.name.match(/\d+/)[0]));const label=document.createElement('label');label.style.display='inline-flex';label.style.alignItems='center';label.style.gap='8px';label.style.margin='8px 12px 8px 0';label.textContent='Dia '+n+': ';const input=document.createElement('input');input.type='number';input.min='2';input.max='600';input.value=item.slideDurations[n]??item.duration??10;input.style.width='80px';input.onchange=()=>{const value=Number(input.value);if(value>=2&&value<=600){item.slideDurations[n]=value;status('Gewijzigd: klik op Volgorde en instellingen opslaan.')}else{input.value=item.slideDurations[n]??item.duration??10;status('Gebruik 2 tot 600 seconden.')}};label.append(input,document.createTextNode('seconden'));section.append(label)}const note=document.createElement('p');note.className='muted';note.textContent='Tijden worden na Opslaan verwerkt door GitHub Actions.';section.append(note)}catch(e){section.textContent='Dia’s nog niet beschikbaar: '+e.message}}
 function move(i,d){let j=i+d;if(j<0||j>=items.length)return;[items[i],items[j]]=[items[j],items[i]];render()}async function save(){status('Instellingen opslaan…');await writeJson('data/playlist.json',{items});if($('live-news')){liveSettings={news:{enabled:$('live-news').checked,duration:Math.max(5,Math.min(600,Number($('news-duration').value)||25))},weather:{enabled:$('live-weather').checked,duration:Math.max(5,Math.min(600,Number($('weather-duration').value)||20))},cornerWeather:$('corner-weather').checked,place:'Dordrecht'};await writeJson('data/live-settings.json',liveSettings)}status('Opgeslagen. Live nieuws en Buienradar verversen automatisch; presentatie-instellingen worden bijgewerkt.')}async function upload(){let f=$('file').files[0];if(!f)throw Error('Kies een bestand');if(f.size>50*1024*1024)throw Error('Maximaal 50 MB');let ext=f.name.split('.').pop().toLowerCase();if(!['jpg','jpeg','png','webp','gif','mp4','webm','mov','pptx'].includes(ext))throw Error('Bestandstype niet ondersteund');status('Bestand lezen en uploaden: '+f.name+' ('+Math.round(f.size/1024)+' KB)…');let path='media/uploads/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9_.-]/g,'_');await write(path,await to64(f));items.push({name:f.name,path,type:ext==='pptx'?'pptx':['mp4','webm','mov'].includes(ext)?'video':'image',duration:Number($('duration').value)||10});render();await save();status(ext==='pptx'?'PowerPoint ontvangen: GitHub Actions moet de dia’s verwerken.':'Bestand toegevoegd en opgeslagen.')}function logout(){running=false;sequence++;localStorage.removeItem(VAULT);token='';location.reload()}buildLogin();$('logout').onclick=logout;if(admin){$('upload').onclick=()=>upload().catch(e=>status(e.message));$('save').onclick=()=>save().catch(e=>status(e.message))}else{const screen=$('screen');let hideTimer;function controls(){screen.classList.add('show-controls');clearTimeout(hideTimer);hideTimer=setTimeout(()=>screen.classList.remove('show-controls'),3200)}function begin(){if(!running){running=true;playLoop()}controls()}async function full(){begin();try{if(!document.fullscreenElement){if(screen.requestFullscreen)await screen.requestFullscreen();else if(screen.webkitRequestFullscreen)screen.webkitRequestFullscreen();else $('info').textContent='Gebruik F11 in Windows voor volledig scherm.'}else await document.exitFullscreen()}catch(e){$('info').textContent='Volledig scherm niet beschikbaar: '+e.message}}function stop(){running=false;sequence++;screen.style.display='none';$('stage').replaceChildren();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});$('info').textContent='Presentatie gestopt. Klik op Start presentatie om opnieuw af te spelen.'} $('start').onclick=begin;$('full').onclick=full;$('screen-full').onclick=full;$('screen-stop').onclick=stop;screen.addEventListener('mousemove',controls);screen.addEventListener('touchstart',controls,{passive:true});document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'↙ Volledig scherm sluiten':'⛶ Volledig scherm';controls()});}
