@@ -1,8 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T05:43:28+00:00",
+    "updatedAt": "2026-10-26T06:17:23+00:00",
     "headlines": [
+      {
+        "title": "Live | Midden-Oosten | Opnieuw vallen Houthi's luchthaven in Saoedi-Arabië aan",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-opnieuw-vallen-houthis-luchthaven-in-saoedi-arabie-aan.html",
+        "date": "Mon, 26 Oct 2026 06:47:12 +0100"
+      },
       {
         "title": "Verstappen gefrustreerd na derde plek in Austin: 'Te veel dingen gingen mis'",
         "url": "https://www.nu.nl/formule-1/6414383/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.html",
@@ -32,11 +37,6 @@
         "title": "Ruim tachtig gewonden nadat bus in ravijn stort bij Barcelona",
         "url": "https://www.nu.nl/buitenland/6414376/ruim-tachtig-gewonden-nadat-bus-in-ravijn-stort-bij-barcelona.html",
         "date": "Sun, 25 Oct 2026 23:20:38 +0100"
-      },
-      {
-        "title": "Rentree Frenkie de Jong valt in het water door goals Mbappé bij Barcelona-Real",
-        "url": "https://www.nu.nl/voetbal/6414364/rentree-frenkie-de-jong-valt-in-het-water-door-goals-mbappe-bij-barcelona-real.html",
-        "date": "Sun, 25 Oct 2026 23:03:54 +0100"
       }
     ]
   },
@@ -44,34 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:15",
-        "mmHour": 0.0
-      },
       {
         "time": "07:20",
         "mmHour": 0.0
@@ -139,12 +111,40 @@
       {
         "time": "08:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.0,
+    "temperature": 10.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T05:43:28+00:00",
-    "rainUpdatedAt": "2026-10-26T05:43:29+00:00"
+    "weatherUpdatedAt": "2026-10-26T06:17:23+00:00",
+    "rainUpdatedAt": "2026-10-26T06:17:24+00:00"
   }
 }
