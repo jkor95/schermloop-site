@@ -1,8 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T02:18:20+00:00",
+    "updatedAt": "2026-10-26T03:03:48+00:00",
     "headlines": [
+      {
+        "title": "Podcast | 'Absurd hoeveel sneller Antonelli was dan Russell'",
+        "url": "https://www.nu.nl/formule-1/6414382/absurd-hoeveel-sneller-antonelli-was-dan-russell.html",
+        "date": "Mon, 26 Oct 2026 03:40:19 +0100"
+      },
       {
         "title": "Doden en duizenden huizen zonder stroom na storm Boelo in Verenigd Koninkrijk",
         "url": "https://www.nu.nl/buitenland/6414379/doden-en-duizenden-huizen-zonder-stroom-na-storm-boelo-in-verenigd-koninkrijk.html",
@@ -32,11 +37,6 @@
         "title": "Video | Haven op Texel staat onder water door storm Boelo",
         "url": "https://www.nu.nl/331639/video/haven-op-texel-staat-onder-water-door-storm-boelo.html",
         "date": "Sun, 25 Oct 2026 22:47:31 +0100"
-      },
-      {
-        "title": "Antonelli moet titelfeest uitstellen ondanks zege in Austin, Verstappen derde",
-        "url": "https://www.nu.nl/formule-1/6414372/antonelli-moet-titelfeest-uitstellen-ondanks-zege-in-austin-verstappen-derde.html",
-        "date": "Sun, 25 Oct 2026 22:40:26 +0100"
       }
     ]
   },
@@ -44,42 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "03:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:00",
-        "mmHour": 0.0
-      },
       {
         "time": "04:05",
         "mmHour": 0.0
@@ -139,12 +103,48 @@
       {
         "time": "05:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "05:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.8,
+    "temperature": 11.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T02:18:20+00:00",
-    "rainUpdatedAt": "2026-10-26T02:18:20+00:00"
+    "weatherUpdatedAt": "2026-10-26T03:03:48+00:00",
+    "rainUpdatedAt": "2026-10-26T03:03:49+00:00"
   }
 }
