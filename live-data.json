@@ -1,11 +1,16 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T05:05:18+00:00",
+    "updatedAt": "2026-10-26T05:43:28+00:00",
     "headlines": [
       {
-        "title": "Lula da Silva wint Braziliaanse verkiezingen en blijft president",
-        "url": "https://www.nu.nl/buitenland/6414358/lula-da-silva-wint-braziliaanse-verkiezingen-en-blijft-president.html",
+        "title": "Verstappen gefrustreerd na derde plek in Austin: 'Te veel dingen gingen mis'",
+        "url": "https://www.nu.nl/formule-1/6414383/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.html",
+        "date": "Mon, 26 Oct 2026 06:14:47 +0100"
+      },
+      {
+        "title": "Lula da Silva wint Braziliaanse verkiezingen, Bolsonaro erkent nederlaag niet",
+        "url": "https://www.nu.nl/buitenland/6414358/lula-da-silva-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.html",
         "date": "Mon, 26 Oct 2026 05:37:30 +0100"
       },
       {
@@ -32,11 +37,6 @@
         "title": "Rentree Frenkie de Jong valt in het water door goals Mbappé bij Barcelona-Real",
         "url": "https://www.nu.nl/voetbal/6414364/rentree-frenkie-de-jong-valt-in-het-water-door-goals-mbappe-bij-barcelona-real.html",
         "date": "Sun, 25 Oct 2026 23:03:54 +0100"
-      },
-      {
-        "title": "Stembureaus Brazilië twee uur langer open nadat hooggerechtshof ingrijpt",
-        "url": "https://www.nu.nl/buitenland/6414373/stembureaus-brazilie-twee-uur-langer-open-nadat-hooggerechtshof-ingrijpt.html",
-        "date": "Sun, 25 Oct 2026 22:54:55 +0100"
       }
     ]
   },
@@ -44,38 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:40",
-        "mmHour": 0.0
-      },
       {
         "time": "06:45",
         "mmHour": 0.0
@@ -139,12 +107,44 @@
       {
         "time": "08:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.2,
+    "temperature": 11.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T05:05:18+00:00",
-    "rainUpdatedAt": "2026-10-26T05:05:20+00:00"
+    "weatherUpdatedAt": "2026-10-26T05:43:28+00:00",
+    "rainUpdatedAt": "2026-10-26T05:43:29+00:00"
   }
 }
