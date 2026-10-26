@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T20:58:41+00:00",
+    "updatedAt": "2026-10-26T21:32:44+00:00",
     "headlines": [
+      {
+        "title": "Studentenlijst wil Servië 'heropbouwen', maar het is niet duidelijk hoe",
+        "url": "https://www.nu.nl/buitenland/6414487/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.html",
+        "date": "Mon, 26 Oct 2026 22:25:26 +0100",
+        "summary": "De studentenprotestbeweging die zondag de Servische verkiezingen won, wil het land \"wederopbouwen\". Maar de Studentenlijst heeft een gebrek aan ervaring en geen duidelijke leider. Bovendien lijken er (nog) geen concrete plannen te zijn voor de opvolging van oud-president Aleksandar Vucic.",
+        "imageUrl": "https://images.nu.nl/m/57qxrt1azxh2_sqr256/589/0/4000/4000/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.jpg"
+      },
       {
         "title": "Verdachte van dodelijke schietpartij bij Parijs ontkent racistisch motief",
         "url": "https://www.nu.nl/buitenland/6414492/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 19:49:42 +0100",
         "summary": "Oekraïne wacht al bijna een maand op nieuwe luchtverdedigingsraketten. President Volodymyr Zelensky geeft maandag de Verenigde Staten de schuld van de vertraging. De Patriots zijn \"cruciaal\" in de oorlog tegen de Russen. Ondertussen komt de EU met miljoenensteun.",
         "imageUrl": "https://images.nu.nl/m/h9bx12cap5sb_sqr256/77/0/1250/1250/oekraine-wacht-bijna-maand-op-luchtverdediging-vs-eu-geeft-miljoenensteun.jpg"
-      },
-      {
-        "title": "Geweld Walibi Fright Night is jaarlijks probleem: 'Wordt al zwarte zaterdag genoemd'",
-        "url": "https://www.nu.nl/binnenland/6414469/geweld-walibi-fright-night-is-jaarlijks-probleem-wordt-al-zwarte-zaterdag-genoemd.html",
-        "date": "Mon, 26 Oct 2026 19:35:56 +0100",
-        "summary": "De ongeregeldheden bij Walibi Fright Nights afgelopen zaterdag waren niet nieuw. Elk jaar zijn er tijdens het halloweenevenement van het pretpark in Biddinghuizen incidenten zoals vechtpartijen. \"Acteurs spreken ook wel van zwarte zaterdag.\"",
-        "imageUrl": "https://images.nu.nl/m/5gjxi1famijf_sqr256/98/0/478/478/geweld-walibi-fright-night-is-jaarlijks-probleem-wordt-al-zwarte-zaterdag-genoemd.jpg"
       }
     ]
   },
@@ -58,30 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
       {
         "time": "22:30",
         "mmHour": 0.0
@@ -153,12 +129,36 @@
       {
         "time": "23:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
       }
     ],
     "temperature": 12.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T20:58:41+00:00",
-    "rainUpdatedAt": "2026-10-26T20:58:42+00:00"
+    "weatherUpdatedAt": "2026-10-26T21:32:45+00:00",
+    "rainUpdatedAt": "2026-10-26T21:32:46+00:00"
   }
 }
