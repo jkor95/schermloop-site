@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T09:11:25+00:00",
+    "updatedAt": "2026-10-26T09:54:39+00:00",
     "headlines": [
       {
-        "title": "Humberto Tan vond reacties op zwangerschap vooral vervelend voor vriendin",
-        "url": "https://www.nu.nl/achterklap/6414404/humberto-tan-vond-reacties-op-zwangerschap-vooral-vervelend-voor-vriendin.html",
+        "title": "Na 1.600 jaar ontrafeld hoe Romeinen kleurveranderend glas maakten",
+        "url": "https://www.nu.nl/buitenland/6414311/na-1600-jaar-ontrafeld-hoe-romeinen-kleurveranderend-glas-maakten.html",
+        "date": "Mon, 26 Oct 2026 10:11:10 +0100",
+        "summary": "Het was eeuwenlang een mysterie hoe de Romeinen glas konden maken dat van kleur veranderde. Britse wetenschappers hebben onlangs ontdekt waardoor de Lycurgusbeker afhankelijk van de lichtinval van kleur verandert.",
+        "imageUrl": "https://images.nu.nl/m/6m0xifaasf74_sqr256/191/0/959/959/na-1600-jaar-ontrafeld-hoe-romeinen-kleurveranderend-glas-maakten.jpg"
+      },
+      {
+        "title": "Gasprijs blijft stijgen, Europa gaat winter in met lage gasvoorraden",
+        "url": "https://www.nu.nl/economie/6414407/gasprijs-blijft-stijgen-europa-gaat-winter-in-met-lage-gasvoorraden.html",
+        "date": "Mon, 26 Oct 2026 09:57:43 +0100",
+        "summary": "De Europese gasprijs is maandagochtend gestegen tot boven de 97 euro per megawattuur, het hoogste niveau sinds eind 2022. Dat is ruim 3 procent meer dan enkele uren eerder. Voor de Iranoorlog lag de prijs nog rond de 32 euro.",
+        "imageUrl": "https://images.nu.nl/m/monxvflajayx_sqr256/1435/0/5453/5453/gasprijs-blijft-stijgen-europa-gaat-winter-in-met-lage-gasvoorraden.jpg"
+      },
+      {
+        "title": "Humberto Tan vindt reacties op aanstaand vaderschap vervelend voor partner",
+        "url": "https://www.nu.nl/achterklap/6414404/humberto-tan-vindt-reacties-op-aanstaand-vaderschap-vervelend-voor-partner.html",
         "date": "Mon, 26 Oct 2026 09:52:11 +0100",
         "summary": "Humberto Tan vond het vooral vervelend voor zijn vriendin dat er zoveel reacties op haar zwangerschap kwamen. De 61-jarige presentator had haar vooraf gewaarschuwd voor de media-aandacht die de aankondiging met zich mee zou brengen. Vooral zijn leeftijd leidde online tot discussie.",
-        "imageUrl": "https://images.nu.nl/m/f2dx8a0aigz9_sqr256/1032/0/3708/3708/humberto-tan-vond-reacties-op-zwangerschap-vooral-vervelend-voor-vriendin.jpg"
+        "imageUrl": "https://images.nu.nl/m/f2dx8a0aigz9_sqr256/1032/0/3708/3708/humberto-tan-vindt-reacties-op-aanstaand-vaderschap-vervelend-voor-partner.jpg"
       },
       {
         "title": "Antonelli groeide uit van underdog tot titelkandidaat: 'Seizoen is mooie verrassing'",
@@ -37,20 +51,6 @@
         "date": "Mon, 26 Oct 2026 07:47:51 +0100",
         "summary": "PostNL ziet een scherpe daling van het aantal bezorgde pakketjes uit het buitenland. In het afgelopen kwartaal is het duurder geworden om iets bij een buitenlandse webshop te kopen. Het aantal bezorgde pakketten lag 32 procent lager dan een jaar eerder.",
         "imageUrl": "https://images.nu.nl/m/gl8xobwa9mdm_sqr256/1467/0/3808/3808/postnl-ziet-dat-nederlanders-veel-minder-pakketjes-uit-het-buitenland-bestellen.jpg"
-      },
-      {
-        "title": "Australische moordenaar verliest zaak om Vegemite te mogen eten in gevangenis",
-        "url": "https://www.nu.nl/buitenland/6414389/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.html",
-        "date": "Mon, 26 Oct 2026 07:46:13 +0100",
-        "summary": "Een Australische gevangene die naar de rechter is gestapt om een verbod op zijn favoriete broodbeleg op te laten heffen, heeft zijn zaak verloren. De 54-jarige man mag het typisch Australische smeersel Vegemite niet eten in de gevangenis.",
-        "imageUrl": "https://images.nu.nl/m/frjx56ta0wta_sqr256/1177/3/2758/2758/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.jpg"
-      },
-      {
-        "title": "Live | Midden-Oosten | Netanyahu zou Trump om meer verkiezingssteun vragen",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-netanyahu-zou-trump-om-meer-verkiezingssteun-vragen.html",
-        "date": "Mon, 26 Oct 2026 06:47:12 +0100",
-        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de situatie in het Midden-Oosten en de gevolgen daarvan voor de rest van de wereld.",
-        "imageUrl": "https://images.nu.nl/m/voqxf0qa739l_sqr256/850/3/3344/3344/midden-oosten-netanyahu-zou-trump-om-meer-verkiezingssteun-vragen.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "10:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:50",
-        "mmHour": 0.0
-      },
       {
         "time": "10:55",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "12:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "12:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.6,
+    "temperature": 11.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T09:11:25+00:00",
-    "rainUpdatedAt": "2026-10-26T09:11:27+00:00"
+    "weatherUpdatedAt": "2026-10-26T09:54:39+00:00",
+    "rainUpdatedAt": "2026-10-26T09:54:40+00:00"
   }
 }
