@@ -1,13 +1,34 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T22:42:34+00:00",
+    "updatedAt": "2026-10-26T23:13:15+00:00",
     "headlines": [
+      {
+        "title": "Kleine groep miljardairs stoot meer uit dan miljarden arme mensen",
+        "url": "https://www.nu.nl/klimaat/6414418/kleine-groep-miljardairs-stoot-meer-uit-dan-miljarden-arme-mensen.html",
+        "date": "Mon, 26 Oct 2026 23:59:53 +0100",
+        "summary": "Een kleine groep rijke mensen stoot volgens berekeningen van hulporganisatie Oxfam Novib meer broeikasgassen uit dan de armste 3,5 miljard samen. De allerrijksten zijn bovendien meer beschermd tegen de gevolgen van klimaatverandering dan mensen in armoede.",
+        "imageUrl": "https://images.nu.nl/m/okux0pra7tgl_sqr256/1188/0/3462/3462/kleine-groep-miljardairs-stoot-meer-uit-dan-miljarden-arme-mensen.jpg"
+      },
+      {
+        "title": "Kane verslaat Yamal en Mbappé in strijd om Gouden Bal na seizoen met 73 goals",
+        "url": "https://www.nu.nl/voetbal/6414485/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.html",
+        "date": "Mon, 26 Oct 2026 23:51:17 +0100",
+        "summary": "Harry Kane heeft maandag op het jaarlijkse voetbalgala de Gouden Bal gewonnen. De spits van Bayern München troefde in Londen onder anderen Kylian Mbappé en Lamine Yamal af. De Engelsman wordt bekroond voor een opvallend productief seizoen.",
+        "imageUrl": "https://images.nu.nl/m/1ehxlq3a8xdp_sqr256/1516/535/1873/1873/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.jpg"
+      },
+      {
+        "title": "Man verliest been nadat rugzak blijft hangen aan vertrekkende trein in België",
+        "url": "https://www.nu.nl/buitenland/6414500/man-verliest-been-nadat-rugzak-blijft-hangen-aan-vertrekkende-trein-in-belgie.html",
+        "date": "Mon, 26 Oct 2026 23:47:32 +0100",
+        "summary": "Een man in België is maandagavond zijn been verloren nadat hij bleef hangen aan een vertrekkende trein. Zijn rugzak kwam vast te zitten aan het toestel waarna hij op het spoor terecht kwam.",
+        "imageUrl": "https://images.nu.nl/m/2saxp8fa92tw_sqr256/109/0/3333/3333/man-verliest-been-nadat-rugzak-blijft-hangen-aan-vertrekkende-trein-in-belgie.jpg"
+      },
       {
         "title": "Opnieuw oproep tot protest in Frankrijk ondanks maatregelen voor beter onderwijs",
         "url": "https://www.nu.nl/buitenland/6414496/opnieuw-oproep-tot-protest-in-frankrijk-ondanks-maatregelen-voor-beter-onderwijs.html",
         "date": "Mon, 26 Oct 2026 23:07:14 +0100",
-        "summary": "In Frankrijk hebben studenten opnieuw opgeroepen om te protesteren. Een voorstel van de regering voor verbeteringen in het onderwijs vint de protestbeweging onvoldoende.",
+        "summary": "In Frankrijk hebben studenten opnieuw opgeroepen om te protesteren. Een voorstel van de regering voor verbeteringen in het onderwijs vindt de protestbeweging onvoldoende.",
         "imageUrl": "https://images.nu.nl/m/nxqx56dan42n_sqr256/1528/0/4249/4249/opnieuw-oproep-tot-protest-in-frankrijk-ondanks-maatregelen-voor-beter-onderwijs.jpg"
       },
       {
@@ -30,27 +51,6 @@
         "date": "Mon, 26 Oct 2026 21:19:29 +0100",
         "summary": "De verdachte van de dodelijke schietpartij in een voorstad van Parijs ontkent dat hij een racistisch motief had. Bij het incident kwam een man om het leven. Vijf anderen raakten gewond, onder wie twee kinderen.",
         "imageUrl": "https://images.nu.nl/m/lmxx25qap2h6_sqr256/489/0/1422/1422/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.jpg"
-      },
-      {
-        "title": "Video | Enorm boorplatform verdwijnt tijdens installatie in zee bij Gabon",
-        "url": "https://www.nu.nl/331661/video/enorm-boorplatform-verdwijnt-tijdens-installatie-in-zee-bij-gabon.html",
-        "date": "Mon, 26 Oct 2026 21:00:27 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/dowxd3ga4hsp_sqr256/165/0/718/718/enorm-boorplatform-verdwijnt-tijdens-installatie-in-zee-bij-gabon.jpg"
-      },
-      {
-        "title": "Reserves Canadese ahornsiroop dreigen op te raken door ruzie met VS",
-        "url": "https://www.nu.nl/economie/6414491/reserves-canadese-ahornsiroop-dreigen-op-te-raken-door-ruzie-met-vs.html",
-        "date": "Mon, 26 Oct 2026 20:20:02 +0100",
-        "summary": "De strategische reserves maple syrup of ahornsiroop in Canada dreigen in februari op te raken, waarschuwt de vereniging van producenten. Dat heeft vooral te maken met de handelsoorlog tussen Canada en de Verenigde Staten.",
-        "imageUrl": "https://images.nu.nl/m/r4hxclgaz2ar_sqr256/962/0/3835/3835/reserves-canadese-ahornsiroop-dreigen-op-te-raken-door-ruzie-met-vs.jpg"
-      },
-      {
-        "title": "Schrijver Herman Koch heeft ziekte van Parkinson: 'Ik ben al een beetje gewend'",
-        "url": "https://www.nu.nl/achterklap/6414490/schrijver-herman-koch-heeft-ziekte-van-parkinson-ik-ben-al-een-beetje-gewend.html",
-        "date": "Mon, 26 Oct 2026 20:13:29 +0100",
-        "summary": "Schrijver Herman Koch heeft de ziekte van Parkinson, vertelde hij maandag in een interview in talkshow Eva . De 73-jarige auteur leed al sinds 2020 aan uitgezaaide prostaatkanker.",
-        "imageUrl": "https://images.nu.nl/m/aiaxi4payzq3_sqr256/1701/0/4779/4779/schrijver-herman-koch-heeft-ziekte-van-parkinson-ik-ben-al-een-beetje-gewend.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:10",
-        "mmHour": 0.0
-      },
       {
         "time": "00:15",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "01:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.3,
+    "temperature": 12.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T22:42:35+00:00",
-    "rainUpdatedAt": "2026-10-26T22:42:37+00:00"
+    "weatherUpdatedAt": "2026-10-26T23:13:16+00:00",
+    "rainUpdatedAt": "2026-10-26T23:13:17+00:00"
   }
 }
