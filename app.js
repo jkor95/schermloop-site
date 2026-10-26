@@ -69,8 +69,8 @@ function makeWeatherPage(page,w){
   const radarNote=document.createElement('p');radarNote.className='weather-panel-sub';radarNote.textContent='Live buienkaart en verwachting via Buienradar';
   const map=document.createElement('div');map.className='radar-map buienradar-map';
   const iframe=document.createElement('iframe');iframe.className='buienradar-iframe';
-  iframe.src='https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.79171&lng=4.68655&overname=2&zoom=8&naam=3318an&size=2b&voor=1';
-  iframe.width='330';iframe.height='330';iframe.loading='eager';iframe.scrolling='no';
+  iframe.src='https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.79171&lng=4.68655&overname=2&zoom=8&naam=3318an&size=3&voor=1';
+  iframe.width='550';iframe.height='512';iframe.loading='eager';iframe.scrolling='no';
   iframe.title='Buienradar live regenradar en verwachting boven Dordrecht';
   iframe.referrerPolicy='strict-origin-when-cross-origin';
   const loader=document.createElement('div');loader.className='buienradar-loading';loader.textContent='Regenradar wordt geladen…';
@@ -78,21 +78,15 @@ function makeWeatherPage(page,w){
   map.append(iframe,loader);
   function scaleRadar(){
     if(!map.isConnected)return;
-    const height=map.clientHeight;
-    if(height<20)return;
-    const styles=getComputedStyle(radar);
-    const gutters=(parseFloat(styles.paddingLeft)||0)+(parseFloat(styles.paddingRight)||0)+2;
-    const availableWidth=layout.clientWidth;
-    const desired=Math.round(Math.min(availableWidth*.48,height+gutters));
-    if(desired>0){
-      const current=parseFloat(layout.style.getPropertyValue('--radar-panel-width'));
-      if(!Number.isFinite(current)||Math.abs(current-desired)>2)layout.style.setProperty('--radar-panel-width',desired+'px')
-    }
-    const scale=Math.max(.3,Math.min(map.clientWidth,map.clientHeight)/330);
-    iframe.style.setProperty('--radar-scale',String(scale))
+    const width=map.clientWidth,height=map.clientHeight;
+    if(width<10||height<10)return;
+    const scale=Math.min(width/550,height/512);
+    iframe.style.setProperty('--radar-scale',String(scale));
   }
-  if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(()=>{if(!map.isConnected){observer.disconnect();return}scaleRadar()});observer.observe(map)}
-  else window.addEventListener('resize',scaleRadar,{passive:true});
+  if(typeof ResizeObserver!=='undefined'){
+    const observer=new ResizeObserver(()=>{if(!map.isConnected){observer.disconnect();return}scaleRadar()});
+    observer.observe(map)
+  }else window.addEventListener('resize',scaleRadar,{passive:true});
   requestAnimationFrame(scaleRadar);
   const credits=document.createElement('div');credits.className='radar-map-credits';
   const radarCredit=document.createElement('a');radarCredit.href='https://www.buienradar.nl/';radarCredit.target='_blank';radarCredit.rel='noopener noreferrer';radarCredit.textContent='Buienradar.nl';
