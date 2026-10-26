@@ -56,21 +56,39 @@ function rainForecastLine(host,points){
   const samples=Array.isArray(points)?points.slice(0,25).filter(p=>Number.isFinite(Number(p.mmHour))):[];
   if(samples.length<2){host.textContent='Regenverwachting tijdelijk niet beschikbaar';return}
   const values=samples.map(p=>Math.max(0,Number(p.mmHour)||0));
-  const peak=Math.max(...values);
-  const ceiling=[1,2.5,5,10,20,40,80].find(x=>peak<=x)||Math.ceil(peak/20)*20;
-  const maxX=700,minX=54,top=16,bottom=210,plotHeight=bottom-top,span=maxX-minX;
-  const svg=svgRain('svg',{viewBox:'0 0 740 255',role:'img','aria-label':'Verwachte neerslagintensiteit van '+samples[0].time+' tot '+samples[samples.length-1].time+', maximaal '+peak.toFixed(1)+' millimeter per uur'});
-  const x=i=>minX+(i/(samples.length-1))*span;
-  const y=v=>bottom-Math.min(v,ceiling)/ceiling*plotHeight;
-  const ticks=[0,ceiling/2,ceiling];
-  for(const tick of ticks){const yy=y(tick);svg.append(svgRain('line',{x1:minX,x2:maxX,y1:yy,y2:yy,class:'rain-grid'}));svg.append(svgRain('text',{x:minX-9,y:yy+5,'text-anchor':'end',class:'rain-axis-label'},tick.toLocaleString('nl-NL',{maximumFractionDigits:1})))}
-  for(const threshold of [2.5,10]){if(threshold>=ceiling)continue;const yy=y(threshold);svg.append(svgRain('line',{x1:minX,x2:maxX,y1:yy,y2:yy,class:threshold===10?'rain-threshold-heavy':'rain-threshold-moderate'}))}
-  const path=values.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
-  svg.append(svgRain('path',{d:path+' L'+maxX+' '+bottom+' L'+minX+' '+bottom+' Z',class:'rain-chart-area'}));
-  for(let i=1;i<samples.length;i++){const level=rainLevel(Math.max(values[i-1],values[i]));svg.append(svgRain('line',{x1:x(i-1),y1:y(values[i-1]),x2:x(i),y2:y(values[i]),class:'rain-segment rain-'+level}))}
-  for(let i=0;i<samples.length;i++){if(i%6!==0&&i!==samples.length-1)continue;const xx=x(i);svg.append(svgRain('text',{x:xx,y:239,'text-anchor':i===0?'start':i===samples.length-1?'end':'middle',class:'rain-axis-label'},samples[i].time))}
-  svg.append(svgRain('text',{x:14,y:17,class:'rain-axis-label'},'mm/u'));
-  host.append(svg);
+  const left=14,right=644,labelX=661,top=15,bottom=210;
+  const bandHeight=(bottom-top)/3,span=right-left;
+  const svg=svgRain('svg',{viewBox:'0 0 740 255',role:'img','aria-label':'Regenverwachting '+samples[0].time+' tot '+samples[samples.length-1].time+' met de niveaus licht, matig en zwaar'});
+  const x=i=>left+(i/(samples.length-1))*span;
+  // Vertaal mm/uur vloeiend naar drie vaste gebieden, zonder een numerieke as.
+  // Licht: 0,1-2,5; matig: 2,5-10; zwaar: 10 mm/uur en meer.
+  function y(mm){
+    const v=Math.max(0,Number(mm)||0);
+    if(v<0.1)return bottom;
+    if(v<2.5)return bottom-bandHeight*(0.10+0.90*Math.sqrt((v-0.1)/2.4));
+    if(v<10)return bottom-bandHeight*(1+(v-2.5)/7.5);
+    return bottom-bandHeight*(2+Math.min(1,(v-10)/30));
+  }
+  for(const [level,label,className] of [
+    [0,'Zwaar','heavy'],[1,'Matig','moderate'],[2,'Licht','light']
+  ]){
+    const bandTop=top+level*bandHeight;
+    svg.append(svgRain('rect',{x:left,y:bandTop,width:span,height:bandHeight,class:'rain-band-bg-'+className}));
+    if(level>0)svg.append(svgRain('line',{x1:left,x2:right,y1:bandTop,y2:bandTop,class:'rain-band-divider'}));
+    svg.append(svgRain('text',{x:labelX,y:bandTop+bandHeight/2+7,class:'rain-band-label'},label))
+  }
+  svg.append(svgRain('line',{x1:left,x2:right,y1:bottom,y2:bottom,class:'rain-band-baseline'}));
+  const linePath=values.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  svg.append(svgRain('path',{d:linePath+' L'+right+' '+bottom+' L'+left+' '+bottom+' Z',class:'rain-chart-area'}));
+  for(let i=1;i<samples.length;i++){
+    const level=rainLevel(Math.max(values[i-1],values[i]));
+    svg.append(svgRain('line',{x1:x(i-1),y1:y(values[i-1]),x2:x(i),y2:y(values[i]),class:'rain-segment rain-'+level}))
+  }
+  for(let i=0;i<samples.length;i++){
+    if(i%6!==0&&i!==samples.length-1)continue;
+    svg.append(svgRain('text',{x:x(i),y:240,'text-anchor':i===0?'start':i===samples.length-1?'end':'middle',class:'rain-axis-label'},samples[i].time))
+  }
+  host.append(svg)
 }
 function makeWeatherPage(page,w){
   page.classList.add('weather-page');
@@ -84,16 +102,10 @@ function makeWeatherPage(page,w){
   const layout=document.createElement('div');layout.className='weather-dashboard';
   const forecast=document.createElement('section');forecast.className='weather-panel weather-forecast';
   const h=document.createElement('h3');h.textContent='Regenverwachting Dordrecht';
-  const sub=document.createElement('p');sub.className='weather-panel-sub';sub.textContent='Verwachte intensiteit · millimeter per uur';
+  const sub=document.createElement('p');sub.className='weather-panel-sub';sub.textContent='Neerslag in drie niveaus · komende twee uur';
   const chart=document.createElement('div');chart.className='weather-chart';
   rainForecastLine(chart,currentRainPoints(w));
-  const legend=document.createElement('div');legend.className='rain-intensity-legend';
-  for(const [name,label] of [['light','Licht < 2,5'],['moderate','Matig 2,5–10'],['heavy','Zwaar ≥ 10']]){
-    const chip=document.createElement('span');chip.className='rain-legend-'+name;
-    const dot=document.createElement('i');dot.setAttribute('aria-hidden','true');
-    chip.append(dot,document.createTextNode(label+' mm/u'));legend.append(chip)
-  }
-  forecast.append(h,sub,chart,legend);
+  forecast.append(h,sub,chart);
   const radar=document.createElement('section');radar.className='weather-panel weather-radar';
   const map=document.createElement('div');map.className='radar-map buienradar-map';
   const iframe=document.createElement('iframe');iframe.className='buienradar-iframe';
