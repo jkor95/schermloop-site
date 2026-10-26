@@ -41,7 +41,7 @@ def main():
             if title and link.startswith("https://www.nu.nl/"):
                 raw_description = item.findtext("description") or ""
                 summary = html.unescape(re.sub(r"<[^>]*>", " ", raw_description))
-                summary = re.sub(r"\\s+", " ", summary).strip()
+                summary = re.sub(r"\s+", " ", summary).strip()
                 if summary.startswith(title):
                     summary = summary[len(title):].lstrip(" .:-")
                 if len(summary) > 320:
