@@ -1,8 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T03:43:34+00:00",
+    "updatedAt": "2026-10-26T04:19:26+00:00",
     "headlines": [
+      {
+        "title": "Niet links of rechts, maar met of zonder Netanyahu is de keuze voor Israël",
+        "url": "https://www.nu.nl/buitenland/6414067/niet-links-of-rechts-maar-met-of-zonder-netanyahu-is-de-keuze-voor-israel.html",
+        "date": "Mon, 26 Oct 2026 05:07:14 +0100"
+      },
       {
         "title": "Podcast | 'Absurd hoeveel sneller Antonelli was dan Russell'",
         "url": "https://www.nu.nl/formule-1/6414382/absurd-hoeveel-sneller-antonelli-was-dan-russell.html",
@@ -32,11 +37,6 @@
         "title": "Sven Kockelmann wint Sonja Barend Award voor interview met Dick Schoof",
         "url": "https://www.nu.nl/media/6414375/sven-kockelmann-wint-sonja-barend-award-voor-interview-met-dick-schoof.html",
         "date": "Sun, 25 Oct 2026 22:47:53 +0100"
-      },
-      {
-        "title": "Video | Haven op Texel staat onder water door storm Boelo",
-        "url": "https://www.nu.nl/331639/video/haven-op-texel-staat-onder-water-door-storm-boelo.html",
-        "date": "Sun, 25 Oct 2026 22:47:31 +0100"
       }
     ]
   },
@@ -44,34 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "04:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
       {
         "time": "05:20",
         "mmHour": 0.0
@@ -139,12 +111,40 @@
       {
         "time": "06:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.6,
+    "temperature": 11.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T03:43:35+00:00",
-    "rainUpdatedAt": "2026-10-26T03:43:36+00:00"
+    "weatherUpdatedAt": "2026-10-26T04:19:27+00:00",
+    "rainUpdatedAt": "2026-10-26T04:19:27+00:00"
   }
 }
