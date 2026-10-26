@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T08:15:09+00:00",
+    "updatedAt": "2026-10-26T09:11:25+00:00",
     "headlines": [
+      {
+        "title": "Humberto Tan vond reacties op zwangerschap vooral vervelend voor vriendin",
+        "url": "https://www.nu.nl/achterklap/6414404/humberto-tan-vond-reacties-op-zwangerschap-vooral-vervelend-voor-vriendin.html",
+        "date": "Mon, 26 Oct 2026 09:52:11 +0100",
+        "summary": "Humberto Tan vond het vooral vervelend voor zijn vriendin dat er zoveel reacties op haar zwangerschap kwamen. De 61-jarige presentator had haar vooraf gewaarschuwd voor de media-aandacht die de aankondiging met zich mee zou brengen. Vooral zijn leeftijd leidde online tot discussie.",
+        "imageUrl": "https://images.nu.nl/m/f2dx8a0aigz9_sqr256/1032/0/3708/3708/humberto-tan-vond-reacties-op-zwangerschap-vooral-vervelend-voor-vriendin.jpg"
+      },
+      {
+        "title": "Antonelli groeide uit van underdog tot titelkandidaat: 'Seizoen is mooie verrassing'",
+        "url": "https://www.nu.nl/formule-1/6414380/antonelli-groeide-uit-van-underdog-tot-titelkandidaat-seizoen-is-mooie-verrassing.html",
+        "date": "Mon, 26 Oct 2026 09:49:11 +0100",
+        "summary": "De wereldtitel kan Kimi Antonelli haast niet meer ontgaan. De Mercedes-coureur heeft in de resterende vijf races nog slechts twee punten nodig om Formule 1-kampioen te worden. Antonelli wil vooral genieten van het einde van een \"verrassend seizoen\".",
+        "imageUrl": "https://images.nu.nl/m/mqsx94xae5vc_sqr256/836/0/3686/3686/antonelli-groeide-uit-van-underdog-tot-titelkandidaat-seizoen-is-mooie-verrassing.jpg"
+      },
       {
         "title": "Piloten gaan ondanks moeheid naar werk en doen soms dutje tijdens vlucht",
         "url": "https://www.nu.nl/economie/6414393/piloten-gaan-ondanks-moeheid-naar-werk-en-doen-soms-dutje-tijdens-vlucht.html",
@@ -32,25 +46,11 @@
         "imageUrl": "https://images.nu.nl/m/frjx56ta0wta_sqr256/1177/3/2758/2758/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.jpg"
       },
       {
-        "title": "Live | Midden-Oosten | Houthi's vallen weer luchthaven in Saoedi-Arabië aan",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.html",
+        "title": "Live | Midden-Oosten | Netanyahu zou Trump om meer verkiezingssteun vragen",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-netanyahu-zou-trump-om-meer-verkiezingssteun-vragen.html",
         "date": "Mon, 26 Oct 2026 06:47:12 +0100",
         "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de situatie in het Midden-Oosten en de gevolgen daarvan voor de rest van de wereld.",
-        "imageUrl": "https://images.nu.nl/m/4zfxv2ta9l2s_sqr256/804/0/2066/2066/midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.jpg"
-      },
-      {
-        "title": "Verstappen gefrustreerd na derde plek in Austin: 'Te veel dingen gingen mis'",
-        "url": "https://www.nu.nl/formule-1/6414383/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.html",
-        "date": "Mon, 26 Oct 2026 06:14:47 +0100",
-        "summary": "Max Verstappen hield zondag een podiumplek over aan de Grand Prix van de Verenigde Staten, maar was kritisch op Red Bull. Verkeerde bandenkeuzes, motorproblemen en een haperende radio maakten het een frustrerende middag voor de Nederlander.",
-        "imageUrl": "https://images.nu.nl/m/t8dxvutayn76_sqr256/1143/0/3667/3667/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.jpg"
-      },
-      {
-        "title": "President Lula wint Braziliaanse verkiezingen, Bolsonaro erkent nederlaag niet",
-        "url": "https://www.nu.nl/buitenland/6414358/president-lula-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.html",
-        "date": "Mon, 26 Oct 2026 05:37:30 +0100",
-        "summary": "Luiz Inácio Lula da Silva heeft zondag de Braziliaanse presidentsverkiezingen gewonnen. Daarmee blijft Brazilië onder linkse leiding. De zittend president versloeg de rechtse senator Flávio Bolsonaro, die zijn nederlaag niet erkent.",
-        "imageUrl": "https://images.nu.nl/m/2tyxn22af1xr_sqr256/240/0/2738/2738/president-lula-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.jpg"
+        "imageUrl": "https://images.nu.nl/m/voqxf0qa739l_sqr256/850/3/3344/3344/midden-oosten-netanyahu-zou-trump-om-meer-verkiezingssteun-vragen.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "09:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:10",
-        "mmHour": 0.0
-      },
       {
         "time": "10:15",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "11:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "11:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.1,
+    "temperature": 10.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T08:15:09+00:00",
-    "rainUpdatedAt": "2026-10-26T08:15:09+00:00"
+    "weatherUpdatedAt": "2026-10-26T09:11:25+00:00",
+    "rainUpdatedAt": "2026-10-26T09:11:27+00:00"
   }
 }
