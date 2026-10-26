@@ -62,28 +62,32 @@ async function populateDordrechtRadar(view){
     const frame=await latestRadarFrame();
     if(!view.isConnected)return;
     const width=view.clientWidth||400,height=view.clientHeight||270;
-    const zoom=7,tileSize=256,count=2**zoom;
-    const tileX=(RADAR_LON+180)/360*count;
-    const latRadians=RADAR_LAT*Math.PI/180;
-    const tileY=(1-Math.asinh(Math.tan(latRadians))/Math.PI)/2*count;
-    const minX=Math.floor(tileX-(width/2)/tileSize),maxX=Math.floor(tileX+(width/2)/tileSize);
-    const minY=Math.floor(tileY-(height/2)/tileSize),maxY=Math.floor(tileY+(height/2)/tileSize);
+    const tilePosition=(zoom)=>{const count=2**zoom,rad=RADAR_LAT*Math.PI/180;return {x:(RADAR_LON+180)/360*count,y:(1-Math.asinh(Math.tan(rad))/Math.PI)/2*count,count}};
     tiles.replaceChildren();
     let loadedRadar=0,failedRadar=0,expectedRadar=0;
-    for(let ty=minY;ty<=maxY;ty++)for(let tx=minX;tx<=maxX;tx++){
-      if(tx<0||tx>=count||ty<0||ty>=count)continue;
-      const left=Math.round(width/2+(tx-tileX)*tileSize);
-      const top=Math.round(height/2+(ty-tileY)*tileSize);
-      for(const type of ['base','radar']){
-        const tile=document.createElement('img');tile.className='radar-map-tile radar-tile-'+type;
+    for(const type of ['base','radar']){
+      const zoom=type==='base'?9:7;
+      const sourceTileSize=type==='base'?256:512;
+      const displayTileSize=type==='base'?256:1024;
+      const position=tilePosition(zoom);
+      const minX=Math.floor(position.x-width/2/displayTileSize);
+      const maxX=Math.floor(position.x+width/2/displayTileSize);
+      const minY=Math.floor(position.y-height/2/displayTileSize);
+      const maxY=Math.floor(position.y+height/2/displayTileSize);
+      for(let ty=minY;ty<=maxY;ty++)for(let tx=minX;tx<=maxX;tx++){
+        if(tx<0||tx>=position.count||ty<0||ty>=position.count)continue;
+        const tile=document.createElement('img');
+        tile.className='radar-map-tile radar-tile-'+type;
         tile.alt='';tile.decoding='async';tile.loading='eager';
-        tile.style.left=left+'px';tile.style.top=top+'px';
+        tile.style.left=Math.round(width/2+(tx-position.x)*displayTileSize)+'px';
+        tile.style.top=Math.round(height/2+(ty-position.y)*displayTileSize)+'px';
+        tile.style.width=displayTileSize+'px';tile.style.height=displayTileSize+'px';
         if(type==='base')tile.src='https://tile.openstreetmap.org/'+zoom+'/'+tx+'/'+ty+'.png';
         else{
           expectedRadar++;
           tile.onload=()=>{loadedRadar++;if(message&&loadedRadar>0)message.hidden=true};
           tile.onerror=()=>{failedRadar++;if(message&&failedRadar>=expectedRadar&&loadedRadar===0){message.hidden=false;message.textContent='Radarlaag tijdelijk niet beschikbaar'}};
-          tile.src='https://tilecache.rainviewer.com'+frame.path+'/256/'+zoom+'/'+tx+'/'+ty+'/2/1_1.png'
+          tile.src='https://tilecache.rainviewer.com'+frame.path+'/'+sourceTileSize+'/'+zoom+'/'+tx+'/'+ty+'/2/1_1.png'
         }
         tiles.append(tile)
       }
