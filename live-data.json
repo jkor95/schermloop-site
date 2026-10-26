@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T17:41:43+00:00",
+    "updatedAt": "2026-10-26T18:19:27+00:00",
     "headlines": [
       {
-        "title": "Zwitsers dorp bedreigd door enorm ijsblok dat 20 centimeter per dag verschuift",
-        "url": "https://www.nu.nl/buitenland/6414480/zwitsers-dorp-bedreigd-door-enorm-ijsblok-dat-20-centimeter-per-dag-verschuift.html",
+        "title": "Microsoft biedt kwart van werknemers vertrekregeling aan om kosten te drukken",
+        "url": "https://www.nu.nl/economie/6414482/microsoft-biedt-kwart-van-werknemers-vertrekregeling-aan-om-kosten-te-drukken.html",
+        "date": "Mon, 26 Oct 2026 18:28:29 +0100",
+        "summary": "Microsoft heeft 60.000 werknemers in de Verenigde Staten, het Verenigd Koninkrijk, Canada en India een regeling aangeboden om vrijwillig te vertrekken. Het softwarebedrijf wil de kosten omlaagbrengen en wil zich meer richten op AI.",
+        "imageUrl": "https://images.nu.nl/m/9e9xztyap1up_sqr256/906/7/5376/5376/microsoft-biedt-kwart-van-werknemers-vertrekregeling-aan-om-kosten-te-drukken.jpg"
+      },
+      {
+        "title": "Zwitsers dorp bedreigd door ijsblok van 250 miljoen kilo dat langzaam berg afglijdt",
+        "url": "https://www.nu.nl/buitenland/6414480/zwitsers-dorp-bedreigd-door-ijsblok-van-250-miljoen-kilo-dat-langzaam-berg-afglijdt.html",
         "date": "Mon, 26 Oct 2026 18:11:45 +0100",
         "summary": "Het Zwitserse dorp Randa wordt bedreigd door een enorm ijsblok dat van een gletsjer afglijdt. De ijsberg verschuift tot wel 20 centimeter per dag.",
-        "imageUrl": "https://images.nu.nl/m/iebxomqa937b_sqr256/202/0/635/635/zwitsers-dorp-bedreigd-door-enorm-ijsblok-dat-20-centimeter-per-dag-verschuift.jpg"
+        "imageUrl": "https://images.nu.nl/m/iebxomqa937b_sqr256/202/0/635/635/zwitsers-dorp-bedreigd-door-ijsblok-van-250-miljoen-kilo-dat-langzaam-berg-afglijdt.jpg"
       },
       {
         "title": "Zeldzame 'Engel des doods'-paddenstoel aangetroffen op Utrechtse Heuvelrug",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 16:10:14 +0100",
         "summary": "De rechtbank in Utrecht heeft Johannes F. maandag veroordeeld tot 113 dagen cel en tbs met voorwaarden vanwege een serie aanrandingen. De gevangenisstraf is gelijk aan het voorarrest van de 68-jarige Utrechter, die dus niet meer de cel in hoeft.",
         "imageUrl": "https://images.nu.nl/m/8nlxj7maid3b_sqr256/469/0/2354/2354/man-krijgt-cel-en-tbs-voor-aanrandingen-met-minderjarige-slachtoffers-in-utrecht.jpg"
-      },
-      {
-        "title": "Man betast vrouw in Haarlemse bus en valt ook andere vrouwen lastig",
-        "url": "https://www.nu.nl/binnenland/6414454/man-betast-vrouw-in-haarlemse-bus-en-valt-ook-andere-vrouwen-lastig.html",
-        "date": "Mon, 26 Oct 2026 15:48:06 +0100",
-        "summary": "De politie zoekt een man die vorige week meerdere vrouwen heeft lastiggevallen in een bus in Haarlem. Hij raakte een van de vrouwen ongewenst aan en maakte seksuele opmerkingen.",
-        "imageUrl": "https://images.nu.nl/m/uc5x6n2abmnr_sqr256/0/0/3332/3332/man-betast-vrouw-in-haarlemse-bus-en-valt-ook-andere-vrouwen-lastig.jpg"
       }
     ]
   },
@@ -59,40 +59,12 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "18:45",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:50",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:55",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:00",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.21
-      },
-      {
         "time": "19:20",
         "mmHour": 0.21
       },
       {
         "time": "19:25",
-        "mmHour": 0.29
+        "mmHour": 0.21
       },
       {
         "time": "19:30",
@@ -100,31 +72,31 @@
       },
       {
         "time": "19:35",
-        "mmHour": 0.21
+        "mmHour": 0.49
       },
       {
         "time": "19:40",
-        "mmHour": 0.0
+        "mmHour": 0.39
       },
       {
         "time": "19:45",
-        "mmHour": 0.0
+        "mmHour": 0.7
       },
       {
         "time": "19:50",
-        "mmHour": 0.0
+        "mmHour": 0.39
       },
       {
         "time": "19:55",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "20:00",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "20:05",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "20:10",
@@ -153,12 +125,40 @@
       {
         "time": "20:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "20:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
       }
     ],
     "temperature": 10.8,
-    "description": "Zwaar bewolkt",
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T17:41:43+00:00",
-    "rainUpdatedAt": "2026-10-26T17:41:44+00:00"
+    "weatherUpdatedAt": "2026-10-26T18:19:27+00:00",
+    "rainUpdatedAt": "2026-10-26T18:19:28+00:00"
   }
 }
