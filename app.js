@@ -24,8 +24,29 @@ function currentRainPoints(weather){
 }
 function rainDescription(rain){if(!Array.isArray(rain)||!rain.length)return 'Regenverwachting tijdelijk niet beschikbaar';const index=rain.findIndex(p=>Number(p.mmHour)>0.1);if(index===0)return 'Het regent nu of binnen enkele minuten';if(index<0)return 'Voorlopig geen regen verwacht';return 'Regen verwacht over circa '+(index*5)+' minuten'}
 function updateWeatherCorner(){let el=$('weather-corner');if(!el)return;el.hidden=!liveSettings.cornerWeather;if(el.hidden)return;const w=liveSnapshot?.weather||{};el.replaceChildren();let title=document.createElement('b');title.textContent='Dordrecht · Buienradar';let current=document.createElement('div');current.textContent=w.temperature==null?'Weer wordt bijgewerkt':Math.round(Number(w.temperature))+' °C · '+(w.description||'Actueel weer');let rain=document.createElement('small');rain.textContent=rainDescription(currentRainPoints(w));el.append(title,current,rain)}
+async function getDirectRain(){
+  const endpoint='https://gpsgadget.buienradar.nl/data/raintext/?lat=51.79103&lon=4.68571';
+  const response=await fetch(endpoint,{mode:'cors',cache:'no-store',signal:AbortSignal.timeout(3500)});
+  if(!response.ok)throw Error('Regenbron HTTP '+response.status);
+  const raw=await response.text(),points=[];
+  for(const line of raw.split(/\r?\n/)){
+    const m=line.trim().match(/^(\d{1,3})\|(\d{2}:\d{2})$/);
+    if(!m)continue;
+    const amount=Math.min(255,Math.max(0,Number(m[1])));
+    const mmHour=amount?Math.round(100*10**((amount-109)/32))/100:0;
+    points.push({time:m[2],mmHour})
+  }
+  if(points.length<10)throw Error('Neerslaggegevens ontbreken');
+  const [hour,minute]=points[0].time.split(':').map(Number);
+  const first=new Date();first.setHours(hour,minute,0,0);
+  const diff=first.getTime()-Date.now();
+  if(diff>12*3600000)first.setDate(first.getDate()-1);
+  if(diff< -12*3600000)first.setDate(first.getDate()+1);
+  if(Math.abs(first.getTime()-Date.now())>20*60000)throw Error('Directe regenbron heeft oude tijden');
+  return {rain:points.slice(0,26),rainUpdatedAt:new Date().toISOString()}
+}
 let lastLivePoll=0;
-async function pollLive(){try{lastLivePoll=Date.now();const previousRainVersion=liveSnapshot?.weather?.rainUpdatedAt;const url='https://api.github.com/repos/jkor95/schermloop-site/contents/live-data.json?ref=main&refresh='+Date.now();const res=await fetch(url,{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});if(!res.ok)throw Error('GitHub HTTP '+res.status);const record=await res.json();const raw=atob((record.content||'').replace(/\s/g,''));liveSnapshot=JSON.parse(decodeURIComponent(escape(raw)));updateWeatherCorner();if(running&&!admin&&previousRainVersion!==liveSnapshot?.weather?.rainUpdatedAt){const stage=$('stage');if(stage?.querySelector('.weather-page')){stage.replaceChildren();renderLiveSlide(stage,'live-weather',{})}}}catch(e){console.warn('Live gegevens kunnen niet worden bijgewerkt',e)}}
+async function pollLive(){try{lastLivePoll=Date.now();const previousRainVersion=liveSnapshot?.weather?.rainUpdatedAt;const url='https://api.github.com/repos/jkor95/schermloop-site/contents/live-data.json?ref=main&refresh='+Date.now();const res=await fetch(url,{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});if(!res.ok)throw Error('GitHub HTTP '+res.status);const record=await res.json();const raw=atob((record.content||'').replace(/\s/g,''));liveSnapshot=JSON.parse(decodeURIComponent(escape(raw)));try{const direct=await getDirectRain();liveSnapshot.weather={...(liveSnapshot.weather||{}),...direct}}catch(_){/* GitHub Actions blijft de fallback wanneer de directe bron niet beschikbaar is. */}updateWeatherCorner();if(running&&!admin&&previousRainVersion!==liveSnapshot?.weather?.rainUpdatedAt){const stage=$('stage');if(stage?.querySelector('.weather-page')){stage.replaceChildren();renderLiveSlide(stage,'live-weather',{})}}}catch(e){console.warn('Live gegevens kunnen niet worden bijgewerkt',e)}}
 function liveHeading(host,title,subtitle){const header=document.createElement('div');header.className='live-title';const h=document.createElement('h2');h.textContent=title;const sub=document.createElement('p');sub.textContent=subtitle;header.append(h,sub);host.append(header)}
 
 function rainLevel(mm){if(mm>=10)return 'heavy';if(mm>=2.5)return 'moderate';if(mm>=0.1)return 'light';return 'dry'}
