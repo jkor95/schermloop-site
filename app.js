@@ -95,8 +95,6 @@ function makeWeatherPage(page,w){
   }
   forecast.append(h,sub,chart,legend);
   const radar=document.createElement('section');radar.className='weather-panel weather-radar';
-  const rh=document.createElement('h3');rh.textContent='Regenradar · Dordrecht';
-  const radarNote=document.createElement('p');radarNote.className='weather-panel-sub';radarNote.textContent='Live buienkaart en verwachting via Buienradar';
   const map=document.createElement('div');map.className='radar-map buienradar-map';
   const iframe=document.createElement('iframe');iframe.className='buienradar-iframe';
   iframe.src='https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.79171&lng=4.68655&overname=2&zoom=8&naam=3318an&size=3&voor=1';
@@ -106,27 +104,21 @@ function makeWeatherPage(page,w){
   const loader=document.createElement('div');loader.className='buienradar-loading';loader.textContent='Regenradar wordt geladen…';
   iframe.addEventListener('load',()=>{loader.hidden=true});
   map.append(iframe,loader);
+  radar.append(map);layout.append(forecast,radar);page.append(layout);
   function scaleRadar(){
     if(!map.isConnected)return;
-    const width=map.clientWidth,height=map.clientHeight;
-    if(width<10||height<10)return;
+    const width=radar.clientWidth,height=radar.clientHeight;
+    if(width<20||height<20)return;
     const scale=Math.min(width/550,height/512);
+    map.style.width=Math.floor(550*scale)+'px';
+    map.style.height=Math.floor(512*scale)+'px';
     iframe.style.setProperty('--radar-scale',String(scale));
   }
   if(typeof ResizeObserver!=='undefined'){
     const observer=new ResizeObserver(()=>{if(!map.isConnected){observer.disconnect();return}scaleRadar()});
-    observer.observe(map)
+    observer.observe(radar)
   }else window.addEventListener('resize',scaleRadar,{passive:true});
   requestAnimationFrame(scaleRadar);
-  const credits=document.createElement('div');credits.className='radar-map-credits';
-  const radarCredit=document.createElement('a');radarCredit.href='https://www.buienradar.nl/';radarCredit.target='_blank';radarCredit.rel='noopener noreferrer';radarCredit.textContent='Buienradar.nl';
-  credits.append(document.createTextNode('Radar: '),radarCredit,document.createTextNode(' · '));
-  const direct=document.createElement('a');direct.href=iframe.src;direct.target='_blank';direct.rel='noopener noreferrer';direct.textContent='Open radar in nieuw tabblad';
-  credits.append(direct);
-  radar.append(rh,radarNote,map,credits);layout.append(forecast,radar);page.append(layout);
-  const foot=document.createElement('p');foot.className='live-foot';foot.textContent='Lokale verwachting: ';
-  const source=document.createElement('a');source.href='https://www.buienradar.nl/';source.target='_blank';source.rel='noopener noreferrer';source.textContent='Buienradar.nl';
-  foot.append(source,document.createTextNode(w.rainUpdatedAt?' · Bijgewerkt '+new Date(w.rainUpdatedAt).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'}):''),' · Radar: Buienradar-widget.');page.append(foot);
 }
 
 
