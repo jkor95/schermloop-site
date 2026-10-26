@@ -50,6 +50,6 @@
 /* Excel: Alt+Enter maakt leesbare opsommingen zonder samengevoegde regels. */
 #screen .live-bulletin-body.has-points{justify-content:center;align-items:center;text-align:left}
 #screen .live-bulletin-points{width:min(100%,1100px);max-height:100%;overflow:hidden;margin:0;padding:0 0 0 1.25em;list-style-type:disc;font-size:clamp(19px,2.7vw,42px);line-height:1.3}
-#screen .live-bulletin-points li{padding:0;margin:0 0 .4em;overflow-wrap:break-word}
+#screen .live-bulletin-points li{padding:0;margin:0 0 .4em;border:0;overflow-wrap:break-word}
 #screen .live-bulletin-points li:last-child{margin-bottom:0}
 #screen .live-bulletin-points.dense{font-size:clamp(17px,2.3vw,36px)}
