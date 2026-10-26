@@ -43,7 +43,8 @@ async function getDirectRain(){
   if(diff>12*3600000)first.setDate(first.getDate()-1);
   if(diff< -12*3600000)first.setDate(first.getDate()+1);
   if(Math.abs(first.getTime()-Date.now())>20*60000)throw Error('Directe regenbron heeft oude tijden');
-  return {rain:points.slice(0,26),rainUpdatedAt:new Date().toISOString()}
+  const elapsedSlots=Math.max(0,Math.floor((Date.now()-first.getTime())/300000));
+  return {rain:points.slice(Math.min(elapsedSlots,points.length-2),26),rainUpdatedAt:new Date().toISOString()}
 }
 let lastLivePoll=0;
 async function pollLive(){try{lastLivePoll=Date.now();const previousRainVersion=liveSnapshot?.weather?.rainUpdatedAt;const url='https://api.github.com/repos/jkor95/schermloop-site/contents/live-data.json?ref=main&refresh='+Date.now();const res=await fetch(url,{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});if(!res.ok)throw Error('GitHub HTTP '+res.status);const record=await res.json();const raw=atob((record.content||'').replace(/\s/g,''));liveSnapshot=JSON.parse(decodeURIComponent(escape(raw)));try{const direct=await getDirectRain();liveSnapshot.weather={...(liveSnapshot.weather||{}),...direct}}catch(_){/* GitHub Actions blijft de fallback wanneer de directe bron niet beschikbaar is. */}updateWeatherCorner();if(running&&!admin&&previousRainVersion!==liveSnapshot?.weather?.rainUpdatedAt){const stage=$('stage');if(stage?.querySelector('.weather-page')){stage.replaceChildren();renderLiveSlide(stage,'live-weather',{})}}}catch(e){console.warn('Live gegevens kunnen niet worden bijgewerkt',e)}}
