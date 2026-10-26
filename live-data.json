@@ -1,8 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T04:19:26+00:00",
+    "updatedAt": "2026-10-26T05:05:18+00:00",
     "headlines": [
+      {
+        "title": "Lula da Silva wint Braziliaanse verkiezingen en blijft president",
+        "url": "https://www.nu.nl/buitenland/6414358/lula-da-silva-wint-braziliaanse-verkiezingen-en-blijft-president.html",
+        "date": "Mon, 26 Oct 2026 05:37:30 +0100"
+      },
       {
         "title": "Niet links of rechts, maar met of zonder Netanyahu is de keuze voor Israël",
         "url": "https://www.nu.nl/buitenland/6414067/niet-links-of-rechts-maar-met-of-zonder-netanyahu-is-de-keuze-voor-israel.html",
@@ -32,11 +37,6 @@
         "title": "Stembureaus Brazilië twee uur langer open nadat hooggerechtshof ingrijpt",
         "url": "https://www.nu.nl/buitenland/6414373/stembureaus-brazilie-twee-uur-langer-open-nadat-hooggerechtshof-ingrijpt.html",
         "date": "Sun, 25 Oct 2026 22:54:55 +0100"
-      },
-      {
-        "title": "Sven Kockelmann wint Sonja Barend Award voor interview met Dick Schoof",
-        "url": "https://www.nu.nl/media/6414375/sven-kockelmann-wint-sonja-barend-award-voor-interview-met-dick-schoof.html",
-        "date": "Sun, 25 Oct 2026 22:47:53 +0100"
       }
     ]
   },
@@ -44,42 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:00",
-        "mmHour": 0.0
-      },
       {
         "time": "06:05",
         "mmHour": 0.0
@@ -139,12 +103,48 @@
       {
         "time": "07:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.3,
+    "temperature": 11.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T04:19:27+00:00",
-    "rainUpdatedAt": "2026-10-26T04:19:27+00:00"
+    "weatherUpdatedAt": "2026-10-26T05:05:18+00:00",
+    "rainUpdatedAt": "2026-10-26T05:05:20+00:00"
   }
 }
