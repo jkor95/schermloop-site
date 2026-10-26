@@ -76,7 +76,21 @@ function makeWeatherPage(page,w){
   const loader=document.createElement('div');loader.className='buienradar-loading';loader.textContent='Regenradar wordt geladen…';
   iframe.addEventListener('load',()=>{loader.hidden=true});
   map.append(iframe,loader);
-  function scaleRadar(){if(!map.isConnected)return;const width=map.clientWidth,height=map.clientHeight;iframe.style.setProperty('--radar-scale',String(Math.max(.5,Math.min(width/330,height/330))))}
+  function scaleRadar(){
+    if(!map.isConnected)return;
+    const height=map.clientHeight;
+    if(height<20)return;
+    const styles=getComputedStyle(radar);
+    const gutters=(parseFloat(styles.paddingLeft)||0)+(parseFloat(styles.paddingRight)||0)+2;
+    const availableWidth=layout.clientWidth;
+    const desired=Math.round(Math.min(availableWidth*.48,height+gutters));
+    if(desired>0){
+      const current=parseFloat(layout.style.getPropertyValue('--radar-panel-width'));
+      if(!Number.isFinite(current)||Math.abs(current-desired)>2)layout.style.setProperty('--radar-panel-width',desired+'px')
+    }
+    const scale=Math.max(.3,Math.min(map.clientWidth,map.clientHeight)/330);
+    iframe.style.setProperty('--radar-scale',String(scale))
+  }
   if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(()=>{if(!map.isConnected){observer.disconnect();return}scaleRadar()});observer.observe(map)}
   else window.addEventListener('resize',scaleRadar,{passive:true});
   requestAnimationFrame(scaleRadar);
