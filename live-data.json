@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T19:51:50+00:00",
+    "updatedAt": "2026-10-26T20:20:17+00:00",
     "headlines": [
+      {
+        "title": "Video | Enorm boorplatform verdwijnt tijdens installatie in zee bij Gabon",
+        "url": "https://www.nu.nl/331661/video/enorm-boorplatform-verdwijnt-tijdens-installatie-in-zee-bij-gabon.html",
+        "date": "Mon, 26 Oct 2026 21:00:27 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/dowxd3ga4hsp_sqr256/165/0/718/718/enorm-boorplatform-verdwijnt-tijdens-installatie-in-zee-bij-gabon.jpg"
+      },
+      {
+        "title": "Reserves Canadese ahornsiroop dreigen op te raken door ruzie met VS",
+        "url": "https://www.nu.nl/economie/6414491/reserves-canadese-ahornsiroop-dreigen-op-te-raken-door-ruzie-met-vs.html",
+        "date": "Mon, 26 Oct 2026 20:20:02 +0100",
+        "summary": "De strategische reserves maple syrup of ahornsiroop in Canada dreigen in februari op te raken, waarschuwt de vereniging van producenten. Dat heeft vooral te maken met de handelsoorlog tussen Canada en de Verenigde Staten.",
+        "imageUrl": "https://images.nu.nl/m/r4hxclgaz2ar_sqr256/962/0/3835/3835/reserves-canadese-ahornsiroop-dreigen-op-te-raken-door-ruzie-met-vs.jpg"
+      },
       {
         "title": "Schrijver Herman Koch heeft ziekte van Parkinson: 'Ik ben al een beetje gewend'",
         "url": "https://www.nu.nl/achterklap/6414490/schrijver-herman-koch-heeft-ziekte-van-parkinson-ik-ben-al-een-beetje-gewend.html",
@@ -25,11 +39,11 @@
         "imageUrl": "https://images.nu.nl/m/h9bx12cap5sb_sqr256/77/0/1250/1250/oekraine-wacht-bijna-maand-op-luchtverdediging-vs-eu-geeft-miljoenensteun.jpg"
       },
       {
-        "title": "Geweld tijdens Walibi Fright Nights is terugkerend probleem: 'Zwarte zaterdag'",
-        "url": "https://www.nu.nl/binnenland/6414469/geweld-tijdens-walibi-fright-nights-is-terugkerend-probleem-zwarte-zaterdag.html",
+        "title": "Geweld Walibi Fright Night is jaarlijks probleem: 'Wordt al zwarte zaterdag genoemd'",
+        "url": "https://www.nu.nl/binnenland/6414469/geweld-walibi-fright-night-is-jaarlijks-probleem-wordt-al-zwarte-zaterdag-genoemd.html",
         "date": "Mon, 26 Oct 2026 19:35:56 +0100",
         "summary": "De ongeregeldheden bij Walibi Fright Nights afgelopen zaterdag waren niet nieuw. Elk jaar zijn er tijdens het halloweenevenement van het pretpark in Biddinghuizen incidenten zoals vechtpartijen. \"Acteurs spreken ook wel van zwarte zaterdag.\"",
-        "imageUrl": "https://images.nu.nl/m/5gjxi1famijf_sqr256/98/0/478/478/geweld-tijdens-walibi-fright-nights-is-terugkerend-probleem-zwarte-zaterdag.jpg"
+        "imageUrl": "https://images.nu.nl/m/5gjxi1famijf_sqr256/98/0/478/478/geweld-walibi-fright-night-is-jaarlijks-probleem-wordt-al-zwarte-zaterdag-genoemd.jpg"
       },
       {
         "title": "Microsoft biedt kwart van werknemers vertrekregeling aan om kosten te drukken",
@@ -37,20 +51,6 @@
         "date": "Mon, 26 Oct 2026 18:28:29 +0100",
         "summary": "Microsoft heeft 60.000 werknemers in de Verenigde Staten, het Verenigd Koninkrijk, Canada en India een regeling aangeboden om vrijwillig te vertrekken. Het softwarebedrijf wil de kosten omlaagbrengen en wil zich meer richten op AI.",
         "imageUrl": "https://images.nu.nl/m/9e9xztyap1up_sqr256/906/7/5376/5376/microsoft-biedt-kwart-van-werknemers-vertrekregeling-aan-om-kosten-te-drukken.jpg"
-      },
-      {
-        "title": "Zwitsers dorp bedreigd door ijsblok van 250 miljoen kilo dat langzaam berg afglijdt",
-        "url": "https://www.nu.nl/buitenland/6414480/zwitsers-dorp-bedreigd-door-ijsblok-van-250-miljoen-kilo-dat-langzaam-berg-afglijdt.html",
-        "date": "Mon, 26 Oct 2026 18:11:45 +0100",
-        "summary": "Het Zwitserse dorp Randa wordt bedreigd door een enorm ijsblok dat van een gletsjer afglijdt. De ijsberg verschuift tot wel 20 centimeter per dag.",
-        "imageUrl": "https://images.nu.nl/m/iebxomqa937b_sqr256/202/0/635/635/zwitsers-dorp-bedreigd-door-ijsblok-van-250-miljoen-kilo-dat-langzaam-berg-afglijdt.jpg"
-      },
-      {
-        "title": "Zeldzame 'Engel des doods'-paddenstoel aangetroffen op Utrechtse Heuvelrug",
-        "url": "https://www.nu.nl/binnenland/6414478/zeldzame-engel-des-doods-paddenstoel-aangetroffen-op-utrechtse-heuvelrug.html",
-        "date": "Mon, 26 Oct 2026 17:48:41 +0100",
-        "summary": "Paddenstoelenexpert Rob Chrispijn heeft een kleverige knolamaniet gevonden op de Utrechtse Heuvelrug. Die paddenstoel staat bekend als de 'Engel des doods' en was sinds de jaren negentig niet meer gezien in het gebied.",
-        "imageUrl": "https://images.nu.nl/m/slgxj73a5f8n_sqr256/876/6/3479/3479/zeldzame-engel-des-doods-paddenstoel-aangetroffen-op-utrechtse-heuvelrug.jpg"
       }
     ]
   },
@@ -58,30 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:15",
-        "mmHour": 0.0
-      },
       {
         "time": "21:20",
         "mmHour": 0.0
@@ -153,12 +129,36 @@
       {
         "time": "22:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.6,
+    "temperature": 11.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T19:51:51+00:00",
-    "rainUpdatedAt": "2026-10-26T19:51:52+00:00"
+    "weatherUpdatedAt": "2026-10-26T20:20:17+00:00",
+    "rainUpdatedAt": "2026-10-26T20:20:17+00:00"
   }
 }
