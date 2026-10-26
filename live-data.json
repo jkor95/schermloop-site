@@ -1,11 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T06:17:23+00:00",
+    "updatedAt": "2026-10-26T07:23:35+00:00",
     "headlines": [
       {
-        "title": "Live | Midden-Oosten | Opnieuw vallen Houthi's luchthaven in Saoedi-Arabië aan",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-opnieuw-vallen-houthis-luchthaven-in-saoedi-arabie-aan.html",
+        "title": "PostNL ziet dat Nederlanders veel minder pakketjes uit het buitenland bestellen",
+        "url": "https://www.nu.nl/economie/6414390/postnl-ziet-dat-nederlanders-veel-minder-pakketjes-uit-het-buitenland-bestellen.html",
+        "date": "Mon, 26 Oct 2026 07:47:51 +0100"
+      },
+      {
+        "title": "Australische moordenaar verliest zaak om Vegemite te mogen eten in gevangenis",
+        "url": "https://www.nu.nl/buitenland/6414389/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.html",
+        "date": "Mon, 26 Oct 2026 07:46:13 +0100"
+      },
+      {
+        "title": "Live | Midden-Oosten | Houthi's vallen weer luchthaven in Saoedi-Arabië aan",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.html",
         "date": "Mon, 26 Oct 2026 06:47:12 +0100"
       },
       {
@@ -14,29 +24,19 @@
         "date": "Mon, 26 Oct 2026 06:14:47 +0100"
       },
       {
-        "title": "Lula da Silva wint Braziliaanse verkiezingen, Bolsonaro erkent nederlaag niet",
-        "url": "https://www.nu.nl/buitenland/6414358/lula-da-silva-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.html",
+        "title": "President Lula wint Braziliaanse verkiezingen, Bolsonaro erkent nederlaag niet",
+        "url": "https://www.nu.nl/buitenland/6414358/president-lula-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.html",
         "date": "Mon, 26 Oct 2026 05:37:30 +0100"
       },
       {
-        "title": "Niet links of rechts, maar met of zonder Netanyahu is de keuze voor Israël",
-        "url": "https://www.nu.nl/buitenland/6414067/niet-links-of-rechts-maar-met-of-zonder-netanyahu-is-de-keuze-voor-israel.html",
+        "title": "Oppositie Israël kan bij winst ook zonder regering erfenis Netanyahu aanpakken",
+        "url": "https://www.nu.nl/buitenland/6414067/oppositie-israel-kan-bij-winst-ook-zonder-regering-erfenis-netanyahu-aanpakken.html",
         "date": "Mon, 26 Oct 2026 05:07:14 +0100"
       },
       {
         "title": "Podcast | 'Absurd hoeveel sneller Antonelli was dan Russell'",
         "url": "https://www.nu.nl/formule-1/6414382/absurd-hoeveel-sneller-antonelli-was-dan-russell.html",
         "date": "Mon, 26 Oct 2026 03:40:19 +0100"
-      },
-      {
-        "title": "Doden en duizenden huizen zonder stroom na storm Boelo in Verenigd Koninkrijk",
-        "url": "https://www.nu.nl/buitenland/6414379/doden-en-duizenden-huizen-zonder-stroom-na-storm-boelo-in-verenigd-koninkrijk.html",
-        "date": "Mon, 26 Oct 2026 00:10:27 +0100"
-      },
-      {
-        "title": "Ruim tachtig gewonden nadat bus in ravijn stort bij Barcelona",
-        "url": "https://www.nu.nl/buitenland/6414376/ruim-tachtig-gewonden-nadat-bus-in-ravijn-stort-bij-barcelona.html",
-        "date": "Sun, 25 Oct 2026 23:20:38 +0100"
       }
     ]
   },
@@ -44,54 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:15",
-        "mmHour": 0.0
-      },
       {
         "time": "08:20",
         "mmHour": 0.0
@@ -139,12 +91,60 @@
       {
         "time": "09:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.9,
+    "temperature": 10.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T06:17:23+00:00",
-    "rainUpdatedAt": "2026-10-26T06:17:24+00:00"
+    "weatherUpdatedAt": "2026-10-26T07:23:35+00:00",
+    "rainUpdatedAt": "2026-10-26T07:23:36+00:00"
   }
 }
