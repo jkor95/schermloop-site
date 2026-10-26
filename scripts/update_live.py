@@ -7,6 +7,7 @@ import math
 from pathlib import Path
 import re
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,7 +39,31 @@ def main():
             title = html.unescape(item.findtext("title") or "").strip()
             link = (item.findtext("link") or "").strip()
             if title and link.startswith("https://www.nu.nl/"):
-                headlines.append({"title": title[:180], "url": link, "date": item.findtext("pubDate") or ""})
+                raw_description = item.findtext("description") or ""
+                summary = html.unescape(re.sub(r"<[^>]*>", " ", raw_description))
+                summary = re.sub(r"\\s+", " ", summary).strip()
+                if summary.startswith(title):
+                    summary = summary[len(title):].lstrip(" .:-")
+                if len(summary) > 320:
+                    summary = summary[:317].rsplit(" ", 1)[0] + "..."
+                image_url = ""
+                for element in item.iter():
+                    tag = element.tag.lower()
+                    url = element.get("url", "")
+                    if not url and tag.endswith("image"):
+                        url = (element.text or "").strip()
+                    if not url.startswith("https://"):
+                        continue
+                    host = (urlsplit(url).hostname or "").lower()
+                    if host != "nu.nl" and not host.endswith(".nu.nl"):
+                        continue
+                    if tag.endswith("enclosure") and not element.get("type", "").startswith("image/"):
+                        continue
+                    if tag.endswith(("enclosure", "thumbnail", "content", "image")):
+                        image_url = url
+                        break
+                headlines.append({"title": title[:180], "url": link, "date": item.findtext("pubDate") or "",
+                                  "summary": summary, "imageUrl": image_url})
             if len(headlines) >= 7:
                 break
         if not headlines:
