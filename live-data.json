@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T00:47:47+00:00",
+    "updatedAt": "2026-10-26T01:36:04+00:00",
     "headlines": [
       {
         "title": "Doden en duizenden huizen zonder stroom na storm Boelo in Verenigd Koninkrijk",
@@ -44,42 +44,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "01:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:30",
-        "mmHour": 0.0
-      },
       {
         "time": "02:35",
         "mmHour": 0.0
@@ -139,12 +103,48 @@
       {
         "time": "03:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "03:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.9,
+    "temperature": 12.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T00:47:47+00:00",
-    "rainUpdatedAt": "2026-10-26T00:47:48+00:00"
+    "weatherUpdatedAt": "2026-10-26T01:36:04+00:00",
+    "rainUpdatedAt": "2026-10-26T01:36:05+00:00"
   }
 }
