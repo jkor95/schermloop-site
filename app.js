@@ -22,7 +22,7 @@ function currentRainPoints(weather){
   const elapsed=Math.max(0,Math.floor((Date.now()-stamp)/300000));
   return points.slice(Math.min(elapsed,points.length))
 }
-function rainDescription(rain){if(!Array.isArray(rain)||!rain.length)return 'Regenverwachting tijdelijk niet beschikbaar';const index=rain.findIndex(p=>Number(p.mmHour)>0.1);if(index===0)return 'Het regent nu of binnen enkele minuten';if(index<0)return 'Voorlopig geen regen verwacht';return 'Regen verwacht over circa '+(index*5)+' minuten'}
+function rainDescription(rain){if(!Array.isArray(rain)||!rain.length)return 'Regenverwachting tijdelijk niet beschikbaar';const peak=Math.max(0,...rain.map(point=>Math.max(0,Number(point.mmHour)||0)));if(peak<0.1)return 'Voorlopig geen regen verwacht';if(peak>=10)return 'Zware regen verwacht';if(peak>=2.5)return 'Matige regen verwacht';return 'Lichte regen verwacht'}
 function updateWeatherCorner(){let el=$('weather-corner');if(!el)return;el.hidden=!liveSettings.cornerWeather;if(el.hidden)return;const w=liveSnapshot?.weather||{};el.replaceChildren();let title=document.createElement('b');title.textContent='Dordrecht · Buienradar';let current=document.createElement('div');current.textContent=w.temperature==null?'Weer wordt bijgewerkt':Math.round(Number(w.temperature))+' °C · '+(w.description||'Actueel weer');let rain=document.createElement('small');rain.textContent=rainDescription(currentRainPoints(w));el.append(title,current,rain)}
 async function getDirectRain(){
   const endpoint='https://gpsgadget.buienradar.nl/data/raintext/?lat=51.79103&lon=4.68571';
