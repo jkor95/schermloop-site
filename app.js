@@ -10,13 +10,13 @@ $('token').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault()
 const to64=async file=>{try{return await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=()=>reject(reader.error||new Error('Bestand kon niet gelezen worden'));reader.onload=()=>{const result=String(reader.result||'');const part=result.split(',')[1];part?resolve(part):reject(new Error('Bestand is leeg of onleesbaar'))};reader.readAsDataURL(file)})}catch(e){throw new Error('Bestand kan niet vanaf dit apparaat gelezen worden ('+(e.message||e)+'). Bewaar het eerst lokaal (bijvoorbeeld Downloads) en selecteer het opnieuw.')}};async function write(path,content){
   for(let attempt=0;attempt<6;attempt++){
     let sha;
-    try{sha=(await request(path)).sha}catch(e){if(!/^GitHub 404(?:\D|$)/.test(String(e)))throw e}
+    try{sha=(await request(path)).sha}catch(e){if(!/\bGitHub 404(?:\D|$)/.test(String(e)))throw e}
     try{
       return await request(path,'PUT',{message:'SchermLoop: '+path,content,...(sha?{sha}:{})})
     }catch(e){
       // Bij 409 is de GitHub-versie tussentijds gewijzigd (bijv. door Actions).
       // Lees bij een volgende poging altijd opnieuw de actuele SHA.
-      if(!/^GitHub 409(?:\D|$)/.test(String(e)))throw e;
+      if(!/\bGitHub 409(?:\D|$)/.test(String(e)))throw e;
       if(attempt===5)throw Error('Het bestand is tijdens het opslaan meerdere keren gewijzigd. Probeer opnieuw op te slaan.');
       await new Promise(resolve=>setTimeout(resolve,250*(attempt+1)))
     }
