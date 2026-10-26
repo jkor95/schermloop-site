@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T10:31:27+00:00",
+    "updatedAt": "2026-10-26T11:21:28+00:00",
     "headlines": [
       {
-        "title": "Onvoorspelbare Gouden Bal-verkiezing: Yamal, Mbappé, Kane of toch Messi?",
-        "url": "https://www.nu.nl/voetbal/6413772/onvoorspelbare-gouden-bal-verkiezing-yamal-mbappe-kane-of-toch-messi.html",
+        "title": "Video | Beroemde 'hangende' begraafplaats in Indonesië gaat in vlammen op",
+        "url": "https://www.nu.nl/331651/video/beroemde-hangende-begraafplaats-in-indonesie-gaat-in-vlammen-op.html",
+        "date": "Mon, 26 Oct 2026 12:04:09 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/zkuxk26abz6q_sqr256/0/3/1077/1077/beroemde-hangende-begraafplaats-in-indonesie-gaat-in-vlammen-op.jpg"
+      },
+      {
+        "title": "Eric Bauza, stem achter Bugs Bunny en Daffy Duck, onverwacht overleden",
+        "url": "https://www.nu.nl/achterklap/6414422/eric-bauza-stem-achter-bugs-bunny-en-daffy-duck-onverwacht-overleden.html",
+        "date": "Mon, 26 Oct 2026 11:27:31 +0100",
+        "summary": "Eric Bauza, de stem achter de moderne versies van Looney Tunes -figuren Bugs Bunny en Daffy Duck, is op 46-jarige leeftijd overleden. Zijn familie meldt maandag in een korte verklaring op Instagram dat zijn overlijden onverwacht kwam.",
+        "imageUrl": "https://images.nu.nl/m/xmox6uganrgq_sqr256/17/0/749/749/eric-bauza-stem-achter-bugs-bunny-en-daffy-duck-onverwacht-overleden.jpg"
+      },
+      {
+        "title": "Zelden was strijd om Gouden Bal zo spannend: Yamal, Mbappé, Kane of Messi?",
+        "url": "https://www.nu.nl/voetbal/6413772/zelden-was-strijd-om-gouden-bal-zo-spannend-yamal-mbappe-kane-of-messi.html",
         "date": "Mon, 26 Oct 2026 11:11:27 +0100",
         "summary": "De strijd om de Gouden Bal was zelden zo onvoorspelbaar als dit jaar. Lamine Yamal, Kylian Mbappé en Harry Kane gelden vanavond als de favorieten, maar ook Lionel Messi is altijd een naam om rekening mee te houden.",
-        "imageUrl": "https://images.nu.nl/m/nh4xdx1ayo7k_sqr256/413/0/1080/1080/onvoorspelbare-gouden-bal-verkiezing-yamal-mbappe-kane-of-toch-messi.jpg"
+        "imageUrl": "https://images.nu.nl/m/nh4xdx1ayo7k_sqr256/413/0/1080/1080/zelden-was-strijd-om-gouden-bal-zo-spannend-yamal-mbappe-kane-of-messi.jpg"
       },
       {
         "title": "Nederlands grootste hotelketen Fletcher Hotels valt in Indiase handen",
@@ -37,20 +51,6 @@
         "date": "Mon, 26 Oct 2026 09:52:11 +0100",
         "summary": "Humberto Tan vond het vooral vervelend voor zijn vriendin dat er zoveel reacties op haar zwangerschap kwamen. De 61-jarige presentator had haar vooraf gewaarschuwd voor de media-aandacht die de aankondiging met zich mee zou brengen. Vooral zijn leeftijd leidde online tot discussie.",
         "imageUrl": "https://images.nu.nl/m/f2dx8a0aigz9_sqr256/1032/0/3708/3708/humberto-tan-vindt-reacties-op-aanstaand-vaderschap-vervelend-voor-partner.jpg"
-      },
-      {
-        "title": "Antonelli groeide uit van underdog tot titelkandidaat: 'Seizoen is mooie verrassing'",
-        "url": "https://www.nu.nl/formule-1/6414380/antonelli-groeide-uit-van-underdog-tot-titelkandidaat-seizoen-is-mooie-verrassing.html",
-        "date": "Mon, 26 Oct 2026 09:49:11 +0100",
-        "summary": "De wereldtitel kan Kimi Antonelli haast niet meer ontgaan. De Mercedes-coureur heeft in de resterende vijf races nog slechts twee punten nodig om Formule 1-kampioen te worden. Antonelli wil vooral genieten van het einde van een \"verrassend seizoen\".",
-        "imageUrl": "https://images.nu.nl/m/mqsx94xae5vc_sqr256/836/0/3686/3686/antonelli-groeide-uit-van-underdog-tot-titelkandidaat-seizoen-is-mooie-verrassing.jpg"
-      },
-      {
-        "title": "Piloten gaan ondanks moeheid naar werk en doen soms dutje tijdens vlucht",
-        "url": "https://www.nu.nl/economie/6414393/piloten-gaan-ondanks-moeheid-naar-werk-en-doen-soms-dutje-tijdens-vlucht.html",
-        "date": "Mon, 26 Oct 2026 08:50:29 +0100",
-        "summary": "Bijna een kwart van de piloten bij Europese luchtvaartmaatschappijen is weleens te moe om te vliegen, maar durft zich dan niet ziek te melden. Driekwart valt weleens in slaap in de cockpit, blijkt uit een onderzoek van de brancheorganisatie voor Europese piloten.",
-        "imageUrl": "https://images.nu.nl/m/lkaxw6oaujje_sqr256/579/0/2925/2925/piloten-gaan-ondanks-moeheid-naar-werk-en-doen-soms-dutje-tijdens-vlucht.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "11:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
       {
         "time": "12:20",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "13:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "13:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:00",
+        "mmHour": 0.1
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.21
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.21
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.1
       }
     ],
-    "temperature": 11.2,
+    "temperature": 12.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T10:31:28+00:00",
-    "rainUpdatedAt": "2026-10-26T10:31:29+00:00"
+    "weatherUpdatedAt": "2026-10-26T11:21:29+00:00",
+    "rainUpdatedAt": "2026-10-26T11:21:30+00:00"
   }
 }
