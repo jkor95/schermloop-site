@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T22:08:14+00:00",
+    "updatedAt": "2026-10-26T22:42:34+00:00",
     "headlines": [
+      {
+        "title": "Opnieuw oproep tot protest in Frankrijk ondanks maatregelen voor beter onderwijs",
+        "url": "https://www.nu.nl/buitenland/6414496/opnieuw-oproep-tot-protest-in-frankrijk-ondanks-maatregelen-voor-beter-onderwijs.html",
+        "date": "Mon, 26 Oct 2026 23:07:14 +0100",
+        "summary": "In Frankrijk hebben studenten opnieuw opgeroepen om te protesteren. Een voorstel van de regering voor verbeteringen in het onderwijs vint de protestbeweging onvoldoende.",
+        "imageUrl": "https://images.nu.nl/m/nxqx56dan42n_sqr256/1528/0/4249/4249/opnieuw-oproep-tot-protest-in-frankrijk-ondanks-maatregelen-voor-beter-onderwijs.jpg"
+      },
       {
         "title": "Dode griend aangespoeld bij Egmond: 'Uitzonderlijk jaar voor gestrande dieren'",
         "url": "https://www.nu.nl/binnenland/6414499/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.html",
         "date": "Mon, 26 Oct 2026 22:42:36 +0100",
         "summary": "In Egmond is een maandagochtend een dode griend aangespoeld. Het dier was in verre staat van ontbinding. Dit jaar zijn er al twaalf verschillende walvisachtigen gestrand in Nederland. Dat is volgens SOS Dolfijn \"uitzonderlijk veel\".",
-        "imageUrl": "https://images.nu.nl/m/30cx7spaduvo_sqr256/10/0/343/343/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
+        "imageUrl": "https://images.nu.nl/m/iwqxm4na7or0_sqr256/1564/0/4984/4984/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
       },
       {
         "title": "Studentenlijst wil Servië 'heropbouwen', maar het is niet duidelijk hoe",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 20:13:29 +0100",
         "summary": "Schrijver Herman Koch heeft de ziekte van Parkinson, vertelde hij maandag in een interview in talkshow Eva . De 73-jarige auteur leed al sinds 2020 aan uitgezaaide prostaatkanker.",
         "imageUrl": "https://images.nu.nl/m/aiaxi4payzq3_sqr256/1701/0/4779/4779/schrijver-herman-koch-heeft-ziekte-van-parkinson-ik-ben-al-een-beetje-gewend.jpg"
-      },
-      {
-        "title": "Kabinet steekt 450 miljoen euro in fonds om regenwoud te beschermen",
-        "url": "https://www.nu.nl/klimaat/6414488/kabinet-steekt-450-miljoen-euro-in-fonds-om-regenwoud-te-beschermen.html",
-        "date": "Mon, 26 Oct 2026 19:55:26 +0100",
-        "summary": "Het kabinet is van plan om over een periode van tien jaar 500 miljoen dollar (bijna 450 miljoen euro) te steken in de bescherming van oerwouden wereldwijd. Dat gebeurt via een investering in een internationaal 'bossenfonds' dat vorig jaar is opgericht.",
-        "imageUrl": "https://images.nu.nl/m/7j0xou3athvw_sqr256/1015/0/4843/4843/kabinet-steekt-450-miljoen-euro-in-fonds-om-regenwoud-te-beschermen.jpg"
       }
     ]
   },
@@ -58,30 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:35",
-        "mmHour": 0.0
-      },
       {
         "time": "23:40",
         "mmHour": 0.0
@@ -153,12 +129,36 @@
       {
         "time": "01:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.2,
+    "temperature": 12.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T22:08:15+00:00",
-    "rainUpdatedAt": "2026-10-26T22:08:16+00:00"
+    "weatherUpdatedAt": "2026-10-26T22:42:35+00:00",
+    "rainUpdatedAt": "2026-10-26T22:42:37+00:00"
   }
 }
