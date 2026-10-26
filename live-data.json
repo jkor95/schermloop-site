@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T23:13:15+00:00",
+    "updatedAt": "2026-10-26T23:47:36+00:00",
     "headlines": [
+      {
+        "title": "Hof verwerpt plan van Trump om 20.000 stemmen in Californië niet mee te tellen",
+        "url": "https://www.nu.nl/verkiezingen-vs/6414501/hof-verwerpt-plan-van-trump-om-20000-stemmen-in-californie-niet-mee-te-tellen.html",
+        "date": "Tue, 27 Oct 2026 00:22:14 +0100",
+        "summary": "Een federaal hof heeft maandag het plan van Donald Trump verworpen om 20.000 stemmen van geregistreerde kiezers in Californië achter te houden. Volgens de overheid zouden deze mensen geen Amerikaanse staatsburgers zijn.",
+        "imageUrl": "https://images.nu.nl/m/ufbxjcqajmfu_sqr256/1360/0/4728/4728/hof-verwerpt-plan-van-trump-om-20000-stemmen-in-californie-niet-mee-te-tellen.jpg"
+      },
       {
         "title": "Kleine groep miljardairs stoot meer uit dan miljarden arme mensen",
         "url": "https://www.nu.nl/klimaat/6414418/kleine-groep-miljardairs-stoot-meer-uit-dan-miljarden-arme-mensen.html",
@@ -15,7 +22,7 @@
         "url": "https://www.nu.nl/voetbal/6414485/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.html",
         "date": "Mon, 26 Oct 2026 23:51:17 +0100",
         "summary": "Harry Kane heeft maandag op het jaarlijkse voetbalgala de Gouden Bal gewonnen. De spits van Bayern München troefde in Londen onder anderen Kylian Mbappé en Lamine Yamal af. De Engelsman wordt bekroond voor een opvallend productief seizoen.",
-        "imageUrl": "https://images.nu.nl/m/1ehxlq3a8xdp_sqr256/1516/535/1873/1873/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.jpg"
+        "imageUrl": "https://images.nu.nl/m/wibxq70al6kl_sqr256/1807/374/4140/4140/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.jpg"
       },
       {
         "title": "Man verliest been nadat rugzak blijft hangen aan vertrekkende trein in België",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 22:25:26 +0100",
         "summary": "De studentenprotestbeweging die zondag de Servische verkiezingen won, wil het land \"wederopbouwen\". Maar de Studentenlijst heeft een gebrek aan ervaring en geen duidelijke leider. Bovendien lijken er (nog) geen concrete plannen te zijn voor de opvolging van oud-president Aleksandar Vucic.",
         "imageUrl": "https://images.nu.nl/m/57qxrt1azxh2_sqr256/589/0/4000/4000/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.jpg"
-      },
-      {
-        "title": "Verdachte van dodelijke schietpartij bij Parijs ontkent racistisch motief",
-        "url": "https://www.nu.nl/buitenland/6414492/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.html",
-        "date": "Mon, 26 Oct 2026 21:19:29 +0100",
-        "summary": "De verdachte van de dodelijke schietpartij in een voorstad van Parijs ontkent dat hij een racistisch motief had. Bij het incident kwam een man om het leven. Vijf anderen raakten gewond, onder wie twee kinderen.",
-        "imageUrl": "https://images.nu.nl/m/lmxx25qap2h6_sqr256/489/0/1422/1422/verdachte-van-dodelijke-schietpartij-bij-parijs-ontkent-racistisch-motief.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
       {
         "time": "00:50",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "02:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.6,
+    "temperature": 12.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T23:13:16+00:00",
-    "rainUpdatedAt": "2026-10-26T23:13:17+00:00"
+    "weatherUpdatedAt": "2026-10-26T23:47:37+00:00",
+    "rainUpdatedAt": "2026-10-26T23:47:37+00:00"
   }
 }
