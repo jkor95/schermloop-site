@@ -195,7 +195,8 @@ async function loadPlaylist(){try{const incoming=await json('data/runtime.json')
   $('news-speed-row').hidden=!enabled||!ticker;
   $('news-speed-label').textContent=String($('news-speed').value)+' px/s'
 }
-async function loadAdmin(){let data=await json('data/playlist.json');items=Array.isArray(data.items)?data.items:[];await loadLiveSettings();if($('live-news')){$('live-news').checked=!!liveSettings.news.enabled;$('news-duration').value=liveSettings.news.duration||25;$('news-mode').value=liveSettings.news.mode==='ticker'?'ticker':'pages';$('news-speed').value=newsTickerSpeed();updateNewsModeControls();$('live-weather').checked=!!liveSettings.weather.enabled;$('weather-duration').value=liveSettings.weather.duration||20;$('corner-weather').checked=!!liveSettings.cornerWeather}render()}function render(){
+let savedPlaylistSnapshot='',savedLiveSettingsSnapshot='',saving=false;
+async function loadAdmin(){let data=await json('data/playlist.json');items=Array.isArray(data.items)?data.items:[];savedPlaylistSnapshot=JSON.stringify({items});await loadLiveSettings();savedLiveSettingsSnapshot=JSON.stringify(liveSettings);if($('live-news')){$('live-news').checked=!!liveSettings.news.enabled;$('news-duration').value=liveSettings.news.duration||25;$('news-mode').value=liveSettings.news.mode==='ticker'?'ticker':'pages';$('news-speed').value=newsTickerSpeed();updateNewsModeControls();$('live-weather').checked=!!liveSettings.weather.enabled;$('weather-duration').value=liveSettings.weather.duration||20;$('corner-weather').checked=!!liveSettings.cornerWeather}render()}function render(){
   const root=$('items');root.replaceChildren();
   items.forEach((item,i)=>{
     const li=document.createElement('li');
@@ -264,4 +265,45 @@ async function pptxTimes(item,li){
     section.append(note)
   }catch(e){section.textContent='Dia’s nog niet beschikbaar: '+e.message}
 }
-function move(i,d){let j=i+d;if(j<0||j>=items.length)return;[items[i],items[j]]=[items[j],items[i]];render()}async function save(){status('Instellingen opslaan…');await writeJson('data/playlist.json',{items});if($('live-news')){liveSettings={news:{enabled:$('live-news').checked,duration:Math.max(5,Math.min(600,Number($('news-duration').value)||25)),mode:$('news-mode').value==='ticker'?'ticker':'pages',speed:Math.max(30,Math.min(180,Number($('news-speed').value)||80))},weather:{enabled:$('live-weather').checked,duration:Math.max(5,Math.min(600,Number($('weather-duration').value)||20))},cornerWeather:$('corner-weather').checked,place:'Dordrecht'};await writeJson('data/live-settings.json',liveSettings)}status('Opgeslagen. Live nieuws en Buienradar verversen automatisch; presentatie-instellingen worden bijgewerkt.')}async function upload(){let f=$('file').files[0];if(!f)throw Error('Kies een bestand');if(f.size>50*1024*1024)throw Error('Maximaal 50 MB');let ext=f.name.split('.').pop().toLowerCase();if(!['jpg','jpeg','png','webp','gif','mp4','webm','mov','pptx'].includes(ext))throw Error('Bestandstype niet ondersteund');status('Bestand lezen en uploaden: '+f.name+' ('+Math.round(f.size/1024)+' KB)…');let path='media/uploads/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9_.-]/g,'_');await write(path,await to64(f));items.push({name:f.name,path,type:ext==='pptx'?'pptx':['mp4','webm','mov'].includes(ext)?'video':'image',duration:Number($('duration').value)||10});render();await save();status(ext==='pptx'?'PowerPoint ontvangen: GitHub Actions moet de dia’s verwerken.':'Bestand toegevoegd en opgeslagen.')}function logout(){running=false;sequence++;localStorage.removeItem(VAULT);token='';location.reload()}buildLogin();$('logout').onclick=logout;if(admin){$('upload').onclick=()=>upload().catch(e=>status(e.message));$('save').onclick=()=>save().catch(e=>status(e.message));$('live-news').onchange=updateNewsModeControls;$('news-mode').onchange=updateNewsModeControls;$('news-speed').oninput=updateNewsModeControls}else{const screen=$('screen');let hideTimer;function controls(){screen.classList.add('show-controls');clearTimeout(hideTimer);hideTimer=setTimeout(()=>screen.classList.remove('show-controls'),3200)}function begin(){if(!running){running=true;playLoop();updateTicker()}controls()}async function full(){begin();try{if(!document.fullscreenElement){if(screen.requestFullscreen)await screen.requestFullscreen();else if(screen.webkitRequestFullscreen)screen.webkitRequestFullscreen();else $('info').textContent='Gebruik F11 in Windows voor volledig scherm.'}else await document.exitFullscreen()}catch(e){$('info').textContent='Volledig scherm niet beschikbaar: '+e.message}}function stop(){running=false;sequence++;updateTicker();screen.style.display='none';$('stage').replaceChildren();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});$('info').textContent='Presentatie gestopt. Klik op Start presentatie om opnieuw af te spelen.'} $('start').onclick=begin;$('full').onclick=full;$('screen-full').onclick=full;$('screen-stop').onclick=stop;screen.addEventListener('mousemove',controls);screen.addEventListener('touchstart',controls,{passive:true});window.addEventListener('resize',()=>{if(running)requestAnimationFrame(updateTickerTiming)},{passive:true});document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'↙ Volledig scherm sluiten':'⛶ Volledig scherm';controls()});}
+function move(i,d){let j=i+d;if(j<0||j>=items.length)return;[items[i],items[j]]=[items[j],items[i]];render()}async function save(){
+  if(saving)return;
+  saving=true;
+  const button=$('save');
+  if(button)button.disabled=true;
+  status('Instellingen opslaan…');
+  try{
+    if($('live-news')){
+      liveSettings={
+        ...liveSettings,
+        news:{
+          ...liveSettings.news,
+          enabled:$('live-news').checked,
+          duration:Math.max(5,Math.min(600,Number($('news-duration').value)||25)),
+          mode:$('news-mode').value==='ticker'?'ticker':'pages',
+          speed:Math.max(30,Math.min(180,Number($('news-speed').value)||80))
+        },
+        weather:{
+          ...liveSettings.weather,
+          enabled:$('live-weather').checked,
+          duration:Math.max(5,Math.min(600,Number($('weather-duration').value)||20))
+        },
+        cornerWeather:$('corner-weather').checked,
+        place:'Dordrecht'
+      };
+      const settingsSnapshot=JSON.stringify(liveSettings);
+      if(settingsSnapshot!==savedLiveSettingsSnapshot){
+        await writeJson('data/live-settings.json',liveSettings);
+        savedLiveSettingsSnapshot=settingsSnapshot
+      }
+    }
+    const playlistSnapshot=JSON.stringify({items});
+    if(playlistSnapshot!==savedPlaylistSnapshot){
+      await writeJson('data/playlist.json',{items});
+      savedPlaylistSnapshot=playlistSnapshot
+    }
+    status('Opgeslagen. Live nieuws en Buienradar verversen automatisch; presentatie-instellingen worden bijgewerkt.')
+  }finally{
+    saving=false;
+    if(button)button.disabled=false
+  }
+}async function upload(){let f=$('file').files[0];if(!f)throw Error('Kies een bestand');if(f.size>50*1024*1024)throw Error('Maximaal 50 MB');let ext=f.name.split('.').pop().toLowerCase();if(!['jpg','jpeg','png','webp','gif','mp4','webm','mov','pptx'].includes(ext))throw Error('Bestandstype niet ondersteund');status('Bestand lezen en uploaden: '+f.name+' ('+Math.round(f.size/1024)+' KB)…');let path='media/uploads/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9_.-]/g,'_');await write(path,await to64(f));items.push({name:f.name,path,type:ext==='pptx'?'pptx':['mp4','webm','mov'].includes(ext)?'video':'image',duration:Number($('duration').value)||10});render();await save();status(ext==='pptx'?'PowerPoint ontvangen: GitHub Actions moet de dia’s verwerken.':'Bestand toegevoegd en opgeslagen.')}function logout(){running=false;sequence++;localStorage.removeItem(VAULT);token='';location.reload()}buildLogin();$('logout').onclick=logout;if(admin){$('upload').onclick=()=>upload().catch(e=>status(e.message));$('save').onclick=()=>save().catch(e=>status(e.message));$('live-news').onchange=updateNewsModeControls;$('news-mode').onchange=updateNewsModeControls;$('news-speed').oninput=updateNewsModeControls}else{const screen=$('screen');let hideTimer;function controls(){screen.classList.add('show-controls');clearTimeout(hideTimer);hideTimer=setTimeout(()=>screen.classList.remove('show-controls'),3200)}function begin(){if(!running){running=true;playLoop();updateTicker()}controls()}async function full(){begin();try{if(!document.fullscreenElement){if(screen.requestFullscreen)await screen.requestFullscreen();else if(screen.webkitRequestFullscreen)screen.webkitRequestFullscreen();else $('info').textContent='Gebruik F11 in Windows voor volledig scherm.'}else await document.exitFullscreen()}catch(e){$('info').textContent='Volledig scherm niet beschikbaar: '+e.message}}function stop(){running=false;sequence++;updateTicker();screen.style.display='none';$('stage').replaceChildren();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});$('info').textContent='Presentatie gestopt. Klik op Start presentatie om opnieuw af te spelen.'} $('start').onclick=begin;$('full').onclick=full;$('screen-full').onclick=full;$('screen-stop').onclick=stop;screen.addEventListener('mousemove',controls);screen.addEventListener('touchstart',controls,{passive:true});window.addEventListener('resize',()=>{if(running)requestAnimationFrame(updateTickerTiming)},{passive:true});document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'↙ Volledig scherm sluiten':'⛶ Volledig scherm';controls()});}
