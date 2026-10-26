@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T17:04:04+00:00",
+    "updatedAt": "2026-10-26T17:41:43+00:00",
     "headlines": [
+      {
+        "title": "Zwitsers dorp bedreigd door enorm ijsblok dat 20 centimeter per dag verschuift",
+        "url": "https://www.nu.nl/buitenland/6414480/zwitsers-dorp-bedreigd-door-enorm-ijsblok-dat-20-centimeter-per-dag-verschuift.html",
+        "date": "Mon, 26 Oct 2026 18:11:45 +0100",
+        "summary": "Het Zwitserse dorp Randa wordt bedreigd door een enorm ijsblok dat van een gletsjer afglijdt. De ijsberg verschuift tot wel 20 centimeter per dag.",
+        "imageUrl": "https://images.nu.nl/m/iebxomqa937b_sqr256/202/0/635/635/zwitsers-dorp-bedreigd-door-enorm-ijsblok-dat-20-centimeter-per-dag-verschuift.jpg"
+      },
       {
         "title": "Zeldzame 'Engel des doods'-paddenstoel aangetroffen op Utrechtse Heuvelrug",
         "url": "https://www.nu.nl/binnenland/6414478/zeldzame-engel-des-doods-paddenstoel-aangetroffen-op-utrechtse-heuvelrug.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 15:48:06 +0100",
         "summary": "De politie zoekt een man die vorige week meerdere vrouwen heeft lastiggevallen in een bus in Haarlem. Hij raakte een van de vrouwen ongewenst aan en maakte seksuele opmerkingen.",
         "imageUrl": "https://images.nu.nl/m/uc5x6n2abmnr_sqr256/0/0/3332/3332/man-betast-vrouw-in-haarlemse-bus-en-valt-ook-andere-vrouwen-lastig.jpg"
-      },
-      {
-        "title": "Alonso haalt uit na duel met Albon: 'Niveau F1-coureurs in achterhoede is laag'",
-        "url": "https://www.nu.nl/formule-1/6414456/alonso-haalt-uit-na-duel-met-albon-niveau-f1-coureurs-in-achterhoede-is-laag.html",
-        "date": "Mon, 26 Oct 2026 15:28:33 +0100",
-        "summary": "Fernando Alonso is niet te spreken over Alexander Albon na een incident zondag tijdens de Grand Prix van de Verenigde Staten. De Spanjaard vindt de kwaliteit van de achterhoede in de Formule 1 van een bedenkelijk niveau.",
-        "imageUrl": "https://images.nu.nl/m/7cwxc5fanfnp_sqr256/70/186/2491/2491/alonso-haalt-uit-na-duel-met-albon-niveau-f1-coureurs-in-achterhoede-is-laag.jpg"
       }
     ]
   },
@@ -59,84 +59,48 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "18:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:20",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:25",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:30",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:35",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:40",
-        "mmHour": 0.21
-      },
-      {
         "time": "18:45",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "18:50",
-        "mmHour": 0.1
+        "mmHour": 0.21
       },
       {
         "time": "18:55",
-        "mmHour": 0.1
+        "mmHour": 0.21
       },
       {
         "time": "19:00",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:05",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:10",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:15",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:20",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:25",
-        "mmHour": 0.1
+        "mmHour": 0.29
       },
       {
         "time": "19:30",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "19:35",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "19:40",
@@ -144,21 +108,57 @@
       },
       {
         "time": "19:45",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "19:50",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "19:55",
-        "mmHour": 0.1
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.1,
+    "temperature": 10.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T17:04:04+00:00",
-    "rainUpdatedAt": "2026-10-26T17:04:05+00:00"
+    "weatherUpdatedAt": "2026-10-26T17:41:43+00:00",
+    "rainUpdatedAt": "2026-10-26T17:41:44+00:00"
   }
 }
