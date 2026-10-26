@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T21:32:44+00:00",
+    "updatedAt": "2026-10-26T22:08:14+00:00",
     "headlines": [
+      {
+        "title": "Dode griend aangespoeld bij Egmond: 'Uitzonderlijk jaar voor gestrande dieren'",
+        "url": "https://www.nu.nl/binnenland/6414499/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.html",
+        "date": "Mon, 26 Oct 2026 22:42:36 +0100",
+        "summary": "In Egmond is een maandagochtend een dode griend aangespoeld. Het dier was in verre staat van ontbinding. Dit jaar zijn er al twaalf verschillende walvisachtigen gestrand in Nederland. Dat is volgens SOS Dolfijn \"uitzonderlijk veel\".",
+        "imageUrl": "https://images.nu.nl/m/30cx7spaduvo_sqr256/10/0/343/343/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
+      },
       {
         "title": "Studentenlijst wil Servië 'heropbouwen', maar het is niet duidelijk hoe",
         "url": "https://www.nu.nl/buitenland/6414487/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 19:55:26 +0100",
         "summary": "Het kabinet is van plan om over een periode van tien jaar 500 miljoen dollar (bijna 450 miljoen euro) te steken in de bescherming van oerwouden wereldwijd. Dat gebeurt via een investering in een internationaal 'bossenfonds' dat vorig jaar is opgericht.",
         "imageUrl": "https://images.nu.nl/m/7j0xou3athvw_sqr256/1015/0/4843/4843/kabinet-steekt-450-miljoen-euro-in-fonds-om-regenwoud-te-beschermen.jpg"
-      },
-      {
-        "title": "Oekraïne wacht bijna maand op luchtverdediging VS, EU geeft miljoenensteun",
-        "url": "https://www.nu.nl/spanningen-oekraine/6414483/oekraine-wacht-bijna-maand-op-luchtverdediging-vs-eu-geeft-miljoenensteun.html",
-        "date": "Mon, 26 Oct 2026 19:49:42 +0100",
-        "summary": "Oekraïne wacht al bijna een maand op nieuwe luchtverdedigingsraketten. President Volodymyr Zelensky geeft maandag de Verenigde Staten de schuld van de vertraging. De Patriots zijn \"cruciaal\" in de oorlog tegen de Russen. Ondertussen komt de EU met miljoenensteun.",
-        "imageUrl": "https://images.nu.nl/m/h9bx12cap5sb_sqr256/77/0/1250/1250/oekraine-wacht-bijna-maand-op-luchtverdediging-vs-eu-geeft-miljoenensteun.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:05",
-        "mmHour": 0.0
-      },
       {
         "time": "23:10",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.0,
+    "temperature": 12.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T21:32:45+00:00",
-    "rainUpdatedAt": "2026-10-26T21:32:46+00:00"
+    "weatherUpdatedAt": "2026-10-26T22:08:15+00:00",
+    "rainUpdatedAt": "2026-10-26T22:08:16+00:00"
   }
 }
