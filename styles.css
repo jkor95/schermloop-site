@@ -150,3 +150,90 @@
 #items .pptx-slide-option input.pptx-seconds{width:70px;min-width:0;padding:7px}
 #items .pptx-slide-option.pptx-slide-off{opacity:.55}
 #items .pptx-times > p{width:100%;margin:3px 0}
+
+/* NU.nl lichtkrant: een eigen onderste strook, nooit bovenop de presentatie. */
+#screen.with-news-ticker{
+  --ticker-height:clamp(40px,7%,72px);
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:stretch
+}
+#screen.with-news-ticker #stage{
+  flex:1 1 0;
+  height:0;
+  min-height:0;
+  width:100%;
+  overflow:hidden
+}
+#screen.with-news-ticker #news-ticker{
+  flex:0 0 var(--ticker-height);
+  height:var(--ticker-height)
+}
+#news-ticker[hidden]{display:none}
+#news-ticker{
+  display:flex;
+  align-items:stretch;
+  width:100%;
+  min-width:0;
+  color:#f1f6ff;
+  background:#09192b;
+  border-top:2px solid #4d92d3;
+  overflow:hidden;
+  font-size:clamp(16px,1.8vw,30px);
+  font-weight:600
+}
+#news-ticker .news-ticker-brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  z-index:1;
+  padding:0 clamp(11px,1.7vw,25px);
+  background:#1a4776;
+  border-right:1px solid #4d92d3;
+  font-weight:800;
+  white-space:nowrap
+}
+#news-ticker .news-ticker-window{
+  flex:1 1 auto;
+  min-width:0;
+  display:flex;
+  align-items:center;
+  overflow:hidden
+}
+#news-ticker .news-ticker-track{
+  display:flex;
+  align-items:center;
+  flex:0 0 auto;
+  min-width:max-content;
+  width:max-content;
+  animation:news-ticker-scroll 50s linear infinite;
+  will-change:transform
+}
+#news-ticker .news-ticker-copy{
+  display:flex;
+  align-items:center;
+  flex:0 0 auto;
+  gap:clamp(22px,2.5vw,48px);
+  padding-right:clamp(22px,2.5vw,48px);
+  white-space:nowrap
+}
+#news-ticker .news-ticker-headline{
+  display:inline-flex;
+  align-items:center;
+  gap:clamp(10px,.9vw,17px);
+  white-space:nowrap
+}
+#news-ticker .news-ticker-headline::before{content:'●';color:#69bfff;font-size:.65em}
+@keyframes news-ticker-scroll{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
+}
+/* De bediening blijft boven de lichtkrant en de inhoud wordt verkleind, niet bedekt. */
+#screen.with-news-ticker #screen-controls{bottom:calc(var(--ticker-height) + 12px)}
+.news-options{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin:12px 0}
+.news-options label{display:inline-flex;align-items:center;gap:8px}
+.news-options #news-mode{max-width:100%}
+.news-options #news-speed{width:170px;accent-color:#4c9fe9;padding:0}
+.news-options #news-speed-label{display:inline-block;min-width:72px;font-variant-numeric:tabular-nums}
+.news-options label[hidden]{display:none}
