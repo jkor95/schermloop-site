@@ -1,42 +1,56 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T07:23:35+00:00",
+    "updatedAt": "2026-10-26T07:29:36+00:00",
     "headlines": [
       {
         "title": "PostNL ziet dat Nederlanders veel minder pakketjes uit het buitenland bestellen",
         "url": "https://www.nu.nl/economie/6414390/postnl-ziet-dat-nederlanders-veel-minder-pakketjes-uit-het-buitenland-bestellen.html",
-        "date": "Mon, 26 Oct 2026 07:47:51 +0100"
+        "date": "Mon, 26 Oct 2026 07:47:51 +0100",
+        "summary": "PostNL ziet een scherpe daling van het aantal bezorgde pakketjes uit het buitenland. In het afgelopen kwartaal is het duurder geworden om iets bij een buitenlandse webshop te kopen. Het aantal bezorgde pakketten lag 32 procent lager dan een jaar eerder.",
+        "imageUrl": "https://images.nu.nl/m/gl8xobwa9mdm_sqr256/1467/0/3808/3808/postnl-ziet-dat-nederlanders-veel-minder-pakketjes-uit-het-buitenland-bestellen.jpg"
       },
       {
         "title": "Australische moordenaar verliest zaak om Vegemite te mogen eten in gevangenis",
         "url": "https://www.nu.nl/buitenland/6414389/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.html",
-        "date": "Mon, 26 Oct 2026 07:46:13 +0100"
+        "date": "Mon, 26 Oct 2026 07:46:13 +0100",
+        "summary": "Een Australische gevangene die naar de rechter is gestapt om een verbod op zijn favoriete broodbeleg op te laten heffen, heeft zijn zaak verloren. De 54-jarige man mag het typisch Australische smeersel Vegemite niet eten in de gevangenis.",
+        "imageUrl": "https://images.nu.nl/m/frjx56ta0wta_sqr256/1177/3/2758/2758/australische-moordenaar-verliest-zaak-om-vegemite-te-mogen-eten-in-gevangenis.jpg"
       },
       {
-        "title": "Live | Midden-Oosten | Houthi's vallen weer luchthaven in Saoedi-Arabië aan",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414370/midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.html",
-        "date": "Mon, 26 Oct 2026 06:47:12 +0100"
+        "title": "Live | Live Midden-Oosten | Houthi's vallen weer luchthaven in Saoedi-Arabië aan",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414370/live-midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.html",
+        "date": "Mon, 26 Oct 2026 06:47:12 +0100",
+        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de situatie in het Midden-Oosten en de gevolgen daarvan voor de rest van de wereld.",
+        "imageUrl": "https://images.nu.nl/m/4zfxv2ta9l2s_sqr256/804/0/2066/2066/live-midden-oosten-houthis-vallen-weer-luchthaven-in-saoedi-arabie-aan.jpg"
       },
       {
         "title": "Verstappen gefrustreerd na derde plek in Austin: 'Te veel dingen gingen mis'",
         "url": "https://www.nu.nl/formule-1/6414383/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.html",
-        "date": "Mon, 26 Oct 2026 06:14:47 +0100"
+        "date": "Mon, 26 Oct 2026 06:14:47 +0100",
+        "summary": "Max Verstappen hield zondag een podiumplek over aan de Grand Prix van de Verenigde Staten, maar was kritisch op Red Bull. Verkeerde bandenkeuzes, motorproblemen en een haperende radio maakten het een frustrerende middag voor de Nederlander.",
+        "imageUrl": "https://images.nu.nl/m/t8dxvutayn76_sqr256/1143/0/3667/3667/verstappen-gefrustreerd-na-derde-plek-in-austin-te-veel-dingen-gingen-mis.jpg"
       },
       {
         "title": "President Lula wint Braziliaanse verkiezingen, Bolsonaro erkent nederlaag niet",
         "url": "https://www.nu.nl/buitenland/6414358/president-lula-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.html",
-        "date": "Mon, 26 Oct 2026 05:37:30 +0100"
+        "date": "Mon, 26 Oct 2026 05:37:30 +0100",
+        "summary": "Luiz Inácio Lula da Silva heeft zondag de Braziliaanse presidentsverkiezingen gewonnen. Daarmee blijft Brazilië onder linkse leiding. De zittend president versloeg de rechtse senator Flávio Bolsonaro, die zijn nederlaag niet erkent.",
+        "imageUrl": "https://images.nu.nl/m/2tyxn22af1xr_sqr256/240/0/2738/2738/president-lula-wint-braziliaanse-verkiezingen-bolsonaro-erkent-nederlaag-niet.jpg"
       },
       {
         "title": "Oppositie Israël kan bij winst ook zonder regering erfenis Netanyahu aanpakken",
         "url": "https://www.nu.nl/buitenland/6414067/oppositie-israel-kan-bij-winst-ook-zonder-regering-erfenis-netanyahu-aanpakken.html",
-        "date": "Mon, 26 Oct 2026 05:07:14 +0100"
+        "date": "Mon, 26 Oct 2026 05:07:14 +0100",
+        "summary": "Israël staat dinsdag voor zijn belangrijkste verkiezing in jaren. Met meerdere oorlogen op de sluimerstand draait de campagne vooral om veiligheid: wie gaat daarvoor zorgen en hoe? Daarbij is de vraag of dat met of zonder premier Benjamin Netanyahu is.",
+        "imageUrl": "https://images.nu.nl/m/1jfx1sya2ko7_sqr256/125/1/682/682/oppositie-israel-kan-bij-winst-ook-zonder-regering-erfenis-netanyahu-aanpakken.jpg"
       },
       {
         "title": "Podcast | 'Absurd hoeveel sneller Antonelli was dan Russell'",
         "url": "https://www.nu.nl/formule-1/6414382/absurd-hoeveel-sneller-antonelli-was-dan-russell.html",
-        "date": "Mon, 26 Oct 2026 03:40:19 +0100"
+        "date": "Mon, 26 Oct 2026 03:40:19 +0100",
+        "summary": "Kimi Antonelli veegde in Austin de vloer aan met iedereen, maar het verschil met zijn teamgenoot George Russell viel het meeste op. Dat en nog veel meer hoor je in deze terugblik op de Grand Prix van de Verenigde Staten. Met coureur Ho-Pin Tung en NU.nl-verslaggevers Joost Nederpelt, Patrick Moeke en Bas Scharwachter.",
+        "imageUrl": "https://images.nu.nl/m/fnhx8ryaazuu_sqr256/160/185/2679/2679/absurd-hoeveel-sneller-antonelli-was-dan-russell.jpg"
       }
     ]
   },
@@ -44,10 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:20",
-        "mmHour": 0.0
-      },
       {
         "time": "08:25",
         "mmHour": 0.0
@@ -139,12 +149,16 @@
       {
         "time": "10:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:20",
+        "mmHour": 0.0
       }
     ],
     "temperature": 10.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T07:23:35+00:00",
-    "rainUpdatedAt": "2026-10-26T07:23:36+00:00"
+    "weatherUpdatedAt": "2026-10-26T07:29:36+00:00",
+    "rainUpdatedAt": "2026-10-26T07:29:37+00:00"
   }
 }
