@@ -229,37 +229,38 @@ async function loadAdmin(){let data=await json('data/playlist.json');items=Array
       let n=prompt('Weergavetijd in seconden (2–600)',item.duration||10);
       if(n!==null&&+n>=2&&+n<=600){item.duration=+n;render()}
     }]);
-    if(item.type==='pptx')buttons.unshift(['Dia-tijden en zichtbaarheid',()=>pptxTimes(item,li)]);
+    if(item.type==='pptx'||item.type==='pdf')buttons.unshift([item.type==='pdf'?'PDF-pagina’s instellen':'Dia-tijden en zichtbaarheid',()=>documentPageTimes(item,li)]);
     for(const [name,fn] of buttons){
       const b=document.createElement('button');b.textContent=name;b.onclick=fn;li.append(b)
     }
     root.append(li)
   })
 }
-async function pptxTimes(item,li){
+async function documentPageTimes(item,li){
   let section=li.querySelector('.pptx-times');
   if(section){section.remove();return}
   section=document.createElement('div');section.className='pptx-times';
-  section.textContent='Dia’s ophalen…';li.append(section);
+  const pageLabel=item.type==='pdf'?'Pagina':'Dia';
+  section.textContent=pageLabel==='Pagina'?'PDF-pagina’s ophalen…':'Dia’s ophalen…';li.append(section);
   try{
     const name=item.path.split('/').pop().replace(/\.[^.]+$/,'').replace(/[^A-Za-z0-9_-]/g,'_');
     const entries=await request('media/derived/'+name);
     const slides=entries.filter(x=>/^dia-\d+\.png$/i.test(x.name)).sort((a,b)=>Number(a.name.match(/\d+/)[0])-Number(b.name.match(/\d+/)[0]));
     section.replaceChildren();
-    if(!slides.length){section.textContent='De dia’s worden nog verwerkt. Probeer het straks opnieuw.';return}
+    if(!slides.length){section.textContent='De '+(item.type==='pdf'?'PDF-pagina’s':'dia’s')+' worden nog verwerkt. Probeer het straks opnieuw.';return}
     item.slideDurations??={};item.slideEnabled??={};
     for(const slide of slides){
       const n=String(Number(slide.name.match(/\d+/)[0]));
       const row=document.createElement('label');row.className='pptx-slide-option';
       const toggle=document.createElement('input');toggle.type='checkbox';toggle.checked=item.slideEnabled[n]!==false;
-      toggle.setAttribute('aria-label','Dia '+n+' tonen');
-      const nameLabel=document.createElement('span');nameLabel.textContent='Dia '+n;
+      toggle.setAttribute('aria-label',pageLabel+' '+n+' tonen');
+      const nameLabel=document.createElement('span');nameLabel.textContent=pageLabel+' '+n;
       const input=document.createElement('input');input.type='number';input.min='2';input.max='600';
       input.value=item.slideDurations[n]??item.duration??10;input.className='pptx-seconds';input.disabled=!toggle.checked;
       toggle.onchange=()=>{
         item.slideEnabled[n]=toggle.checked;input.disabled=!toggle.checked;
         row.classList.toggle('pptx-slide-off',!toggle.checked);
-        status('Zichtbaarheid van dia '+n+' gewijzigd. Klik op Opslaan om dit door te voeren.')
+        status('Zichtbaarheid van '+pageLabel.toLowerCase()+' '+n+' gewijzigd. Klik op Opslaan om dit door te voeren.')
       };
       input.onchange=()=>{
         const value=Number(input.value);
@@ -270,7 +271,7 @@ async function pptxTimes(item,li){
       row.append(toggle,nameLabel,input,document.createTextNode('sec.'));section.append(row)
     }
     const note=document.createElement('p');note.className='muted';
-    note.textContent='Ook uitgeschakelde PowerPoint-dia’s blijven bewaard. Klik op Opslaan om je keuzes door te voeren.';
+    note.textContent='Ook uitgeschakelde '+(item.type==='pdf'?'PDF-pagina’s':'PowerPoint-dia’s')+' blijven bewaard. Klik op Opslaan om je keuzes door te voeren.';
     section.append(note)
   }catch(e){section.textContent='Dia’s nog niet beschikbaar: '+e.message}
 }
@@ -316,4 +317,4 @@ function move(i,d){let j=i+d;if(j<0||j>=items.length)return;[items[i],items[j]]=
     saving=false;
     if(button)button.disabled=false
   }
-}async function upload(){let f=$('file').files[0];if(!f)throw Error('Kies een bestand');if(f.size>50*1024*1024)throw Error('Maximaal 50 MB');let ext=f.name.split('.').pop().toLowerCase();if(!['jpg','jpeg','png','webp','gif','mp4','webm','mov','pptx'].includes(ext))throw Error('Bestandstype niet ondersteund');status('Bestand lezen en uploaden: '+f.name+' ('+Math.round(f.size/1024)+' KB)…');let path='media/uploads/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9_.-]/g,'_');await write(path,await to64(f));items.push({name:f.name,path,type:ext==='pptx'?'pptx':['mp4','webm','mov'].includes(ext)?'video':'image',duration:Number($('duration').value)||10});render();await save();status(ext==='pptx'?'PowerPoint ontvangen: GitHub Actions moet de dia’s verwerken.':'Bestand toegevoegd en opgeslagen.')}function logout(){running=false;sequence++;localStorage.removeItem(VAULT);token='';location.reload()}buildLogin();$('logout').onclick=logout;if(admin){$('upload').onclick=()=>upload().catch(e=>status(e.message));$('save').onclick=()=>save().catch(e=>status(e.message));$('live-news').onchange=updateNewsModeControls;$('news-mode').onchange=updateNewsModeControls;$('news-speed').oninput=updateNewsModeControls}else{const screen=$('screen');let hideTimer;function controls(){screen.classList.add('show-controls');clearTimeout(hideTimer);hideTimer=setTimeout(()=>screen.classList.remove('show-controls'),3200)}function begin(){if(!running){running=true;playLoop();updateTicker()}controls()}async function full(){begin();try{if(!document.fullscreenElement){if(screen.requestFullscreen)await screen.requestFullscreen();else if(screen.webkitRequestFullscreen)screen.webkitRequestFullscreen();else $('info').textContent='Gebruik F11 in Windows voor volledig scherm.'}else await document.exitFullscreen()}catch(e){$('info').textContent='Volledig scherm niet beschikbaar: '+e.message}}function stop(){running=false;sequence++;updateTicker();screen.style.display='none';$('stage').replaceChildren();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});$('info').textContent='Presentatie gestopt. Klik op Start presentatie om opnieuw af te spelen.'} $('start').onclick=begin;$('full').onclick=full;$('screen-full').onclick=full;$('screen-stop').onclick=stop;screen.addEventListener('mousemove',controls);screen.addEventListener('touchstart',controls,{passive:true});window.addEventListener('resize',()=>{if(running)requestAnimationFrame(updateTickerTiming)},{passive:true});document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'↙ Volledig scherm sluiten':'⛶ Volledig scherm';controls()});}
+}async function upload(){let f=$('file').files[0];if(!f)throw Error('Kies een bestand');if(f.size>50*1024*1024)throw Error('Maximaal 50 MB');let ext=f.name.split('.').pop().toLowerCase();if(!['jpg','jpeg','png','webp','gif','mp4','webm','mov','pptx','pdf'].includes(ext))throw Error('Bestandstype niet ondersteund');status('Bestand lezen en uploaden: '+f.name+' ('+Math.round(f.size/1024)+' KB)…');let path='media/uploads/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9_.-]/g,'_');await write(path,await to64(f));items.push({name:f.name,path,type:['pptx','pdf'].includes(ext)?ext:['mp4','webm','mov'].includes(ext)?'video':'image',duration:Number($('duration').value)||10});render();await save();status(['pptx','pdf'].includes(ext)?(ext==='pdf'?'PDF ontvangen: GitHub Actions verwerkt elke pagina als een dia.':'PowerPoint ontvangen: GitHub Actions moet de dia’s verwerken.'):'Bestand toegevoegd en opgeslagen.')}function logout(){running=false;sequence++;localStorage.removeItem(VAULT);token='';location.reload()}buildLogin();$('logout').onclick=logout;if(admin){$('upload').onclick=()=>upload().catch(e=>status(e.message));$('save').onclick=()=>save().catch(e=>status(e.message));$('live-news').onchange=updateNewsModeControls;$('news-mode').onchange=updateNewsModeControls;$('news-speed').oninput=updateNewsModeControls}else{const screen=$('screen');let hideTimer;function controls(){screen.classList.add('show-controls');clearTimeout(hideTimer);hideTimer=setTimeout(()=>screen.classList.remove('show-controls'),3200)}function begin(){if(!running){running=true;playLoop();updateTicker()}controls()}async function full(){begin();try{if(!document.fullscreenElement){if(screen.requestFullscreen)await screen.requestFullscreen();else if(screen.webkitRequestFullscreen)screen.webkitRequestFullscreen();else $('info').textContent='Gebruik F11 in Windows voor volledig scherm.'}else await document.exitFullscreen()}catch(e){$('info').textContent='Volledig scherm niet beschikbaar: '+e.message}}function stop(){running=false;sequence++;updateTicker();screen.style.display='none';$('stage').replaceChildren();if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});$('info').textContent='Presentatie gestopt. Klik op Start presentatie om opnieuw af te spelen.'} $('start').onclick=begin;$('full').onclick=full;$('screen-full').onclick=full;$('screen-stop').onclick=stop;screen.addEventListener('mousemove',controls);screen.addEventListener('touchstart',controls,{passive:true});window.addEventListener('resize',()=>{if(running)requestAnimationFrame(updateTickerTiming)},{passive:true});document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'↙ Volledig scherm sluiten':'⛶ Volledig scherm';controls()});}
