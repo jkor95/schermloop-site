@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T18:00:24+00:00",
+    "updatedAt": "2026-10-27T18:42:56+00:00",
     "headlines": [
       {
-        "title": "Bolsonaro junior is Brazilië ontvlucht na verkiezingsnederlaag, zou nu in VS zijn",
-        "url": "https://www.nu.nl/buitenland/6414602/bolsonaro-junior-is-brazilie-ontvlucht-na-verkiezingsnederlaag-zou-nu-in-vs-zijn.html",
+        "title": "Dinoskelet geveild voor 42 miljoen euro, op één na meest waardevolle fossiel ooit",
+        "url": "https://www.nu.nl/economie/6414603/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-meest-waardevolle-fossiel-ooit.html",
+        "date": "Tue, 27 Oct 2026 19:25:15 +0100",
+        "summary": "Een zeldzaam skelet van een dinosaurus is dinsdag in New York geveild voor ruim 47 miljoen dollar (ruim 42 miljoen euro). De verkoop overtrof de geschatte opbrengst ruimschoots. Volgens veilinghuis Sotheby's zijn wereldwijd slechts drie skeletten van dit type bekend.",
+        "imageUrl": "https://images.nu.nl/m/nckxqcaao1q8_sqr256/1329/6/3915/3915/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-meest-waardevolle-fossiel-ooit.jpg"
+      },
+      {
+        "title": "EU wil leren van migrantencrisis Ceuta en bevoegdheden Frontex uitbreiden",
+        "url": "https://www.nu.nl/buitenland/6414561/eu-wil-leren-van-migrantencrisis-ceuta-en-bevoegdheden-frontex-uitbreiden.html",
+        "date": "Tue, 27 Oct 2026 19:00:01 +0100",
+        "summary": "De Europese Commissie heeft dinsdag een voorstel gedaan om de bevoegdheden van grensbewakingsdienst Frontex uit te breiden. Brussel wil leren van de crisis die deze zomer ontstond bij de Spaanse exclave Ceuta, waar tienduizenden migranten uit Marokko de grens ongehinderd konden oversteken.",
+        "imageUrl": "https://images.nu.nl/m/aixxd74aiz89_sqr256/1164/0/3374/3374/eu-wil-leren-van-migrantencrisis-ceuta-en-bevoegdheden-frontex-uitbreiden.jpg"
+      },
+      {
+        "title": "Bolsonaro junior ontvlucht Brazilië na verkiezingsnederlaag en is onderweg naar VS",
+        "url": "https://www.nu.nl/buitenland/6414602/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-onderweg-naar-vs.html",
         "date": "Tue, 27 Oct 2026 18:39:57 +0100",
-        "summary": "Flávio Bolsonaro heeft Brazilië verlaten na zijn verkiezingsnederlaag. Hij zou met zijn gezin zijn vertrokken naar de Verenigde Staten, melden CNN Brasil en Reuters .",
-        "imageUrl": "https://images.nu.nl/m/xp0xf48av6wv_sqr256/202/0/5504/5504/bolsonaro-junior-is-brazilie-ontvlucht-na-verkiezingsnederlaag-zou-nu-in-vs-zijn.jpg"
+        "summary": "Flávio Bolsonaro heeft Brazilië verlaten na zijn verkiezingsnederlaag. Hij zou met zijn gezin naar de Verenigde Staten zijn vertrokken, melden CNN Brasil en persbureau Reuters .",
+        "imageUrl": "https://images.nu.nl/m/xp0xf48av6wv_sqr256/202/0/5504/5504/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-onderweg-naar-vs.jpg"
       },
       {
         "title": "Trump weer beschuldigd van verkrachting, Democraten eisen speciale aanklager",
@@ -18,11 +32,18 @@
         "imageUrl": "https://images.nu.nl/m/eq8xn8qaecmb_sqr256/0/0/5464/5464/trump-weer-beschuldigd-van-verkrachting-democraten-eisen-speciale-aanklager.jpg"
       },
       {
-        "title": "Explainer | Waarom demonstranten in Albanië stoelen in brand steken",
-        "url": "https://www.nu.nl/331690/video/waarom-demonstranten-in-albanie-stoelen-in-brand-steken.html",
+        "title": "Bilal Wahib en Sophie Keizer in het geheim getrouwd",
+        "url": "https://www.nu.nl/achterklap/6414601/bilal-wahib-en-sophie-keizer-in-het-geheim-getrouwd.html",
+        "date": "Tue, 27 Oct 2026 18:09:17 +0100",
+        "summary": "Bilal Wahib en zijn partner Sophie Keizer zijn een paar weken geleden in het geheim getrouwd. \"Het was supermooi. Het was gewoon heel intiem met familieleden\", vertelt de 27-jarige artiest aan RTL Boulevard .",
+        "imageUrl": "https://images.nu.nl/m/pmdxvekagu5d_sqr256/906/51/1371/1371/bilal-wahib-en-sophie-keizer-in-het-geheim-getrouwd.jpg"
+      },
+      {
+        "title": "Explainer | Premier blijft stoelen neerzetten, demonstranten steken ze in brand",
+        "url": "https://www.nu.nl/331690/video/premier-blijft-stoelen-neerzetten-demonstranten-steken-ze-in-brand.html",
         "date": "Tue, 27 Oct 2026 17:45:09 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/n3sxsn3au9le_sqr256/447/0/1438/1438/waarom-demonstranten-in-albanie-stoelen-in-brand-steken.jpg"
+        "imageUrl": "https://images.nu.nl/m/n3sxsn3au9le_sqr256/447/0/1438/1438/premier-blijft-stoelen-neerzetten-demonstranten-steken-ze-in-brand.jpg"
       },
       {
         "title": "Nederlandse deelname aan Songfestival was gedoemd te mislukken",
@@ -30,27 +51,6 @@
         "date": "Tue, 27 Oct 2026 16:47:14 +0100",
         "summary": "Niet, wel, niet: nooit eerder was er zoveel onduidelijkheid over de deelname van Nederland aan het Eurovisie Songfestival. De goede verstaander zag de afgelopen weken dat de NPO zich een heel lastige taak op de hals had gehaald.",
         "imageUrl": "https://images.nu.nl/m/hcbxg0ia4311_sqr256/1145/8/3992/3992/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.jpg"
-      },
-      {
-        "title": "Drukste spits van het jaar op eerste dinsdagavond na ingaan wintertijd",
-        "url": "https://www.nu.nl/binnenland/6414587/drukste-spits-van-het-jaar-op-eerste-dinsdagavond-na-ingaan-wintertijd.html",
-        "date": "Tue, 27 Oct 2026 16:40:07 +0100",
-        "summary": "De avondspits van dinsdag is met meer dan 1.000 kilometer file de drukste van het jaar. Het verkeer had veel hinder van regen.",
-        "imageUrl": "https://images.nu.nl/m/mgqxhodah76z_sqr256/1125/0/2988/2988/drukste-spits-van-het-jaar-op-eerste-dinsdagavond-na-ingaan-wintertijd.jpg"
-      },
-      {
-        "title": "Dierenverzorger Beekse Bergen die werd aangevallen door panter overleden",
-        "url": "https://www.nu.nl/binnenland/6414387/dierenverzorger-beekse-bergen-die-werd-aangevallen-door-panter-overleden.html",
-        "date": "Tue, 27 Oct 2026 16:04:15 +0100",
-        "summary": "De dierenverzorgster van Safaripark Beekse Bergen die zaterdag zwaargewond raakte bij een aanval door een panter, is dinsdag overleden. Eerder meldde het dierenpark dat haar kans op herstel heel klein was.",
-        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/287/7/1078/1078/dierenverzorger-beekse-bergen-die-werd-aangevallen-door-panter-overleden.jpg"
-      },
-      {
-        "title": "Twaalf jaar cel en tbs geëist tegen man die vriendin doodtrapte in Vlijmen",
-        "url": "https://www.nu.nl/binnenland/6414578/twaalf-jaar-cel-en-tbs-geeist-tegen-man-die-vriendin-doodtrapte-in-vlijmen.html",
-        "date": "Tue, 27 Oct 2026 15:43:58 +0100",
-        "summary": "Het Openbaar Ministerie heeft dinsdag twaalf jaar cel en tbs met dwangverpleging geëist tegen de 36-jarige Coen K. Hij wordt ervan verdacht zijn vriendin afgelopen zomer in het Brabantse Vlijmen te hebben doodgetrapt.",
-        "imageUrl": "https://images.nu.nl/m/5axx0qca8sg7_sqr256/407/0/4966/4966/twaalf-jaar-cel-en-tbs-geeist-tegen-man-die-vriendin-doodtrapte-in-vlijmen.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:00",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.21
-      },
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:40",
-        "mmHour": 0.0
-      },
       {
         "time": "19:45",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "20:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.1,
+    "temperature": 12.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T18:00:25+00:00",
-    "rainUpdatedAt": "2026-10-27T18:00:25+00:00"
+    "weatherUpdatedAt": "2026-10-27T18:42:56+00:00",
+    "rainUpdatedAt": "2026-10-27T18:42:57+00:00"
   }
 }
