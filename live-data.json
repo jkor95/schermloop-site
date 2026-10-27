@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T04:12:12+00:00",
+    "updatedAt": "2026-10-27T04:49:15+00:00",
     "headlines": [
+      {
+        "title": "Cryptomiljardair nieuwe rijkste Nederlander op lijst grote vermogenden",
+        "url": "https://www.nu.nl/economie/6414429/cryptomiljardair-nieuwe-rijkste-nederlander-op-lijst-grote-vermogenden.html",
+        "date": "Tue, 27 Oct 2026 05:10:49 +0100",
+        "summary": "Het gezamenlijke vermogen van de vijfhonderd rijkste Nederlanders is met ruim 10 procent gestegen naar een recordniveau van meer dan 300 miljard euro. Crypto-ondernemer Jean-Louis van der Velde is de rijkste Nederlander met een vermogen van 26 miljard euro.",
+        "imageUrl": "https://images.nu.nl/m/xbzxy3oavbcn_sqr256/138/0/401/401/cryptomiljardair-nieuwe-rijkste-nederlander-op-lijst-grote-vermogenden.jpg"
+      },
       {
         "title": "Flavio Bolsonaro mag Brazilië na verkiezingsnederlaag niet verlaten",
         "url": "https://www.nu.nl/buitenland/6414502/flavio-bolsonaro-mag-brazilie-na-verkiezingsnederlaag-niet-verlaten.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 23:07:14 +0100",
         "summary": "In Frankrijk hebben studenten opnieuw opgeroepen om te protesteren. Een voorstel van de regering voor verbeteringen in het onderwijs vindt de protestbeweging onvoldoende.",
         "imageUrl": "https://images.nu.nl/m/nxqx56dan42n_sqr256/1528/0/4249/4249/opnieuw-oproep-tot-protest-in-frankrijk-ondanks-maatregelen-voor-beter-onderwijs.jpg"
-      },
-      {
-        "title": "Dode griend aangespoeld bij Egmond: 'Uitzonderlijk jaar voor gestrande dieren'",
-        "url": "https://www.nu.nl/binnenland/6414499/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.html",
-        "date": "Mon, 26 Oct 2026 22:42:36 +0100",
-        "summary": "In Egmond is een maandagochtend een dode griend aangespoeld. Het dier was in verre staat van ontbinding. Dit jaar zijn er al twaalf verschillende walvisachtigen gestrand in Nederland. Dat is volgens SOS Dolfijn \"uitzonderlijk veel\".",
-        "imageUrl": "https://images.nu.nl/m/30cx7spaduvo_sqr256/10/0/343/343/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
       {
         "time": "05:50",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "07:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 14.0,
+    "temperature": 14.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T04:12:13+00:00",
-    "rainUpdatedAt": "2026-10-27T04:12:14+00:00"
+    "weatherUpdatedAt": "2026-10-27T04:49:16+00:00",
+    "rainUpdatedAt": "2026-10-27T04:49:18+00:00"
   }
 }
