@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T19:28:47+00:00",
+    "updatedAt": "2026-10-27T20:10:15+00:00",
     "headlines": [
+      {
+        "title": "Man stuurde poederbrieven naar politici in VS met eigen naam en adres erop",
+        "url": "https://www.nu.nl/buitenland/6414605/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.html",
+        "date": "Tue, 27 Oct 2026 20:32:36 +0100",
+        "summary": "Een 36-jarige man uit de Amerikaanse staat Illinois wordt beschuldigd van het versturen van vier brieven met een verdachte substantie erin. Hij verstuurde de brieven onder zijn eigen naam en adres naar vier Amerikaanse congresleden, waardoor hij snel kon worden getraceerd.",
+        "imageUrl": "https://images.nu.nl/m/wjdxhosa50vn_sqr256/2337/2/5427/5427/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.jpg"
+      },
       {
         "title": "Praktisch opgeleiden voelen zich achtergesteld: 'Leven in andere werkelijkheid'",
         "url": "https://www.nu.nl/binnenland/6414594/praktisch-opgeleiden-voelen-zich-achtergesteld-leven-in-andere-werkelijkheid.html",
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 18:09:17 +0100",
         "summary": "Bilal Wahib en zijn partner Sophie Keizer zijn een paar weken geleden in het geheim getrouwd. \"Het was supermooi. Het was gewoon heel intiem met familieleden\", vertelt de 27-jarige artiest aan RTL Boulevard .",
         "imageUrl": "https://images.nu.nl/m/pmdxvekagu5d_sqr256/906/51/1371/1371/bilal-wahib-en-sophie-keizer-in-het-geheim-getrouwd.jpg"
-      },
-      {
-        "title": "Explainer | Premier blijft stoelen neerzetten, demonstranten steken ze in brand",
-        "url": "https://www.nu.nl/331690/video/premier-blijft-stoelen-neerzetten-demonstranten-steken-ze-in-brand.html",
-        "date": "Tue, 27 Oct 2026 17:45:09 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/n3sxsn3au9le_sqr256/447/0/1438/1438/premier-blijft-stoelen-neerzetten-demonstranten-steken-ze-in-brand.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:00",
-        "mmHour": 0.0
-      },
       {
         "time": "21:05",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "22:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "22:45",
+        "mmHour": 0.1
+      },
+      {
+        "time": "22:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.6,
+    "temperature": 11.5,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T19:28:47+00:00",
-    "rainUpdatedAt": "2026-10-27T19:28:49+00:00"
+    "weatherUpdatedAt": "2026-10-27T20:10:15+00:00",
+    "rainUpdatedAt": "2026-10-27T20:10:16+00:00"
   }
 }
