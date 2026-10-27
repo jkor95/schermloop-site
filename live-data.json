@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T15:36:44+00:00",
+    "updatedAt": "2026-10-27T16:27:12+00:00",
     "headlines": [
+      {
+        "title": "Nederlandse deelname aan Songfestival was gedoemd te mislukken",
+        "url": "https://www.nu.nl/songfestival/6414542/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.html",
+        "date": "Tue, 27 Oct 2026 16:47:14 +0100",
+        "summary": "Niet, wel, niet: nooit eerder was er zoveel onduidelijkheid over de deelname van Nederland aan het Eurovisie Songfestival. De goede verstaander zag de afgelopen weken dat de NPO zich een heel lastige taak op de hals had gehaald.",
+        "imageUrl": "https://images.nu.nl/m/ca2x1yhankq9_sqr256/1661/0/4000/4000/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.jpg"
+      },
+      {
+        "title": "Zware avondspits mogelijk door regengebied op eerste dinsdag in wintertijd",
+        "url": "https://www.nu.nl/binnenland/6414587/zware-avondspits-mogelijk-door-regengebied-op-eerste-dinsdag-in-wintertijd.html",
+        "date": "Tue, 27 Oct 2026 16:40:07 +0100",
+        "summary": "Automobilisten moeten dinsdag rekening houden met een zware avondspits. Tijdens de eerste avondspits sinds het ingaan van de wintertijd kan een regengebied voor extra hinder zorgen.",
+        "imageUrl": "https://images.nu.nl/m/mgqxhodah76z_sqr256/1125/0/2988/2988/zware-avondspits-mogelijk-door-regengebied-op-eerste-dinsdag-in-wintertijd.jpg"
+      },
       {
         "title": "Dierenverzorger Beekse Bergen overleden na panteraanval",
         "url": "https://www.nu.nl/binnenland/6414387/dierenverzorger-beekse-bergen-overleden-na-panteraanval.html",
         "date": "Tue, 27 Oct 2026 16:04:15 +0100",
         "summary": "De dierenverzorgster van Safaripark Beekse Bergen die zaterdag zwaargewond raakte bij een aanval door een panter, is dinsdag overleden. Eerder meldde het dierenpark dat haar kans op herstel heel klein was.",
-        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/290/7/1077/1077/dierenverzorger-beekse-bergen-overleden-na-panteraanval.jpg"
+        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/287/7/1078/1078/dierenverzorger-beekse-bergen-overleden-na-panteraanval.jpg"
       },
       {
         "title": "Twaalf jaar cel en tbs geëist tegen man die vriendin doodtrapte in Vlijmen",
@@ -37,20 +51,6 @@
         "date": "Tue, 27 Oct 2026 15:35:22 +0100",
         "summary": "De Tweede Kamer heeft dinsdag ingestemd met de zogenoemde alcoholenkelband. Mensen met een alcoholverbod kunnen straks worden verplicht tot zo'n alcoholmeter.",
         "imageUrl": "https://images.nu.nl/m/2fsxbuwaqrop_sqr256/218/0/1856/1856/kamer-stemt-in-met-alcoholenkelband-continue-stok-achter-de-deur.jpg"
-      },
-      {
-        "title": "Kite en kiteboard van vermiste watersporter gevonden bij Scheveningen",
-        "url": "https://www.nu.nl/binnenland/6414572/kite-en-kiteboard-van-vermiste-watersporter-gevonden-bij-scheveningen.html",
-        "date": "Tue, 27 Oct 2026 15:09:31 +0100",
-        "summary": "De reddingsdiensten hebben dinsdag bij Scheveningen de kite en het kiteboard gevonden van de kitesurfer die sinds zondag wordt vermist. De politie acht de kans groot dat de watersporter niet meer in leven is.",
-        "imageUrl": "https://images.nu.nl/m/lgbxycgaimil_sqr256/2248/0/5504/5504/kite-en-kiteboard-van-vermiste-watersporter-gevonden-bij-scheveningen.jpg"
-      },
-      {
-        "title": "Suzan & Freek te gast bij uitblinkerslunch van Willem-Alexander en Máxima",
-        "url": "https://www.nu.nl/koningshuis/6414571/suzan-freek-te-gast-bij-uitblinkerslunch-van-willem-alexander-en-maxima.html",
-        "date": "Tue, 27 Oct 2026 15:03:28 +0100",
-        "summary": "Suzan en Freek Rikkerink waren dinsdag te gast bij de uitblinkerslunch van koning Willem-Alexander en koningin Máxima. Het zangduo was uitgenodigd als winnaar van de Popprijs 2025 en de 3FM Awards in de categorie Beste Live Moment.",
-        "imageUrl": "https://images.nu.nl/m/ydlxd53a1i8e_sqr256/108/0/533/533/suzan-freek-te-gast-bij-uitblinkerslunch-van-willem-alexander-en-maxima.jpg"
       }
     ]
   },
@@ -59,56 +59,16 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "16:40",
-        "mmHour": 3.4
-      },
-      {
-        "time": "16:45",
-        "mmHour": 3.4
-      },
-      {
-        "time": "16:50",
-        "mmHour": 3.4
-      },
-      {
-        "time": "16:55",
-        "mmHour": 2.74
-      },
-      {
-        "time": "17:00",
-        "mmHour": 1.0
-      },
-      {
-        "time": "17:05",
-        "mmHour": 0.6
-      },
-      {
-        "time": "17:10",
+        "time": "17:30",
         "mmHour": 0.21
       },
       {
-        "time": "17:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:30",
-        "mmHour": 0.0
-      },
-      {
         "time": "17:35",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "17:40",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "17:45",
@@ -120,7 +80,7 @@
       },
       {
         "time": "17:55",
-        "mmHour": 0.1
+        "mmHour": 0.21
       },
       {
         "time": "18:00",
@@ -128,15 +88,15 @@
       },
       {
         "time": "18:05",
-        "mmHour": 0.21
+        "mmHour": 0.1
       },
       {
         "time": "18:10",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "18:15",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "18:20",
@@ -153,12 +113,52 @@
       {
         "time": "18:35",
         "mmHour": 0.21
+      },
+      {
+        "time": "18:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:05",
+        "mmHour": 0.1
+      },
+      {
+        "time": "19:10",
+        "mmHour": 0.1
+      },
+      {
+        "time": "19:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.0,
-    "description": "Zwaar bewolkt en regen",
+    "temperature": 13.6,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T15:36:44+00:00",
-    "rainUpdatedAt": "2026-10-27T15:36:44+00:00"
+    "weatherUpdatedAt": "2026-10-27T16:27:13+00:00",
+    "rainUpdatedAt": "2026-10-27T16:27:15+00:00"
   }
 }
