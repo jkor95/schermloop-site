@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T16:27:12+00:00",
+    "updatedAt": "2026-10-27T17:18:00+00:00",
     "headlines": [
+      {
+        "title": "Trump weer beschuldigd van verkrachting, Democraten eisen speciale aanklager",
+        "url": "https://www.nu.nl/buitenland/6414592/trump-weer-beschuldigd-van-verkrachting-democraten-eisen-speciale-aanklager.html",
+        "date": "Tue, 27 Oct 2026 18:12:59 +0100",
+        "summary": "Voormalig Miss Zwitserland Beatrice Keul beschuldigt de Amerikaanse president Donald Trump van verkrachting. Haar nieuwe beschuldiging staat in een onderzoeksrapport van de Democraten. Zij eisen nu een onafhankelijke speciale aanklager die de banden tussen Trump en zedendelinquent Jeffrey Epstein moet onderzoeken.",
+        "imageUrl": "https://images.nu.nl/m/eq8xn8qaecmb_sqr256/0/0/5464/5464/trump-weer-beschuldigd-van-verkrachting-democraten-eisen-speciale-aanklager.jpg"
+      },
+      {
+        "title": "Explainer | Waarom demonstranten in Albanië stoelen in brand steken",
+        "url": "https://www.nu.nl/331690/video/waarom-demonstranten-in-albanie-stoelen-in-brand-steken.html",
+        "date": "Tue, 27 Oct 2026 17:45:09 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/n3sxsn3au9le_sqr256/447/0/1438/1438/waarom-demonstranten-in-albanie-stoelen-in-brand-steken.jpg"
+      },
       {
         "title": "Nederlandse deelname aan Songfestival was gedoemd te mislukken",
         "url": "https://www.nu.nl/songfestival/6414542/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.html",
@@ -11,18 +25,18 @@
         "imageUrl": "https://images.nu.nl/m/ca2x1yhankq9_sqr256/1661/0/4000/4000/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.jpg"
       },
       {
-        "title": "Zware avondspits mogelijk door regengebied op eerste dinsdag in wintertijd",
-        "url": "https://www.nu.nl/binnenland/6414587/zware-avondspits-mogelijk-door-regengebied-op-eerste-dinsdag-in-wintertijd.html",
+        "title": "Drukste spits van het jaar op eerste dinsdagavond na ingaan wintertijd",
+        "url": "https://www.nu.nl/binnenland/6414587/drukste-spits-van-het-jaar-op-eerste-dinsdagavond-na-ingaan-wintertijd.html",
         "date": "Tue, 27 Oct 2026 16:40:07 +0100",
-        "summary": "Automobilisten moeten dinsdag rekening houden met een zware avondspits. Tijdens de eerste avondspits sinds het ingaan van de wintertijd kan een regengebied voor extra hinder zorgen.",
-        "imageUrl": "https://images.nu.nl/m/mgqxhodah76z_sqr256/1125/0/2988/2988/zware-avondspits-mogelijk-door-regengebied-op-eerste-dinsdag-in-wintertijd.jpg"
+        "summary": "De avondspits van dinsdag is met meer dan 1.000 kilometer file de drukste van het jaar. Het verkeer had veel hinder van regen.",
+        "imageUrl": "https://images.nu.nl/m/mgqxhodah76z_sqr256/1125/0/2988/2988/drukste-spits-van-het-jaar-op-eerste-dinsdagavond-na-ingaan-wintertijd.jpg"
       },
       {
-        "title": "Dierenverzorger Beekse Bergen overleden na panteraanval",
-        "url": "https://www.nu.nl/binnenland/6414387/dierenverzorger-beekse-bergen-overleden-na-panteraanval.html",
+        "title": "Dierenverzorger Beekse Bergen die werd aangevallen door panter overleden",
+        "url": "https://www.nu.nl/binnenland/6414387/dierenverzorger-beekse-bergen-die-werd-aangevallen-door-panter-overleden.html",
         "date": "Tue, 27 Oct 2026 16:04:15 +0100",
         "summary": "De dierenverzorgster van Safaripark Beekse Bergen die zaterdag zwaargewond raakte bij een aanval door een panter, is dinsdag overleden. Eerder meldde het dierenpark dat haar kans op herstel heel klein was.",
-        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/287/7/1078/1078/dierenverzorger-beekse-bergen-overleden-na-panteraanval.jpg"
+        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/287/7/1078/1078/dierenverzorger-beekse-bergen-die-werd-aangevallen-door-panter-overleden.jpg"
       },
       {
         "title": "Twaalf jaar cel en tbs geëist tegen man die vriendin doodtrapte in Vlijmen",
@@ -37,20 +51,6 @@
         "date": "Tue, 27 Oct 2026 15:41:59 +0100",
         "summary": "De politie heeft dinsdag een medewerker van het OM aangehouden op verdenking van corruptie en verkiezingsfraude. De 38-jarige man had ook een politieke functie in Oost-Brabant.",
         "imageUrl": "https://images.nu.nl/m/olax6quafdvh_sqr256/0/0/3667/3667/om-medewerker-met-politieke-functie-in-brabant-verdacht-van-verkiezingsfraude.jpg"
-      },
-      {
-        "title": "Mogelijk nog veel langer onduidelijkheid over natuurvergunning Schiphol",
-        "url": "https://www.nu.nl/binnenland/6414528/mogelijk-nog-veel-langer-onduidelijkheid-over-natuurvergunning-schiphol.html",
-        "date": "Tue, 27 Oct 2026 15:36:13 +0100",
-        "summary": "Het duurt mogelijk nog twee jaar voordat er duidelijkheid komt over de natuurvergunning van Schiphol. De Raad van State overweegt in het hoger beroep vragen te stellen aan het Europese Hof van Justitie. In dat geval gaat de zaak pas in 2028 verder.",
-        "imageUrl": "https://images.nu.nl/m/r1pxop3a8xpl_sqr256/41/0/1296/1296/mogelijk-nog-veel-langer-onduidelijkheid-over-natuurvergunning-schiphol.jpg"
-      },
-      {
-        "title": "Kamer stemt in met alcoholenkelband: 'Continue stok achter de deur'",
-        "url": "https://www.nu.nl/politiek/6412441/kamer-stemt-in-met-alcoholenkelband-continue-stok-achter-de-deur.html",
-        "date": "Tue, 27 Oct 2026 15:35:22 +0100",
-        "summary": "De Tweede Kamer heeft dinsdag ingestemd met de zogenoemde alcoholenkelband. Mensen met een alcoholverbod kunnen straks worden verplicht tot zo'n alcoholmeter.",
-        "imageUrl": "https://images.nu.nl/m/2fsxbuwaqrop_sqr256/218/0/1856/1856/kamer-stemt-in-met-alcoholenkelband-continue-stok-achter-de-deur.jpg"
       }
     ]
   },
@@ -59,60 +59,20 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "17:30",
-        "mmHour": 0.21
-      },
-      {
-        "time": "17:35",
-        "mmHour": 0.1
-      },
-      {
-        "time": "17:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:55",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:00",
-        "mmHour": 0.21
-      },
-      {
-        "time": "18:05",
-        "mmHour": 0.1
-      },
-      {
-        "time": "18:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:15",
-        "mmHour": 0.0
-      },
-      {
         "time": "18:20",
         "mmHour": 0.1
       },
       {
         "time": "18:25",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "18:30",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "18:35",
-        "mmHour": 0.21
+        "mmHour": 0.1
       },
       {
         "time": "18:40",
@@ -128,11 +88,11 @@
       },
       {
         "time": "18:55",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "19:00",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "19:05",
@@ -140,7 +100,7 @@
       },
       {
         "time": "19:10",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "19:15",
@@ -148,17 +108,57 @@
       },
       {
         "time": "19:20",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "19:25",
+        "mmHour": 0.1
+      },
+      {
+        "time": "19:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:15",
         "mmHour": 0.0
       }
     ],
-    "temperature": 13.6,
+    "temperature": 13.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T16:27:13+00:00",
-    "rainUpdatedAt": "2026-10-27T16:27:15+00:00"
+    "weatherUpdatedAt": "2026-10-27T17:18:00+00:00",
+    "rainUpdatedAt": "2026-10-27T17:18:02+00:00"
   }
 }
