@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T18:42:56+00:00",
+    "updatedAt": "2026-10-27T19:28:47+00:00",
     "headlines": [
       {
-        "title": "Dinoskelet geveild voor 42 miljoen euro, op één na meest waardevolle fossiel ooit",
-        "url": "https://www.nu.nl/economie/6414603/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-meest-waardevolle-fossiel-ooit.html",
+        "title": "Praktisch opgeleiden voelen zich achtergesteld: 'Leven in andere werkelijkheid'",
+        "url": "https://www.nu.nl/binnenland/6414594/praktisch-opgeleiden-voelen-zich-achtergesteld-leven-in-andere-werkelijkheid.html",
+        "date": "Tue, 27 Oct 2026 20:08:42 +0100",
+        "summary": "Een aanzienlijke minderheid in Nederland voelt zich achtergesteld door de politiek. Opvallend is dat vooral praktisch opgeleide mensen zich tot die groep rekenen. Volgens deskundigen komt dat door een overlap tussen hun gevoel en hun werkelijke positie in de maatschappij.",
+        "imageUrl": "https://images.nu.nl/m/owux333a5s58_sqr256/0/0/5464/5464/praktisch-opgeleiden-voelen-zich-achtergesteld-leven-in-andere-werkelijkheid.jpg"
+      },
+      {
+        "title": "Dinoskelet geveild voor 42 miljoen euro, op een na waardevolste fossiel ooit",
+        "url": "https://www.nu.nl/economie/6414603/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-waardevolste-fossiel-ooit.html",
         "date": "Tue, 27 Oct 2026 19:25:15 +0100",
         "summary": "Een zeldzaam skelet van een dinosaurus is dinsdag in New York geveild voor ruim 47 miljoen dollar (ruim 42 miljoen euro). De verkoop overtrof de geschatte opbrengst ruimschoots. Volgens veilinghuis Sotheby's zijn wereldwijd slechts drie skeletten van dit type bekend.",
-        "imageUrl": "https://images.nu.nl/m/nckxqcaao1q8_sqr256/1329/6/3915/3915/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-meest-waardevolle-fossiel-ooit.jpg"
+        "imageUrl": "https://images.nu.nl/m/nckxqcaao1q8_sqr256/1329/6/3915/3915/dinoskelet-geveild-voor-42-miljoen-euro-op-een-na-waardevolste-fossiel-ooit.jpg"
       },
       {
         "title": "EU wil leren van migrantencrisis Ceuta en bevoegdheden Frontex uitbreiden",
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 17:45:09 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/n3sxsn3au9le_sqr256/447/0/1438/1438/premier-blijft-stoelen-neerzetten-demonstranten-steken-ze-in-brand.jpg"
-      },
-      {
-        "title": "Nederlandse deelname aan Songfestival was gedoemd te mislukken",
-        "url": "https://www.nu.nl/songfestival/6414542/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.html",
-        "date": "Tue, 27 Oct 2026 16:47:14 +0100",
-        "summary": "Niet, wel, niet: nooit eerder was er zoveel onduidelijkheid over de deelname van Nederland aan het Eurovisie Songfestival. De goede verstaander zag de afgelopen weken dat de NPO zich een heel lastige taak op de hals had gehaald.",
-        "imageUrl": "https://images.nu.nl/m/hcbxg0ia4311_sqr256/1145/8/3992/3992/nederlandse-deelname-aan-songfestival-was-gedoemd-te-mislukken.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:25",
-        "mmHour": 0.0
-      },
       {
         "time": "20:30",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "21:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.2,
-    "description": "Zwaar bewolkt",
+    "temperature": 11.6,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T18:42:56+00:00",
-    "rainUpdatedAt": "2026-10-27T18:42:57+00:00"
+    "weatherUpdatedAt": "2026-10-27T19:28:47+00:00",
+    "rainUpdatedAt": "2026-10-27T19:28:49+00:00"
   }
 }
