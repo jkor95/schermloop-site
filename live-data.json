@@ -1,21 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T07:30:08+00:00",
+    "updatedAt": "2026-10-27T08:16:47+00:00",
     "headlines": [
+      {
+        "title": "ACM keurt overname Unox door Zwanenberg af uit angst voor hogere prijzen",
+        "url": "https://www.nu.nl/economie/6414519/acm-keurt-overname-unox-door-zwanenberg-af-uit-angst-voor-hogere-prijzen.html",
+        "date": "Tue, 27 Oct 2026 09:04:52 +0100",
+        "summary": "Toezichthouder ACM geeft geen toestemming voor de overname van Unox door Zwanenberg Food Group. De kartelwaakhond vindt dat Zwanenberg te veel marktmacht krijgt en daardoor prijzen van bijvoorbeeld rookworsten te veel verhoogt.",
+        "imageUrl": "https://images.nu.nl/m/6sexy7fax1u6_sqr256/501/0/3277/3277/acm-keurt-overname-unox-door-zwanenberg-af-uit-angst-voor-hogere-prijzen.jpg"
+      },
       {
         "title": "Meerdere gewonden nadat auto inrijdt op groep in Duitsland, politie opent vuur",
         "url": "https://www.nu.nl/buitenland/6414511/meerdere-gewonden-nadat-auto-inrijdt-op-groep-in-duitsland-politie-opent-vuur.html",
         "date": "Tue, 27 Oct 2026 08:11:59 +0100",
-        "summary": "Meerdere mensen zijn gewond geraakt nadat een auto maandag kort voor middernacht op een groep mensen was ingereden in Neustadt am Rübenberge, nabij Hannover. De politie gaat ervan uit dat het om opzet gaat.",
+        "summary": "Meerdere mensen zijn gewond geraakt nadat een auto maandag kort voor middernacht een groep mensen had aangereden in Neustadt am Rübenberge, nabij Hannover. De politie gaat ervan uit dat de bestuurder dit met opzet deed.",
         "imageUrl": "https://images.nu.nl/m/78wxwh3akj40_sqr256/1378/3/3156/3156/meerdere-gewonden-nadat-auto-inrijdt-op-groep-in-duitsland-politie-opent-vuur.jpg"
       },
       {
-        "title": "Microsoft biedt 60.000 werknemers vrijwillige vertrekregeling en zet in op AI",
-        "url": "https://www.nu.nl/economie/6414508/microsoft-biedt-60000-werknemers-vrijwillige-vertrekregeling-en-zet-in-op-ai.html",
+        "title": "Microsoft biedt 60.000 werknemers vrijwillige vertrekregeling aan en zet in op AI",
+        "url": "https://www.nu.nl/economie/6414508/microsoft-biedt-60000-werknemers-vrijwillige-vertrekregeling-aan-en-zet-in-op-ai.html",
         "date": "Tue, 27 Oct 2026 07:41:12 +0100",
-        "summary": "Het Amerikaanse techbedrijf Microsoft biedt ongeveer 60.000 werknemers de mogelijkheid om met financiële steun vrijwillig bij het bedrijf te vertrekken. Dat is 27 procent van het totale personeelsbestand. De regeling komt op een moment dat het bedrijf miljarden investeert in kunstmatige intelligentie (AI).",
-        "imageUrl": "https://images.nu.nl/m/6ydx2c4arcsq_sqr256/248/0/717/717/microsoft-biedt-60000-werknemers-vrijwillige-vertrekregeling-en-zet-in-op-ai.jpg"
+        "summary": "Het Amerikaanse techbedrijf Microsoft biedt ongeveer 60.000 werknemers de mogelijkheid om met financiële steun vrijwillig bij het bedrijf te vertrekken. Dat is 27 procent van het totale personeelsbestand. De regeling komt op een moment dat het bedrijf miljarden investeert in AI.",
+        "imageUrl": "https://images.nu.nl/m/6ydx2c4arcsq_sqr256/248/0/717/717/microsoft-biedt-60000-werknemers-vrijwillige-vertrekregeling-aan-en-zet-in-op-ai.jpg"
       },
       {
         "title": "Cryptomiljardair stormt lijst met rijkste Nederlanders binnen en onttroont Heineken-dochter",
@@ -44,13 +51,6 @@
         "date": "Mon, 26 Oct 2026 23:59:53 +0100",
         "summary": "Een kleine groep rijke mensen stoot volgens berekeningen van hulporganisatie Oxfam Novib meer broeikasgassen uit dan de armste 3,5 miljard samen. De allerrijksten zijn bovendien meer beschermd tegen de gevolgen van klimaatverandering dan mensen in armoede.",
         "imageUrl": "https://images.nu.nl/m/okux0pra7tgl_sqr256/1188/0/3462/3462/kleine-groep-miljardairs-stoot-meer-uit-dan-miljarden-arme-mensen.jpg"
-      },
-      {
-        "title": "Kane verslaat Yamal en Mbappé in strijd om Gouden Bal na seizoen met 73 goals",
-        "url": "https://www.nu.nl/voetbal/6414485/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.html",
-        "date": "Mon, 26 Oct 2026 23:51:17 +0100",
-        "summary": "Harry Kane heeft maandag op het jaarlijkse voetbalgala de Gouden Bal gewonnen. De spits van Bayern München troefde in Londen onder anderen Kylian Mbappé en Lamine Yamal af. De Engelsman wordt bekroond voor een opvallend productief seizoen.",
-        "imageUrl": "https://images.nu.nl/m/wibxq70al6kl_sqr256/1807/374/4140/4140/kane-verslaat-yamal-en-mbappe-in-strijd-om-gouden-bal-na-seizoen-met-73-goals.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:15",
-        "mmHour": 0.0
-      },
       {
         "time": "09:20",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "10:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 14.9,
+    "temperature": 15.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T07:30:09+00:00",
-    "rainUpdatedAt": "2026-10-27T07:30:10+00:00"
+    "weatherUpdatedAt": "2026-10-27T08:16:47+00:00",
+    "rainUpdatedAt": "2026-10-27T08:16:48+00:00"
   }
 }
