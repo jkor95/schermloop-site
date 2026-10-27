@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T14:52:08+00:00",
+    "updatedAt": "2026-10-27T15:36:44+00:00",
     "headlines": [
+      {
+        "title": "Dierenverzorger Beekse Bergen overleden na panteraanval",
+        "url": "https://www.nu.nl/binnenland/6414387/dierenverzorger-beekse-bergen-overleden-na-panteraanval.html",
+        "date": "Tue, 27 Oct 2026 16:04:15 +0100",
+        "summary": "De dierenverzorgster van Safaripark Beekse Bergen die zaterdag zwaargewond raakte bij een aanval door een panter, is dinsdag overleden. Eerder meldde het dierenpark dat haar kans op herstel heel klein was.",
+        "imageUrl": "https://images.nu.nl/m/rb1x6dcagz9p_sqr256/290/7/1077/1077/dierenverzorger-beekse-bergen-overleden-na-panteraanval.jpg"
+      },
       {
         "title": "Twaalf jaar cel en tbs geëist tegen man die vriendin doodtrapte in Vlijmen",
         "url": "https://www.nu.nl/binnenland/6414578/twaalf-jaar-cel-en-tbs-geeist-tegen-man-die-vriendin-doodtrapte-in-vlijmen.html",
@@ -14,7 +21,7 @@
         "title": "OM-medewerker met politieke functie in Brabant verdacht van verkiezingsfraude",
         "url": "https://www.nu.nl/misdaad/6414579/om-medewerker-met-politieke-functie-in-brabant-verdacht-van-verkiezingsfraude.html",
         "date": "Tue, 27 Oct 2026 15:41:59 +0100",
-        "summary": "De politie heeft dinsdag een medewerker van het Openbaar Ministerie aangehouden op verdenking van corruptie en verkiezingsfraude. De 38-jarige man had ook een politieke functie in Oost-Brabant.",
+        "summary": "De politie heeft dinsdag een medewerker van het OM aangehouden op verdenking van corruptie en verkiezingsfraude. De 38-jarige man had ook een politieke functie in Oost-Brabant.",
         "imageUrl": "https://images.nu.nl/m/olax6quafdvh_sqr256/0/0/3667/3667/om-medewerker-met-politieke-functie-in-brabant-verdacht-van-verkiezingsfraude.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 15:03:28 +0100",
         "summary": "Suzan en Freek Rikkerink waren dinsdag te gast bij de uitblinkerslunch van koning Willem-Alexander en koningin Máxima. Het zangduo was uitgenodigd als winnaar van de Popprijs 2025 en de 3FM Awards in de categorie Beste Live Moment.",
         "imageUrl": "https://images.nu.nl/m/ydlxd53a1i8e_sqr256/108/0/533/533/suzan-freek-te-gast-bij-uitblinkerslunch-van-willem-alexander-en-maxima.jpg"
-      },
-      {
-        "title": "NPO had nog geen Songfestivalartiest toen Nederland afzag van deelname",
-        "url": "https://www.nu.nl/songfestival/6414562/npo-had-nog-geen-songfestivalartiest-toen-nederland-afzag-van-deelname.html",
-        "date": "Tue, 27 Oct 2026 14:36:23 +0100",
-        "summary": "De Nederlandse Publieke Omroep (NPO) had nog geen artiest gekozen die Nederland zou vertegenwoordigen op het Eurovisie Songfestival. Toen duidelijk werd dat er bij omroepen stevige bezwaren leefden tegen deelname, zette de NPO het selectieproces tijdelijk stil, vertelt mediadirecteur Jurre Bosman aan NU.nl.",
-        "imageUrl": "https://images.nu.nl/m/zfqxfgjakhib_sqr256/838/0/5060/5060/npo-had-nog-geen-songfestivalartiest-toen-nederland-afzag-van-deelname.jpg"
       }
     ]
   },
@@ -59,64 +59,28 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "15:55",
-        "mmHour": 1.07
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.81
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.6
-      },
-      {
-        "time": "16:10",
-        "mmHour": 0.49
-      },
-      {
-        "time": "16:15",
-        "mmHour": 0.49
-      },
-      {
-        "time": "16:20",
-        "mmHour": 0.39
-      },
-      {
-        "time": "16:25",
-        "mmHour": 0.6
-      },
-      {
-        "time": "16:30",
-        "mmHour": 0.6
-      },
-      {
-        "time": "16:35",
-        "mmHour": 0.6
-      },
-      {
         "time": "16:40",
-        "mmHour": 0.6
+        "mmHour": 3.4
       },
       {
         "time": "16:45",
-        "mmHour": 0.39
+        "mmHour": 3.4
       },
       {
         "time": "16:50",
-        "mmHour": 0.29
+        "mmHour": 3.4
       },
       {
         "time": "16:55",
-        "mmHour": 0.29
+        "mmHour": 2.74
       },
       {
         "time": "17:00",
-        "mmHour": 0.39
+        "mmHour": 1.0
       },
       {
         "time": "17:05",
-        "mmHour": 0.29
+        "mmHour": 0.6
       },
       {
         "time": "17:10",
@@ -124,23 +88,23 @@
       },
       {
         "time": "17:15",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "17:20",
-        "mmHour": 0.29
+        "mmHour": 0.0
       },
       {
         "time": "17:25",
-        "mmHour": 0.49
+        "mmHour": 0.0
       },
       {
         "time": "17:30",
-        "mmHour": 0.39
+        "mmHour": 0.0
       },
       {
         "time": "17:35",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "17:40",
@@ -148,17 +112,53 @@
       },
       {
         "time": "17:45",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "17:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.21
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.21
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:15",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:20",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:25",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:30",
+        "mmHour": 0.1
+      },
+      {
+        "time": "18:35",
+        "mmHour": 0.21
       }
     ],
-    "temperature": 13.2,
+    "temperature": 13.0,
     "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T14:52:08+00:00",
-    "rainUpdatedAt": "2026-10-27T14:52:09+00:00"
+    "weatherUpdatedAt": "2026-10-27T15:36:44+00:00",
+    "rainUpdatedAt": "2026-10-27T15:36:44+00:00"
   }
 }
