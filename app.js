@@ -177,6 +177,18 @@ function makeWeatherPage(page,w){
   iframe.addEventListener('load',()=>{loader.hidden=true});
   map.append(iframe,loader);
   radar.append(map);layout.append(forecast,radar);page.append(layout);
+  // Centreer de twee zichtbare blokken als groep, niet de onzichtbare
+  // lege ruimte van de gridkolom waarin de radar op aspect-ratio staat.
+  function centerWeatherBlocks(){
+    if(!layout.isConnected||!map.clientWidth)return;
+    layout.style.setProperty('--weather-align-shift','0px');
+    const outer=page.getBoundingClientRect();
+    const left=forecast.getBoundingClientRect();
+    const right=map.getBoundingClientRect();
+    const delta=((outer.left+outer.right)-(left.left+right.right))/2;
+    const maxShift=Math.min(48,outer.width*.05);
+    layout.style.setProperty('--weather-align-shift',Math.max(-maxShift,Math.min(maxShift,delta)).toFixed(1)+'px');
+  }
   function scaleRadar(){
     if(!map.isConnected)return;
     const width=radar.clientWidth,height=radar.clientHeight;
@@ -185,10 +197,12 @@ function makeWeatherPage(page,w){
     map.style.width=Math.floor(550*scale)+'px';
     map.style.height=Math.floor(512*scale)+'px';
     iframe.style.setProperty('--radar-scale',String(scale));
+    centerWeatherBlocks();
   }
   if(typeof ResizeObserver!=='undefined'){
     const observer=new ResizeObserver(()=>{if(!map.isConnected){observer.disconnect();return}scaleRadar()});
-    observer.observe(radar)
+    observer.observe(radar);
+    observer.observe(page);
   }else window.addEventListener('resize',scaleRadar,{passive:true});
   requestAnimationFrame(scaleRadar);
 }
