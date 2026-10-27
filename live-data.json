@@ -1,13 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T21:20:00+00:00",
+    "updatedAt": "2026-10-27T21:56:50+00:00",
     "headlines": [
       {
         "title": "Nog geen zicht op deal met oppositie: 'Vrees dat we in grindbak belanden'",
         "url": "https://www.nu.nl/politiek/6414574/nog-geen-zicht-op-deal-met-oppositie-vrees-dat-we-in-grindbak-belanden.html",
         "date": "Tue, 27 Oct 2026 21:59:56 +0100",
-        "summary": "Het kabinet voerde maandag en dinsdag opnieuw gesprekken met oppositiepartijen in de zoektocht naar steun voor het belastingplan. De tijd begint te dringen, maar een duidelijke route is nog er nog steeds niet. \"Kabinet gaat zich nu beraden.\"",
+        "summary": "Het kabinet voerde maandag en dinsdag opnieuw gesprekken met oppositiepartijen in de zoektocht naar steun voor het belastingplan. De tijd begint te dringen, maar een duidelijke route is er nog steeds niet. \"Het kabinet gaat zich nu beraden.\"",
         "imageUrl": "https://images.nu.nl/m/34lxluia3yct_sqr256/1258/653/3347/3347/nog-geen-zicht-op-deal-met-oppositie-vrees-dat-we-in-grindbak-belanden.jpg"
       },
       {
@@ -15,14 +15,14 @@
         "url": "https://www.nu.nl/voetbal/6414612/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.html",
         "date": "Tue, 27 Oct 2026 21:35:51 +0100",
         "summary": "De eerste wedstrijd in het KNVB-bekertoernooi heeft dinsdag meteen een stunt opgeleverd. Eredivisionist ADO Den Haag werd via penalty's uitgeschakeld door de topamateurs van Excelsior'31, die drie niveaus lager spelen.",
-        "imageUrl": "https://images.nu.nl/m/1cdx6a2aczvk_sqr256/697/468/2199/2199/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.jpg"
+        "imageUrl": "https://images.nu.nl/m/1cdx6a2aczvk_sqr256/697/465/2199/2199/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.jpg"
       },
       {
         "title": "Exitpoll Israël: Partij Netanyahu grootste, maar meer steun voor blok van zijn rivaal",
         "url": "https://www.nu.nl/buitenland/6414555/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.html",
         "date": "Tue, 27 Oct 2026 21:16:12 +0100",
         "summary": "De Likud-partij van de Israëlische premier Benjamin Netanyahu is volgens de exitpolls de grootste partij bij de parlementsverkiezingen. Maar het oppositieblok onder leiding van oud-legerleider Gadi Eisenkot lijkt op meer steun te kunnen rekenen.",
-        "imageUrl": "https://images.nu.nl/m/jmoxeqmawr68_sqr256/221/0/3668/3668/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.jpg"
+        "imageUrl": "https://images.nu.nl/m/rd9x60lazt0q_sqr256/538/0/3192/3192/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.jpg"
       },
       {
         "title": "Video | Dodelijke tornado raast door Antalya en laat spoor van vernieling achter",
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
       {
         "time": "23:00",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
       }
     ],
     "temperature": 10.0,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T21:20:01+00:00",
-    "rainUpdatedAt": "2026-10-27T21:20:02+00:00"
+    "weatherUpdatedAt": "2026-10-27T21:56:51+00:00",
+    "rainUpdatedAt": "2026-10-27T21:56:52+00:00"
   }
 }
