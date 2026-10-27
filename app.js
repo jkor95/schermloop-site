@@ -21,7 +21,7 @@ const to64=async file=>{try{return await new Promise((resolve,reject)=>{const re
       await new Promise(resolve=>setTimeout(resolve,250*(attempt+1)))
     }
   }
-}const writeJson=(path,data)=>write(path,btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))));async function connect(t){token=t.trim();if(!token)throw Error('Vul een token in');await request('data/playlist.json');$('login').hidden=true;$('workspace').hidden=false;if(admin){await loadAdmin()}else{await loadPlaylist();await pollLive();updateClockCorner();setInterval(updateClockCorner,1000);setInterval(refresh,60000);setInterval(pollLive,180000)}}
+}const writeJson=(path,data)=>write(path,btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))));async function connect(t){token=t.trim();if(!token)throw Error('Vul een token in');await request('data/playlist.json');$('login').hidden=true;$('workspace').hidden=false;if(admin){await loadAdmin()}else{await loadPlaylist();await pollLive();updateClockCorner();setInterval(updateClockCorner,1000);document.addEventListener('visibilitychange',updateClockCorner);window.addEventListener('focus',updateClockCorner);setInterval(refresh,60000);setInterval(pollLive,180000)}}
 let bulletinSlides=[],bulletinLoadError='';
 function splitBulletWords(text,limit){const words=String(text||'').trim().split(/\s+/).filter(Boolean);const parts=[];let line='';for(const raw of words){let word=raw;while(word.length>limit){if(line){parts.push(line);line=''}parts.push(word.slice(0,limit));word=word.slice(limit)}if(!word)continue;if(line&&line.length+word.length+1>limit){parts.push(line);line=''}line+=(line?' ':'')+word}if(line)parts.push(line);return parts}
 function wrapBulletin(text,maxLength=650){const lines=String(text??'').replace(/\r\n?/g,'\n').split('\n').map(line=>line.trim()).filter(Boolean);if(!lines.length)return [{body:'',points:null}];if(lines.length===1)return splitBulletWords(lines[0],maxLength).map(body=>({body,points:null}));const points=lines.flatMap(line=>splitBulletWords(line.replace(/^(?:[•●▪◦]\s*|[-*]\s+|\d+[.)]\s+)/,'').trim(),260));const pages=[];let group=[],count=0,rows=0;for(const point of points){const needed=Math.max(1,Math.ceil((point.length+2)/56));if(group.length&&(group.length>=8||count+point.length>maxLength||rows+needed>10)){pages.push({body:'',points:group});group=[];count=0;rows=0}group.push(point);count+=point.length;rows+=needed}if(group.length)pages.push({body:'',points:group});return pages}
@@ -74,7 +74,7 @@ function currentRainPoints(weather){
   return points.slice(Math.min(elapsed,points.length))
 }
 function rainDescription(rain){if(!Array.isArray(rain)||!rain.length)return 'Regenverwachting tijdelijk niet beschikbaar';const peak=Math.max(0,...rain.map(point=>Math.max(0,Number(point.mmHour)||0)));if(peak<0.1)return 'Voorlopig geen regen verwacht';if(peak>=10)return 'Zware regen verwacht';if(peak>=2.5)return 'Matige regen verwacht';return 'Lichte regen verwacht'}
-const clockFormatter=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
+const clockFormatter=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 function updateClockCorner(){
   const el=$('clock-corner');
   if(!el)return;
