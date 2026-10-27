@@ -242,3 +242,38 @@
 .news-options #news-speed{width:170px;accent-color:#4c9fe9;padding:0}
 .news-options #news-speed-label{display:inline-block;min-width:72px;font-variant-numeric:tabular-nums}
 .news-options label[hidden]{display:none}
+
+
+/* Achtergrond die alleen zichtbaar is rondom niet-schermvullende posters en documentdia's. */
+#screen #stage.slide-media-stage{position:relative;isolation:isolate;overflow:hidden}
+#screen #stage .slide-blur-background{
+  position:absolute;
+  inset:-8%;
+  z-index:0;
+  pointer-events:none;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  filter:blur(var(--slide-blur,28px)) brightness(.62);
+}
+#screen #stage .slide-main-media{
+  display:block;
+  position:relative;
+  z-index:1;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.presentation-background-settings{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:12px 20px;
+  margin:10px 0 12px;
+}
+.presentation-background-settings label{display:inline-flex;align-items:center;gap:9px;flex-wrap:wrap}
+.presentation-background-settings label[hidden]{display:none}
+.presentation-background-settings #slide-background-mode{min-width:220px;max-width:100%}
+.presentation-background-settings input[type="color"]{width:76px;height:42px;padding:4px;cursor:pointer}
+.presentation-background-settings input[type="range"]{width:150px;padding:0;accent-color:#4c9fe9}
+.presentation-background-settings output{min-width:45px;font-variant-numeric:tabular-nums}
