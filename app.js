@@ -21,7 +21,7 @@ const to64=async file=>{try{return await new Promise((resolve,reject)=>{const re
       await new Promise(resolve=>setTimeout(resolve,250*(attempt+1)))
     }
   }
-}const writeJson=(path,data)=>write(path,btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))));async function connect(t){token=t.trim();if(!token)throw Error('Vul een token in');await request('data/playlist.json');$('login').hidden=true;$('workspace').hidden=false;if(admin){await loadAdmin()}else{await loadPlaylist();await pollLive();updateClockCorner();setInterval(updateClockCorner,1000);document.addEventListener('visibilitychange',updateClockCorner);window.addEventListener('focus',updateClockCorner);setInterval(refresh,60000);setInterval(pollLive,180000)}}
+}const writeJson=(path,data)=>write(path,btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))));async function connect(t){token=t.trim();if(!token)throw Error('Vul een token in');await request('data/playlist.json');$('login').hidden=true;$('workspace').hidden=false;if(admin){await loadAdmin()}else{await loadPlaylist();await pollLive();updateClockCorner();setInterval(updateClockCorner,1000);document.addEventListener('visibilitychange',updateClockCorner);window.addEventListener('focus',updateClockCorner);setInterval(refresh,30000);window.addEventListener('focus',refresh);setInterval(pollLive,180000)}}
 let bulletinSlides=[],bulletinLoadError='';
 function splitBulletWords(text,limit){const words=String(text||'').trim().split(/\s+/).filter(Boolean);const parts=[];let line='';for(const raw of words){let word=raw;while(word.length>limit){if(line){parts.push(line);line=''}parts.push(word.slice(0,limit));word=word.slice(limit)}if(!word)continue;if(line&&line.length+word.length+1>limit){parts.push(line);line=''}line+=(line?' ':'')+word}if(line)parts.push(line);return parts}
 function wrapBulletin(text,maxLength=650){const lines=String(text??'').replace(/\r\n?/g,'\n').split('\n').map(line=>line.trim()).filter(Boolean);if(!lines.length)return [{body:'',points:null}];if(lines.length===1)return splitBulletWords(lines[0],maxLength).map(body=>({body,points:null}));const points=lines.flatMap(line=>splitBulletWords(line.replace(/^(?:[•●▪◦]\s*|[-*]\s+|\d+[.)]\s+)/,'').trim(),260));const pages=[];let group=[],count=0,rows=0;for(const point of points){const needed=Math.max(1,Math.ceil((point.length+2)/56));if(group.length&&(group.length>=8||count+point.length>maxLength||rows+needed>10)){pages.push({body:'',points:group});group=[];count=0;rows=0}group.push(point);count+=point.length;rows+=needed}if(group.length)pages.push({body:'',points:group});return pages}
@@ -225,7 +225,46 @@ function clearSlideBackground(stage){
   const bg=stage.querySelector('.slide-blur-background');
   if(bg)bg.remove()
 }
-async function loadPlaylist(){try{const incoming=await json('data/runtime.json');await loadLiveSettings();await loadBulletins();updateClockCorner();items=addLiveSlides(Array.isArray(incoming.slides)?incoming.slides:[]);$('info').textContent=items.length+' onderdelen beschikbaar, waaronder '+bulletinSlides.length+' Excel-mededeling(en). Klik op Start presentatie.'+(bulletinLoadError?' '+bulletinLoadError:'')}catch(e){$('info').textContent='Afspeellijst niet geladen: '+e.message}}async function refresh(){if(!running)return;try{const incoming=await json('data/runtime.json');if(Array.isArray(incoming.slides)){const previousBackground=JSON.stringify(liveSettings.presentation||{});await loadLiveSettings();if(previousBackground!==JSON.stringify(liveSettings.presentation||{})){const stage=$('stage'),media=stage?.querySelector('.slide-main-media');if(media)applySlideBackground(stage,media.src,media.tagName==='VIDEO')}await loadBulletins();updateWeatherCorner();updateClockCorner();updateTicker();const next=addLiveSlides(incoming.slides);if(bulletinLoadError)$('info').textContent=bulletinLoadError;const old=JSON.stringify(items),fresh=JSON.stringify(next);if(old!==fresh){items=next;sequence++;playLoop()}}}catch(e){$('info').textContent='Verbinding tijdelijk verbroken: '+e.message}}async function asset(path){if(objects.has(path))return objects.get(path);const ext=path.toLowerCase().split('.').pop();const mime={jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',webp:'image/webp',gif:'image/gif',mp4:'video/mp4',webm:'video/webm'}[ext]||'application/octet-stream';let url=URL.createObjectURL(new Blob([await bytes(path)],{type:mime}));objects.set(path,url);return url}async function playLoop(){const my=++sequence;const screen=$('screen'),stage=$('stage');screen.style.display='flex';while(running&&my===sequence){if(!items.length){stage.textContent='Geen presentatie ingesteld';await new Promise(r=>setTimeout(r,3000));await refresh();continue}for(const slide of items){if(!running||my!==sequence)break;if(!slide.path)continue;try{if(slide.type==='live-news'||slide.type==='live-weather'||slide.type==='live-bulletin'){if(slide.type==='live-weather'&&Date.now()-lastLivePoll>120000)await pollLive();clearSlideBackground(stage);stage.replaceChildren();renderLiveSlide(stage,slide.type,slide);await new Promise(r=>setTimeout(r,Math.max(5,Number(slide.duration)||20)*1000));continue}let url=await asset(slide.path);stage.replaceChildren();let video=/\.(mp4|webm)$/i.test(slide.path),el=document.createElement(video?'video':'img');applySlideBackground(stage,url,video);el.className='slide-main-media';el.src=url;stage.appendChild(el);if(video){el.muted=true;el.autoplay=true;el.playsInline=true;await new Promise(resolve=>{let timeout=setTimeout(resolve,600000);el.onended=el.onerror=()=>{clearTimeout(timeout);resolve()};el.play().catch(e=>{$('info').textContent='Video kan niet starten: '+e.message;resolve()})})}else await new Promise(r=>setTimeout(r,Math.max(2,Number(slide.duration)||10)*1000))}catch(e){$('info').textContent=e.message;await new Promise(r=>setTimeout(r,2000))}}}}function updateNewsModeControls(){
+
+// Verwerk gewone playlistwijzigingen rechtstreeks, zonder op GitHub Actions te wachten.
+// Documentpagina's en omgezette video's komen uit de laatst verwerkte runtime.json.
+function effectivePreparedSlides(prepared,playlist){
+  if(!Array.isArray(playlist?.items))return prepared;
+  const available=Array.isArray(prepared)?prepared:[];
+  const result=[];
+  for(const item of playlist.items){
+    if(item?.enabled===false)continue;
+    const path=String(item?.path||'');
+    if(!path.startsWith('media/uploads/'))continue;
+    const ext=path.split('.').pop().toLowerCase();
+    const filename=path.split('/').pop();
+    const stem=filename.slice(0,filename.lastIndexOf('.')).replace(/[^A-Za-z0-9_-]/g,'_');
+    const defaultDuration=Math.max(2,Number(item.duration)||10);
+    if(['pdf','pptx'].includes(ext)){
+      const prefix='media/derived/'+stem+'/dia-';
+      const pages=available.filter(slide=>String(slide.path||'').startsWith(prefix)&&/dia-\d+\.png$/i.test(slide.path))
+        .sort((a,b)=>Number(a.path.match(/dia-(\d+)\.png$/i)[1])-Number(b.path.match(/dia-(\d+)\.png$/i)[1]));
+      for(const page of pages){
+        const number=page.path.match(/dia-(\d+)\.png$/i)[1];
+        if(item.slideEnabled?.[String(Number(number))]===false)continue;
+        result.push({path:page.path,duration:Number(item.slideDurations?.[String(Number(number))])||defaultDuration})
+      }
+    }else if(['mp4','mov','webm'].includes(ext)){
+      const converted='media/derived/'+stem+'.mp4';
+      const slide=available.find(x=>x.path===converted);
+      if(slide)result.push({path:converted,duration:defaultDuration})
+    }else{
+      result.push({path,duration:defaultDuration})
+    }
+  }
+  return result
+}
+async function getCurrentSlides(runtime){
+  const prepared=Array.isArray(runtime.slides)?runtime.slides:[];
+  try{return effectivePreparedSlides(prepared,await json('data/playlist.json'))}
+  catch(error){console.warn('Afspeellijst niet bereikbaar; verwerkte dia’s gebruikt',error);return prepared}
+}
+async function loadPlaylist(){try{const incoming=await json('data/runtime.json');const slides=await getCurrentSlides(incoming);await loadLiveSettings();await loadBulletins();updateClockCorner();items=addLiveSlides(slides);$('info').textContent=items.length+' onderdelen beschikbaar, waaronder '+bulletinSlides.length+' Excel-mededeling(en). Klik op Start presentatie.'+(bulletinLoadError?' '+bulletinLoadError:'')}catch(e){$('info').textContent='Afspeellijst niet geladen: '+e.message}}async function refresh(){if(!running)return;try{const incoming=await json('data/runtime.json');if(Array.isArray(incoming.slides)){const previousBackground=JSON.stringify(liveSettings.presentation||{});await loadLiveSettings();if(previousBackground!==JSON.stringify(liveSettings.presentation||{})){const stage=$('stage'),media=stage?.querySelector('.slide-main-media');if(media)applySlideBackground(stage,media.src,media.tagName==='VIDEO')}await loadBulletins();updateWeatherCorner();updateClockCorner();updateTicker();const next=addLiveSlides(await getCurrentSlides(incoming));if(bulletinLoadError)$('info').textContent=bulletinLoadError;const old=JSON.stringify(items),fresh=JSON.stringify(next);if(old!==fresh){items=next;sequence++;playLoop()}}}catch(e){$('info').textContent='Verbinding tijdelijk verbroken: '+e.message}}async function asset(path){if(objects.has(path))return objects.get(path);const ext=path.toLowerCase().split('.').pop();const mime={jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',webp:'image/webp',gif:'image/gif',mp4:'video/mp4',webm:'video/webm'}[ext]||'application/octet-stream';let url=URL.createObjectURL(new Blob([await bytes(path)],{type:mime}));objects.set(path,url);return url}async function playLoop(){const my=++sequence;const screen=$('screen'),stage=$('stage');screen.style.display='flex';while(running&&my===sequence){if(!items.length){stage.textContent='Geen presentatie ingesteld';await new Promise(r=>setTimeout(r,3000));await refresh();continue}for(const slide of items){if(!running||my!==sequence)break;if(!slide.path)continue;try{if(slide.type==='live-news'||slide.type==='live-weather'||slide.type==='live-bulletin'){if(slide.type==='live-weather'&&Date.now()-lastLivePoll>120000)await pollLive();clearSlideBackground(stage);stage.replaceChildren();renderLiveSlide(stage,slide.type,slide);await new Promise(r=>setTimeout(r,Math.max(5,Number(slide.duration)||20)*1000));continue}let url=await asset(slide.path);stage.replaceChildren();let video=/\.(mp4|webm)$/i.test(slide.path),el=document.createElement(video?'video':'img');applySlideBackground(stage,url,video);el.className='slide-main-media';el.src=url;stage.appendChild(el);if(video){el.muted=true;el.autoplay=true;el.playsInline=true;await new Promise(resolve=>{let timeout=setTimeout(resolve,600000);el.onended=el.onerror=()=>{clearTimeout(timeout);resolve()};el.play().catch(e=>{$('info').textContent='Video kan niet starten: '+e.message;resolve()})})}else await new Promise(r=>setTimeout(r,Math.max(2,Number(slide.duration)||10)*1000))}catch(e){$('info').textContent=e.message;await new Promise(r=>setTimeout(r,2000))}}}}function updateNewsModeControls(){
   if(!admin)return;
   const enabled=$('live-news').checked,ticker=$('news-mode').value==='ticker';
   $('news-mode').disabled=!enabled;
@@ -354,7 +393,7 @@ function move(i,d){let j=i+d;if(j<0||j>=items.length)return;[items[i],items[j]]=
       await writeJson('data/playlist.json',{items});
       savedPlaylistSnapshot=playlistSnapshot
     }
-    status('Opgeslagen. Live nieuws en Buienradar verversen automatisch; presentatie-instellingen worden bijgewerkt.')
+    status('Opgeslagen. Het presentatiescherm controleert automatisch iedere 30 seconden op wijzigingen. PDF’s en PowerPoints moeten eerst worden omgezet.')
   }finally{
     saving=false;
     if(button)button.disabled=false
