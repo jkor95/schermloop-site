@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-26T23:47:36+00:00",
+    "updatedAt": "2026-10-27T00:11:52+00:00",
     "headlines": [
+      {
+        "title": "Flavio Bolsonaro mag Brazilie na verkiezingsnederlaag niet verlaten",
+        "url": "https://www.nu.nl/buitenland/6414502/flavio-bolsonaro-mag-brazilie-na-verkiezingsnederlaag-niet-verlaten.html",
+        "date": "Tue, 27 Oct 2026 01:03:30 +0100",
+        "summary": "Flavio Bolsonaro mag Brazilië na zijn verkiezingsnederlaag niet verlaten. Enkele uren na de uitslag kreeg de rechtse senator een uitreisverbod opgelegd. Ook moest Flavio zijn paspoort inleveren, omdat hij wordt verdacht van witwassen.",
+        "imageUrl": "https://images.nu.nl/m/8hmxkktadptg_sqr256/1494/0/5504/5504/flavio-bolsonaro-mag-brazilie-na-verkiezingsnederlaag-niet-verlaten.jpg"
+      },
       {
         "title": "Hof verwerpt plan van Trump om 20.000 stemmen in Californië niet mee te tellen",
         "url": "https://www.nu.nl/verkiezingen-vs/6414501/hof-verwerpt-plan-van-trump-om-20000-stemmen-in-californie-niet-mee-te-tellen.html",
@@ -43,14 +50,7 @@
         "url": "https://www.nu.nl/binnenland/6414499/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.html",
         "date": "Mon, 26 Oct 2026 22:42:36 +0100",
         "summary": "In Egmond is een maandagochtend een dode griend aangespoeld. Het dier was in verre staat van ontbinding. Dit jaar zijn er al twaalf verschillende walvisachtigen gestrand in Nederland. Dat is volgens SOS Dolfijn \"uitzonderlijk veel\".",
-        "imageUrl": "https://images.nu.nl/m/iwqxm4na7or0_sqr256/1564/0/4984/4984/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
-      },
-      {
-        "title": "Studentenlijst wil Servië 'heropbouwen', maar het is niet duidelijk hoe",
-        "url": "https://www.nu.nl/buitenland/6414487/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.html",
-        "date": "Mon, 26 Oct 2026 22:25:26 +0100",
-        "summary": "De studentenprotestbeweging die zondag de Servische verkiezingen won, wil het land \"wederopbouwen\". Maar de Studentenlijst heeft een gebrek aan ervaring en geen duidelijke leider. Bovendien lijken er (nog) geen concrete plannen te zijn voor de opvolging van oud-president Aleksandar Vucic.",
-        "imageUrl": "https://images.nu.nl/m/57qxrt1azxh2_sqr256/589/0/4000/4000/studentenlijst-wil-servie-heropbouwen-maar-het-is-niet-duidelijk-hoe.jpg"
+        "imageUrl": "https://images.nu.nl/m/30cx7spaduvo_sqr256/10/0/343/343/dode-griend-aangespoeld-bij-egmond-uitzonderlijk-jaar-voor-gestrande-dieren.jpg"
       }
     ]
   },
@@ -58,26 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:10",
-        "mmHour": 0.0
-      },
       {
         "time": "01:15",
         "mmHour": 0.0
@@ -153,12 +133,32 @@
       {
         "time": "02:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.8,
+    "temperature": 12.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-26T23:47:37+00:00",
-    "rainUpdatedAt": "2026-10-26T23:47:37+00:00"
+    "weatherUpdatedAt": "2026-10-27T00:11:52+00:00",
+    "rainUpdatedAt": "2026-10-27T00:11:53+00:00"
   }
 }
