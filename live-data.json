@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T22:33:04+00:00",
+    "updatedAt": "2026-10-27T23:09:03+00:00",
     "headlines": [
+      {
+        "title": "Bekersprookje in Engeland: vierdeklasser Fleetwood Town schakelt Arsenal uit",
+        "url": "https://www.nu.nl/voetbal/6414620/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.html",
+        "date": "Tue, 27 Oct 2026 23:13:12 +0100",
+        "summary": "Arsenal heeft dinsdag in de achtste finales van de League Cup een afgang beleefd tegen Fleetwood Town. De huidige nummer achttien van de League Two versloeg de regerend landskampioen van aanvoerder Jurriën Timber in een strafschoppenreeks.",
+        "imageUrl": "https://images.nu.nl/m/on3xn7qaaeh2_sqr256/616/0/3658/3658/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.jpg"
+      },
       {
         "title": "Dood van tiener na ruim 50 jaar gelinkt aan seriemoordenaar Ted Bundy",
         "url": "https://www.nu.nl/buitenland/6414616/dood-van-tiener-na-ruim-50-jaar-gelinkt-aan-seriemoordenaar-ted-bundy.html",
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 20:32:36 +0100",
         "summary": "Een 36-jarige man uit de Amerikaanse staat Illinois wordt beschuldigd van het versturen van vier brieven met een verdachte substantie erin. Hij verstuurde de brieven onder zijn eigen naam en adres naar vier Amerikaanse congresleden, waardoor hij snel kon worden getraceerd.",
         "imageUrl": "https://images.nu.nl/m/wjdxhosa50vn_sqr256/2337/2/5427/5427/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.jpg"
-      },
-      {
-        "title": "Praktisch opgeleiden voelen zich achtergesteld: 'Leven in andere werkelijkheid'",
-        "url": "https://www.nu.nl/binnenland/6414594/praktisch-opgeleiden-voelen-zich-achtergesteld-leven-in-andere-werkelijkheid.html",
-        "date": "Tue, 27 Oct 2026 20:08:42 +0100",
-        "summary": "Een aanzienlijke minderheid in Nederland voelt zich achtergesteld door de politiek. Opvallend is dat vooral praktisch opgeleide mensen zich tot die groep rekenen. Volgens deskundigen komt dat door een overlap tussen hun gevoel en hun werkelijke positie in de maatschappij.",
-        "imageUrl": "https://images.nu.nl/m/owux333a5s58_sqr256/0/0/5464/5464/praktisch-opgeleiden-voelen-zich-achtergesteld-leven-in-andere-werkelijkheid.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:35",
-        "mmHour": 0.1
-      },
-      {
-        "time": "23:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:45",
-        "mmHour": 0.21
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.1
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
       {
         "time": "00:10",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "01:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.6,
+    "temperature": 8.9,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T22:33:04+00:00",
-    "rainUpdatedAt": "2026-10-27T22:33:04+00:00"
+    "weatherUpdatedAt": "2026-10-27T23:09:03+00:00",
+    "rainUpdatedAt": "2026-10-27T23:09:05+00:00"
   }
 }
