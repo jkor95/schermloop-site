@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T11:04:37+00:00",
+    "updatedAt": "2026-10-27T11:40:36+00:00",
     "headlines": [
       {
-        "title": "Israëlische Nederlanders reizen af om te stemmen: 'Netanyahu van troon stoten'",
-        "url": "https://www.nu.nl/nujij/6414493/israelische-nederlanders-reizen-af-om-te-stemmen-netanyahu-van-troon-stoten.html",
+        "title": "Denemarken baalt van Fins-Noors belletje naar Poetin: 'Was niet afgestemd'",
+        "url": "https://www.nu.nl/spanningen-oekraine/6414547/denemarken-baalt-van-fins-noors-belletje-naar-poetin-was-niet-afgestemd.html",
+        "date": "Tue, 27 Oct 2026 12:38:04 +0100",
+        "summary": "De Deense premier Mette Frederiksen is niet blij met een telefoongesprek tussen het Kremlin en haar Finse en Noorse collega's. Dat was volgens haar niet met de bondgenoten afgestemd.",
+        "imageUrl": "https://images.nu.nl/m/w7sxdqhag83b_sqr256/903/0/3667/3667/denemarken-baalt-van-fins-noors-belletje-naar-poetin-was-niet-afgestemd.jpg"
+      },
+      {
+        "title": "Honderden explosieven uit WO I gevonden door smelten van gletsjers in Italië",
+        "url": "https://www.nu.nl/buitenland/6414543/honderden-explosieven-uit-wo-i-gevonden-door-smelten-van-gletsjers-in-italie.html",
+        "date": "Tue, 27 Oct 2026 12:22:21 +0100",
+        "summary": "Het Italiaanse leger heeft in de Dolomieten 250 explosieven verwijderd en onschadelijk gemaakt nadat die meer dan honderd jaar in het ijs hadden gelegen. Wandelaars zagen afgelopen zomer verschillende bommen liggen, waarna militairen de omgeving doorzochten.",
+        "imageUrl": "https://images.nu.nl/m/1pfx3awacxl9_sqr256/654/0/3648/3648/honderden-explosieven-uit-wo-i-gevonden-door-smelten-van-gletsjers-in-italie.jpg"
+      },
+      {
+        "title": "Stemmen tegen Netanyahu in Israël: 'Verschrikkelijk wat er in Gaza gebeurt'",
+        "url": "https://www.nu.nl/nujij/6414493/stemmen-tegen-netanyahu-in-israel-verschrikkelijk-wat-er-in-gaza-gebeurt.html",
         "date": "Tue, 27 Oct 2026 11:52:16 +0100",
         "summary": "Tienduizenden Israëliërs die in het buitenland wonen vliegen naar Israël om vandaag te stemmen. Stemmen vanuit het buitenland kan namelijk niet. Hun komst pakt waarschijnlijk ongunstig uit voor premier Benjamin Netanyahu. \"Het is verschrikkelijk wat er in Gaza gebeurt.\"",
-        "imageUrl": "https://images.nu.nl/m/sdhxrpta5iij_sqr256/583/0/3649/3649/israelische-nederlanders-reizen-af-om-te-stemmen-netanyahu-van-troon-stoten.jpg"
+        "imageUrl": "https://images.nu.nl/m/sdhxrpta5iij_sqr256/583/0/3649/3649/stemmen-tegen-netanyahu-in-israel-verschrikkelijk-wat-er-in-gaza-gebeurt.jpg"
       },
       {
         "title": "Cornald Maas over ontbreken Nederland op Songfestival: 'Onvermijdelijk besluit'",
@@ -37,20 +51,6 @@
         "date": "Tue, 27 Oct 2026 10:46:04 +0100",
         "summary": "Het Britse openbaar ministerie heeft dinsdag twee mannen aangeklaagd in verband met een incident van vorige maand op luchtmachtbasis RAF Fairford. De politie verdenkt hen ervan Iran te hebben ondersteund. Ze zijn aangeklaagd op grond van de nationale veiligheidswet.",
         "imageUrl": "https://images.nu.nl/m/gz2x6oxa2cav_sqr256/893/3/3673/3673/twee-mannen-aangeklaagd-voor-incident-bij-britse-luchtmachtbasis.jpg"
-      },
-      {
-        "title": "Video | Fietsers proberen telefoon van journalist te stelen tijdens live-uitzending",
-        "url": "https://www.nu.nl/331678/video/fietsers-proberen-telefoon-van-journalist-te-stelen-tijdens-live-uitzending.html",
-        "date": "Tue, 27 Oct 2026 10:26:41 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/pknx1quabxmn_sqr256/511/1/1079/1079/fietsers-proberen-telefoon-van-journalist-te-stelen-tijdens-live-uitzending.jpg"
-      },
-      {
-        "title": "Chinese merken stoppen samenwerking met Mbappé na grap over Mao Zedong",
-        "url": "https://www.nu.nl/voetbal/6414526/chinese-merken-stoppen-samenwerking-met-mbappe-na-grap-over-mao-zedong.html",
-        "date": "Tue, 27 Oct 2026 10:25:17 +0100",
-        "summary": "Drie Chinese bedrijven hebben hun samenwerking met Kylian Mbappé opgezegd vanwege een video waarin de spits lacherig doet over een meme van Mao Zedong. De bedrijven stellen dat de Fransman nationale gevoelens heeft gekrenkt.",
-        "imageUrl": "https://images.nu.nl/m/j9dxgkvaaq5v_sqr256/1073/0/4284/4284/chinese-merken-stoppen-samenwerking-met-mbappe-na-grap-over-mao-zedong.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:40",
-        "mmHour": 0.0
-      },
       {
         "time": "12:45",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "14:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 16.4,
+    "temperature": 16.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T11:04:37+00:00",
-    "rainUpdatedAt": "2026-10-27T11:04:38+00:00"
+    "weatherUpdatedAt": "2026-10-27T11:40:37+00:00",
+    "rainUpdatedAt": "2026-10-27T11:40:37+00:00"
   }
 }
