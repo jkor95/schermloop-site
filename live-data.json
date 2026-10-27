@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T20:10:15+00:00",
+    "updatedAt": "2026-10-27T20:46:59+00:00",
     "headlines": [
+      {
+        "title": "Meteen stunt in bekertoernooi: ADO via penalty's uitgeschakeld door amateurclub",
+        "url": "https://www.nu.nl/voetbal/6414612/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.html",
+        "date": "Tue, 27 Oct 2026 21:35:51 +0100",
+        "summary": "De eerste wedstrijd in het KNVB-bekertoernooi heeft dinsdag meteen een stunt opgeleverd. Eredivisionist ADO Den Haag werd via penalty's uitgeschakeld door de topamateurs van Excelsior'31, die drie niveaus lager spelen.",
+        "imageUrl": "https://images.nu.nl/m/al5x16wadbx5_sqr256/165/0/2664/2664/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.jpg"
+      },
+      {
+        "title": "Exitpoll Israël: Partij Netanyahu grootste, maar meer steun voor blok van zijn rivaal",
+        "url": "https://www.nu.nl/buitenland/6414555/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.html",
+        "date": "Tue, 27 Oct 2026 21:16:12 +0100",
+        "summary": "Het blok van Israëlische oppositiepartijen, geleid door oud-legerleider Gadi Eisenkot, krijgt volgens de exitpolls de meeste steun na de Israëlische parlementsverkiezingen. De Likud-partij van zittend premier Benjamin Netanyahu is weliswaar de grootste, maar heeft een minder groot blok achter zich.",
+        "imageUrl": "https://images.nu.nl/m/jmoxeqmawr68_sqr256/221/0/3668/3668/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.jpg"
+      },
       {
         "title": "Man stuurde poederbrieven naar politici in VS met eigen naam en adres erop",
         "url": "https://www.nu.nl/buitenland/6414605/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.html",
@@ -32,25 +46,11 @@
         "imageUrl": "https://images.nu.nl/m/aixxd74aiz89_sqr256/1164/0/3374/3374/eu-wil-leren-van-migrantencrisis-ceuta-en-bevoegdheden-frontex-uitbreiden.jpg"
       },
       {
-        "title": "Bolsonaro junior ontvlucht Brazilië na verkiezingsnederlaag en is onderweg naar VS",
-        "url": "https://www.nu.nl/buitenland/6414602/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-onderweg-naar-vs.html",
+        "title": "Bolsonaro junior ontvlucht Brazilië na verkiezingsnederlaag en is op weg naar VS",
+        "url": "https://www.nu.nl/buitenland/6414602/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-op-weg-naar-vs.html",
         "date": "Tue, 27 Oct 2026 18:39:57 +0100",
         "summary": "Flávio Bolsonaro heeft Brazilië verlaten na zijn verkiezingsnederlaag. Hij zou met zijn gezin naar de Verenigde Staten zijn vertrokken, melden CNN Brasil en persbureau Reuters .",
-        "imageUrl": "https://images.nu.nl/m/xp0xf48av6wv_sqr256/202/0/5504/5504/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-onderweg-naar-vs.jpg"
-      },
-      {
-        "title": "Trump weer beschuldigd van verkrachting, Democraten eisen speciale aanklager",
-        "url": "https://www.nu.nl/buitenland/6414592/trump-weer-beschuldigd-van-verkrachting-democraten-eisen-speciale-aanklager.html",
-        "date": "Tue, 27 Oct 2026 18:12:59 +0100",
-        "summary": "Voormalig Miss Zwitserland Beatrice Keul beschuldigt de Amerikaanse president Donald Trump van verkrachting. Haar nieuwe beschuldiging staat in een onderzoeksrapport van de Democraten. Zij eisen nu een onafhankelijke speciale aanklager die de banden tussen Trump en zedendelinquent Jeffrey Epstein moet onderzoeken.",
-        "imageUrl": "https://images.nu.nl/m/eq8xn8qaecmb_sqr256/0/0/5464/5464/trump-weer-beschuldigd-van-verkrachting-democraten-eisen-speciale-aanklager.jpg"
-      },
-      {
-        "title": "Bilal Wahib en Sophie Keizer in het geheim getrouwd",
-        "url": "https://www.nu.nl/achterklap/6414601/bilal-wahib-en-sophie-keizer-in-het-geheim-getrouwd.html",
-        "date": "Tue, 27 Oct 2026 18:09:17 +0100",
-        "summary": "Bilal Wahib en zijn partner Sophie Keizer zijn een paar weken geleden in het geheim getrouwd. \"Het was supermooi. Het was gewoon heel intiem met familieleden\", vertelt de 27-jarige artiest aan RTL Boulevard .",
-        "imageUrl": "https://images.nu.nl/m/pmdxvekagu5d_sqr256/906/51/1371/1371/bilal-wahib-en-sophie-keizer-in-het-geheim-getrouwd.jpg"
+        "imageUrl": "https://images.nu.nl/m/xp0xf48av6wv_sqr256/202/0/5504/5504/bolsonaro-junior-ontvlucht-brazilie-na-verkiezingsnederlaag-en-is-op-weg-naar-vs.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
       {
         "time": "21:45",
         "mmHour": 0.0
@@ -136,11 +104,11 @@
       },
       {
         "time": "22:40",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "22:45",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "22:50",
@@ -153,12 +121,44 @@
       {
         "time": "23:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.5,
+    "temperature": 10.4,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T20:10:15+00:00",
-    "rainUpdatedAt": "2026-10-27T20:10:16+00:00"
+    "weatherUpdatedAt": "2026-10-27T20:46:59+00:00",
+    "rainUpdatedAt": "2026-10-27T20:47:00+00:00"
   }
 }
