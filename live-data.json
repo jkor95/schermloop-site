@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T13:20:07+00:00",
+    "updatedAt": "2026-10-28T14:16:58+00:00",
     "headlines": [
+      {
+        "title": "Flavio Bolsonaro drie dagen na verkiezingsnederlaag aangekomen in de VS",
+        "url": "https://www.nu.nl/buitenland/6414698/flavio-bolsonaro-drie-dagen-na-verkiezingsnederlaag-aangekomen-in-de-vs.html",
+        "date": "Wed, 28 Oct 2026 14:49:32 +0100",
+        "summary": "De Braziliaanse presidentskandidaat Flavio Bolsonaro is aangekomen in de Verenigde Staten. Zondag verloor hij de presidentsverkiezingen. Dinsdag ontvluchtte hij Brazilië nadat het hooggerechtshof had geoordeeld dat hij het land niet uit mocht vanwege een corruptieonderzoek.",
+        "imageUrl": "https://images.nu.nl/m/25vxgewavs2z_sqr256/172/0/1830/1830/flavio-bolsonaro-drie-dagen-na-verkiezingsnederlaag-aangekomen-in-de-vs.jpg"
+      },
+      {
+        "title": "Meer aanwijzingen voor menselijke fout bij treinramp Spanje, zeker 64 doden",
+        "url": "https://www.nu.nl/buitenland/6414690/meer-aanwijzingen-voor-menselijke-fout-bij-treinramp-spanje-zeker-64-doden.html",
+        "date": "Wed, 28 Oct 2026 14:38:24 +0100",
+        "summary": "Steeds meer wijst op een menselijke fout bij het treinongeluk in de buurt van het Spaanse Urda. Een hogesnelheidstrein zou opdracht hebben gekregen om door te rijden, terwijl een andere trein op dat moment het spoor blokkeerde. Het dodental is inmiddels opgelopen tot 64.",
+        "imageUrl": "https://images.nu.nl/m/wgxxcv7ajsyu_sqr256/0/0/2936/2936/meer-aanwijzingen-voor-menselijke-fout-bij-treinramp-spanje-zeker-64-doden.jpg"
+      },
+      {
+        "title": "Taakstraffen geëist voor paranormale sessie bij kindergraven in Amersfoort",
+        "url": "https://www.nu.nl/binnenland/6414681/taakstraffen-geeist-voor-paranormale-sessie-bij-kindergraven-in-amersfoort.html",
+        "date": "Wed, 28 Oct 2026 14:25:16 +0100",
+        "summary": "Tegen vier vrouwen die worden verdacht van het plegen van grafschennis op begraafplaats Rusthof in Amersfoort zijn taakstraffen van veertig tot tweehonderd uur geëist. De strafzaak ging woensdag van start. Onder anderen de moeder van een van de overleden kinderen nam het woord.",
+        "imageUrl": "https://images.nu.nl/m/bm7xcvpa16ay_sqr256/0/0/3691/3691/taakstraffen-geeist-voor-paranormale-sessie-bij-kindergraven-in-amersfoort.jpg"
+      },
       {
         "title": "Unilever gaat prijzen van voeding en verzorgingsproducten verhogen",
         "url": "https://www.nu.nl/economie/6414687/unilever-gaat-prijzen-van-voeding-en-verzorgingsproducten-verhogen.html",
@@ -30,27 +51,6 @@
         "date": "Wed, 28 Oct 2026 13:01:40 +0100",
         "summary": "De Amsterdamse rechtbank geeft Booking.com gelijk in een conflict met de ondernemingsraad over thuiswerken. Werknemers moeten verplicht twee dagen per week op kantoor doorbrengen, oordeelt de rechter.",
         "imageUrl": "https://images.nu.nl/m/976xxryao2hn_sqr256/2005/0/3995/3995/bookingcom-mag-personeel-verplichten-om-aantal-dagen-naar-kantoor-te-komen.jpg"
-      },
-      {
-        "title": "Gordon ziet terugkeer bij De Toppers wel zitten: 'Kreeg 150.000 euro per show'",
-        "url": "https://www.nu.nl/muziek/6414673/gordon-ziet-terugkeer-bij-de-toppers-wel-zitten-kreeg-150000-euro-per-show.html",
-        "date": "Wed, 28 Oct 2026 12:40:32 +0100",
-        "summary": "Gordon heeft sinds het vertrek van Gerard Joling bij De Toppers vorige week al meermaals aangekondigd open te staan voor een terugkeer. De zanger vertelde dinsdagavond in het praatprogramma Vandaag Inside dat hij destijds 150.000 euro per optreden met de groep kreeg.",
-        "imageUrl": "https://images.nu.nl/m/0swxai4aadgf_sqr256/1413/0/4481/4481/gordon-ziet-terugkeer-bij-de-toppers-wel-zitten-kreeg-150000-euro-per-show.jpg"
-      },
-      {
-        "title": "650 mensen geweigerd aan grens tijdens bijna twee jaar durende grenscontroles",
-        "url": "https://www.nu.nl/politiek/6414642/650-mensen-geweigerd-aan-grens-tijdens-bijna-twee-jaar-durende-grenscontroles.html",
-        "date": "Wed, 28 Oct 2026 12:30:54 +0100",
-        "summary": "Tijdens de binnengrenscontroles, die bijna twee jaar hebben geduurd, heeft de marechaussee 650 mensen de toegang tot Nederland geweigerd. De weggestuurde mensen hadden bijvoorbeeld niet de juiste papieren of werden gezien als een gevaar voor de openbare orde.",
-        "imageUrl": "https://images.nu.nl/m/0sfx7uha6ljm_sqr256/1632/0/5310/5310/650-mensen-geweigerd-aan-grens-tijdens-bijna-twee-jaar-durende-grenscontroles.jpg"
-      },
-      {
-        "title": "Video | Luchtbeelden tonen ontspoorde wagons na ernstige treinramp in Spanje",
-        "url": "https://www.nu.nl/331717/video/luchtbeelden-tonen-ontspoorde-wagons-na-ernstige-treinramp-in-spanje.html",
-        "date": "Wed, 28 Oct 2026 12:30:01 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/wt9xh4sa3zgp_sqr256/444/0/1080/1080/luchtbeelden-tonen-ontspoorde-wagons-na-ernstige-treinramp-in-spanje.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:10",
-        "mmHour": 0.0
-      },
       {
         "time": "15:15",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "16:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.8,
+    "temperature": 13.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T13:20:08+00:00",
-    "rainUpdatedAt": "2026-10-28T13:20:09+00:00"
+    "weatherUpdatedAt": "2026-10-28T14:16:58+00:00",
+    "rainUpdatedAt": "2026-10-28T14:16:59+00:00"
   }
 }
