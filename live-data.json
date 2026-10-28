@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T06:23:10+00:00",
+    "updatedAt": "2026-10-28T07:32:00+00:00",
     "headlines": [
+      {
+        "title": "Trio bekent schuld in grootschalige internationale liefdesfraude bij ouderen",
+        "url": "https://www.nu.nl/buitenland/6414630/trio-bekent-schuld-in-grootschalige-internationale-liefdesfraude-bij-ouderen.html",
+        "date": "Wed, 28 Oct 2026 07:42:56 +0100",
+        "summary": "Twee Ghanese tweelingbroers en een Amerikaanse vrouw hebben bekend dat ze ouderen hebben opgelicht via datingsites en sociale media. De drie gebruikten valse identiteiten en lichtten slachtoffers in de Verenigde Staten en Europa op voor 9 miljoen.",
+        "imageUrl": "https://images.nu.nl/m/z97xte0aeugd_sqr256/111/1/863/863/trio-bekent-schuld-in-grootschalige-internationale-liefdesfraude-bij-ouderen.jpg"
+      },
       {
         "title": "Passagiers jarenlange luxe cruisereis gestrand in Cambodja om brandstofprijzen",
         "url": "https://www.nu.nl/buitenland/6414627/passagiers-jarenlange-luxe-cruisereis-gestrand-in-cambodja-om-brandstofprijzen.html",
@@ -25,11 +32,11 @@
         "imageUrl": "https://images.nu.nl/m/aqpxctta6f94_sqr256/0/481/1919/1919/voetbalnomade-andre-krul-terug-in-nederland-sliep-in-senegal-op-de-grond.jpg"
       },
       {
-        "title": "Israëlische oppositie heeft even kleine als unieke kans om Netanyahu buitenspel te zetten",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414523/israelische-oppositie-heeft-even-kleine-als-unieke-kans-om-netanyahu-buitenspel-te-zetten.html",
+        "title": "Israëlische oppositie heeft kleine maar unieke kans om Netanyahu buitenspel te zetten",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414523/israelische-oppositie-heeft-kleine-maar-unieke-kans-om-netanyahu-buitenspel-te-zetten.html",
         "date": "Wed, 28 Oct 2026 05:33:35 +0100",
-        "summary": "Een \"historische kans\" om premier Benjamin Netanyahu te vervangen en \"echte verandering\" te brengen, klinkt het vanuit het oppositieblok in Israël na de voorlopige verkiezingsuitslag. Maar Netanyahu geeft zich niet zomaar gewonnen. De oppositie moet laten zien hoe graag ze van hem af willen.",
-        "imageUrl": "https://images.nu.nl/m/oiexiucajkkv_sqr256/48/0/682/682/israelische-oppositie-heeft-even-kleine-als-unieke-kans-om-netanyahu-buitenspel-te-zetten.jpg"
+        "summary": "Een \"historische kans\" om premier Benjamin Netanyahu te vervangen en \"echte verandering\" te brengen, klinkt het vanuit het oppositieblok in Israël na de voorlopige verkiezingsuitslag. Maar Netanyahu geeft zich niet zomaar gewonnen. De oppositie moet laten zien dat ze hem daadwerkelijk wil vervangen.",
+        "imageUrl": "https://images.nu.nl/m/oiexiucajkkv_sqr256/48/0/682/682/israelische-oppositie-heeft-kleine-maar-unieke-kans-om-netanyahu-buitenspel-te-zetten.jpg"
       },
       {
         "title": "Nipte voorsprong voor blok Netanyahu met ruime helft Israëlische stemmen geteld",
@@ -44,13 +51,6 @@
         "date": "Wed, 28 Oct 2026 01:00:49 +0100",
         "summary": "Klimaatverandering heeft steeds grotere effecten op onze gezondheid. Het aantal hittedoden stijgt snel en ook via droogte en infectieziekten zorgt een warmer klimaat voor problemen. Volgens experts is er sprake van een wereldwijde crisis: \"Gezondheid moet centraal staan bij elke klimaatbeslissing.\"",
         "imageUrl": "https://images.nu.nl/m/ofgxw8xawf2c_sqr256/1230/0/2469/2469/hitte-droogte-en-ziekte-klimaatopwarming-trekt-zware-wissel-op-gezondheid.jpg"
-      },
-      {
-        "title": "Bekersprookje in Engeland: vierdeklasser Fleetwood Town schakelt Arsenal uit",
-        "url": "https://www.nu.nl/voetbal/6414620/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.html",
-        "date": "Tue, 27 Oct 2026 23:13:12 +0100",
-        "summary": "Arsenal heeft dinsdag in de achtste finales van de League Cup een afgang beleefd tegen Fleetwood Town. De huidige nummer achttien van de League Two versloeg de regerend landskampioen van aanvoerder Jurriën Timber in een strafschoppenreeks.",
-        "imageUrl": "https://images.nu.nl/m/on3xn7qaaeh2_sqr256/616/0/3658/3658/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.jpg"
       }
     ]
   },
@@ -58,62 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "07:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:30",
-        "mmHour": 0.0
-      },
       {
         "time": "08:35",
         "mmHour": 0.0
@@ -153,12 +97,68 @@
       {
         "time": "09:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "09:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.2,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 8.9,
+    "description": "Afwisselend bewolkt met (mogelijk) wat lichte regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T06:23:10+00:00",
-    "rainUpdatedAt": "2026-10-28T06:23:11+00:00"
+    "weatherUpdatedAt": "2026-10-28T07:32:00+00:00",
+    "rainUpdatedAt": "2026-10-28T07:32:01+00:00"
   }
 }
