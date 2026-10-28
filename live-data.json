@@ -1,21 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T18:20:48+00:00",
+    "updatedAt": "2026-10-28T19:18:56+00:00",
     "headlines": [
       {
-        "title": "Video | Lagerhuis moet lachen als premier Harry Kane feliciteert",
-        "url": "https://www.nu.nl/331723/video/lagerhuis-moet-lachen-als-premier-harry-kane-feliciteert.html",
-        "date": "Wed, 28 Oct 2026 18:51:43 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/a8ux79ea8p4b_sqr256/339/0/1080/1080/lagerhuis-moet-lachen-als-premier-harry-kane-feliciteert.jpg"
+        "title": "Politie gaat deel van onbehandelde aangiften uit 2024 opnieuw beoordelen",
+        "url": "https://www.nu.nl/politiek/6414733/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.html",
+        "date": "Wed, 28 Oct 2026 20:01:43 +0100",
+        "summary": "De politie gaat een deel van de aangiften en meldingen die in 2024 niet zijn behandeld opnieuw bekijken. In eerste instantie gaat het om aangiften van (pogingen tot) moord en doodslag en ernstige zedenzaken.",
+        "imageUrl": "https://images.nu.nl/m/i6ax3bga5z5o_sqr256/0/0/4651/4651/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.jpg"
       },
       {
-        "title": "Overlevenden vertellen over treinramp Spanje: 'Spoor ging dwars door de trein'",
-        "url": "https://www.nu.nl/buitenland/6414720/overlevenden-vertellen-over-treinramp-spanje-spoor-ging-dwars-door-de-trein.html",
+        "title": "Europa's tweede economie wankelt: 'Maar van Europese crisis nog geen sprake'",
+        "url": "https://www.nu.nl/buitenland/6414682/europas-tweede-economie-wankelt-maar-van-europese-crisis-nog-geen-sprake.html",
+        "date": "Wed, 28 Oct 2026 20:00:40 +0100",
+        "summary": "Frankrijk is in de ban van gewelddadige demonstraties tegen de afbraak van publieke voorzieningen. Tegelijkertijd is de economische situatie dusdanig slecht dat Parijs wel móét bezuinigen. Maar met verkiezingen in aantocht lijkt niemand die pijnlijke keuze te willen maken.",
+        "imageUrl": "https://images.nu.nl/m/k3gxw3salx8z_sqr256/1132/491/4658/4658/europas-tweede-economie-wankelt-maar-van-europese-crisis-nog-geen-sprake.jpg"
+      },
+      {
+        "title": "Winnaar van Canadese loterij dreigt jaar na trekking 40 miljoen mis te lopen",
+        "url": "https://www.nu.nl/opmerkelijk/6414728/winnaar-van-canadese-loterij-dreigt-jaar-na-trekking-40-miljoen-mis-te-lopen.html",
+        "date": "Wed, 28 Oct 2026 19:31:22 +0100",
+        "summary": "Een winnaar van een Canadese loterij heeft zich bijna een jaar na de trekking nog niet gemeld. De onbekende persoon heeft nog tot het einde van woensdag om de jackpot van omgerekend 25 miljoen euro op te eisen.",
+        "imageUrl": "https://images.nu.nl/m/pwaxsr2an2cy_sqr256/728/0/3024/3024/winnaar-van-canadese-loterij-dreigt-jaar-na-trekking-40-miljoen-mis-te-lopen.jpg"
+      },
+      {
+        "title": "Video | Willem-Alexander verwelkomt Zelensky met omarming bij audiëntie",
+        "url": "https://www.nu.nl/331731/video/willem-alexander-verwelkomt-zelensky-met-omarming-bij-audientie.html",
+        "date": "Wed, 28 Oct 2026 19:26:55 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/qayx7dgaanl5_sqr256/458/2/1078/1078/willem-alexander-verwelkomt-zelensky-met-omarming-bij-audientie.jpg"
+      },
+      {
+        "title": "Amsterdam verlengt fatbikeverbod in Vondelpark, maar breidt het niet uit",
+        "url": "https://www.nu.nl/binnenland/6414725/amsterdam-verlengt-fatbikeverbod-in-vondelpark-maar-breidt-het-niet-uit.html",
+        "date": "Wed, 28 Oct 2026 19:19:31 +0100",
+        "summary": "Amsterdam verlengt het fatbikeverbod in het Vondelpark, nadat is gebleken dat het aantal fatbikes in het park sterk is gedaald en de overlast is afgenomen. Maar het verbod wordt niet uitgebreid naar andere plekken in de hoofdstad.",
+        "imageUrl": "https://images.nu.nl/m/006xubfa4ba1_sqr256/414/589/1637/1637/amsterdam-verlengt-fatbikeverbod-in-vondelpark-maar-breidt-het-niet-uit.jpg"
+      },
+      {
+        "title": "Overlevenden vertellen over treinramp Spanje: 'Spoor sneed als mes door trein'",
+        "url": "https://www.nu.nl/buitenland/6414720/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.html",
         "date": "Wed, 28 Oct 2026 18:41:05 +0100",
         "summary": "Meerdere overlevenden van de treinramp in Spanje vertellen aan lokale media over wat ze meemaakten. Iemand zag hoe het spoor \"als een mes\" dwars door de trein heen sneed. Veel passagiers vreesden dat hun wagon zou kantelen.",
-        "imageUrl": "https://images.nu.nl/m/7qoxhm1appja_sqr256/395/0/3279/3279/overlevenden-vertellen-over-treinramp-spanje-spoor-ging-dwars-door-de-trein.jpg"
+        "imageUrl": "https://images.nu.nl/m/7qoxhm1appja_sqr256/395/0/3279/3279/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.jpg"
       },
       {
         "title": "Per direct landelijke ophokplicht voor pluimvee na drie uitbraken van vogelgriep",
@@ -23,34 +51,6 @@
         "date": "Wed, 28 Oct 2026 18:26:06 +0100",
         "summary": "Pluimveehouders moeten hun kippen per direct binnenhouden om de verspreiding van vogelgriep zoveel mogelijk tegen te gaan, meldt het ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur woensdag. Het besluit volgt op drie uitbraken van de ziekte in korte tijd.",
         "imageUrl": "https://images.nu.nl/m/pvxxrswaw81t_sqr256/819/0/3574/3574/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.jpg"
-      },
-      {
-        "title": "Van de redactie | We nodigen jullie graag uit voor onze NU.nl-bezoekersdag",
-        "url": "https://www.nu.nl/blog/6414721/we-nodigen-jullie-graag-uit-voor-onze-nunl-bezoekersdag.html",
-        "date": "Wed, 28 Oct 2026 18:16:45 +0100",
-        "summary": "NU.nl organiseert net als de afgelopen jaren een grote bezoekersdag. Een mooi moment (vinden wij) om een kijkje in onze keuken te geven en met elkaar in gesprek te gaan over ons werk, het medialandschap en jullie ervaringen.",
-        "imageUrl": "https://images.nu.nl/m/f5exhdmab5av_sqr256/1895/0/5501/5501/we-nodigen-jullie-graag-uit-voor-onze-nunl-bezoekersdag.jpg"
-      },
-      {
-        "title": "Werkgevers worstelen met thuiswerkbeleid: 'Meer bedrijven kunnen zaak starten'",
-        "url": "https://www.nu.nl/economie/6414693/werkgevers-worstelen-met-thuiswerkbeleid-meer-bedrijven-kunnen-zaak-starten.html",
-        "date": "Wed, 28 Oct 2026 18:00:28 +0100",
-        "summary": "Steeds meer werkgevers worstelen met hun thuiswerkbeleid. Zij kijken daarom met grote belangstelling naar de uitspraak van de Amsterdamse rechtbank in de zaak van Booking.com over verplichte kantoordagen. \"Het kan zijn dat meer bedrijven een zaak beginnen\", zeggen arbeidsrechtadvocaten tegen NU.nl.",
-        "imageUrl": "https://images.nu.nl/m/8dpxnw2aevcn_sqr256/2048/8/2952/2952/werkgevers-worstelen-met-thuiswerkbeleid-meer-bedrijven-kunnen-zaak-starten.jpg"
-      },
-      {
-        "title": "Diemenaar krijgt in hoger beroep veertien jaar cel voor 'abortusmoord'",
-        "url": "https://www.nu.nl/binnenland/6414702/diemenaar-krijgt-in-hoger-beroep-veertien-jaar-cel-voor-abortusmoord.html",
-        "date": "Wed, 28 Oct 2026 17:57:21 +0100",
-        "summary": "Dennis van E. is woensdag in hoger beroep veroordeeld tot veertien jaar cel voor de moord op zijn zwangere vriendin en hun ongeboren kind. De Diemenaar had de vrouw in 2019 gedwongen verschillende drugs en abortuspillen in te nemen.",
-        "imageUrl": "https://images.nu.nl/m/eykxrcxa5gem_sqr256/856/0/2362/2362/diemenaar-krijgt-in-hoger-beroep-veertien-jaar-cel-voor-abortusmoord.jpg"
-      },
-      {
-        "title": "Zelensky krijgt wat hij zoekt in Den Haag met oog op naderende winter",
-        "url": "https://www.nu.nl/politiek/6414715/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.html",
-        "date": "Wed, 28 Oct 2026 17:35:13 +0100",
-        "summary": "Nu de winter eraan komt en de Russische aanvallen op Oekraïne heftiger worden, zoekt de Oekraïense president Volodymyr Zelensky steun bij zijn trouwste bondgenoten. Hij is woensdag in Den Haag bij premier Rob Jetten en bezoekt in de avond koning Willem-Alexander.",
-        "imageUrl": "https://images.nu.nl/m/2lkxowga20el_sqr256/271/0/4559/4559/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:10",
-        "mmHour": 0.0
-      },
       {
         "time": "20:15",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "21:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.9,
+    "temperature": 13.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T18:20:49+00:00",
-    "rainUpdatedAt": "2026-10-28T18:20:50+00:00"
+    "weatherUpdatedAt": "2026-10-28T19:18:56+00:00",
+    "rainUpdatedAt": "2026-10-28T19:18:57+00:00"
   }
 }
