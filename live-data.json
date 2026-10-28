@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T20:44:58+00:00",
+    "updatedAt": "2026-10-28T21:22:06+00:00",
     "headlines": [
       {
         "title": "Bolsonaro verzet zich tegen verkiezingsuitslag en wil vanuit VS oppositie voeren",
@@ -59,38 +59,6 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
         "time": "22:25",
         "mmHour": 0.0
       },
@@ -132,11 +100,11 @@
       },
       {
         "time": "23:15",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "23:20",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "23:25",
@@ -153,12 +121,44 @@
       {
         "time": "23:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
       }
     ],
     "temperature": 11.3,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T20:44:58+00:00",
-    "rainUpdatedAt": "2026-10-28T20:45:00+00:00"
+    "weatherUpdatedAt": "2026-10-28T21:22:07+00:00",
+    "rainUpdatedAt": "2026-10-28T21:22:09+00:00"
   }
 }
