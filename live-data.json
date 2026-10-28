@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-27T23:40:57+00:00",
+    "updatedAt": "2026-10-28T00:12:00+00:00",
     "headlines": [
+      {
+        "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
+        "url": "https://www.nu.nl/klimaat/6414573/hitte-droogte-en-ziekte-klimaatopwarming-trekt-zware-wissel-op-gezondheid.html",
+        "date": "Wed, 28 Oct 2026 01:00:49 +0100",
+        "summary": "Klimaatverandering heeft steeds grotere effecten op onze gezondheid. Het aantal hittedoden stijgt snel en ook via droogte en infectieziekten zorgt een warmer klimaat voor problemen. Volgens experts is er sprake van een wereldwijde crisis: \"Gezondheid moet centraal staan bij elke klimaatbeslissing.\"",
+        "imageUrl": "https://images.nu.nl/m/ofgxw8xawf2c_sqr256/1230/0/2469/2469/hitte-droogte-en-ziekte-klimaatopwarming-trekt-zware-wissel-op-gezondheid.jpg"
+      },
       {
         "title": "Bekersprookje in Engeland: vierdeklasser Fleetwood Town schakelt Arsenal uit",
         "url": "https://www.nu.nl/voetbal/6414620/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.html",
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 20:55:35 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/yx0xzhfae5n8_sqr256/0/19/894/894/dodelijke-tornado-raast-door-antalya-en-laat-spoor-van-vernieling-achter.jpg"
-      },
-      {
-        "title": "Man stuurde poederbrieven naar politici in VS met eigen naam en adres erop",
-        "url": "https://www.nu.nl/buitenland/6414605/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.html",
-        "date": "Tue, 27 Oct 2026 20:32:36 +0100",
-        "summary": "Een 36-jarige man uit de Amerikaanse staat Illinois wordt beschuldigd van het versturen van vier brieven met een verdachte substantie erin. Hij verstuurde de brieven onder zijn eigen naam en adres naar vier Amerikaanse congresleden, waardoor hij snel kon worden getraceerd.",
-        "imageUrl": "https://images.nu.nl/m/wjdxhosa50vn_sqr256/2337/2/5427/5427/man-stuurde-poederbrieven-naar-politici-in-vs-met-eigen-naam-en-adres-erop.jpg"
       }
     ]
   },
@@ -58,30 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:05",
-        "mmHour": 0.0
-      },
       {
         "time": "01:10",
         "mmHour": 0.0
@@ -153,12 +129,36 @@
       {
         "time": "02:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.0,
+    "temperature": 8.1,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-27T23:40:57+00:00",
-    "rainUpdatedAt": "2026-10-27T23:40:58+00:00"
+    "weatherUpdatedAt": "2026-10-28T00:12:00+00:00",
+    "rainUpdatedAt": "2026-10-28T00:12:02+00:00"
   }
 }
