@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T16:05:25+00:00",
+    "updatedAt": "2026-10-28T16:54:57+00:00",
     "headlines": [
+      {
+        "title": "Zelensky krijgt wat hij zoekt in Den Haag met oog op naderende winter",
+        "url": "https://www.nu.nl/politiek/6414715/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.html",
+        "date": "Wed, 28 Oct 2026 17:35:13 +0100",
+        "summary": "Nu de winter eraan komt en de Russische aanvallen op Oekraïne heftiger worden, zoekt de Oekraïense president Volodymyr Zelensky steun bij zijn trouwste bondgenoten. Hij is woensdag in Den Haag bij premier Rob Jetten en bezoekt in de avond koning Willem-Alexander.",
+        "imageUrl": "https://images.nu.nl/m/2lkxowga20el_sqr256/271/0/4559/4559/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.jpg"
+      },
+      {
+        "title": "Kort nachtje voor gymleraar Reimink na droomavond in beker: 'Wil nu Ajax treffen'",
+        "url": "https://www.nu.nl/voetbal/6414712/kort-nachtje-voor-gymleraar-reimink-na-droomavond-in-beker-wil-nu-ajax-treffen.html",
+        "date": "Wed, 28 Oct 2026 16:56:53 +0100",
+        "summary": "Na een droomavond tegen ADO Den Haag en een bijzondere werkdag als gymleraar heeft KNVB-bekerheld Kevin Reimink van Excelsior'31 een volgende wens. De keeper hoopt op een confrontatie met Ajax in de volgende ronde.",
+        "imageUrl": "https://images.nu.nl/m/dcpxm9qaywko_sqr256/1039/199/2468/2468/kort-nachtje-voor-gymleraar-reimink-na-droomavond-in-beker-wil-nu-ajax-treffen.jpg"
+      },
       {
         "title": "Meisje (8) raakt ernstig gewond door aanval van wolf in Duits wildpark",
         "url": "https://www.nu.nl/buitenland/6414708/meisje-8-raakt-ernstig-gewond-door-aanval-van-wolf-in-duits-wildpark.html",
@@ -11,11 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/jvsxpqqagrkp_sqr256/498/1/2866/2866/meisje-8-raakt-ernstig-gewond-door-aanval-van-wolf-in-duits-wildpark.jpg"
       },
       {
-        "title": "Russell Brand kon niemand vinden die in zijn voordeel wilde getuigen",
-        "url": "https://www.nu.nl/film/6414704/russell-brand-kon-niemand-vinden-die-in-zijn-voordeel-wilde-getuigen.html",
+        "title": "Van verkrachting verdachte Russell Brand vond geen getuigen voor zijn zaak",
+        "url": "https://www.nu.nl/film/6414704/van-verkrachting-verdachte-russell-brand-vond-geen-getuigen-voor-zijn-zaak.html",
         "date": "Wed, 28 Oct 2026 16:03:52 +0100",
         "summary": "Russell Brand heeft geen getuigen gevonden om zijn zeven aanklachten tegen te spreken. De komiek kwam woensdag voor het eerst aan het woord bij zijn zedenproces en ontkende de aanklachten van drie verkrachtingen, drie gevallen van seksueel misbruik en één geval van aanranding.",
-        "imageUrl": "https://images.nu.nl/m/0yox98qa4c80_sqr256/977/0/3196/3196/russell-brand-kon-niemand-vinden-die-in-zijn-voordeel-wilde-getuigen.jpg"
+        "imageUrl": "https://images.nu.nl/m/0yox98qa4c80_sqr256/977/0/3196/3196/van-verkrachting-verdachte-russell-brand-vond-geen-getuigen-voor-zijn-zaak.jpg"
       },
       {
         "title": "93-jarige vrouw breekt rug bij beroving in Amsterdam: 'Onbegrijpelijk laffe daad'",
@@ -37,20 +51,6 @@
         "date": "Wed, 28 Oct 2026 15:10:31 +0100",
         "summary": "De rechtbank van Haarlem heeft au-pairbureau Nina Care failliet verklaard. Een oud-medewerker heeft nog recht op tienduizenden euro's aan salaris en vroeg het faillissement aan. Nina Care zat al langer in de problemen.",
         "imageUrl": "https://images.nu.nl/m/ak8xyuwaoz1g_sqr256/1952/7/4661/4661/omstreden-au-pairbureau-nina-care-failliet-verklaard.jpg"
-      },
-      {
-        "title": "Bolsonaro drie dagen na verkiezingsnederlaag in Brazilië aangekomen in VS",
-        "url": "https://www.nu.nl/buitenland/6414698/bolsonaro-drie-dagen-na-verkiezingsnederlaag-in-brazilie-aangekomen-in-vs.html",
-        "date": "Wed, 28 Oct 2026 14:49:32 +0100",
-        "summary": "De Braziliaanse presidentskandidaat Flávio Bolsonaro is woensdag aangekomen in de Verenigde Staten na zijn verkiezingsnederlaag van zondag. Hij ontvluchtte Brazilië dinsdag nadat het hooggerechtshof had geoordeeld dat hij het land niet uit mocht vanwege een corruptieonderzoek.",
-        "imageUrl": "https://images.nu.nl/m/25vxgewavs2z_sqr256/172/0/1830/1830/bolsonaro-drie-dagen-na-verkiezingsnederlaag-in-brazilie-aangekomen-in-vs.jpg"
-      },
-      {
-        "title": "Treinramp Spanje veroorzaakt door fout: trein mocht ondanks rood sein doorrijden",
-        "url": "https://www.nu.nl/buitenland/6414690/treinramp-spanje-veroorzaakt-door-fout-trein-mocht-ondanks-rood-sein-doorrijden.html",
-        "date": "Wed, 28 Oct 2026 14:38:24 +0100",
-        "summary": "De treinramp van woensdag in Spanje is veroorzaakt door een menselijke fout, heeft de Spaanse minister van Transport bevestigd. Een hogesnelheidstrein had onterecht opdracht gekregen om door te rijden, terwijl een andere trein op dat moment het spoor blokkeerde.",
-        "imageUrl": "https://images.nu.nl/m/wgxxcv7ajsyu_sqr256/0/0/2936/2936/treinramp-spanje-veroorzaakt-door-fout-trein-mocht-ondanks-rood-sein-doorrijden.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "17:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:50",
-        "mmHour": 0.0
-      },
       {
         "time": "17:55",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "19:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "19:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.1,
-    "description": "Zwaar bewolkt",
+    "temperature": 12.4,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T16:05:25+00:00",
-    "rainUpdatedAt": "2026-10-28T16:05:26+00:00"
+    "weatherUpdatedAt": "2026-10-28T16:54:57+00:00",
+    "rainUpdatedAt": "2026-10-28T16:54:59+00:00"
   }
 }
