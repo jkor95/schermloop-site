@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T02:07:47+00:00",
+    "updatedAt": "2026-10-28T02:52:30+00:00",
     "headlines": [
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "03:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:50",
-        "mmHour": 0.0
-      },
       {
         "time": "03:55",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "05:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "05:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.1,
+    "temperature": 8.3,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T02:07:47+00:00",
-    "rainUpdatedAt": "2026-10-28T02:07:48+00:00"
+    "weatherUpdatedAt": "2026-10-28T02:52:31+00:00",
+    "rainUpdatedAt": "2026-10-28T02:52:31+00:00"
   }
 }
