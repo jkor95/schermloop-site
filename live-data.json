@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T22:44:10+00:00",
+    "updatedAt": "2026-10-28T23:20:10+00:00",
     "headlines": [
+      {
+        "title": "Pensioenfondsen verdienen aan hogere rentes in aanloop naar nieuw stelsel",
+        "url": "https://www.nu.nl/economie/6414722/pensioenfondsen-verdienen-aan-hogere-rentes-in-aanloop-naar-nieuw-stelsel.html",
+        "date": "Thu, 29 Oct 2026 00:00:19 +0100",
+        "summary": "Pensioenfondsen ABP en PME staan er beter voor dan een kwartaal eerder. Het is in economisch onrustige tijden nog even volhouden tot 1 januari, als het geld verdeeld gaat worden over de pensioenpotjes van deelnemers.",
+        "imageUrl": "https://images.nu.nl/m/1hdxtw7av02j_sqr256/0/0/941/941/pensioenfondsen-verdienen-aan-hogere-rentes-in-aanloop-naar-nieuw-stelsel.jpg"
+      },
+      {
+        "title": "Dieselrijders brengen veel geld in het laatje van oliebedrijven sinds Iranoorlog",
+        "url": "https://www.nu.nl/economie/6414582/dieselrijders-brengen-veel-geld-in-het-laatje-van-oliebedrijven-sinds-iranoorlog.html",
+        "date": "Thu, 29 Oct 2026 00:00:08 +0100",
+        "summary": "De olie-industrie heeft sinds het uitbreken van de oorlog in het Midden-Oosten 36 miljard euro extra verdiend in de EU, blijkt uit onderzoek in opdracht van Greenpeace. Dat geld is met name aan de pomp verdiend aan dieselrijders.",
+        "imageUrl": "https://images.nu.nl/m/uxrxu4ja64f0_sqr256/3352/0/4479/4479/dieselrijders-brengen-veel-geld-in-het-laatje-van-oliebedrijven-sinds-iranoorlog.jpg"
+      },
       {
         "title": "Canadees eist gewonnen jackpot van 40 miljoen vlak voordat prijs verloopt op",
         "url": "https://www.nu.nl/opmerkelijk/6414744/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.html",
@@ -37,20 +51,6 @@
         "date": "Wed, 28 Oct 2026 20:00:40 +0100",
         "summary": "Frankrijk is in de ban van gewelddadige demonstraties tegen de afbraak van publieke voorzieningen. Tegelijkertijd is de economische situatie dusdanig slecht dat Parijs wel móét bezuinigen. Maar met verkiezingen in aantocht lijkt niemand die pijnlijke keuze te willen maken.",
         "imageUrl": "https://images.nu.nl/m/k3gxw3salx8z_sqr256/1132/491/4658/4658/economische-situatie-frankrijk-is-zorgwekkend-en-toekomst-niet-rooskleurig.jpg"
-      },
-      {
-        "title": "Winnaar van Canadese loterij dreigt jaar na trekking 40 miljoen mis te lopen",
-        "url": "https://www.nu.nl/opmerkelijk/6414728/winnaar-van-canadese-loterij-dreigt-jaar-na-trekking-40-miljoen-mis-te-lopen.html",
-        "date": "Wed, 28 Oct 2026 19:31:22 +0100",
-        "summary": "Een winnaar van een Canadese loterij heeft zich bijna een jaar na de trekking nog niet gemeld. De onbekende persoon heeft nog tot het einde van woensdag om de jackpot van omgerekend 25 miljoen euro op te eisen.",
-        "imageUrl": "https://images.nu.nl/m/pwaxsr2an2cy_sqr256/728/0/3024/3024/winnaar-van-canadese-loterij-dreigt-jaar-na-trekking-40-miljoen-mis-te-lopen.jpg"
-      },
-      {
-        "title": "Video | Willem-Alexander verwelkomt Zelensky met omarming bij audiëntie",
-        "url": "https://www.nu.nl/331731/video/willem-alexander-verwelkomt-zelensky-met-omarming-bij-audientie.html",
-        "date": "Wed, 28 Oct 2026 19:26:55 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/qayx7dgaanl5_sqr256/458/2/1078/1078/willem-alexander-verwelkomt-zelensky-met-omarming-bij-audientie.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
       {
         "time": "00:20",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "01:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.3,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 9.9,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T22:44:10+00:00",
-    "rainUpdatedAt": "2026-10-28T22:44:11+00:00"
+    "weatherUpdatedAt": "2026-10-28T23:20:10+00:00",
+    "rainUpdatedAt": "2026-10-28T23:20:11+00:00"
   }
 }
