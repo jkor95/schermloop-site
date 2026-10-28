@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T17:38:18+00:00",
+    "updatedAt": "2026-10-28T18:20:48+00:00",
     "headlines": [
+      {
+        "title": "Video | Lagerhuis moet lachen als premier Harry Kane feliciteert",
+        "url": "https://www.nu.nl/331723/video/lagerhuis-moet-lachen-als-premier-harry-kane-feliciteert.html",
+        "date": "Wed, 28 Oct 2026 18:51:43 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/a8ux79ea8p4b_sqr256/339/0/1080/1080/lagerhuis-moet-lachen-als-premier-harry-kane-feliciteert.jpg"
+      },
+      {
+        "title": "Overlevenden vertellen over treinramp Spanje: 'Spoor ging dwars door de trein'",
+        "url": "https://www.nu.nl/buitenland/6414720/overlevenden-vertellen-over-treinramp-spanje-spoor-ging-dwars-door-de-trein.html",
+        "date": "Wed, 28 Oct 2026 18:41:05 +0100",
+        "summary": "Meerdere overlevenden van de treinramp in Spanje vertellen aan lokale media over wat ze meemaakten. Iemand zag hoe het spoor \"als een mes\" dwars door de trein heen sneed. Veel passagiers vreesden dat hun wagon zou kantelen.",
+        "imageUrl": "https://images.nu.nl/m/7qoxhm1appja_sqr256/395/0/3279/3279/overlevenden-vertellen-over-treinramp-spanje-spoor-ging-dwars-door-de-trein.jpg"
+      },
       {
         "title": "Per direct landelijke ophokplicht voor pluimvee na drie uitbraken van vogelgriep",
         "url": "https://www.nu.nl/binnenland/6414724/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.html",
@@ -37,20 +51,6 @@
         "date": "Wed, 28 Oct 2026 17:35:13 +0100",
         "summary": "Nu de winter eraan komt en de Russische aanvallen op Oekraïne heftiger worden, zoekt de Oekraïense president Volodymyr Zelensky steun bij zijn trouwste bondgenoten. Hij is woensdag in Den Haag bij premier Rob Jetten en bezoekt in de avond koning Willem-Alexander.",
         "imageUrl": "https://images.nu.nl/m/2lkxowga20el_sqr256/271/0/4559/4559/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.jpg"
-      },
-      {
-        "title": "Kort nachtje voor gymleraar Reimink na droomavond in beker: 'Wil nu Ajax treffen'",
-        "url": "https://www.nu.nl/voetbal/6414712/kort-nachtje-voor-gymleraar-reimink-na-droomavond-in-beker-wil-nu-ajax-treffen.html",
-        "date": "Wed, 28 Oct 2026 16:56:53 +0100",
-        "summary": "Na een droomavond tegen ADO Den Haag en een bijzondere werkdag als gymleraar heeft KNVB-bekerheld Kevin Reimink van Excelsior'31 een volgende wens. De keeper hoopt op een confrontatie met Ajax in de volgende ronde.",
-        "imageUrl": "https://images.nu.nl/m/dcpxm9qaywko_sqr256/1039/199/2468/2468/kort-nachtje-voor-gymleraar-reimink-na-droomavond-in-beker-wil-nu-ajax-treffen.jpg"
-      },
-      {
-        "title": "Meisje (8) raakt ernstig gewond door aanval van wolf in Duits wildpark",
-        "url": "https://www.nu.nl/buitenland/6414708/meisje-8-raakt-ernstig-gewond-door-aanval-van-wolf-in-duits-wildpark.html",
-        "date": "Wed, 28 Oct 2026 16:42:15 +0100",
-        "summary": "Een achtjarig meisje is woensdagochtend aangevallen door een wolf in een wildpark in het noordoosten van Duitsland. Het kind raakte ernstig gewond, bevestigt de politie aan Duitse media .",
-        "imageUrl": "https://images.nu.nl/m/jvsxpqqagrkp_sqr256/498/1/2866/2866/meisje-8-raakt-ernstig-gewond-door-aanval-van-wolf-in-duits-wildpark.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "18:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.0
-      },
       {
         "time": "19:20",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "20:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "20:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.1,
+    "temperature": 12.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T17:38:19+00:00",
-    "rainUpdatedAt": "2026-10-28T17:38:19+00:00"
+    "weatherUpdatedAt": "2026-10-28T18:20:49+00:00",
+    "rainUpdatedAt": "2026-10-28T18:20:50+00:00"
   }
 }
