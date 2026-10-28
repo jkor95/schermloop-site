@@ -1,8 +1,36 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T16:54:57+00:00",
+    "updatedAt": "2026-10-28T17:38:18+00:00",
     "headlines": [
+      {
+        "title": "Per direct landelijke ophokplicht voor pluimvee na drie uitbraken van vogelgriep",
+        "url": "https://www.nu.nl/binnenland/6414724/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.html",
+        "date": "Wed, 28 Oct 2026 18:26:06 +0100",
+        "summary": "Pluimveehouders moeten hun kippen per direct binnenhouden om de verspreiding van vogelgriep zoveel mogelijk tegen te gaan, meldt het ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur woensdag. Het besluit volgt op drie uitbraken van de ziekte in korte tijd.",
+        "imageUrl": "https://images.nu.nl/m/pvxxrswaw81t_sqr256/819/0/3574/3574/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.jpg"
+      },
+      {
+        "title": "Van de redactie | We nodigen jullie graag uit voor onze NU.nl-bezoekersdag",
+        "url": "https://www.nu.nl/blog/6414721/we-nodigen-jullie-graag-uit-voor-onze-nunl-bezoekersdag.html",
+        "date": "Wed, 28 Oct 2026 18:16:45 +0100",
+        "summary": "NU.nl organiseert net als de afgelopen jaren een grote bezoekersdag. Een mooi moment (vinden wij) om een kijkje in onze keuken te geven en met elkaar in gesprek te gaan over ons werk, het medialandschap en jullie ervaringen.",
+        "imageUrl": "https://images.nu.nl/m/f5exhdmab5av_sqr256/1895/0/5501/5501/we-nodigen-jullie-graag-uit-voor-onze-nunl-bezoekersdag.jpg"
+      },
+      {
+        "title": "Werkgevers worstelen met thuiswerkbeleid: 'Meer bedrijven kunnen zaak starten'",
+        "url": "https://www.nu.nl/economie/6414693/werkgevers-worstelen-met-thuiswerkbeleid-meer-bedrijven-kunnen-zaak-starten.html",
+        "date": "Wed, 28 Oct 2026 18:00:28 +0100",
+        "summary": "Steeds meer werkgevers worstelen met hun thuiswerkbeleid. Zij kijken daarom met grote belangstelling naar de uitspraak van de Amsterdamse rechtbank in de zaak van Booking.com over verplichte kantoordagen. \"Het kan zijn dat meer bedrijven een zaak beginnen\", zeggen arbeidsrechtadvocaten tegen NU.nl.",
+        "imageUrl": "https://images.nu.nl/m/8dpxnw2aevcn_sqr256/2048/8/2952/2952/werkgevers-worstelen-met-thuiswerkbeleid-meer-bedrijven-kunnen-zaak-starten.jpg"
+      },
+      {
+        "title": "Diemenaar krijgt in hoger beroep veertien jaar cel voor 'abortusmoord'",
+        "url": "https://www.nu.nl/binnenland/6414702/diemenaar-krijgt-in-hoger-beroep-veertien-jaar-cel-voor-abortusmoord.html",
+        "date": "Wed, 28 Oct 2026 17:57:21 +0100",
+        "summary": "Dennis van E. is woensdag in hoger beroep veroordeeld tot veertien jaar cel voor de moord op zijn zwangere vriendin en hun ongeboren kind. De Diemenaar had de vrouw in 2019 gedwongen verschillende drugs en abortuspillen in te nemen.",
+        "imageUrl": "https://images.nu.nl/m/eykxrcxa5gem_sqr256/856/0/2362/2362/diemenaar-krijgt-in-hoger-beroep-veertien-jaar-cel-voor-abortusmoord.jpg"
+      },
       {
         "title": "Zelensky krijgt wat hij zoekt in Den Haag met oog op naderende winter",
         "url": "https://www.nu.nl/politiek/6414715/zelensky-krijgt-wat-hij-zoekt-in-den-haag-met-oog-op-naderende-winter.html",
@@ -23,34 +51,6 @@
         "date": "Wed, 28 Oct 2026 16:42:15 +0100",
         "summary": "Een achtjarig meisje is woensdagochtend aangevallen door een wolf in een wildpark in het noordoosten van Duitsland. Het kind raakte ernstig gewond, bevestigt de politie aan Duitse media .",
         "imageUrl": "https://images.nu.nl/m/jvsxpqqagrkp_sqr256/498/1/2866/2866/meisje-8-raakt-ernstig-gewond-door-aanval-van-wolf-in-duits-wildpark.jpg"
-      },
-      {
-        "title": "Van verkrachting verdachte Russell Brand vond geen getuigen voor zijn zaak",
-        "url": "https://www.nu.nl/film/6414704/van-verkrachting-verdachte-russell-brand-vond-geen-getuigen-voor-zijn-zaak.html",
-        "date": "Wed, 28 Oct 2026 16:03:52 +0100",
-        "summary": "Russell Brand heeft geen getuigen gevonden om zijn zeven aanklachten tegen te spreken. De komiek kwam woensdag voor het eerst aan het woord bij zijn zedenproces en ontkende de aanklachten van drie verkrachtingen, drie gevallen van seksueel misbruik en één geval van aanranding.",
-        "imageUrl": "https://images.nu.nl/m/0yox98qa4c80_sqr256/977/0/3196/3196/van-verkrachting-verdachte-russell-brand-vond-geen-getuigen-voor-zijn-zaak.jpg"
-      },
-      {
-        "title": "93-jarige vrouw breekt rug bij beroving in Amsterdam: 'Onbegrijpelijk laffe daad'",
-        "url": "https://www.nu.nl/binnenland/6414707/93-jarige-vrouw-breekt-rug-bij-beroving-in-amsterdam-onbegrijpelijk-laffe-daad.html",
-        "date": "Wed, 28 Oct 2026 16:03:47 +0100",
-        "summary": "Een 93-jarige vrouw heeft dinsdagmiddag haar rug gebroken toen ze door een onbekende man werd geslagen en vervolgens beroofd in het westen van Amsterdam. De politie heeft nog niemand kunnen aanhouden.",
-        "imageUrl": "https://images.nu.nl/m/vnmxq1raqh5s_sqr256/1399/0/3693/3693/93-jarige-vrouw-breekt-rug-bij-beroving-in-amsterdam-onbegrijpelijk-laffe-daad.jpg"
-      },
-      {
-        "title": "Jennifer Lawrence heeft borsten laten liften: 'Niets was meer in vorm'",
-        "url": "https://www.nu.nl/achterklap/6414703/jennifer-lawrence-heeft-borsten-laten-liften-niets-was-meer-in-vorm.html",
-        "date": "Wed, 28 Oct 2026 15:33:55 +0100",
-        "summary": "Jennifer Lawrence heeft haar borsten laten liften, vertelt ze in een interview met The Cut . De 36-jarige actrice vond dat haar lichaam was veranderd na de geboorte van haar tweede kind.",
-        "imageUrl": "https://images.nu.nl/m/klnx7m3aaloz_sqr256/399/0/2143/2143/jennifer-lawrence-heeft-borsten-laten-liften-niets-was-meer-in-vorm.jpg"
-      },
-      {
-        "title": "Omstreden au-pairbureau Nina Care failliet verklaard",
-        "url": "https://www.nu.nl/economie/6414700/omstreden-au-pairbureau-nina-care-failliet-verklaard.html",
-        "date": "Wed, 28 Oct 2026 15:10:31 +0100",
-        "summary": "De rechtbank van Haarlem heeft au-pairbureau Nina Care failliet verklaard. Een oud-medewerker heeft nog recht op tienduizenden euro's aan salaris en vroeg het faillissement aan. Nina Care zat al langer in de problemen.",
-        "imageUrl": "https://images.nu.nl/m/ak8xyuwaoz1g_sqr256/1952/7/4661/4661/omstreden-au-pairbureau-nina-care-failliet-verklaard.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "17:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:35",
-        "mmHour": 0.0
-      },
       {
         "time": "18:40",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "19:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "19:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.4,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 12.1,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T16:54:57+00:00",
-    "rainUpdatedAt": "2026-10-28T16:54:59+00:00"
+    "weatherUpdatedAt": "2026-10-28T17:38:19+00:00",
+    "rainUpdatedAt": "2026-10-28T17:38:19+00:00"
   }
 }
