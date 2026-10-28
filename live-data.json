@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T03:31:08+00:00",
+    "updatedAt": "2026-10-28T04:18:39+00:00",
     "headlines": [
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
@@ -39,11 +39,11 @@
         "imageUrl": "https://images.nu.nl/m/1cdx6a2aczvk_sqr256/697/465/2199/2199/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.jpg"
       },
       {
-        "title": "Exitpoll Israël: Partij Netanyahu grootste, maar meer steun voor blok van zijn rivaal",
-        "url": "https://www.nu.nl/buitenland/6414555/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.html",
+        "title": "Exitpoll Israël: Partij Netanyahu grootste, blokken gaan gelijk op",
+        "url": "https://www.nu.nl/buitenland/6414555/exitpoll-israel-partij-netanyahu-grootste-blokken-gaan-gelijk-op.html",
         "date": "Tue, 27 Oct 2026 21:16:12 +0100",
-        "summary": "De Likud-partij van de Israëlische premier Benjamin Netanyahu is volgens de exitpolls de grootste partij bij de parlementsverkiezingen. Maar het oppositieblok onder leiding van oud-legerleider Gadi Eisenkot lijkt op meer steun te kunnen rekenen.",
-        "imageUrl": "https://images.nu.nl/m/rd9x60lazt0q_sqr256/538/0/3192/3192/exitpoll-israel-partij-netanyahu-grootste-maar-meer-steun-voor-blok-van-zijn-rivaal.jpg"
+        "summary": "De Likud-partij van de Israëlische premier Benjamin Netanyahu blijft volgens de exitpolls de grootste partij bij de parlementsverkiezingen. Op basis van de voorlopige uitslag gaat het oppositieblok onder leiding van oud-legerleider Gadi Eisenkot gelijk op met het blok-Netanyahu. De Palestijnse partijen stijgen fors.",
+        "imageUrl": "https://images.nu.nl/m/rd9x60lazt0q_sqr256/538/0/3192/3192/exitpoll-israel-partij-netanyahu-grootste-blokken-gaan-gelijk-op.jpg"
       },
       {
         "title": "Video | Dodelijke tornado raast door Antalya en laat spoor van vernieling achter",
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "04:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
       {
         "time": "05:15",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "06:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "06:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.2,
+    "temperature": 7.8,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T03:31:08+00:00",
-    "rainUpdatedAt": "2026-10-28T03:31:09+00:00"
+    "weatherUpdatedAt": "2026-10-28T04:18:40+00:00",
+    "rainUpdatedAt": "2026-10-28T04:18:41+00:00"
   }
 }
