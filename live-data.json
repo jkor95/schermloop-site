@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T04:18:39+00:00",
+    "updatedAt": "2026-10-28T05:06:04+00:00",
     "headlines": [
+      {
+        "title": "Israëlische oppositie heeft even kleine als unieke kans om Netanyahu buitenspel te zetten",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414523/israelische-oppositie-heeft-even-kleine-als-unieke-kans-om-netanyahu-buitenspel-te-zetten.html",
+        "date": "Wed, 28 Oct 2026 05:33:35 +0100",
+        "summary": "Een \"historische kans\" om premier Benjamin Netanyahu te vervangen en \"echte verandering\" te brengen, klinkt het vanuit het oppositieblok in Israël na de voorlopige verkiezingsuitslag. Maar Netanyahu geeft zich niet zomaar gewonnen. De oppositie moet laten zien hoe graag ze van hem af willen.",
+        "imageUrl": "https://images.nu.nl/m/oiexiucajkkv_sqr256/48/0/682/682/israelische-oppositie-heeft-even-kleine-als-unieke-kans-om-netanyahu-buitenspel-te-zetten.jpg"
+      },
+      {
+        "title": "Nipte voorsprong voor blok Netanyahu met bijna helft Israëlische stemmen geteld",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414625/nipte-voorsprong-voor-blok-netanyahu-met-bijna-helft-israelische-stemmen-geteld.html",
+        "date": "Wed, 28 Oct 2026 05:22:10 +0100",
+        "summary": "Met zo'n 42 procent de Israëlische stemmen geteld gaat het blok van zittend premier Benjamin Netanyahu nipt aan kop, blijkt uit cijfers van de kiescommissie. De voorlopige resultaten geven het blok van Netanyahu 57 zetels en het oppositieblok van oud-legerleider Gadi Eisenkot 47 zetels.",
+        "imageUrl": "https://images.nu.nl/m/2eqx2qqav45a_sqr256/799/3/3365/3365/nipte-voorsprong-voor-blok-netanyahu-met-bijna-helft-israelische-stemmen-geteld.jpg"
+      },
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
         "url": "https://www.nu.nl/klimaat/6414573/hitte-droogte-en-ziekte-klimaatopwarming-trekt-zware-wissel-op-gezondheid.html",
@@ -37,20 +51,6 @@
         "date": "Tue, 27 Oct 2026 21:35:51 +0100",
         "summary": "De eerste wedstrijd in het KNVB-bekertoernooi heeft dinsdag meteen een stunt opgeleverd. Eredivisionist ADO Den Haag werd via penalty's uitgeschakeld door de topamateurs van Excelsior'31, die drie niveaus lager spelen.",
         "imageUrl": "https://images.nu.nl/m/1cdx6a2aczvk_sqr256/697/465/2199/2199/meteen-stunt-in-bekertoernooi-ado-via-penaltys-uitgeschakeld-door-amateurclub.jpg"
-      },
-      {
-        "title": "Exitpoll Israël: Partij Netanyahu grootste, blokken gaan gelijk op",
-        "url": "https://www.nu.nl/buitenland/6414555/exitpoll-israel-partij-netanyahu-grootste-blokken-gaan-gelijk-op.html",
-        "date": "Tue, 27 Oct 2026 21:16:12 +0100",
-        "summary": "De Likud-partij van de Israëlische premier Benjamin Netanyahu blijft volgens de exitpolls de grootste partij bij de parlementsverkiezingen. Op basis van de voorlopige uitslag gaat het oppositieblok onder leiding van oud-legerleider Gadi Eisenkot gelijk op met het blok-Netanyahu. De Palestijnse partijen stijgen fors.",
-        "imageUrl": "https://images.nu.nl/m/rd9x60lazt0q_sqr256/538/0/3192/3192/exitpoll-israel-partij-netanyahu-grootste-blokken-gaan-gelijk-op.jpg"
-      },
-      {
-        "title": "Video | Dodelijke tornado raast door Antalya en laat spoor van vernieling achter",
-        "url": "https://www.nu.nl/331703/video/dodelijke-tornado-raast-door-antalya-en-laat-spoor-van-vernieling-achter.html",
-        "date": "Tue, 27 Oct 2026 20:55:35 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/yx0xzhfae5n8_sqr256/0/19/894/894/dodelijke-tornado-raast-door-antalya-en-laat-spoor-van-vernieling-achter.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:00",
-        "mmHour": 0.0
-      },
       {
         "time": "06:05",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "07:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.8,
+    "temperature": 7.3,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T04:18:40+00:00",
-    "rainUpdatedAt": "2026-10-28T04:18:41+00:00"
+    "weatherUpdatedAt": "2026-10-28T05:06:05+00:00",
+    "rainUpdatedAt": "2026-10-28T05:06:06+00:00"
   }
 }
