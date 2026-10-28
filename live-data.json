@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T23:20:10+00:00",
+    "updatedAt": "2026-10-28T23:56:24+00:00",
     "headlines": [
+      {
+        "title": "Italië verhoogt belasting voor banken om lasten van middeninkomens te verlichten",
+        "url": "https://www.nu.nl/buitenland/6414746/italie-verhoogt-belasting-voor-banken-om-lasten-van-middeninkomens-te-verlichten.html",
+        "date": "Thu, 29 Oct 2026 00:41:01 +0100",
+        "summary": "De Italiaanse regering verhoogt in de begroting voor volgend jaar de belasting voor banken en verzekeraars. Het geld wordt gebruikt om de lasten van middeninkomens en zelfstandigen te verlichten.",
+        "imageUrl": "https://images.nu.nl/m/4fdxp2fa85is_sqr256/517/0/2835/2835/italie-verhoogt-belasting-voor-banken-om-lasten-van-middeninkomens-te-verlichten.jpg"
+      },
       {
         "title": "Pensioenfondsen verdienen aan hogere rentes in aanloop naar nieuw stelsel",
         "url": "https://www.nu.nl/economie/6414722/pensioenfondsen-verdienen-aan-hogere-rentes-in-aanloop-naar-nieuw-stelsel.html",
@@ -44,13 +51,6 @@
         "date": "Wed, 28 Oct 2026 20:01:43 +0100",
         "summary": "De politie gaat een deel van de aangiften en meldingen die in 2024 niet zijn behandeld opnieuw bekijken. In eerste instantie gaat het om aangiften van (pogingen tot) moord en doodslag en ernstige zedenzaken.",
         "imageUrl": "https://images.nu.nl/m/i6ax3bga5z5o_sqr256/0/0/4651/4651/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.jpg"
-      },
-      {
-        "title": "Economische situatie Frankrijk is zorgwekkend en toekomst niet rooskleurig",
-        "url": "https://www.nu.nl/buitenland/6414682/economische-situatie-frankrijk-is-zorgwekkend-en-toekomst-niet-rooskleurig.html",
-        "date": "Wed, 28 Oct 2026 20:00:40 +0100",
-        "summary": "Frankrijk is in de ban van gewelddadige demonstraties tegen de afbraak van publieke voorzieningen. Tegelijkertijd is de economische situatie dusdanig slecht dat Parijs wel móét bezuinigen. Maar met verkiezingen in aantocht lijkt niemand die pijnlijke keuze te willen maken.",
-        "imageUrl": "https://images.nu.nl/m/k3gxw3salx8z_sqr256/1132/491/4658/4658/economische-situatie-frankrijk-is-zorgwekkend-en-toekomst-niet-rooskleurig.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
       {
         "time": "01:00",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "02:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.9,
+    "temperature": 9.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T23:20:10+00:00",
-    "rainUpdatedAt": "2026-10-28T23:20:11+00:00"
+    "weatherUpdatedAt": "2026-10-28T23:56:24+00:00",
+    "rainUpdatedAt": "2026-10-28T23:56:25+00:00"
   }
 }
