@@ -1,21 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T14:16:58+00:00",
+    "updatedAt": "2026-10-28T15:12:39+00:00",
     "headlines": [
       {
-        "title": "Flavio Bolsonaro drie dagen na verkiezingsnederlaag aangekomen in de VS",
-        "url": "https://www.nu.nl/buitenland/6414698/flavio-bolsonaro-drie-dagen-na-verkiezingsnederlaag-aangekomen-in-de-vs.html",
-        "date": "Wed, 28 Oct 2026 14:49:32 +0100",
-        "summary": "De Braziliaanse presidentskandidaat Flavio Bolsonaro is aangekomen in de Verenigde Staten. Zondag verloor hij de presidentsverkiezingen. Dinsdag ontvluchtte hij Brazilië nadat het hooggerechtshof had geoordeeld dat hij het land niet uit mocht vanwege een corruptieonderzoek.",
-        "imageUrl": "https://images.nu.nl/m/25vxgewavs2z_sqr256/172/0/1830/1830/flavio-bolsonaro-drie-dagen-na-verkiezingsnederlaag-aangekomen-in-de-vs.jpg"
+        "title": "93-jarige vrouw breekt rug bij beroving in Amsterdam",
+        "url": "https://www.nu.nl/binnenland/6414707/93-jarige-vrouw-breekt-rug-bij-beroving-in-amsterdam.html",
+        "date": "Wed, 28 Oct 2026 16:03:47 +0100",
+        "summary": "Een 93-jarige vrouw heeft dinsdagmiddag haar rug gebroken toen ze door een onbekende man werd geslagen en vervolgens beroofd in het westen van Amsterdam. De politie heeft nog niemand kunnen aanhouden.",
+        "imageUrl": "https://images.nu.nl/m/vnmxq1raqh5s_sqr256/1399/0/3693/3693/93-jarige-vrouw-breekt-rug-bij-beroving-in-amsterdam.jpg"
       },
       {
-        "title": "Meer aanwijzingen voor menselijke fout bij treinramp Spanje, zeker 64 doden",
-        "url": "https://www.nu.nl/buitenland/6414690/meer-aanwijzingen-voor-menselijke-fout-bij-treinramp-spanje-zeker-64-doden.html",
+        "title": "Jennifer Lawrence heeft borsten laten liften: 'Niets was meer in vorm'",
+        "url": "https://www.nu.nl/achterklap/6414703/jennifer-lawrence-heeft-borsten-laten-liften-niets-was-meer-in-vorm.html",
+        "date": "Wed, 28 Oct 2026 15:33:55 +0100",
+        "summary": "Jennifer Lawrence heeft haar borsten laten liften, vertelt ze in een interview met The Cut . De 36-jarige actrice vond dat haar lichaam was veranderd na de geboorte van haar tweede kind.",
+        "imageUrl": "https://images.nu.nl/m/klnx7m3aaloz_sqr256/399/0/2143/2143/jennifer-lawrence-heeft-borsten-laten-liften-niets-was-meer-in-vorm.jpg"
+      },
+      {
+        "title": "Omstreden au-pairbureau Nina Care failliet verklaard",
+        "url": "https://www.nu.nl/economie/6414700/omstreden-au-pairbureau-nina-care-failliet-verklaard.html",
+        "date": "Wed, 28 Oct 2026 15:10:31 +0100",
+        "summary": "De rechtbank van Haarlem heeft au-pairbureau Nina Care failliet verklaard. Een oud-medewerker heeft nog recht op tienduizenden euro's aan salaris en vroeg het faillissement aan. Nina Care zat al langer in de problemen.",
+        "imageUrl": "https://images.nu.nl/m/ak8xyuwaoz1g_sqr256/1952/7/4661/4661/omstreden-au-pairbureau-nina-care-failliet-verklaard.jpg"
+      },
+      {
+        "title": "Bolsonaro drie dagen na verkiezingsnederlaag in Brazilië aangekomen in VS",
+        "url": "https://www.nu.nl/buitenland/6414698/bolsonaro-drie-dagen-na-verkiezingsnederlaag-in-brazilie-aangekomen-in-vs.html",
+        "date": "Wed, 28 Oct 2026 14:49:32 +0100",
+        "summary": "De Braziliaanse presidentskandidaat Flávio Bolsonaro is woensdag aangekomen in de Verenigde Staten na zijn verkiezingsnederlaag van zondag. Hij ontvluchtte Brazilië dinsdag nadat het hooggerechtshof had geoordeeld dat hij het land niet uit mocht vanwege een corruptieonderzoek.",
+        "imageUrl": "https://images.nu.nl/m/25vxgewavs2z_sqr256/172/0/1830/1830/bolsonaro-drie-dagen-na-verkiezingsnederlaag-in-brazilie-aangekomen-in-vs.jpg"
+      },
+      {
+        "title": "Spaanse treinramp is veroorzaakt door menselijke fout",
+        "url": "https://www.nu.nl/buitenland/6414690/spaanse-treinramp-is-veroorzaakt-door-menselijke-fout.html",
         "date": "Wed, 28 Oct 2026 14:38:24 +0100",
-        "summary": "Steeds meer wijst op een menselijke fout bij het treinongeluk in de buurt van het Spaanse Urda. Een hogesnelheidstrein zou opdracht hebben gekregen om door te rijden, terwijl een andere trein op dat moment het spoor blokkeerde. Het dodental is inmiddels opgelopen tot 64.",
-        "imageUrl": "https://images.nu.nl/m/wgxxcv7ajsyu_sqr256/0/0/2936/2936/meer-aanwijzingen-voor-menselijke-fout-bij-treinramp-spanje-zeker-64-doden.jpg"
+        "summary": "De treinramp van woensdag in Spanje is veroorzaakt door een menselijke fout, heeft de Spaanse minister van Transport bevestigd. Een hogesnelheidstrein had onterecht opdracht gekregen om door te rijden, terwijl een andere trein op dat moment het spoor blokkeerde.",
+        "imageUrl": "https://images.nu.nl/m/wgxxcv7ajsyu_sqr256/0/0/2936/2936/spaanse-treinramp-is-veroorzaakt-door-menselijke-fout.jpg"
+      },
+      {
+        "title": "Gasrekening wordt alsmaar hoger: Europese gasprijs nu 100 euro per MWh",
+        "url": "https://www.nu.nl/economie/6414692/gasrekening-wordt-alsmaar-hoger-europese-gasprijs-nu-100-euro-per-mwh.html",
+        "date": "Wed, 28 Oct 2026 14:30:29 +0100",
+        "summary": "De Europese gasprijs blijft stijgen en staat nu op 100 euro per megawattuur op de toonaangevende Amsterdamse gasbeurs. Dat is bijna 70 euro meer dan voor de oorlog in Iran. De prijs is woensdag met 3,5 procent gestegen.",
+        "imageUrl": "https://images.nu.nl/m/8a3xnxlaqoen_sqr256/1339/0/3893/3893/gasrekening-wordt-alsmaar-hoger-europese-gasprijs-nu-100-euro-per-mwh.jpg"
       },
       {
         "title": "Taakstraffen geëist voor paranormale sessie bij kindergraven in Amersfoort",
@@ -23,34 +51,6 @@
         "date": "Wed, 28 Oct 2026 14:25:16 +0100",
         "summary": "Tegen vier vrouwen die worden verdacht van het plegen van grafschennis op begraafplaats Rusthof in Amersfoort zijn taakstraffen van veertig tot tweehonderd uur geëist. De strafzaak ging woensdag van start. Onder anderen de moeder van een van de overleden kinderen nam het woord.",
         "imageUrl": "https://images.nu.nl/m/bm7xcvpa16ay_sqr256/0/0/3691/3691/taakstraffen-geeist-voor-paranormale-sessie-bij-kindergraven-in-amersfoort.jpg"
-      },
-      {
-        "title": "Unilever gaat prijzen van voeding en verzorgingsproducten verhogen",
-        "url": "https://www.nu.nl/economie/6414687/unilever-gaat-prijzen-van-voeding-en-verzorgingsproducten-verhogen.html",
-        "date": "Wed, 28 Oct 2026 13:45:25 +0100",
-        "summary": "Unilever gaat de prijzen van producten zoals voeding en verzorgingsspullen verhogen, zei topman Fernando Fernández woensdag tijdens een toelichting op de kwartaalcijfers. Het Britse concern rekent prijsstijgingen als gevolg van de Iranoorlog door aan klanten.",
-        "imageUrl": "https://images.nu.nl/m/oqtxkaya2li8_sqr256/1729/0/3444/3444/unilever-gaat-prijzen-van-voeding-en-verzorgingsproducten-verhogen.jpg"
-      },
-      {
-        "title": "Van verkiezingsfraude verdachte OM-medewerker is raadslid D66 in Boxtel",
-        "url": "https://www.nu.nl/misdaad/6414598/van-verkiezingsfraude-verdachte-om-medewerker-is-raadslid-d66-in-boxtel.html",
-        "date": "Wed, 28 Oct 2026 13:42:46 +0100",
-        "summary": "De medewerker van het Openbaar Ministerie die dinsdag is aangehouden is D66-raadslid Sohib Hussain, melden goed ingevoerde bronnen aan NU.nl. De 38-jarige man uit Boxtel wordt verdacht van ambtelijke corruptie en verkiezingsfraude.",
-        "imageUrl": "https://images.nu.nl/m/q3oxkzuabyrh_sqr256/0/0/1080/1080/van-verkiezingsfraude-verdachte-om-medewerker-is-raadslid-d66-in-boxtel.jpg"
-      },
-      {
-        "title": "Geen duidelijke meerderheid bij Israëlische verkiezingen, Netanyahu-blok aan kop",
-        "url": "https://www.nu.nl/buitenland/6414685/geen-duidelijke-meerderheid-bij-israelische-verkiezingen-netanyahu-blok-aan-kop.html",
-        "date": "Wed, 28 Oct 2026 13:38:12 +0100",
-        "summary": "Met 84,5 procent van alle stemmen geteld, lijkt het regeringsblok van premier Benjamin Netanyahu met 54 zetels nog steeds aan kop te gaan bij de Israëlische verkiezingen. Het oppositieblok staat op 49 zetels. Geen van beide lijkt een meerderheid te behalen.",
-        "imageUrl": "https://images.nu.nl/m/0hyx7lpafnfv_sqr256/1730/0/3679/3679/geen-duidelijke-meerderheid-bij-israelische-verkiezingen-netanyahu-blok-aan-kop.jpg"
-      },
-      {
-        "title": "Booking.com mag personeel verplichten om aantal dagen naar kantoor te komen",
-        "url": "https://www.nu.nl/economie/6414683/bookingcom-mag-personeel-verplichten-om-aantal-dagen-naar-kantoor-te-komen.html",
-        "date": "Wed, 28 Oct 2026 13:01:40 +0100",
-        "summary": "De Amsterdamse rechtbank geeft Booking.com gelijk in een conflict met de ondernemingsraad over thuiswerken. Werknemers moeten verplicht twee dagen per week op kantoor doorbrengen, oordeelt de rechter.",
-        "imageUrl": "https://images.nu.nl/m/976xxryao2hn_sqr256/2005/0/3995/3995/bookingcom-mag-personeel-verplichten-om-aantal-dagen-naar-kantoor-te-komen.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "15:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.0
-      },
       {
         "time": "16:10",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "17:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.6,
+    "temperature": 13.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T14:16:58+00:00",
-    "rainUpdatedAt": "2026-10-28T14:16:59+00:00"
+    "weatherUpdatedAt": "2026-10-28T15:12:40+00:00",
+    "rainUpdatedAt": "2026-10-28T15:12:41+00:00"
   }
 }
