@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T05:46:48+00:00",
+    "updatedAt": "2026-10-28T06:23:10+00:00",
     "headlines": [
       {
-        "title": "Explainer | Vakantie of spioneren? Russen kopen huizen vlak bij legerbases",
-        "url": "https://www.nu.nl/331693/video/vakantie-vieren-of-spioneren-russen-kopen-huizen-vlak-bij-legerbases.html",
+        "title": "Passagiers jarenlange luxe cruisereis gestrand in Cambodja om brandstofprijzen",
+        "url": "https://www.nu.nl/buitenland/6414627/passagiers-jarenlange-luxe-cruisereis-gestrand-in-cambodja-om-brandstofprijzen.html",
+        "date": "Wed, 28 Oct 2026 07:01:52 +0100",
+        "summary": "Een luxe cruiseschip dat een jarenlange wereldreis maakte, heeft de reis opgeschort vanwege buitengewoon hoge brandstofkosten. Passagiers zitten nu vast in Cambodja.",
+        "imageUrl": "https://images.nu.nl/m/qngxrfxag6m1_sqr256/664/2/2517/2517/passagiers-jarenlange-luxe-cruisereis-gestrand-in-cambodja-om-brandstofprijzen.jpg"
+      },
+      {
+        "title": "Explainer | Waarom Russische vakantiehuisjes Zweden ongerust maken",
+        "url": "https://www.nu.nl/331693/video/waarom-russische-vakantiehuisjes-zweden-ongerust-maken.html",
         "date": "Wed, 28 Oct 2026 06:14:07 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/th5x09jahi17_sqr256/135/0/1438/1438/vakantie-vieren-of-spioneren-russen-kopen-huizen-vlak-bij-legerbases.jpg"
+        "imageUrl": "https://images.nu.nl/m/th5x09jahi17_sqr256/135/0/1438/1438/waarom-russische-vakantiehuisjes-zweden-ongerust-maken.jpg"
       },
       {
         "title": "Voetbalnomade André Krul terug in Nederland: 'Sliep in Senegal op de grond'",
@@ -25,11 +32,11 @@
         "imageUrl": "https://images.nu.nl/m/oiexiucajkkv_sqr256/48/0/682/682/israelische-oppositie-heeft-even-kleine-als-unieke-kans-om-netanyahu-buitenspel-te-zetten.jpg"
       },
       {
-        "title": "Nipte voorsprong voor blok Netanyahu met bijna helft Israëlische stemmen geteld",
-        "url": "https://www.nu.nl/midden-oostenconflict/6414625/nipte-voorsprong-voor-blok-netanyahu-met-bijna-helft-israelische-stemmen-geteld.html",
+        "title": "Nipte voorsprong voor blok Netanyahu met ruime helft Israëlische stemmen geteld",
+        "url": "https://www.nu.nl/midden-oostenconflict/6414625/nipte-voorsprong-voor-blok-netanyahu-met-ruime-helft-israelische-stemmen-geteld.html",
         "date": "Wed, 28 Oct 2026 05:22:10 +0100",
-        "summary": "Met zo'n 42 procent van de Israëlische stemmen geteld gaat het blok van zittend premier Benjamin Netanyahu nipt aan kop. De voorlopige resultaten geven het blok van Netanyahu 57 zetels en het oppositieblok van Gadi Eisenkot 47 zetels. Er is nog geen duidelijke winnaar.",
-        "imageUrl": "https://images.nu.nl/m/2eqx2qqav45a_sqr256/799/3/3365/3365/nipte-voorsprong-voor-blok-netanyahu-met-bijna-helft-israelische-stemmen-geteld.jpg"
+        "summary": "Met zo'n 57 procent van de Israëlische stemmen geteld gaat het blok van zittend premier Benjamin Netanyahu nipt aan kop. De voorlopige resultaten geven het blok van Netanyahu 55 zetels en het oppositieblok van Gadi Eisenkot 49 zetels. Er is nog geen duidelijke winnaar.",
+        "imageUrl": "https://images.nu.nl/m/2eqx2qqav45a_sqr256/799/3/3365/3365/nipte-voorsprong-voor-blok-netanyahu-met-ruime-helft-israelische-stemmen-geteld.jpg"
       },
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
@@ -44,13 +51,6 @@
         "date": "Tue, 27 Oct 2026 23:13:12 +0100",
         "summary": "Arsenal heeft dinsdag in de achtste finales van de League Cup een afgang beleefd tegen Fleetwood Town. De huidige nummer achttien van de League Two versloeg de regerend landskampioen van aanvoerder Jurriën Timber in een strafschoppenreeks.",
         "imageUrl": "https://images.nu.nl/m/on3xn7qaaeh2_sqr256/616/0/3658/3658/bekersprookje-in-engeland-vierdeklasser-fleetwood-town-schakelt-arsenal-uit.jpg"
-      },
-      {
-        "title": "Dood van tiener na ruim 50 jaar gelinkt aan seriemoordenaar Ted Bundy",
-        "url": "https://www.nu.nl/buitenland/6414616/dood-van-tiener-na-ruim-50-jaar-gelinkt-aan-seriemoordenaar-ted-bundy.html",
-        "date": "Tue, 27 Oct 2026 23:03:40 +0100",
-        "summary": "Een zeventienjarig meisje uit de staat Utah is 52 jaar na haar dood geïdentificeerd als een slachtoffer van de Amerikaanse seriemoordenaar Ted Bundy. Door DNA-sporen op haar lichaam konden autoriteiten in de Amerikaanse staat die link leggen.",
-        "imageUrl": "https://images.nu.nl/m/jckxl5uab175_sqr256/1326/335/1618/1618/dood-van-tiener-na-ruim-50-jaar-gelinkt-aan-seriemoordenaar-ted-bundy.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
       {
         "time": "07:25",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "08:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.3,
+    "temperature": 8.2,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T05:46:50+00:00",
-    "rainUpdatedAt": "2026-10-28T05:46:53+00:00"
+    "weatherUpdatedAt": "2026-10-28T06:23:10+00:00",
+    "rainUpdatedAt": "2026-10-28T06:23:11+00:00"
   }
 }
