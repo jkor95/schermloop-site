@@ -1,28 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T10:07:47+00:00",
+    "updatedAt": "2026-10-28T10:53:09+00:00",
     "headlines": [
       {
-        "title": "Ook Real Madrid biedt excuses aan voor uitspraken Mbappé over Mao Zedong",
-        "url": "https://www.nu.nl/voetbal/6414662/ook-real-madrid-biedt-excuses-aan-voor-uitspraken-mbappe-over-mao-zedong.html",
-        "date": "Wed, 28 Oct 2026 11:02:57 +0100",
-        "summary": "Real Madrid heeft woensdag excuses aangeboden voor de uitspraken van Kylian Mbappé over Mao Zedong, de grondlegger van het communistische China. Dinsdag verontschuldigde de aanvaller zich zelf al.",
-        "imageUrl": "https://images.nu.nl/m/q8uxgzqafosj_sqr256/880/0/2058/2058/ook-real-madrid-biedt-excuses-aan-voor-uitspraken-mbappe-over-mao-zedong.jpg"
+        "title": "Kimi Antonelli (20) staat voor unicum in Formule 1: 'Eigenlijk is hij nog een puber'",
+        "url": "https://www.nu.nl/formule-1/6414563/kimi-antonelli-20-staat-voor-unicum-in-formule-1-eigenlijk-is-hij-nog-een-puber.html",
+        "date": "Wed, 28 Oct 2026 11:38:36 +0100",
+        "summary": "Kimi Antonelli staat op het punt om de jongste wereldkampioen Formule 1 ooit te worden. Het is uitzonderlijk dat de twintigjarige Italiaan zo jong al met de druk kan omgaan. Tegelijkertijd heeft zijn leeftijd ook voordelen. \"Hij durft meer risico's te nemen.\"",
+        "imageUrl": "https://images.nu.nl/m/ab9xhsmadey5_sqr256/224/0/2450/2450/kimi-antonelli-20-staat-voor-unicum-in-formule-1-eigenlijk-is-hij-nog-een-puber.jpg"
       },
       {
-        "title": "Live | Treinongeluk Spanje | Bijna 550 passagiers zaten in treinen, vrees voor enorm hoog dodental",
-        "url": "https://www.nu.nl/buitenland/6414654/treinongeluk-spanje-bijna-550-passagiers-zaten-in-treinen-vrees-voor-enorm-hoog-dodental.html",
+        "title": "Binnenskamers | De knuffels van Zelensky: begroeten is een kunst",
+        "url": "https://www.nu.nl/politiek/6414624/de-knuffels-van-zelensky-begroeten-is-een-kunst.html",
+        "date": "Wed, 28 Oct 2026 11:16:48 +0100",
+        "summary": "In de rubriek Binnenskamers schrijft politiek verslaggever Edo van der Goot wekelijks over wat hem opvalt in Den Haag. Met deze week: hoe begroet je iemand zonder dat de wereld je uitlacht?",
+        "imageUrl": "https://images.nu.nl/m/4wzxxbga5ow5_sqr256/413/0/1080/1080/de-knuffels-van-zelensky-begroeten-is-een-kunst.jpg"
+      },
+      {
+        "title": "China reageert op excuses Mbappé na uitspraak over Mao: 'Nemen het serieus'",
+        "url": "https://www.nu.nl/voetbal/6414662/china-reageert-op-excuses-mbappe-na-uitspraak-over-mao-nemen-het-serieus.html",
+        "date": "Wed, 28 Oct 2026 11:02:57 +0100",
+        "summary": "De Chinese overheid heeft woensdag kort gereageerd op de excuses van Kylian Mbappé na zijn uitspraken over Mao Zedong, de grondlegger van het communistische China. Ondertussen bood ook Real Madrid excuses aan.",
+        "imageUrl": "https://images.nu.nl/m/q8uxgzqafosj_sqr256/880/0/2058/2058/china-reageert-op-excuses-mbappe-na-uitspraak-over-mao-nemen-het-serieus.jpg"
+      },
+      {
+        "title": "Benzine bijna 20 cent goedkoper na recordprijs, maar olie blijft duur",
+        "url": "https://www.nu.nl/economie/6414657/benzine-bijna-20-cent-goedkoper-na-recordprijs-maar-olie-blijft-duur.html",
+        "date": "Wed, 28 Oct 2026 10:51:34 +0100",
+        "summary": "De benzineprijs is sinds het record van twee weken geleden bijna 20 cent gedaald. De olieprijs blijft echter hoog en staat op het hoogste niveau sinds eind april.",
+        "imageUrl": "https://images.nu.nl/m/inpxf84ak69x_sqr256/2885/0/5773/5773/benzine-bijna-20-cent-goedkoper-na-recordprijs-maar-olie-blijft-duur.jpg"
+      },
+      {
+        "title": "Live | Treinramp Spanje | Menselijke fout vermoedelijk oorzaak, dringende oproep voor bloeddonaties",
+        "url": "https://www.nu.nl/buitenland/6414654/treinramp-spanje-menselijke-fout-vermoedelijk-oorzaak-dringende-oproep-voor-bloeddonaties.html",
         "date": "Wed, 28 Oct 2026 10:32:19 +0100",
         "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de ontwikkelingen over het treinongeluk in Spanje.",
-        "imageUrl": "https://images.nu.nl/m/68ixi4laeata_sqr256/1/0/692/692/treinongeluk-spanje-bijna-550-passagiers-zaten-in-treinen-vrees-voor-enorm-hoog-dodental.jpg"
+        "imageUrl": "https://images.nu.nl/m/uj8x2h6a8jsl_sqr256/668/0/1080/1080/treinramp-spanje-menselijke-fout-vermoedelijk-oorzaak-dringende-oproep-voor-bloeddonaties.jpg"
       },
       {
-        "title": "Zeker tien doden na botsing tussen hogesnelheidstreinen in Spanje",
-        "url": "https://www.nu.nl/buitenland/6414653/zeker-tien-doden-na-botsing-tussen-hogesnelheidstreinen-in-spanje.html",
+        "title": "Zeker 46 doden na botsing tussen hogesnelheidstreinen in Spanje",
+        "url": "https://www.nu.nl/buitenland/6414653/zeker-46-doden-na-botsing-tussen-hogesnelheidstreinen-in-spanje.html",
         "date": "Wed, 28 Oct 2026 10:16:10 +0100",
-        "summary": "Bij een botsing tussen twee hogesnelheidstreinen op het traject tussen Madrid en Andalusië zijn woensdagochtend zeker tien mensen om het leven gekomen. Mogelijk zijn er meer slachtoffers.",
-        "imageUrl": "https://images.nu.nl/m/t4zxs31apfeh_sqr256/93/0/3357/3357/zeker-tien-doden-na-botsing-tussen-hogesnelheidstreinen-in-spanje.jpg"
+        "summary": "Bij een botsing tussen twee hogesnelheidstreinen op het traject tussen Madrid en Andalusië zijn woensdagochtend zeker 46 mensen om het leven gekomen. De lokale autoriteiten vrezen voor meer slachtoffers.",
+        "imageUrl": "https://images.nu.nl/m/t4zxs31apfeh_sqr256/93/0/3357/3357/zeker-46-doden-na-botsing-tussen-hogesnelheidstreinen-in-spanje.jpg"
       },
       {
         "title": "Jetten en Willem-Alexander ontvangen vandaag Zelensky in Den Haag",
@@ -30,27 +51,6 @@
         "date": "Wed, 28 Oct 2026 10:13:06 +0100",
         "summary": "De Oekraïense president Volodymyr Zelensky brengt woensdag een bezoek aan Nederland. Hij ontmoet 's middags premier Rob Jetten op het Catshuis. In de avond volgt een bezoek aan koning Willem-Alexander op Paleis Huis ten Bosch.",
         "imageUrl": "https://images.nu.nl/m/yevxzeda0kby_sqr256/696/0/1080/1080/jetten-en-willem-alexander-ontvangen-vandaag-zelensky-in-den-haag.jpg"
-      },
-      {
-        "title": "Meer bekend over vluchtroute Bolsonaro, Lula noemt vertrek 'beschamend'",
-        "url": "https://www.nu.nl/buitenland/6414646/meer-bekend-over-vluchtroute-bolsonaro-lula-noemt-vertrek-beschamend.html",
-        "date": "Wed, 28 Oct 2026 10:08:24 +0100",
-        "summary": "Senator Flávio Bolsonaro, die zondag de Braziliaanse presidentsverkiezingen verloor, is via Argentinië naar Ecuador gereisd. Eerder meldden bronnen dat hij onderweg was naar de Verenigde Staten, waar hij op een visum zou kunnen rekenen.",
-        "imageUrl": "https://images.nu.nl/m/1fvxq21ak2fb_sqr256/103/3/2665/2665/meer-bekend-over-vluchtroute-bolsonaro-lula-noemt-vertrek-beschamend.jpg"
-      },
-      {
-        "title": "Video | Cuba en VS botsen bij VN: 'Je bent een leugenaar'",
-        "url": "https://www.nu.nl/331711/video/cuba-en-vs-botsen-bij-vn-je-bent-een-leugenaar.html",
-        "date": "Wed, 28 Oct 2026 10:04:10 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/816xma0a8cqq_sqr256/505/0/1079/1079/cuba-en-vs-botsen-bij-vn-je-bent-een-leugenaar.jpg"
-      },
-      {
-        "title": "Dirk Kuijt aangesteld als interim-trainer bij Fenerbahçe na vertrek Kartal",
-        "url": "https://www.nu.nl/voetbal/6414649/dirk-kuijt-aangesteld-als-interim-trainer-bij-fenerbahce-na-vertrek-kartal.html",
-        "date": "Wed, 28 Oct 2026 10:01:25 +0100",
-        "summary": "Dirk Kuijt is woensdag aangesteld als interim-trainer van Fenerbahçe. Hij volgt Ismail Kartal op, die dinsdag zijn ontslag indiende na de competitienederlaag tegen aartsrivaal Galatasaray (2-1). Kuijt was assistent-trainer onder Kartal.",
-        "imageUrl": "https://images.nu.nl/m/wljxbvxa5n4y_sqr256/862/0/3068/3068/dirk-kuijt-aangesteld-als-interim-trainer-bij-fenerbahce-na-vertrek-kartal.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "11:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:45",
-        "mmHour": 0.0
-      },
       {
         "time": "11:50",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "13:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "13:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.1,
-    "description": "Zwaar bewolkt",
+    "temperature": 13.9,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T10:07:48+00:00",
-    "rainUpdatedAt": "2026-10-28T10:07:48+00:00"
+    "weatherUpdatedAt": "2026-10-28T10:53:09+00:00",
+    "rainUpdatedAt": "2026-10-28T10:53:10+00:00"
   }
 }
