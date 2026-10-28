@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T20:04:16+00:00",
+    "updatedAt": "2026-10-28T20:44:58+00:00",
     "headlines": [
+      {
+        "title": "Bolsonaro verzet zich tegen verkiezingsuitslag en wil vanuit VS oppositie voeren",
+        "url": "https://www.nu.nl/buitenland/6414737/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.html",
+        "date": "Wed, 28 Oct 2026 21:11:07 +0100",
+        "summary": "Flávio Bolsonaro, die woensdag in de Verenigde Staten is aangekomen, noemt zichzelf in een verklaring de \"rechtmatig verkozen president van Brazilië\". Zondag verloor hij de presidentsverkiezingen van Luiz Inácio Lula da Silva. Bolsonaro wil vanuit de VS de oppositie leiden.",
+        "imageUrl": "https://images.nu.nl/m/b98x7y3aa3ld_sqr256/1746/780/2862/2862/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.jpg"
+      },
+      {
+        "title": "Bayern-coach Kompany verlaat ziekenhuis na 'irritatie van de hersenvliezen'",
+        "url": "https://www.nu.nl/voetbal/6414736/bayern-coach-kompany-verlaat-ziekenhuis-na-irritatie-van-de-hersenvliezen.html",
+        "date": "Wed, 28 Oct 2026 21:00:08 +0100",
+        "summary": "Bayern München-trainer Vincent Kompany is woensdag uit het ziekenhuis ontslagen. Sportief directeur Max Eberl zegt dat een \"irritatie van de hersenvliezen\" bij de Belg is vastgesteld.",
+        "imageUrl": "https://images.nu.nl/m/v1axh8oa75oo_sqr256/932/72/2915/2915/bayern-coach-kompany-verlaat-ziekenhuis-na-irritatie-van-de-hersenvliezen.jpg"
+      },
       {
         "title": "Politie gaat deel van onbehandelde aangiften uit 2024 opnieuw beoordelen",
         "url": "https://www.nu.nl/politiek/6414733/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.html",
@@ -37,20 +51,6 @@
         "date": "Wed, 28 Oct 2026 19:19:31 +0100",
         "summary": "Amsterdam verlengt het fatbikeverbod in het Vondelpark, nadat is gebleken dat het aantal fatbikes in het park sterk is gedaald en de overlast is afgenomen. Maar het verbod wordt niet uitgebreid naar andere plekken in de hoofdstad.",
         "imageUrl": "https://images.nu.nl/m/006xubfa4ba1_sqr256/414/589/1637/1637/amsterdam-verlengt-fatbikeverbod-in-vondelpark-maar-breidt-het-niet-uit.jpg"
-      },
-      {
-        "title": "Overlevenden vertellen over treinramp Spanje: 'Spoor sneed als mes door trein'",
-        "url": "https://www.nu.nl/buitenland/6414720/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.html",
-        "date": "Wed, 28 Oct 2026 18:41:05 +0100",
-        "summary": "Meerdere overlevenden van de treinramp in Spanje vertellen aan lokale media over wat ze meemaakten. Iemand zag hoe het spoor \"als een mes\" dwars door de trein heen sneed. Veel passagiers vreesden dat hun wagon zou kantelen.",
-        "imageUrl": "https://images.nu.nl/m/u3px2wiajyto_sqr256/395/102/1277/1277/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.jpg"
-      },
-      {
-        "title": "Per direct landelijke ophokplicht voor pluimvee na drie uitbraken van vogelgriep",
-        "url": "https://www.nu.nl/binnenland/6414724/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.html",
-        "date": "Wed, 28 Oct 2026 18:26:06 +0100",
-        "summary": "Pluimveehouders moeten hun kippen per direct binnenhouden om de verspreiding van vogelgriep zoveel mogelijk tegen te gaan, meldt het ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur woensdag. Het besluit volgt op drie uitbraken van de ziekte in korte tijd.",
-        "imageUrl": "https://images.nu.nl/m/pvxxrswaw81t_sqr256/819/0/3574/3574/per-direct-landelijke-ophokplicht-voor-pluimvee-na-drie-uitbraken-van-vogelgriep.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
       {
         "time": "21:45",
         "mmHour": 0.0
@@ -132,19 +100,19 @@
       },
       {
         "time": "22:35",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "22:40",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "22:45",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "22:50",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "22:55",
@@ -153,12 +121,44 @@
       {
         "time": "23:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:15",
+        "mmHour": 0.1
+      },
+      {
+        "time": "23:20",
+        "mmHour": 0.1
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.1,
-    "description": "Zwaar bewolkt",
+    "temperature": 11.3,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T20:04:17+00:00",
-    "rainUpdatedAt": "2026-10-28T20:04:18+00:00"
+    "weatherUpdatedAt": "2026-10-28T20:44:58+00:00",
+    "rainUpdatedAt": "2026-10-28T20:45:00+00:00"
   }
 }
