@@ -1,13 +1,20 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T21:22:06+00:00",
+    "updatedAt": "2026-10-28T22:05:12+00:00",
     "headlines": [
+      {
+        "title": "Canadees eist gewonnen jackpot van 40 miljoen vlak voordat prijs verloopt op",
+        "url": "https://www.nu.nl/opmerkelijk/6414744/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.html",
+        "date": "Wed, 28 Oct 2026 23:03:53 +0100",
+        "summary": "De Canadese eigenaar van een winnend lot heeft op het laatste moment de jackpot van 40 miljoen Canadese dollar opgeëist. Hij meldde zich woensdag bij de loterij. Dat was de laatste mogelijke dag om zijn prijs te innen, omdat de trekking vorig jaar was.",
+        "imageUrl": "https://images.nu.nl/m/pwaxsr2an2cy_sqr256/728/0/3024/3024/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.jpg"
+      },
       {
         "title": "Bolsonaro verzet zich tegen verkiezingsuitslag en wil vanuit VS oppositie voeren",
         "url": "https://www.nu.nl/buitenland/6414737/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.html",
         "date": "Wed, 28 Oct 2026 21:11:07 +0100",
-        "summary": "Flávio Bolsonaro, die woensdag in de Verenigde Staten is aangekomen, noemt zichzelf in een verklaring de \"rechtmatig verkozen president van Brazilië\". Zondag verloor hij de presidentsverkiezingen van Luiz Inácio Lula da Silva. Bolsonaro wil vanuit de VS de oppositie leiden.",
+        "summary": "Flávio Bolsonaro, die woensdag in de Verenigde Staten is aangekomen, noemt zichzelf in een verklaring de \"leider van Brazilië\". Zondag verloor hij de presidentsverkiezingen van Luiz Inácio Lula da Silva. Bolsonaro wil vanuit de VS de oppositie leiden.",
         "imageUrl": "https://images.nu.nl/m/b98x7y3aa3ld_sqr256/1746/780/2862/2862/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Wed, 28 Oct 2026 19:26:55 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/qayx7dgaanl5_sqr256/458/2/1078/1078/willem-alexander-verwelkomt-zelensky-met-omarming-bij-audientie.jpg"
-      },
-      {
-        "title": "Amsterdam verlengt fatbikeverbod in Vondelpark, maar breidt het niet uit",
-        "url": "https://www.nu.nl/binnenland/6414725/amsterdam-verlengt-fatbikeverbod-in-vondelpark-maar-breidt-het-niet-uit.html",
-        "date": "Wed, 28 Oct 2026 19:19:31 +0100",
-        "summary": "Amsterdam verlengt het fatbikeverbod in het Vondelpark, nadat is gebleken dat het aantal fatbikes in het park sterk is gedaald en de overlast is afgenomen. Maar het verbod wordt niet uitgebreid naar andere plekken in de hoofdstad.",
-        "imageUrl": "https://images.nu.nl/m/006xubfa4ba1_sqr256/414/589/1637/1637/amsterdam-verlengt-fatbikeverbod-in-vondelpark-maar-breidt-het-niet-uit.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
       {
         "time": "23:05",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.3,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 10.3,
+    "description": "Mix van opklaringen en middelbare of lage bewolking",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T21:22:07+00:00",
-    "rainUpdatedAt": "2026-10-28T21:22:09+00:00"
+    "weatherUpdatedAt": "2026-10-28T22:05:13+00:00",
+    "rainUpdatedAt": "2026-10-28T22:05:15+00:00"
   }
 }
