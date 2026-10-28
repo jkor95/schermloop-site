@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T02:52:30+00:00",
+    "updatedAt": "2026-10-28T03:31:08+00:00",
     "headlines": [
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "03:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:25",
-        "mmHour": 0.0
-      },
       {
         "time": "04:30",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "05:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "05:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.3,
+    "temperature": 7.2,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T02:52:31+00:00",
-    "rainUpdatedAt": "2026-10-28T02:52:31+00:00"
+    "weatherUpdatedAt": "2026-10-28T03:31:08+00:00",
+    "rainUpdatedAt": "2026-10-28T03:31:09+00:00"
   }
 }
