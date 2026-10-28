@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T12:14:55+00:00",
+    "updatedAt": "2026-10-28T13:20:07+00:00",
     "headlines": [
+      {
+        "title": "Unilever gaat prijzen van voeding en verzorgingsproducten verhogen",
+        "url": "https://www.nu.nl/economie/6414687/unilever-gaat-prijzen-van-voeding-en-verzorgingsproducten-verhogen.html",
+        "date": "Wed, 28 Oct 2026 13:45:25 +0100",
+        "summary": "Unilever gaat de prijzen van producten zoals voeding en verzorgingsspullen verhogen, zei topman Fernando Fernández woensdag tijdens een toelichting op de kwartaalcijfers. Het Britse concern rekent prijsstijgingen als gevolg van de Iranoorlog door aan klanten.",
+        "imageUrl": "https://images.nu.nl/m/oqtxkaya2li8_sqr256/1729/0/3444/3444/unilever-gaat-prijzen-van-voeding-en-verzorgingsproducten-verhogen.jpg"
+      },
+      {
+        "title": "Van verkiezingsfraude verdachte OM-medewerker is raadslid D66 in Boxtel",
+        "url": "https://www.nu.nl/misdaad/6414598/van-verkiezingsfraude-verdachte-om-medewerker-is-raadslid-d66-in-boxtel.html",
+        "date": "Wed, 28 Oct 2026 13:42:46 +0100",
+        "summary": "De medewerker van het Openbaar Ministerie die dinsdag is aangehouden is D66-raadslid Sohib Hussain, melden goed ingevoerde bronnen aan NU.nl. De 38-jarige man uit Boxtel wordt verdacht van ambtelijke corruptie en verkiezingsfraude.",
+        "imageUrl": "https://images.nu.nl/m/q3oxkzuabyrh_sqr256/0/0/1080/1080/van-verkiezingsfraude-verdachte-om-medewerker-is-raadslid-d66-in-boxtel.jpg"
+      },
+      {
+        "title": "Geen duidelijke meerderheid bij Israëlische verkiezingen, Netanyahu-blok aan kop",
+        "url": "https://www.nu.nl/buitenland/6414685/geen-duidelijke-meerderheid-bij-israelische-verkiezingen-netanyahu-blok-aan-kop.html",
+        "date": "Wed, 28 Oct 2026 13:38:12 +0100",
+        "summary": "Met 84,5 procent van alle stemmen geteld, lijkt het regeringsblok van premier Benjamin Netanyahu met 54 zetels nog steeds aan kop te gaan bij de Israëlische verkiezingen. Het oppositieblok staat op 49 zetels. Geen van beide lijkt een meerderheid te behalen.",
+        "imageUrl": "https://images.nu.nl/m/0hyx7lpafnfv_sqr256/1730/0/3679/3679/geen-duidelijke-meerderheid-bij-israelische-verkiezingen-netanyahu-blok-aan-kop.jpg"
+      },
       {
         "title": "Booking.com mag personeel verplichten om aantal dagen naar kantoor te komen",
         "url": "https://www.nu.nl/economie/6414683/bookingcom-mag-personeel-verplichten-om-aantal-dagen-naar-kantoor-te-komen.html",
@@ -30,27 +51,6 @@
         "date": "Wed, 28 Oct 2026 12:30:01 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/wt9xh4sa3zgp_sqr256/444/0/1080/1080/luchtbeelden-tonen-ontspoorde-wagons-na-ernstige-treinramp-in-spanje.jpg"
-      },
-      {
-        "title": "Ziekenhuis in Breda zet wielklem op auto's medewerkers die vaak foutparkeren",
-        "url": "https://www.nu.nl/binnenland/6414634/ziekenhuis-in-breda-zet-wielklem-op-autos-medewerkers-die-vaak-foutparkeren.html",
-        "date": "Wed, 28 Oct 2026 12:27:51 +0100",
-        "summary": "Het Amphia Ziekenhuis in Breda gaat vanaf november een wielklem plaatsen bij medewerkers die herhaaldelijk verkeerd parkeren op de personeelsparkeerplaats. Gebeurt het daarna nog steeds, dan kunnen overtreders hun parkeerrecht definitief kwijtraken.",
-        "imageUrl": "https://images.nu.nl/m/bswxlf4a4l1q_sqr256/533/0/3884/3884/ziekenhuis-in-breda-zet-wielklem-op-autos-medewerkers-die-vaak-foutparkeren.jpg"
-      },
-      {
-        "title": "Tientallen servers Limburg ingenomen om verspreiding beelden kindermisbruik",
-        "url": "https://www.nu.nl/misdaad/6414674/tientallen-servers-limburg-ingenomen-om-verspreiding-beelden-kindermisbruik.html",
-        "date": "Wed, 28 Oct 2026 12:09:32 +0100",
-        "summary": "De politie heeft tientallen servers in beslag genomen in Limburg in een internationaal onderzoek naar een hostingbedrijf dat ervan wordt verdacht cybercriminaliteit te faciliteren. Het bedrijf zou onder meer de verspreiding van beelden van seksueel kindermisbruik mogelijk hebben gemaakt.",
-        "imageUrl": "https://images.nu.nl/m/extxqtxaade6_sqr256/1002/3/1999/1999/tientallen-servers-limburg-ingenomen-om-verspreiding-beelden-kindermisbruik.jpg"
-      },
-      {
-        "title": "Debbie de Jong uit B&B Vol liefde zet na 22 jaar haar Spaanse B&B te koop",
-        "url": "https://www.nu.nl/achterklap/6414672/debbie-de-jong-uit-bb-vol-liefde-zet-na-22-jaar-haar-spaanse-bb-te-koop.html",
-        "date": "Wed, 28 Oct 2026 12:05:46 +0100",
-        "summary": "Debbie de Jong uit B&B Vol liefde zet na 22 jaar haar Spaanse gastenverblijf te koop. Ze is toe aan iets nieuws. \"Als ik nog eens wat anders leuks wil doen met mijn leven, dan is het nu wel de tijd.\"",
-        "imageUrl": "https://images.nu.nl/m/ou0xfgxarl3v_sqr256/153/14/433/433/debbie-de-jong-uit-bb-vol-liefde-zet-na-22-jaar-haar-spaanse-bb-te-koop.jpg"
       }
     ]
   },
@@ -58,58 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "13:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:15",
-        "mmHour": 0.0
-      },
       {
         "time": "14:20",
         "mmHour": 0.0
@@ -153,12 +101,64 @@
       {
         "time": "15:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "15:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:15",
+        "mmHour": 0.0
       }
     ],
     "temperature": 13.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T12:14:55+00:00",
-    "rainUpdatedAt": "2026-10-28T12:14:56+00:00"
+    "weatherUpdatedAt": "2026-10-28T13:20:08+00:00",
+    "rainUpdatedAt": "2026-10-28T13:20:09+00:00"
   }
 }
