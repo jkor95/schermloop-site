@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T01:15:27+00:00",
+    "updatedAt": "2026-10-28T02:07:47+00:00",
     "headlines": [
       {
         "title": "Hitte, droogte en ziekte: klimaatopwarming trekt zware wissel op gezondheid",
@@ -59,50 +59,6 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "02:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:05",
-        "mmHour": 0.0
-      },
-      {
         "time": "03:10",
         "mmHour": 0.0
       },
@@ -153,12 +109,56 @@
       {
         "time": "04:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "04:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:05",
+        "mmHour": 0.0
       }
     ],
     "temperature": 8.1,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T01:15:27+00:00",
-    "rainUpdatedAt": "2026-10-28T01:15:28+00:00"
+    "weatherUpdatedAt": "2026-10-28T02:07:47+00:00",
+    "rainUpdatedAt": "2026-10-28T02:07:48+00:00"
   }
 }
