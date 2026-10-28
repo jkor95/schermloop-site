@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-28T19:18:56+00:00",
+    "updatedAt": "2026-10-28T20:04:16+00:00",
     "headlines": [
       {
         "title": "Politie gaat deel van onbehandelde aangiften uit 2024 opnieuw beoordelen",
@@ -11,11 +11,11 @@
         "imageUrl": "https://images.nu.nl/m/i6ax3bga5z5o_sqr256/0/0/4651/4651/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.jpg"
       },
       {
-        "title": "Europa's tweede economie wankelt: 'Maar van Europese crisis nog geen sprake'",
-        "url": "https://www.nu.nl/buitenland/6414682/europas-tweede-economie-wankelt-maar-van-europese-crisis-nog-geen-sprake.html",
+        "title": "Economische situatie Frankrijk is zorgwekkend en toekomst niet rooskleurig",
+        "url": "https://www.nu.nl/buitenland/6414682/economische-situatie-frankrijk-is-zorgwekkend-en-toekomst-niet-rooskleurig.html",
         "date": "Wed, 28 Oct 2026 20:00:40 +0100",
         "summary": "Frankrijk is in de ban van gewelddadige demonstraties tegen de afbraak van publieke voorzieningen. Tegelijkertijd is de economische situatie dusdanig slecht dat Parijs wel móét bezuinigen. Maar met verkiezingen in aantocht lijkt niemand die pijnlijke keuze te willen maken.",
-        "imageUrl": "https://images.nu.nl/m/k3gxw3salx8z_sqr256/1132/491/4658/4658/europas-tweede-economie-wankelt-maar-van-europese-crisis-nog-geen-sprake.jpg"
+        "imageUrl": "https://images.nu.nl/m/k3gxw3salx8z_sqr256/1132/491/4658/4658/economische-situatie-frankrijk-is-zorgwekkend-en-toekomst-niet-rooskleurig.jpg"
       },
       {
         "title": "Winnaar van Canadese loterij dreigt jaar na trekking 40 miljoen mis te lopen",
@@ -43,7 +43,7 @@
         "url": "https://www.nu.nl/buitenland/6414720/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.html",
         "date": "Wed, 28 Oct 2026 18:41:05 +0100",
         "summary": "Meerdere overlevenden van de treinramp in Spanje vertellen aan lokale media over wat ze meemaakten. Iemand zag hoe het spoor \"als een mes\" dwars door de trein heen sneed. Veel passagiers vreesden dat hun wagon zou kantelen.",
-        "imageUrl": "https://images.nu.nl/m/7qoxhm1appja_sqr256/395/0/3279/3279/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.jpg"
+        "imageUrl": "https://images.nu.nl/m/u3px2wiajyto_sqr256/395/102/1277/1277/overlevenden-vertellen-over-treinramp-spanje-spoor-sneed-als-mes-door-trein.jpg"
       },
       {
         "title": "Per direct landelijke ophokplicht voor pluimvee na drie uitbraken van vogelgriep",
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:00",
-        "mmHour": 0.0
-      },
       {
         "time": "21:05",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "22:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:35",
+        "mmHour": 0.1
+      },
+      {
+        "time": "22:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "22:45",
+        "mmHour": 0.1
+      },
+      {
+        "time": "22:50",
+        "mmHour": 0.1
+      },
+      {
+        "time": "22:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.3,
+    "temperature": 13.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-28T19:18:56+00:00",
-    "rainUpdatedAt": "2026-10-28T19:18:57+00:00"
+    "weatherUpdatedAt": "2026-10-28T20:04:17+00:00",
+    "rainUpdatedAt": "2026-10-28T20:04:18+00:00"
   }
 }
