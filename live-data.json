@@ -1,20 +1,27 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T07:27:17+00:00",
+    "updatedAt": "2026-10-29T08:22:53+00:00",
     "headlines": [
       {
-        "title": "Stevie Wonder krijgt Ziggo Dome moeiteloos mee in drie uur durende show",
-        "url": "https://www.nu.nl/muziek/6414749/stevie-wonder-krijgt-ziggo-dome-moeiteloos-mee-in-drie-uur-durende-show.html",
+        "title": "Shell profiteert flink van stijgende olie- en gasprijzen en boekt miljardenwinst",
+        "url": "https://www.nu.nl/economie/6414761/shell-profiteert-flink-van-stijgende-olie-en-gasprijzen-en-boekt-miljardenwinst.html",
+        "date": "Thu, 29 Oct 2026 08:39:48 +0100",
+        "summary": "Shell heeft in het derde kwartaal van dit jaar opnieuw flink geprofiteerd van de hoge olie- en gasprijzen als gevolg van de oorlog in het Midden-Oosten. Het olie- en gasconcern heeft de winst verdubbeld tot 10,8 miljard dollar (9,7 miljard euro).",
+        "imageUrl": "https://images.nu.nl/m/hqax02ba2r9c_sqr256/2043/0/4087/4087/shell-profiteert-flink-van-stijgende-olie-en-gasprijzen-en-boekt-miljardenwinst.jpg"
+      },
+      {
+        "title": "Stevie Wonder brengt meesterwerk tot leven in uren durende Ziggo Dome-show",
+        "url": "https://www.nu.nl/muziek/6414749/stevie-wonder-brengt-meesterwerk-tot-leven-in-uren-durende-ziggo-dome-show.html",
         "date": "Thu, 29 Oct 2026 08:16:14 +0100",
         "summary": "Fans van Stevie Wonder die woensdagavond in de Ziggo Dome waren, mochten van geluk spreken. De soulzanger stond na twaalf jaar weer op een Nederlands podium om het vijftigjarig jubileum van zijn album Songs in the Key of Life te vieren.",
-        "imageUrl": "https://images.nu.nl/m/pvex4j5a2htt_sqr256/982/1/4437/4437/stevie-wonder-krijgt-ziggo-dome-moeiteloos-mee-in-drie-uur-durende-show.jpg"
+        "imageUrl": "https://images.nu.nl/m/pvex4j5a2htt_sqr256/982/1/4437/4437/stevie-wonder-brengt-meesterwerk-tot-leven-in-uren-durende-ziggo-dome-show.jpg"
       },
       {
         "title": "Vrouw die Obama-slogan 'Yes we can' bedacht op 96-jarige leeftijd overleden",
         "url": "https://www.nu.nl/buitenland/6414759/vrouw-die-obama-slogan-yes-we-can-bedacht-op-96-jarige-leeftijd-overleden.html",
         "date": "Thu, 29 Oct 2026 08:09:29 +0100",
-        "summary": "De Amerikaanse burgerrechtenleidster Dolores Huerta is op 96-jarige leeftijd overleden aan de gevolgen van kanker, heeft haar familie bekendgemaakt. Huerta kwam op voor de rechten van arme landarbeiders en zette zich later in voor burgerrechten, vrouwenrechten, gendergelijkheid en het milieu.",
+        "summary": "De Amerikaanse burgerrechtenactivist Dolores Huerta is op 96-jarige leeftijd overleden aan de gevolgen van kanker, heeft haar familie bekendgemaakt. Huerta kwam op voor de rechten van arme landarbeiders en zette zich in voor burgerrechten, vrouwenrechten, gendergelijkheid en het milieu.",
         "imageUrl": "https://images.nu.nl/m/n7zxniradd10_sqr256/173/0/2662/2662/vrouw-die-obama-slogan-yes-we-can-bedacht-op-96-jarige-leeftijd-overleden.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Thu, 29 Oct 2026 05:46:56 +0100",
         "summary": "EU-chef Ursula von der Leyen is teruggekomen van haar belofte om van Canada het eerste Europese \"associatielid\" te maken. Dat voornemen kondigde ze in september onverwachts aan tijdens haar jaarlijkse State of the Union-speech, maar het plan stuitte op verzet van lidstaten.",
         "imageUrl": "https://images.nu.nl/m/uf0xj50a2rx8_sqr256/292/2/1956/1956/eu-krabbelt-terug-en-gaat-canada-toch-niet-eerste-associatielid-maken.jpg"
-      },
-      {
-        "title": "Live | Treinramp Spanje | Aantal zwaargewonden omhoog bijgesteld naar twintig",
-        "url": "https://www.nu.nl/buitenland/6414748/treinramp-spanje-aantal-zwaargewonden-omhoog-bijgesteld-naar-twintig.html",
-        "date": "Thu, 29 Oct 2026 05:25:49 +0100",
-        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de ontwikkelingen over het treinongeluk in Spanje.",
-        "imageUrl": "https://images.nu.nl/m/gayx7cwaxuc7_sqr256/0/4/4558/4558/treinramp-spanje-aantal-zwaargewonden-omhoog-bijgesteld-naar-twintig.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:15",
-        "mmHour": 0.0
-      },
       {
         "time": "09:20",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "10:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.5,
+    "temperature": 11.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T07:27:17+00:00",
-    "rainUpdatedAt": "2026-10-29T07:27:18+00:00"
+    "weatherUpdatedAt": "2026-10-29T08:22:53+00:00",
+    "rainUpdatedAt": "2026-10-29T08:22:55+00:00"
   }
 }
