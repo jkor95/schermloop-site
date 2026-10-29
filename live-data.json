@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T11:39:55+00:00",
+    "updatedAt": "2026-10-29T12:20:23+00:00",
     "headlines": [
+      {
+        "title": "Ontsnapte capibara Samba half jaar na ontsnapping weer gezien in Engeland",
+        "url": "https://www.nu.nl/buitenland/6414791/ontsnapte-capibara-samba-half-jaar-na-ontsnapping-weer-gezien-in-engeland.html",
+        "date": "Thu, 29 Oct 2026 12:59:14 +0100",
+        "summary": "De in Engeland ontsnapte capibara Samba is ruim een half jaar na haar ontsnapping weer in het wild gezien. De Britse dierentuin die al zeven maanden naar haar op zoek is, zegt dat er nieuwe beelden van Samba zijn opgedoken.",
+        "imageUrl": "https://images.nu.nl/m/ik3xg9vaimak_sqr256/174/0/1409/1409/ontsnapte-capibara-samba-half-jaar-na-ontsnapping-weer-gezien-in-engeland.jpg"
+      },
       {
         "title": "Wagons in Spanje worden nog altijd doorzocht op overlevenden, dodental naar 69",
         "url": "https://www.nu.nl/buitenland/6414782/wagons-in-spanje-worden-nog-altijd-doorzocht-op-overlevenden-dodental-naar-69.html",
@@ -36,7 +43,7 @@
         "url": "https://www.nu.nl/voetbal/6414775/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.html",
         "date": "Thu, 29 Oct 2026 11:06:02 +0100",
         "summary": "De Poolse Ekstraklasa heeft Ibrahima Camara voor een half jaar geschorst vanwege een opmerkelijk incident tijdens een wedstrijd afgelopen zaterdag. De 27-jarige middenvelder van Radomiak Radom sloeg een tegenstander nadat hij een rode kaart had gekregen.",
-        "imageUrl": "https://images.nu.nl/m/x8pxsucadbrz_sqr256/357/0/1080/1080/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.jpg"
+        "imageUrl": "https://images.nu.nl/m/uiixx9vakhfr_sqr256/348/0/1080/1080/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.jpg"
       },
       {
         "title": "Oleshky snakt naar hulp nu Russisch-Oekraïens bestand stand lijkt te houden",
@@ -44,13 +51,6 @@
         "date": "Thu, 29 Oct 2026 10:43:49 +0100",
         "summary": "Er is humanitaire hulp onderweg naar Oleshky, de door Rusland bezette stad die momenteel in een humanitaire crisis verkeert. Rusland hoopt dat de hulp, waar inwoners naar snakken, donderdag of vrijdag het stadje bereikt.",
         "imageUrl": "https://images.nu.nl/m/qy9xkivaxy3i_sqr256/439/0/1132/1132/oleshky-snakt-naar-hulp-nu-russisch-oekraiens-bestand-stand-lijkt-te-houden.jpg"
-      },
-      {
-        "title": "Overleden honden in Schiedam mogelijk dood door eten bloembollen",
-        "url": "https://www.nu.nl/binnenland/6414771/overleden-honden-in-schiedam-mogelijk-dood-door-eten-bloembollen.html",
-        "date": "Thu, 29 Oct 2026 10:37:52 +0100",
-        "summary": "Het is nog steeds niet duidelijk waar de zes honden in Schiedam onlangs aan zijn overleden, meldt de gemeente. De honden overleden kort na elkaar na een wandeling in het park De Plantage in de Zuid-Hollandse stad.",
-        "imageUrl": "https://images.nu.nl/m/9k3x9vfa5otf_sqr256/1820/11/5493/5493/overleden-honden-in-schiedam-mogelijk-dood-door-eten-bloembollen.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "12:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:15",
-        "mmHour": 0.0
-      },
       {
         "time": "13:20",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "14:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "14:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:15",
+        "mmHour": 0.0
       }
     ],
     "temperature": 15.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T11:39:56+00:00",
-    "rainUpdatedAt": "2026-10-29T11:39:57+00:00"
+    "weatherUpdatedAt": "2026-10-29T12:20:24+00:00",
+    "rainUpdatedAt": "2026-10-29T12:20:24+00:00"
   }
 }
