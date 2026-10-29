@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T18:02:32+00:00",
+    "updatedAt": "2026-10-29T18:51:55+00:00",
     "headlines": [
+      {
+        "title": "Sunderland wil gesprek over Brobbey met KNVB na oplopen blessure bij Oranje",
+        "url": "https://www.nu.nl/voetbal/6414854/sunderland-wil-gesprek-over-brobbey-met-knvb-na-oplopen-blessure-bij-oranje.html",
+        "date": "Thu, 29 Oct 2026 19:34:57 +0100",
+        "summary": "Sunderland-trainer Régis Le Bris wil in gesprek met Oranje over de beschikbaarheid van zijn spits Brian Brobbey. In de vorige interlandperiode liep Brobbey nog een hamstringblessure op tegen Duitsland.",
+        "imageUrl": "https://images.nu.nl/m/5jdxtq1ae80f_sqr256/818/0/2211/2211/sunderland-wil-gesprek-over-brobbey-met-knvb-na-oplopen-blessure-bij-oranje.jpg"
+      },
+      {
+        "title": "Drie doden en twaalf gewonden bij crash Italiaanse legerhelikopter in Bosnië",
+        "url": "https://www.nu.nl/buitenland/6414850/drie-doden-en-twaalf-gewonden-bij-crash-italiaanse-legerhelikopter-in-bosnie.html",
+        "date": "Thu, 29 Oct 2026 19:25:02 +0100",
+        "summary": "In Bosnië is donderdag een Italiaanse legerhelikopter neergestort, melden de lokale autoriteiten. Daarbij zijn drie inzittenden om het leven gekomen en twaalf personen gewond geraakt. Over de oorzaak van de crash is nog niks bekend.",
+        "imageUrl": "https://images.nu.nl/m/ndax5g1a3x7k_sqr256/0/0/682/682/drie-doden-en-twaalf-gewonden-bij-crash-italiaanse-legerhelikopter-in-bosnie.jpg"
+      },
       {
         "title": "1,5 jaar cel voor ernstige groepsmishandeling van 17-jarige jongen in Haarlem",
         "url": "https://www.nu.nl/misdaad/6414829/15-jaar-cel-voor-ernstige-groepsmishandeling-van-17-jarige-jongen-in-haarlem.html",
@@ -37,20 +51,6 @@
         "date": "Thu, 29 Oct 2026 17:44:28 +0100",
         "summary": "Dubbelspelers maken zich grote zorgen om hun toekomst in het tennis. De internationale tennisorganisatie ATP is van plan het dubbelspel drastisch om te gooien. De tennissers voelen zich niet gehoord. \"Dit is een bedreiging voor het hele tennis.\"",
         "imageUrl": "https://images.nu.nl/m/d6excxva200o_sqr256/599/0/2672/2672/onrust-in-tenniswereld-om-toekomst-dubbelspel-het-is-code-donkerrood.jpg"
-      },
-      {
-        "title": "Tegenslag voor kabinet: boerenorganisaties ontevreden na gesprek over stikstof",
-        "url": "https://www.nu.nl/politiek/6414597/tegenslag-voor-kabinet-boerenorganisaties-ontevreden-na-gesprek-over-stikstof.html",
-        "date": "Thu, 29 Oct 2026 17:25:06 +0100",
-        "summary": "De twee boerenorganisaties waarmee landbouwminister Jaimi van Essen gesprekken over het stikstofbeleid voert, zijn donderdag na een overleg ontevreden naar huis gegaan. Het kabinet zou niet aan al hun gewenste aanpassingen tegemoetkomen.",
-        "imageUrl": "https://images.nu.nl/m/ekwx0oba9xh9_sqr256/2281/203/3719/3719/tegenslag-voor-kabinet-boerenorganisaties-ontevreden-na-gesprek-over-stikstof.jpg"
-      },
-      {
-        "title": "Explainer | Zo vechten Oekraïne en Rusland in verlaten gaspijpleiding",
-        "url": "https://www.nu.nl/331752/video/zo-vechten-oekraine-en-rusland-in-verlaten-gaspijpleiding.html",
-        "date": "Thu, 29 Oct 2026 17:09:55 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/9g5xpv9a8ran_sqr256/233/2/1438/1438/zo-vechten-oekraine-en-rusland-in-verlaten-gaspijpleiding.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:45",
-        "mmHour": 0.0
-      },
       {
         "time": "19:50",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "21:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.0,
+    "temperature": 11.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T18:02:32+00:00",
-    "rainUpdatedAt": "2026-10-29T18:02:33+00:00"
+    "weatherUpdatedAt": "2026-10-29T18:51:55+00:00",
+    "rainUpdatedAt": "2026-10-29T18:51:56+00:00"
   }
 }
