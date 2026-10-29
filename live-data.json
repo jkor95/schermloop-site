@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T01:40:34+00:00",
+    "updatedAt": "2026-10-29T02:28:49+00:00",
     "headlines": [
       {
         "title": "Italië verhoogt belasting voor banken om lasten van middeninkomens te verlichten",
@@ -59,46 +59,6 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "02:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:25",
-        "mmHour": 0.0
-      },
-      {
         "time": "03:30",
         "mmHour": 0.0
       },
@@ -153,12 +113,52 @@
       {
         "time": "04:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.6,
+    "temperature": 10.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T01:40:35+00:00",
-    "rainUpdatedAt": "2026-10-29T01:40:37+00:00"
+    "weatherUpdatedAt": "2026-10-29T02:28:49+00:00",
+    "rainUpdatedAt": "2026-10-29T02:28:50+00:00"
   }
 }
