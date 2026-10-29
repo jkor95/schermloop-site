@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T04:07:34+00:00",
+    "updatedAt": "2026-10-29T04:53:08+00:00",
     "headlines": [
+      {
+        "title": "EU krabbelt terug en gaat Canada toch niet eerste 'associatielid' maken",
+        "url": "https://www.nu.nl/buitenland/6414751/eu-krabbelt-terug-en-gaat-canada-toch-niet-eerste-associatielid-maken.html",
+        "date": "Thu, 29 Oct 2026 05:46:56 +0100",
+        "summary": "EU-chef Ursula von der Leyen komt terug op haar belofte om van Canada het eerste Europese \"associatielid\" te maken. Dat kondigde ze in september onverwachts aan tijdens haar jaarlijkse State of the Union-speech, maar het plan stuitte op verzet van lidstaten.",
+        "imageUrl": "https://images.nu.nl/m/uf0xj50a2rx8_sqr256/292/2/1956/1956/eu-krabbelt-terug-en-gaat-canada-toch-niet-eerste-associatielid-maken.jpg"
+      },
+      {
+        "title": "Live | Treinramp | Spanje begint aan drie dagen van nationale rouw",
+        "url": "https://www.nu.nl/buitenland/6414748/treinramp-spanje-begint-aan-drie-dagen-van-nationale-rouw.html",
+        "date": "Thu, 29 Oct 2026 05:25:49 +0100",
+        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de ontwikkelingen over het treinongeluk in Spanje.",
+        "imageUrl": "https://images.nu.nl/m/gayx7cwaxuc7_sqr256/0/4/4558/4558/treinramp-spanje-begint-aan-drie-dagen-van-nationale-rouw.jpg"
+      },
+      {
+        "title": "Uitgebreidere grenscontroles zijn een blijvertje en volgens minister 'gewoon nodig'",
+        "url": "https://www.nu.nl/politiek/6414734/uitgebreidere-grenscontroles-zijn-een-blijvertje-en-volgens-minister-gewoon-nodig.html",
+        "date": "Thu, 29 Oct 2026 05:07:46 +0100",
+        "summary": "De binnengrenscontroles van oud-minister Marjolein Faber zijn vervangen door een uitgebreidere versie van de 'oude' grenscontrole. Asiel is daar slechts een onderdeel van, zei asielminister Bart van den Brink woensdag. \"Een grens heeft gewoon controle nodig.\"",
+        "imageUrl": "https://images.nu.nl/m/wgvx4ifak04y_sqr256/1069/0/5264/5264/uitgebreidere-grenscontroles-zijn-een-blijvertje-en-volgens-minister-gewoon-nodig.jpg"
+      },
       {
         "title": "Italië verhoogt belasting voor banken om lasten van middeninkomens te verlichten",
         "url": "https://www.nu.nl/buitenland/6414746/italie-verhoogt-belasting-voor-banken-om-lasten-van-middeninkomens-te-verlichten.html",
@@ -30,27 +51,6 @@
         "date": "Wed, 28 Oct 2026 23:03:53 +0100",
         "summary": "De Canadese eigenaar van een winnend lot heeft op het laatste moment de jackpot van 40 miljoen Canadese dollar opgeëist. Hij meldde zich woensdag bij de loterij. Dat was de laatste mogelijke dag om zijn prijs te innen, omdat de trekking vorig jaar was.",
         "imageUrl": "https://images.nu.nl/m/pwaxsr2an2cy_sqr256/728/0/3024/3024/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.jpg"
-      },
-      {
-        "title": "Bolsonaro verzet zich tegen verkiezingsuitslag en wil vanuit VS oppositie voeren",
-        "url": "https://www.nu.nl/buitenland/6414737/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.html",
-        "date": "Wed, 28 Oct 2026 21:11:07 +0100",
-        "summary": "Flávio Bolsonaro, die woensdag in de Verenigde Staten is aangekomen, noemt zichzelf in een verklaring de \"leider van Brazilië\". Zondag verloor hij de presidentsverkiezingen van Luiz Inácio Lula da Silva. Bolsonaro wil vanuit de VS de oppositie leiden.",
-        "imageUrl": "https://images.nu.nl/m/b98x7y3aa3ld_sqr256/1746/780/2862/2862/bolsonaro-verzet-zich-tegen-verkiezingsuitslag-en-wil-vanuit-vs-oppositie-voeren.jpg"
-      },
-      {
-        "title": "Bayern-coach Kompany verlaat ziekenhuis na 'irritatie van de hersenvliezen'",
-        "url": "https://www.nu.nl/voetbal/6414736/bayern-coach-kompany-verlaat-ziekenhuis-na-irritatie-van-de-hersenvliezen.html",
-        "date": "Wed, 28 Oct 2026 21:00:08 +0100",
-        "summary": "Bayern München-trainer Vincent Kompany is woensdag uit het ziekenhuis ontslagen. Sportief directeur Max Eberl zegt dat een \"irritatie van de hersenvliezen\" bij de Belg is vastgesteld.",
-        "imageUrl": "https://images.nu.nl/m/v1axh8oa75oo_sqr256/932/72/2915/2915/bayern-coach-kompany-verlaat-ziekenhuis-na-irritatie-van-de-hersenvliezen.jpg"
-      },
-      {
-        "title": "Politie gaat deel van onbehandelde aangiften uit 2024 opnieuw beoordelen",
-        "url": "https://www.nu.nl/politiek/6414733/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.html",
-        "date": "Wed, 28 Oct 2026 20:01:43 +0100",
-        "summary": "De politie gaat een deel van de aangiften en meldingen die in 2024 niet zijn behandeld opnieuw bekijken. In eerste instantie gaat het om aangiften van (pogingen tot) moord en doodslag en ernstige zedenzaken.",
-        "imageUrl": "https://images.nu.nl/m/i6ax3bga5z5o_sqr256/0/0/4651/4651/politie-gaat-deel-van-onbehandelde-aangiften-uit-2024-opnieuw-beoordelen.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:50",
-        "mmHour": 0.0
-      },
       {
         "time": "05:55",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "07:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.3,
+    "temperature": 8.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T04:07:34+00:00",
-    "rainUpdatedAt": "2026-10-29T04:07:35+00:00"
+    "weatherUpdatedAt": "2026-10-29T04:53:09+00:00",
+    "rainUpdatedAt": "2026-10-29T04:53:10+00:00"
   }
 }
