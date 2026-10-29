@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T04:53:08+00:00",
+    "updatedAt": "2026-10-29T05:33:43+00:00",
     "headlines": [
+      {
+        "title": "Nederland leunt zwaar op China voor grondstoffen in chips en auto's",
+        "url": "https://www.nu.nl/economie/6414688/nederland-leunt-zwaar-op-china-voor-grondstoffen-in-chips-en-autos.html",
+        "date": "Thu, 29 Oct 2026 06:30:12 +0100",
+        "summary": "Nederland is voor kritische grondstoffen voor computerchips, elektrische voertuigen en windturbines zeer afhankelijk van China. Voor zeven van de acht kritiekste grondstoffen vindt ten minste 74 procent van de wereldwijde verwerking in China plaats.",
+        "imageUrl": "https://images.nu.nl/m/st2xrhjaifsa_sqr256/576/0/5406/5406/nederland-leunt-zwaar-op-china-voor-grondstoffen-in-chips-en-autos.jpg"
+      },
+      {
+        "title": "Jenning de Boo had geen dip na Spelen: 'In Zuid-Afrika dook ik weer gym in'",
+        "url": "https://www.nu.nl/schaatsen/6412905/jenning-de-boo-had-geen-dip-na-spelen-in-zuid-afrika-dook-ik-weer-gym-in.html",
+        "date": "Thu, 29 Oct 2026 06:00:16 +0100",
+        "summary": "Jenning de Boo had in tegenstelling tot veel schaatsers geen last van een post-olympische dip. Tijdens zijn vakantie in Afrika dook hij na twee weken alweer de gym in om te gaan trainen. \"Olympisch zilver geeft toch een bepaalde nasmaak.\"",
+        "imageUrl": "https://images.nu.nl/m/b4lx8euaxyc7_sqr256/686/0/4363/4363/jenning-de-boo-had-geen-dip-na-spelen-in-zuid-afrika-dook-ik-weer-gym-in.jpg"
+      },
       {
         "title": "EU krabbelt terug en gaat Canada toch niet eerste 'associatielid' maken",
         "url": "https://www.nu.nl/buitenland/6414751/eu-krabbelt-terug-en-gaat-canada-toch-niet-eerste-associatielid-maken.html",
@@ -11,11 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/uf0xj50a2rx8_sqr256/292/2/1956/1956/eu-krabbelt-terug-en-gaat-canada-toch-niet-eerste-associatielid-maken.jpg"
       },
       {
-        "title": "Live | Treinramp | Spanje begint aan drie dagen van nationale rouw",
-        "url": "https://www.nu.nl/buitenland/6414748/treinramp-spanje-begint-aan-drie-dagen-van-nationale-rouw.html",
+        "title": "Live | Treinramp Spanje | Aantal zwaargewonden omhoog bijgesteld naar twintig",
+        "url": "https://www.nu.nl/buitenland/6414748/treinramp-spanje-aantal-zwaargewonden-omhoog-bijgesteld-naar-twintig.html",
         "date": "Thu, 29 Oct 2026 05:25:49 +0100",
         "summary": "Hallo en welkom in dit liveblog. Hier houden we je op de hoogte van de ontwikkelingen over het treinongeluk in Spanje.",
-        "imageUrl": "https://images.nu.nl/m/gayx7cwaxuc7_sqr256/0/4/4558/4558/treinramp-spanje-begint-aan-drie-dagen-van-nationale-rouw.jpg"
+        "imageUrl": "https://images.nu.nl/m/gayx7cwaxuc7_sqr256/0/4/4558/4558/treinramp-spanje-aantal-zwaargewonden-omhoog-bijgesteld-naar-twintig.jpg"
       },
       {
         "title": "Uitgebreidere grenscontroles zijn een blijvertje en volgens minister 'gewoon nodig'",
@@ -37,20 +51,6 @@
         "date": "Thu, 29 Oct 2026 00:00:19 +0100",
         "summary": "Pensioenfondsen ABP en PME staan er beter voor dan een kwartaal eerder. Het is in economisch onrustige tijden nog even volhouden tot 1 januari, als het geld verdeeld gaat worden over de pensioenpotjes van deelnemers.",
         "imageUrl": "https://images.nu.nl/m/1hdxtw7av02j_sqr256/0/0/941/941/pensioenfondsen-verdienen-aan-hogere-rentes-in-aanloop-naar-nieuw-stelsel.jpg"
-      },
-      {
-        "title": "Dieselrijders brengen veel geld in het laatje van oliebedrijven sinds Iranoorlog",
-        "url": "https://www.nu.nl/economie/6414582/dieselrijders-brengen-veel-geld-in-het-laatje-van-oliebedrijven-sinds-iranoorlog.html",
-        "date": "Thu, 29 Oct 2026 00:00:08 +0100",
-        "summary": "De olie-industrie heeft sinds het uitbreken van de oorlog in het Midden-Oosten 36 miljard euro extra verdiend in de EU, blijkt uit onderzoek in opdracht van Greenpeace. Dat geld is met name aan de pomp verdiend aan dieselrijders.",
-        "imageUrl": "https://images.nu.nl/m/uxrxu4ja64f0_sqr256/3352/0/4479/4479/dieselrijders-brengen-veel-geld-in-het-laatje-van-oliebedrijven-sinds-iranoorlog.jpg"
-      },
-      {
-        "title": "Canadees eist gewonnen jackpot van 40 miljoen vlak voordat prijs verloopt op",
-        "url": "https://www.nu.nl/opmerkelijk/6414744/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.html",
-        "date": "Wed, 28 Oct 2026 23:03:53 +0100",
-        "summary": "De Canadese eigenaar van een winnend lot heeft op het laatste moment de jackpot van 40 miljoen Canadese dollar opgeëist. Hij meldde zich woensdag bij de loterij. Dat was de laatste mogelijke dag om zijn prijs te innen, omdat de trekking vorig jaar was.",
-        "imageUrl": "https://images.nu.nl/m/pwaxsr2an2cy_sqr256/728/0/3024/3024/canadees-eist-gewonnen-jackpot-van-40-miljoen-vlak-voordat-prijs-verloopt-op.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
       {
         "time": "06:35",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "07:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.1,
-    "description": "Zwaar bewolkt",
+    "temperature": 8.6,
+    "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T04:53:09+00:00",
-    "rainUpdatedAt": "2026-10-29T04:53:10+00:00"
+    "weatherUpdatedAt": "2026-10-29T05:33:43+00:00",
+    "rainUpdatedAt": "2026-10-29T05:33:44+00:00"
   }
 }
