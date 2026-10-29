@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T21:55:10+00:00",
+    "updatedAt": "2026-10-29T22:32:09+00:00",
     "headlines": [
       {
         "title": "Frankrijk trommelt weer tienduizenden agenten op voor geplande protestdag",
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:30",
-        "mmHour": 0.0
-      },
       {
         "time": "23:35",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.2,
+    "temperature": 7.3,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T21:55:10+00:00",
-    "rainUpdatedAt": "2026-10-29T21:55:11+00:00"
+    "weatherUpdatedAt": "2026-10-29T22:32:09+00:00",
+    "rainUpdatedAt": "2026-10-29T22:32:10+00:00"
   }
 }
