@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T00:42:23+00:00",
+    "updatedAt": "2026-10-29T01:40:34+00:00",
     "headlines": [
       {
         "title": "Italië verhoogt belasting voor banken om lasten van middeninkomens te verlichten",
@@ -59,50 +59,6 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "01:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:35",
-        "mmHour": 0.0
-      },
-      {
         "time": "02:40",
         "mmHour": 0.0
       },
@@ -153,12 +109,56 @@
       {
         "time": "03:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "03:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.8,
+    "temperature": 9.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T00:42:24+00:00",
-    "rainUpdatedAt": "2026-10-29T00:42:25+00:00"
+    "weatherUpdatedAt": "2026-10-29T01:40:35+00:00",
+    "rainUpdatedAt": "2026-10-29T01:40:37+00:00"
   }
 }
