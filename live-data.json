@@ -1,20 +1,27 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T21:11:43+00:00",
+    "updatedAt": "2026-10-29T21:55:10+00:00",
     "headlines": [
       {
-        "title": "Tot vrijdagochtend code geel vanwege dichte mist in groot deel van het land",
-        "url": "https://www.nu.nl/binnenland/6414868/tot-vrijdagochtend-code-geel-vanwege-dichte-mist-in-groot-deel-van-het-land.html",
+        "title": "Frankrijk trommelt weer tienduizenden agenten op voor geplande protestdag",
+        "url": "https://www.nu.nl/buitenland/6414848/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.html",
+        "date": "Thu, 29 Oct 2026 22:23:29 +0100",
+        "summary": "Frankrijk brengt ook zaterdag zeker 70.000 agenten op de been voor een geplande protestdag. Dan gaan naar verwachting weer honderdduizenden Fransen de straat op om hun ongenoegen over het regeringsbeleid te uiten.",
+        "imageUrl": "https://images.nu.nl/m/becx8laamujr_sqr256/234/0/682/682/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.jpg"
+      },
+      {
+        "title": "Code geel in groot deel van land vanwege dichte mist: 'Kan zeer verraderlijk zijn'",
+        "url": "https://www.nu.nl/binnenland/6414868/code-geel-in-groot-deel-van-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.html",
         "date": "Thu, 29 Oct 2026 21:55:32 +0100",
         "summary": "In een groot deel van het land geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 9.00 uur van kracht.",
-        "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/tot-vrijdagochtend-code-geel-vanwege-dichte-mist-in-groot-deel-van-het-land.jpg"
+        "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-groot-deel-van-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
       },
       {
         "title": "Theo Janssen verrast weer met De Treffers door bekerzege op Heracles Almelo",
         "url": "https://www.nu.nl/voetbal/6414867/theo-janssen-verrast-weer-met-de-treffers-door-bekerzege-op-heracles-almelo.html",
         "date": "Thu, 29 Oct 2026 21:55:07 +0100",
-        "summary": "Keuken Kampioen Divisie-koploper Heracles Almelo is donderdagavond verrassend uitgeschakeld in de KNVB-beker. Tweede Divisie-club De Treffers, getraind door Theo Janssen, was op het eigen Sportpark Zuid met 1-0 te sterk.",
+        "summary": "Keuken Kampioen Divisie-koploper Heracles Almelo is donderdagavond verrassend uitgeschakeld in de KNVB-beker. De Treffers was op het eigen Sportpark Zuid met 1-0 te sterk. De club uit de Tweede Divisie wordt getraind door oud-prof Theo Janssen.",
         "imageUrl": "https://images.nu.nl/m/ibzxrdsa6in5_sqr256/701/0/2362/2362/theo-janssen-verrast-weer-met-de-treffers-door-bekerzege-op-heracles-almelo.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Thu, 29 Oct 2026 20:50:09 +0100",
         "summary": "NU.nl is de komende week in Austin, in de Amerikaanse deelstaat Texas, om de midterms te volgen. We maken daar verhalen over de spannende strijd tussen de Democraten en Republikeinen. Ben jij daar en heb je tips of ideeën? We horen het graag.",
         "imageUrl": "https://images.nu.nl/m/f2ax0knacokm_sqr256/1651/0/3591/3591/ben-jij-tijdens-de-midterms-in-texas-wij-zoeken-jou.jpg"
-      },
-      {
-        "title": "Medewerker van Trump regelde privéjet waarmee Bolsonaro naar VS vloog",
-        "url": "https://www.nu.nl/buitenland/6414849/medewerker-van-trump-regelde-privejet-waarmee-bolsonaro-naar-vs-vloog.html",
-        "date": "Thu, 29 Oct 2026 20:21:17 +0100",
-        "summary": "Een medewerker van het Witte Huis heeft het privévliegtuig geregeld waarmee de Braziliaanse oud-presidentskandidaat Flávio Bolsonaro naar de VS is gevlucht, melden Amerikaanse media. De Amerikaanse regering heeft Bolsonaro een tijdelijke immigratiestatus gegeven.",
-        "imageUrl": "https://images.nu.nl/m/qhpxmqmam03p_sqr256/190/0/2800/2800/medewerker-van-trump-regelde-privejet-waarmee-bolsonaro-naar-vs-vloog.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
       {
         "time": "22:55",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.6,
+    "temperature": 8.2,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T21:11:44+00:00",
-    "rainUpdatedAt": "2026-10-29T21:11:45+00:00"
+    "weatherUpdatedAt": "2026-10-29T21:55:10+00:00",
+    "rainUpdatedAt": "2026-10-29T21:55:11+00:00"
   }
 }
