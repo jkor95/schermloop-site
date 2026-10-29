@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T23:13:42+00:00",
+    "updatedAt": "2026-10-29T23:52:43+00:00",
     "headlines": [
+      {
+        "title": "Trump voert juridische strijd in Alaska op tegen mogelijke verwarring op stembiljet",
+        "url": "https://www.nu.nl/verkiezingen-vs/6414874/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.html",
+        "date": "Fri, 30 Oct 2026 00:36:09 +0100",
+        "summary": "Het Amerikaanse ministerie van Justitie heeft de juridische strijd rond de tussentijdse verkiezingen in Alaska opgevoerd. De aanklachten zijn gericht tegen het Democratische campagneteam, omdat die een extra kandidaat hebben geworven van wie de naam erg lijkt op de huidige Republikeinse senator.",
+        "imageUrl": "https://images.nu.nl/m/aqmxc2sajas9_sqr256/2079/0/4160/4160/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.jpg"
+      },
       {
         "title": "Frankrijk trommelt weer tienduizenden agenten op voor geplande protestdag",
         "url": "https://www.nu.nl/buitenland/6414848/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.html",
@@ -11,11 +18,11 @@
         "imageUrl": "https://images.nu.nl/m/becx8laamujr_sqr256/234/0/682/682/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.jpg"
       },
       {
-        "title": "Code geel in groot deel van land vanwege dichte mist: 'Kan zeer verraderlijk zijn'",
-        "url": "https://www.nu.nl/binnenland/6414868/code-geel-in-groot-deel-van-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.html",
+        "title": "Code geel in hele land vanwege dichte mist: 'Kan zeer verraderlijk zijn'",
+        "url": "https://www.nu.nl/binnenland/6414868/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.html",
         "date": "Thu, 29 Oct 2026 21:55:32 +0100",
-        "summary": "In een groot deel van het land geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 9.00 uur van kracht.",
-        "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-groot-deel-van-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
+        "summary": "In heel Nederland geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 9.00 uur van kracht.",
+        "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
       },
       {
         "title": "Theo Janssen verrast weer met De Treffers door bekerzege op Heracles Almelo",
@@ -44,13 +51,6 @@
         "date": "Thu, 29 Oct 2026 20:59:32 +0100",
         "summary": "Patrick Stewart is op 86-jarige leeftijd overleden na een kort ziekbed. De Britse acteur was vooral bekend van de films Star Trek en X-Men .",
         "imageUrl": "https://images.nu.nl/m/3blxyfbaag3w_sqr256/223/0/2336/2336/star-trek-acteur-patrick-stewart-86-overleden.jpg"
-      },
-      {
-        "title": "Oproep | Ben jij tijdens de midterms in Texas? Wij zoeken jou",
-        "url": "https://www.nu.nl/nujij/6414819/ben-jij-tijdens-de-midterms-in-texas-wij-zoeken-jou.html",
-        "date": "Thu, 29 Oct 2026 20:50:09 +0100",
-        "summary": "NU.nl is de komende week in Austin, in de Amerikaanse deelstaat Texas, om de midterms te volgen. We maken daar verhalen over de spannende strijd tussen de Democraten en Republikeinen. Ben jij daar en heb je tips of ideeën? We horen het graag.",
-        "imageUrl": "https://images.nu.nl/m/f2ax0knacokm_sqr256/1651/0/3591/3591/ben-jij-tijdens-de-midterms-in-texas-wij-zoeken-jou.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
       {
         "time": "00:50",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "02:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.1,
+    "temperature": 7.8,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T23:13:42+00:00",
-    "rainUpdatedAt": "2026-10-29T23:13:43+00:00"
+    "weatherUpdatedAt": "2026-10-29T23:52:44+00:00",
+    "rainUpdatedAt": "2026-10-29T23:52:44+00:00"
   }
 }
