@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T14:26:22+00:00",
+    "updatedAt": "2026-10-29T15:21:56+00:00",
     "headlines": [
+      {
+        "title": "AI kan mogelijk overlevingskans kankerpatiënt voorspellen op basis van een foto",
+        "url": "https://www.nu.nl/tech-wetenschap/6414697/ai-kan-mogelijk-overlevingskans-kankerpatient-voorspellen-op-basis-van-een-foto.html",
+        "date": "Thu, 29 Oct 2026 15:49:31 +0100",
+        "summary": "AI kan met behulp van een foto mogelijk voorspellen hoe groot je overlevingskans is met verschillende soorten kanker of hoe oud je lichaam echt is. Dat blijkt uit onderzoek dat onlangs is gepubliceerd in het wetenschappelijke tijdschrift The Lancet .",
+        "imageUrl": "https://images.nu.nl/m/04bxfmgar9p1_sqr256/268/1/3756/3756/ai-kan-mogelijk-overlevingskans-kankerpatient-voorspellen-op-basis-van-een-foto.jpg"
+      },
+      {
+        "title": "Toblerone sleept klein Brits veganistisch chocolademerk voor de rechter",
+        "url": "https://www.nu.nl/economie/6414821/toblerone-sleept-klein-brits-veganistisch-chocolademerk-voor-de-rechter.html",
+        "date": "Thu, 29 Oct 2026 15:34:18 +0100",
+        "summary": "Mondelez, het moederbedrijf achter Toblerone, stapt naar de Britse rechter vanwege een chocoladereep van een klein veganistisch merk. Volgens het voedingsconcern lijkt de vorm van de reep te veel op het iconische ontwerp van de bekende Zwitserse chocoladereep.",
+        "imageUrl": "https://images.nu.nl/m/202x7araz5wq_sqr256/831/0/1887/1887/toblerone-sleept-klein-brits-veganistisch-chocolademerk-voor-de-rechter.jpg"
+      },
+      {
+        "title": "14 doden door drone op treinperron Dnipro, Zelensky wil actie van bondgenoten",
+        "url": "https://www.nu.nl/spanningen-oekraine/6414818/14-doden-door-drone-op-treinperron-dnipro-zelensky-wil-actie-van-bondgenoten.html",
+        "date": "Thu, 29 Oct 2026 15:29:48 +0100",
+        "summary": "Bij een Russische aanval op de Oekraïense stad Dnipro zijn zeker veertien doden gevallen, meldt de gouverneur van de regio Dnipro op Telegram . Veertien anderen raakten gewond, van wie vier ernstig. Volgens de lokale autoriteiten is een treinstation geraakt.",
+        "imageUrl": "https://images.nu.nl/m/xxmx2t7ax0ml_sqr256/769/4/3996/3996/14-doden-door-drone-op-treinperron-dnipro-zelensky-wil-actie-van-bondgenoten.jpg"
+      },
       {
         "title": "Israël onderzoekt mogelijke buitenlandse beïnvloeding van verkiezingen",
         "url": "https://www.nu.nl/buitenland/6414790/israel-onderzoekt-mogelijke-buitenlandse-beinvloeding-van-verkiezingen.html",
@@ -30,27 +51,6 @@
         "date": "Thu, 29 Oct 2026 14:22:09 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/kmcxcn5a01vi_sqr256/146/43/924/924/presentator-schopt-drone-in-het-gezicht-van-model-in-mexico.jpg"
-      },
-      {
-        "title": "Google in problemen in Finland na mogelijk illegale kap van 250.000 bomen",
-        "url": "https://www.nu.nl/economie/6414801/google-in-problemen-in-finland-na-mogelijk-illegale-kap-van-250000-bomen.html",
-        "date": "Thu, 29 Oct 2026 14:04:17 +0100",
-        "summary": "De Finse politie is een strafrechtelijk onderzoek gestart naar mogelijke milieuovertredingen op de bouwlocatie van een nieuw Google-datacenter. Google-dochterbedrijf Tuike Finland zou al bomen hebben gekapt voordat de verplichte milieueffectrapportages waren afgerond.",
-        "imageUrl": "https://images.nu.nl/m/7tjxwzwazeci_sqr256/796/1/2834/2834/google-in-problemen-in-finland-na-mogelijk-illegale-kap-van-250000-bomen.jpg"
-      },
-      {
-        "title": "Top van minderheidskabinet bijeen nu rechtse partijen druk opvoeren",
-        "url": "https://www.nu.nl/politiek/6414805/top-van-minderheidskabinet-bijeen-nu-rechtse-partijen-druk-opvoeren.html",
-        "date": "Thu, 29 Oct 2026 13:59:54 +0100",
-        "summary": "De top van het kabinet heeft donderdagmiddag overleg gevoerd over de vraag of het zaken wil doen met het linkse óf het rechtse oppositieblok. Het is niet bekend wat de bewindspersonen hebben besloten.",
-        "imageUrl": "https://images.nu.nl/m/5k5x8lfaw210_sqr256/2744/190/4271/4271/top-van-minderheidskabinet-bijeen-nu-rechtse-partijen-druk-opvoeren.jpg"
-      },
-      {
-        "title": "Verbaasde Van Dijk omvergeduwd door Emegha: 'Misschien wil hij ook in Oranje'",
-        "url": "https://www.nu.nl/voetbal/6414806/verbaasde-van-dijk-omvergeduwd-door-emegha-misschien-wil-hij-ook-in-oranje.html",
-        "date": "Thu, 29 Oct 2026 13:57:48 +0100",
-        "summary": "Virgil van Dijk is verbaasd dat Emmanuel Emegha woensdag uit het niets een flinke duw uitdeelde tijdens Liverpool-Chelsea (1-1) in de League Cup. De Liverpool-aanvoerder kan de actie van zijn landgenoot niet begrijpen.",
-        "imageUrl": "https://images.nu.nl/m/j9wxbxuaev9t_sqr256/1262/0/3420/3420/verbaasde-van-dijk-omvergeduwd-door-emegha-misschien-wil-hij-ook-in-oranje.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "15:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:20",
-        "mmHour": 0.0
-      },
       {
         "time": "16:25",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "17:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:20",
+        "mmHour": 0.0
       }
     ],
     "temperature": 15.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T14:26:22+00:00",
-    "rainUpdatedAt": "2026-10-29T14:26:23+00:00"
+    "weatherUpdatedAt": "2026-10-29T15:21:57+00:00",
+    "rainUpdatedAt": "2026-10-29T15:21:58+00:00"
   }
 }
