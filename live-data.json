@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T10:57:23+00:00",
+    "updatedAt": "2026-10-29T11:39:55+00:00",
     "headlines": [
+      {
+        "title": "Wagons in Spanje worden nog altijd doorzocht op overlevenden, dodental naar 69",
+        "url": "https://www.nu.nl/buitenland/6414782/wagons-in-spanje-worden-nog-altijd-doorzocht-op-overlevenden-dodental-naar-69.html",
+        "date": "Thu, 29 Oct 2026 12:31:23 +0100",
+        "summary": "Reddingswerkers zijn een dag na de Spaanse treinramp nog altijd op zoek naar overlevenden in wagons. Het dodental is donderdag gestegen naar 69 mensen en het aantal gewonden staat op meer dan honderd. De geplande treinstaking gaat donderdag door.",
+        "imageUrl": "https://images.nu.nl/m/afkx1xzaefsm_sqr256/227/0/1080/1080/wagons-in-spanje-worden-nog-altijd-doorzocht-op-overlevenden-dodental-naar-69.jpg"
+      },
+      {
+        "title": "Video | Voetballer keert terug uit catacomben en slaat tegenstander in Polen",
+        "url": "https://www.nu.nl/331747/video/voetballer-keert-terug-uit-catacomben-en-slaat-tegenstander-in-polen.html",
+        "date": "Thu, 29 Oct 2026 12:18:06 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/fh6xlcsamhuh_sqr256/0/0/440/440/voetballer-keert-terug-uit-catacomben-en-slaat-tegenstander-in-polen.jpg"
+      },
       {
         "title": "Jongeren hebben jaren na corona nog altijd last van mentale problemen",
         "url": "https://www.nu.nl/binnenland/6414781/jongeren-hebben-jaren-na-corona-nog-altijd-last-van-mentale-problemen.html",
@@ -22,7 +36,7 @@
         "url": "https://www.nu.nl/voetbal/6414775/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.html",
         "date": "Thu, 29 Oct 2026 11:06:02 +0100",
         "summary": "De Poolse Ekstraklasa heeft Ibrahima Camara voor een half jaar geschorst vanwege een opmerkelijk incident tijdens een wedstrijd afgelopen zaterdag. De 27-jarige middenvelder van Radomiak Radom sloeg een tegenstander nadat hij een rode kaart had gekregen.",
-        "imageUrl": "https://images.nu.nl/m/7egx6fiadn7r_sqr256/340/0/1080/1080/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.jpg"
+        "imageUrl": "https://images.nu.nl/m/x8pxsucadbrz_sqr256/357/0/1080/1080/megaschorsing-in-polen-speler-rent-uit-tunnel-en-slaat-tegenstander-na-rode-kaart.jpg"
       },
       {
         "title": "Oleshky snakt naar hulp nu Russisch-Oekraïens bestand stand lijkt te houden",
@@ -37,20 +51,6 @@
         "date": "Thu, 29 Oct 2026 10:37:52 +0100",
         "summary": "Het is nog steeds niet duidelijk waar de zes honden in Schiedam onlangs aan zijn overleden, meldt de gemeente. De honden overleden kort na elkaar na een wandeling in het park De Plantage in de Zuid-Hollandse stad.",
         "imageUrl": "https://images.nu.nl/m/9k3x9vfa5otf_sqr256/1820/11/5493/5493/overleden-honden-in-schiedam-mogelijk-dood-door-eten-bloembollen.jpg"
-      },
-      {
-        "title": "Project Antonelli nadert F1-bekroning: 'Mensen begrijpen niet wat hierachter zit'",
-        "url": "https://www.nu.nl/formule-1/6414742/project-antonelli-nadert-f1-bekroning-mensen-begrijpen-niet-wat-hierachter-zit.html",
-        "date": "Thu, 29 Oct 2026 10:34:03 +0100",
-        "summary": "Kimi Antonelli (20) wordt zondag in Mexico, en anders volgende week in Brazilië, de jongste wereldkampioen ooit in de Formule 1. Zijn titel moet voor Mercedes de ultieme beloning van jarenlange investeringen worden. \"Dit succes komt niet zomaar uit de lucht vallen.\"",
-        "imageUrl": "https://images.nu.nl/m/9eyx01namz8w_sqr256/696/0/2945/2945/project-antonelli-nadert-f1-bekroning-mensen-begrijpen-niet-wat-hierachter-zit.jpg"
-      },
-      {
-        "title": "Miljoenenaankoop Ouaissa moet PSV-debuut weer uitstellen na nieuwe blessure",
-        "url": "https://www.nu.nl/voetbal/6414766/miljoenenaankoop-ouaissa-moet-psv-debuut-weer-uitstellen-na-nieuwe-blessure.html",
-        "date": "Thu, 29 Oct 2026 09:55:07 +0100",
-        "summary": "Sami Ouaissa heeft nog geen minuut gespeeld voor de hoofdmacht van PSV en daar gaat de komende maanden geen verandering in komen. De 22-jarige aanvaller is opnieuw geblesseerd geraakt.",
-        "imageUrl": "https://images.nu.nl/m/zvbxloba3zg4_sqr256/446/2/5710/5710/miljoenenaankoop-ouaissa-moet-psv-debuut-weer-uitstellen-na-nieuwe-blessure.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "12:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:35",
-        "mmHour": 0.0
-      },
       {
         "time": "12:40",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "13:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "14:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 14.9,
+    "temperature": 15.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T10:57:24+00:00",
-    "rainUpdatedAt": "2026-10-29T10:57:24+00:00"
+    "weatherUpdatedAt": "2026-10-29T11:39:56+00:00",
+    "rainUpdatedAt": "2026-10-29T11:39:57+00:00"
   }
 }
