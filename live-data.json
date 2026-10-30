@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T18:10:22+00:00",
+    "updatedAt": "2026-10-30T18:56:45+00:00",
     "headlines": [
       {
-        "title": "Paus Leo brengt als eerste paus ooit zijn stem uit bij Amerikaanse verkiezingen",
-        "url": "https://www.nu.nl/buitenland/6414984/paus-leo-brengt-als-eerste-paus-ooit-zijn-stem-uit-bij-amerikaanse-verkiezingen.html",
+        "title": "Isabèl Usher rust niet na hit Niemand Wil Een Popster: 'Lat moet steeds hoger'",
+        "url": "https://www.nu.nl/muziek/6413751/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.html",
+        "date": "Fri, 30 Oct 2026 19:28:41 +0100",
+        "summary": "Isabèl Usher heeft met Niemand Wil Een Popster een flinke hit te pakken, maar de Drentse zangeres wil zich blijven bewijzen. Haar album Meisje Van Het Noorden moet de \"hardste plaat\" zijn die men in tijden heeft gehoord.",
+        "imageUrl": "https://images.nu.nl/m/urjxhivafx8e_sqr256/534/429/2567/2567/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.jpg"
+      },
+      {
+        "title": "DNA-match leidt tot aanhouding in ruim dertig jaar oude verkrachtingszaak",
+        "url": "https://www.nu.nl/binnenland/6414969/dna-match-leidt-tot-aanhouding-in-ruim-dertig-jaar-oude-verkrachtingszaak.html",
+        "date": "Fri, 30 Oct 2026 19:15:11 +0100",
+        "summary": "Een 57-jarige man uit Helmond is aangehouden in een verkrachtingszaak uit 1994. Hij kwam in beeld nadat een coldcaseteam oud bewijsmateriaal opnieuw had laten onderzoeken. Zijn DNA leidde tot een match in de landelijke databank.",
+        "imageUrl": "https://images.nu.nl/m/b0yxacuauytx_sqr256/171/1/785/785/dna-match-leidt-tot-aanhouding-in-ruim-dertig-jaar-oude-verkrachtingszaak.jpg"
+      },
+      {
+        "title": "Recordaantal vroege stemmen voor midterms in VS, ook paus Leo stemt via post",
+        "url": "https://www.nu.nl/buitenland/6414984/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.html",
         "date": "Fri, 30 Oct 2026 18:51:50 +0100",
-        "summary": "Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten. Leo is de eerste Amerikaanse paus, en daarmee is het ook de eerste keer dat een paus stemt voor een verkiezing in de VS.",
-        "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/paus-leo-brengt-als-eerste-paus-ooit-zijn-stem-uit-bij-amerikaanse-verkiezingen.jpg"
+        "summary": "Een recordaantal Amerikanen heeft al vóór de verkiezingsdag zelf hun stem uitgebracht voor de midterms. Ook Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten.",
+        "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.jpg"
       },
       {
         "title": "Gerard Joling wijt Toppers-vertrek aan manager en biedt Jan Smit excuses aan",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 17:35:59 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/2zoxo1zav9vj_sqr256/365/0/1080/1080/verwarde-man-wordt-afgevoerd-nadat-hij-op-willem-alexander-is-afgerend.jpg"
-      },
-      {
-        "title": "Verkiezingsupdate VS | Meer bombarie bij Senaatsrace dan campagne voor Huis",
-        "url": "https://www.nu.nl/verkiezingsupdate-vs/6414934/meer-bombarie-bij-senaatsrace-dan-campagne-voor-huis.html",
-        "date": "Fri, 30 Oct 2026 17:31:15 +0100",
-        "summary": "Tot de Amerikaanse tussentijdse verkiezingen op 3 november praat NU.nl je wekelijks bij over de laatste ontwikkelingen. Met vandaag: de verschillen tussen een campagne voor het Huis en een campagne voor de Senaat.",
-        "imageUrl": "https://images.nu.nl/m/x0mxsira8z1g_sqr256/392/0/1078/1078/meer-bombarie-bij-senaatsrace-dan-campagne-voor-huis.jpg"
-      },
-      {
-        "title": "Geschrokken koning ziet man op zich af rennen: 'Niks aan de hand, geeft niet'",
-        "url": "https://www.nu.nl/koningshuis/6414975/geschrokken-koning-ziet-man-op-zich-af-rennen-niks-aan-de-hand-geeft-niet.html",
-        "date": "Fri, 30 Oct 2026 17:20:35 +0100",
-        "summary": "Een man is vrijdagmiddag op koning Willem-Alexander afgerend tijdens een bezoek aan het Noord-Hollandse Ursem. De koning schrok van het incident, maar ging kort met de man in gesprek. De man werd vervolgens door agenten meegenomen.",
-        "imageUrl": "https://images.nu.nl/m/ddaxoleakts8_sqr256/709/350/1622/1622/geschrokken-koning-ziet-man-op-zich-af-rennen-niks-aan-de-hand-geeft-niet.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:55",
-        "mmHour": 0.0
-      },
       {
         "time": "20:00",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "21:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.5,
-    "description": "Zwaar bewolkt",
+    "temperature": 8.4,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T18:10:22+00:00",
-    "rainUpdatedAt": "2026-10-30T18:10:22+00:00"
+    "weatherUpdatedAt": "2026-10-30T18:56:46+00:00",
+    "rainUpdatedAt": "2026-10-30T18:56:47+00:00"
   }
 }
