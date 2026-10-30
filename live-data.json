@@ -1,11 +1,39 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T15:57:43+00:00",
+    "updatedAt": "2026-10-30T16:44:30+00:00",
     "headlines": [
       {
+        "title": "Kabinet kiest niet tussen links en rechts en vestigt hoop op nieuwe gesprekken",
+        "url": "https://www.nu.nl/politiek/6414976/kabinet-kiest-niet-tussen-links-en-rechts-en-vestigt-hoop-op-nieuwe-gesprekken.html",
+        "date": "Fri, 30 Oct 2026 17:36:03 +0100",
+        "summary": "Premier Rob Jetten denkt nog steeds dat het kabinet partijen over de streep kan trekken in de zoektocht naar steun voor het belastingplan. Zowel linkse als rechtse oppositiepartijen worden dit weekend hoogstwaarschijnlijk wéér uitgenodigd voor een gesprek.",
+        "imageUrl": "https://images.nu.nl/m/o16xh8ea0ly2_sqr256/2202/156/2465/2465/kabinet-kiest-niet-tussen-links-en-rechts-en-vestigt-hoop-op-nieuwe-gesprekken.jpg"
+      },
+      {
+        "title": "Verkiezingsupdate VS | Meer bombarie bij Senaatsrace dan campagne voor Huis",
+        "url": "https://www.nu.nl/verkiezingsupdate-vs/6414934/meer-bombarie-bij-senaatsrace-dan-campagne-voor-huis.html",
+        "date": "Fri, 30 Oct 2026 17:31:15 +0100",
+        "summary": "Tot de Amerikaanse tussentijdse verkiezingen op 3 november praat NU.nl je wekelijks bij over de laatste ontwikkelingen. Met vandaag: de verschillen tussen een campagne voor het Huis en een campagne voor de Senaat.",
+        "imageUrl": "https://images.nu.nl/m/x0mxsira8z1g_sqr256/392/0/1078/1078/meer-bombarie-bij-senaatsrace-dan-campagne-voor-huis.jpg"
+      },
+      {
+        "title": "Man rent op koning af tijdens bezoek aan Ursem: 'Niks aan de hand'",
+        "url": "https://www.nu.nl/koningshuis/6414975/man-rent-op-koning-af-tijdens-bezoek-aan-ursem-niks-aan-de-hand.html",
+        "date": "Fri, 30 Oct 2026 17:20:35 +0100",
+        "summary": "Een man is vrijdagmiddag op koning Willem-Alexander afgerend tijdens een bezoek aan het Noord-Hollandse Ursem. De koning schrok van het incident, maar ging kort met de man in gesprek. De man werd vervolgens door agenten meegenomen.",
+        "imageUrl": "https://images.nu.nl/m/2exxpt0avgid_sqr256/0/0/1972/1972/man-rent-op-koning-af-tijdens-bezoek-aan-ursem-niks-aan-de-hand.jpg"
+      },
+      {
+        "title": "Live | Loting KNVB-beker | Ajax-Den Bosch, PSV-Vitesse en GVVV-Feyenoord",
+        "url": "https://www.nu.nl/voetbal/6414963/loting-knvb-beker-ajax-den-bosch-psv-vitesse-en-gvvv-feyenoord.html",
+        "date": "Fri, 30 Oct 2026 17:00:35 +0100",
+        "summary": "Welkom in dit liveblog! Mijn naam is Hein Nooijens en ik begeleid je bij de loting voor ronde 2 in de KNVB-beker. Veel plezier!",
+        "imageUrl": "https://images.nu.nl/m/um9xyh2argxm_sqr256/1123/180/3363/3363/loting-knvb-beker-ajax-den-bosch-psv-vitesse-en-gvvv-feyenoord.jpg"
+      },
+      {
         "title": "D66 schorst van verkiezingsfraude verdacht raadslid uit Boxtel voor drie maanden",
-        "url": "https://www.nu.nl/binnenland/6414972/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.html",
+        "url": "https://www.nu.nl/misdaad/6414972/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.html",
         "date": "Fri, 30 Oct 2026 16:51:56 +0100",
         "summary": "Het landelijke bestuur van D66 heeft het 38-jarige raadslid uit Boxtel dat wordt verdacht van corruptie en verkiezingsfraude voor drie maanden geschorst. De lokale politicus, die ook medewerker van het OM is, werd dinsdag aangehouden.",
         "imageUrl": "https://images.nu.nl/m/lj7xffmai8i8_sqr256/1731/0/3463/3463/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.jpg"
@@ -23,34 +51,6 @@
         "date": "Fri, 30 Oct 2026 16:17:35 +0100",
         "summary": "Hackers stalen voor miljarden euro's aan cryptomunten van de cryptobeurs Binance. Dat zoveel geld in zo'n korte tijd kan verdwijnen heeft alles te maken met de manier waarop cryptobeurzen de cryptovaluta van hun klanten bewaren.",
         "imageUrl": "https://images.nu.nl/m/1sexrmzadei9_sqr256/1174/0/5315/5315/hack-en-miljardenroof-bij-binance-laten-zien-wie-echt-de-baas-is-over-je-cryptogeld.jpg"
-      },
-      {
-        "title": "DigiD doelwit van ddos-aanval: enkele diensten korte tijd onbereikbaar",
-        "url": "https://www.nu.nl/economie/6414956/digid-doelwit-van-ddos-aanval-enkele-diensten-korte-tijd-onbereikbaar.html",
-        "date": "Fri, 30 Oct 2026 15:43:37 +0100",
-        "summary": "DigiD is vrijdagmiddag getroffen door een ddos-aanval. Veel mensen konden daardoor niet inloggen bij overheidsdiensten. Inmiddels werkt alles weer. DigiD-eigenaar Logius heeft aangifte gedaan.",
-        "imageUrl": "https://images.nu.nl/m/fh8x911a8p5q_sqr256/868/0/3473/3473/digid-doelwit-van-ddos-aanval-enkele-diensten-korte-tijd-onbereikbaar.jpg"
-      },
-      {
-        "title": "Minister heeft nog meer tijd nodig om stikstofplannen uit te werken",
-        "url": "https://www.nu.nl/stikstof/6414915/minister-heeft-nog-meer-tijd-nodig-om-stikstofplannen-uit-te-werken.html",
-        "date": "Fri, 30 Oct 2026 15:26:37 +0100",
-        "summary": "De verdere uitwerking van de stikstofplannen van landbouwminister Jaimi van Essen wordt toch niet vrijdag gepresenteerd. Dat was in eerste instantie wel de bedoeling, maar de minister heeft nog een paar dagen nodig voor laatste aanpassingen.",
-        "imageUrl": "https://images.nu.nl/m/hubxjmyak715_sqr256/1230/0/4536/4536/minister-heeft-nog-meer-tijd-nodig-om-stikstofplannen-uit-te-werken.jpg"
-      },
-      {
-        "title": "Frans Duijts na hartinfarct: 'Word nooit meer helemaal de oude'",
-        "url": "https://www.nu.nl/muziek/6414958/frans-duijts-na-hartinfarct-word-nooit-meer-helemaal-de-oude.html",
-        "date": "Fri, 30 Oct 2026 15:14:57 +0100",
-        "summary": "Frans Duijts heeft grote schade aan zijn hart opgelopen door het hartinfarct waardoor hij vorige week werd getroffen. Hij moest meerdere keren worden gereanimeerd. \"Ik heb in totaal vijftien klappen kregen\", vertelt de 47-jarige zanger aan Story .",
-        "imageUrl": "https://images.nu.nl/m/blux2a3aafr9_sqr256/818/0/3295/3295/frans-duijts-na-hartinfarct-word-nooit-meer-helemaal-de-oude.jpg"
-      },
-      {
-        "title": "Christa Pike na mislukte executie: 'Voortdurend pijn, zowel fysiek als mentaal'",
-        "url": "https://www.nu.nl/buitenland/6414953/christa-pike-na-mislukte-executie-voortdurend-pijn-zowel-fysiek-als-mentaal.html",
-        "date": "Fri, 30 Oct 2026 14:58:05 +0100",
-        "summary": "De Amerikaanse Christa Pike, die eind september een executiepoging overleefde, lijdt sinds de mislukte executie voortdurend pijn, zegt ze in een eerste reactie. Ook heeft ze moeite met praten. Daarnaast zou ze psychische klachten hebben overgehouden aan de executiepoging.",
-        "imageUrl": "https://images.nu.nl/m/0qmx3a9arjge_sqr256/501/0/1632/1632/christa-pike-na-mislukte-executie-voortdurend-pijn-zowel-fysiek-als-mentaal.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "17:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:40",
-        "mmHour": 0.0
-      },
       {
         "time": "17:45",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "18:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "19:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.6,
+    "temperature": 11.7,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T15:57:43+00:00",
-    "rainUpdatedAt": "2026-10-30T15:57:43+00:00"
+    "weatherUpdatedAt": "2026-10-30T16:44:30+00:00",
+    "rainUpdatedAt": "2026-10-30T16:44:31+00:00"
   }
 }
