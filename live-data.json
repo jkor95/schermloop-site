@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T18:56:45+00:00",
+    "updatedAt": "2026-10-30T19:42:41+00:00",
     "headlines": [
+      {
+        "title": "'Bolsonaro-bende' vestigt zich in Florida en spant samen tegen eigen land",
+        "url": "https://www.nu.nl/buitenland/6414961/bolsonaro-bende-vestigt-zich-in-florida-en-spant-samen-tegen-eigen-land.html",
+        "date": "Fri, 30 Oct 2026 20:34:22 +0100",
+        "summary": "Vorig weekend lag het presidentschap in Brazilië nog voor het grijpen, maar inmiddels verschuilt Flávio Bolsonaro zich in de VS. Het Witte Huis bemoeide zich uitgebreid met zijn vluchtroute. Hij is de zoveelste omstreden Braziliaanse figuur die wordt opgevangen door de Amerikaanse president Donald Trump.",
+        "imageUrl": "https://images.nu.nl/m/anhx2epauoh6_sqr256/456/0/1080/1080/bolsonaro-bende-vestigt-zich-in-florida-en-spant-samen-tegen-eigen-land.jpg"
+      },
       {
         "title": "Isabèl Usher rust niet na hit Niemand Wil Een Popster: 'Lat moet steeds hoger'",
         "url": "https://www.nu.nl/muziek/6413751/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.html",
@@ -11,17 +18,17 @@
         "imageUrl": "https://images.nu.nl/m/urjxhivafx8e_sqr256/534/429/2567/2567/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.jpg"
       },
       {
-        "title": "DNA-match leidt tot aanhouding in ruim dertig jaar oude verkrachtingszaak",
-        "url": "https://www.nu.nl/binnenland/6414969/dna-match-leidt-tot-aanhouding-in-ruim-dertig-jaar-oude-verkrachtingszaak.html",
+        "title": "Man na DNA-match opgepakt op verdenking van verkrachten meisje (15) in 1994",
+        "url": "https://www.nu.nl/binnenland/6414969/man-na-dna-match-opgepakt-op-verdenking-van-verkrachten-meisje-15-in-1994.html",
         "date": "Fri, 30 Oct 2026 19:15:11 +0100",
         "summary": "Een 57-jarige man uit Helmond is aangehouden in een verkrachtingszaak uit 1994. Hij kwam in beeld nadat een coldcaseteam oud bewijsmateriaal opnieuw had laten onderzoeken. Zijn DNA leidde tot een match in de landelijke databank.",
-        "imageUrl": "https://images.nu.nl/m/b0yxacuauytx_sqr256/171/1/785/785/dna-match-leidt-tot-aanhouding-in-ruim-dertig-jaar-oude-verkrachtingszaak.jpg"
+        "imageUrl": "https://images.nu.nl/m/b0yxacuauytx_sqr256/171/1/785/785/man-na-dna-match-opgepakt-op-verdenking-van-verkrachten-meisje-15-in-1994.jpg"
       },
       {
         "title": "Recordaantal vroege stemmen voor midterms in VS, ook paus Leo stemt via post",
         "url": "https://www.nu.nl/buitenland/6414984/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.html",
         "date": "Fri, 30 Oct 2026 18:51:50 +0100",
-        "summary": "Een recordaantal Amerikanen heeft al vóór de verkiezingsdag zelf hun stem uitgebracht voor de midterms. Ook Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten.",
+        "summary": "Een recordaantal Amerikanen heeft al vóór de verkiezingsdag zelf een stem uitgebracht voor de midterms. Ook Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten.",
         "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Fri, 30 Oct 2026 17:36:03 +0100",
         "summary": "Premier Rob Jetten denkt nog steeds dat het kabinet partijen over de streep kan trekken in de zoektocht naar steun voor het belastingplan. Zowel linkse als rechtse oppositiepartijen worden dit weekend hoogstwaarschijnlijk wéér uitgenodigd voor een gesprek.",
         "imageUrl": "https://images.nu.nl/m/o16xh8ea0ly2_sqr256/2202/156/2465/2465/kabinet-kiest-niet-tussen-links-en-rechts-en-vestigt-hoop-op-nieuwe-gesprekken.jpg"
-      },
-      {
-        "title": "Video | Verwarde man wordt afgevoerd nadat hij op Willem-Alexander is afgerend",
-        "url": "https://www.nu.nl/331809/video/verwarde-man-wordt-afgevoerd-nadat-hij-op-willem-alexander-is-afgerend.html",
-        "date": "Fri, 30 Oct 2026 17:35:59 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/2zoxo1zav9vj_sqr256/365/0/1080/1080/verwarde-man-wordt-afgevoerd-nadat-hij-op-willem-alexander-is-afgerend.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:35",
-        "mmHour": 0.0
-      },
       {
         "time": "20:40",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "21:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:35",
+        "mmHour": 0.0
       }
     ],
     "temperature": 8.4,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T18:56:46+00:00",
-    "rainUpdatedAt": "2026-10-30T18:56:47+00:00"
+    "weatherUpdatedAt": "2026-10-30T19:42:41+00:00",
+    "rainUpdatedAt": "2026-10-30T19:42:42+00:00"
   }
 }
