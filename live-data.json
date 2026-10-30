@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-29T23:52:43+00:00",
+    "updatedAt": "2026-10-30T00:30:25+00:00",
     "headlines": [
+      {
+        "title": "Australische paddenstoelenmoordernaar verliest hoger beroep, komt niet meer vrij",
+        "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
+        "date": "Fri, 30 Oct 2026 01:22:29 +0100",
+        "summary": "De Australische Erin Petterson (51) heeft haar hoger beroep tegen haar veroordeling voor de 'paddenstoelenmoord' verloren. De aanklager kreeg wel gelijk, waardoor Petterson levenslang vast blijft zitten en geen mogelijkheid tot vervroegde vrijlating meer heeft.",
+        "imageUrl": "https://images.nu.nl/m/pp6xo5wadglu_sqr256/0/17/1488/1488/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.jpg"
+      },
       {
         "title": "Trump voert juridische strijd in Alaska op tegen mogelijke verwarring op stembiljet",
         "url": "https://www.nu.nl/verkiezingen-vs/6414874/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.html",
@@ -44,13 +51,6 @@
         "date": "Thu, 29 Oct 2026 21:18:33 +0100",
         "summary": "Een meteoriet die in 2022 in de Saharawoestijn in Mali werd gevonden blijkt afkomstig van Mars. De steen is ruim 4,1 miljard oud en waarschijnlijk de oudste meteoriet van Mars op aarde, hebben wetenschappers donderdag bekendgemaakt.",
         "imageUrl": "https://images.nu.nl/m/ymcx4vvarohg_sqr256/838/0/1309/1309/in-mali-gevonden-meteoriet-blijkt-ruim-4-miljard-jaar-oud-stukje-van-mars.jpg"
-      },
-      {
-        "title": "Star Trek-acteur Patrick Stewart (86) overleden",
-        "url": "https://www.nu.nl/film/6414863/star-trek-acteur-patrick-stewart-86-overleden.html",
-        "date": "Thu, 29 Oct 2026 20:59:32 +0100",
-        "summary": "Patrick Stewart is op 86-jarige leeftijd overleden na een kort ziekbed. De Britse acteur was vooral bekend van de films Star Trek en X-Men .",
-        "imageUrl": "https://images.nu.nl/m/3blxyfbaag3w_sqr256/223/0/2336/2336/star-trek-acteur-patrick-stewart-86-overleden.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:25",
-        "mmHour": 0.0
-      },
       {
         "time": "01:30",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "02:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.8,
+    "temperature": 7.9,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-29T23:52:44+00:00",
-    "rainUpdatedAt": "2026-10-29T23:52:44+00:00"
+    "weatherUpdatedAt": "2026-10-30T00:30:25+00:00",
+    "rainUpdatedAt": "2026-10-30T00:30:26+00:00"
   }
 }
