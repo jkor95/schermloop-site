@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T10:54:12+00:00",
+    "updatedAt": "2026-10-30T11:29:17+00:00",
     "headlines": [
+      {
+        "title": "Rechts blok somber na 'stevig' gesprek met kabinet: 'Ligt niet zoals we willen'",
+        "url": "https://www.nu.nl/politiek/6414925/rechts-blok-somber-na-stevig-gesprek-met-kabinet-ligt-niet-zoals-we-willen.html",
+        "date": "Fri, 30 Oct 2026 12:03:38 +0100",
+        "summary": "Het gesprek met het kabinet is niet verlopen zoals JA21, BBB en SGP hadden gehoopt. De drie partijleiders kwamen vrijdagochtend somber naar buiten. Het is nog onduidelijk of de onderhandelingen over het belastingplan een vervolg krijgen.",
+        "imageUrl": "https://images.nu.nl/m/m9qxlzdax3xx_sqr256/977/5/4199/4199/rechts-blok-somber-na-stevig-gesprek-met-kabinet-ligt-niet-zoals-we-willen.jpg"
+      },
       {
         "title": "Kind (1) met spoed naar ziekenhuis na val van derde verdieping in Amsterdam",
         "url": "https://www.nu.nl/binnenland/6414918/kind-1-met-spoed-naar-ziekenhuis-na-val-van-derde-verdieping-in-amsterdam.html",
@@ -44,13 +51,6 @@
         "date": "Fri, 30 Oct 2026 10:55:24 +0100",
         "summary": "Noorwegen heeft op ludieke wijze gereageerd op schofferende uitspraken van Donald Trump. De Amerikaanse president noemde Noorwegen een \" shithouse country \". Oslo reageerde gevat: het land beschikt volgens zijn eigen toeristenorganisatie over de beste schijthuizen ter wereld.",
         "imageUrl": "https://images.nu.nl/m/0aax47xawn5k_sqr256/809/0/1077/1077/noorwegen-pakt-trump-op-ludieke-wijze-terug-beste-schijthuizen-ter-wereld.jpg"
-      },
-      {
-        "title": "Jillert Anema (71) wil nog vier jaar winnen: 'Veel mensen vinden me akelige kerel'",
-        "url": "https://www.nu.nl/schaatsen/6414554/jillert-anema-71-wil-nog-vier-jaar-winnen-veel-mensen-vinden-me-akelige-kerel.html",
-        "date": "Fri, 30 Oct 2026 10:53:14 +0100",
-        "summary": "Jillert Anema begint vrijdag op 71-jarige leeftijd 'gewoon' aan een nieuwe olympische cyclus. En de markante schaatscoach heeft nog steeds overal een mening over. Een interview over de Nederlandse \"losersmentaliteit\", zijn karakter en shampoo in zijn voetbalschoenen.",
-        "imageUrl": "https://images.nu.nl/m/t7xxo30ayag6_sqr256/1253/5/4943/4943/jillert-anema-71-wil-nog-vier-jaar-winnen-veel-mensen-vinden-me-akelige-kerel.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "11:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
       {
         "time": "12:30",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "13:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "13:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.2,
+    "temperature": 11.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T10:54:12+00:00",
-    "rainUpdatedAt": "2026-10-30T10:54:13+00:00"
+    "weatherUpdatedAt": "2026-10-30T11:29:18+00:00",
+    "rainUpdatedAt": "2026-10-30T11:29:18+00:00"
   }
 }
