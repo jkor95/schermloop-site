@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T20:20:22+00:00",
+    "updatedAt": "2026-10-30T21:02:10+00:00",
     "headlines": [
+      {
+        "title": "VS geeft groen licht voor verkoop van vijfhonderd Patriot-raketten aan Oekraïne",
+        "url": "https://www.nu.nl/spanningen-oekraine/6414994/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.html",
+        "date": "Fri, 30 Oct 2026 21:28:21 +0100",
+        "summary": "De Verenigde Staten hebben vrijdag groen licht gegeven voor de verkoop van vijfhonderd Patriot-raketten aan Oekraïne. President Volodymyr Zelensky zei eerder dat Oekraïne al bijna een maand wachtte op deze Amerikaanse goedkeuring.",
+        "imageUrl": "https://images.nu.nl/m/mezx7d3a934d_sqr256/141/0/2400/2400/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.jpg"
+      },
       {
         "title": "Man meegesleurd onder auto in Engeland: bestuurder schuldig aan moord",
         "url": "https://www.nu.nl/buitenland/6414967/man-meegesleurd-onder-auto-in-engeland-bestuurder-schuldig-aan-moord.html",
@@ -25,11 +32,11 @@
         "imageUrl": "https://images.nu.nl/m/anhx2epauoh6_sqr256/456/0/1080/1080/bolsonaro-bende-zweert-vanuit-toevluchtsoord-florida-samen-tegen-thuisland-brazilie.jpg"
       },
       {
-        "title": "Isabèl Usher rust niet na hit Niemand Wil Een Popster: 'Lat moet steeds hoger'",
-        "url": "https://www.nu.nl/muziek/6413751/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.html",
+        "title": "Isabèl Usher over hitsucces: 'Maakt me emotioneel als Drenten trots op me zijn'",
+        "url": "https://www.nu.nl/muziek/6413751/isabel-usher-over-hitsucces-maakt-me-emotioneel-als-drenten-trots-op-me-zijn.html",
         "date": "Fri, 30 Oct 2026 19:28:41 +0100",
         "summary": "Isabèl Usher heeft met Niemand Wil Een Popster een flinke hit te pakken, maar de Drentse zangeres wil zich blijven bewijzen. Haar album Meisje Van Het Noorden moet de \"hardste plaat\" zijn die men in tijden heeft gehoord.",
-        "imageUrl": "https://images.nu.nl/m/urjxhivafx8e_sqr256/534/429/2567/2567/isabel-usher-rust-niet-na-hit-niemand-wil-een-popster-lat-moet-steeds-hoger.jpg"
+        "imageUrl": "https://images.nu.nl/m/urjxhivafx8e_sqr256/534/429/2567/2567/isabel-usher-over-hitsucces-maakt-me-emotioneel-als-drenten-trots-op-me-zijn.jpg"
       },
       {
         "title": "Man na DNA-match opgepakt op verdenking van verkrachten meisje (15) in 1994",
@@ -44,13 +51,6 @@
         "date": "Fri, 30 Oct 2026 18:51:50 +0100",
         "summary": "Een recordaantal Amerikanen heeft al vóór de verkiezingsdag zelf een stem uitgebracht voor de midterms. Ook Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten.",
         "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.jpg"
-      },
-      {
-        "title": "Gerard Joling wijt Toppers-vertrek aan manager en biedt Jan Smit excuses aan",
-        "url": "https://www.nu.nl/muziek/6414980/gerard-joling-wijt-toppers-vertrek-aan-manager-en-biedt-jan-smit-excuses-aan.html",
-        "date": "Fri, 30 Oct 2026 18:29:51 +0100",
-        "summary": "Gerard Joling heeft vrijdag gezegd dat manager Benno de Leeuw de reden is voor zijn vertrek uit De Toppers. Verder zegt Jan Smit dat Joling zijn excuses heeft aangeboden voor de gang van zaken.",
-        "imageUrl": "https://images.nu.nl/m/kqoxcb7asm1i_sqr256/1663/416/4354/4354/gerard-joling-wijt-toppers-vertrek-aan-manager-en-biedt-jan-smit-excuses-aan.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
       {
         "time": "22:00",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "23:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.8,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 7.3,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T20:20:22+00:00",
-    "rainUpdatedAt": "2026-10-30T20:20:23+00:00"
+    "weatherUpdatedAt": "2026-10-30T21:02:10+00:00",
+    "rainUpdatedAt": "2026-10-30T21:02:11+00:00"
   }
 }
