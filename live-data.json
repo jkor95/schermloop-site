@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T13:13:09+00:00",
+    "updatedAt": "2026-10-30T14:13:15+00:00",
     "headlines": [
+      {
+        "title": "Christa Pike na mislukte executie: 'Voortdurend in pijn, zowel fysiek als mentaal'",
+        "url": "https://www.nu.nl/buitenland/6414953/christa-pike-na-mislukte-executie-voortdurend-in-pijn-zowel-fysiek-als-mentaal.html",
+        "date": "Fri, 30 Oct 2026 14:58:05 +0100",
+        "summary": "De Amerikaanse Christa Pike, die eind september een executiepoging overleefde, lijdt sinds de mislukte executie voortdurend pijn, zegt ze in een eerste reactie. Ook heeft ze moeite met praten. Daarnaast zou ze psychische klachten hebben overgehouden aan de executiepoging.",
+        "imageUrl": "https://images.nu.nl/m/0qmx3a9arjge_sqr256/501/0/1632/1632/christa-pike-na-mislukte-executie-voortdurend-in-pijn-zowel-fysiek-als-mentaal.jpg"
+      },
+      {
+        "title": "Video | Agent tasert pakketbezorger in Amsterdam tijdens arrestatie",
+        "url": "https://www.nu.nl/331799/video/agent-tasert-pakketbezorger-in-amsterdam-tijdens-arrestatie.html",
+        "date": "Fri, 30 Oct 2026 14:23:25 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/rwmx0qxak0rj_sqr256/200/0/648/648/agent-tasert-pakketbezorger-in-amsterdam-tijdens-arrestatie.jpg"
+      },
+      {
+        "title": "Frankrijk roept nog meer condooms terug vanwege kans op scheuren",
+        "url": "https://www.nu.nl/economie/6414947/frankrijk-roept-nog-meer-condooms-terug-vanwege-kans-op-scheuren.html",
+        "date": "Fri, 30 Oct 2026 14:20:30 +0100",
+        "summary": "Frankrijk haalt opnieuw condooms uit de handel. De verkoop en import van alle condoommerken van een Maleisische fabrikant worden een jaar lang opgeschort, meldt de Franse toezichthouder DGCCRF vrijdag. De condooms hebben fabricagefouten, waardoor ze kunnen knappen of scheuren.",
+        "imageUrl": "https://images.nu.nl/m/uwax8pyahcff_sqr256/112/0/3581/3581/frankrijk-roept-nog-meer-condooms-terug-vanwege-kans-op-scheuren.jpg"
+      },
       {
         "title": "Oekraïne daagt Trump uit met nieuwe aanval op Russische raffinaderij",
         "url": "https://www.nu.nl/spanningen-oekraine/6414933/oekraine-daagt-trump-uit-met-nieuwe-aanval-op-russische-raffinaderij.html",
@@ -30,27 +51,6 @@
         "date": "Fri, 30 Oct 2026 13:28:57 +0100",
         "summary": "Enkele winkels in Den Haag zijn dichtgetimmerd uit angst voor mogelijke jongerendemonstraties op zaterdag. Studentenvakbonden hebben weinig officiële informatie over protestacties gezien en willen er niets mee te maken hebben.",
         "imageUrl": "https://images.nu.nl/m/fuaxwemaxfgk_sqr256/1370/371/3625/3625/haagse-winkeliers-timmeren-hun-zaak-dicht-uit-vrees-voor-jongerenprotesten.jpg"
-      },
-      {
-        "title": "'Amateurs' jagen op half miljoen euro in bekritiseerde dartsshow rond Littler",
-        "url": "https://www.nu.nl/darts/6414912/amateurs-jagen-op-half-miljoen-euro-in-bekritiseerde-dartsshow-rond-littler.html",
-        "date": "Fri, 30 Oct 2026 12:54:52 +0100",
-        "summary": "Luke Littler neemt het vrijdagavond in een ultrakorte dartsvariant op tegen 24 'amateurs'. Wie de tweevoudig wereldkampioen in één leg weet te verslaan, wint liefst 586.000 euro. Dit moet je weten over het Netflix-format Beat Luke Littler , dat al voor de uitzending op veel kritiek kan rekenen.",
-        "imageUrl": "https://images.nu.nl/m/3zbxgp0a0m2l_sqr256/575/2/1078/1078/amateurs-jagen-op-half-miljoen-euro-in-bekritiseerde-dartsshow-rond-littler.jpg"
-      },
-      {
-        "title": "Halle Berry verliest ouderlijk gezag over zoon voorlopig aan haar ex-man",
-        "url": "https://www.nu.nl/achterklap/6414919/halle-berry-verliest-ouderlijk-gezag-over-zoon-voorlopig-aan-haar-ex-man.html",
-        "date": "Fri, 30 Oct 2026 12:35:02 +0100",
-        "summary": "Actrice Halle Berry is het ouderlijk gezag over haar dertienjarige zoon voorlopig kwijt aan haar ex-man Oliver Martinez. De acteur had het volledige ouderlijk gezag geëist nadat Berry de jongen in een wurggreep zou hebben gehouden.",
-        "imageUrl": "https://images.nu.nl/m/9hxx0cmaiccp_sqr256/156/0/506/506/halle-berry-verliest-ouderlijk-gezag-over-zoon-voorlopig-aan-haar-ex-man.jpg"
-      },
-      {
-        "title": "Video | Timelapse toont hoe stationsgebouw Vught zo'n 13 meter wordt verplaatst",
-        "url": "https://www.nu.nl/331785/video/timelapse-toont-hoe-stationsgebouw-in-vught-ruim-13-meter-wordt-verplaatst.html",
-        "date": "Fri, 30 Oct 2026 12:05:53 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/w0cxihsakpwx_sqr256/523/0/1080/1080/timelapse-toont-hoe-stationsgebouw-in-vught-ruim-13-meter-wordt-verplaatst.jpg"
       }
     ]
   },
@@ -58,54 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:10",
-        "mmHour": 0.0
-      },
       {
         "time": "15:15",
         "mmHour": 0.0
@@ -153,12 +105,60 @@
       {
         "time": "16:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.6,
+    "temperature": 13.4,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T13:13:09+00:00",
-    "rainUpdatedAt": "2026-10-30T13:13:10+00:00"
+    "weatherUpdatedAt": "2026-10-30T14:13:15+00:00",
+    "rainUpdatedAt": "2026-10-30T14:13:16+00:00"
   }
 }
