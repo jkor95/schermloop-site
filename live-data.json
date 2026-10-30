@@ -1,13 +1,13 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T04:05:33+00:00",
+    "updatedAt": "2026-10-30T04:51:14+00:00",
     "headlines": [
       {
         "title": "Australische paddenstoelenmoordernaar verliest hoger beroep, komt niet meer vrij",
         "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
         "date": "Fri, 30 Oct 2026 01:22:29 +0100",
-        "summary": "De Australische Erin Petterson (51) heeft haar hoger beroep tegen haar veroordeling voor de 'paddenstoelenmoord' verloren. De aanklager kreeg wel gelijk, waardoor Petterson levenslang vast blijft zitten en geen mogelijkheid tot vervroegde vrijlating meer heeft.",
+        "summary": "De Australische Erin Patterson (51) heeft haar hoger beroep tegen haar veroordeling voor de 'paddenstoelenmoord' verloren. De aanklager kreeg wel gelijk, waardoor Petterson levenslang vast blijft zitten en geen mogelijkheid tot vervroegde vrijlating meer heeft.",
         "imageUrl": "https://images.nu.nl/m/pp6xo5wadglu_sqr256/0/17/1488/1488/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.jpg"
       },
       {
@@ -28,7 +28,7 @@
         "title": "Code geel in hele land vanwege dichte mist: 'Kan zeer verraderlijk zijn'",
         "url": "https://www.nu.nl/binnenland/6414868/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.html",
         "date": "Thu, 29 Oct 2026 21:55:32 +0100",
-        "summary": "In heel Nederland geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 9.00 uur van kracht.",
+        "summary": "In heel Nederland geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 10.00 uur van kracht. Op sommige plekken kan het zicht minder zijn dan 50 meter.",
         "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
       },
       {
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
       {
         "time": "05:50",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "07:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.1,
+    "temperature": 7.5,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T04:05:34+00:00",
-    "rainUpdatedAt": "2026-10-30T04:05:34+00:00"
+    "weatherUpdatedAt": "2026-10-30T04:51:14+00:00",
+    "rainUpdatedAt": "2026-10-30T04:51:15+00:00"
   }
 }
