@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T21:39:55+00:00",
+    "updatedAt": "2026-10-30T22:16:44+00:00",
     "headlines": [
       {
         "title": "Hackers spelen porno af op reclamebord naast Egyptische snelweg",
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:15",
-        "mmHour": 0.0
-      },
       {
         "time": "23:20",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "00:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.9,
+    "temperature": 6.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T21:39:55+00:00",
-    "rainUpdatedAt": "2026-10-30T21:39:56+00:00"
+    "weatherUpdatedAt": "2026-10-30T22:16:44+00:00",
+    "rainUpdatedAt": "2026-10-30T22:16:45+00:00"
   }
 }
