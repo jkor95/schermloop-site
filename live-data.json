@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T21:02:10+00:00",
+    "updatedAt": "2026-10-30T21:39:55+00:00",
     "headlines": [
+      {
+        "title": "Hackers spelen porno af op reclamebord naast Egyptische snelweg",
+        "url": "https://www.nu.nl/opmerkelijk/6414988/hackers-spelen-porno-af-op-reclamebord-naast-egyptische-snelweg.html",
+        "date": "Fri, 30 Oct 2026 22:13:33 +0100",
+        "summary": "Hackers hebben pornografische beelden af weten te spelen op een elektronisch reclamebord naast een snelweg nabij de Egyptische hoofdstad Caïro. De groep wist via een beveiligingslek toegang te krijgen. De beelden werden ook op billboards in andere landen vertoond.",
+        "imageUrl": "https://images.nu.nl/m/emyxspganaxh_sqr256/1824/0/3667/3667/hackers-spelen-porno-af-op-reclamebord-naast-egyptische-snelweg.jpg"
+      },
       {
         "title": "VS geeft groen licht voor verkoop van vijfhonderd Patriot-raketten aan Oekraïne",
         "url": "https://www.nu.nl/spanningen-oekraine/6414994/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.html",
         "date": "Fri, 30 Oct 2026 21:28:21 +0100",
         "summary": "De Verenigde Staten hebben vrijdag groen licht gegeven voor de verkoop van vijfhonderd Patriot-raketten aan Oekraïne. President Volodymyr Zelensky zei eerder dat Oekraïne al bijna een maand wachtte op deze Amerikaanse goedkeuring.",
         "imageUrl": "https://images.nu.nl/m/mezx7d3a934d_sqr256/141/0/2400/2400/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.jpg"
+      },
+      {
+        "title": "Puntenverdeling Gouden Bal bekend: klein verschil tussen Kane en Mbappé",
+        "url": "https://www.nu.nl/voetbal/6414993/puntenverdeling-gouden-bal-bekend-klein-verschil-tussen-kane-en-mbappe.html",
+        "date": "Fri, 30 Oct 2026 21:13:15 +0100",
+        "summary": "De organisatie van de Gouden Bal-verkiezing heeft vrijdag de puntenverdeling van de afgelopen editie bekendgemaakt. Tussen de winnaar Harry Kane en nummer twee Kylian Mbappé zat slechts 28 punten.",
+        "imageUrl": "https://images.nu.nl/m/6mlxp5gaw3k7_sqr256/477/0/2108/2108/puntenverdeling-gouden-bal-bekend-klein-verschil-tussen-kane-en-mbappe.jpg"
       },
       {
         "title": "Man meegesleurd onder auto in Engeland: bestuurder schuldig aan moord",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 19:28:41 +0100",
         "summary": "Isabèl Usher heeft met Niemand Wil Een Popster een flinke hit te pakken, maar de Drentse zangeres wil zich blijven bewijzen. Haar album Meisje Van Het Noorden moet de \"hardste plaat\" zijn die men in tijden heeft gehoord.",
         "imageUrl": "https://images.nu.nl/m/urjxhivafx8e_sqr256/534/429/2567/2567/isabel-usher-over-hitsucces-maakt-me-emotioneel-als-drenten-trots-op-me-zijn.jpg"
-      },
-      {
-        "title": "Man na DNA-match opgepakt op verdenking van verkrachten meisje (15) in 1994",
-        "url": "https://www.nu.nl/binnenland/6414969/man-na-dna-match-opgepakt-op-verdenking-van-verkrachten-meisje-15-in-1994.html",
-        "date": "Fri, 30 Oct 2026 19:15:11 +0100",
-        "summary": "Een 57-jarige man uit Helmond is aangehouden in een verkrachtingszaak uit 1994. Hij kwam in beeld nadat een coldcaseteam oud bewijsmateriaal opnieuw had laten onderzoeken. Zijn DNA leidde tot een match in de landelijke databank.",
-        "imageUrl": "https://images.nu.nl/m/b0yxacuauytx_sqr256/171/1/785/785/man-na-dna-match-opgepakt-op-verdenking-van-verkrachten-meisje-15-in-1994.jpg"
-      },
-      {
-        "title": "Recordaantal vroege stemmen voor midterms in VS, ook paus Leo stemt via post",
-        "url": "https://www.nu.nl/buitenland/6414984/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.html",
-        "date": "Fri, 30 Oct 2026 18:51:50 +0100",
-        "summary": "Een recordaantal Amerikanen heeft al vóór de verkiezingsdag zelf een stem uitgebracht voor de midterms. Ook Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten.",
-        "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/recordaantal-vroege-stemmen-voor-midterms-in-vs-ook-paus-leo-stemt-via-post.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
       {
         "time": "22:40",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "23:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.3,
+    "temperature": 7.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T21:02:10+00:00",
-    "rainUpdatedAt": "2026-10-30T21:02:11+00:00"
+    "weatherUpdatedAt": "2026-10-30T21:39:55+00:00",
+    "rainUpdatedAt": "2026-10-30T21:39:56+00:00"
   }
 }
