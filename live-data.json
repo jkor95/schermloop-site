@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T15:09:15+00:00",
+    "updatedAt": "2026-10-30T15:57:43+00:00",
     "headlines": [
+      {
+        "title": "D66 schorst van verkiezingsfraude verdacht raadslid uit Boxtel voor drie maanden",
+        "url": "https://www.nu.nl/binnenland/6414972/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.html",
+        "date": "Fri, 30 Oct 2026 16:51:56 +0100",
+        "summary": "Het landelijke bestuur van D66 heeft het 38-jarige raadslid uit Boxtel dat wordt verdacht van corruptie en verkiezingsfraude voor drie maanden geschorst. De lokale politicus, die ook medewerker van het OM is, werd dinsdag aangehouden.",
+        "imageUrl": "https://images.nu.nl/m/lj7xffmai8i8_sqr256/1731/0/3463/3463/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.jpg"
+      },
+      {
+        "title": "Video | Pandajong Lang Yue begint na afscheidsceremonie aan reis naar China",
+        "url": "https://www.nu.nl/331807/video/pandajong-lang-yue-begint-na-afscheidsceremonie-aan-reis-naar-china.html",
+        "date": "Fri, 30 Oct 2026 16:18:31 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/uztxk54a52eu_sqr256/58/0/1078/1078/pandajong-lang-yue-begint-na-afscheidsceremonie-aan-reis-naar-china.jpg"
+      },
+      {
+        "title": "Hack en miljardenroof bij Binance laten zien wie echt de baas is over je cryptogeld",
+        "url": "https://www.nu.nl/economie/6414940/hack-en-miljardenroof-bij-binance-laten-zien-wie-echt-de-baas-is-over-je-cryptogeld.html",
+        "date": "Fri, 30 Oct 2026 16:17:35 +0100",
+        "summary": "Hackers stalen voor miljarden euro's aan cryptomunten van de cryptobeurs Binance. Dat zoveel geld in zo'n korte tijd kan verdwijnen heeft alles te maken met de manier waarop cryptobeurzen de cryptovaluta van hun klanten bewaren.",
+        "imageUrl": "https://images.nu.nl/m/1sexrmzadei9_sqr256/1174/0/5315/5315/hack-en-miljardenroof-bij-binance-laten-zien-wie-echt-de-baas-is-over-je-cryptogeld.jpg"
+      },
       {
         "title": "DigiD doelwit van ddos-aanval: enkele diensten korte tijd onbereikbaar",
         "url": "https://www.nu.nl/economie/6414956/digid-doelwit-van-ddos-aanval-enkele-diensten-korte-tijd-onbereikbaar.html",
@@ -30,27 +51,6 @@
         "date": "Fri, 30 Oct 2026 14:58:05 +0100",
         "summary": "De Amerikaanse Christa Pike, die eind september een executiepoging overleefde, lijdt sinds de mislukte executie voortdurend pijn, zegt ze in een eerste reactie. Ook heeft ze moeite met praten. Daarnaast zou ze psychische klachten hebben overgehouden aan de executiepoging.",
         "imageUrl": "https://images.nu.nl/m/0qmx3a9arjge_sqr256/501/0/1632/1632/christa-pike-na-mislukte-executie-voortdurend-pijn-zowel-fysiek-als-mentaal.jpg"
-      },
-      {
-        "title": "Video | Agent tasert pakketbezorger in Amsterdam tijdens arrestatie",
-        "url": "https://www.nu.nl/331799/video/agent-tasert-pakketbezorger-in-amsterdam-tijdens-arrestatie.html",
-        "date": "Fri, 30 Oct 2026 14:23:25 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/rwmx0qxak0rj_sqr256/200/0/648/648/agent-tasert-pakketbezorger-in-amsterdam-tijdens-arrestatie.jpg"
-      },
-      {
-        "title": "Frankrijk roept nog meer condooms terug vanwege kans op scheuren",
-        "url": "https://www.nu.nl/economie/6414947/frankrijk-roept-nog-meer-condooms-terug-vanwege-kans-op-scheuren.html",
-        "date": "Fri, 30 Oct 2026 14:20:30 +0100",
-        "summary": "Frankrijk haalt opnieuw condooms uit de handel. De verkoop en import van alle condoommerken van een Maleisische fabrikant worden een jaar lang opgeschort, meldt de Franse toezichthouder DGCCRF vrijdag. De condooms hebben fabricagefouten, waardoor ze kunnen knappen of scheuren.",
-        "imageUrl": "https://images.nu.nl/m/uwax8pyahcff_sqr256/112/0/3581/3581/frankrijk-roept-nog-meer-condooms-terug-vanwege-kans-op-scheuren.jpg"
-      },
-      {
-        "title": "Oekraïne daagt Trump uit met nieuwe aanval op Russische raffinaderij",
-        "url": "https://www.nu.nl/spanningen-oekraine/6414933/oekraine-daagt-trump-uit-met-nieuwe-aanval-op-russische-raffinaderij.html",
-        "date": "Fri, 30 Oct 2026 14:03:21 +0100",
-        "summary": "Oekraïne heeft vrijdag een olieraffinaderij in de Russische regio Samara aangevallen, melden verschillende media. Dat is mogelijk het einde van een onofficiële aanvalspauze. The Wall Street Journal schreef donderdag dat Oekraïne onder Amerikaanse druk zo'n pauze had ingelast.",
-        "imageUrl": "https://images.nu.nl/m/9r3xiica6dup_sqr256/22/0/494/494/oekraine-daagt-trump-uit-met-nieuwe-aanval-op-russische-raffinaderij.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "16:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:55",
-        "mmHour": 0.0
-      },
       {
         "time": "17:00",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "18:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.4,
+    "temperature": 12.6,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T15:09:15+00:00",
-    "rainUpdatedAt": "2026-10-30T15:09:16+00:00"
+    "weatherUpdatedAt": "2026-10-30T15:57:43+00:00",
+    "rainUpdatedAt": "2026-10-30T15:57:43+00:00"
   }
 }
