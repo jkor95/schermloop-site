@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T22:55:34+00:00",
+    "updatedAt": "2026-10-30T23:28:31+00:00",
     "headlines": [
+      {
+        "title": "Zeldzame vondst in Pompeï: 2.000 jaar oude kast vol persoonlijke bezittingen",
+        "url": "https://www.nu.nl/buitenland/6415002/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.html",
+        "date": "Sat, 31 Oct 2026 00:17:12 +0100",
+        "summary": "Archeologen hebben in Pompeï een bijna tweeduizend jaar oude houten kast geopend en tientallen persoonlijke bezittingen gevonden. Ze troffen onder meer een zeldzame kinderketting met bedeltjes, een parfumflesje en munten aan.",
+        "imageUrl": "https://images.nu.nl/m/4m1xifsa9ra9_sqr256/0/0/1125/1125/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.jpg"
+      },
+      {
+        "title": "Verstappen klokt vijfde tijd na opmerkelijk incident met Lawson in tweede training",
+        "url": "https://www.nu.nl/formule-1/6415006/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.html",
+        "date": "Sat, 31 Oct 2026 00:02:12 +0100",
+        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training de snelste.",
+        "imageUrl": "https://images.nu.nl/m/ndhxp8cao53z_sqr256/542/0/4000/4000/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.jpg"
+      },
       {
         "title": "Politieke onrust in Polen: president annuleert reis na schorsing hofvoorzitter",
         "url": "https://www.nu.nl/buitenland/6415005/politieke-onrust-in-polen-president-annuleert-reis-na-schorsing-hofvoorzitter.html",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 21:28:21 +0100",
         "summary": "De Verenigde Staten hebben vrijdag groen licht gegeven voor de verkoop van vijfhonderd Patriot-raketten aan Oekraïne. President Volodymyr Zelensky zei eerder dat Oekraïne al bijna een maand wachtte op deze Amerikaanse goedkeuring.",
         "imageUrl": "https://images.nu.nl/m/mezx7d3a934d_sqr256/141/0/2400/2400/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.jpg"
-      },
-      {
-        "title": "Puntenverdeling Gouden Bal bekend: klein verschil tussen Kane en Mbappé",
-        "url": "https://www.nu.nl/voetbal/6414993/puntenverdeling-gouden-bal-bekend-klein-verschil-tussen-kane-en-mbappe.html",
-        "date": "Fri, 30 Oct 2026 21:13:15 +0100",
-        "summary": "De organisatie van de Gouden Bal-verkiezing heeft vrijdag de puntenverdeling van de afgelopen editie bekendgemaakt. Tussen de winnaar Harry Kane en nummer twee Kylian Mbappé zat slechts 28 punten.",
-        "imageUrl": "https://images.nu.nl/m/6mlxp5gaw3k7_sqr256/477/0/2108/2108/puntenverdeling-gouden-bal-bekend-klein-verschil-tussen-kane-en-mbappe.jpg"
-      },
-      {
-        "title": "Man meegesleurd onder auto in Engeland: bestuurder schuldig aan moord",
-        "url": "https://www.nu.nl/buitenland/6414967/man-meegesleurd-onder-auto-in-engeland-bestuurder-schuldig-aan-moord.html",
-        "date": "Fri, 30 Oct 2026 20:56:46 +0100",
-        "summary": "Een 35-jarige man is schuldig bevonden aan de moord op een 56-jarige schooldirecteur in de omgeving van Manchester. De man reed ongeveer 1,5 kilometer door na aanrijding van het slachtoffer, die onder de auto werd meegesleurd.",
-        "imageUrl": "https://images.nu.nl/m/kg9x3cfad7jd_sqr256/724/0/2909/2909/man-meegesleurd-onder-auto-in-engeland-bestuurder-schuldig-aan-moord.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
       {
         "time": "00:30",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "01:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.0,
+    "temperature": 8.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T22:55:34+00:00",
-    "rainUpdatedAt": "2026-10-30T22:55:34+00:00"
+    "weatherUpdatedAt": "2026-10-30T23:28:31+00:00",
+    "rainUpdatedAt": "2026-10-30T23:28:32+00:00"
   }
 }
