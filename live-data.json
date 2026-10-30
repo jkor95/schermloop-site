@@ -1,14 +1,42 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T10:08:54+00:00",
+    "updatedAt": "2026-10-30T10:54:12+00:00",
     "headlines": [
       {
-        "title": "Hack Binance complexer dan gedacht, tegoeden binnen 45 uur weer op te nemen",
-        "url": "https://www.nu.nl/economie/6414906/hack-binance-complexer-dan-gedacht-tegoeden-binnen-45-uur-weer-op-te-nemen.html",
+        "title": "Kind (1) met spoed naar ziekenhuis na val van derde verdieping in Amsterdam",
+        "url": "https://www.nu.nl/binnenland/6414918/kind-1-met-spoed-naar-ziekenhuis-na-val-van-derde-verdieping-in-amsterdam.html",
+        "date": "Fri, 30 Oct 2026 11:38:47 +0100",
+        "summary": "Een jongetje van een jaar oud is vrijdagochtend van de derde verdieping naar beneden gevallen aan de Amstelveenseweg in Amsterdam-Zuid. Het kind is met spoed naar het ziekenhuis gebracht.",
+        "imageUrl": "https://images.nu.nl/m/8lxx6xmaq9ei_sqr256/673/0/1077/1077/kind-1-met-spoed-naar-ziekenhuis-na-val-van-derde-verdieping-in-amsterdam.jpg"
+      },
+      {
+        "title": "Podcast | Antonelli niet zo'n talent als Verstappen? 'Dat moeten we terugnemen'",
+        "url": "https://www.nu.nl/formule-1/6414777/antonelli-niet-zon-talent-als-verstappen-dat-moeten-we-terugnemen.html",
+        "date": "Fri, 30 Oct 2026 11:30:52 +0100",
+        "summary": "Er moet wel heel veel gebeuren wil Kimi Antonelli in Mexico niet zijn eerste wereldtitel in de Formule 1 veroveren. Eerder zeiden we dat hij misschien niet zo'n groot talent als Max Verstappen was, maar daar komen we in deze podcast op terug. Dat en nog veel meer hoor je in deze vooruitblik op de Grand Prix van...",
+        "imageUrl": "https://images.nu.nl/m/fnhx8ryaazuu_sqr256/160/185/2679/2679/antonelli-niet-zon-talent-als-verstappen-dat-moeten-we-terugnemen.jpg"
+      },
+      {
+        "title": "President Xi scherpt interne discipline aan en zet 'zieke bomen' partij uit",
+        "url": "https://www.nu.nl/buitenland/6414909/president-xi-scherpt-interne-discipline-aan-en-zet-zieke-bomen-partij-uit.html",
+        "date": "Fri, 30 Oct 2026 11:26:55 +0100",
+        "summary": "De leiding van de Chinese Communistische Partij heeft tijdens een bijeenkomst besloten 33 topfiguren uit de partij te zetten. President Xi Jinping zet zo zijn grote schoonmaak voort in aanloop naar zijn vierde termijn. Alles draait nu om \"interne discipline\".",
+        "imageUrl": "https://images.nu.nl/m/vurx6d1aasrn_sqr256/1117/0/3495/3495/president-xi-scherpt-interne-discipline-aan-en-zet-zieke-bomen-partij-uit.jpg"
+      },
+      {
+        "title": "Winst Audi stort helemaal in door tegenvallende verkoop in China",
+        "url": "https://www.nu.nl/economie/6414913/winst-audi-stort-helemaal-in-door-tegenvallende-verkoop-in-china.html",
+        "date": "Fri, 30 Oct 2026 11:25:47 +0100",
+        "summary": "De winst van autofabrikant Audi is in het derde kwartaal van 2026 hard gekelderd door tegenvallende verkopen in China en toenemende concurrentie op de Europese markt. Audi verlaagde ook de winstverwachting voor het hele jaar en kijkt naar verdere kostenbesparingen.",
+        "imageUrl": "https://images.nu.nl/m/hvxxrata8nxv_sqr256/38/0/1248/1248/winst-audi-stort-helemaal-in-door-tegenvallende-verkoop-in-china.jpg"
+      },
+      {
+        "title": "Miljardenroof bij 's werelds grootste cryptobeurs blijkt gevolg van complexe hack",
+        "url": "https://www.nu.nl/economie/6414906/miljardenroof-bij-s-werelds-grootste-cryptobeurs-blijkt-gevolg-van-complexe-hack.html",
         "date": "Fri, 30 Oct 2026 11:05:40 +0100",
         "summary": "Binance noemt de miljardenroof vrijdag een complexe aanval. Volgens het cryptoplatform is er geen aanwijzing dat privésleutels zijn gelekt. Binance stelt dat klanten over 45 uur weer tegoeden kunnen opnemen.",
-        "imageUrl": "https://images.nu.nl/m/vk3xax8an152_sqr256/300/0/2502/2502/hack-binance-complexer-dan-gedacht-tegoeden-binnen-45-uur-weer-op-te-nemen.jpg"
+        "imageUrl": "https://images.nu.nl/m/lf9x05gau1ju_sqr256/115/0/3711/3711/miljardenroof-bij-s-werelds-grootste-cryptobeurs-blijkt-gevolg-van-complexe-hack.jpg"
       },
       {
         "title": "Noorwegen pakt Trump op ludieke wijze terug: 'Beste schijthuizen ter wereld'",
@@ -23,34 +51,6 @@
         "date": "Fri, 30 Oct 2026 10:53:14 +0100",
         "summary": "Jillert Anema begint vrijdag op 71-jarige leeftijd 'gewoon' aan een nieuwe olympische cyclus. En de markante schaatscoach heeft nog steeds overal een mening over. Een interview over de Nederlandse \"losersmentaliteit\", zijn karakter en shampoo in zijn voetbalschoenen.",
         "imageUrl": "https://images.nu.nl/m/t7xxo30ayag6_sqr256/1253/5/4943/4943/jillert-anema-71-wil-nog-vier-jaar-winnen-veel-mensen-vinden-me-akelige-kerel.jpg"
-      },
-      {
-        "title": "Onafhankelijke Russische krant Novaya Gazeta stopt: 'We zijn vermoord'",
-        "url": "https://www.nu.nl/media/6414901/onafhankelijke-russische-krant-novaya-gazeta-stopt-we-zijn-vermoord.html",
-        "date": "Fri, 30 Oct 2026 10:30:24 +0100",
-        "summary": "De onafhankelijke Russische krant Novaya Gazeta heeft aangekondigd te stoppen. De krant doet dat onder druk van de Russische autoriteiten, vertelt hoofdredacteur Sergei Sokolov. De krant publiceert nog één editie, waarna de redactie op 9 november definitief stopt.",
-        "imageUrl": "https://images.nu.nl/m/c0nxfnlaefh3_sqr256/644/0/2768/2768/onafhankelijke-russische-krant-novaya-gazeta-stopt-we-zijn-vermoord.jpg"
-      },
-      {
-        "title": "Hamilton vindt zichzelf unieke coureur: 'De F1 heeft nog nooit zo iemand gehad'",
-        "url": "https://www.nu.nl/formule-1/6414904/hamilton-vindt-zichzelf-unieke-coureur-de-f1-heeft-nog-nooit-zo-iemand-gehad.html",
-        "date": "Fri, 30 Oct 2026 10:22:57 +0100",
-        "summary": "Lewis Hamilton denkt dat hij als veertiger nog jaren actief kan zijn in de Formule 1. De zevenvoudig wereldkampioen vindt zichzelf een unieke coureur.",
-        "imageUrl": "https://images.nu.nl/m/t0dxi86aaocx_sqr256/651/113/3310/3310/hamilton-vindt-zichzelf-unieke-coureur-de-f1-heeft-nog-nooit-zo-iemand-gehad.jpg"
-      },
-      {
-        "title": "Davina Michelle verloofd met grote liefde Sebastiaan: 'We gaan trouwen'",
-        "url": "https://www.nu.nl/achterklap/6414902/davina-michelle-verloofd-met-grote-liefde-sebastiaan-we-gaan-trouwen.html",
-        "date": "Fri, 30 Oct 2026 10:04:28 +0100",
-        "summary": "Zangeres Davina Michelle gaat trouwen met muzikant Sebastiaan Brouwer. Het stel maakte hun verloving bekend via Instagram . Davina Michelle en Brouwer hebben sinds 2017 een relatie.",
-        "imageUrl": "https://images.nu.nl/m/6bbxabmabrrk_sqr256/139/0/533/533/davina-michelle-verloofd-met-grote-liefde-sebastiaan-we-gaan-trouwen.jpg"
-      },
-      {
-        "title": "Video | Haarscherpe beelden tonen zelden geziene diepzeevis voor kust VS",
-        "url": "https://www.nu.nl/331778/video/haarscherpe-beelden-tonen-zelden-geziene-diepzeevis-voor-kust-vs.html",
-        "date": "Fri, 30 Oct 2026 10:02:58 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/5fyxevkaqfvf_sqr256/627/0/1080/1080/haarscherpe-beelden-tonen-zelden-geziene-diepzeevis-voor-kust-vs.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "08:25",
+        "time": "11:55",
         "mmHour": 0.0
       },
       {
-        "time": "08:30",
+        "time": "12:00",
         "mmHour": 0.0
       },
       {
-        "time": "08:35",
+        "time": "12:05",
         "mmHour": 0.0
       },
       {
-        "time": "08:40",
+        "time": "12:10",
         "mmHour": 0.0
       },
       {
-        "time": "08:45",
+        "time": "12:15",
         "mmHour": 0.0
       },
       {
-        "time": "08:50",
+        "time": "12:20",
         "mmHour": 0.0
       },
       {
-        "time": "08:55",
+        "time": "12:25",
         "mmHour": 0.0
       },
       {
-        "time": "09:00",
+        "time": "12:30",
         "mmHour": 0.0
       },
       {
-        "time": "09:05",
+        "time": "12:35",
         "mmHour": 0.0
       },
       {
-        "time": "09:10",
+        "time": "12:40",
         "mmHour": 0.0
       },
       {
-        "time": "09:15",
+        "time": "12:45",
         "mmHour": 0.0
       },
       {
-        "time": "09:20",
+        "time": "12:50",
         "mmHour": 0.0
       },
       {
-        "time": "09:25",
+        "time": "12:55",
         "mmHour": 0.0
       },
       {
-        "time": "09:30",
+        "time": "13:00",
         "mmHour": 0.0
       },
       {
-        "time": "09:35",
+        "time": "13:05",
         "mmHour": 0.0
       },
       {
-        "time": "09:40",
+        "time": "13:10",
         "mmHour": 0.0
       },
       {
-        "time": "09:45",
+        "time": "13:15",
         "mmHour": 0.0
       },
       {
-        "time": "09:50",
+        "time": "13:20",
         "mmHour": 0.0
       },
       {
-        "time": "09:55",
+        "time": "13:25",
         "mmHour": 0.0
       },
       {
-        "time": "10:00",
+        "time": "13:30",
         "mmHour": 0.0
       },
       {
-        "time": "10:05",
+        "time": "13:35",
         "mmHour": 0.0
       },
       {
-        "time": "10:10",
+        "time": "13:40",
         "mmHour": 0.0
       },
       {
-        "time": "10:15",
+        "time": "13:45",
         "mmHour": 0.0
       },
       {
-        "time": "10:20",
+        "time": "13:50",
         "mmHour": 0.0
       }
     ],
-    "temperature": 10.9,
+    "temperature": 11.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T10:08:55+00:00",
-    "rainUpdatedAt": "2026-10-30T10:08:56+00:00"
+    "weatherUpdatedAt": "2026-10-30T10:54:12+00:00",
+    "rainUpdatedAt": "2026-10-30T10:54:13+00:00"
   }
 }
