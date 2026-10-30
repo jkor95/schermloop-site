@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T04:51:14+00:00",
+    "updatedAt": "2026-10-30T05:30:15+00:00",
     "headlines": [
+      {
+        "title": "Stemmen in Israël zijn geteld: Netanyahu wint, maar heeft geen meerderheid",
+        "url": "https://www.nu.nl/buitenland/6414879/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.html",
+        "date": "Fri, 30 Oct 2026 06:14:42 +0100",
+        "summary": "Met alle stemmen geteld na de Israëlische verkiezingen van dinsdag is duidelijk dat de partij van premier Benjamin Netanyahu de grootste is. Maar het blok rond Netanyahu heeft niet genoeg zetels om een regering te vormen. Het oppositieblok heeft hetzelfde probleem.",
+        "imageUrl": "https://images.nu.nl/m/7exxb68alkmt_sqr256/506/0/2740/2740/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.jpg"
+      },
+      {
+        "title": "Explainer | AI-versie van The Odyssey: waarom Elon Musk de plank misslaat",
+        "url": "https://www.nu.nl/331761/video/ai-versie-van-the-odyssey-waarom-elon-musk-de-plank-misslaat.html",
+        "date": "Fri, 30 Oct 2026 06:01:23 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/xwgx1w1ah9xh_sqr256/98/0/1440/1440/ai-versie-van-the-odyssey-waarom-elon-musk-de-plank-misslaat.jpg"
+      },
+      {
+        "title": "Miljarden spoorloos na hack Binance, mogelijk grootste cryptodiefstal ooit",
+        "url": "https://www.nu.nl/economie/6414878/miljarden-spoorloos-na-hack-binance-mogelijk-grootste-cryptodiefstal-ooit.html",
+        "date": "Fri, 30 Oct 2026 05:55:34 +0100",
+        "summary": "Hackers hebben mogelijk miljarden buitgemaakt na een hack van 's werelds grootste cryptobeurs Binance. Het bedrijf heeft alle stortingen en opnames tijdelijk opgeschort. Mogelijk gaat het om de grootste cryptodiefstal ooit.",
+        "imageUrl": "https://images.nu.nl/m/6y7x1m1ajp55_sqr256/566/0/4160/4160/miljarden-spoorloos-na-hack-binance-mogelijk-grootste-cryptodiefstal-ooit.jpg"
+      },
       {
         "title": "Australische paddenstoelenmoordernaar verliest hoger beroep, komt niet meer vrij",
         "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
@@ -30,27 +51,6 @@
         "date": "Thu, 29 Oct 2026 21:55:32 +0100",
         "summary": "In heel Nederland geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 10.00 uur van kracht. Op sommige plekken kan het zicht minder zijn dan 50 meter.",
         "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
-      },
-      {
-        "title": "Theo Janssen verrast weer met De Treffers door bekerzege op Heracles Almelo",
-        "url": "https://www.nu.nl/voetbal/6414867/theo-janssen-verrast-weer-met-de-treffers-door-bekerzege-op-heracles-almelo.html",
-        "date": "Thu, 29 Oct 2026 21:55:07 +0100",
-        "summary": "Keuken Kampioen Divisie-koploper Heracles Almelo is donderdagavond verrassend uitgeschakeld in de KNVB-beker. De Treffers was op het eigen Sportpark Zuid met 1-0 te sterk. De club uit de Tweede Divisie wordt getraind door oud-prof Theo Janssen.",
-        "imageUrl": "https://images.nu.nl/m/ibzxrdsa6in5_sqr256/701/0/2362/2362/theo-janssen-verrast-weer-met-de-treffers-door-bekerzege-op-heracles-almelo.jpg"
-      },
-      {
-        "title": "Video | Bewakingscamera filmt botsing tussen trams in Den Haag",
-        "url": "https://www.nu.nl/331771/video/bewakingscamera-filmt-botsing-tussen-trams-in-den-haag.html",
-        "date": "Thu, 29 Oct 2026 21:50:39 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/hqyx38gad88a_sqr256/402/1/1079/1079/bewakingscamera-filmt-botsing-tussen-trams-in-den-haag.jpg"
-      },
-      {
-        "title": "In Mali gevonden meteoriet blijkt ruim 4 miljard jaar oud stukje van Mars",
-        "url": "https://www.nu.nl/tech-wetenschap/6414853/in-mali-gevonden-meteoriet-blijkt-ruim-4-miljard-jaar-oud-stukje-van-mars.html",
-        "date": "Thu, 29 Oct 2026 21:18:33 +0100",
-        "summary": "Een meteoriet die in 2022 in de Saharawoestijn in Mali werd gevonden blijkt afkomstig van Mars. De steen is ruim 4,1 miljard oud en waarschijnlijk de oudste meteoriet van Mars op aarde, hebben wetenschappers donderdag bekendgemaakt.",
-        "imageUrl": "https://images.nu.nl/m/ymcx4vvarohg_sqr256/838/0/1309/1309/in-mali-gevonden-meteoriet-blijkt-ruim-4-miljard-jaar-oud-stukje-van-mars.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
       {
         "time": "06:30",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "07:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.5,
+    "temperature": 7.9,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T04:51:14+00:00",
-    "rainUpdatedAt": "2026-10-30T04:51:15+00:00"
+    "weatherUpdatedAt": "2026-10-30T05:30:15+00:00",
+    "rainUpdatedAt": "2026-10-30T05:30:16+00:00"
   }
 }
