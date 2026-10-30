@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T07:24:06+00:00",
+    "updatedAt": "2026-10-30T08:20:20+00:00",
     "headlines": [
       {
-        "title": "Acteurs reageren op overlijden van Stewart: 'Was icoon, maar ook bescheiden'",
-        "url": "https://www.nu.nl/entertainment/6414889/acteurs-reageren-op-overlijden-van-stewart-was-icoon-maar-ook-bescheiden.html",
+        "title": "FC Groningen in zak en as na nieuwe bekerblamage: 'Ik schaam me kapot'",
+        "url": "https://www.nu.nl/voetbal/6414890/fc-groningen-in-zak-en-as-na-nieuwe-bekerblamage-ik-schaam-me-kapot.html",
+        "date": "Fri, 30 Oct 2026 08:19:50 +0100",
+        "summary": "FC Groningen is donderdag voor het derde jaar op rij uitgeschakeld in de eerste ronde van het KNVB-bekertoernooi. Trainer Dick Lukkien en aanvoerder Thijmen Blokzijl schaamden zich voor de 0-2-nederlaag tegen FC Emmen in de Euroborg.",
+        "imageUrl": "https://images.nu.nl/m/az6xbcoaih0i_sqr256/1444/291/2393/2393/fc-groningen-in-zak-en-as-na-nieuwe-bekerblamage-ik-schaam-me-kapot.jpg"
+      },
+      {
+        "title": "Acteurs reageren op overlijden Stewart: 'Was een icoon, maar bleef bescheiden'",
+        "url": "https://www.nu.nl/entertainment/6414889/acteurs-reageren-op-overlijden-stewart-was-een-icoon-maar-bleef-bescheiden.html",
         "date": "Fri, 30 Oct 2026 08:17:11 +0100",
-        "summary": "Tal van acteurs hebben gereageerd op het overlijden van Patrick Stewart, bekend van zijn rollen in Star Trek en X-Men. \"We hebben een van de grootste namen uit de toneel- en filmwereld verloren. Ik heb zo veel van hem geleerd\", zegt Hugh Jackman.",
-        "imageUrl": "https://images.nu.nl/m/ehixyhta8cu8_sqr256/1005/0/4000/4000/acteurs-reageren-op-overlijden-van-stewart-was-icoon-maar-ook-bescheiden.jpg"
+        "summary": "Tal van acteurs hebben gereageerd op het overlijden van Patrick Stewart, bekend van zijn rollen in Star Trek en X-Men . \"We hebben een van de grootste namen uit de toneel- en filmwereld verloren. Ik heb zo veel van hem geleerd\", zegt Hugh Jackman.",
+        "imageUrl": "https://images.nu.nl/m/ehixyhta8cu8_sqr256/1005/0/4000/4000/acteurs-reageren-op-overlijden-stewart-was-een-icoon-maar-bleef-bescheiden.jpg"
       },
       {
         "title": "VS roept Europese NAVO-bondgenoten op uitspraken over Rusland te matigen",
@@ -16,6 +23,13 @@
         "date": "Fri, 30 Oct 2026 08:10:15 +0100",
         "summary": "De Verenigde Staten hebben de afgelopen weken druk uitgeoefend op Europese bondgenoten binnen de NAVO. De Amerikanen willen dat zij hun uitspraken over Rusland matigen. Volgens Washington brengen Europese landen de veiligheid op het continent in gevaar door te spreken over de Russische dreiging.",
         "imageUrl": "https://images.nu.nl/m/dmfx9mbapifi_sqr256/436/0/1863/1863/vs-roept-europese-navo-bondgenoten-op-uitspraken-over-rusland-te-matigen.jpg"
+      },
+      {
+        "title": "Treffers-coach Theo Janssen dankt Heracles voor 8 wissels: 'Ze nemen ons niet serieus'",
+        "url": "https://www.nu.nl/voetbal/6414885/treffers-coach-theo-janssen-dankt-heracles-voor-8-wissels-ze-nemen-ons-niet-serieus.html",
+        "date": "Fri, 30 Oct 2026 07:39:26 +0100",
+        "summary": "De Treffers-trainer Theo Janssen maakte in het KNVB-bekertoernooi dankbaar gebruik van de flink gewijzigde opstelling van Heracles Almelo. De Keuken Kampioen Divisie-koploper voerde acht wissels door en verloor met 1-0 van de ploeg van Janssen, die niet verrast was.",
+        "imageUrl": "https://images.nu.nl/m/q5ox6hbam1lb_sqr256/575/1/2361/2361/treffers-coach-theo-janssen-dankt-heracles-voor-8-wissels-ze-nemen-ons-niet-serieus.jpg"
       },
       {
         "title": "Verstappen over zieke collega's in Mexico: 'Soms kun je het niet voorkomen'",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 06:32:37 +0100",
         "summary": "Het aantal zzp'ers in Nederland neemt al zeven kwartalen op rij af. Steeds meer zelfstandigen stoppen ermee of gaan in loondienst nu de Belastingdienst strenger controleert op schijnzelfstandigheid.",
         "imageUrl": "https://images.nu.nl/m/rguxz2la32z5_sqr256/279/2/1078/1078/aantal-zzpers-daalt-zeven-kwartalen-op-rij-vanwege-strengere-handhaving.jpg"
-      },
-      {
-        "title": "Bevolkingsgroei neemt verder af, forse daling van aantal Syrische immigranten",
-        "url": "https://www.nu.nl/binnenland/6414828/bevolkingsgroei-neemt-verder-af-forse-daling-van-aantal-syrische-immigranten.html",
-        "date": "Fri, 30 Oct 2026 06:30:49 +0100",
-        "summary": "De Nederlandse bevolking is in de eerste drie kwartalen van 2026 opnieuw gegroeid door migratie. Maar ook dat cijfer is de afgelopen negen maanden afgenomen. Er vestigden zich vooral minder Syriërs in Nederland.",
-        "imageUrl": "https://images.nu.nl/m/6jxxfnma4znq_sqr256/127/0/396/396/bevolkingsgroei-neemt-verder-af-forse-daling-van-aantal-syrische-immigranten.jpg"
-      },
-      {
-        "title": "Stemmen in Israël zijn geteld: Netanyahu wint, maar heeft geen meerderheid",
-        "url": "https://www.nu.nl/buitenland/6414879/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.html",
-        "date": "Fri, 30 Oct 2026 06:14:42 +0100",
-        "summary": "Met alle stemmen geteld is Likud, de partij van premier Benjamin Netanyahu, de grootste geworden bij de Israëlische verkiezingen van dinsdag. Maar het blok rond Netanyahu heeft niet genoeg zetels om een regering te vormen. Ook de oppositie komt niet aan een meerderheid.",
-        "imageUrl": "https://images.nu.nl/m/7exxb68alkmt_sqr256/506/0/2740/2740/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:15",
-        "mmHour": 0.0
-      },
       {
         "time": "09:20",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "10:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.5,
+    "temperature": 9.7,
     "description": "Zwaar bewolkt met wat lichte regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T07:24:06+00:00",
-    "rainUpdatedAt": "2026-10-30T07:24:07+00:00"
+    "weatherUpdatedAt": "2026-10-30T08:20:21+00:00",
+    "rainUpdatedAt": "2026-10-30T08:20:21+00:00"
   }
 }
