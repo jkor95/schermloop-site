@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T05:30:15+00:00",
+    "updatedAt": "2026-10-30T06:16:07+00:00",
     "headlines": [
+      {
+        "title": "Aantal zzp'ers daalt zeven kwartalen op rij vanwege strengere handhaving",
+        "url": "https://www.nu.nl/economie/6414565/aantal-zzpers-daalt-zeven-kwartalen-op-rij-vanwege-strengere-handhaving.html",
+        "date": "Fri, 30 Oct 2026 06:32:37 +0100",
+        "summary": "Het aantal zzp'ers in Nederland neemt al zeven kwartalen op rij af. Steeds meer zelfstandigen stoppen ermee of gaan in loondienst nu de Belastingdienst strenger controleert op schijnzelfstandigheid.",
+        "imageUrl": "https://images.nu.nl/m/rguxz2la32z5_sqr256/279/2/1078/1078/aantal-zzpers-daalt-zeven-kwartalen-op-rij-vanwege-strengere-handhaving.jpg"
+      },
+      {
+        "title": "Bevolking groeit opnieuw alleen door migratie, maar ook dat cijfer daalt",
+        "url": "https://www.nu.nl/binnenland/6414828/bevolking-groeit-opnieuw-alleen-door-migratie-maar-ook-dat-cijfer-daalt.html",
+        "date": "Fri, 30 Oct 2026 06:30:49 +0100",
+        "summary": "De Nederlandse bevolking is in de eerste drie kwartalen van 2026 opnieuw gegroeid door migratie. Maar ook dat cijfer is de afgelopen negen maanden afgenomen. Er vestigden zich vooral minder Syriërs in Nederland.",
+        "imageUrl": "https://images.nu.nl/m/6jxxfnma4znq_sqr256/127/0/396/396/bevolking-groeit-opnieuw-alleen-door-migratie-maar-ook-dat-cijfer-daalt.jpg"
+      },
       {
         "title": "Stemmen in Israël zijn geteld: Netanyahu wint, maar heeft geen meerderheid",
         "url": "https://www.nu.nl/buitenland/6414879/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.html",
@@ -25,11 +39,11 @@
         "imageUrl": "https://images.nu.nl/m/6y7x1m1ajp55_sqr256/566/0/4160/4160/miljarden-spoorloos-na-hack-binance-mogelijk-grootste-cryptodiefstal-ooit.jpg"
       },
       {
-        "title": "Australische paddenstoelenmoordernaar verliest hoger beroep, komt niet meer vrij",
-        "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
+        "title": "Australische paddenstoelenmoordenaar verliest hoger beroep, komt niet meer vrij",
+        "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordenaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
         "date": "Fri, 30 Oct 2026 01:22:29 +0100",
         "summary": "De Australische Erin Patterson (51) heeft haar hoger beroep tegen haar veroordeling voor de 'paddenstoelenmoord' verloren. De aanklager kreeg wel gelijk, waardoor Petterson levenslang vast blijft zitten en geen mogelijkheid tot vervroegde vrijlating meer heeft.",
-        "imageUrl": "https://images.nu.nl/m/pp6xo5wadglu_sqr256/0/17/1488/1488/australische-paddenstoelenmoordernaar-verliest-hoger-beroep-komt-niet-meer-vrij.jpg"
+        "imageUrl": "https://images.nu.nl/m/pp6xo5wadglu_sqr256/0/17/1488/1488/australische-paddenstoelenmoordenaar-verliest-hoger-beroep-komt-niet-meer-vrij.jpg"
       },
       {
         "title": "Trump voert juridische strijd in Alaska op tegen mogelijke verwarring op stembiljet",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 00:36:09 +0100",
         "summary": "Het Amerikaanse ministerie van Justitie heeft de juridische strijd rond de tussentijdse verkiezingen in Alaska opgevoerd. De aanklachten zijn gericht tegen het Democratische campagneteam, omdat die een extra kandidaat hebben geworven van wie de naam erg lijkt op de huidige Republikeinse senator.",
         "imageUrl": "https://images.nu.nl/m/aqmxc2sajas9_sqr256/2079/0/4160/4160/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.jpg"
-      },
-      {
-        "title": "Frankrijk trommelt weer tienduizenden agenten op voor geplande protestdag",
-        "url": "https://www.nu.nl/buitenland/6414848/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.html",
-        "date": "Thu, 29 Oct 2026 22:23:29 +0100",
-        "summary": "Frankrijk brengt ook zaterdag zeker 70.000 agenten op de been voor een geplande protestdag. Dan gaan naar verwachting weer honderdduizenden Fransen de straat op om hun ongenoegen over het regeringsbeleid te uiten.",
-        "imageUrl": "https://images.nu.nl/m/becx8laamujr_sqr256/234/0/682/682/frankrijk-trommelt-weer-tienduizenden-agenten-op-voor-geplande-protestdag.jpg"
-      },
-      {
-        "title": "Code geel in hele land vanwege dichte mist: 'Kan zeer verraderlijk zijn'",
-        "url": "https://www.nu.nl/binnenland/6414868/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.html",
-        "date": "Thu, 29 Oct 2026 21:55:32 +0100",
-        "summary": "In heel Nederland geldt tot vrijdagochtend code geel vanwege dichte mist. De waarschuwing blijft tot zeker 10.00 uur van kracht. Op sommige plekken kan het zicht minder zijn dan 50 meter.",
-        "imageUrl": "https://images.nu.nl/m/vroxsssa68gd_sqr256/550/0/3283/3283/code-geel-in-hele-land-vanwege-dichte-mist-kan-zeer-verraderlijk-zijn.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
       {
         "time": "07:15",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "08:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.9,
+    "temperature": 7.8,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T05:30:15+00:00",
-    "rainUpdatedAt": "2026-10-30T05:30:16+00:00"
+    "weatherUpdatedAt": "2026-10-30T06:16:07+00:00",
+    "rainUpdatedAt": "2026-10-30T06:16:07+00:00"
   }
 }
