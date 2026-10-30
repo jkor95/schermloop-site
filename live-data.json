@@ -1,14 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T17:26:52+00:00",
+    "updatedAt": "2026-10-30T18:10:22+00:00",
     "headlines": [
       {
-        "title": "60.000 adressen kregen dit jaar een brief dat de tijgermug in de buurt is gespot",
-        "url": "https://www.nu.nl/binnenland/6414851/60000-adressen-kregen-dit-jaar-een-brief-dat-de-tijgermug-in-de-buurt-is-gespot.html",
+        "title": "Paus Leo brengt als eerste paus ooit zijn stem uit bij Amerikaanse verkiezingen",
+        "url": "https://www.nu.nl/buitenland/6414984/paus-leo-brengt-als-eerste-paus-ooit-zijn-stem-uit-bij-amerikaanse-verkiezingen.html",
+        "date": "Fri, 30 Oct 2026 18:51:50 +0100",
+        "summary": "Paus Leo XIV heeft per post zijn stem uitgebracht bij de tussentijdse verkiezingen in de Verenigde Staten. Leo is de eerste Amerikaanse paus, en daarmee is het ook de eerste keer dat een paus stemt voor een verkiezing in de VS.",
+        "imageUrl": "https://images.nu.nl/m/lfcx474a17v3_sqr256/1313/255/3231/3231/paus-leo-brengt-als-eerste-paus-ooit-zijn-stem-uit-bij-amerikaanse-verkiezingen.jpg"
+      },
+      {
+        "title": "Gerard Joling wijt Toppers-vertrek aan manager en biedt Jan Smit excuses aan",
+        "url": "https://www.nu.nl/muziek/6414980/gerard-joling-wijt-toppers-vertrek-aan-manager-en-biedt-jan-smit-excuses-aan.html",
+        "date": "Fri, 30 Oct 2026 18:29:51 +0100",
+        "summary": "Gerard Joling heeft vrijdag gezegd dat manager Benno de Leeuw de reden is voor zijn vertrek uit De Toppers. Verder zegt Jan Smit dat Joling zijn excuses heeft aangeboden voor de gang van zaken.",
+        "imageUrl": "https://images.nu.nl/m/kqoxcb7asm1i_sqr256/1663/416/4354/4354/gerard-joling-wijt-toppers-vertrek-aan-manager-en-biedt-jan-smit-excuses-aan.jpg"
+      },
+      {
+        "title": "Tienduizenden huishoudens per brief gewaarschuwd voor tijgermug in de buurt",
+        "url": "https://www.nu.nl/binnenland/6414851/tienduizenden-huishoudens-per-brief-gewaarschuwd-voor-tijgermug-in-de-buurt.html",
         "date": "Fri, 30 Oct 2026 18:11:16 +0100",
         "summary": "Zo'n 60.000 adressen hebben dit jaar een brief gekregen omdat de Aziatische tijgermug in de buurt is gespot. De NVWA stuurde naar nog eens 20.000 adressen een oproep om alert te zijn op de mug.",
-        "imageUrl": "https://images.nu.nl/m/0bdxhbrakblc_sqr256/742/1/1079/1079/60000-adressen-kregen-dit-jaar-een-brief-dat-de-tijgermug-in-de-buurt-is-gespot.jpg"
+        "imageUrl": "https://images.nu.nl/m/0bdxhbrakblc_sqr256/742/1/1079/1079/tienduizenden-huishoudens-per-brief-gewaarschuwd-voor-tijgermug-in-de-buurt.jpg"
       },
       {
         "title": "Kabinet kiest niet tussen links en rechts en vestigt hoop op nieuwe gesprekken",
@@ -37,20 +51,6 @@
         "date": "Fri, 30 Oct 2026 17:20:35 +0100",
         "summary": "Een man is vrijdagmiddag op koning Willem-Alexander afgerend tijdens een bezoek aan het Noord-Hollandse Ursem. De koning schrok van het incident, maar ging kort met de man in gesprek. De man werd vervolgens door agenten meegenomen.",
         "imageUrl": "https://images.nu.nl/m/ddaxoleakts8_sqr256/709/350/1622/1622/geschrokken-koning-ziet-man-op-zich-af-rennen-niks-aan-de-hand-geeft-niet.jpg"
-      },
-      {
-        "title": "Teruglezen | Loting KNVB-beker | Ajax-Den Bosch, PSV-Vitesse en GVVV-Feyenoord",
-        "url": "https://www.nu.nl/voetbal/6414963/loting-knvb-beker-ajax-den-bosch-psv-vitesse-en-gvvv-feyenoord.html",
-        "date": "Fri, 30 Oct 2026 17:00:35 +0100",
-        "summary": "Welkom in dit liveblog! Mijn naam is Hein Nooijens en ik begeleid je bij de loting voor ronde 2 in de KNVB-beker. Veel plezier!",
-        "imageUrl": "https://images.nu.nl/m/um9xyh2argxm_sqr256/1123/180/3363/3363/loting-knvb-beker-ajax-den-bosch-psv-vitesse-en-gvvv-feyenoord.jpg"
-      },
-      {
-        "title": "D66 schorst van verkiezingsfraude verdacht raadslid uit Boxtel voor drie maanden",
-        "url": "https://www.nu.nl/misdaad/6414972/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.html",
-        "date": "Fri, 30 Oct 2026 16:51:56 +0100",
-        "summary": "Het landelijke bestuur van D66 heeft het 38-jarige raadslid uit Boxtel dat wordt verdacht van corruptie en verkiezingsfraude voor drie maanden geschorst. De lokale politicus, die ook medewerker van het OM is, werd dinsdag aangehouden.",
-        "imageUrl": "https://images.nu.nl/m/lj7xffmai8i8_sqr256/1731/0/3463/3463/d66-schorst-van-verkiezingsfraude-verdacht-raadslid-uit-boxtel-voor-drie-maanden.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "18:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
       {
         "time": "19:10",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "20:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "20:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.7,
-    "description": "Mix van opklaringen en middelbare of lage bewolking",
+    "temperature": 9.5,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T17:26:53+00:00",
-    "rainUpdatedAt": "2026-10-30T17:26:54+00:00"
+    "weatherUpdatedAt": "2026-10-30T18:10:22+00:00",
+    "rainUpdatedAt": "2026-10-30T18:10:22+00:00"
   }
 }
