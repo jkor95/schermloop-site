@@ -1,8 +1,36 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T06:16:07+00:00",
+    "updatedAt": "2026-10-30T07:24:06+00:00",
     "headlines": [
+      {
+        "title": "Acteurs reageren op overlijden van Stewart: 'Was icoon, maar ook bescheiden'",
+        "url": "https://www.nu.nl/entertainment/6414889/acteurs-reageren-op-overlijden-van-stewart-was-icoon-maar-ook-bescheiden.html",
+        "date": "Fri, 30 Oct 2026 08:17:11 +0100",
+        "summary": "Tal van acteurs hebben gereageerd op het overlijden van Patrick Stewart, bekend van zijn rollen in Star Trek en X-Men. \"We hebben een van de grootste namen uit de toneel- en filmwereld verloren. Ik heb zo veel van hem geleerd\", zegt Hugh Jackman.",
+        "imageUrl": "https://images.nu.nl/m/ehixyhta8cu8_sqr256/1005/0/4000/4000/acteurs-reageren-op-overlijden-van-stewart-was-icoon-maar-ook-bescheiden.jpg"
+      },
+      {
+        "title": "VS roept Europese NAVO-bondgenoten op uitspraken over Rusland te matigen",
+        "url": "https://www.nu.nl/spanningen-oekraine/6414887/vs-roept-europese-navo-bondgenoten-op-uitspraken-over-rusland-te-matigen.html",
+        "date": "Fri, 30 Oct 2026 08:10:15 +0100",
+        "summary": "De Verenigde Staten hebben de afgelopen weken druk uitgeoefend op Europese bondgenoten binnen de NAVO. De Amerikanen willen dat zij hun uitspraken over Rusland matigen. Volgens Washington brengen Europese landen de veiligheid op het continent in gevaar door te spreken over de Russische dreiging.",
+        "imageUrl": "https://images.nu.nl/m/dmfx9mbapifi_sqr256/436/0/1863/1863/vs-roept-europese-navo-bondgenoten-op-uitspraken-over-rusland-te-matigen.jpg"
+      },
+      {
+        "title": "Verstappen over zieke collega's in Mexico: 'Soms kun je het niet voorkomen'",
+        "url": "https://www.nu.nl/formule-1/6414872/verstappen-over-zieke-collegas-in-mexico-soms-kun-je-het-niet-voorkomen.html",
+        "date": "Fri, 30 Oct 2026 07:20:24 +0100",
+        "summary": "Max Verstappen rijdt bijna elk weekend een race, maar de volle kalender vraagt veel van coureurs. Nu twee collega's in Mexico ziek zijn, vertelt de Nederlander over de fysieke belasting van het seizoen. \"Soms kun je ziek worden ook niet voorkomen.\"",
+        "imageUrl": "https://images.nu.nl/m/5k8x900a6n99_sqr256/1194/0/3458/3458/verstappen-over-zieke-collegas-in-mexico-soms-kun-je-het-niet-voorkomen.jpg"
+      },
+      {
+        "title": "Audi-commissarissen bijeen na 'beschamend' optreden van topman bij Trump",
+        "url": "https://www.nu.nl/economie/6414882/audi-commissarissen-bijeen-na-beschamend-optreden-van-topman-bij-trump.html",
+        "date": "Fri, 30 Oct 2026 07:15:07 +0100",
+        "summary": "De raad van commissarissen van Audi komt vrijdag bijeen om te praten over de geplande fabriek in de Verenigde Staten en de manier waarop topman Gernot Döllner die samen met Trump aankondigde. Döllner bedankte de Amerikaanse president publiekelijk voor zijn steun, wat in Duitsland tot felle kritiek leidde.",
+        "imageUrl": "https://images.nu.nl/m/bbnxoi0aozt2_sqr256/389/0/1171/1171/audi-commissarissen-bijeen-na-beschamend-optreden-van-topman-bij-trump.jpg"
+      },
       {
         "title": "Aantal zzp'ers daalt zeven kwartalen op rij vanwege strengere handhaving",
         "url": "https://www.nu.nl/economie/6414565/aantal-zzpers-daalt-zeven-kwartalen-op-rij-vanwege-strengere-handhaving.html",
@@ -11,46 +39,18 @@
         "imageUrl": "https://images.nu.nl/m/rguxz2la32z5_sqr256/279/2/1078/1078/aantal-zzpers-daalt-zeven-kwartalen-op-rij-vanwege-strengere-handhaving.jpg"
       },
       {
-        "title": "Bevolking groeit opnieuw alleen door migratie, maar ook dat cijfer daalt",
-        "url": "https://www.nu.nl/binnenland/6414828/bevolking-groeit-opnieuw-alleen-door-migratie-maar-ook-dat-cijfer-daalt.html",
+        "title": "Bevolkingsgroei neemt verder af, forse daling van aantal Syrische immigranten",
+        "url": "https://www.nu.nl/binnenland/6414828/bevolkingsgroei-neemt-verder-af-forse-daling-van-aantal-syrische-immigranten.html",
         "date": "Fri, 30 Oct 2026 06:30:49 +0100",
         "summary": "De Nederlandse bevolking is in de eerste drie kwartalen van 2026 opnieuw gegroeid door migratie. Maar ook dat cijfer is de afgelopen negen maanden afgenomen. Er vestigden zich vooral minder Syriërs in Nederland.",
-        "imageUrl": "https://images.nu.nl/m/6jxxfnma4znq_sqr256/127/0/396/396/bevolking-groeit-opnieuw-alleen-door-migratie-maar-ook-dat-cijfer-daalt.jpg"
+        "imageUrl": "https://images.nu.nl/m/6jxxfnma4znq_sqr256/127/0/396/396/bevolkingsgroei-neemt-verder-af-forse-daling-van-aantal-syrische-immigranten.jpg"
       },
       {
         "title": "Stemmen in Israël zijn geteld: Netanyahu wint, maar heeft geen meerderheid",
         "url": "https://www.nu.nl/buitenland/6414879/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.html",
         "date": "Fri, 30 Oct 2026 06:14:42 +0100",
-        "summary": "Met alle stemmen geteld na de Israëlische verkiezingen van dinsdag is duidelijk dat de partij van premier Benjamin Netanyahu de grootste is. Maar het blok rond Netanyahu heeft niet genoeg zetels om een regering te vormen. Het oppositieblok heeft hetzelfde probleem.",
+        "summary": "Met alle stemmen geteld is Likud, de partij van premier Benjamin Netanyahu, de grootste geworden bij de Israëlische verkiezingen van dinsdag. Maar het blok rond Netanyahu heeft niet genoeg zetels om een regering te vormen. Ook de oppositie komt niet aan een meerderheid.",
         "imageUrl": "https://images.nu.nl/m/7exxb68alkmt_sqr256/506/0/2740/2740/stemmen-in-israel-zijn-geteld-netanyahu-wint-maar-heeft-geen-meerderheid.jpg"
-      },
-      {
-        "title": "Explainer | AI-versie van The Odyssey: waarom Elon Musk de plank misslaat",
-        "url": "https://www.nu.nl/331761/video/ai-versie-van-the-odyssey-waarom-elon-musk-de-plank-misslaat.html",
-        "date": "Fri, 30 Oct 2026 06:01:23 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/xwgx1w1ah9xh_sqr256/98/0/1440/1440/ai-versie-van-the-odyssey-waarom-elon-musk-de-plank-misslaat.jpg"
-      },
-      {
-        "title": "Miljarden spoorloos na hack Binance, mogelijk grootste cryptodiefstal ooit",
-        "url": "https://www.nu.nl/economie/6414878/miljarden-spoorloos-na-hack-binance-mogelijk-grootste-cryptodiefstal-ooit.html",
-        "date": "Fri, 30 Oct 2026 05:55:34 +0100",
-        "summary": "Hackers hebben mogelijk miljarden buitgemaakt na een hack van 's werelds grootste cryptobeurs Binance. Het bedrijf heeft alle stortingen en opnames tijdelijk opgeschort. Mogelijk gaat het om de grootste cryptodiefstal ooit.",
-        "imageUrl": "https://images.nu.nl/m/6y7x1m1ajp55_sqr256/566/0/4160/4160/miljarden-spoorloos-na-hack-binance-mogelijk-grootste-cryptodiefstal-ooit.jpg"
-      },
-      {
-        "title": "Australische paddenstoelenmoordenaar verliest hoger beroep, komt niet meer vrij",
-        "url": "https://www.nu.nl/buitenland/6414875/australische-paddenstoelenmoordenaar-verliest-hoger-beroep-komt-niet-meer-vrij.html",
-        "date": "Fri, 30 Oct 2026 01:22:29 +0100",
-        "summary": "De Australische Erin Patterson (51) heeft haar hoger beroep tegen haar veroordeling voor de 'paddenstoelenmoord' verloren. De aanklager kreeg wel gelijk, waardoor Petterson levenslang vast blijft zitten en geen mogelijkheid tot vervroegde vrijlating meer heeft.",
-        "imageUrl": "https://images.nu.nl/m/pp6xo5wadglu_sqr256/0/17/1488/1488/australische-paddenstoelenmoordenaar-verliest-hoger-beroep-komt-niet-meer-vrij.jpg"
-      },
-      {
-        "title": "Trump voert juridische strijd in Alaska op tegen mogelijke verwarring op stembiljet",
-        "url": "https://www.nu.nl/verkiezingen-vs/6414874/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.html",
-        "date": "Fri, 30 Oct 2026 00:36:09 +0100",
-        "summary": "Het Amerikaanse ministerie van Justitie heeft de juridische strijd rond de tussentijdse verkiezingen in Alaska opgevoerd. De aanklachten zijn gericht tegen het Democratische campagneteam, omdat die een extra kandidaat hebben geworven van wie de naam erg lijkt op de huidige Republikeinse senator.",
-        "imageUrl": "https://images.nu.nl/m/aqmxc2sajas9_sqr256/2079/0/4160/4160/trump-voert-juridische-strijd-in-alaska-op-tegen-mogelijke-verwarring-op-stembiljet.jpg"
       }
     ]
   },
@@ -58,62 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "07:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:20",
-        "mmHour": 0.0
-      },
       {
         "time": "08:25",
         "mmHour": 0.0
@@ -153,12 +97,68 @@
       {
         "time": "09:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.8,
-    "description": "Afwisselend bewolkt met lokaal mist(banken)",
+    "temperature": 8.5,
+    "description": "Zwaar bewolkt met wat lichte regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T06:16:07+00:00",
-    "rainUpdatedAt": "2026-10-30T06:16:07+00:00"
+    "weatherUpdatedAt": "2026-10-30T07:24:06+00:00",
+    "rainUpdatedAt": "2026-10-30T07:24:07+00:00"
   }
 }
