@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T12:36:49+00:00",
+    "updatedAt": "2026-10-31T13:28:18+00:00",
     "headlines": [
+      {
+        "title": "Video | Koning staat midden in oefening met nepslachtoffers",
+        "url": "https://www.nu.nl/331830/video/koning-staat-midden-in-oefening-met-nepslachtoffers.html",
+        "date": "Sat, 31 Oct 2026 13:28:00 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/3rtxncxammpr_sqr256/1557/0/4437/4437/koning-staat-midden-in-oefening-met-nepslachtoffers.jpg"
+      },
       {
         "title": "Zes Russische tankers onderweg naar VS, maar afnemers happen niet toe",
         "url": "https://www.nu.nl/buitenland/6415029/zes-russische-tankers-onderweg-naar-vs-maar-afnemers-happen-niet-toe.html",
@@ -14,7 +21,7 @@
         "title": "Verstandelijk beperkte man ontvoerd en mishandeld na nepdate in Amsterdam",
         "url": "https://www.nu.nl/binnenland/6415034/verstandelijk-beperkte-man-ontvoerd-en-mishandeld-na-nepdate-in-amsterdam.html",
         "date": "Sat, 31 Oct 2026 13:01:49 +0100",
-        "summary": "Twee twintigers worden verdacht van het mishandelen en vernederen van een 61-jarige man met een verstandelijke beperking. Ze scheerden zijn haar en wenkbrauwen af en prikten in zijn ogen. Ze hadden hem misleid via een datingapp.",
+        "summary": "Twee twintigers worden verdacht van het mishandelen en vernederen van een 61-jarige man met een verstandelijke beperking. Ze schoren zijn haar en wenkbrauwen af en prikten in zijn ogen. Ze hadden hem misleid via een datingapp.",
         "imageUrl": "https://images.nu.nl/m/b8cxqesaztlg_sqr256/893/0/5476/5476/verstandelijk-beperkte-man-ontvoerd-en-mishandeld-na-nepdate-in-amsterdam.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 12:00:33 +0100",
         "summary": "Sinds het uitbreken van de oorlog in Iran stijgen de olieprijzen en maken oliebedrijven flinke winst . Lezers vroegen zich af hoe het kan dat benzine aan de pomp toch zo duur blijft. Experts stellen dat de overheid nauwelijks invloed heeft op de prijzen.",
         "imageUrl": "https://images.nu.nl/m/31oxv6uakkyv_sqr256/950/0/2832/2832/winstmakende-oliebedrijven-verlagen-prijs-benzine-niet-waarom-zouden-ze.jpg"
-      },
-      {
-        "title": "Amerikaan loopt onwetend twee maanden met miljoen in zijn portemonnee rond",
-        "url": "https://www.nu.nl/opmerkelijk/6415026/amerikaan-loopt-onwetend-twee-maanden-met-miljoen-in-zijn-portemonnee-rond.html",
-        "date": "Sat, 31 Oct 2026 11:52:29 +0100",
-        "summary": "Een Amerikaanse man liep bijna twee maanden lang rond met een winnend lot ter waarde van 1 miljoen dollar (bijna 900.000 euro) in zijn portemonnee. Hij kwam erachter toen hij frisdrank wilde kopen in een winkel.",
-        "imageUrl": "https://images.nu.nl/m/bm7xbpbaozfv_sqr256/379/0/4011/4011/amerikaan-loopt-onwetend-twee-maanden-met-miljoen-in-zijn-portemonnee-rond.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "13:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:25",
-        "mmHour": 0.0
-      },
       {
         "time": "14:30",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "15:30",
         "mmHour": 0.0
+      },
+      {
+        "time": "15:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.3,
+    "temperature": 8.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T12:36:49+00:00",
-    "rainUpdatedAt": "2026-10-31T12:36:50+00:00"
+    "weatherUpdatedAt": "2026-10-31T13:28:19+00:00",
+    "rainUpdatedAt": "2026-10-31T13:28:19+00:00"
   }
 }
