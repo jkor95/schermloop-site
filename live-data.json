@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T06:18:11+00:00",
+    "updatedAt": "2026-10-31T07:20:48+00:00",
     "headlines": [
       {
-        "title": "Explainer | Gaan de Republikeinen verliezen? De geschiedenis zegt van wel",
-        "url": "https://www.nu.nl/331808/video/gaan-de-republikeinen-verliezen-de-geschiedenis-zegt-van-wel.html",
+        "title": "Onvrede over 'kansloze kalender' bij start schaatsseizoen: 'Een heel dom idee'",
+        "url": "https://www.nu.nl/schaatsen/6415007/onvrede-over-kansloze-kalender-bij-start-schaatsseizoen-een-heel-dom-idee.html",
+        "date": "Sat, 31 Oct 2026 07:27:34 +0100",
+        "summary": "Met de start van het Nederlandse schaatsseizoen zijn ook de discussies weer begonnen. Bij meerdere teams is er onvrede over de \"kansloze\" kalender en de nieuwe selectieregels voor de WK. \"Dit is toch een heel dom idee?\"",
+        "imageUrl": "https://images.nu.nl/m/ny2xnoca8vzf_sqr256/863/4/3996/3996/onvrede-over-kansloze-kalender-bij-start-schaatsseizoen-een-heel-dom-idee.jpg"
+      },
+      {
+        "title": "Explainer | Waarom deze cijfers weinig goeds voorspellen voor de Republikeinen",
+        "url": "https://www.nu.nl/331808/video/waarom-deze-cijfers-weinig-goeds-voorspellen-voor-de-republikeinen.html",
         "date": "Sat, 31 Oct 2026 06:32:45 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/aadxrxua9pwd_sqr256/226/0/1440/1440/gaan-de-republikeinen-verliezen-de-geschiedenis-zegt-van-wel.jpg"
+        "imageUrl": "https://images.nu.nl/m/aadxrxua9pwd_sqr256/226/0/1440/1440/waarom-deze-cijfers-weinig-goeds-voorspellen-voor-de-republikeinen.jpg"
       },
       {
         "title": "Houten huizen winnen terrein, maar lossen het woningtekort niet op",
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 00:17:12 +0100",
         "summary": "Archeologen hebben in Pompeï een bijna tweeduizend jaar oude houten kast geopend en tientallen persoonlijke bezittingen gevonden. Ze troffen onder meer een zeldzame kinderketting met bedeltjes, een parfumflesje en munten aan.",
         "imageUrl": "https://images.nu.nl/m/4m1xifsa9ra9_sqr256/0/0/1125/1125/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.jpg"
-      },
-      {
-        "title": "Verstappen klokt vijfde tijd na opmerkelijk incident met Lawson in tweede training",
-        "url": "https://www.nu.nl/formule-1/6415006/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.html",
-        "date": "Sat, 31 Oct 2026 00:02:12 +0100",
-        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training het snelst.",
-        "imageUrl": "https://images.nu.nl/m/ndhxp8cao53z_sqr256/542/0/4000/4000/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.jpg"
       }
     ]
   },
@@ -58,62 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "07:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:20",
-        "mmHour": 0.0
-      },
       {
         "time": "08:25",
         "mmHour": 0.0
@@ -153,12 +97,68 @@
       {
         "time": "09:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.7,
+    "temperature": 7.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T06:18:11+00:00",
-    "rainUpdatedAt": "2026-10-31T06:18:12+00:00"
+    "weatherUpdatedAt": "2026-10-31T07:20:48+00:00",
+    "rainUpdatedAt": "2026-10-31T07:20:49+00:00"
   }
 }
