@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T15:54:51+00:00",
+    "updatedAt": "2026-10-31T16:28:13+00:00",
     "headlines": [
       {
         "title": "Ocon komt niet meer in actie bij GP Mexico en wordt vervangen door Hirakawa",
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "16:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:25",
-        "mmHour": 0.0
-      },
       {
         "time": "17:30",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "18:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "18:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.3,
+    "temperature": 8.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T15:54:52+00:00",
-    "rainUpdatedAt": "2026-10-31T15:54:52+00:00"
+    "weatherUpdatedAt": "2026-10-31T16:28:13+00:00",
+    "rainUpdatedAt": "2026-10-31T16:28:14+00:00"
   }
 }
