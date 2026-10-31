@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T19:01:05+00:00",
+    "updatedAt": "2026-10-31T19:38:42+00:00",
     "headlines": [
+      {
+        "title": "Franse en Duitse 'Halloweenprotesten' leiden tot rellen in Parijs en Keulen",
+        "url": "https://www.nu.nl/buitenland/6415067/franse-en-duitse-halloweenprotesten-leiden-tot-rellen-in-parijs-en-keulen.html",
+        "date": "Sat, 31 Oct 2026 20:23:59 +0100",
+        "summary": "In tientallen Franse en Duitse steden werd zaterdag gedemonstreerd. Op de meeste plekken verliep het rustig, maar in onder meer Keulen en Parijs raakten demonstranten slaags met de politie. Veel betogers hadden voor de gelegenheid halloweenkostuums aan.",
+        "imageUrl": "https://images.nu.nl/m/4a7x2l7apmni_sqr256/2510/692/4262/4262/franse-en-duitse-halloweenprotesten-leiden-tot-rellen-in-parijs-en-keulen.jpg"
+      },
+      {
+        "title": "Video | Agenten worden geraakt door molotovcocktail tijdens rellen in Parijs",
+        "url": "https://www.nu.nl/331840/video/agenten-worden-geraakt-door-molotovcocktail-tijdens-rellen-in-parijs.html",
+        "date": "Sat, 31 Oct 2026 20:04:46 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/83zxrlaafol5_sqr256/407/0/1080/1080/agenten-worden-geraakt-door-molotovcocktail-tijdens-rellen-in-parijs.jpg"
+      },
       {
         "title": "Verstappen vijfde in laatste training GP Mexico, Antonelli tweede achter Norris",
         "url": "https://www.nu.nl/formule-1/6415068/verstappen-vijfde-in-laatste-training-gp-mexico-antonelli-tweede-achter-norris.html",
@@ -37,20 +51,6 @@
         "date": "Sat, 31 Oct 2026 18:28:02 +0100",
         "summary": "Koploper Feyenoord heeft zaterdag in de Eredivisie een zege op Fortuna Sittard in de slotfase uit handen gegeven. Uitgerekend de door Feyenoord verhuurde Shiloh 't Zand maakte de 1-1 voor Fortuna Sittard.",
         "imageUrl": "https://images.nu.nl/m/zgnxchxa81fj_sqr256/1003/251/3629/3629/koploper-feyenoord-geeft-zege-op-stug-fortuna-sittard-in-slotfase-uit-handen.jpg"
-      },
-      {
-        "title": "Klaver (PRO): 'Politieke wil bij kabinet om met ons samen te werken ontbreekt'",
-        "url": "https://www.nu.nl/politiek/6415056/klaver-pro-politieke-wil-bij-kabinet-om-met-ons-samen-te-werken-ontbreekt.html",
-        "date": "Sat, 31 Oct 2026 17:52:27 +0100",
-        "summary": "Het kabinet wil volgens PRO-leider Jesse Klaver geen afspraken maken met hem en Laurens Dassen (Volt) over het belastingplan. Het rechtse blok van JA21, BBB en SGP ziet naar eigen zeggen nog wel aanknopingspunten om verder te praten.",
-        "imageUrl": "https://images.nu.nl/m/ilsx77yaa266_sqr256/1053/0/4000/4000/klaver-pro-politieke-wil-bij-kabinet-om-met-ons-samen-te-werken-ontbreekt.jpg"
-      },
-      {
-        "title": "Live F1 | Verstappen zet vijfde tijd neer in laatste training GP Mexico",
-        "url": "https://www.nu.nl/formule-1/6415057/verstappen-zet-vijfde-tijd-neer-in-laatste-training-gp-mexico.html",
-        "date": "Sat, 31 Oct 2026 17:52:22 +0100",
-        "summary": "Goedenavond en welkom in dit liveblog. Hier houd ik (Thom van de Loosdrecht) je op de hoogte van de derde vrije training en de kwalificatie bij de Grand Prix in Mexico. Veel plezier.",
-        "imageUrl": "https://images.nu.nl/m/jo8xoxja2vq9_sqr256/563/8/4272/4272/verstappen-zet-vijfde-tijd-neer-in-laatste-training-gp-mexico.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:35",
-        "mmHour": 0.0
-      },
       {
         "time": "20:40",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "22:00",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 5.6,
-    "description": "Afwisselend bewolkt met lokaal mist(banken)",
+    "temperature": 5.0,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T19:01:05+00:00",
-    "rainUpdatedAt": "2026-10-31T19:01:06+00:00"
+    "weatherUpdatedAt": "2026-10-31T19:38:43+00:00",
+    "rainUpdatedAt": "2026-10-31T19:38:43+00:00"
   }
 }
