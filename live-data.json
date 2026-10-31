@@ -1,28 +1,42 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T14:47:00+00:00",
+    "updatedAt": "2026-10-31T15:17:54+00:00",
     "headlines": [
       {
-        "title": "Brit die na 28 jaar wandelen en meer dan 50.000 kilometer aflegde bijna thuis",
-        "url": "https://www.nu.nl/opmerkelijk/6415042/brit-die-na-28-jaar-wandelen-en-meer-dan-50000-kilometer-aflegde-bijna-thuis.html",
+        "title": "Live Eredivisie | Feyenoord begint met één wijziging tegen Fortuna Sittard",
+        "url": "https://www.nu.nl/voetbal/6415047/feyenoord-begint-met-een-wijziging-tegen-fortuna-sittard.html",
+        "date": "Sat, 31 Oct 2026 15:55:44 +0100",
+        "summary": "Goedendag en welkom in dit liveblog. Hier houden wij, Teun Heijmans en Hein Nooijens, je op de hoogte van de ontwikkelingen op deze mooie Eredivisie-dag. Feyenoord en PSV komen in actie, daarna is de topper Ajax-AZ. Veel plezier!",
+        "imageUrl": "https://images.nu.nl/m/im6x6wsaham0_sqr256/815/0/2361/2361/feyenoord-begint-met-een-wijziging-tegen-fortuna-sittard.jpg"
+      },
+      {
+        "title": "Manchester United dieper in de problemen na competitienederlaag bij Chelsea",
+        "url": "https://www.nu.nl/voetbal/6415041/manchester-united-dieper-in-de-problemen-na-competitienederlaag-bij-chelsea.html",
+        "date": "Sat, 31 Oct 2026 15:35:46 +0100",
+        "summary": "Manchester United heeft zaterdag voor de negende wedstrijd op rij niet gewonnen. De ploeg van manager Michael Carrick verloor in de competitie met 2-0 bij Chelsea.",
+        "imageUrl": "https://images.nu.nl/m/k7dx60taf8lh_sqr256/319/0/2004/2004/manchester-united-dieper-in-de-problemen-na-competitienederlaag-bij-chelsea.jpg"
+      },
+      {
+        "title": "Brit die 28 jaar rond de wereld wandelde bijna thuis: 'Ken maatschappij niet meer'",
+        "url": "https://www.nu.nl/opmerkelijk/6415042/brit-die-28-jaar-rond-de-wereld-wandelde-bijna-thuis-ken-maatschappij-niet-meer.html",
         "date": "Sat, 31 Oct 2026 15:28:54 +0100",
         "summary": "Een Brit die in 1998 begon aan een wandeltocht die uiteindelijk meer dan 50.000 kilometer over vier continenten in beslag nam, staat op het punt om weer thuis te komen.",
-        "imageUrl": "https://images.nu.nl/m/ccox9jaaa9nr_sqr256/931/0/3333/3333/brit-die-na-28-jaar-wandelen-en-meer-dan-50000-kilometer-aflegde-bijna-thuis.jpg"
+        "imageUrl": "https://images.nu.nl/m/ccox9jaaa9nr_sqr256/931/0/3333/3333/brit-die-28-jaar-rond-de-wereld-wandelde-bijna-thuis-ken-maatschappij-niet-meer.jpg"
       },
       {
         "title": "Cryptobeurzen nemen maatregelen na miljardenroof bij Binance",
         "url": "https://www.nu.nl/economie/6415045/cryptobeurzen-nemen-maatregelen-na-miljardenroof-bij-binance.html",
         "date": "Sat, 31 Oct 2026 15:22:44 +0100",
-        "summary": "Cryptobeurzen nemen snel maatregelen om hun beveiliging te versterken. Aanleiding is de recordhack van deze week bij Binance waarbij ruim zes miljard dollar werd geroofd. Daarna werden kwetsbaarheden van de sector opnieuw veelvuldig besproken.",
+        "summary": "Cryptobeurzen nemen snel maatregelen om hun beveiliging te versterken. Aanleiding is de recordhack bij Binance waarbij deze week ruim 6 miljard dollar (5,4 miljard euro) werd geroofd. Daarna werden kwetsbaarheden van de sector opnieuw veelvuldig besproken.",
         "imageUrl": "https://images.nu.nl/m/lf9x05gau1ju_sqr256/115/0/3711/3711/cryptobeurzen-nemen-maatregelen-na-miljardenroof-bij-binance.jpg"
       },
       {
-        "title": "Enkele arrestaties in Den Haag, veel politie maar geen jongeren in Maastricht",
-        "url": "https://www.nu.nl/binnenland/6415043/enkele-arrestaties-in-den-haag-veel-politie-maar-geen-jongeren-in-maastricht.html",
+        "title": "ME ingezet in Den Haag, veel politie maar geen jongeren in Maastricht",
+        "url": "https://www.nu.nl/binnenland/6415043/me-ingezet-in-den-haag-veel-politie-maar-geen-jongeren-in-maastricht.html",
         "date": "Sat, 31 Oct 2026 15:10:17 +0100",
-        "summary": "Van demonstraties in verschillende Nederlandse steden is zaterdag voorlopig geen sprake. In Den Haag en Delft werden enkele aanwezigen gearresteerd, maar tot grote acties kwam het niet. Ook in Maastricht verliep de dag zonder bijzonderheden.",
-        "imageUrl": "https://images.nu.nl/m/aa8xam1agpxg_sqr256/0/17/3206/3206/enkele-arrestaties-in-den-haag-veel-politie-maar-geen-jongeren-in-maastricht.jpg"
+        "summary": "Van demonstraties in verschillende Nederlandse steden is zaterdag voorlopig geen sprake. In Den Haag en Delft werden enkele aanwezigen gearresteerd en op een enkele plek moest de mobiele eenheid kortstondig ingrijpen. In Maastricht verliep de dag zonder bijzonderheden.",
+        "imageUrl": "https://images.nu.nl/m/nx5xaxha6v0r_sqr256/185/2/4295/4295/me-ingezet-in-den-haag-veel-politie-maar-geen-jongeren-in-maastricht.jpg"
       },
       {
         "title": "Macklemore vond het ongemakkelijk om te zwijgen over Ed Sheeran-rel",
@@ -37,20 +51,6 @@
         "date": "Sat, 31 Oct 2026 14:01:04 +0100",
         "summary": "Fallon Sherrock trekt zich weinig aan van de kritiek op haar deelname aan de Netflix-show Beat Luke Littler . De verwachting was dat Littler het zou opnemen tegen twintig amateurs, maar uiteindelijk ging zesvoudig WK-deelnemer Sherrock er met de prijzenpot vandoor.",
         "imageUrl": "https://images.nu.nl/m/u72xymza8vm1_sqr256/1671/0/4106/4106/sherrock-pareert-kritiek-na-zege-in-dartsshow-van-littler-zie-mezelf-niet-als-prof.jpg"
-      },
-      {
-        "title": "Video | Nepslachtoffer vraagt koning bij rampoefening: 'Heeft u EHBO-diploma?'",
-        "url": "https://www.nu.nl/331830/video/koning-staat-midden-in-oefening-met-nepslachtoffers.html",
-        "date": "Sat, 31 Oct 2026 13:28:00 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/3rtxncxammpr_sqr256/1557/0/4437/4437/koning-staat-midden-in-oefening-met-nepslachtoffers.jpg"
-      },
-      {
-        "title": "Zes Russische tankers onderweg naar VS, maar afnemers happen niet toe",
-        "url": "https://www.nu.nl/buitenland/6415029/zes-russische-tankers-onderweg-naar-vs-maar-afnemers-happen-niet-toe.html",
-        "date": "Sat, 31 Oct 2026 13:12:53 +0100",
-        "summary": "Zes tankers met diesel zijn onderweg van Rusland naar de Verenigde Staten. Maar het is onzeker of ze hun lading ook kunnen afleveren. De staat New Jersey overweegt de schepen te blokkeren en Democraten waarschuwen afnemers voor juridische gevolgen.",
-        "imageUrl": "https://images.nu.nl/m/uunxmf3aewp4_sqr256/1849/0/3839/3839/zes-russische-tankers-onderweg-naar-vs-maar-afnemers-happen-niet-toe.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "15:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:15",
-        "mmHour": 0.0
-      },
       {
         "time": "16:20",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "17:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.4,
+    "temperature": 8.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T14:47:01+00:00",
-    "rainUpdatedAt": "2026-10-31T14:47:02+00:00"
+    "weatherUpdatedAt": "2026-10-31T15:17:54+00:00",
+    "rainUpdatedAt": "2026-10-31T15:17:54+00:00"
   }
 }
