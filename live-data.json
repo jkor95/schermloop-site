@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T04:59:33+00:00",
+    "updatedAt": "2026-10-31T05:38:40+00:00",
     "headlines": [
+      {
+        "title": "Explainer | Gaan de Republikeinen verliezen? De geschiedenis zegt van wel",
+        "url": "https://www.nu.nl/331808/video/gaan-de-republikeinen-verliezen-de-geschiedenis-zegt-van-wel.html",
+        "date": "Sat, 31 Oct 2026 06:32:45 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/aadxrxua9pwd_sqr256/226/0/1440/1440/gaan-de-republikeinen-verliezen-de-geschiedenis-zegt-van-wel.jpg"
+      },
+      {
+        "title": "Houten huizen winnen terrein, maar lossen het woningtekort niet op",
+        "url": "https://www.nu.nl/economie/6414545/houten-huizen-winnen-terrein-maar-lossen-het-woningtekort-niet-op.html",
+        "date": "Sat, 31 Oct 2026 06:31:34 +0100",
+        "summary": "Van dakconstructie tot complete woning: bouwen met hout wint snel terrein. Het aandeel houten nieuwbouwwoningen in Nederland is in vijf jaar tijd meer dan verdrievoudigd. Toch blijkt ook deze duurzame bouwmethode niet genoeg om het woningtekort aan te pakken.",
+        "imageUrl": "https://images.nu.nl/m/584xh9iaj5t7_sqr256/405/0/1999/1999/houten-huizen-winnen-terrein-maar-lossen-het-woningtekort-niet-op.jpg"
+      },
+      {
+        "title": "Groepsfoto G20 geschrapt omdat ministers niet met Lavrov op beeld wilden",
+        "url": "https://www.nu.nl/buitenland/6415011/groepsfoto-g20-geschrapt-omdat-ministers-niet-met-lavrov-op-beeld-wilden.html",
+        "date": "Sat, 31 Oct 2026 06:21:53 +0100",
+        "summary": "De traditionele groepsfoto bij de start van de G20-bijeenkomst is in Atlanta in de Verenigde Staten geschrapt. Meerdere ministers van Buitenlandse Zaken wilden niet op de foto met hun Russische ambtgenoot Sergey Lavrov.",
+        "imageUrl": "https://images.nu.nl/m/0e4xnb1adzoi_sqr256/0/0/3305/3305/groepsfoto-g20-geschrapt-omdat-ministers-niet-met-lavrov-op-beeld-wilden.jpg"
+      },
       {
         "title": "Verstappen en Lawson krijgen allebei gridstraf na aanvaring in training Mexico",
         "url": "https://www.nu.nl/formule-1/6415010/verstappen-en-lawson-krijgen-allebei-gridstraf-na-aanvaring-in-training-mexico.html",
@@ -30,27 +51,6 @@
         "date": "Sat, 31 Oct 2026 00:02:12 +0100",
         "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training het snelst.",
         "imageUrl": "https://images.nu.nl/m/ndhxp8cao53z_sqr256/542/0/4000/4000/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.jpg"
-      },
-      {
-        "title": "Politieke onrust in Polen: president annuleert reis na schorsing hofvoorzitter",
-        "url": "https://www.nu.nl/buitenland/6415005/politieke-onrust-in-polen-president-annuleert-reis-na-schorsing-hofvoorzitter.html",
-        "date": "Fri, 30 Oct 2026 23:37:19 +0100",
-        "summary": "De Poolse president Karol Nawrocki heeft vrijdag zijn bezoek aan Senegal afgebroken vanwege de escalerende crisis rond het Grondwettelijk Hof in Warschau. Nadat voorzitter Bogdan Swieczkowski vrijdag door de regering was geschorst, braken protesten uit en moest de politie ingrijpen.",
-        "imageUrl": "https://images.nu.nl/m/kkdxrlyaq891_sqr256/1070/0/4480/4480/politieke-onrust-in-polen-president-annuleert-reis-na-schorsing-hofvoorzitter.jpg"
-      },
-      {
-        "title": "Littler redt het niet in Netflix-dartsshow en moet prijzenpot aan Sherrock laten",
-        "url": "https://www.nu.nl/sport-overig/6415000/littler-redt-het-niet-in-netflix-dartsshow-en-moet-prijzenpot-aan-sherrock-laten.html",
-        "date": "Fri, 30 Oct 2026 23:00:33 +0100",
-        "summary": "Luke Littler is er vrijdag niet in geslaagd om twintig uitdagers te verslaan in een ultrakorte dartsvariant. De Engelsman was goed op weg in Manchester, maar verloor van Fallon Sherrock waardoor zij de prijzenpot van liefst 586.000 euro pakte.",
-        "imageUrl": "https://images.nu.nl/m/qu9x7rla4oxt_sqr256/1743/0/4000/4000/littler-redt-het-niet-in-netflix-dartsshow-en-moet-prijzenpot-aan-sherrock-laten.jpg"
-      },
-      {
-        "title": "Hackers spelen porno af op reclamebord naast Egyptische snelweg",
-        "url": "https://www.nu.nl/opmerkelijk/6414988/hackers-spelen-porno-af-op-reclamebord-naast-egyptische-snelweg.html",
-        "date": "Fri, 30 Oct 2026 22:13:33 +0100",
-        "summary": "Hackers hebben pornografische beelden af weten te spelen op een elektronisch reclamebord naast een snelweg nabij de Egyptische hoofdstad Caïro. De groep wist via een beveiligingslek toegang te krijgen. De beelden werden ook op billboards in andere landen vertoond.",
-        "imageUrl": "https://images.nu.nl/m/emyxspganaxh_sqr256/1824/0/3667/3667/hackers-spelen-porno-af-op-reclamebord-naast-egyptische-snelweg.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.0
-      },
       {
         "time": "06:40",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "07:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.0,
+    "temperature": 7.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T04:59:33+00:00",
-    "rainUpdatedAt": "2026-10-31T04:59:34+00:00"
+    "weatherUpdatedAt": "2026-10-31T05:38:41+00:00",
+    "rainUpdatedAt": "2026-10-31T05:38:41+00:00"
   }
 }
