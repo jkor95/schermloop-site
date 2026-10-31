@@ -1,14 +1,35 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T08:09:07+00:00",
+    "updatedAt": "2026-10-31T08:51:53+00:00",
     "headlines": [
+      {
+        "title": "KLM geschokt door elektrocutie Lufthansa-medewerker in zwembad Indiaas hotel",
+        "url": "https://www.nu.nl/buitenland/6415016/klm-geschokt-door-elektrocutie-lufthansa-medewerker-in-zwembad-indiaas-hotel.html",
+        "date": "Sat, 31 Oct 2026 09:32:44 +0100",
+        "summary": "KLM is geschokt door een dodelijk incident in een vijfsterrenhotel in India. Daar kwamen volgens Indiase media twee mensen om het leven doordat zij werden geëlektrocuteerd in het zwembad. Een van de overledenen was een bemanningslid van Lufthansa.",
+        "imageUrl": "https://images.nu.nl/m/4lrxtqja6i9h_sqr256/373/0/1080/1080/klm-geschokt-door-elektrocutie-lufthansa-medewerker-in-zwembad-indiaas-hotel.jpg"
+      },
+      {
+        "title": "Schermtijd | Een browser die ermee stopt is net zo erg als het vertrek van je kapper",
+        "url": "https://www.nu.nl/tech/6414461/een-browser-die-ermee-stopt-is-net-zo-erg-als-het-vertrek-van-je-kapper.html",
+        "date": "Sat, 31 Oct 2026 09:27:59 +0100",
+        "summary": "In de rubriek Schermtijd schrijft techverslaggever Rutger Otto wekelijks over het internet. Dit keer: als je favoriete software wegvalt, blijf je ontheemd achter.",
+        "imageUrl": "https://images.nu.nl/m/sf3xj6yakqu8_sqr256/404/0/1069/1069/een-browser-die-ermee-stopt-is-net-zo-erg-als-het-vertrek-van-je-kapper.jpg"
+      },
       {
         "title": "Videospel Call of Duty verwijdert beelden van halloweendrama Zuid-Korea",
         "url": "https://www.nu.nl/games/6415015/videospel-call-of-duty-verwijdert-beelden-van-halloweendrama-zuid-korea.html",
         "date": "Sat, 31 Oct 2026 08:44:26 +0100",
         "summary": "De maker van Call of Duty gaat beelden van een ramp uit 2022 verwijderen uit het videospel. Nabestaanden waren ontzet dat beelden te zien waren van het drama waarbij tijdens een halloweenviering 158 mensen door verdrukking om het leven kwamen.",
         "imageUrl": "https://images.nu.nl/m/wtgxelbanzw2_sqr256/617/0/3927/3927/videospel-call-of-duty-verwijdert-beelden-van-halloweendrama-zuid-korea.jpg"
+      },
+      {
+        "title": "Hadjar geeft fan een duw en moet zich melden bij de stewards in Mexico",
+        "url": "https://www.nu.nl/formule-1/6415013/hadjar-geeft-fan-een-duw-en-moet-zich-melden-bij-de-stewards-in-mexico.html",
+        "date": "Sat, 31 Oct 2026 08:39:23 +0100",
+        "summary": "Isack Hadjar heeft vrijdag een opdringerige supporter een duw gegeven in de paddock. Het incident krijgt mogelijk nog een staartje. De teamgenoot van Max Verstappen moet zich later vandaag in Mexico namelijk verantwoorden bij de stewards.",
+        "imageUrl": "https://images.nu.nl/m/37wxwxsa4i1p_sqr256/871/0/3936/3936/hadjar-geeft-fan-een-duw-en-moet-zich-melden-bij-de-stewards-in-mexico.jpg"
       },
       {
         "title": "Onvrede over 'kansloze kalender' bij start schaatsseizoen: 'Een heel dom idee'",
@@ -30,27 +51,6 @@
         "date": "Sat, 31 Oct 2026 06:31:34 +0100",
         "summary": "Van dakconstructie tot complete woning: bouwen met hout wint snel terrein. Het aandeel houten nieuwbouwwoningen in Nederland is in vijf jaar tijd meer dan verdrievoudigd. Toch blijkt ook deze duurzame bouwmethode niet genoeg om het woningtekort aan te pakken.",
         "imageUrl": "https://images.nu.nl/m/584xh9iaj5t7_sqr256/405/0/1999/1999/houten-huizen-winnen-terrein-maar-lossen-het-woningtekort-niet-op.jpg"
-      },
-      {
-        "title": "Groepsfoto G20 geschrapt omdat ministers niet met Lavrov op beeld wilden",
-        "url": "https://www.nu.nl/buitenland/6415011/groepsfoto-g20-geschrapt-omdat-ministers-niet-met-lavrov-op-beeld-wilden.html",
-        "date": "Sat, 31 Oct 2026 06:21:53 +0100",
-        "summary": "De traditionele groepsfoto bij de start van de G20-bijeenkomst is in Atlanta in de Verenigde Staten geschrapt. Meerdere ministers van Buitenlandse Zaken wilden niet op de foto met hun Russische ambtgenoot Sergey Lavrov.",
-        "imageUrl": "https://images.nu.nl/m/0e4xnb1adzoi_sqr256/0/0/3305/3305/groepsfoto-g20-geschrapt-omdat-ministers-niet-met-lavrov-op-beeld-wilden.jpg"
-      },
-      {
-        "title": "Verstappen en Lawson krijgen allebei gridstraf na aanvaring in training Mexico",
-        "url": "https://www.nu.nl/formule-1/6415010/verstappen-en-lawson-krijgen-allebei-gridstraf-na-aanvaring-in-training-mexico.html",
-        "date": "Sat, 31 Oct 2026 05:38:42 +0100",
-        "summary": "Max Verstappen en Liam Lawson hebben vrijdagavond (lokale tijd) allebei een gridstraf van één plaats gekregen voor de Grand Prix van Mexico. De stewards bestraffen de coureurs voor hun onderlinge aanvaring eerder op de dag in de tweede vrije training.",
-        "imageUrl": "https://images.nu.nl/m/02fx4qnafx1j_sqr256/615/0/3101/3101/verstappen-en-lawson-krijgen-allebei-gridstraf-na-aanvaring-in-training-mexico.jpg"
-      },
-      {
-        "title": "Telefoons en laptops steeds duurder, tekort aan chips houdt tot zeker 2028 aan",
-        "url": "https://www.nu.nl/tech/6414689/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.html",
-        "date": "Sat, 31 Oct 2026 05:08:26 +0100",
-        "summary": "Er komt voorlopig geen einde aan het tekort aan werkgeheugen voor elektronische apparaten. Ook het komende jaar blijven de prijzen voor onder meer telefoons en laptops hoog. Fabrikanten houden er rekening mee dat ze minder producten zullen verkopen.",
-        "imageUrl": "https://images.nu.nl/m/1j1xpd8am9ek_sqr256/852/0/2999/2999/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "09:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:50",
-        "mmHour": 0.0
-      },
       {
         "time": "09:55",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "11:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "11:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.6,
+    "temperature": 7.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T08:09:07+00:00",
-    "rainUpdatedAt": "2026-10-31T08:09:08+00:00"
+    "weatherUpdatedAt": "2026-10-31T08:51:54+00:00",
+    "rainUpdatedAt": "2026-10-31T08:51:54+00:00"
   }
 }
