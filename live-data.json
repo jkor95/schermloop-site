@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T17:39:42+00:00",
+    "updatedAt": "2026-10-31T18:13:47+00:00",
     "headlines": [
+      {
+        "title": "VS maakt met goedkeuring van lading Patriots Oekraïne blij met dooie mus",
+        "url": "https://www.nu.nl/spanningen-oekraine/6415024/vs-maakt-met-goedkeuring-van-lading-patriots-oekraine-blij-met-dooie-mus.html",
+        "date": "Sat, 31 Oct 2026 18:58:59 +0100",
+        "summary": "De Verenigde Staten hebben goedkeuring gegeven voor de verkoop van vijfhonderd broodnodige Patriot-raketten aan Oekraïne. Maar leveringen zijn momenteel omgeven door vraagtekens. Daardoor zit het land komende winter waarschijnlijk alsnog zonder passende bescherming zit tegen de geplande Russische luchtaanvallen op...",
+        "imageUrl": "https://images.nu.nl/m/4x9xcbsaspjf_sqr256/112/0/682/682/vs-maakt-met-goedkeuring-van-lading-patriots-oekraine-blij-met-dooie-mus.jpg"
+      },
       {
         "title": "Wereldberoemde 'TikTok-oma' en foodinfluencer Nonna Silvi (85) overleden",
         "url": "https://www.nu.nl/media/6415060/wereldberoemde-tiktok-oma-en-foodinfluencer-nonna-silvi-85-overleden.html",
@@ -18,25 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/zgnxchxa81fj_sqr256/1003/251/3629/3629/koploper-feyenoord-geeft-zege-op-stug-fortuna-sittard-in-slotfase-uit-handen.jpg"
       },
       {
-        "title": "Video | Kok bijna onderuit op 500 meter: ‘Alsof ik op de shorttrackbaan stond’",
-        "url": "https://www.nu.nl/331838/video/femke-kok-bijna-onderuit-op-500-meter-alsof-ik-op-de-shorttrackbaan-stond.html",
-        "date": "Sat, 31 Oct 2026 18:25:30 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/kqcxel8au8ha_sqr256/809/0/1080/1080/femke-kok-bijna-onderuit-op-500-meter-alsof-ik-op-de-shorttrackbaan-stond.jpg"
-      },
-      {
         "title": "Klaver (PRO): 'Politieke wil bij kabinet om met ons samen te werken ontbreekt'",
         "url": "https://www.nu.nl/politiek/6415056/klaver-pro-politieke-wil-bij-kabinet-om-met-ons-samen-te-werken-ontbreekt.html",
         "date": "Sat, 31 Oct 2026 17:52:27 +0100",
         "summary": "Het kabinet wil volgens PRO-leider Jesse Klaver geen afspraken maken met hem en Laurens Dassen (Volt) over het belastingplan. Het rechtse blok van JA21, BBB en SGP ziet naar eigen zeggen nog wel aanknopingspunten om verder te praten.",
         "imageUrl": "https://images.nu.nl/m/ilsx77yaa266_sqr256/1053/0/4000/4000/klaver-pro-politieke-wil-bij-kabinet-om-met-ons-samen-te-werken-ontbreekt.jpg"
-      },
-      {
-        "title": "Live F1 | Veel rumoer rondom derde vrije training GP Mexico met Verstappen",
-        "url": "https://www.nu.nl/formule-1/6415057/veel-rumoer-rondom-derde-vrije-training-gp-mexico-met-verstappen.html",
-        "date": "Sat, 31 Oct 2026 17:52:22 +0100",
-        "summary": "Goedenavond en welkom in dit liveblog. Hier houd ik (Thom van de Loosdrecht) je op de hoogte van de derde vrije training en de kwalificatie bij de Grand Prix in Mexico. Veel plezier.",
-        "imageUrl": "https://images.nu.nl/m/jo8xoxja2vq9_sqr256/563/8/4272/4272/veel-rumoer-rondom-derde-vrije-training-gp-mexico-met-verstappen.jpg"
       },
       {
         "title": "Bijzondere halfaap waarvan uitsterven werd vermoed, blijkt toch nog te bestaan",
@@ -51,6 +44,13 @@
         "date": "Sat, 31 Oct 2026 16:22:14 +0100",
         "summary": "Esteban Ocon komt dit weekend niet meer in actie tijdens de Grand Prix van Mexico. De Formule 1-coureur wordt bij Haas vervangen door de Japanner Ryo Hirakawa. Het is niet bekend waarom Ocon zijn zitje moet afstaan.",
         "imageUrl": "https://images.nu.nl/m/tqxxbsnay4jl_sqr256/1306/0/3799/3799/formule-1-coureur-ocon-wordt-nog-tijdens-gp-mexico-vervangen-door-haas.jpg"
+      },
+      {
+        "title": "Video | Betogers worden gearresteerd in Den Haag, veel politie in andere steden",
+        "url": "https://www.nu.nl/331835/video/betogers-worden-gearresteerd-in-den-haag-veel-politie-in-andere-steden.html",
+        "date": "Sat, 31 Oct 2026 16:08:21 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/yd7xjtka4t60_sqr256/599/0/1080/1080/betogers-worden-gearresteerd-in-den-haag-veel-politie-in-andere-steden.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "18:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
       {
         "time": "19:15",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "20:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "20:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.3,
-    "description": "Zwaar bewolkt",
+    "temperature": 7.0,
+    "description": "Mix van opklaringen en middelbare of lage bewolking",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T17:39:42+00:00",
-    "rainUpdatedAt": "2026-10-31T17:39:43+00:00"
+    "weatherUpdatedAt": "2026-10-31T18:13:48+00:00",
+    "rainUpdatedAt": "2026-10-31T18:13:48+00:00"
   }
 }
