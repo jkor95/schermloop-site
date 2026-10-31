@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T21:21:06+00:00",
+    "updatedAt": "2026-10-31T21:56:59+00:00",
     "headlines": [
+      {
+        "title": "Amerikaanse ambassade waarschuwt Rusland voor terroristische aanslag op Moskou",
+        "url": "https://www.nu.nl/buitenland/6415080/amerikaanse-ambassade-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.html",
+        "date": "Sat, 31 Oct 2026 22:37:04 +0100",
+        "summary": "De Russische Federale Veiligheidsdienst (FSB) meldt dat het van de Verenigde Staten informatie heeft gekregen over voorbereidingen voor een terroristische aanslag in Moskou. De dienst laat weten dat het passende voorzorgsmaatregelen neemt, meldt het Russische persbureau RIA .",
+        "imageUrl": "https://images.nu.nl/m/z83x154aa640_sqr256/1179/0/2360/2360/amerikaanse-ambassade-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.jpg"
+      },
       {
         "title": "Sovjet-ereveld in Leusden opnieuw beklad met leuzen over communisten",
         "url": "https://www.nu.nl/binnenland/6415076/sovjet-ereveld-in-leusden-opnieuw-beklad-met-leuzen-over-communisten.html",
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 19:36:48 +0100",
         "summary": "Max Verstappen heeft zaterdag de vijfde tijd genoteerd in de derde vrije training voor de Grand Prix van Mexico. De Nederlander kampte met remproblemen en gaf drieënhalve tiende toe op Lando Norris, die aanstaand kampioen Kimi Antonelli op het nippertje voorbleef.",
         "imageUrl": "https://images.nu.nl/m/vqhxsvna27of_sqr256/1750/0/3737/3737/verstappen-vijfde-in-laatste-training-gp-mexico-antonelli-tweede-achter-norris.jpg"
-      },
-      {
-        "title": "Rubberboot in Zeeland had 36 Afghanen aan boord, 2 Soedanezen gearresteerd",
-        "url": "https://www.nu.nl/binnenland/6415065/rubberboot-in-zeeland-had-36-afghanen-aan-boord-2-soedanezen-gearresteerd.html",
-        "date": "Sat, 31 Oct 2026 19:27:00 +0100",
-        "summary": "De groep migranten die zaterdagochtend van een rubberboot voor de Zeeuwse kust is gehaald, heeft voor het grootste deel de Afghaanse nationaliteit. Twee Soedanezen die ook op de boot zaten, zijn aangehouden op verdenking van mensensmokkel.",
-        "imageUrl": "https://images.nu.nl/m/ipvx3hsa2wjp_sqr256/279/0/900/900/rubberboot-in-zeeland-had-36-afghanen-aan-boord-2-soedanezen-gearresteerd.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:50",
-        "mmHour": 0.0
-      },
       {
         "time": "22:55",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "00:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 4.4,
-    "description": "Afwisselend bewolkt met lokaal mist(banken)",
+    "temperature": 3.9,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T21:21:07+00:00",
-    "rainUpdatedAt": "2026-10-31T21:21:07+00:00"
+    "weatherUpdatedAt": "2026-10-31T21:56:59+00:00",
+    "rainUpdatedAt": "2026-10-31T21:57:00+00:00"
   }
 }
