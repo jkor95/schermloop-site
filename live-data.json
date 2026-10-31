@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-30T23:28:31+00:00",
+    "updatedAt": "2026-10-31T00:04:30+00:00",
     "headlines": [
       {
         "title": "Zeldzame vondst in Pompeï: 2.000 jaar oude kast vol persoonlijke bezittingen",
@@ -14,7 +14,7 @@
         "title": "Verstappen klokt vijfde tijd na opmerkelijk incident met Lawson in tweede training",
         "url": "https://www.nu.nl/formule-1/6415006/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.html",
         "date": "Sat, 31 Oct 2026 00:02:12 +0100",
-        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training de snelste.",
+        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training het snelst.",
         "imageUrl": "https://images.nu.nl/m/ndhxp8cao53z_sqr256/542/0/4000/4000/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.jpg"
       },
       {
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
       {
         "time": "01:05",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "02:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.0,
+    "temperature": 8.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-30T23:28:31+00:00",
-    "rainUpdatedAt": "2026-10-30T23:28:32+00:00"
+    "weatherUpdatedAt": "2026-10-31T00:04:30+00:00",
+    "rainUpdatedAt": "2026-10-31T00:04:31+00:00"
   }
 }
