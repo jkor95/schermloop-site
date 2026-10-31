@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T03:25:15+00:00",
+    "updatedAt": "2026-10-31T04:14:04+00:00",
     "headlines": [
+      {
+        "title": "Telefoons en laptops steeds duurder, tekort aan chips houdt tot zeker 2028 aan",
+        "url": "https://www.nu.nl/tech/6414689/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.html",
+        "date": "Sat, 31 Oct 2026 05:08:26 +0100",
+        "summary": "Er komt voorlopig geen einde aan het tekort aan werkgeheugen voor elektronische apparaten. Ook het komende jaar blijven de prijzen voor onder meer telefoons en laptops hoog. Fabrikanten houden er rekening mee dat ze minder producten zullen verkopen.",
+        "imageUrl": "https://images.nu.nl/m/1j1xpd8am9ek_sqr256/852/0/2999/2999/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.jpg"
+      },
       {
         "title": "Zeldzame vondst in Pompeï: 2.000 jaar oude kast vol persoonlijke bezittingen",
         "url": "https://www.nu.nl/buitenland/6415002/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.html",
@@ -14,7 +21,7 @@
         "title": "Verstappen klokt vijfde tijd na opmerkelijk incident met Lawson in tweede training",
         "url": "https://www.nu.nl/formule-1/6415006/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.html",
         "date": "Sat, 31 Oct 2026 00:02:12 +0100",
-        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training de snelste.",
+        "summary": "Max Verstappen heeft vrijdag de vijfde tijd genoteerd in de tweede vrije training voor de Grand Prix van Mexico. De Nederlander liep schade op bij een opmerkelijk incident met Liam Lawson. Charles Leclerc was net als in de eerste training het snelst.",
         "imageUrl": "https://images.nu.nl/m/ndhxp8cao53z_sqr256/542/0/4000/4000/verstappen-klokt-vijfde-tijd-na-opmerkelijk-incident-met-lawson-in-tweede-training.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Fri, 30 Oct 2026 22:10:55 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/6q5xxdda5jj2_sqr256/746/0/1080/1080/indonesiers-houden-gestrande-walvis-nat-tijdens-reddingsactie.jpg"
-      },
-      {
-        "title": "VS geeft groen licht voor verkoop van vijfhonderd Patriot-raketten aan Oekraïne",
-        "url": "https://www.nu.nl/spanningen-oekraine/6414994/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.html",
-        "date": "Fri, 30 Oct 2026 21:28:21 +0100",
-        "summary": "De Verenigde Staten hebben vrijdag groen licht gegeven voor de verkoop van vijfhonderd Patriot-raketten aan Oekraïne. President Volodymyr Zelensky zei eerder dat Oekraïne al bijna een maand wachtte op deze Amerikaanse goedkeuring.",
-        "imageUrl": "https://images.nu.nl/m/mezx7d3a934d_sqr256/141/0/2400/2400/vs-geeft-groen-licht-voor-verkoop-van-vijfhonderd-patriot-raketten-aan-oekraine.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "04:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
       {
         "time": "05:15",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "06:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "06:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.3,
+    "temperature": 8.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T03:25:15+00:00",
-    "rainUpdatedAt": "2026-10-31T03:25:15+00:00"
+    "weatherUpdatedAt": "2026-10-31T04:14:04+00:00",
+    "rainUpdatedAt": "2026-10-31T04:14:05+00:00"
   }
 }
