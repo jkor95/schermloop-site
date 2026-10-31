@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T07:20:48+00:00",
+    "updatedAt": "2026-10-31T08:09:07+00:00",
     "headlines": [
+      {
+        "title": "Videospel Call of Duty verwijdert beelden van halloweendrama Zuid-Korea",
+        "url": "https://www.nu.nl/games/6415015/videospel-call-of-duty-verwijdert-beelden-van-halloweendrama-zuid-korea.html",
+        "date": "Sat, 31 Oct 2026 08:44:26 +0100",
+        "summary": "De maker van Call of Duty gaat beelden van een ramp uit 2022 verwijderen uit het videospel. Nabestaanden waren ontzet dat beelden te zien waren van het drama waarbij tijdens een halloweenviering 158 mensen door verdrukking om het leven kwamen.",
+        "imageUrl": "https://images.nu.nl/m/wtgxelbanzw2_sqr256/617/0/3927/3927/videospel-call-of-duty-verwijdert-beelden-van-halloweendrama-zuid-korea.jpg"
+      },
       {
         "title": "Onvrede over 'kansloze kalender' bij start schaatsseizoen: 'Een heel dom idee'",
         "url": "https://www.nu.nl/schaatsen/6415007/onvrede-over-kansloze-kalender-bij-start-schaatsseizoen-een-heel-dom-idee.html",
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 05:08:26 +0100",
         "summary": "Er komt voorlopig geen einde aan het tekort aan werkgeheugen voor elektronische apparaten. Ook het komende jaar blijven de prijzen voor onder meer telefoons en laptops hoog. Fabrikanten houden er rekening mee dat ze minder producten zullen verkopen.",
         "imageUrl": "https://images.nu.nl/m/1j1xpd8am9ek_sqr256/852/0/2999/2999/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.jpg"
-      },
-      {
-        "title": "Zeldzame vondst in Pompeï: 2.000 jaar oude kast vol persoonlijke bezittingen",
-        "url": "https://www.nu.nl/buitenland/6415002/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.html",
-        "date": "Sat, 31 Oct 2026 00:17:12 +0100",
-        "summary": "Archeologen hebben in Pompeï een bijna tweeduizend jaar oude houten kast geopend en tientallen persoonlijke bezittingen gevonden. Ze troffen onder meer een zeldzame kinderketting met bedeltjes, een parfumflesje en munten aan.",
-        "imageUrl": "https://images.nu.nl/m/4m1xifsa9ra9_sqr256/0/0/1125/1125/zeldzame-vondst-in-pompei-2000-jaar-oude-kast-vol-persoonlijke-bezittingen.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:05",
-        "mmHour": 0.0
-      },
       {
         "time": "09:10",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "10:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.5,
+    "temperature": 7.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T07:20:48+00:00",
-    "rainUpdatedAt": "2026-10-31T07:20:49+00:00"
+    "weatherUpdatedAt": "2026-10-31T08:09:07+00:00",
+    "rainUpdatedAt": "2026-10-31T08:09:08+00:00"
   }
 }
