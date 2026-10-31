@@ -1,10 +1,24 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T13:28:18+00:00",
+    "updatedAt": "2026-10-31T14:10:34+00:00",
     "headlines": [
       {
-        "title": "Video | Koning staat midden in oefening met nepslachtoffers",
+        "title": "Macklemore vond het ongemakkelijk om te zwijgen over Sheeran-rel",
+        "url": "https://www.nu.nl/achterklap/6415040/macklemore-vond-het-ongemakkelijk-om-te-zwijgen-over-sheeran-rel.html",
+        "date": "Sat, 31 Oct 2026 14:35:12 +0100",
+        "summary": "Macklemore vond het ongemakkelijker om te zwijgen dan zich uit te spreken over de ophef die ontstond toen Ed Sheeran hem vanwege zijn pro-Palestijnse uitspraken uit zijn voorprogramma haalde. Als reactie daarop kondigde hij zijn Free Palestine- tour aan.",
+        "imageUrl": "https://images.nu.nl/m/hzcx002a3j5x_sqr256/1291/0/3456/3456/macklemore-vond-het-ongemakkelijk-om-te-zwijgen-over-sheeran-rel.jpg"
+      },
+      {
+        "title": "Sherrock pareert kritiek na zege in dartsshow van Littler: 'Zie mezelf niet als prof'",
+        "url": "https://www.nu.nl/darts/6415036/sherrock-pareert-kritiek-na-zege-in-dartsshow-van-littler-zie-mezelf-niet-als-prof.html",
+        "date": "Sat, 31 Oct 2026 14:01:04 +0100",
+        "summary": "Fallon Sherrock trekt zich weinig aan van de kritiek op haar deelname aan de Netflix-show Beat Luke Littler . De verwachting was dat Littler het zou opnemen tegen twintig amateurs, maar uiteindelijk ging zesvoudig WK-deelnemer Sherrock er met de prijzenpot vandoor.",
+        "imageUrl": "https://images.nu.nl/m/u72xymza8vm1_sqr256/1671/0/4106/4106/sherrock-pareert-kritiek-na-zege-in-dartsshow-van-littler-zie-mezelf-niet-als-prof.jpg"
+      },
+      {
+        "title": "Video | Nepslachtoffer vraagt koning bij rampoefening: 'Heeft u EHBO-diploma?'",
         "url": "https://www.nu.nl/331830/video/koning-staat-midden-in-oefening-met-nepslachtoffers.html",
         "date": "Sat, 31 Oct 2026 13:28:00 +0100",
         "summary": "",
@@ -14,7 +28,7 @@
         "title": "Zes Russische tankers onderweg naar VS, maar afnemers happen niet toe",
         "url": "https://www.nu.nl/buitenland/6415029/zes-russische-tankers-onderweg-naar-vs-maar-afnemers-happen-niet-toe.html",
         "date": "Sat, 31 Oct 2026 13:12:53 +0100",
-        "summary": "Zes tankers met diesel zijn onderweg van Rusland naar de Verenigde Staten. Maar het is onzeker of ze hun lading ook kunnen afleveren. New Jersey overweegt de schepen te blokkeren en Democraten waarschuwen afnemers voor juridische gevolgen.",
+        "summary": "Zes tankers met diesel zijn onderweg van Rusland naar de Verenigde Staten. Maar het is onzeker of ze hun lading ook kunnen afleveren. De staat New Jersey overweegt de schepen te blokkeren en Democraten waarschuwen afnemers voor juridische gevolgen.",
         "imageUrl": "https://images.nu.nl/m/uunxmf3aewp4_sqr256/1849/0/3839/3839/zes-russische-tankers-onderweg-naar-vs-maar-afnemers-happen-niet-toe.jpg"
       },
       {
@@ -37,20 +51,6 @@
         "date": "Sat, 31 Oct 2026 12:19:32 +0100",
         "summary": "Aston Villa heeft vrijdag juridische stappen aangekondigd tegen analist Jamie Carragher. De oud-speler van Liverpool deed eerder deze week in een podcast een aantal stevige uitspraken, die volgens de Premier League-club \"onaanvaardbaar\" zijn.",
         "imageUrl": "https://images.nu.nl/m/fe1xbg0az013_sqr256/1700/0/3932/3932/aston-villa-onderneemt-juridische-stappen-na-uithaal-van-analist-jamie-carragher.jpg"
-      },
-      {
-        "title": "Kabinet praat in Catshuis verder met oppositie over steun voor belastingplan",
-        "url": "https://www.nu.nl/politiek/6415030/kabinet-praat-in-catshuis-verder-met-oppositie-over-steun-voor-belastingplan.html",
-        "date": "Sat, 31 Oct 2026 12:06:22 +0100",
-        "summary": "Het kabinet praat zaterdag verder met de oppositie over het belastingplan. Namens het kabinet ontvangen premier Rob Jetten en ministers Dilan Yesilgöz, Bart van den Brink en Eelco Heinen verschillende partijen van de rechter- en linkerflank van de oppositie.",
-        "imageUrl": "https://images.nu.nl/m/2pex8l7ab30w_sqr256/1203/588/3412/3412/kabinet-praat-in-catshuis-verder-met-oppositie-over-steun-voor-belastingplan.jpg"
-      },
-      {
-        "title": "Winstmakende oliebedrijven verlagen prijs benzine niet: 'Waarom zouden ze?'",
-        "url": "https://www.nu.nl/economie/6414840/winstmakende-oliebedrijven-verlagen-prijs-benzine-niet-waarom-zouden-ze.html",
-        "date": "Sat, 31 Oct 2026 12:00:33 +0100",
-        "summary": "Sinds het uitbreken van de oorlog in Iran stijgen de olieprijzen en maken oliebedrijven flinke winst . Lezers vroegen zich af hoe het kan dat benzine aan de pomp toch zo duur blijft. Experts stellen dat de overheid nauwelijks invloed heeft op de prijzen.",
-        "imageUrl": "https://images.nu.nl/m/31oxv6uakkyv_sqr256/950/0/2832/2832/winstmakende-oliebedrijven-verlagen-prijs-benzine-niet-waarom-zouden-ze.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:10",
-        "mmHour": 0.0
-      },
       {
         "time": "15:15",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "16:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.5,
+    "temperature": 8.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T13:28:19+00:00",
-    "rainUpdatedAt": "2026-10-31T13:28:19+00:00"
+    "weatherUpdatedAt": "2026-10-31T14:10:34+00:00",
+    "rainUpdatedAt": "2026-10-31T14:10:35+00:00"
   }
 }
