@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T20:12:05+00:00",
+    "updatedAt": "2026-10-31T20:49:13+00:00",
     "headlines": [
+      {
+        "title": "Sovjet-ereveld in Leusden opnieuw beklad met leuzen over communisten",
+        "url": "https://www.nu.nl/binnenland/6415076/sovjet-ereveld-in-leusden-opnieuw-beklad-met-leuzen-over-communisten.html",
+        "date": "Sat, 31 Oct 2026 21:35:44 +0100",
+        "summary": "Het Sovjet-ereveld in Leusden is zaterdag opnieuw beklad, meldt de organisatie op haar website. Met rode en zwarte verf zijn leuzen als 'fuck refugees' aangebracht op de obelisk en de gedenkmuur op de begraafplaats. In juli werden er ook al grafstenen besmeurd.",
+        "imageUrl": "https://images.nu.nl/m/qmlxqnkagf9c_sqr256/2/257/1198/1198/sovjet-ereveld-in-leusden-opnieuw-beklad-met-leuzen-over-communisten.jpg"
+      },
+      {
+        "title": "Tientallen aanhoudingen verricht bij onrust in Den Haag, merendeel minderjarig",
+        "url": "https://www.nu.nl/binnenland/6415079/tientallen-aanhoudingen-verricht-bij-onrust-in-den-haag-merendeel-minderjarig.html",
+        "date": "Sat, 31 Oct 2026 21:13:08 +0100",
+        "summary": "De politie heeft zaterdag 34 mensen aangehouden tijdens onrust in Den Haag. Er hebben geen rellen of plunderingen plaatsgevonden, maar op een enkele plek moest de mobiele eenheid kortstondig ingrijpen. Het overgrote deel van de arrestanten is minderjarig.",
+        "imageUrl": "https://images.nu.nl/m/tw5xmlra7iir_sqr256/2630/702/4714/4714/tientallen-aanhoudingen-verricht-bij-onrust-in-den-haag-merendeel-minderjarig.jpg"
+      },
       {
         "title": "PSV scoort zeven keer tegen Willem II en profiteert van misstap Feyenoord",
         "url": "https://www.nu.nl/voetbal/6415075/psv-scoort-zeven-keer-tegen-willem-ii-en-profiteert-van-misstap-feyenoord.html",
@@ -37,20 +51,6 @@
         "date": "Sat, 31 Oct 2026 19:27:00 +0100",
         "summary": "De groep migranten die zaterdagochtend van een rubberboot voor de Zeeuwse kust is gehaald, heeft voor het grootste deel de Afghaanse nationaliteit. Twee Soedanezen die ook op de boot zaten, zijn aangehouden op verdenking van mensensmokkel.",
         "imageUrl": "https://images.nu.nl/m/ipvx3hsa2wjp_sqr256/279/0/900/900/rubberboot-in-zeeland-had-36-afghanen-aan-boord-2-soedanezen-gearresteerd.jpg"
-      },
-      {
-        "title": "VS maakt Oekraïne met goedkeuring van lading Patriots blij met dooie mus",
-        "url": "https://www.nu.nl/spanningen-oekraine/6415024/vs-maakt-oekraine-met-goedkeuring-van-lading-patriots-blij-met-dooie-mus.html",
-        "date": "Sat, 31 Oct 2026 18:58:59 +0100",
-        "summary": "De Verenigde Staten hebben goedkeuring gegeven voor de verkoop van vijfhonderd broodnodige Patriot-raketten aan Oekraïne. Maar leveringen zijn momenteel omgeven door vraagtekens. Daardoor zit het land komende winter waarschijnlijk alsnog zonder passende bescherming tegen de geplande Russische luchtaanvallen op...",
-        "imageUrl": "https://images.nu.nl/m/4x9xcbsaspjf_sqr256/112/0/682/682/vs-maakt-oekraine-met-goedkeuring-van-lading-patriots-blij-met-dooie-mus.jpg"
-      },
-      {
-        "title": "Wereldberoemde 'TikTok-oma' en foodinfluencer Nonna Silvi (85) overleden",
-        "url": "https://www.nu.nl/media/6415060/wereldberoemde-tiktok-oma-en-foodinfluencer-nonna-silvi-85-overleden.html",
-        "date": "Sat, 31 Oct 2026 18:32:40 +0100",
-        "summary": "Silvana Bini, op sociale media beter bekend als Nonna Silvi, is deze week op 85-jarige leeftijd overleden. Bini overleed na een ziekbed van ongeveer twintig dagen in haar woning in Toscane, schrijven haar nabestaanden op Instagram .",
-        "imageUrl": "https://images.nu.nl/m/oyzxqe0al7fa_sqr256/289/0/677/677/wereldberoemde-tiktok-oma-en-foodinfluencer-nonna-silvi-85-overleden.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
       {
         "time": "21:45",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "23:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 4.5,
+    "temperature": 4.2,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T20:12:06+00:00",
-    "rainUpdatedAt": "2026-10-31T20:12:06+00:00"
+    "weatherUpdatedAt": "2026-10-31T20:49:14+00:00",
+    "rainUpdatedAt": "2026-10-31T20:49:14+00:00"
   }
 }
