@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T05:38:40+00:00",
+    "updatedAt": "2026-10-31T06:18:11+00:00",
     "headlines": [
       {
         "title": "Explainer | Gaan de Republikeinen verliezen? De geschiedenis zegt van wel",
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
       {
         "time": "07:15",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "08:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 7.8,
+    "temperature": 7.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T05:38:41+00:00",
-    "rainUpdatedAt": "2026-10-31T05:38:41+00:00"
+    "weatherUpdatedAt": "2026-10-31T06:18:11+00:00",
+    "rainUpdatedAt": "2026-10-31T06:18:12+00:00"
   }
 }
