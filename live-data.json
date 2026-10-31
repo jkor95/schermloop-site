@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T04:14:04+00:00",
+    "updatedAt": "2026-10-31T04:59:33+00:00",
     "headlines": [
+      {
+        "title": "Verstappen en Lawson krijgen allebei gridstraf na aanvaring in training Mexico",
+        "url": "https://www.nu.nl/formule-1/6415010/verstappen-en-lawson-krijgen-allebei-gridstraf-na-aanvaring-in-training-mexico.html",
+        "date": "Sat, 31 Oct 2026 05:38:42 +0100",
+        "summary": "Max Verstappen en Liam Lawson hebben vrijdagavond (lokale tijd) allebei een gridstraf van één plaats gekregen voor de Grand Prix van Mexico. De stewards bestraffen de coureurs voor hun onderlinge aanvaring eerder op de dag in de tweede vrije training.",
+        "imageUrl": "https://images.nu.nl/m/02fx4qnafx1j_sqr256/615/0/3101/3101/verstappen-en-lawson-krijgen-allebei-gridstraf-na-aanvaring-in-training-mexico.jpg"
+      },
       {
         "title": "Telefoons en laptops steeds duurder, tekort aan chips houdt tot zeker 2028 aan",
         "url": "https://www.nu.nl/tech/6414689/telefoons-en-laptops-steeds-duurder-tekort-aan-chips-houdt-tot-zeker-2028-aan.html",
@@ -44,13 +51,6 @@
         "date": "Fri, 30 Oct 2026 22:13:33 +0100",
         "summary": "Hackers hebben pornografische beelden af weten te spelen op een elektronisch reclamebord naast een snelweg nabij de Egyptische hoofdstad Caïro. De groep wist via een beveiligingslek toegang te krijgen. De beelden werden ook op billboards in andere landen vertoond.",
         "imageUrl": "https://images.nu.nl/m/emyxspganaxh_sqr256/1824/0/3667/3667/hackers-spelen-porno-af-op-reclamebord-naast-egyptische-snelweg.jpg"
-      },
-      {
-        "title": "Video | Indonesiërs houden gestrande walvis nat tijdens reddingsactie",
-        "url": "https://www.nu.nl/331815/video/indonesiers-houden-gestrande-walvis-nat-tijdens-reddingsactie.html",
-        "date": "Fri, 30 Oct 2026 22:10:55 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/6q5xxdda5jj2_sqr256/746/0/1080/1080/indonesiers-houden-gestrande-walvis-nat-tijdens-reddingsactie.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:55",
-        "mmHour": 0.0
-      },
       {
         "time": "06:00",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "07:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.1,
+    "temperature": 8.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T04:14:04+00:00",
-    "rainUpdatedAt": "2026-10-31T04:14:05+00:00"
+    "weatherUpdatedAt": "2026-10-31T04:59:33+00:00",
+    "rainUpdatedAt": "2026-10-31T04:59:34+00:00"
   }
 }
