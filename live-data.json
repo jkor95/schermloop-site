@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T20:49:13+00:00",
+    "updatedAt": "2026-10-31T21:21:06+00:00",
     "headlines": [
       {
         "title": "Sovjet-ereveld in Leusden opnieuw beklad met leuzen over communisten",
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
       {
         "time": "22:20",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "23:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 4.2,
+    "temperature": 4.4,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T20:49:14+00:00",
-    "rainUpdatedAt": "2026-10-31T20:49:14+00:00"
+    "weatherUpdatedAt": "2026-10-31T21:21:07+00:00",
+    "rainUpdatedAt": "2026-10-31T21:21:07+00:00"
   }
 }
