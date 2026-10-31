@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T10:46:42+00:00",
+    "updatedAt": "2026-10-31T11:17:29+00:00",
     "headlines": [
+      {
+        "title": "Kabinet praat in Catshuis verder met oppositie over steun voor belastingplan",
+        "url": "https://www.nu.nl/politiek/6415030/kabinet-praat-in-catshuis-verder-met-oppositie-over-steun-voor-belastingplan.html",
+        "date": "Sat, 31 Oct 2026 12:06:22 +0100",
+        "summary": "Het kabinet praat zaterdag verder met de oppositie over het belastingplan. Namens het kabinet ontvangen premier Rob Jetten en ministers Dilan Yesilgöz, Bart van den Brink en Eelco Heinen verschillende partijen van de rechter- en linkerflank van de oppositie.",
+        "imageUrl": "https://images.nu.nl/m/2pex8l7ab30w_sqr256/1203/588/3412/3412/kabinet-praat-in-catshuis-verder-met-oppositie-over-steun-voor-belastingplan.jpg"
+      },
+      {
+        "title": "Winstmakende oliebedrijven verlagen prijs benzine niet: 'Waarom zouden ze?'",
+        "url": "https://www.nu.nl/economie/6414840/winstmakende-oliebedrijven-verlagen-prijs-benzine-niet-waarom-zouden-ze.html",
+        "date": "Sat, 31 Oct 2026 12:00:33 +0100",
+        "summary": "Sinds het uitbreken van de oorlog in Iran stijgen de olieprijzen en maken oliebedrijven flinke winst . Lezers vroegen zich af hoe het kan dat benzine aan de pomp toch zo duur blijft. Experts stellen dat de overheid nauwelijks invloed heeft op de prijzen.",
+        "imageUrl": "https://images.nu.nl/m/31oxv6uakkyv_sqr256/950/0/2832/2832/winstmakende-oliebedrijven-verlagen-prijs-benzine-niet-waarom-zouden-ze.jpg"
+      },
+      {
+        "title": "Amerikaan loopt onwetend twee maanden met miljoen in zijn portemonnee rond",
+        "url": "https://www.nu.nl/opmerkelijk/6415026/amerikaan-loopt-onwetend-twee-maanden-met-miljoen-in-zijn-portemonnee-rond.html",
+        "date": "Sat, 31 Oct 2026 11:52:29 +0100",
+        "summary": "Een Amerikaanse man liep bijna twee maanden lang rond met een winnend lot ter waarde van 1 miljoen dollar (bijna 900.000 euro) in zijn portemonnee. Hij kwam erachter toen hij frisdrank wilde kopen in een winkel.",
+        "imageUrl": "https://images.nu.nl/m/bm7xbpbaozfv_sqr256/379/0/4011/4011/amerikaan-loopt-onwetend-twee-maanden-met-miljoen-in-zijn-portemonnee-rond.jpg"
+      },
       {
         "title": "Frankrijk zet zich schrap voor halloweenprotesten, groot risico op onrust",
         "url": "https://www.nu.nl/buitenland/6415028/frankrijk-zet-zich-schrap-voor-halloweenprotesten-groot-risico-op-onrust.html",
@@ -30,27 +51,6 @@
         "date": "Sat, 31 Oct 2026 10:36:04 +0100",
         "summary": "De marechaussee heeft zaterdagochtend twee mensen aangehouden op verdenking van mensensmokkel nadat hulpdiensten in Zeeland waren uitgerukt voor een rubberboot met tientallen opvarenden op zee. Hulpdiensten hebben de boot van zee gehaald.",
         "imageUrl": "https://images.nu.nl/m/vlix844af029_sqr256/1246/1/3711/3711/rubberboot-met-vermoedelijk-tientallen-migranten-van-zee-gehaald-bij-zeeland.jpg"
-      },
-      {
-        "title": "Meer winkels in Den Haag timmeren pui dicht uit vrees voor ongeregeldheden",
-        "url": "https://www.nu.nl/binnenland/6415022/meer-winkels-in-den-haag-timmeren-pui-dicht-uit-vrees-voor-ongeregeldheden.html",
-        "date": "Sat, 31 Oct 2026 10:30:19 +0100",
-        "summary": "Meer winkels in Den Haag timmeren hun ramen en deuren dicht uit vrees voor plunderingen. Via sociale media werd afgelopen week opgeroepen om te gaan protesteren. Maar het is helemaal niet duidelijk of er iets te gebeuren staat in Den Haag.",
-        "imageUrl": "https://images.nu.nl/m/kbwx5i4as5e8_sqr256/798/6/3089/3089/meer-winkels-in-den-haag-timmeren-pui-dicht-uit-vrees-voor-ongeregeldheden.jpg"
-      },
-      {
-        "title": "Lufthansa-crewlid geëlektrocuteerd in zwembad van Indiaas vijfsterrenhotel",
-        "url": "https://www.nu.nl/buitenland/6415016/lufthansa-crewlid-geelektrocuteerd-in-zwembad-van-indiaas-vijfsterrenhotel.html",
-        "date": "Sat, 31 Oct 2026 09:32:44 +0100",
-        "summary": "KLM is geschrokken van een dodelijk incident in een vijfsterrenhotel in India. Daar kwamen volgens Indiase media twee mensen om het leven doordat zij werden geëlektrocuteerd in het zwembad. Een van de overledenen was een bemanningslid van Lufthansa.",
-        "imageUrl": "https://images.nu.nl/m/4lrxtqja6i9h_sqr256/373/0/1080/1080/lufthansa-crewlid-geelektrocuteerd-in-zwembad-van-indiaas-vijfsterrenhotel.jpg"
-      },
-      {
-        "title": "Schermtijd | Een browser die stopt is net zo erg als het vertrek van je kapper",
-        "url": "https://www.nu.nl/tech/6414461/een-browser-die-stopt-is-net-zo-erg-als-het-vertrek-van-je-kapper.html",
-        "date": "Sat, 31 Oct 2026 09:27:59 +0100",
-        "summary": "In de rubriek Schermtijd schrijft techverslaggever Rutger Otto wekelijks over het internet. Dit keer: als je favoriete software wegvalt, blijf je ontheemd achter.",
-        "imageUrl": "https://images.nu.nl/m/sf3xj6yakqu8_sqr256/404/0/1069/1069/een-browser-die-stopt-is-net-zo-erg-als-het-vertrek-van-je-kapper.jpg"
       }
     ]
   },
@@ -58,30 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "11:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
       {
         "time": "12:20",
         "mmHour": 0.0
@@ -153,12 +129,36 @@
       {
         "time": "13:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "13:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.3,
+    "temperature": 8.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T10:46:42+00:00",
-    "rainUpdatedAt": "2026-10-31T10:46:43+00:00"
+    "weatherUpdatedAt": "2026-10-31T11:17:29+00:00",
+    "rainUpdatedAt": "2026-10-31T11:17:30+00:00"
   }
 }
