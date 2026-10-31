@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T11:17:29+00:00",
+    "updatedAt": "2026-10-31T11:55:12+00:00",
     "headlines": [
+      {
+        "title": "Pérez is ook in achterhoede grote held bij Mexicaanse GP: 'Dit is onze Super Bowl'",
+        "url": "https://www.nu.nl/formule-1/6414992/perez-is-ook-in-achterhoede-grote-held-bij-mexicaanse-gp-dit-is-onze-super-bowl.html",
+        "date": "Sat, 31 Oct 2026 12:41:29 +0100",
+        "summary": "Sergio Pérez (36) hoeft in Mexico niet vooraan te rijden om het publiek op de banken te krijgen. Zijn terugkeer geeft het immens populaire Formule 1-evenement in de miljoenenstad extra kleur.",
+        "imageUrl": "https://images.nu.nl/m/vk7xs8za9nk1_sqr256/109/164/1836/1836/perez-is-ook-in-achterhoede-grote-held-bij-mexicaanse-gp-dit-is-onze-super-bowl.jpg"
+      },
       {
         "title": "Kabinet praat in Catshuis verder met oppositie over steun voor belastingplan",
         "url": "https://www.nu.nl/politiek/6415030/kabinet-praat-in-catshuis-verder-met-oppositie-over-steun-voor-belastingplan.html",
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 11:09:09 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/c2lxxofa4u82_sqr256/186/0/719/719/hulpdiensten-halen-tientallen-migranten-van-rubberboot-in-zeeland.jpg"
-      },
-      {
-        "title": "Rubberboot met vermoedelijk tientallen migranten van zee gehaald bij Zeeland",
-        "url": "https://www.nu.nl/binnenland/6415023/rubberboot-met-vermoedelijk-tientallen-migranten-van-zee-gehaald-bij-zeeland.html",
-        "date": "Sat, 31 Oct 2026 10:36:04 +0100",
-        "summary": "De marechaussee heeft zaterdagochtend twee mensen aangehouden op verdenking van mensensmokkel nadat hulpdiensten in Zeeland waren uitgerukt voor een rubberboot met tientallen opvarenden op zee. Hulpdiensten hebben de boot van zee gehaald.",
-        "imageUrl": "https://images.nu.nl/m/vlix844af029_sqr256/1246/1/3711/3711/rubberboot-met-vermoedelijk-tientallen-migranten-van-zee-gehaald-bij-zeeland.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:55",
-        "mmHour": 0.0
-      },
       {
         "time": "13:00",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "14:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.4,
+    "temperature": 8.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T11:17:29+00:00",
-    "rainUpdatedAt": "2026-10-31T11:17:30+00:00"
+    "weatherUpdatedAt": "2026-10-31T11:55:13+00:00",
+    "rainUpdatedAt": "2026-10-31T11:55:13+00:00"
   }
 }
