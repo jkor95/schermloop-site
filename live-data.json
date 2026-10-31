@@ -1,21 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T15:17:54+00:00",
+    "updatedAt": "2026-10-31T15:54:51+00:00",
     "headlines": [
       {
-        "title": "Live Eredivisie | Feyenoord begint met één wijziging tegen Fortuna Sittard",
-        "url": "https://www.nu.nl/voetbal/6415047/feyenoord-begint-met-een-wijziging-tegen-fortuna-sittard.html",
-        "date": "Sat, 31 Oct 2026 15:55:44 +0100",
-        "summary": "Goedendag en welkom in dit liveblog. Hier houden wij, Teun Heijmans en Hein Nooijens, je op de hoogte van de ontwikkelingen op deze mooie Eredivisie-dag. Feyenoord en PSV komen in actie, daarna is de topper Ajax-AZ. Veel plezier!",
-        "imageUrl": "https://images.nu.nl/m/im6x6wsaham0_sqr256/815/0/2361/2361/feyenoord-begint-met-een-wijziging-tegen-fortuna-sittard.jpg"
+        "title": "Ocon komt niet meer in actie bij GP Mexico en wordt vervangen door Hirakawa",
+        "url": "https://www.nu.nl/formule-1/6415050/ocon-komt-niet-meer-in-actie-bij-gp-mexico-en-wordt-vervangen-door-hirakawa.html",
+        "date": "Sat, 31 Oct 2026 16:22:14 +0100",
+        "summary": "Esteban Ocon komt dit weekend niet meer in actie tijdens de Grand Prix van Mexico. De Formule 1-coureur wordt bij Haas vervangen door de Japanner Ryo Hirakawa. Het is niet bekend waarom Ocon zijn zitje moet afstaan.",
+        "imageUrl": "https://images.nu.nl/m/tqxxbsnay4jl_sqr256/1308/0/3799/3799/ocon-komt-niet-meer-in-actie-bij-gp-mexico-en-wordt-vervangen-door-hirakawa.jpg"
       },
       {
-        "title": "Manchester United dieper in de problemen na competitienederlaag bij Chelsea",
-        "url": "https://www.nu.nl/voetbal/6415041/manchester-united-dieper-in-de-problemen-na-competitienederlaag-bij-chelsea.html",
+        "title": "Live Eredivisie | Feyenoord voert tempo op en raakt paal tegen Fortuna Sittard",
+        "url": "https://www.nu.nl/voetbal/6415047/feyenoord-voert-tempo-op-en-raakt-paal-tegen-fortuna-sittard.html",
+        "date": "Sat, 31 Oct 2026 15:55:44 +0100",
+        "summary": "Goedendag en welkom in dit liveblog. Hier houden wij, Teun Heijmans en Hein Nooijens, je op de hoogte van de ontwikkelingen op deze mooie Eredivisie-dag. Feyenoord en PSV komen in actie, daarna is de topper Ajax-AZ. Veel plezier!",
+        "imageUrl": "https://images.nu.nl/m/nt6xtqgagxl6_sqr256/550/0/2854/2854/feyenoord-voert-tempo-op-en-raakt-paal-tegen-fortuna-sittard.jpg"
+      },
+      {
+        "title": "Manchester United en Carrick dieper in de problemen na nederlaag bij Chelsea",
+        "url": "https://www.nu.nl/voetbal/6415041/manchester-united-en-carrick-dieper-in-de-problemen-na-nederlaag-bij-chelsea.html",
         "date": "Sat, 31 Oct 2026 15:35:46 +0100",
-        "summary": "Manchester United heeft zaterdag voor de negende wedstrijd op rij niet gewonnen. De ploeg van manager Michael Carrick verloor in de competitie met 2-0 bij Chelsea.",
-        "imageUrl": "https://images.nu.nl/m/k7dx60taf8lh_sqr256/319/0/2004/2004/manchester-united-dieper-in-de-problemen-na-competitienederlaag-bij-chelsea.jpg"
+        "summary": "Manchester United heeft zaterdag voor de negende wedstrijd op rij niet gewonnen. De ploeg van manager Michael Carrick verloor in de Premier League met 2-0 bij Chelsea.",
+        "imageUrl": "https://images.nu.nl/m/853xy2raxwon_sqr256/396/0/1452/1452/manchester-united-en-carrick-dieper-in-de-problemen-na-nederlaag-bij-chelsea.jpg"
       },
       {
         "title": "Brit die 28 jaar rond de wereld wandelde bijna thuis: 'Ken maatschappij niet meer'",
@@ -44,13 +51,6 @@
         "date": "Sat, 31 Oct 2026 14:35:12 +0100",
         "summary": "Macklemore vond het ongemakkelijker om te zwijgen dan om zich uit te spreken over de ophef die ontstond toen Ed Sheeran hem vanwege zijn pro-Palestijnse uitspraken uit zijn voorprogramma haalde. Als reactie daarop kondigde hij zijn Free Palestine-tour aan.",
         "imageUrl": "https://images.nu.nl/m/hzcx002a3j5x_sqr256/1291/0/3456/3456/macklemore-vond-het-ongemakkelijk-om-te-zwijgen-over-ed-sheeran-rel.jpg"
-      },
-      {
-        "title": "Sherrock pareert kritiek na zege in dartsshow van Littler: 'Zie mezelf niet als prof'",
-        "url": "https://www.nu.nl/darts/6415036/sherrock-pareert-kritiek-na-zege-in-dartsshow-van-littler-zie-mezelf-niet-als-prof.html",
-        "date": "Sat, 31 Oct 2026 14:01:04 +0100",
-        "summary": "Fallon Sherrock trekt zich weinig aan van de kritiek op haar deelname aan de Netflix-show Beat Luke Littler . De verwachting was dat Littler het zou opnemen tegen twintig amateurs, maar uiteindelijk ging zesvoudig WK-deelnemer Sherrock er met de prijzenpot vandoor.",
-        "imageUrl": "https://images.nu.nl/m/u72xymza8vm1_sqr256/1671/0/4106/4106/sherrock-pareert-kritiek-na-zege-in-dartsshow-van-littler-zie-mezelf-niet-als-prof.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "16:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:50",
-        "mmHour": 0.0
-      },
       {
         "time": "16:55",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "18:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "18:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.0,
+    "temperature": 8.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T15:17:54+00:00",
-    "rainUpdatedAt": "2026-10-31T15:17:54+00:00"
+    "weatherUpdatedAt": "2026-10-31T15:54:52+00:00",
+    "rainUpdatedAt": "2026-10-31T15:54:52+00:00"
   }
 }
