@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T09:47:46+00:00",
+    "updatedAt": "2026-11-01T10:23:36+00:00",
     "headlines": [
+      {
+        "title": "Vader geeft zoon (17) aan bij politie na steekpartij en afpersing in Breda",
+        "url": "https://www.nu.nl/binnenland/6415113/vader-geeft-zoon-17-aan-bij-politie-na-steekpartij-en-afpersing-in-breda.html",
+        "date": "Sun, 01 Nov 2026 11:02:23 +0100",
+        "summary": "Een vader heeft zijn zeventienjarige zoon aangegeven bij de politie na een steekpartij en afpersing. Bij geweld tussen twee jongerengroepen op een bushalte in Breda zaterdagavond, zou de jongen iemand hebben verwond. Het slachtoffer moest geld overmaken naar zijn rekening.",
+        "imageUrl": "https://images.nu.nl/m/j15xijsay7oj_sqr256/875/0/2800/2800/vader-geeft-zoon-17-aan-bij-politie-na-steekpartij-en-afpersing-in-breda.jpg"
+      },
+      {
+        "title": "Kjeld Nuis wint na twee maanden kwakkelen en klooien: 'Wat is dit voor lachfilm?'",
+        "url": "https://www.nu.nl/schaatsen/6415069/kjeld-nuis-wint-na-twee-maanden-kwakkelen-en-klooien-wat-is-dit-voor-lachfilm.html",
+        "date": "Sun, 01 Nov 2026 10:49:25 +0100",
+        "summary": "Kjeld Nuis kwakkelde de afgelopen twee maanden met zijn gezondheid. Ondanks twee antibioticakuren was de 36-jarige schaatser zaterdag in Thialf weer de beste op de 1.500 meter van Nederland. \"Ik kon niet geloven dat ik gewonnen had.\"",
+        "imageUrl": "https://images.nu.nl/m/i7fxtr7awfne_sqr256/901/0/4218/4218/kjeld-nuis-wint-na-twee-maanden-kwakkelen-en-klooien-wat-is-dit-voor-lachfilm.jpg"
+      },
       {
         "title": "Zorgen om tienduizenden noodknoppen voor ouderen: 'Gaat om leven of dood'",
         "url": "https://www.nu.nl/nujij/6414812/zorgen-om-tienduizenden-noodknoppen-voor-ouderen-gaat-om-leven-of-dood.html",
@@ -37,20 +51,6 @@
         "date": "Sun, 01 Nov 2026 08:53:16 +0100",
         "summary": "In de rubriek De broeikas schrijft klimaatverslaggever Jeroen Kraan elke zondag over wat hem opvalt. Deze week: In Nederland hebben we veel laadpalen, maar hoe gaat elektrisch rijden in de rest van Europa? Tijd voor een test.",
         "imageUrl": "https://images.nu.nl/m/t1jxufmaqhjb_sqr256/426/0/1077/1077/dwars-door-europa-met-stekkerbus-eens-zien-of-dat-gaat-lukken.jpg"
-      },
-      {
-        "title": "Geëmotioneerde Hamilton (41) is oudste polesitter sinds 1982: 'Ik ben sprakeloos'",
-        "url": "https://www.nu.nl/formule-1/6415103/geemotioneerde-hamilton-41-is-oudste-polesitter-sinds-1982-ik-ben-sprakeloos.html",
-        "date": "Sun, 01 Nov 2026 08:52:47 +0100",
-        "summary": "Lewis Hamilton was dolgelukkig na zijn eerste poleposition voor Ferrari bij de Grand Prix van Mexico. De prestatie doet de zevenvoudig wereldkampioen terugdenken aan zijn idool Michael Schumacher, die in de rode auto vijf wereldtitels won.",
-        "imageUrl": "https://images.nu.nl/m/x8jxzg4abv6o_sqr256/200/0/2061/2061/geemotioneerde-hamilton-41-is-oudste-polesitter-sinds-1982-ik-ben-sprakeloos.jpg"
-      },
-      {
-        "title": "Van 't Wout schaamt zich na 'vreselijk domme' actie die Boer unieke zege kostte",
-        "url": "https://www.nu.nl/sport-overig/6415101/van-t-wout-schaamt-zich-na-vreselijk-domme-actie-die-boer-unieke-zege-kostte.html",
-        "date": "Sun, 01 Nov 2026 08:24:05 +0100",
-        "summary": "Jens van 't Wout schaamt zich dat hij Teun Boer zaterdag in de finale van de 500 meter een World Tour-overwinning door de neus heeft geboord. De drievoudig olympisch shorttrackkampioen schaatste zijn landgenoot in de laatste bocht omver.",
-        "imageUrl": "https://images.nu.nl/m/7anxn8aacvey_sqr256/1777/1/4470/4470/van-t-wout-schaamt-zich-na-vreselijk-domme-actie-die-boer-unieke-zege-kostte.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "10:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:20",
-        "mmHour": 0.0
-      },
       {
         "time": "11:25",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "12:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "12:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.3,
+    "temperature": 10.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T09:47:46+00:00",
-    "rainUpdatedAt": "2026-11-01T09:47:47+00:00"
+    "weatherUpdatedAt": "2026-11-01T10:23:36+00:00",
+    "rainUpdatedAt": "2026-11-01T10:23:37+00:00"
   }
 }
