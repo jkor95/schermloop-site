@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T05:29:53+00:00",
+    "updatedAt": "2026-11-01T06:16:48+00:00",
     "headlines": [
+      {
+        "title": "Ajax koestert zege op angstgegner AZ: 'Ze voetbalden veel beter dan wij'",
+        "url": "https://www.nu.nl/voetbal/6415092/ajax-koestert-zege-op-angstgegner-az-ze-voetbalden-veel-beter-dan-wij.html",
+        "date": "Sun, 01 Nov 2026 07:01:28 +0100",
+        "summary": "Na ruim vier jaar won Ajax zaterdag weer eens van AZ (1-0). Als je Míchel Sánchez en Sofyan Amrabat na afloop in de ArenA hoorde, was dat een klein wonder. De Spanjaard vond dat AZ veel beter was. De ervaren middenvelder was onder de indruk van de Alkmaarders.",
+        "imageUrl": "https://images.nu.nl/m/v6pxvupa6ltu_sqr256/36/334/2520/2520/ajax-koestert-zege-op-angstgegner-az-ze-voetbalden-veel-beter-dan-wij.jpg"
+      },
+      {
+        "title": "Na Frankrijk en Duitsland ook rellen in Zwitserland, tiener zwaargewond",
+        "url": "https://www.nu.nl/buitenland/6415097/na-frankrijk-en-duitsland-ook-rellen-in-zwitserland-tiener-zwaargewond.html",
+        "date": "Sun, 01 Nov 2026 06:53:43 +0100",
+        "summary": "In meerdere Europese landen waren zaterdag zogenoemde Gen-Z protesten. Na Frankrijk, Duitsland en Nederland, was het ook in Zwitserse steden onrustig. Een tiener raakte zwaargewond.",
+        "imageUrl": "https://images.nu.nl/m/gcux50ja6mv2_sqr256/1630/0/3264/3264/na-frankrijk-en-duitsland-ook-rellen-in-zwitserland-tiener-zwaargewond.jpg"
+      },
       {
         "title": "VS wijst aanklacht van Trump tegen The Wall Street Journal over Epsteinbrief af",
         "url": "https://www.nu.nl/media/6415096/vs-wijst-aanklacht-van-trump-tegen-the-wall-street-journal-over-epsteinbrief-af.html",
@@ -37,20 +51,6 @@
         "date": "Sun, 01 Nov 2026 05:00:40 +0100",
         "summary": "Een AI-chatbot is altijd beschikbaar en vindt jou geweldig. Het kan voelen alsof er eindelijk iemand is die je begrijpt. Maar wat gebeurt er als we persoonlijke problemen steeds vaker voorleggen aan een systeem dat ons niet werkelijk begrijpt?",
         "imageUrl": "https://images.nu.nl/m/dkexh35av0ou_sqr256/785/2/1078/1078/we-vertrouwen-onze-zorgen-toe-aan-ai-maar-wie-houdt-dan-een-spiegel-voor.jpg"
-      },
-      {
-        "title": "Premier Ethiopië laat ministers militaire training volgen: 'Fysiek fit, moreel sterk'",
-        "url": "https://www.nu.nl/buitenland/6415083/premier-ethiopie-laat-ministers-militaire-training-volgen-fysiek-fit-moreel-sterk.html",
-        "date": "Sat, 31 Oct 2026 23:36:44 +0100",
-        "summary": "De Ethiopische premier Abiy Ahmed heeft zijn ministers en andere hoge overheidsfunctionarissen een militaire training laten volgen. Volgens hem kan de discipline binnen de strijdkrachten bijdragen aan de vorming van sterkere leiders. Zelf deed Ahmed ook mee aan de training.",
-        "imageUrl": "https://images.nu.nl/m/rmhxn67a2qw4_sqr256/384/0/3072/3072/premier-ethiopie-laat-ministers-militaire-training-volgen-fysiek-fit-moreel-sterk.jpg"
-      },
-      {
-        "title": "Cambuur-Go Ahead gestaakt na vuurwerkknallen, duel wordt niet meer afgemaakt",
-        "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.html",
-        "date": "Sat, 31 Oct 2026 23:22:32 +0100",
-        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag definitief gestaakt bij een stand van 4-0. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde. De resterende tien minuten worden niet meer uitgespeeld.",
-        "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:15",
-        "mmHour": 0.0
-      },
       {
         "time": "07:20",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "08:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 2.6,
+    "temperature": 4.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T05:29:54+00:00",
-    "rainUpdatedAt": "2026-11-01T05:29:54+00:00"
+    "weatherUpdatedAt": "2026-11-01T06:16:49+00:00",
+    "rainUpdatedAt": "2026-11-01T06:16:49+00:00"
   }
 }
