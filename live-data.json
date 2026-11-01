@@ -1,21 +1,35 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T03:59:52+00:00",
+    "updatedAt": "2026-11-01T04:49:46+00:00",
     "headlines": [
+      {
+        "title": "FBI stelt dat Noord-Korea achter miljardenhack bij Binance zit",
+        "url": "https://www.nu.nl/economie/6415095/fbi-stelt-dat-noord-korea-achter-miljardenhack-bij-binance-zit.html",
+        "date": "Sun, 01 Nov 2026 05:37:01 +0100",
+        "summary": "Noord-Korea zit achter de hack bij Binance, stelt de FBI. Bij de roof werd een recordbedrag van ruim 6 miljard aan cryptovaluta gestolen.",
+        "imageUrl": "https://images.nu.nl/m/abnxsc9axb5b_sqr256/501/0/4032/4032/fbi-stelt-dat-noord-korea-achter-miljardenhack-bij-binance-zit.jpg"
+      },
+      {
+        "title": "We vertrouwen onze zorgen toe aan AI, maar wie houdt dan een spiegel voor?",
+        "url": "https://www.nu.nl/tech/6414803/we-vertrouwen-onze-zorgen-toe-aan-ai-maar-wie-houdt-dan-een-spiegel-voor.html",
+        "date": "Sun, 01 Nov 2026 05:00:40 +0100",
+        "summary": "Een AI-chatbot is altijd beschikbaar en vindt jou geweldig. Het kan voelen alsof er eindelijk iemand is die je begrijpt. Maar wat gebeurt er als we persoonlijke problemen steeds vaker voorleggen aan een systeem dat ons niet werkelijk begrijpt?",
+        "imageUrl": "https://images.nu.nl/m/dkexh35av0ou_sqr256/785/2/1078/1078/we-vertrouwen-onze-zorgen-toe-aan-ai-maar-wie-houdt-dan-een-spiegel-voor.jpg"
+      },
       {
         "title": "Premier Ethiopië laat ministers militaire training volgen: 'Fysiek fit, moreel sterk'",
         "url": "https://www.nu.nl/buitenland/6415083/premier-ethiopie-laat-ministers-militaire-training-volgen-fysiek-fit-moreel-sterk.html",
         "date": "Sat, 31 Oct 2026 23:36:44 +0100",
-        "summary": "De Ethiopische premier Abiy Ahmed heeft zijn ministers en andere hoge overheidsfunctionarissen een militaire training laten volgen. Volgens hem kan de discipline binnen de strijdkrachten kan bijdragen aan de vorming van sterkere leiders. Zelf deed Ahmed ook mee aan de training.",
+        "summary": "De Ethiopische premier Abiy Ahmed heeft zijn ministers en andere hoge overheidsfunctionarissen een militaire training laten volgen. Volgens hem kan de discipline binnen de strijdkrachten bijdragen aan de vorming van sterkere leiders. Zelf deed Ahmed ook mee aan de training.",
         "imageUrl": "https://images.nu.nl/m/rmhxn67a2qw4_sqr256/384/0/3072/3072/premier-ethiopie-laat-ministers-militaire-training-volgen-fysiek-fit-moreel-sterk.jpg"
       },
       {
-        "title": "Cambuur-Go Ahead gestaakt na vuurwerkincidenten, spelers willen verder",
-        "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkincidenten-spelers-willen-verder.html",
+        "title": "Cambuur-Go Ahead gestaakt na vuurwerkknallen, duel wordt niet meer afgemaakt",
+        "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.html",
         "date": "Sat, 31 Oct 2026 23:22:32 +0100",
-        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag tien minuten voor het einde definitief gestaakt. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde.",
-        "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkincidenten-spelers-willen-verder.jpg"
+        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag definitief gestaakt bij een stand van 4-0. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde. De resterende tien minuten worden niet meer uitgespeeld.",
+        "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.jpg"
       },
       {
         "title": "Verstappen start GP Mexico als vijfde na straf, Antonelli begint titelrace als vierde",
@@ -36,21 +50,7 @@
         "url": "https://www.nu.nl/buitenland/6415080/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.html",
         "date": "Sat, 31 Oct 2026 22:37:04 +0100",
         "summary": "De Russische Federale Veiligheidsdienst (FSB) meldt dat het van de Verenigde Staten informatie heeft gekregen over voorbereidingen voor een terroristische aanslag in Moskou. De dienst laat weten dat het passende voorzorgsmaatregelen neemt, meldt het Russische persbureau RIA .",
-        "imageUrl": "https://images.nu.nl/m/94ixbnzak4zg_sqr256/736/0/1890/1890/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.jpg"
-      },
-      {
-        "title": "Sovjet-ereveld in Leusden opnieuw beklad met leuzen over communisten",
-        "url": "https://www.nu.nl/binnenland/6415076/sovjet-ereveld-in-leusden-opnieuw-beklad-met-leuzen-over-communisten.html",
-        "date": "Sat, 31 Oct 2026 21:35:44 +0100",
-        "summary": "Het Sovjet-ereveld in Leusden is zaterdag opnieuw beklad, meldt de organisatie op haar website. Met rode en zwarte verf zijn leuzen als 'fuck refugees' aangebracht op de obelisk en de gedenkmuur op de begraafplaats. In juli werden er ook al grafstenen besmeurd.",
-        "imageUrl": "https://images.nu.nl/m/qmlxqnkagf9c_sqr256/2/257/1198/1198/sovjet-ereveld-in-leusden-opnieuw-beklad-met-leuzen-over-communisten.jpg"
-      },
-      {
-        "title": "Tientallen aanhoudingen verricht bij onrust in Den Haag, merendeel minderjarig",
-        "url": "https://www.nu.nl/binnenland/6415079/tientallen-aanhoudingen-verricht-bij-onrust-in-den-haag-merendeel-minderjarig.html",
-        "date": "Sat, 31 Oct 2026 21:13:08 +0100",
-        "summary": "De politie heeft zaterdag 34 mensen aangehouden tijdens onrust in Den Haag. Er hebben geen rellen of plunderingen plaatsgevonden, maar op een enkele plek moest de mobiele eenheid kortstondig ingrijpen. Het overgrote deel van de arrestanten is minderjarig.",
-        "imageUrl": "https://images.nu.nl/m/tw5xmlra7iir_sqr256/2630/702/4714/4714/tientallen-aanhoudingen-verricht-bij-onrust-in-den-haag-merendeel-minderjarig.jpg"
+        "imageUrl": "https://images.nu.nl/m/hhix0wmayl0f_sqr256/78/0/1969/1969/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "05:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
       {
         "time": "05:50",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "06:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 1.8,
-    "description": "Afwisselend bewolkt met lokaal mist(banken)",
+    "temperature": 2.6,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T03:59:53+00:00",
-    "rainUpdatedAt": "2026-11-01T03:59:53+00:00"
+    "weatherUpdatedAt": "2026-11-01T04:49:46+00:00",
+    "rainUpdatedAt": "2026-11-01T04:49:47+00:00"
   }
 }
