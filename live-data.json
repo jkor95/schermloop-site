@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T16:22:29+00:00",
+    "updatedAt": "2026-11-01T17:00:02+00:00",
     "headlines": [
+      {
+        "title": "Cartoonist krijgt 4 jaar cel in Marokko om beledigen koning: 'Trend van intimidatie'",
+        "url": "https://www.nu.nl/buitenland/6415155/cartoonist-krijgt-4-jaar-cel-in-marokko-om-beledigen-koning-trend-van-intimidatie.html",
+        "date": "Sun, 01 Nov 2026 17:56:28 +0100",
+        "summary": "Een Marokkaanse rechtbank heeft een cartoonist veroordeeld tot vier jaar gevangenisstraf vanwege het \"beledigen van de koning\", laat zijn advocaat weten. De 22-jarige Yasser Mounbir had karikaturen van de Marokkaanse koning Mohammed VI gemaakt en deze op Instagram geplaatst.",
+        "imageUrl": "https://images.nu.nl/m/cmcxbwaaftkn_sqr256/95/0/1999/1999/cartoonist-krijgt-4-jaar-cel-in-marokko-om-beledigen-koning-trend-van-intimidatie.jpg"
+      },
       {
         "title": "Demonstrant verstoort opzetten van probleemwolf Bram in Naturalis",
         "url": "https://www.nu.nl/wolf/6415148/demonstrant-verstoort-opzetten-van-probleemwolf-bram-in-naturalis.html",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 15:08:17 +0100",
         "summary": "De eerste editie van de marathon van Den Haag is zondag van start gegaan. Duizenden hardlopers leggen de 42,2 kilometer door de Hofstad en omstreken af.",
         "imageUrl": "https://images.nu.nl/m/td6xr13a0wpu_sqr256/1182/0/2351/2351/zo-zag-de-eerste-editie-van-de-marathon-van-den-haag-eruit.jpg"
-      },
-      {
-        "title": "Ruim 120 Duitse agenten gewond bij rellen rond gen Z-demonstraties",
-        "url": "https://www.nu.nl/buitenland/6415135/ruim-120-duitse-agenten-gewond-bij-rellen-rond-gen-z-demonstraties.html",
-        "date": "Sun, 01 Nov 2026 14:59:26 +0100",
-        "summary": "In de Duitse steden Frankfurt en Keulen zijn zaterdag zeker 120 agenten gewond geraakt nadat rellen waren uitgebroken rond gen Z-demonstraties. Volgens de Duitse politie zijn mensen doelbewust naar de steden gekomen om te rellen.",
-        "imageUrl": "https://images.nu.nl/m/5gwxy4baeibr_sqr256/1412/4/5082/5082/ruim-120-duitse-agenten-gewond-bij-rellen-rond-gen-z-demonstraties.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "17:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:55",
-        "mmHour": 0.0
-      },
       {
         "time": "18:00",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "19:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "19:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.0,
+    "temperature": 10.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T16:22:30+00:00",
-    "rainUpdatedAt": "2026-11-01T16:22:31+00:00"
+    "weatherUpdatedAt": "2026-11-01T17:00:02+00:00",
+    "rainUpdatedAt": "2026-11-01T17:00:02+00:00"
   }
 }
