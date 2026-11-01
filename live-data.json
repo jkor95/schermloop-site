@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T18:08:19+00:00",
+    "updatedAt": "2026-11-01T18:50:51+00:00",
     "headlines": [
       {
         "title": "Weghorst dankt God voor speciale middag en hoopt dat Litmanen zijn goals ziet",
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:45",
-        "mmHour": 0.0
-      },
       {
         "time": "19:50",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "21:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.9,
+    "temperature": 9.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T18:08:19+00:00",
-    "rainUpdatedAt": "2026-11-01T18:08:19+00:00"
+    "weatherUpdatedAt": "2026-11-01T18:50:52+00:00",
+    "rainUpdatedAt": "2026-11-01T18:50:52+00:00"
   }
 }
