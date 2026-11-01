@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T00:13:10+00:00",
+    "updatedAt": "2026-11-01T01:26:46+00:00",
     "headlines": [
       {
         "title": "Premier Ethiopië laat ministers militaire training volgen: 'Fysiek fit, moreel sterk'",
@@ -11,11 +11,11 @@
         "imageUrl": "https://images.nu.nl/m/rmhxn67a2qw4_sqr256/384/0/3072/3072/premier-ethiopie-laat-ministers-militaire-training-volgen-fysiek-fit-moreel-sterk.jpg"
       },
       {
-        "title": "Cambuur-Go Ahead gestaakt na vuurwerkknallen, duel wordt niet meer afgemaakt",
-        "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.html",
+        "title": "Cambuur-Go Ahead gestaakt na vuurwerkincidenten, spelers willen verder",
+        "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkincidenten-spelers-willen-verder.html",
         "date": "Sat, 31 Oct 2026 23:22:32 +0100",
-        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag definitief gestaakt bij een stand van 4-0. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde. De resterende tien minuten worden niet meer uitgespeeld.",
-        "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.jpg"
+        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag tien minuten voor het einde definitief gestaakt. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde.",
+        "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkincidenten-spelers-willen-verder.jpg"
       },
       {
         "title": "Verstappen start GP Mexico als vijfde na straf, Antonelli begint titelrace als vierde",
@@ -36,7 +36,7 @@
         "url": "https://www.nu.nl/buitenland/6415080/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.html",
         "date": "Sat, 31 Oct 2026 22:37:04 +0100",
         "summary": "De Russische Federale Veiligheidsdienst (FSB) meldt dat het van de Verenigde Staten informatie heeft gekregen over voorbereidingen voor een terroristische aanslag in Moskou. De dienst laat weten dat het passende voorzorgsmaatregelen neemt, meldt het Russische persbureau RIA .",
-        "imageUrl": "https://images.nu.nl/m/hhix0wmayl0f_sqr256/78/0/1969/1969/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.jpg"
+        "imageUrl": "https://images.nu.nl/m/94ixbnzak4zg_sqr256/736/0/1890/1890/ambassade-vs-waarschuwt-rusland-voor-terroristische-aanslag-op-moskou.jpg"
       },
       {
         "title": "Sovjet-ereveld in Leusden opnieuw beklad met leuzen over communisten",
@@ -58,62 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "01:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:20",
-        "mmHour": 0.0
-      },
       {
         "time": "02:25",
         "mmHour": 0.0
@@ -153,12 +97,68 @@
       {
         "time": "03:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "03:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 3.3,
+    "temperature": 2.2,
     "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T00:13:10+00:00",
-    "rainUpdatedAt": "2026-11-01T00:13:11+00:00"
+    "weatherUpdatedAt": "2026-11-01T01:26:47+00:00",
+    "rainUpdatedAt": "2026-11-01T01:26:47+00:00"
   }
 }
