@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T06:16:48+00:00",
+    "updatedAt": "2026-11-01T07:26:21+00:00",
     "headlines": [
+      {
+        "title": "Trump over gevluchte Bolsonaro: 'Mag zolang in VS blijven als hij wil'",
+        "url": "https://www.nu.nl/buitenland/6415102/trump-over-gevluchte-bolsonaro-mag-zolang-in-vs-blijven-als-hij-wil.html",
+        "date": "Sun, 01 Nov 2026 08:21:56 +0100",
+        "summary": "De Braziliaanse oud-presidentskandidaat Flávio Bolsonaro, mag van de Amerikaanse president Donald Trump zolang in de Verenigde Staten blijven als hij wil. Bolsonaro vluchtte naar de VS na het verliezen van de presidentsverkiezingen in zijn land.",
+        "imageUrl": "https://images.nu.nl/m/l1yxt8capucm_sqr256/578/0/2484/2484/trump-over-gevluchte-bolsonaro-mag-zolang-in-vs-blijven-als-hij-wil.jpg"
+      },
       {
         "title": "Ajax koestert zege op angstgegner AZ: 'Ze voetbalden veel beter dan wij'",
         "url": "https://www.nu.nl/voetbal/6415092/ajax-koestert-zege-op-angstgegner-az-ze-voetbalden-veel-beter-dan-wij.html",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 05:37:01 +0100",
         "summary": "Noord-Korea zit achter de hack bij Binance, stelt de FBI. Bij de roof werd een recordbedrag van ruim 6 miljard aan cryptovaluta gestolen.",
         "imageUrl": "https://images.nu.nl/m/abnxsc9axb5b_sqr256/501/0/4032/4032/fbi-stelt-dat-noord-korea-achter-miljardenhack-bij-binance-zit.jpg"
-      },
-      {
-        "title": "We vertrouwen onze zorgen toe aan AI, maar wie houdt dan een spiegel voor?",
-        "url": "https://www.nu.nl/tech/6414803/we-vertrouwen-onze-zorgen-toe-aan-ai-maar-wie-houdt-dan-een-spiegel-voor.html",
-        "date": "Sun, 01 Nov 2026 05:00:40 +0100",
-        "summary": "Een AI-chatbot is altijd beschikbaar en vindt jou geweldig. Het kan voelen alsof er eindelijk iemand is die je begrijpt. Maar wat gebeurt er als we persoonlijke problemen steeds vaker voorleggen aan een systeem dat ons niet werkelijk begrijpt?",
-        "imageUrl": "https://images.nu.nl/m/dkexh35av0ou_sqr256/785/2/1078/1078/we-vertrouwen-onze-zorgen-toe-aan-ai-maar-wie-houdt-dan-een-spiegel-voor.jpg"
       }
     ]
   },
@@ -58,62 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:25",
-        "mmHour": 0.0
-      },
       {
         "time": "08:30",
         "mmHour": 0.0
@@ -153,12 +97,68 @@
       {
         "time": "09:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 4.5,
+    "temperature": 5.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T06:16:49+00:00",
-    "rainUpdatedAt": "2026-11-01T06:16:49+00:00"
+    "weatherUpdatedAt": "2026-11-01T07:26:22+00:00",
+    "rainUpdatedAt": "2026-11-01T07:26:22+00:00"
   }
 }
