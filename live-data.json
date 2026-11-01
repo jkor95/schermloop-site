@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-10-31T23:39:12+00:00",
+    "updatedAt": "2026-11-01T00:13:10+00:00",
     "headlines": [
       {
         "title": "Premier Ethiopië laat ministers militaire training volgen: 'Fysiek fit, moreel sterk'",
@@ -14,7 +14,7 @@
         "title": "Cambuur-Go Ahead gestaakt na vuurwerkknallen, duel wordt niet meer afgemaakt",
         "url": "https://www.nu.nl/voetbal/6415087/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.html",
         "date": "Sat, 31 Oct 2026 23:22:32 +0100",
-        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag tien minuten voor het einde definitief gestaakt. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde. Het restant wordt niet meer uitgespeeld.",
+        "summary": "SC Cambuur-Go Ahead Eagles is zaterdag definitief gestaakt bij een stand van 4-0. Fans van Go Ahead Eagles gooiden tot twee keer toe met vuurwerk, waarna scheidsrechter Serdar Gözübüyük de wedstrijd beëindigde. De resterende tien minuten worden niet meer uitgespeeld.",
         "imageUrl": "https://images.nu.nl/m/kfbxyb4awhk7_sqr256/2033/1134/2749/2749/cambuur-go-ahead-gestaakt-na-vuurwerkknallen-duel-wordt-niet-meer-afgemaakt.jpg"
       },
       {
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:10",
-        "mmHour": 0.0
-      },
       {
         "time": "01:15",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "02:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 3.1,
-    "description": "Mix van opklaringen en middelbare of lage bewolking",
+    "temperature": 3.3,
+    "description": "Afwisselend bewolkt met lokaal mist(banken)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-10-31T23:39:12+00:00",
-    "rainUpdatedAt": "2026-10-31T23:39:13+00:00"
+    "weatherUpdatedAt": "2026-11-01T00:13:10+00:00",
+    "rainUpdatedAt": "2026-11-01T00:13:11+00:00"
   }
 }
