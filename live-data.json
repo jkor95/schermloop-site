@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T09:06:00+00:00",
+    "updatedAt": "2026-11-01T09:47:46+00:00",
     "headlines": [
+      {
+        "title": "Zorgen om tienduizenden noodknoppen voor ouderen: 'Gaat om leven of dood'",
+        "url": "https://www.nu.nl/nujij/6414812/zorgen-om-tienduizenden-noodknoppen-voor-ouderen-gaat-om-leven-of-dood.html",
+        "date": "Sun, 01 Nov 2026 10:39:28 +0100",
+        "summary": "Tienduizenden alarmknoppen waarmee ouderen hulp kunnen inschakelen, werken vanaf december 2027 mogelijk niet meer door het uitschakelen van het 2G-netwerk. Organisaties adviseren ouderen en hun kinderen om te controleren of hun noodknop geschikt is voor een ander netwerk. \"Deze producten beslissen over leven of dood.\"",
+        "imageUrl": "https://images.nu.nl/m/chyxxnmarbf4_sqr256/1081/0/3456/3456/zorgen-om-tienduizenden-noodknoppen-voor-ouderen-gaat-om-leven-of-dood.jpg"
+      },
       {
         "title": "Heidi Klum pakt weer uit met Halloween en gaat verkleed als afgezaagde hand",
         "url": "https://www.nu.nl/achterklap/6415107/heidi-klum-pakt-weer-uit-met-halloween-en-gaat-verkleed-als-afgezaagde-hand.html",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 08:24:05 +0100",
         "summary": "Jens van 't Wout schaamt zich dat hij Teun Boer zaterdag in de finale van de 500 meter een World Tour-overwinning door de neus heeft geboord. De drievoudig olympisch shorttrackkampioen schaatste zijn landgenoot in de laatste bocht omver.",
         "imageUrl": "https://images.nu.nl/m/7anxn8aacvey_sqr256/1777/1/4470/4470/van-t-wout-schaamt-zich-na-vreselijk-domme-actie-die-boer-unieke-zege-kostte.jpg"
-      },
-      {
-        "title": "Trump over gevluchte Bolsonaro: 'Mag zolang in VS blijven als hij wil'",
-        "url": "https://www.nu.nl/buitenland/6415102/trump-over-gevluchte-bolsonaro-mag-zolang-in-vs-blijven-als-hij-wil.html",
-        "date": "Sun, 01 Nov 2026 08:21:56 +0100",
-        "summary": "De Braziliaanse oud-presidentskandidaat Flávio Bolsonaro, mag van de Amerikaanse president Donald Trump zolang in de Verenigde Staten blijven als hij wil. Bolsonaro vluchtte naar de VS na het verliezen van de presidentsverkiezingen in zijn land.",
-        "imageUrl": "https://images.nu.nl/m/l1yxt8capucm_sqr256/578/0/2484/2484/trump-over-gevluchte-bolsonaro-mag-zolang-in-vs-blijven-als-hij-wil.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "10:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:45",
-        "mmHour": 0.0
-      },
       {
         "time": "10:50",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "12:05",
         "mmHour": 0.0
+      },
+      {
+        "time": "12:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 8.4,
+    "temperature": 9.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T09:06:00+00:00",
-    "rainUpdatedAt": "2026-11-01T09:06:01+00:00"
+    "weatherUpdatedAt": "2026-11-01T09:47:46+00:00",
+    "rainUpdatedAt": "2026-11-01T09:47:47+00:00"
   }
 }
