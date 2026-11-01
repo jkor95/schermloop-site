@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T22:25:59+00:00",
+    "updatedAt": "2026-11-01T23:02:12+00:00",
     "headlines": [
+      {
+        "title": "Antonelli in tranen na eerste wereldtitel Formule 1: 'Ik ben sprakeloos'",
+        "url": "https://www.nu.nl/formule-1/6415174/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.html",
+        "date": "Sun, 01 Nov 2026 23:53:44 +0100",
+        "summary": "Kimi Antonelli was geëmotioneerd na het behalen van zijn eerste wereldtitel in de Formule 1. De twintigjarige Italiaan bedankte in Mexico zijn team en familie.",
+        "imageUrl": "https://images.nu.nl/m/n5bx3lzaglch_sqr256/680/0/3037/3037/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.jpg"
+      },
       {
         "title": "Verstappen wint spektakelstuk in Mexico, Antonelli wereldkampioen na derde plek",
         "url": "https://www.nu.nl/formule-1/6415172/verstappen-wint-spektakelstuk-in-mexico-antonelli-wereldkampioen-na-derde-plek.html",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 20:41:32 +0100",
         "summary": "Liverpool-verdediger Virgil van Dijk was zondag niet te spreken over de arbitrage bij de verloren Premier League-kraker tegen Arsenal ( 0-1 ). De ervaren Nederlander vond dat zijn ploeg een strafschop had moeten krijgen na een actie van zijn landgenoot Jurriën Timber.",
         "imageUrl": "https://images.nu.nl/m/ox5xkuoayiti_sqr256/212/0/966/966/virgil-van-dijk-kraakt-var-na-actie-jurrien-timber-er-staan-vijftig-cameras.jpg"
-      },
-      {
-        "title": "Tim Prins heeft geluk aan zijn zijde na olympisch drama: 'Kan ook nooit normaal'",
-        "url": "https://www.nu.nl/schaatsen/6415153/tim-prins-heeft-geluk-aan-zijn-zijde-na-olympisch-drama-kan-ook-nooit-normaal.html",
-        "date": "Sun, 01 Nov 2026 20:37:16 +0100",
-        "summary": "Het kwartje viel zondag eindelijk de kant van Tim Prins op. Na het olympische drama van vorig seizoen pakte de Fries zondag een World Cup-ticket, ten koste van Kjeld Nuis. Het verschil was 0,01 seconde . \"Ik had nog wat tegoed van boven.\"",
-        "imageUrl": "https://images.nu.nl/m/jqqxv8ta5kmz_sqr256/743/2/4722/4722/tim-prins-heeft-geluk-aan-zijn-zijde-na-olympisch-drama-kan-ook-nooit-normaal.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
       {
         "time": "00:05",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "01:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
       }
     ],
     "temperature": 9.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T22:26:00+00:00",
-    "rainUpdatedAt": "2026-11-01T22:26:00+00:00"
+    "weatherUpdatedAt": "2026-11-01T23:02:13+00:00",
+    "rainUpdatedAt": "2026-11-01T23:02:13+00:00"
   }
 }
