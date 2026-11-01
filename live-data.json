@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T20:40:05+00:00",
+    "updatedAt": "2026-11-01T21:16:30+00:00",
     "headlines": [
+      {
+        "title": "Negen doden bij crash vliegtuigje op woonwagenpark in Verenigde Staten",
+        "url": "https://www.nu.nl/buitenland/6415170/negen-doden-bij-crash-vliegtuigje-op-woonwagenpark-in-verenigde-staten.html",
+        "date": "Sun, 01 Nov 2026 22:01:34 +0100",
+        "summary": "Een vliegtuigje is zondagmiddag (lokale tijd) neergestort in een woonwagenpark in de Amerikaanse staat Florida. Bij de crash zijn alle negen mensen aan boord omgekomen, schrijft de Amerikaanse minister van Transport Sean Duffy in een bericht op X .",
+        "imageUrl": "https://images.nu.nl/m/jsyxsteav9kn_sqr256/341/0/1080/1080/negen-doden-bij-crash-vliegtuigje-op-woonwagenpark-in-verenigde-staten.jpg"
+      },
       {
         "title": "Rechter verwerpt Trumps verzoek om uitslag Alaska bij verlies te blokkeren",
         "url": "https://www.nu.nl/verkiezingen-vs/6415169/rechter-verwerpt-trumps-verzoek-om-uitslag-alaska-bij-verlies-te-blokkeren.html",
@@ -14,7 +21,7 @@
         "title": "Virgil van Dijk kraakt VAR na actie Jurriën Timber: 'Er staan vijftig camera's'",
         "url": "https://www.nu.nl/voetbal/6415165/virgil-van-dijk-kraakt-var-na-actie-jurrien-timber-er-staan-vijftig-cameras.html",
         "date": "Sun, 01 Nov 2026 20:41:32 +0100",
-        "summary": "Liverpool-verdediger Virgil van Dijk was zondag niet te spreken over de arbitrage bij de verloren Premier League-kraker tegen Arsenal (0-1). De ervaren Nederlander vond dat zijn ploeg een strafschop had moeten krijgen na een actie van zijn landgenoot Jurriën Timber.",
+        "summary": "Liverpool-verdediger Virgil van Dijk was zondag niet te spreken over de arbitrage bij de verloren Premier League-kraker tegen Arsenal ( 0-1 ). De ervaren Nederlander vond dat zijn ploeg een strafschop had moeten krijgen na een actie van zijn landgenoot Jurriën Timber.",
         "imageUrl": "https://images.nu.nl/m/ox5xkuoayiti_sqr256/212/0/966/966/virgil-van-dijk-kraakt-var-na-actie-jurrien-timber-er-staan-vijftig-cameras.jpg"
       },
       {
@@ -39,18 +46,11 @@
         "imageUrl": "https://images.nu.nl/m/cqbxa57ag4a0_sqr256/1591/0/3910/3910/zo-gevaarlijk-is-de-nieuwe-massastart-dan-trek-ik-mijn-handen-ervan-af.jpg"
       },
       {
-        "title": "Live F1 | Verstappen tweede na wereldstart in Mexico, Leclerc pakt leiding van Hamilton",
-        "url": "https://www.nu.nl/formule-1/6415162/verstappen-tweede-na-wereldstart-in-mexico-leclerc-pakt-leiding-van-hamilton.html",
+        "title": "Live F1 | Verstappen virtueel aan de leiding na straf Leclerc, Antonelli op titelkoers",
+        "url": "https://www.nu.nl/formule-1/6415162/verstappen-virtueel-aan-de-leiding-na-straf-leclerc-antonelli-op-titelkoers.html",
         "date": "Sun, 01 Nov 2026 19:53:31 +0100",
         "summary": "Goedenavond en welkom in dit liveblog! Mijn naam is Laurine Slingerland en hier hou ik je op de hoogte van de Grand Prix van Mexico. Kimi Antonelli kan de wereldtitel veiligstellen. Veel plezier!",
-        "imageUrl": "https://images.nu.nl/m/u8uxguuasskl_sqr256/658/0/3570/3570/verstappen-tweede-na-wereldstart-in-mexico-leclerc-pakt-leiding-van-hamilton.jpg"
-      },
-      {
-        "title": "Model Lara Stone deelt borstkankerdiagnose: 'Een enorme schok'",
-        "url": "https://www.nu.nl/achterklap/6415163/model-lara-stone-deelt-borstkankerdiagnose-een-enorme-schok.html",
-        "date": "Sun, 01 Nov 2026 19:42:21 +0100",
-        "summary": "Het Nederlandse model Lara Stone heeft borstkanker. Op Instagram deelt ze dat ze een paar maanden geleden de diagnose kreeg en een behandeling ondergaat. \"Het was natuurlijk een enorme schok\", schrijft Stone. \"Ik ben dankbaar dat we het vroeg hebben gevonden.\"",
-        "imageUrl": "https://images.nu.nl/m/dlhx4mdax01v_sqr256/631/0/3332/3332/model-lara-stone-deelt-borstkankerdiagnose-een-enorme-schok.jpg"
+        "imageUrl": "https://images.nu.nl/m/eytxwb7at05k_sqr256/758/0/3992/3992/verstappen-virtueel-aan-de-leiding-na-straf-leclerc-antonelli-op-titelkoers.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
       {
         "time": "22:20",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "23:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.6,
+    "temperature": 9.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T20:40:05+00:00",
-    "rainUpdatedAt": "2026-11-01T20:40:06+00:00"
+    "weatherUpdatedAt": "2026-11-01T21:16:30+00:00",
+    "rainUpdatedAt": "2026-11-01T21:16:31+00:00"
   }
 }
