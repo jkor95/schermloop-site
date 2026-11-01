@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T13:57:43+00:00",
+    "updatedAt": "2026-11-01T14:34:57+00:00",
     "headlines": [
+      {
+        "title": "In beeld | Zo zag de eerste editie van marathon Den Haag eruit",
+        "url": "https://www.nu.nl/binnenland/6415127/zo-zag-de-eerste-editie-van-marathon-den-haag-eruit.html",
+        "date": "Sun, 01 Nov 2026 15:08:17 +0100",
+        "summary": "De eerste editie van de marathon Den Haag is zondag van start gegaan. Duizenden hardlopers liepen de 42,2 kilometer door de Hofstad en omstreken.",
+        "imageUrl": "https://images.nu.nl/m/td6xr13a0wpu_sqr256/1182/0/2351/2351/zo-zag-de-eerste-editie-van-marathon-den-haag-eruit.jpg"
+      },
+      {
+        "title": "Ruim 120 Duitse agenten gewond bij rellen rond Gen Z-demonstraties",
+        "url": "https://www.nu.nl/buitenland/6415135/ruim-120-duitse-agenten-gewond-bij-rellen-rond-gen-z-demonstraties.html",
+        "date": "Sun, 01 Nov 2026 14:59:26 +0100",
+        "summary": "In de Duitse steden Frankfurt en Keulen zijn zaterdag zeker 120 agenten gewond geraakt nadat rellen waren uitgebroken rond gen Z-demonstraties. Volgens de Duitse politie zijn mensen doelbewust naar de steden gekomen om te rellen.",
+        "imageUrl": "https://images.nu.nl/m/lf3x0dnap4bh_sqr256/0/0/2633/2633/ruim-120-duitse-agenten-gewond-bij-rellen-rond-gen-z-demonstraties.jpg"
+      },
       {
         "title": "Maxime Meiland had bewijsdrang in Expeditie Robinson: 'Ben geen prinsesje'",
         "url": "https://www.nu.nl/media/6414783/maxime-meiland-had-bewijsdrang-in-expeditie-robinson-ben-geen-prinsesje.html",
@@ -37,20 +51,6 @@
         "date": "Sun, 01 Nov 2026 13:49:33 +0100",
         "summary": "De politie heeft zaterdag op meerdere plekken in de binnenstad van Enschede een grootschalige preventieve fouilleeractie gehouden. Agenten troffen daarbij 22 wapens aan bij bezoekers van de stad, meldt de politie.",
         "imageUrl": "https://images.nu.nl/m/sinx43gaptfr_sqr256/0/0/1536/1536/slijptol-en-priem-onder-22-wapens-gevonden-bij-preventief-fouilleren-in-enschede.jpg"
-      },
-      {
-        "title": "Skelet van fruitetende dinosoort ter grootte van een kalkoen ontdekt in VS",
-        "url": "https://www.nu.nl/dieren/6415125/skelet-van-fruitetende-dinosoort-ter-grootte-van-een-kalkoen-ontdekt-in-vs.html",
-        "date": "Sun, 01 Nov 2026 12:48:20 +0100",
-        "summary": "Onderzoekers hebben in de Verenigde Staten een nieuwe dinosaurussoort ontdekt die gespecialiseerd was in het eten van fruit. Het is de eerste bekende dinosaurus met zulke aanpassingen aan een fruitdieet. De dino was ongeveer zo groot als een kalkoen en woog zo'n 12 kilo.",
-        "imageUrl": "https://images.nu.nl/m/i41xhseaexhd_sqr256/0/445/1583/1583/skelet-van-fruitetende-dinosoort-ter-grootte-van-een-kalkoen-ontdekt-in-vs.jpg"
-      },
-      {
-        "title": "Olympiër en atletiekkampioene Ciara Mageean (34) overleden aan darmkanker",
-        "url": "https://www.nu.nl/sport-overig/6415122/olympier-en-atletiekkampioene-ciara-mageean-34-overleden-aan-darmkanker.html",
-        "date": "Sun, 01 Nov 2026 12:40:47 +0100",
-        "summary": "De Ierse atlete en tweevoudig olympiër Ciara Mageean is zondag op 34-jarige leeftijd overleden. De voormalige Europees kampioene op de 1.500 meter maakte ruim een jaar geleden bekend dat ze aan darmkanker leed.",
-        "imageUrl": "https://images.nu.nl/m/wumxcu0ahcer_sqr256/868/0/5121/5121/olympier-en-atletiekkampioene-ciara-mageean-34-overleden-aan-darmkanker.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:30",
-        "mmHour": 0.0
-      },
       {
         "time": "15:35",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "16:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:30",
+        "mmHour": 0.0
       }
     ],
     "temperature": 11.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T13:57:43+00:00",
-    "rainUpdatedAt": "2026-11-01T13:57:44+00:00"
+    "weatherUpdatedAt": "2026-11-01T14:34:58+00:00",
+    "rainUpdatedAt": "2026-11-01T14:34:58+00:00"
   }
 }
