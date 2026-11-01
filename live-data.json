@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T13:13:25+00:00",
+    "updatedAt": "2026-11-01T13:57:43+00:00",
     "headlines": [
+      {
+        "title": "Maxime Meiland had bewijsdrang in Expeditie Robinson: 'Ben geen prinsesje'",
+        "url": "https://www.nu.nl/media/6414783/maxime-meiland-had-bewijsdrang-in-expeditie-robinson-ben-geen-prinsesje.html",
+        "date": "Sun, 01 Nov 2026 14:53:41 +0100",
+        "summary": "Maxime Meiland, Sjinkie Knegt, Shelley Vol en Boaz Kok wagen zich dit jaar aan een avontuur op een onbewoond eiland in Expeditie Robinson . De een ziet het als een kans om zichzelf beter te leren kennen, de ander hoopt de kijker te verrassen.",
+        "imageUrl": "https://images.nu.nl/m/x5bxqrladlzf_sqr256/438/27/1053/1053/maxime-meiland-had-bewijsdrang-in-expeditie-robinson-ben-geen-prinsesje.jpg"
+      },
+      {
+        "title": "Verstappen begrijpt Hadjar na duw aan fan: 'Zit zelf vaak tegen zo'n reactie aan'",
+        "url": "https://www.nu.nl/formule-1/6415091/verstappen-begrijpt-hadjar-na-duw-aan-fan-zit-zelf-vaak-tegen-zon-reactie-aan.html",
+        "date": "Sun, 01 Nov 2026 14:39:25 +0100",
+        "summary": "Max Verstappen heeft begrip voor Isack Hadjar, die vrijdag in de paddock in Mexico een opdringerige bezoeker een duw gaf. Zijn teamgenoot kreeg daarvoor een officiële waarschuwing. Verstappen zegt zelf ook geregeld dicht bij zo'n reactie te hebben gezeten.",
+        "imageUrl": "https://images.nu.nl/m/hgfx7usa2hpo_sqr256/970/7/3592/3592/verstappen-begrijpt-hadjar-na-duw-aan-fan-zit-zelf-vaak-tegen-zon-reactie-aan.jpg"
+      },
       {
         "title": "Boot met migranten voor de Nederlandse kust is 'uniek' incident",
         "url": "https://www.nu.nl/binnenland/6415129/boot-met-migranten-voor-de-nederlandse-kust-is-uniek-incident.html",
@@ -11,11 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/b9mxmfjarz9y_sqr256/1248/0/3712/3712/boot-met-migranten-voor-de-nederlandse-kust-is-uniek-incident.jpg"
       },
       {
-        "title": "Komende week wordt kouder met kans op nachtvorst, maar zon laat zich ook zien",
-        "url": "https://www.nu.nl/weerbericht/6415100/komende-week-wordt-kouder-met-kans-op-nachtvorst-maar-zon-laat-zich-ook-zien.html",
+        "title": "Zonnige week in aantocht met kans op nachtvorst: 'Het wordt behoorlijk koud'",
+        "url": "https://www.nu.nl/weerbericht/6415100/zonnige-week-in-aantocht-met-kans-op-nachtvorst-het-wordt-behoorlijk-koud.html",
         "date": "Sun, 01 Nov 2026 13:55:04 +0100",
         "summary": "Komende week wordt het kouder, maar blijft het voornamelijk droog. Er is ruimte voor de zon en de temperatuur komt uit op zo'n 8 tot 12 graden.",
-        "imageUrl": "https://images.nu.nl/m/i8rxn1qavmre_sqr256/563/0/2000/2000/komende-week-wordt-kouder-met-kans-op-nachtvorst-maar-zon-laat-zich-ook-zien.jpg"
+        "imageUrl": "https://images.nu.nl/m/i8rxn1qavmre_sqr256/563/0/2000/2000/zonnige-week-in-aantocht-met-kans-op-nachtvorst-het-wordt-behoorlijk-koud.jpg"
       },
       {
         "title": "Slijptol en priem onder 22 wapens gevonden bij preventief fouilleren in Enschede",
@@ -37,20 +51,6 @@
         "date": "Sun, 01 Nov 2026 12:40:47 +0100",
         "summary": "De Ierse atlete en tweevoudig olympiër Ciara Mageean is zondag op 34-jarige leeftijd overleden. De voormalige Europees kampioene op de 1.500 meter maakte ruim een jaar geleden bekend dat ze aan darmkanker leed.",
         "imageUrl": "https://images.nu.nl/m/wumxcu0ahcer_sqr256/868/0/5121/5121/olympier-en-atletiekkampioene-ciara-mageean-34-overleden-aan-darmkanker.jpg"
-      },
-      {
-        "title": "Nieuwe regels rond vakantieverhuur moet aan lopende band verhuren tegengaan",
-        "url": "https://www.nu.nl/economie/6414936/nieuwe-regels-rond-vakantieverhuur-moet-aan-lopende-band-verhuren-tegengaan.html",
-        "date": "Sun, 01 Nov 2026 12:32:31 +0100",
-        "summary": "Wie een woning verhuurt aan toeristen of naast zo'n woning woont, krijgt vanaf zondag te maken met strengere regels. Platforms als Airbnb en Booking.com moeten gegevens delen met de overheid door een aanpassing van de Wet toeristische verhuur.",
-        "imageUrl": "https://images.nu.nl/m/s2oxp94av6w6_sqr256/354/4/4460/4460/nieuwe-regels-rond-vakantieverhuur-moet-aan-lopende-band-verhuren-tegengaan.jpg"
-      },
-      {
-        "title": "Video | Auto in de kreukels na botsing met paard bij Duitse grens",
-        "url": "https://www.nu.nl/331853/video/auto-in-de-kreukels-na-botsing-met-paard-bij-duitse-grens.html",
-        "date": "Sun, 01 Nov 2026 12:15:06 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/sjnxtgdagj1w_sqr256/423/0/1080/1080/auto-in-de-kreukels-na-botsing-met-paard-bij-duitse-grens.jpg"
       }
     ]
   },
@@ -58,38 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:50",
-        "mmHour": 0.0
-      },
       {
         "time": "14:55",
         "mmHour": 0.0
@@ -153,12 +121,44 @@
       {
         "time": "16:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:50",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.7,
+    "temperature": 11.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T13:13:25+00:00",
-    "rainUpdatedAt": "2026-11-01T13:13:26+00:00"
+    "weatherUpdatedAt": "2026-11-01T13:57:43+00:00",
+    "rainUpdatedAt": "2026-11-01T13:57:44+00:00"
   }
 }
