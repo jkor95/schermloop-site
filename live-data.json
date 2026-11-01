@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T21:53:44+00:00",
+    "updatedAt": "2026-11-01T22:25:59+00:00",
     "headlines": [
+      {
+        "title": "Verstappen wint spektakelstuk in Mexico, Antonelli wereldkampioen na derde plek",
+        "url": "https://www.nu.nl/formule-1/6415172/verstappen-wint-spektakelstuk-in-mexico-antonelli-wereldkampioen-na-derde-plek.html",
+        "date": "Sun, 01 Nov 2026 23:24:16 +0100",
+        "summary": "Max Verstappen heeft zondag op spectaculaire wijze de Grand Prix van Mexico op zijn naam geschreven. De Nederlander werkte zich vanaf de vijfde startplek naar voren en boekte zijn derde zege van het jaar. Kimi Antonelli finishte als derde en werd wereldkampioen.",
+        "imageUrl": "https://images.nu.nl/m/4pkxi0yax9tw_sqr256/480/0/2001/2001/verstappen-wint-spektakelstuk-in-mexico-antonelli-wereldkampioen-na-derde-plek.jpg"
+      },
+      {
+        "title": "Oekraïense waarschuwingsapp gehackt, valse alarmen over nucleaire dreiging",
+        "url": "https://www.nu.nl/spanningen-oekraine/6415173/oekraiense-waarschuwingsapp-gehackt-valse-alarmen-over-nucleaire-dreiging.html",
+        "date": "Sun, 01 Nov 2026 23:17:13 +0100",
+        "summary": "De Oekraïense app Air Alert voor noodwaarschuwingen is gehackt, meldt de Oekraïense luchtmacht. De app verstuurde zondag valse meldingen over nucleaire dreiging en gevechten op straat. De luchtmacht meldt dat er geen stralingsgevaar is en roept op tot kalmte.",
+        "imageUrl": "https://images.nu.nl/m/gxexaccay0n1_sqr256/639/5/1999/1999/oekraiense-waarschuwingsapp-gehackt-valse-alarmen-over-nucleaire-dreiging.jpg"
+      },
+      {
+        "title": "Video | Dashcam filmt hoe privéjet zich in grond boort in VS",
+        "url": "https://www.nu.nl/331869/video/dashcam-filmt-hoe-privejet-zich-in-grond-boort-in-vs.html",
+        "date": "Sun, 01 Nov 2026 22:25:02 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/31kxp9gahleq_sqr256/877/18/1043/1043/dashcam-filmt-hoe-privejet-zich-in-grond-boort-in-vs.jpg"
+      },
       {
         "title": "Negen doden bij crash vliegtuigje op woonwagenpark in Verenigde Staten",
         "url": "https://www.nu.nl/buitenland/6415170/negen-doden-bij-crash-vliegtuigje-op-woonwagenpark-in-verenigde-staten.html",
@@ -30,27 +51,6 @@
         "date": "Sun, 01 Nov 2026 20:37:16 +0100",
         "summary": "Het kwartje viel zondag eindelijk de kant van Tim Prins op. Na het olympische drama van vorig seizoen pakte de Fries zondag een World Cup-ticket, ten koste van Kjeld Nuis. Het verschil was 0,01 seconde . \"Ik had nog wat tegoed van boven.\"",
         "imageUrl": "https://images.nu.nl/m/jqqxv8ta5kmz_sqr256/743/2/4722/4722/tim-prins-heeft-geluk-aan-zijn-zijde-na-olympisch-drama-kan-ook-nooit-normaal.jpg"
-      },
-      {
-        "title": "Pro-Russische interim-president leidt in exitpolls Bulgaarse presidentsverkiezing",
-        "url": "https://www.nu.nl/buitenland/6415167/pro-russische-interim-president-leidt-in-exitpolls-bulgaarse-presidentsverkiezing.html",
-        "date": "Sun, 01 Nov 2026 20:26:30 +0100",
-        "summary": "De Bulgaarse interim-president Iliana Jotova wint volgens de exitpolls de presidentsverkiezingen. Daarmee levert een pro-Russische partij niet alleen de premier, maar ook de president. Als de winst definitief is, wordt Jotova het eerste vrouwelijke gekozen staatshoofd van Bulgarije.",
-        "imageUrl": "https://images.nu.nl/m/frcxszqa9402_sqr256/721/0/2767/2767/pro-russische-interim-president-leidt-in-exitpolls-bulgaarse-presidentsverkiezing.jpg"
-      },
-      {
-        "title": "Video | Zo gevaarlijk is de nieuwe massastart: 'Dan trek ik mijn handen ervan af'",
-        "url": "https://www.nu.nl/331867/video/zo-gevaarlijk-is-de-nieuwe-massastart-dan-trek-ik-mijn-handen-ervan-af.html",
-        "date": "Sun, 01 Nov 2026 20:15:20 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/cqbxa57ag4a0_sqr256/1591/0/3910/3910/zo-gevaarlijk-is-de-nieuwe-massastart-dan-trek-ik-mijn-handen-ervan-af.jpg"
-      },
-      {
-        "title": "Live F1 | Rode vlag na crash Bottas met Verstappen aan de leiding",
-        "url": "https://www.nu.nl/formule-1/6415162/rode-vlag-na-crash-bottas-met-verstappen-aan-de-leiding.html",
-        "date": "Sun, 01 Nov 2026 19:53:31 +0100",
-        "summary": "Goedenavond en welkom in dit liveblog! Mijn naam is Laurine Slingerland en hier hou ik je op de hoogte van de Grand Prix van Mexico. Kimi Antonelli kan de wereldtitel veiligstellen. Veel plezier!",
-        "imageUrl": "https://images.nu.nl/m/eytxwb7at05k_sqr256/758/0/3992/3992/rode-vlag-na-crash-bottas-met-verstappen-aan-de-leiding.jpg"
       }
     ]
   },
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:25",
-        "mmHour": 0.0
-      },
       {
         "time": "23:30",
         "mmHour": 0.0
@@ -153,12 +125,40 @@
       {
         "time": "00:50",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.7,
+    "temperature": 9.8,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T21:53:45+00:00",
-    "rainUpdatedAt": "2026-11-01T21:53:46+00:00"
+    "weatherUpdatedAt": "2026-11-01T22:26:00+00:00",
+    "rainUpdatedAt": "2026-11-01T22:26:00+00:00"
   }
 }
