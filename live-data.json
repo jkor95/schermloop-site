@@ -1,28 +1,42 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T19:30:08+00:00",
+    "updatedAt": "2026-11-02T20:18:17+00:00",
     "headlines": [
+      {
+        "title": "Dode en zwaargewonde bij schietpartij in Rotterdam",
+        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-rotterdam.html",
+        "date": "Mon, 02 Nov 2026 21:06:10 +0100",
+        "summary": "Bij een schietpartij in een woonwijk in Rotterdam-Oost is maandagavond een man om het leven gekomen. Een tweede man raakte zwaargewond.",
+        "imageUrl": "https://images.nu.nl/m/cm6xenhaca6h_sqr256/2325/5/4635/4635/dode-en-zwaargewonde-bij-schietpartij-in-rotterdam.jpg"
+      },
+      {
+        "title": "Gegijzelde man bevrijd uit woning in Zwijndrecht, twee tieners opgepakt",
+        "url": "https://www.nu.nl/binnenland/6415281/gegijzelde-man-bevrijd-uit-woning-in-zwijndrecht-twee-tieners-opgepakt.html",
+        "date": "Mon, 02 Nov 2026 20:38:51 +0100",
+        "summary": "De politie heeft zaterdag een gegijzelde man uit Den Haag uit een woning in Zwijndrecht bevrijd. Twee mannen zijn daarbij aangehouden. Vermoedelijk was een eerdere aanhouding in een drugszaak in Duitsland de aanleiding voor de gijzeling.",
+        "imageUrl": "https://images.nu.nl/m/6jtxxw2aqv6k_sqr256/0/0/5504/5504/gegijzelde-man-bevrijd-uit-woning-in-zwijndrecht-twee-tieners-opgepakt.jpg"
+      },
       {
         "title": "Deel van Gelderland krijgt aansluitstop op stroomnet, stop Utrecht wordt verlengd",
         "url": "https://www.nu.nl/economie/6415277/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.html",
         "date": "Mon, 02 Nov 2026 20:23:55 +0100",
-        "summary": "Een deel van Gelderland gaat op slot voor nieuwe aanvragen op het elektriciteitsnet, meldt het ministerie van Economische Zaken en Klimaat maandagavond. Daarnaast blijft de aansluitstop in Utrecht gelden, ondanks dat daar wat meer ruimte op het stroomnet is vrijgekomen.",
+        "summary": "Een deel van Gelderland gaat op slot voor nieuwe aanvragen op het elektriciteitsnet, meldt het ministerie van Economische Zaken en Klimaat maandagavond. Daarnaast blijft de aansluitstop in Utrecht gelden, hoewel daar wat meer ruimte op het stroomnet is vrijgekomen.",
         "imageUrl": "https://images.nu.nl/m/eymxdt6alaxo_sqr256/875/0/3998/3998/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.jpg"
       },
       {
-        "title": "Video | Koelingen van Zweedse supermarkten op 50 graden: 'Vorm van terrorisme'",
+        "title": "Video | Koelingen van Zweedse supermarkten op 50 graden: 'Soort terrorisme'",
         "url": "https://www.nu.nl/331895/video/koelingen-van-zweedse-supermarkten-op-50-graden-vorm-van-terrorisme.html",
         "date": "Mon, 02 Nov 2026 20:08:45 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/fj0xs7aaw071_sqr256/939/0/3997/3997/koelingen-van-zweedse-supermarkten-op-50-graden-vorm-van-terrorisme.jpg"
       },
       {
-        "title": "24 doden bij 'uiterst gruwelijke aanval' van Russen op Oekraïense hulppost",
-        "url": "https://www.nu.nl/spanningen-oekraine/6415278/24-doden-bij-uiterst-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.html",
+        "title": "24 doden bij 'gruwelijke aanval' van Russen op Oekraïense hulppost",
+        "url": "https://www.nu.nl/spanningen-oekraine/6415278/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.html",
         "date": "Mon, 02 Nov 2026 19:59:50 +0100",
-        "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 24 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double-tap aanval.",
-        "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/24-doden-bij-uiterst-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
+        "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 24 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double tap -aanval.",
+        "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
       },
       {
         "title": "Republikeinen gaan verder dan ooit met racistische campagne tegen El-Sayed",
@@ -37,20 +51,6 @@
         "date": "Mon, 02 Nov 2026 19:07:24 +0100",
         "summary": "Een voetballer van CD Tenerife is maandagavond op het veld gereanimeerd nadat de keeper van de tegenstander snoeihard op hem inkwam. Het duel op het tweede niveau van Spanje werd daarom gestaakt.",
         "imageUrl": "https://images.nu.nl/m/8rbxa30a857t_sqr256/111/0/547/547/tenerife-speler-op-het-veld-gereanimeerd-na-snoeiharde-actie-van-keeper.jpg"
-      },
-      {
-        "title": "Spanning stijgt: kabinet voert al hele dag overleg over belastingplan en box 3",
-        "url": "https://www.nu.nl/politiek/6415257/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.html",
-        "date": "Mon, 02 Nov 2026 18:34:12 +0100",
-        "summary": "De spanning in Den Haag stijgt. De top van het kabinet overlegt al de hele dag over het belastingplan en box 3. Waarschijnlijk is er dinsdag een extra ministerraad en de hoop is dat het kabinet er dan uit is.",
-        "imageUrl": "https://images.nu.nl/m/jacxj45a710y_sqr256/1270/120/4143/4143/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.jpg"
-      },
-      {
-        "title": "Kinderen geboren uit incest hebben voortaan recht op schadevergoeding",
-        "url": "https://www.nu.nl/binnenland/6415241/kinderen-geboren-uit-incest-hebben-voortaan-recht-op-schadevergoeding.html",
-        "date": "Mon, 02 Nov 2026 18:31:09 +0100",
-        "summary": "Kinderen uit incest hebben voortaan recht op een schadevergoeding, heeft staatssecretaris Claudia van Bruggen van Justitie en Veiligheid maandag gemeld in een Kamerbrief. Ze moeten wel kunnen aantonen dat zij ernstig psychisch letsel hebben.",
-        "imageUrl": "https://images.nu.nl/m/77wx96lapva8_sqr256/1717/0/5452/5452/kinderen-geboren-uit-incest-hebben-voortaan-recht-op-schadevergoeding.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "20:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "20:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:10",
-        "mmHour": 0.0
-      },
       {
         "time": "21:15",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "22:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "22:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "22:55",
+        "mmHour": 0.21
+      },
+      {
+        "time": "23:00",
+        "mmHour": 0.6
+      },
+      {
+        "time": "23:05",
+        "mmHour": 1.65
+      },
+      {
+        "time": "23:10",
+        "mmHour": 1.54
       }
     ],
     "temperature": 10.3,
-    "description": "Mix van opklaringen en middelbare of lage bewolking",
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T19:30:08+00:00",
-    "rainUpdatedAt": "2026-11-02T19:30:09+00:00"
+    "weatherUpdatedAt": "2026-11-02T20:18:18+00:00",
+    "rainUpdatedAt": "2026-11-02T20:18:20+00:00"
   }
 }
