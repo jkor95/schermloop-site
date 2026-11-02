@@ -1,21 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T21:02:32+00:00",
+    "updatedAt": "2026-11-02T21:42:52+00:00",
     "headlines": [
+      {
+        "title": "Russell lucht zijn hart daags na wereldtitel Antonelli: '2026 was niet mijn jaar'",
+        "url": "https://www.nu.nl/formule-1/6415283/russell-lucht-zijn-hart-daags-na-wereldtitel-antonelli-2026-was-niet-mijn-jaar.html",
+        "date": "Mon, 02 Nov 2026 21:45:53 +0100",
+        "summary": "George Russell heeft maandag voor het eerst gereageerd op de wereldtitel van Kimi Antonelli. De Brit spreekt zijn waardering uit voor zijn Mercedes-teamgenoot. Tegelijkertijd blikt hij terug op zijn eigen seizoen, dat veelbelovend begon en uitmondde in een aaneenschakeling van teleurstellingen.",
+        "imageUrl": "https://images.nu.nl/m/0urxogcayhc2_sqr256/1023/0/3788/3788/russell-lucht-zijn-hart-daags-na-wereldtitel-antonelli-2026-was-niet-mijn-jaar.jpg"
+      },
       {
         "title": "Kabinet na dag vol overleg eens over route voor belastingplan en box 3",
         "url": "https://www.nu.nl/politiek/6415285/kabinet-na-dag-vol-overleg-eens-over-route-voor-belastingplan-en-box-3.html",
         "date": "Mon, 02 Nov 2026 21:42:40 +0100",
-        "summary": "De top van het kabinet is het na een dag onderhandelen eens geworden over de invulling van het belastingplan en box 3. Dinsdagochtend is er een extra ministerraad. Daarna gaan de plannen, waarvan de inhoud nog niet bekend is, naar de Kamer.",
+        "summary": "De top van het kabinet is het na een dag onderhandelen eens over de invulling van het belastingplan en box 3. Dinsdagochtend is er een extra ministerraad. Daarna gaan de plannen, waarvan de inhoud nog niet bekend is, naar de Kamer.",
         "imageUrl": "https://images.nu.nl/m/qhgx19oaxmkv_sqr256/1001/0/3669/3669/kabinet-na-dag-vol-overleg-eens-over-route-voor-belastingplan-en-box-3.jpg"
       },
       {
-        "title": "Dode en zwaargewonde bij schietpartij in auto in Rotterdam",
-        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam.html",
+        "title": "Dode en zwaargewonde bij schietpartij in auto in Rotterdam, drie arrestaties",
+        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.html",
         "date": "Mon, 02 Nov 2026 21:06:10 +0100",
-        "summary": "Bij een schietpartij in een auto in Rotterdam-Oost is maandagavond een man om het leven gekomen. Hij was de bestuurder. De drie andere inzittenden zijn aangemerkt als verdachte en aangehouden. Eén van hen raakte zwaargewond.",
-        "imageUrl": "https://images.nu.nl/m/hbgxakqarukj_sqr256/1651/0/4640/4640/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam.jpg"
+        "summary": "Bij een schietpartij in een auto in Rotterdam-Oost is maandagavond een man om het leven gekomen. Hij was de bestuurder. De drie andere inzittenden zijn aangemerkt als verdachte en zijn aangehouden. Een van hen raakte zwaargewond.",
+        "imageUrl": "https://images.nu.nl/m/hbgxakqarukj_sqr256/1651/0/4640/4640/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.jpg"
       },
       {
         "title": "Gegijzelde man bevrijd uit woning in Zwijndrecht, twee tieners opgepakt",
@@ -30,13 +37,6 @@
         "date": "Mon, 02 Nov 2026 20:23:55 +0100",
         "summary": "Een deel van Gelderland gaat op slot voor nieuwe aanvragen op het elektriciteitsnet, meldt het ministerie van Economische Zaken en Klimaat maandagavond. Daarnaast blijft de aansluitstop in Utrecht gelden, hoewel daar wat meer ruimte op het stroomnet is vrijgekomen.",
         "imageUrl": "https://images.nu.nl/m/eymxdt6alaxo_sqr256/875/0/3998/3998/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.jpg"
-      },
-      {
-        "title": "Video | Koelingen van Zweedse supermarkten op 50 graden: 'Soort terrorisme'",
-        "url": "https://www.nu.nl/331895/video/koelingen-van-zweedse-supermarkten-op-50-graden-vorm-van-terrorisme.html",
-        "date": "Mon, 02 Nov 2026 20:08:45 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/fj0xs7aaw071_sqr256/939/0/3997/3997/koelingen-van-zweedse-supermarkten-op-50-graden-vorm-van-terrorisme.jpg"
       },
       {
         "title": "24 doden bij 'gruwelijke aanval' van Russen op Oekraïense hulppost",
@@ -59,52 +59,20 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:35",
-        "mmHour": 0.0
-      },
-      {
         "time": "22:40",
         "mmHour": 0.0
       },
       {
         "time": "22:45",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "22:50",
-        "mmHour": 0.1
+        "mmHour": 0.29
       },
       {
         "time": "22:55",
-        "mmHour": 0.29
+        "mmHour": 0.21
       },
       {
         "time": "23:00",
@@ -116,11 +84,11 @@
       },
       {
         "time": "23:10",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "23:15",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "23:20",
@@ -136,7 +104,7 @@
       },
       {
         "time": "23:35",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "23:40",
@@ -153,12 +121,44 @@
       {
         "time": "23:55",
         "mmHour": 0.0
+      },
+      {
+        "time": "00:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "00:30",
+        "mmHour": 0.1
+      },
+      {
+        "time": "00:35",
+        "mmHour": 0.1
       }
     ],
     "temperature": 10.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T21:02:33+00:00",
-    "rainUpdatedAt": "2026-11-02T21:02:33+00:00"
+    "weatherUpdatedAt": "2026-11-02T21:42:52+00:00",
+    "rainUpdatedAt": "2026-11-02T21:42:53+00:00"
   }
 }
