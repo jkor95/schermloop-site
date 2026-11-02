@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T05:20:03+00:00",
+    "updatedAt": "2026-11-02T06:23:56+00:00",
     "headlines": [
+      {
+        "title": "Donald Trump toegevoegd aan lijst van vijanden van persvrijheid",
+        "url": "https://www.nu.nl/media/6415186/donald-trump-toegevoegd-aan-lijst-van-vijanden-van-persvrijheid.html",
+        "date": "Mon, 02 Nov 2026 07:16:10 +0100",
+        "summary": "Donald Trump is toegevoegd aan de lijst van vijanden van de persvrijheid. Hij zou zijn macht misbruiken om de media te willen controleren. Ook onder meer Vladimir Poetin is op de lijst van 'persvrijheidsduivels' gezet.",
+        "imageUrl": "https://images.nu.nl/m/1bkxl6vasv9z_sqr256/226/0/3609/3609/donald-trump-toegevoegd-aan-lijst-van-vijanden-van-persvrijheid.jpg"
+      },
+      {
+        "title": "KNMI waarschuwt nu anders voor gevaarlijk weer: 'Hopelijk minder vaak onnodig'",
+        "url": "https://www.nu.nl/binnenland/6415114/knmi-waarschuwt-nu-anders-voor-gevaarlijk-weer-hopelijk-minder-vaak-onnodig.html",
+        "date": "Mon, 02 Nov 2026 06:30:47 +0100",
+        "summary": "Het KNMI waarschuwt vanaf maandag niet meer per provincie voor gevaarlijk weer, maar werkt met plaatselijke kleurcodes. Op die manier weten Nederlanders beter waar ze aan toe zijn bij onweer, hitte of gladheid. \"Het kan zijn dat er minder waarschuwingen komen.\"",
+        "imageUrl": "https://images.nu.nl/m/muzxybja79xq_sqr256/676/0/3751/3751/knmi-waarschuwt-nu-anders-voor-gevaarlijk-weer-hopelijk-minder-vaak-onnodig.jpg"
+      },
       {
         "title": "Explainer | Duurste Senaatsrace ooit: wordt Trump-kandidaat verslagen in Texas?",
         "url": "https://www.nu.nl/331870/video/duurste-senaatsrace-ooit-wordt-trump-kandidaat-verslagen-in-texas.html",
@@ -11,18 +25,18 @@
         "imageUrl": "https://images.nu.nl/m/1nex3vdajxc8_sqr256/452/0/1439/1439/duurste-senaatsrace-ooit-wordt-trump-kandidaat-verslagen-in-texas.jpg"
       },
       {
-        "title": "Antonelli breekt door Nessun dorma op persconferentie: 'Mijn opa zou trots zijn'",
-        "url": "https://www.nu.nl/formule-1/6415177/antonelli-breekt-door-nessun-dorma-op-persconferentie-mijn-opa-zou-trots-zijn.html",
+        "title": "F1-kampioen Antonelli breekt door Nessun dorma: 'Mijn opa zou trots zijn'",
+        "url": "https://www.nu.nl/formule-1/6415177/f1-kampioen-antonelli-breekt-door-nessun-dorma-mijn-opa-zou-trots-zijn.html",
         "date": "Mon, 02 Nov 2026 06:04:27 +0100",
         "summary": "Kimi Antonelli beleefde zondag een zeer emotionele dag in Mexico. Al tijdens en vooral na de race liet de jongste wereldkampioen in de Formule 1-geschiedenis zijn emoties de vrije loop. Vooral de herinnering aan zijn opa maakte veel los.",
-        "imageUrl": "https://images.nu.nl/m/6opx85iat4i5_sqr256/736/144/3648/3648/antonelli-breekt-door-nessun-dorma-op-persconferentie-mijn-opa-zou-trots-zijn.jpg"
+        "imageUrl": "https://images.nu.nl/m/6opx85iat4i5_sqr256/736/144/3648/3648/f1-kampioen-antonelli-breekt-door-nessun-dorma-mijn-opa-zou-trots-zijn.jpg"
       },
       {
-        "title": "Vijf mensen teruggevonden nadat zij drie maanden op Stille Oceaan ronddreven",
-        "url": "https://www.nu.nl/opmerkelijk/6415182/vijf-mensen-teruggevonden-nadat-zij-drie-maanden-op-stille-oceaan-ronddreven.html",
+        "title": "Vijf mensen teruggevonden die drie maanden op Stille Oceaan ronddreven",
+        "url": "https://www.nu.nl/opmerkelijk/6415182/vijf-mensen-teruggevonden-die-drie-maanden-op-stille-oceaan-ronddreven.html",
         "date": "Mon, 02 Nov 2026 05:51:29 +0100",
-        "summary": "Vijf mensen, onder wie twee kinderen, zijn zondag teruggevonden nadat zij ongeveer drie maanden op de Stille Oceaan hadden gedreven. Hoe zij zo lang konden overleven, is niet duidelijk.",
-        "imageUrl": "https://images.nu.nl/m/ixgxbuva1djv_sqr256/299/0/1606/1606/vijf-mensen-teruggevonden-nadat-zij-drie-maanden-op-stille-oceaan-ronddreven.jpg"
+        "summary": "Vijf mensen, onder wie twee kinderen, zijn zondag teruggevonden nadat zij ongeveer drie maanden op de Stille Oceaan hadden gedreven. Hoe zij zo lang in leven hebben kunnen blijven, is niet duidelijk.",
+        "imageUrl": "https://images.nu.nl/m/ixgxbuva1djv_sqr256/299/0/1606/1606/vijf-mensen-teruggevonden-die-drie-maanden-op-stille-oceaan-ronddreven.jpg"
       },
       {
         "title": "Zeker twaalf buitenlanders onder slachtoffers van treinbotsing in Spanje",
@@ -37,20 +51,6 @@
         "date": "Mon, 02 Nov 2026 05:00:55 +0100",
         "summary": "VodafoneZiggo wil dat werknemers vaker naar kantoor komen. Het personeel zou voortaan drie dagen per week naar de werkvloer moeten. Voor medewerkers die dat niet willen of kunnen, komt een tijdelijke vertrekregeling. VodafoneZiggo is niet de eerste werkgever die de teugels aantrekt.",
         "imageUrl": "https://images.nu.nl/m/qdcxyasaw65h_sqr256/971/0/2831/2831/ook-vodafoneziggo-wil-meer-personeel-op-kantoor-zien-en-scherpt-regels-aan.jpg"
-      },
-      {
-        "title": "Podcast | 'Traantje weggepinkt bij verhaal over opa Antonelli'",
-        "url": "https://www.nu.nl/formule-1/6415178/traantje-weggepinkt-bij-verhaal-over-opa-antonelli.html",
-        "date": "Mon, 02 Nov 2026 03:45:18 +0100",
-        "summary": "Kimi Antonelli is in Mexico de jongste wereldkampioen ooit geworden in de Formule 1. Hij werd op de schouders gehezen van Lewis Hamilton en Max Verstappen en hield het niet droog toen Nessun Dorma werd gedraaid op het podium. Dat en nog veel meer hoor je in deze terugblik van de Grand Prix van Mexico met Joost...",
-        "imageUrl": "https://images.nu.nl/m/fnhx8ryaazuu_sqr256/160/185/2679/2679/traantje-weggepinkt-bij-verhaal-over-opa-antonelli.jpg"
-      },
-      {
-        "title": "Antonelli in tranen na eerste wereldtitel Formule 1: 'Ik ben sprakeloos'",
-        "url": "https://www.nu.nl/formule-1/6415174/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.html",
-        "date": "Sun, 01 Nov 2026 23:53:44 +0100",
-        "summary": "Kimi Antonelli was geëmotioneerd na het behalen van zijn eerste wereldtitel in de Formule 1. De twintigjarige Italiaan bedankte in Mexico zijn team en familie.",
-        "imageUrl": "https://images.nu.nl/m/p7sxf85a4gni_sqr256/601/1/2237/2237/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.jpg"
       }
     ]
   },
@@ -59,80 +59,32 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.1
-      },
-      {
-        "time": "06:40",
-        "mmHour": 0.1
-      },
-      {
-        "time": "06:45",
-        "mmHour": 0.21
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.39
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.39
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.39
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.49
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.29
-      },
-      {
-        "time": "07:15",
-        "mmHour": 0.21
-      },
-      {
-        "time": "07:20",
-        "mmHour": 0.0
-      },
-      {
         "time": "07:25",
-        "mmHour": 0.0
+        "mmHour": 0.6
       },
       {
         "time": "07:30",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "07:35",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "07:40",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "07:45",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "07:50",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "07:55",
-        "mmHour": 0.0
+        "mmHour": 0.29
       },
       {
         "time": "08:00",
@@ -153,12 +105,60 @@
       {
         "time": "08:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "08:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "08:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "08:45",
+        "mmHour": 0.29
+      },
+      {
+        "time": "08:50",
+        "mmHour": 0.21
+      },
+      {
+        "time": "08:55",
+        "mmHour": 0.21
+      },
+      {
+        "time": "09:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "09:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.7,
-    "description": "Zwaar bewolkt",
+    "temperature": 10.3,
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T05:20:04+00:00",
-    "rainUpdatedAt": "2026-11-02T05:20:04+00:00"
+    "weatherUpdatedAt": "2026-11-02T06:23:56+00:00",
+    "rainUpdatedAt": "2026-11-02T06:23:57+00:00"
   }
 }
