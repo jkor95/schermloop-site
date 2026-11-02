@@ -1,20 +1,41 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T09:49:03+00:00",
+    "updatedAt": "2026-11-02T10:42:30+00:00",
     "headlines": [
       {
-        "title": "Live | Midterms VS | Democraat uit Michigan breekt met partij en steunt Republikein",
-        "url": "https://www.nu.nl/verkiezingen-vs/6415184/midterms-vs-democraat-uit-michigan-breekt-met-partij-en-steunt-republikein.html",
+        "title": "Belgische koning neemt ontslag premier in beraad, wil oplossing begrotingscrisis",
+        "url": "https://www.nu.nl/buitenland/6415222/belgische-koning-neemt-ontslag-premier-in-beraad-wil-oplossing-begrotingscrisis.html",
+        "date": "Mon, 02 Nov 2026 11:38:56 +0100",
+        "summary": "Het ontslag van de Belgische premier Bart De Wever is maandagochtend niet direct aanvaard. Koning Filip roept alle betrokken partijen op alsnog tot een akkoord te komen.",
+        "imageUrl": "https://images.nu.nl/m/tqjxeemapal5_sqr256/806/10/3923/3923/belgische-koning-neemt-ontslag-premier-in-beraad-wil-oplossing-begrotingscrisis.jpg"
+      },
+      {
+        "title": "Video | Koning Charles vraagt tevergeefs om paraplu tijdens regenbui in Caribisch gebied",
+        "url": "https://www.nu.nl/331877/video/koning-charles-vraagt-tevergeefs-om-paraplu-tijdens-regenbui-in-caribisch-gebied.html",
+        "date": "Mon, 02 Nov 2026 11:38:01 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/twhxrc8ao6kh_sqr256/419/2/1078/1078/koning-charles-vraagt-tevergeefs-om-paraplu-tijdens-regenbui-in-caribisch-gebied.jpg"
+      },
+      {
+        "title": "Ploegenachtervolging blijft zorgenkindje: 'Alsof Xavi alleen PSV'ers oproept'",
+        "url": "https://www.nu.nl/schaatsen/6415168/ploegenachtervolging-blijft-zorgenkindje-alsof-xavi-alleen-psvers-oproept.html",
+        "date": "Mon, 02 Nov 2026 11:13:39 +0100",
+        "summary": "Schaatsbond KNSB bedacht een nieuw plan voor de ploegenachtervolging voor mannen na jaren vol slechte prestaties. Bij het NK teampursuit in Thialf bleek het onderdeel nog steeds een zorgenkindje. \"Drie van de vier ploegen stemden tegen deze opzet.\"",
+        "imageUrl": "https://images.nu.nl/m/i3pxvkpazgd7_sqr256/206/0/3881/3881/ploegenachtervolging-blijft-zorgenkindje-alsof-xavi-alleen-psvers-oproept.jpg"
+      },
+      {
+        "title": "Live | Midterms VS | Verliezende Democraat uit Michigan steunt nu Republikein",
+        "url": "https://www.nu.nl/verkiezingen-vs/6415184/midterms-vs-verliezende-democraat-uit-michigan-steunt-nu-republikein.html",
         "date": "Mon, 02 Nov 2026 10:37:06 +0100",
         "summary": "Hallo en welkom in dit liveblog. Hier houden we je op hoogte van de ontwikkelingen van de tussentijdse verkiezingen in de Verenigde Staten. Heb je vragen? Mail ze naar redactie@nu.nl.",
-        "imageUrl": "https://images.nu.nl/m/ptjxkg8aa0s5_sqr256/1517/0/3028/3028/midterms-vs-democraat-uit-michigan-breekt-met-partij-en-steunt-republikein.jpg"
+        "imageUrl": "https://images.nu.nl/m/ptjxkg8aa0s5_sqr256/1517/0/3028/3028/midterms-vs-verliezende-democraat-uit-michigan-steunt-nu-republikein.jpg"
       },
       {
         "title": "Raad van State fileert kabinetsplan voor box 3 en adviseert uitstel",
         "url": "https://www.nu.nl/politiek/6414845/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.html",
         "date": "Mon, 02 Nov 2026 10:09:54 +0100",
-        "summary": "De Raad van State (RvS) fileert het wetsvoorstel voor de invoering van een vermogenswinstbelasting. De belangrijkste adviseur van de regering pleit voor uitstel. Het kabinet heeft nog niet gereageerd op de kritiek.",
+        "summary": "De Raad van State fileert het wetsvoorstel voor de invoering van een vermogenswinstbelasting. De belangrijkste adviseur van de regering pleit voor uitstel. Het kabinet heeft nog niet gereageerd op de kritiek.",
         "imageUrl": "https://images.nu.nl/m/wtsx2hnai5vm_sqr256/1169/0/4000/4000/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.jpg"
       },
       {
@@ -25,32 +46,11 @@
         "imageUrl": "https://images.nu.nl/m/em4xx1paqtil_sqr256/372/0/1080/1080/beloning-voor-gouden-tip-bolle-jos-verhoogd-van-200000-euro-naar-2-miljoen.jpg"
       },
       {
-        "title": "Hackers leggen koeling van tientallen Belgische Delhaize-winkels plat",
-        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-van-tientallen-belgische-delhaize-winkels-plat.html",
+        "title": "Hackers leggen koeling van tientallen Europese supermarkten plat",
+        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-van-tientallen-europese-supermarkten-plat.html",
         "date": "Mon, 02 Nov 2026 09:27:00 +0100",
-        "summary": "Vriezers en koelkasten van de Belgische supermarktketen Delhaize zijn getroffen door een hack, melden Belgische media maandagochtend. De zusterketen van Albert Heijn spreekt van een \"IT-incident\" bij koelinstallaties. Zeker veertig supermarkten zouden zijn getroffen.",
-        "imageUrl": "https://images.nu.nl/m/sj2x2bbalgoe_sqr256/1263/0/3655/3655/hackers-leggen-koeling-van-tientallen-belgische-delhaize-winkels-plat.jpg"
-      },
-      {
-        "title": "Media bejubelen kampioen Antonelli: 'Foto met Verstappen en Hamilton zegt veel'",
-        "url": "https://www.nu.nl/formule-1/6415194/media-bejubelen-kampioen-antonelli-foto-met-verstappen-en-hamilton-zegt-veel.html",
-        "date": "Mon, 02 Nov 2026 09:16:05 +0100",
-        "summary": "Buitenlandse media zijn lyrisch over Kimi Antonelli en zijn wereldtitel in de Formule 1. De twintigjarige Italiaan werd zondag bij de Grand Prix van Mexico de jongste wereldkampioen ooit . Veel media staan stil bij de juichfoto van Antonelli op het podum.",
-        "imageUrl": "https://images.nu.nl/m/l8vxqntae8dr_sqr256/1185/0/2628/2628/media-bejubelen-kampioen-antonelli-foto-met-verstappen-en-hamilton-zegt-veel.jpg"
-      },
-      {
-        "title": "Zelfdoding blijkt doodsoorzaak van Party Rock Anthem-zangeres Lauren Bennett",
-        "url": "https://www.nu.nl/achterklap/6415196/zelfdoding-blijkt-doodsoorzaak-van-party-rock-anthem-zangeres-lauren-bennett.html",
-        "date": "Mon, 02 Nov 2026 09:03:04 +0100",
-        "summary": "Lauren Bennett, de zangeres van het nummer Party Rock Anthem , overleed door zelfdoding. De politie hield hier al rekening mee toen de Engelse zangeres eind mei op 36-jarige leeftijd dood werd aangetroffen. De lijkschouwer heeft dit nu bevestigd.",
-        "imageUrl": "https://images.nu.nl/m/63xxq7ban8m1_sqr256/0/22/524/524/zelfdoding-blijkt-doodsoorzaak-van-party-rock-anthem-zangeres-lauren-bennett.jpg"
-      },
-      {
-        "title": "AFM wil van pijnlijke situaties rond nabestaandenpensioen af en vraagt om actie",
-        "url": "https://www.nu.nl/economie/6415195/afm-wil-van-pijnlijke-situaties-rond-nabestaandenpensioen-af-en-vraagt-om-actie.html",
-        "date": "Mon, 02 Nov 2026 08:37:06 +0100",
-        "summary": "Pensioenuitvoerders besteden veel aandacht aan het nabestaandenpensioen, maar de informatie voor deelnemers schiet soms tekort, stelt de Autoriteit Financiële Markten (AFM). Daardoor zijn mensen zonder het te weten niet altijd gedekt.",
-        "imageUrl": "https://images.nu.nl/m/fuwxh4ca8akv_sqr256/856/0/3024/3024/afm-wil-van-pijnlijke-situaties-rond-nabestaandenpensioen-af-en-vraagt-om-actie.jpg"
+        "summary": "Vriezers en koelkasten van meerdere supermarktketens in België, Luxemburg en Zweden zijn gehackt. Onder andere Delhaize, Spar en Carrefour en slagerij De Laet & Van Haver hebben gemeld dat de temperaturen van hun koelsystemen ineens flink omhooggingen.",
+        "imageUrl": "https://images.nu.nl/m/1xaxpgyakpti_sqr256/315/0/2622/2622/hackers-leggen-koeling-van-tientallen-europese-supermarkten-plat.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "10:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:40",
-        "mmHour": 0.0
-      },
       {
         "time": "11:45",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "12:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "12:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:40",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.1,
-    "description": "Zwaar bewolkt",
+    "temperature": 12.7,
+    "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T09:49:03+00:00",
-    "rainUpdatedAt": "2026-11-02T09:49:04+00:00"
+    "weatherUpdatedAt": "2026-11-02T10:42:30+00:00",
+    "rainUpdatedAt": "2026-11-02T10:42:30+00:00"
   }
 }
