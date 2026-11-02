@@ -1,14 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T08:51:51+00:00",
+    "updatedAt": "2026-11-02T09:49:03+00:00",
     "headlines": [
       {
-        "title": "Hackers leggen koeling bij tientallen Belgische Delhaize-winkels plat",
-        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-bij-tientallen-belgische-delhaize-winkels-plat.html",
+        "title": "Live | Midterms VS | Democraat uit Michigan breekt met partij en steunt Republikein",
+        "url": "https://www.nu.nl/verkiezingen-vs/6415184/midterms-vs-democraat-uit-michigan-breekt-met-partij-en-steunt-republikein.html",
+        "date": "Mon, 02 Nov 2026 10:37:06 +0100",
+        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op hoogte van de ontwikkelingen van de tussentijdse verkiezingen in de Verenigde Staten. Heb je vragen? Mail ze naar redactie@nu.nl.",
+        "imageUrl": "https://images.nu.nl/m/ptjxkg8aa0s5_sqr256/1517/0/3028/3028/midterms-vs-democraat-uit-michigan-breekt-met-partij-en-steunt-republikein.jpg"
+      },
+      {
+        "title": "Raad van State fileert kabinetsplan voor box 3 en adviseert uitstel",
+        "url": "https://www.nu.nl/politiek/6414845/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.html",
+        "date": "Mon, 02 Nov 2026 10:09:54 +0100",
+        "summary": "De Raad van State (RvS) fileert het wetsvoorstel voor de invoering van een vermogenswinstbelasting. De belangrijkste adviseur van de regering pleit voor uitstel. Het kabinet heeft nog niet gereageerd op de kritiek.",
+        "imageUrl": "https://images.nu.nl/m/wtsx2hnai5vm_sqr256/1169/0/4000/4000/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.jpg"
+      },
+      {
+        "title": "Beloning voor gouden tip 'Bolle Jos' verhoogd van 200.000 euro naar 2 miljoen",
+        "url": "https://www.nu.nl/misdaad/6415205/beloning-voor-gouden-tip-bolle-jos-verhoogd-van-200000-euro-naar-2-miljoen.html",
+        "date": "Mon, 02 Nov 2026 10:00:03 +0100",
+        "summary": "De beloning voor de gouden tip die leidt tot de aanhouding van Jos L. is verhoogd naar 2 miljoen euro. Dat bedrag is volgens het OM \"uitzonderlijk\", maar de arrestatie van de drugscrimineel heeft dan ook de \"hoogste prioriteit\".",
+        "imageUrl": "https://images.nu.nl/m/em4xx1paqtil_sqr256/372/0/1080/1080/beloning-voor-gouden-tip-bolle-jos-verhoogd-van-200000-euro-naar-2-miljoen.jpg"
+      },
+      {
+        "title": "Hackers leggen koeling van tientallen Belgische Delhaize-winkels plat",
+        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-van-tientallen-belgische-delhaize-winkels-plat.html",
         "date": "Mon, 02 Nov 2026 09:27:00 +0100",
-        "summary": "Vriezers en koelkasten van de Belgische supermarktketen Delhaize zijn gehackt, melden Belgische media maandagochtend. De zusterketen van Albert Heijn spreekt van een \"IT-incident\" bij koelinstallaties. Zeker veertig supermarkten zouden zijn getroffen.",
-        "imageUrl": "https://images.nu.nl/m/sj2x2bbalgoe_sqr256/1263/0/3655/3655/hackers-leggen-koeling-bij-tientallen-belgische-delhaize-winkels-plat.jpg"
+        "summary": "Vriezers en koelkasten van de Belgische supermarktketen Delhaize zijn getroffen door een hack, melden Belgische media maandagochtend. De zusterketen van Albert Heijn spreekt van een \"IT-incident\" bij koelinstallaties. Zeker veertig supermarkten zouden zijn getroffen.",
+        "imageUrl": "https://images.nu.nl/m/sj2x2bbalgoe_sqr256/1263/0/3655/3655/hackers-leggen-koeling-van-tientallen-belgische-delhaize-winkels-plat.jpg"
+      },
+      {
+        "title": "Media bejubelen kampioen Antonelli: 'Foto met Verstappen en Hamilton zegt veel'",
+        "url": "https://www.nu.nl/formule-1/6415194/media-bejubelen-kampioen-antonelli-foto-met-verstappen-en-hamilton-zegt-veel.html",
+        "date": "Mon, 02 Nov 2026 09:16:05 +0100",
+        "summary": "Buitenlandse media zijn lyrisch over Kimi Antonelli en zijn wereldtitel in de Formule 1. De twintigjarige Italiaan werd zondag bij de Grand Prix van Mexico de jongste wereldkampioen ooit . Veel media staan stil bij de juichfoto van Antonelli op het podum.",
+        "imageUrl": "https://images.nu.nl/m/l8vxqntae8dr_sqr256/1185/0/2628/2628/media-bejubelen-kampioen-antonelli-foto-met-verstappen-en-hamilton-zegt-veel.jpg"
+      },
+      {
+        "title": "Zelfdoding blijkt doodsoorzaak van Party Rock Anthem-zangeres Lauren Bennett",
+        "url": "https://www.nu.nl/achterklap/6415196/zelfdoding-blijkt-doodsoorzaak-van-party-rock-anthem-zangeres-lauren-bennett.html",
+        "date": "Mon, 02 Nov 2026 09:03:04 +0100",
+        "summary": "Lauren Bennett, de zangeres van het nummer Party Rock Anthem , overleed door zelfdoding. De politie hield hier al rekening mee toen de Engelse zangeres eind mei op 36-jarige leeftijd dood werd aangetroffen. De lijkschouwer heeft dit nu bevestigd.",
+        "imageUrl": "https://images.nu.nl/m/63xxq7ban8m1_sqr256/0/22/524/524/zelfdoding-blijkt-doodsoorzaak-van-party-rock-anthem-zangeres-lauren-bennett.jpg"
       },
       {
         "title": "AFM wil van pijnlijke situaties rond nabestaandenpensioen af en vraagt om actie",
@@ -16,41 +51,6 @@
         "date": "Mon, 02 Nov 2026 08:37:06 +0100",
         "summary": "Pensioenuitvoerders besteden veel aandacht aan het nabestaandenpensioen, maar de informatie voor deelnemers schiet soms tekort, stelt de Autoriteit Financiële Markten (AFM). Daardoor zijn mensen zonder het te weten niet altijd gedekt.",
         "imageUrl": "https://images.nu.nl/m/fuwxh4ca8akv_sqr256/856/0/3024/3024/afm-wil-van-pijnlijke-situaties-rond-nabestaandenpensioen-af-en-vraagt-om-actie.jpg"
-      },
-      {
-        "title": "Belgische premier dient ontslag in na mislukte onderhandelingen over begroting",
-        "url": "https://www.nu.nl/buitenland/6415191/belgische-premier-dient-ontslag-in-na-mislukte-onderhandelingen-over-begroting.html",
-        "date": "Mon, 02 Nov 2026 08:27:53 +0100",
-        "summary": "De Belgische premier Bart De Wever dient maandag naar verwachting om 9.30 uur zijn ontslag in, omdat zijn kabinet er niet in slaagt overeenstemming te bereiken over de begroting. Koning Filip onderbreekt zijn vakantie vanwege de dreiging van nieuwe verkiezingen.",
-        "imageUrl": "https://images.nu.nl/m/16vxoara4565_sqr256/1059/0/4847/4847/belgische-premier-dient-ontslag-in-na-mislukte-onderhandelingen-over-begroting.jpg"
-      },
-      {
-        "title": "Dure kerosine dwingt Ryanair tot bezuinigen, loonstops en minder bestemmingen",
-        "url": "https://www.nu.nl/economie/6415192/dure-kerosine-dwingt-ryanair-tot-bezuinigen-loonstops-en-minder-bestemmingen.html",
-        "date": "Mon, 02 Nov 2026 08:10:36 +0100",
-        "summary": "Ryanair heeft in de eerste helft van het boekjaar 15 procent minder winst gemaakt. De winst kwam uit op 2,15 miljard euro, tegen 2,54 miljard een jaar eerder. Die daling wordt toegeschreven aan de sterk gestegen kerosineprijs en lagere ticketprijzen.",
-        "imageUrl": "https://images.nu.nl/m/5fixmcla88kj_sqr256/685/0/2965/2965/dure-kerosine-dwingt-ryanair-tot-bezuinigen-loonstops-en-minder-bestemmingen.jpg"
-      },
-      {
-        "title": "Ferrari-teambaas woest op coureurs na missen zege: 'Respectloos naar het merk'",
-        "url": "https://www.nu.nl/formule-1/6415175/ferrari-teambaas-woest-op-coureurs-na-missen-zege-respectloos-naar-het-merk.html",
-        "date": "Mon, 02 Nov 2026 07:27:00 +0100",
-        "summary": "Het rommelt flink bij Ferrari na de Grand Prix van Mexico. Teambaas Fred Vasseur is boos op Lewis Hamilton en Charles Leclerc na hun incident in de openingsfase. Hamilton verwijt zijn teamgenoot een verkeerde keuze, terwijl Leclerc zegt dat hij op dat moment \"verward\" was.",
-        "imageUrl": "https://images.nu.nl/m/gs2xtrsagmli_sqr256/532/0/2688/2688/ferrari-teambaas-woest-op-coureurs-na-missen-zege-respectloos-naar-het-merk.jpg"
-      },
-      {
-        "title": "Donald Trump toegevoegd aan internationale lijst van vijanden van persvrijheid",
-        "url": "https://www.nu.nl/media/6415186/donald-trump-toegevoegd-aan-internationale-lijst-van-vijanden-van-persvrijheid.html",
-        "date": "Mon, 02 Nov 2026 07:16:10 +0100",
-        "summary": "Donald Trump is toegevoegd aan de lijst met vijanden van de persvrijheid van Reporters sans frontières . Hij zou zijn macht misbruiken om de media te beïnvloeden en onder druk te zetten. Ook onder meer Vladimir Poetin is op de lijst met 'persvrijheidsduivels' gezet.",
-        "imageUrl": "https://images.nu.nl/m/1bkxl6vasv9z_sqr256/226/0/3609/3609/donald-trump-toegevoegd-aan-internationale-lijst-van-vijanden-van-persvrijheid.jpg"
-      },
-      {
-        "title": "Code rood, oranje en geel per provincie verleden tijd met nieuwe werkwijze KNMI",
-        "url": "https://www.nu.nl/binnenland/6415114/code-rood-oranje-en-geel-per-provincie-verleden-tijd-met-nieuwe-werkwijze-knmi.html",
-        "date": "Mon, 02 Nov 2026 06:30:47 +0100",
-        "summary": "Het KNMI waarschuwt vanaf maandag niet meer per provincie voor gevaarlijk weer, maar werkt met plaatselijke kleurcodes. Op die manier weten Nederlanders beter waar ze aan toe zijn bij onweer, hitte of gladheid. \"Het kan zijn dat er minder waarschuwingen komen.\"",
-        "imageUrl": "https://images.nu.nl/m/muzxybja79xq_sqr256/676/0/3751/3751/code-rood-oranje-en-geel-per-provincie-verleden-tijd-met-nieuwe-werkwijze-knmi.jpg"
       }
     ]
   },
@@ -58,54 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "09:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:45",
-        "mmHour": 0.0
-      },
       {
         "time": "10:50",
         "mmHour": 0.0
@@ -153,12 +105,60 @@
       {
         "time": "11:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "11:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.0,
+    "temperature": 11.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T08:51:51+00:00",
-    "rainUpdatedAt": "2026-11-02T08:51:51+00:00"
+    "weatherUpdatedAt": "2026-11-02T09:49:03+00:00",
+    "rainUpdatedAt": "2026-11-02T09:49:04+00:00"
   }
 }
