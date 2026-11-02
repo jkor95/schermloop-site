@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T03:13:11+00:00",
+    "updatedAt": "2026-11-02T04:14:27+00:00",
     "headlines": [
+      {
+        "title": "Ook VodafoneZiggo wil meer personeel op kantoor zien en scherpt regels aan",
+        "url": "https://www.nu.nl/economie/6414971/ook-vodafoneziggo-wil-meer-personeel-op-kantoor-zien-en-scherpt-regels-aan.html",
+        "date": "Mon, 02 Nov 2026 05:00:55 +0100",
+        "summary": "VodafoneZiggo wil dat werknemers vaker naar kantoor komen. Het personeel zou voortaan drie dagen per week naar de werkvloer moeten. Voor medewerkers die dat niet willen of kunnen, komt een tijdelijke vertrekregeling. VodafoneZiggo is niet de eerste werkgever die de teugels aantrekt.",
+        "imageUrl": "https://images.nu.nl/m/qdcxyasaw65h_sqr256/971/0/2831/2831/ook-vodafoneziggo-wil-meer-personeel-op-kantoor-zien-en-scherpt-regels-aan.jpg"
+      },
       {
         "title": "Podcast | 'Traantje weggepinkt bij verhaal over opa Antonelli'",
         "url": "https://www.nu.nl/formule-1/6415178/traantje-weggepinkt-bij-verhaal-over-opa-antonelli.html",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 22:01:34 +0100",
         "summary": "Een vliegtuigje is zondagmiddag (lokale tijd) neergestort in een woonwagenpark in de Amerikaanse staat Florida. Bij de crash zijn alle negen mensen aan boord omgekomen, schrijft de Amerikaanse minister van Transport Sean Duffy in een bericht op X .",
         "imageUrl": "https://images.nu.nl/m/jsyxsteav9kn_sqr256/341/0/1080/1080/negen-doden-bij-crash-vliegtuigje-op-woonwagenpark-in-verenigde-staten.jpg"
-      },
-      {
-        "title": "Rechter verwerpt Trumps verzoek om uitslag Alaska bij verlies te blokkeren",
-        "url": "https://www.nu.nl/verkiezingen-vs/6415169/rechter-verwerpt-trumps-verzoek-om-uitslag-alaska-bij-verlies-te-blokkeren.html",
-        "date": "Sun, 01 Nov 2026 21:15:29 +0100",
-        "summary": "Een federale rechter heeft Trumps verzoek afgewezen om de uitslag van de tussentijdse verkiezingen in Alaska te blokkeren bij verlies van de Republikeinse kandidaat. Trump had de rechter dat gevraagd omdat een kandidaat meedoet met bijna dezelfde naam als de Republikein.",
-        "imageUrl": "https://images.nu.nl/m/z06xmpmaq62u_sqr256/283/0/3014/3014/rechter-verwerpt-trumps-verzoek-om-uitslag-alaska-bij-verlies-te-blokkeren.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "04:10",
-        "mmHour": 0.21
-      },
-      {
-        "time": "04:15",
-        "mmHour": 0.21
-      },
-      {
-        "time": "04:20",
-        "mmHour": 0.29
-      },
-      {
-        "time": "04:25",
-        "mmHour": 0.39
-      },
-      {
-        "time": "04:30",
-        "mmHour": 0.7
-      },
-      {
-        "time": "04:35",
-        "mmHour": 0.93
-      },
-      {
-        "time": "04:40",
-        "mmHour": 0.93
-      },
-      {
-        "time": "04:45",
-        "mmHour": 1.07
-      },
-      {
-        "time": "04:50",
-        "mmHour": 1.33
-      },
-      {
-        "time": "04:55",
-        "mmHour": 0.6
-      },
-      {
-        "time": "05:00",
-        "mmHour": 0.21
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.29
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.39
-      },
-      {
         "time": "05:15",
-        "mmHour": 0.21
+        "mmHour": 0.0
       },
       {
         "time": "05:20",
-        "mmHour": 0.1
+        "mmHour": 0.21
       },
       {
         "time": "05:25",
-        "mmHour": 0.1
+        "mmHour": 0.39
       },
       {
         "time": "05:30",
-        "mmHour": 0.0
+        "mmHour": 0.39
       },
       {
         "time": "05:35",
-        "mmHour": 0.0
+        "mmHour": 0.49
       },
       {
         "time": "05:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:50",
-        "mmHour": 0.21
-      },
-      {
-        "time": "05:55",
         "mmHour": 0.29
       },
       {
+        "time": "05:45",
+        "mmHour": 0.29
+      },
+      {
+        "time": "05:50",
+        "mmHour": 0.6
+      },
+      {
+        "time": "05:55",
+        "mmHour": 0.49
+      },
+      {
         "time": "06:00",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "06:05",
-        "mmHour": 0.39
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:10",
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:15",
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:20",
+        "mmHour": 0.29
+      },
+      {
+        "time": "06:25",
+        "mmHour": 0.29
+      },
+      {
+        "time": "06:30",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:35",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:40",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:55",
+        "mmHour": 0.1
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.21
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.1
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.8,
-    "description": "Zwaar bewolkt met wat lichte regen",
+    "temperature": 10.1,
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T03:13:11+00:00",
-    "rainUpdatedAt": "2026-11-02T03:13:12+00:00"
+    "weatherUpdatedAt": "2026-11-02T04:14:28+00:00",
+    "rainUpdatedAt": "2026-11-02T04:14:28+00:00"
   }
 }
