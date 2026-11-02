@@ -1,21 +1,28 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T02:20:15+00:00",
+    "updatedAt": "2026-11-02T03:13:11+00:00",
     "headlines": [
+      {
+        "title": "Podcast | 'Traantje weggepinkt bij verhaal over opa Antonelli'",
+        "url": "https://www.nu.nl/formule-1/6415178/traantje-weggepinkt-bij-verhaal-over-opa-antonelli.html",
+        "date": "Mon, 02 Nov 2026 03:45:18 +0100",
+        "summary": "Kimi Antonelli is in Mexico de jongste wereldkampioen ooit geworden in de Formule 1. Hij werd op de schouders gehezen van Lewis Hamilton en Max Verstappen en hield het niet droog toen Nessun Dorma werd gedraaid op het podium. Dat en nog veel meer hoor je in deze terugblik van de Grand Prix van Mexico met Joost...",
+        "imageUrl": "https://images.nu.nl/m/fnhx8ryaazuu_sqr256/160/185/2679/2679/traantje-weggepinkt-bij-verhaal-over-opa-antonelli.jpg"
+      },
       {
         "title": "Antonelli in tranen na eerste wereldtitel Formule 1: 'Ik ben sprakeloos'",
         "url": "https://www.nu.nl/formule-1/6415174/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.html",
         "date": "Sun, 01 Nov 2026 23:53:44 +0100",
         "summary": "Kimi Antonelli was geëmotioneerd na het behalen van zijn eerste wereldtitel in de Formule 1. De twintigjarige Italiaan bedankte in Mexico zijn team en familie.",
-        "imageUrl": "https://images.nu.nl/m/n5bx3lzaglch_sqr256/680/0/3037/3037/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.jpg"
+        "imageUrl": "https://images.nu.nl/m/p7sxf85a4gni_sqr256/601/1/2237/2237/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.jpg"
       },
       {
         "title": "Antonelli pakt historische wereldtitel, Verstappen wint spektakelstuk in Mexico",
         "url": "https://www.nu.nl/formule-1/6415172/antonelli-pakt-historische-wereldtitel-verstappen-wint-spektakelstuk-in-mexico.html",
         "date": "Sun, 01 Nov 2026 23:24:16 +0100",
         "summary": "Kimi Antonelli heeft zich zondag bij de Grand Prix van Mexico gekroond tot de jongste wereldkampioen ooit in de Formule 1. De twintigjarige Italiaan finishte als derde in een spectaculaire race, die verrassend werd gewonnen door Max Verstappen.",
-        "imageUrl": "https://images.nu.nl/m/8s3xxiraq8a7_sqr256/842/149/3185/3185/antonelli-pakt-historische-wereldtitel-verstappen-wint-spektakelstuk-in-mexico.jpg"
+        "imageUrl": "https://images.nu.nl/m/akdxo6ta6y5t_sqr256/0/0/2695/2695/antonelli-pakt-historische-wereldtitel-verstappen-wint-spektakelstuk-in-mexico.jpg"
       },
       {
         "title": "Oekraïense waarschuwingsapp gehackt, valse alarmen over nucleaire dreiging",
@@ -44,13 +51,6 @@
         "date": "Sun, 01 Nov 2026 21:15:29 +0100",
         "summary": "Een federale rechter heeft Trumps verzoek afgewezen om de uitslag van de tussentijdse verkiezingen in Alaska te blokkeren bij verlies van de Republikeinse kandidaat. Trump had de rechter dat gevraagd omdat een kandidaat meedoet met bijna dezelfde naam als de Republikein.",
         "imageUrl": "https://images.nu.nl/m/z06xmpmaq62u_sqr256/283/0/3014/3014/rechter-verwerpt-trumps-verzoek-om-uitslag-alaska-bij-verlies-te-blokkeren.jpg"
-      },
-      {
-        "title": "Virgil van Dijk kraakt VAR na actie Jurriën Timber: 'Er staan vijftig camera's'",
-        "url": "https://www.nu.nl/voetbal/6415165/virgil-van-dijk-kraakt-var-na-actie-jurrien-timber-er-staan-vijftig-cameras.html",
-        "date": "Sun, 01 Nov 2026 20:41:32 +0100",
-        "summary": "Liverpool-verdediger Virgil van Dijk was zondag niet te spreken over de arbitrage bij de verloren Premier League-kraker tegen Arsenal ( 0-1 ). De ervaren Nederlander vond dat zijn ploeg een strafschop had moeten krijgen na een actie van zijn landgenoot Jurriën Timber.",
-        "imageUrl": "https://images.nu.nl/m/ox5xkuoayiti_sqr256/212/0/966/966/virgil-van-dijk-kraakt-var-na-actie-jurrien-timber-er-staan-vijftig-cameras.jpg"
       }
     ]
   },
@@ -59,48 +59,8 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "03:20",
-        "mmHour": 0.21
-      },
-      {
-        "time": "03:25",
-        "mmHour": 0.21
-      },
-      {
-        "time": "03:30",
-        "mmHour": 0.39
-      },
-      {
-        "time": "03:35",
-        "mmHour": 0.49
-      },
-      {
-        "time": "03:40",
-        "mmHour": 0.29
-      },
-      {
-        "time": "03:45",
-        "mmHour": 0.29
-      },
-      {
-        "time": "03:50",
-        "mmHour": 0.29
-      },
-      {
-        "time": "03:55",
-        "mmHour": 0.29
-      },
-      {
-        "time": "04:00",
-        "mmHour": 0.39
-      },
-      {
-        "time": "04:05",
-        "mmHour": 0.39
-      },
-      {
         "time": "04:10",
-        "mmHour": 0.29
+        "mmHour": 0.21
       },
       {
         "time": "04:15",
@@ -108,57 +68,97 @@
       },
       {
         "time": "04:20",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "04:25",
-        "mmHour": 0.21
+        "mmHour": 0.39
       },
       {
         "time": "04:30",
-        "mmHour": 0.21
+        "mmHour": 0.7
       },
       {
         "time": "04:35",
-        "mmHour": 0.1
+        "mmHour": 0.93
       },
       {
         "time": "04:40",
-        "mmHour": 0.21
+        "mmHour": 0.93
       },
       {
         "time": "04:45",
-        "mmHour": 0.39
+        "mmHour": 1.07
       },
       {
         "time": "04:50",
-        "mmHour": 0.49
+        "mmHour": 1.33
       },
       {
         "time": "04:55",
-        "mmHour": 0.39
-      },
-      {
-        "time": "05:00",
         "mmHour": 0.6
       },
       {
+        "time": "05:00",
+        "mmHour": 0.21
+      },
+      {
         "time": "05:05",
-        "mmHour": 1.0
+        "mmHour": 0.29
       },
       {
         "time": "05:10",
-        "mmHour": 0.81
+        "mmHour": 0.39
       },
       {
         "time": "05:15",
         "mmHour": 0.21
+      },
+      {
+        "time": "05:20",
+        "mmHour": 0.1
+      },
+      {
+        "time": "05:25",
+        "mmHour": 0.1
+      },
+      {
+        "time": "05:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:50",
+        "mmHour": 0.21
+      },
+      {
+        "time": "05:55",
+        "mmHour": 0.29
+      },
+      {
+        "time": "06:00",
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:05",
+        "mmHour": 0.39
       }
     ],
-    "temperature": 10.1,
-    "description": "Zwaar bewolkt en regen",
+    "temperature": 9.8,
+    "description": "Zwaar bewolkt met wat lichte regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T02:20:16+00:00",
-    "rainUpdatedAt": "2026-11-02T02:20:16+00:00"
+    "weatherUpdatedAt": "2026-11-02T03:13:11+00:00",
+    "rainUpdatedAt": "2026-11-02T03:13:12+00:00"
   }
 }
