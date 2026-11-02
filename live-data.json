@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T01:21:22+00:00",
+    "updatedAt": "2026-11-02T02:20:15+00:00",
     "headlines": [
       {
         "title": "Antonelli in tranen na eerste wereldtitel Formule 1: 'Ik ben sprakeloos'",
@@ -11,11 +11,11 @@
         "imageUrl": "https://images.nu.nl/m/n5bx3lzaglch_sqr256/680/0/3037/3037/antonelli-in-tranen-na-eerste-wereldtitel-formule-1-ik-ben-sprakeloos.jpg"
       },
       {
-        "title": "Verstappen wint spektakelstuk in Mexico, Antonelli wereldkampioen na derde plek",
-        "url": "https://www.nu.nl/formule-1/6415172/verstappen-wint-spektakelstuk-in-mexico-antonelli-wereldkampioen-na-derde-plek.html",
+        "title": "Antonelli pakt historische wereldtitel, Verstappen wint spektakelstuk in Mexico",
+        "url": "https://www.nu.nl/formule-1/6415172/antonelli-pakt-historische-wereldtitel-verstappen-wint-spektakelstuk-in-mexico.html",
         "date": "Sun, 01 Nov 2026 23:24:16 +0100",
-        "summary": "Max Verstappen heeft zondag op spectaculaire wijze de Grand Prix van Mexico op zijn naam geschreven. De Nederlander werkte zich vanaf de vijfde startplek naar voren en boekte zijn derde zege van het jaar. Kimi Antonelli finishte als derde en werd wereldkampioen.",
-        "imageUrl": "https://images.nu.nl/m/4pkxi0yax9tw_sqr256/480/0/2001/2001/verstappen-wint-spektakelstuk-in-mexico-antonelli-wereldkampioen-na-derde-plek.jpg"
+        "summary": "Kimi Antonelli heeft zich zondag bij de Grand Prix van Mexico gekroond tot de jongste wereldkampioen ooit in de Formule 1. De twintigjarige Italiaan finishte als derde in een spectaculaire race, die verrassend werd gewonnen door Max Verstappen.",
+        "imageUrl": "https://images.nu.nl/m/8s3xxiraq8a7_sqr256/842/149/3185/3185/antonelli-pakt-historische-wereldtitel-verstappen-wint-spektakelstuk-in-mexico.jpg"
       },
       {
         "title": "Oekraïense waarschuwingsapp gehackt, valse alarmen over nucleaire dreiging",
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "02:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:15",
-        "mmHour": 0.0
-      },
-      {
         "time": "03:20",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "03:25",
-        "mmHour": 0.0
+        "mmHour": 0.21
       },
       {
         "time": "03:30",
-        "mmHour": 0.1
+        "mmHour": 0.39
       },
       {
         "time": "03:35",
-        "mmHour": 0.21
+        "mmHour": 0.49
       },
       {
         "time": "03:40",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "03:45",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "03:50",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "03:55",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "04:00",
-        "mmHour": 0.21
+        "mmHour": 0.39
       },
       {
         "time": "04:05",
-        "mmHour": 0.1
+        "mmHour": 0.39
       },
       {
         "time": "04:10",
-        "mmHour": 0.1
+        "mmHour": 0.29
       },
       {
         "time": "04:15",
-        "mmHour": 0.1
+        "mmHour": 0.21
       },
       {
         "time": "04:20",
         "mmHour": 0.21
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.21
+      },
+      {
+        "time": "04:30",
+        "mmHour": 0.21
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.1
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.39
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.49
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.39
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.6
+      },
+      {
+        "time": "05:05",
+        "mmHour": 1.0
+      },
+      {
+        "time": "05:10",
+        "mmHour": 0.81
+      },
+      {
+        "time": "05:15",
+        "mmHour": 0.21
       }
     ],
-    "temperature": 9.7,
-    "description": "Zwaar bewolkt",
+    "temperature": 10.1,
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T01:21:22+00:00",
-    "rainUpdatedAt": "2026-11-02T01:21:22+00:00"
+    "weatherUpdatedAt": "2026-11-02T02:20:16+00:00",
+    "rainUpdatedAt": "2026-11-02T02:20:16+00:00"
   }
 }
