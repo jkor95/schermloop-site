@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-01T23:37:04+00:00",
+    "updatedAt": "2026-11-02T00:11:06+00:00",
     "headlines": [
       {
         "title": "Antonelli in tranen na eerste wereldtitel Formule 1: 'Ik ben sprakeloos'",
@@ -58,34 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:05",
-        "mmHour": 0.0
-      },
       {
         "time": "01:10",
         "mmHour": 0.0
@@ -148,17 +120,45 @@
       },
       {
         "time": "02:25",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "02:30",
-        "mmHour": 0.1
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "03:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.8,
+    "temperature": 9.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-01T23:37:04+00:00",
-    "rainUpdatedAt": "2026-11-01T23:37:05+00:00"
+    "weatherUpdatedAt": "2026-11-02T00:11:06+00:00",
+    "rainUpdatedAt": "2026-11-02T00:11:06+00:00"
   }
 }
