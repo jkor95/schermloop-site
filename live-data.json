@@ -1,14 +1,35 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T07:52:51+00:00",
+    "updatedAt": "2026-11-02T08:51:51+00:00",
     "headlines": [
+      {
+        "title": "Hackers leggen koeling bij tientallen Belgische Delhaize-winkels plat",
+        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-bij-tientallen-belgische-delhaize-winkels-plat.html",
+        "date": "Mon, 02 Nov 2026 09:27:00 +0100",
+        "summary": "Vriezers en koelkasten van de Belgische supermarktketen Delhaize zijn gehackt, melden Belgische media maandagochtend. De zusterketen van Albert Heijn spreekt van een \"IT-incident\" bij koelinstallaties. Zeker veertig supermarkten zouden zijn getroffen.",
+        "imageUrl": "https://images.nu.nl/m/sj2x2bbalgoe_sqr256/1263/0/3655/3655/hackers-leggen-koeling-bij-tientallen-belgische-delhaize-winkels-plat.jpg"
+      },
+      {
+        "title": "AFM wil van pijnlijke situaties rond nabestaandenpensioen af en vraagt om actie",
+        "url": "https://www.nu.nl/economie/6415195/afm-wil-van-pijnlijke-situaties-rond-nabestaandenpensioen-af-en-vraagt-om-actie.html",
+        "date": "Mon, 02 Nov 2026 08:37:06 +0100",
+        "summary": "Pensioenuitvoerders besteden veel aandacht aan het nabestaandenpensioen, maar de informatie voor deelnemers schiet soms tekort, stelt de Autoriteit Financiële Markten (AFM). Daardoor zijn mensen zonder het te weten niet altijd gedekt.",
+        "imageUrl": "https://images.nu.nl/m/fuwxh4ca8akv_sqr256/856/0/3024/3024/afm-wil-van-pijnlijke-situaties-rond-nabestaandenpensioen-af-en-vraagt-om-actie.jpg"
+      },
       {
         "title": "Belgische premier dient ontslag in na mislukte onderhandelingen over begroting",
         "url": "https://www.nu.nl/buitenland/6415191/belgische-premier-dient-ontslag-in-na-mislukte-onderhandelingen-over-begroting.html",
         "date": "Mon, 02 Nov 2026 08:27:53 +0100",
-        "summary": "Premier Bart De Wever dient maandag naar verwachting om 9.30 uur zijn ontslag in nadat het kabinet het niet eens wordt over de begroting. Koning Filip onderbreekt zijn vakantie vanwege de dreigende nieuwe verkiezingen.",
+        "summary": "De Belgische premier Bart De Wever dient maandag naar verwachting om 9.30 uur zijn ontslag in, omdat zijn kabinet er niet in slaagt overeenstemming te bereiken over de begroting. Koning Filip onderbreekt zijn vakantie vanwege de dreiging van nieuwe verkiezingen.",
         "imageUrl": "https://images.nu.nl/m/16vxoara4565_sqr256/1059/0/4847/4847/belgische-premier-dient-ontslag-in-na-mislukte-onderhandelingen-over-begroting.jpg"
+      },
+      {
+        "title": "Dure kerosine dwingt Ryanair tot bezuinigen, loonstops en minder bestemmingen",
+        "url": "https://www.nu.nl/economie/6415192/dure-kerosine-dwingt-ryanair-tot-bezuinigen-loonstops-en-minder-bestemmingen.html",
+        "date": "Mon, 02 Nov 2026 08:10:36 +0100",
+        "summary": "Ryanair heeft in de eerste helft van het boekjaar 15 procent minder winst gemaakt. De winst kwam uit op 2,15 miljard euro, tegen 2,54 miljard een jaar eerder. Die daling wordt toegeschreven aan de sterk gestegen kerosineprijs en lagere ticketprijzen.",
+        "imageUrl": "https://images.nu.nl/m/5fixmcla88kj_sqr256/685/0/2965/2965/dure-kerosine-dwingt-ryanair-tot-bezuinigen-loonstops-en-minder-bestemmingen.jpg"
       },
       {
         "title": "Ferrari-teambaas woest op coureurs na missen zege: 'Respectloos naar het merk'",
@@ -30,27 +51,6 @@
         "date": "Mon, 02 Nov 2026 06:30:47 +0100",
         "summary": "Het KNMI waarschuwt vanaf maandag niet meer per provincie voor gevaarlijk weer, maar werkt met plaatselijke kleurcodes. Op die manier weten Nederlanders beter waar ze aan toe zijn bij onweer, hitte of gladheid. \"Het kan zijn dat er minder waarschuwingen komen.\"",
         "imageUrl": "https://images.nu.nl/m/muzxybja79xq_sqr256/676/0/3751/3751/code-rood-oranje-en-geel-per-provincie-verleden-tijd-met-nieuwe-werkwijze-knmi.jpg"
-      },
-      {
-        "title": "Explainer | Duurste Senaatsrace ooit: wordt Trump-kandidaat verslagen in Texas?",
-        "url": "https://www.nu.nl/331870/video/duurste-senaatsrace-ooit-wordt-trump-kandidaat-verslagen-in-texas.html",
-        "date": "Mon, 02 Nov 2026 06:06:51 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/1nex3vdajxc8_sqr256/452/0/1439/1439/duurste-senaatsrace-ooit-wordt-trump-kandidaat-verslagen-in-texas.jpg"
-      },
-      {
-        "title": "F1-kampioen Antonelli breekt door Nessun dorma: 'Mijn opa zou trots zijn'",
-        "url": "https://www.nu.nl/formule-1/6415177/f1-kampioen-antonelli-breekt-door-nessun-dorma-mijn-opa-zou-trots-zijn.html",
-        "date": "Mon, 02 Nov 2026 06:04:27 +0100",
-        "summary": "Kimi Antonelli beleefde zondag een zeer emotionele dag in Mexico. Al tijdens en vooral na de race liet de jongste wereldkampioen in de Formule 1-geschiedenis zijn emoties de vrije loop. Vooral de herinnering aan zijn opa maakte veel los.",
-        "imageUrl": "https://images.nu.nl/m/6opx85iat4i5_sqr256/736/144/3648/3648/f1-kampioen-antonelli-breekt-door-nessun-dorma-mijn-opa-zou-trots-zijn.jpg"
-      },
-      {
-        "title": "Vijf mensen gered die drie maanden op Stille Oceaan ronddreven",
-        "url": "https://www.nu.nl/opmerkelijk/6415182/vijf-mensen-gered-die-drie-maanden-op-stille-oceaan-ronddreven.html",
-        "date": "Mon, 02 Nov 2026 05:51:29 +0100",
-        "summary": "Vijf mensen, onder wie twee kinderen, zijn zondag teruggevonden nadat zij ongeveer drie maanden op de Stille Oceaan hadden gedreven. Hoe zij zo lang in leven hebben kunnen blijven, is niet duidelijk.",
-        "imageUrl": "https://images.nu.nl/m/ixgxbuva1djv_sqr256/299/0/1606/1606/vijf-mensen-gered-die-drie-maanden-op-stille-oceaan-ronddreven.jpg"
       }
     ]
   },
@@ -58,54 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "08:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "08:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "09:45",
-        "mmHour": 0.0
-      },
       {
         "time": "09:50",
         "mmHour": 0.0
@@ -153,12 +105,60 @@
       {
         "time": "10:45",
         "mmHour": 0.0
+      },
+      {
+        "time": "10:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "10:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "11:45",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.1,
+    "temperature": 11.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T07:52:51+00:00",
-    "rainUpdatedAt": "2026-11-02T07:52:52+00:00"
+    "weatherUpdatedAt": "2026-11-02T08:51:51+00:00",
+    "rainUpdatedAt": "2026-11-02T08:51:51+00:00"
   }
 }
