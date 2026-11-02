@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T17:38:40+00:00",
+    "updatedAt": "2026-11-02T18:32:28+00:00",
     "headlines": [
+      {
+        "title": "Tenerife-speler op het veld gereanimeerd na snoeiharde actie van keeper",
+        "url": "https://www.nu.nl/voetbal/6415276/tenerife-speler-op-het-veld-gereanimeerd-na-snoeiharde-actie-van-keeper.html",
+        "date": "Mon, 02 Nov 2026 19:07:24 +0100",
+        "summary": "Een voetballer van CD Tenerife is maandagavond op het veld gereanimeerd nadat de keeper van de tegenstander snoeihard op hem inkwam. Het duel op het tweede niveau van Spanje werd daarom gestaakt.",
+        "imageUrl": "https://images.nu.nl/m/8rbxa30a857t_sqr256/111/0/547/547/tenerife-speler-op-het-veld-gereanimeerd-na-snoeiharde-actie-van-keeper.jpg"
+      },
       {
         "title": "Spanning stijgt: kabinet voert al hele dag overleg over belastingplan en box 3",
         "url": "https://www.nu.nl/politiek/6415257/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.html",
         "date": "Mon, 02 Nov 2026 18:34:12 +0100",
         "summary": "De spanning in Den Haag stijgt. De top van het kabinet overlegt al de hele dag over het belastingplan en box 3. Waarschijnlijk is er dinsdag een extra ministerraad en de hoop is dat het kabinet er dan uit is.",
-        "imageUrl": "https://images.nu.nl/m/ln6xqdoabv2j_sqr256/964/241/4172/4172/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.jpg"
+        "imageUrl": "https://images.nu.nl/m/jacxj45a710y_sqr256/1270/120/4143/4143/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.jpg"
       },
       {
         "title": "Kinderen geboren uit incest hebben voortaan recht op schadevergoeding",
@@ -18,11 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/77wx96lapva8_sqr256/1717/0/5452/5452/kinderen-geboren-uit-incest-hebben-voortaan-recht-op-schadevergoeding.jpg"
       },
       {
-        "title": "Bedrijven willen werknemers vaker op kantoor zien: 'Mensen hebben contact nodig'",
-        "url": "https://www.nu.nl/economie/6415252/bedrijven-willen-werknemers-vaker-op-kantoor-zien-mensen-hebben-contact-nodig.html",
+        "title": "Steeds meer medewerkers verplicht naar kantoor: 'De productiviteit daalt'",
+        "url": "https://www.nu.nl/economie/6415252/steeds-meer-medewerkers-verplicht-naar-kantoor-de-productiviteit-daalt.html",
         "date": "Mon, 02 Nov 2026 17:48:46 +0100",
         "summary": "Steeds meer bedrijven verruilen flexibiliteit bij het thuiswerken voor duidelijkere kantoorplicht. VodafoneZiggo wil werknemers drie dagen per week op kantoor zien, bleek maandagochtend. Maar wat maakt werken op kantoor beter dan thuiswerken? \"Mensen hebben contact nodig.\"",
-        "imageUrl": "https://images.nu.nl/m/ki5xsuoa19nw_sqr256/1406/0/3800/3800/bedrijven-willen-werknemers-vaker-op-kantoor-zien-mensen-hebben-contact-nodig.jpg"
+        "imageUrl": "https://images.nu.nl/m/ki5xsuoa19nw_sqr256/1406/0/3800/3800/steeds-meer-medewerkers-verplicht-naar-kantoor-de-productiviteit-daalt.jpg"
       },
       {
         "title": "In beeld | Brit krijgt heldenonthaal in Hull na wandeling van 28 jaar rond de wereld",
@@ -44,13 +51,6 @@
         "date": "Mon, 02 Nov 2026 17:12:23 +0100",
         "summary": "",
         "imageUrl": "https://images.nu.nl/m/78cx0otakgzo_sqr256/281/0/1440/1440/deze-motor-moet-oekraine-beschermen-tegen-russische-drones.jpg"
-      },
-      {
-        "title": "Feyenoorder Steijn kreeg tegen Fortuna bewust geen invalbeurt: 'Zat in de emotie'",
-        "url": "https://www.nu.nl/voetbal/6415269/feyenoorder-steijn-kreeg-tegen-fortuna-bewust-geen-invalbeurt-zat-in-de-emotie.html",
-        "date": "Mon, 02 Nov 2026 16:57:40 +0100",
-        "summary": "Feyenoord-trainer Giovanni van Bronckhorst rekent dinsdag in de Champions League-wedstrijd tegen Internazionale weer op Sem Steijn. De coach besloot de middenvelder zaterdag tegen Fortuna Sittard (1-1) niet te laten invallen, omdat die er volgens hem mentaal niet klaar voor was.",
-        "imageUrl": "https://images.nu.nl/m/gd7x5xyah416_sqr256/1211/348/3533/3533/feyenoorder-steijn-kreeg-tegen-fortuna-bewust-geen-invalbeurt-zat-in-de-emotie.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "18:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "19:30",
-        "mmHour": 0.0
-      },
       {
         "time": "19:35",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "20:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "20:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 11.7,
+    "temperature": 10.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T17:38:40+00:00",
-    "rainUpdatedAt": "2026-11-02T17:38:41+00:00"
+    "weatherUpdatedAt": "2026-11-02T18:32:28+00:00",
+    "rainUpdatedAt": "2026-11-02T18:32:29+00:00"
   }
 }
