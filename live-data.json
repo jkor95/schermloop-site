@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T22:24:40+00:00",
+    "updatedAt": "2026-11-02T23:08:29+00:00",
     "headlines": [
+      {
+        "title": "Ook jongste dochter van Brad Pitt schrapt officieel zijn achternaam",
+        "url": "https://www.nu.nl/achterklap/6415290/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.html",
+        "date": "Mon, 02 Nov 2026 23:37:10 +0100",
+        "summary": "De jongste dochter van acteurs Angelina Jolie en Brad Pitt, Vivienne, heeft de achternaam van haar vader officieel laten schrappen, blijkt uit rechtbankdocumenten in handen van onder meer People . Een rechter in Californië keurde de wijziging maandag goed.",
+        "imageUrl": "https://images.nu.nl/m/99ixfk5aoni1_sqr256/669/1/3878/3878/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.jpg"
+      },
       {
         "title": "Russell lucht zijn hart daags na wereldtitel Antonelli: '2026 was niet mijn jaar'",
         "url": "https://www.nu.nl/formule-1/6415283/russell-lucht-zijn-hart-daags-na-wereldtitel-antonelli-2026-was-niet-mijn-jaar.html",
@@ -22,7 +29,7 @@
         "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.html",
         "date": "Mon, 02 Nov 2026 21:06:10 +0100",
         "summary": "Bij een schietpartij in een auto in Rotterdam-Oost is maandagavond een man om het leven gekomen. Hij was de bestuurder. De drie andere inzittenden zijn aangemerkt als verdachte en zijn aangehouden. Een van hen raakte zwaargewond.",
-        "imageUrl": "https://images.nu.nl/m/hbgxakqarukj_sqr256/1651/0/4640/4640/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.jpg"
+        "imageUrl": "https://images.nu.nl/m/hbfxaavayt1j_sqr256/0/4/3020/3020/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.jpg"
       },
       {
         "title": "Gegijzelde man bevrijd uit woning in Zwijndrecht, twee tieners opgepakt",
@@ -44,13 +51,6 @@
         "date": "Mon, 02 Nov 2026 19:59:50 +0100",
         "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 24 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double tap -aanval.",
         "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
-      },
-      {
-        "title": "Republikeinen gaan verder dan ooit met racistische campagne tegen El-Sayed",
-        "url": "https://www.nu.nl/verkiezingen-vs/6415230/republikeinen-gaan-verder-dan-ooit-met-racistische-campagne-tegen-el-sayed.html",
-        "date": "Mon, 02 Nov 2026 19:36:23 +0100",
-        "summary": "De Amerikaanse president Donald Trump en zijn Republikeinse partijgenoten doen hun uiterste best angst te zaaien over de Democratische kandidaat Abdul El-Sayed voor de Senaatszetel van Michigan. De ronduit racistische campagne toont volgens experts de wanhoop van de Republikeinse Partij.",
-        "imageUrl": "https://images.nu.nl/m/vzmxtjra7v6k_sqr256/442/0/1080/1080/republikeinen-gaan-verder-dan-ooit-met-racistische-campagne-tegen-el-sayed.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "23:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:30",
-        "mmHour": 0.1
-      },
-      {
-        "time": "23:35",
-        "mmHour": 0.29
-      },
-      {
-        "time": "23:40",
-        "mmHour": 0.49
-      },
-      {
-        "time": "23:45",
-        "mmHour": 0.39
-      },
-      {
-        "time": "23:50",
-        "mmHour": 0.49
-      },
-      {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
       {
         "time": "00:10",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "01:20",
         "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "02:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.2,
-    "description": "Zwaar bewolkt",
+    "temperature": 9.8,
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T22:24:40+00:00",
-    "rainUpdatedAt": "2026-11-02T22:24:40+00:00"
+    "weatherUpdatedAt": "2026-11-02T23:08:34+00:00",
+    "rainUpdatedAt": "2026-11-02T23:08:38+00:00"
   }
 }
