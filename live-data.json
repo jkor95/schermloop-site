@@ -1,20 +1,41 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T14:43:06+00:00",
+    "updatedAt": "2026-11-02T15:39:09+00:00",
     "headlines": [
       {
-        "title": "Negen maanden cel geëist tegen man voor beschieten katten met kruisbogen",
-        "url": "https://www.nu.nl/binnenland/6415253/negen-maanden-cel-geeist-tegen-man-voor-beschieten-katten-met-kruisbogen.html",
+        "title": "51 varkens omgekomen bij ongeval met vrachtwagen in Gelderland",
+        "url": "https://www.nu.nl/binnenland/6415255/51-varkens-omgekomen-bij-ongeval-met-vrachtwagen-in-gelderland.html",
+        "date": "Mon, 02 Nov 2026 16:15:23 +0100",
+        "summary": "Een vrachtwagen met tweehonderd varkens is maandagochtend gekanteld bij een eenzijdig ongeval in het Gelderse dorp Eibergen. 51 varkens hebben het ongeluk niet overleefd, meldt de politie aan NU.nl. De chauffeur heeft geen letsel opgelopen.",
+        "imageUrl": "https://images.nu.nl/m/33wxk86aw34l_sqr256/483/0/1080/1080/51-varkens-omgekomen-bij-ongeval-met-vrachtwagen-in-gelderland.jpg"
+      },
+      {
+        "title": "Cabaretier Gover Meit forceerde relaties door grote kinderwens",
+        "url": "https://www.nu.nl/achterklap/6415259/cabaretier-gover-meit-forceerde-relaties-door-grote-kinderwens.html",
+        "date": "Mon, 02 Nov 2026 16:02:19 +0100",
+        "summary": "Gover Meit is door zijn grote kinderwens de afgelopen tien jaar grotendeels bezig geweest met het vinden van een geschikte partner. Inmiddels ziet de 39-jarige comedian in dat die instelling hem in de liefde niet heeft geholpen.",
+        "imageUrl": "https://images.nu.nl/m/cajxyazabzeb_sqr256/824/0/3648/3648/cabaretier-gover-meit-forceerde-relaties-door-grote-kinderwens.jpg"
+      },
+      {
+        "title": "Gemene deler achter de opwarmende koelingen is Deense leverancier",
+        "url": "https://www.nu.nl/economie/6415256/gemene-deler-achter-de-opwarmende-koelingen-is-deense-leverancier.html",
+        "date": "Mon, 02 Nov 2026 15:46:39 +0100",
+        "summary": "De koelsystemen van de Deense leverancier Danfoss zijn betrokken bij de incidenten in supermarkten waarbij de koelingen warmer werden. Hackers hebben de koel- en vriessystemen in meerdere landen en winkels op afstand bediend.",
+        "imageUrl": "https://images.nu.nl/m/fl1xxjhaw8qz_sqr256/1276/0/2592/2592/gemene-deler-achter-de-opwarmende-koelingen-is-deense-leverancier.jpg"
+      },
+      {
+        "title": "Man heeft spijt van beschieten katten met kruisboog: 'Wilde ze bang maken'",
+        "url": "https://www.nu.nl/binnenland/6415253/man-heeft-spijt-van-beschieten-katten-met-kruisboog-wilde-ze-bang-maken.html",
         "date": "Mon, 02 Nov 2026 15:39:04 +0100",
-        "summary": "Het OM heeft maandag negen maanden cel geëist tegen een 26-jarige man voor het beschieten van katten met een kruisboog in Eindhoven. Vier dieren raakten gewond. Eentje overleed.",
-        "imageUrl": "https://images.nu.nl/m/5xrxawga81pd_sqr256/1335/0/3668/3668/negen-maanden-cel-geeist-tegen-man-voor-beschieten-katten-met-kruisbogen.jpg"
+        "summary": "Het OM heeft maandag negen maanden cel geëist tegen een 26-jarige man voor het beschieten van katten met een kruisboog in Eindhoven. Vier dieren raakten gewond. Eentje overleed. De man zegt dat hij de katten bang wilde maken.",
+        "imageUrl": "https://images.nu.nl/m/5xrxawga81pd_sqr256/1335/0/3668/3668/man-heeft-spijt-van-beschieten-katten-met-kruisboog-wilde-ze-bang-maken.jpg"
       },
       {
         "title": "Jasper Krommenhoek verrast Thialf én wil piloot worden: 'Dat is mijn oma ook'",
         "url": "https://www.nu.nl/schaatsen/6415137/jasper-krommenhoek-verrast-thialf-en-wil-piloot-worden-dat-is-mijn-oma-ook.html",
         "date": "Mon, 02 Nov 2026 15:03:57 +0100",
-        "summary": "Jasper Krommenhoek was bij de mannen dé verrassing van het World Cup-kwalificatietoernooi (WCKT), met zeges op de 5 en 10 kilometer. De 22-jarige stayer heeft twee dromen: een olympische medaille winnen op als schaatser én straaljagerpiloot worden.",
+        "summary": "Jasper Krommenhoek was bij de mannen dé verrassing van het World Cup-kwalificatietoernooi (WCKT), met zeges op de 5 en 10 kilometer. De 22-jarige stayer heeft twee dromen: een olympische medaille winnen als schaatser én straaljagerpiloot worden.",
         "imageUrl": "https://images.nu.nl/m/97hx8mjavdw1_sqr256/1182/388/3576/3576/jasper-krommenhoek-verrast-thialf-en-wil-piloot-worden-dat-is-mijn-oma-ook.jpg"
       },
       {
@@ -30,27 +51,6 @@
         "date": "Mon, 02 Nov 2026 14:36:26 +0100",
         "summary": "Door heel Europa maken supermarktketens melding van cyberaanvallen, waardoor koelsystemen opwarmen. Het roept vragen op bij cybersecuritydeskundigen: wie of wat zit hier achter? De aanvallers blijven opvallend stil.",
         "imageUrl": "https://images.nu.nl/m/yq9x4v3ajlk4_sqr256/2572/0/5119/5119/raadsel-rond-gehackte-koelsystemen-in-supermarkten-wie-wint-hier-iets.jpg"
-      },
-      {
-        "title": "Video | Man steelt miljoenenauto van Bugatti-topman",
-        "url": "https://www.nu.nl/331884/video/man-steelt-miljoenenauto-van-bugatti-topman.html",
-        "date": "Mon, 02 Nov 2026 14:18:29 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/08hx1fvahfpb_sqr256/174/0/800/800/man-steelt-miljoenenauto-van-bugatti-topman.jpg"
-      },
-      {
-        "title": "Jake Paul bokst bij rentree op Kerstavond tegen oud-wereldkampioen kickboksen",
-        "url": "https://www.nu.nl/sport-overig/6415242/jake-paul-bokst-bij-rentree-op-kerstavond-tegen-oud-wereldkampioen-kickboksen.html",
-        "date": "Mon, 02 Nov 2026 14:08:39 +0100",
-        "summary": "Jake Paul treft bij zijn boksrentree op Kerstavond voormalig GLORY-kampioen kickboksen Cédric Doumbé. De Amerikaan verwacht de Fransman te verslaan op dezelfde manier als Oleksandr Usyk in mei oud-kickbokser Rico Verhoeven versloeg.",
-        "imageUrl": "https://images.nu.nl/m/ybexm0sa5r2i_sqr256/345/0/2015/2015/jake-paul-bokst-bij-rentree-op-kerstavond-tegen-oud-wereldkampioen-kickboksen.jpg"
-      },
-      {
-        "title": "PostNL verhoogt postzegelprijs verder naar 1,52 euro",
-        "url": "https://www.nu.nl/economie/6415239/postnl-verhoogt-postzegelprijs-verder-naar-152-euro.html",
-        "date": "Mon, 02 Nov 2026 13:27:12 +0100",
-        "summary": "Het versturen van een brief of kaartje binnen Nederland wordt volgend jaar opnieuw duurder. Vanaf 1 januari kost een standaard postzegel 1,52 euro, zo maakt PostNL bekend. Op dit moment betaal je voor een losse postzegel nog 1,40 euro.",
-        "imageUrl": "https://images.nu.nl/m/wunx0ssa4rjc_sqr256/2097/0/3521/3521/postnl-verhoogt-postzegelprijs-verder-naar-152-euro.jpg"
       }
     ]
   },
@@ -58,54 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "15:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:35",
-        "mmHour": 0.0
-      },
       {
         "time": "16:40",
         "mmHour": 0.0
@@ -153,12 +105,60 @@
       {
         "time": "17:35",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 13.1,
+    "temperature": 12.0,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T14:43:06+00:00",
-    "rainUpdatedAt": "2026-11-02T14:43:07+00:00"
+    "weatherUpdatedAt": "2026-11-02T15:39:09+00:00",
+    "rainUpdatedAt": "2026-11-02T15:39:10+00:00"
   }
 }
