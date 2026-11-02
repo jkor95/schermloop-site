@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T20:18:17+00:00",
+    "updatedAt": "2026-11-02T21:02:32+00:00",
     "headlines": [
       {
-        "title": "Dode en zwaargewonde bij schietpartij in Rotterdam",
-        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-rotterdam.html",
+        "title": "Kabinet na dag vol overleg eens over route voor belastingplan en box 3",
+        "url": "https://www.nu.nl/politiek/6415285/kabinet-na-dag-vol-overleg-eens-over-route-voor-belastingplan-en-box-3.html",
+        "date": "Mon, 02 Nov 2026 21:42:40 +0100",
+        "summary": "De top van het kabinet is het na een dag onderhandelen eens geworden over de invulling van het belastingplan en box 3. Dinsdagochtend is er een extra ministerraad. Daarna gaan de plannen, waarvan de inhoud nog niet bekend is, naar de Kamer.",
+        "imageUrl": "https://images.nu.nl/m/qhgx19oaxmkv_sqr256/1001/0/3669/3669/kabinet-na-dag-vol-overleg-eens-over-route-voor-belastingplan-en-box-3.jpg"
+      },
+      {
+        "title": "Dode en zwaargewonde bij schietpartij in auto in Rotterdam",
+        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam.html",
         "date": "Mon, 02 Nov 2026 21:06:10 +0100",
-        "summary": "Bij een schietpartij in een woonwijk in Rotterdam-Oost is maandagavond een man om het leven gekomen. Een tweede man raakte zwaargewond.",
-        "imageUrl": "https://images.nu.nl/m/cm6xenhaca6h_sqr256/2325/5/4635/4635/dode-en-zwaargewonde-bij-schietpartij-in-rotterdam.jpg"
+        "summary": "Bij een schietpartij in een auto in Rotterdam-Oost is maandagavond een man om het leven gekomen. Hij was de bestuurder. De drie andere inzittenden zijn aangemerkt als verdachte en aangehouden. Eén van hen raakte zwaargewond.",
+        "imageUrl": "https://images.nu.nl/m/hbgxakqarukj_sqr256/1651/0/4640/4640/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam.jpg"
       },
       {
         "title": "Gegijzelde man bevrijd uit woning in Zwijndrecht, twee tieners opgepakt",
@@ -44,13 +51,6 @@
         "date": "Mon, 02 Nov 2026 19:36:23 +0100",
         "summary": "De Amerikaanse president Donald Trump en zijn Republikeinse partijgenoten doen hun uiterste best angst te zaaien over de Democratische kandidaat Abdul El-Sayed voor de Senaatszetel van Michigan. De ronduit racistische campagne toont volgens experts de wanhoop van de Republikeinse Partij.",
         "imageUrl": "https://images.nu.nl/m/vzmxtjra7v6k_sqr256/442/0/1080/1080/republikeinen-gaan-verder-dan-ooit-met-racistische-campagne-tegen-el-sayed.jpg"
-      },
-      {
-        "title": "Tenerife-speler op het veld gereanimeerd na snoeiharde actie van keeper",
-        "url": "https://www.nu.nl/voetbal/6415276/tenerife-speler-op-het-veld-gereanimeerd-na-snoeiharde-actie-van-keeper.html",
-        "date": "Mon, 02 Nov 2026 19:07:24 +0100",
-        "summary": "Een voetballer van CD Tenerife is maandagavond op het veld gereanimeerd nadat de keeper van de tegenstander snoeihard op hem inkwam. Het duel op het tweede niveau van Spanje werd daarom gestaakt.",
-        "imageUrl": "https://images.nu.nl/m/8rbxa30a857t_sqr256/111/0/547/547/tenerife-speler-op-het-veld-gereanimeerd-na-snoeiharde-actie-van-keeper.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "21:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
       {
         "time": "22:00",
         "mmHour": 0.0
@@ -132,33 +96,69 @@
       },
       {
         "time": "22:45",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "22:50",
-        "mmHour": 0.0
+        "mmHour": 0.1
       },
       {
         "time": "22:55",
-        "mmHour": 0.21
+        "mmHour": 0.29
       },
       {
         "time": "23:00",
-        "mmHour": 0.6
+        "mmHour": 0.1
       },
       {
         "time": "23:05",
-        "mmHour": 1.65
+        "mmHour": 0.0
       },
       {
         "time": "23:10",
-        "mmHour": 1.54
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:15",
+        "mmHour": 0.21
+      },
+      {
+        "time": "23:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:35",
+        "mmHour": 0.1
+      },
+      {
+        "time": "23:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "23:55",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.3,
+    "temperature": 10.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T20:18:18+00:00",
-    "rainUpdatedAt": "2026-11-02T20:18:20+00:00"
+    "weatherUpdatedAt": "2026-11-02T21:02:33+00:00",
+    "rainUpdatedAt": "2026-11-02T21:02:33+00:00"
   }
 }
