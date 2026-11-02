@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T11:36:14+00:00",
+    "updatedAt": "2026-11-02T12:32:46+00:00",
     "headlines": [
+      {
+        "title": "PostNL verhoogt postzegelprijs verder naar 1,52 euro",
+        "url": "https://www.nu.nl/economie/6415239/postnl-verhoogt-postzegelprijs-verder-naar-152-euro.html",
+        "date": "Mon, 02 Nov 2026 13:27:12 +0100",
+        "summary": "Het versturen van een brief of kaartje binnen Nederland wordt volgend jaar opnieuw duurder. Vanaf 1 januari kost een standaard postzegel 1,52 euro, zo maakt PostNL bekend. Op dit moment betaal je voor een losse postzegel nog 1,40 euro.",
+        "imageUrl": "https://images.nu.nl/m/wunx0ssa4rjc_sqr256/2097/0/3521/3521/postnl-verhoogt-postzegelprijs-verder-naar-152-euro.jpg"
+      },
+      {
+        "title": "Ook temperaturen van Nederlandse koelsystemen op afstand aangepast",
+        "url": "https://www.nu.nl/economie/6415237/ook-temperaturen-van-nederlandse-koelsystemen-op-afstand-aangepast.html",
+        "date": "Mon, 02 Nov 2026 13:12:43 +0100",
+        "summary": "Bij ten minste zeventien Nederlandse bedrijven zijn afgelopen nacht de koel- en vriessystemen doelwit geworden van een cyberaanval. Daarbij zijn de temperaturen op afstand aangepast. Dat bevestigt leverancier Danfoss maandag aan de NOS .",
+        "imageUrl": "https://images.nu.nl/m/qpdx8ekaf4xg_sqr256/0/0/4000/4000/ook-temperaturen-van-nederlandse-koelsystemen-op-afstand-aangepast.jpg"
+      },
       {
         "title": "Israëlische leger trekt zich terug uit Hebron na belegering van tien dagen",
         "url": "https://www.nu.nl/midden-oostenconflict/6415228/israelische-leger-trekt-zich-terug-uit-hebron-na-belegering-van-tien-dagen.html",
@@ -37,20 +51,6 @@
         "date": "Mon, 02 Nov 2026 11:38:56 +0100",
         "summary": "Het ontslag van de Belgische premier Bart De Wever is maandagochtend niet direct aanvaard. Koning Filip roept alle betrokken partijen op alsnog tot een akkoord te komen.",
         "imageUrl": "https://images.nu.nl/m/tqjxeemapal5_sqr256/806/10/3923/3923/belgische-koning-neemt-ontslag-premier-in-beraad-wil-oplossing-begrotingscrisis.jpg"
-      },
-      {
-        "title": "Video | Charles zichtbaar geïrriteerd tijdens Caribische hoosbui zonder paraplu",
-        "url": "https://www.nu.nl/331877/video/charles-zichtbaar-geirriteerd-tijdens-caribische-hoosbui-zonder-paraplu.html",
-        "date": "Mon, 02 Nov 2026 11:38:01 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/twhxrc8ao6kh_sqr256/419/2/1078/1078/charles-zichtbaar-geirriteerd-tijdens-caribische-hoosbui-zonder-paraplu.jpg"
-      },
-      {
-        "title": "Ploegenachtervolging blijft zorgenkindje: 'Alsof Xavi alleen PSV'ers oproept'",
-        "url": "https://www.nu.nl/schaatsen/6415168/ploegenachtervolging-blijft-zorgenkindje-alsof-xavi-alleen-psvers-oproept.html",
-        "date": "Mon, 02 Nov 2026 11:13:39 +0100",
-        "summary": "Schaatsbond KNSB bedacht een nieuw plan voor de ploegenachtervolging voor mannen na jaren vol slechte prestaties. Bij het NK teampursuit in Thialf bleek het onderdeel nog steeds een zorgenkindje. \"Drie van de vier ploegen stemden tegen deze opzet.\"",
-        "imageUrl": "https://images.nu.nl/m/i3pxvkpazgd7_sqr256/206/0/3881/3881/ploegenachtervolging-blijft-zorgenkindje-alsof-xavi-alleen-psvers-oproept.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "12:40",
+        "time": "22:55",
         "mmHour": 0.0
       },
       {
-        "time": "12:45",
+        "time": "23:00",
         "mmHour": 0.0
       },
       {
-        "time": "12:50",
+        "time": "23:05",
         "mmHour": 0.0
       },
       {
-        "time": "12:55",
+        "time": "23:10",
         "mmHour": 0.0
       },
       {
-        "time": "13:00",
+        "time": "23:15",
         "mmHour": 0.0
       },
       {
-        "time": "13:05",
+        "time": "23:20",
         "mmHour": 0.0
       },
       {
-        "time": "13:10",
+        "time": "23:25",
         "mmHour": 0.0
       },
       {
-        "time": "13:15",
+        "time": "23:30",
         "mmHour": 0.0
       },
       {
-        "time": "13:20",
+        "time": "23:35",
         "mmHour": 0.0
       },
       {
-        "time": "13:25",
+        "time": "23:40",
         "mmHour": 0.0
       },
       {
-        "time": "13:30",
+        "time": "23:45",
         "mmHour": 0.0
       },
       {
-        "time": "13:35",
+        "time": "23:50",
         "mmHour": 0.0
       },
       {
-        "time": "13:40",
+        "time": "23:55",
         "mmHour": 0.0
       },
       {
-        "time": "13:45",
+        "time": "00:00",
         "mmHour": 0.0
       },
       {
-        "time": "13:50",
+        "time": "00:05",
         "mmHour": 0.0
       },
       {
-        "time": "13:55",
+        "time": "00:10",
         "mmHour": 0.0
       },
       {
-        "time": "14:00",
+        "time": "00:15",
         "mmHour": 0.0
       },
       {
-        "time": "14:05",
+        "time": "00:20",
         "mmHour": 0.0
       },
       {
-        "time": "14:10",
+        "time": "00:25",
         "mmHour": 0.0
       },
       {
-        "time": "14:15",
+        "time": "00:30",
         "mmHour": 0.0
       },
       {
-        "time": "14:20",
+        "time": "00:35",
         "mmHour": 0.0
       },
       {
-        "time": "14:25",
+        "time": "00:40",
         "mmHour": 0.0
       },
       {
-        "time": "14:30",
+        "time": "00:45",
         "mmHour": 0.0
       },
       {
-        "time": "14:35",
+        "time": "00:50",
         "mmHour": 0.0
       }
     ],
-    "temperature": 13.2,
+    "temperature": 13.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T11:36:15+00:00",
-    "rainUpdatedAt": "2026-11-02T11:36:15+00:00"
+    "weatherUpdatedAt": "2026-11-02T12:32:47+00:00",
+    "rainUpdatedAt": "2026-11-02T12:32:48+00:00"
   }
 }
