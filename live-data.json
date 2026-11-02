@@ -1,8 +1,36 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T10:42:30+00:00",
+    "updatedAt": "2026-11-02T11:36:14+00:00",
     "headlines": [
+      {
+        "title": "Israëlische leger trekt zich terug uit Hebron na belegering van tien dagen",
+        "url": "https://www.nu.nl/midden-oostenconflict/6415228/israelische-leger-trekt-zich-terug-uit-hebron-na-belegering-van-tien-dagen.html",
+        "date": "Mon, 02 Nov 2026 12:22:15 +0100",
+        "summary": "Het Israëlische leger trekt zich na een belegering van tien dagen terug uit Hebron. Zo'n drieduizend Palestijnen kunnen daardoor terug naar hun huizen in de stad op de Westelijke Jordaanoever.",
+        "imageUrl": "https://images.nu.nl/m/3mnx984a08bk_sqr256/1089/0/3872/3872/israelische-leger-trekt-zich-terug-uit-hebron-na-belegering-van-tien-dagen.jpg"
+      },
+      {
+        "title": "Verstappen trots op F1-wereldkampioen Antonelli: 'Ongelooflijk goed gereden'",
+        "url": "https://www.nu.nl/formule-1/6415179/verstappen-trots-op-f1-wereldkampioen-antonelli-ongelooflijk-goed-gereden.html",
+        "date": "Mon, 02 Nov 2026 12:07:03 +0100",
+        "summary": "Max Verstappen is trots op Kimi Antonelli, die zich zondag in Mexico tot de jongste wereldkampioen ooit in de Formule 1 kroonde. De Nederlander prijst vooral de volwassenheid van de twintigjarige Italiaan. Ook Lewis Hamilton geniet van het historische moment.",
+        "imageUrl": "https://images.nu.nl/m/n8sxudjaff7r_sqr256/661/0/3132/3132/verstappen-trots-op-f1-wereldkampioen-antonelli-ongelooflijk-goed-gereden.jpg"
+      },
+      {
+        "title": "Spijkers en naalden gevonden in halloweensnoep Duitsland en Oostenrijk",
+        "url": "https://www.nu.nl/buitenland/6415220/spijkers-en-naalden-gevonden-in-halloweensnoep-duitsland-en-oostenrijk.html",
+        "date": "Mon, 02 Nov 2026 11:48:18 +0100",
+        "summary": "In Duitsland en Oostenrijk zijn gevaarlijke voorwerpen aangetroffen in snoepgoed dat kinderen hadden opgehaald voor Halloween. De politie heeft gewaarschuwd voorzichtig te zijn.",
+        "imageUrl": "https://images.nu.nl/m/mbkxsdfadl3i_sqr256/379/0/1080/1080/spijkers-en-naalden-gevonden-in-halloweensnoep-duitsland-en-oostenrijk.jpg"
+      },
+      {
+        "title": "Martha Stewart overladen met kritiek wegens halloweenkostuum: 'Spijt me enorm'",
+        "url": "https://www.nu.nl/achterklap/6415223/martha-stewart-overladen-met-kritiek-wegens-halloweenkostuum-spijt-me-enorm.html",
+        "date": "Mon, 02 Nov 2026 11:44:11 +0100",
+        "summary": "Martha Stewart is overladen met kritiek nadat ze een foto van haar halloweenkostuum op Instagram had geplaatst. Op de foto is de Amerikaanse presentatrice en zakenvrouw verkleed als dakloze. Ze is \"ontdaan\" dat dit mensen heeft gekwetst. \"Het spijt me enorm.\"",
+        "imageUrl": "https://images.nu.nl/m/ev3x3hnaz45j_sqr256/0/28/545/545/martha-stewart-overladen-met-kritiek-wegens-halloweenkostuum-spijt-me-enorm.jpg"
+      },
       {
         "title": "Belgische koning neemt ontslag premier in beraad, wil oplossing begrotingscrisis",
         "url": "https://www.nu.nl/buitenland/6415222/belgische-koning-neemt-ontslag-premier-in-beraad-wil-oplossing-begrotingscrisis.html",
@@ -11,11 +39,11 @@
         "imageUrl": "https://images.nu.nl/m/tqjxeemapal5_sqr256/806/10/3923/3923/belgische-koning-neemt-ontslag-premier-in-beraad-wil-oplossing-begrotingscrisis.jpg"
       },
       {
-        "title": "Video | Koning Charles vraagt tevergeefs om paraplu tijdens regenbui in Caribisch gebied",
-        "url": "https://www.nu.nl/331877/video/koning-charles-vraagt-tevergeefs-om-paraplu-tijdens-regenbui-in-caribisch-gebied.html",
+        "title": "Video | Charles zichtbaar geïrriteerd tijdens Caribische hoosbui zonder paraplu",
+        "url": "https://www.nu.nl/331877/video/charles-zichtbaar-geirriteerd-tijdens-caribische-hoosbui-zonder-paraplu.html",
         "date": "Mon, 02 Nov 2026 11:38:01 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/twhxrc8ao6kh_sqr256/419/2/1078/1078/koning-charles-vraagt-tevergeefs-om-paraplu-tijdens-regenbui-in-caribisch-gebied.jpg"
+        "imageUrl": "https://images.nu.nl/m/twhxrc8ao6kh_sqr256/419/2/1078/1078/charles-zichtbaar-geirriteerd-tijdens-caribische-hoosbui-zonder-paraplu.jpg"
       },
       {
         "title": "Ploegenachtervolging blijft zorgenkindje: 'Alsof Xavi alleen PSV'ers oproept'",
@@ -23,34 +51,6 @@
         "date": "Mon, 02 Nov 2026 11:13:39 +0100",
         "summary": "Schaatsbond KNSB bedacht een nieuw plan voor de ploegenachtervolging voor mannen na jaren vol slechte prestaties. Bij het NK teampursuit in Thialf bleek het onderdeel nog steeds een zorgenkindje. \"Drie van de vier ploegen stemden tegen deze opzet.\"",
         "imageUrl": "https://images.nu.nl/m/i3pxvkpazgd7_sqr256/206/0/3881/3881/ploegenachtervolging-blijft-zorgenkindje-alsof-xavi-alleen-psvers-oproept.jpg"
-      },
-      {
-        "title": "Live | Midterms VS | Verliezende Democraat uit Michigan steunt nu Republikein",
-        "url": "https://www.nu.nl/verkiezingen-vs/6415184/midterms-vs-verliezende-democraat-uit-michigan-steunt-nu-republikein.html",
-        "date": "Mon, 02 Nov 2026 10:37:06 +0100",
-        "summary": "Hallo en welkom in dit liveblog. Hier houden we je op hoogte van de ontwikkelingen van de tussentijdse verkiezingen in de Verenigde Staten. Heb je vragen? Mail ze naar redactie@nu.nl.",
-        "imageUrl": "https://images.nu.nl/m/ptjxkg8aa0s5_sqr256/1517/0/3028/3028/midterms-vs-verliezende-democraat-uit-michigan-steunt-nu-republikein.jpg"
-      },
-      {
-        "title": "Raad van State fileert kabinetsplan voor box 3 en adviseert uitstel",
-        "url": "https://www.nu.nl/politiek/6414845/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.html",
-        "date": "Mon, 02 Nov 2026 10:09:54 +0100",
-        "summary": "De Raad van State fileert het wetsvoorstel voor de invoering van een vermogenswinstbelasting. De belangrijkste adviseur van de regering pleit voor uitstel. Het kabinet heeft nog niet gereageerd op de kritiek.",
-        "imageUrl": "https://images.nu.nl/m/wtsx2hnai5vm_sqr256/1169/0/4000/4000/raad-van-state-fileert-kabinetsplan-voor-box-3-en-adviseert-uitstel.jpg"
-      },
-      {
-        "title": "Beloning voor gouden tip 'Bolle Jos' verhoogd van 200.000 euro naar 2 miljoen",
-        "url": "https://www.nu.nl/misdaad/6415205/beloning-voor-gouden-tip-bolle-jos-verhoogd-van-200000-euro-naar-2-miljoen.html",
-        "date": "Mon, 02 Nov 2026 10:00:03 +0100",
-        "summary": "De beloning voor de gouden tip die leidt tot de aanhouding van Jos L. is verhoogd naar 2 miljoen euro. Dat bedrag is volgens het OM \"uitzonderlijk\", maar de arrestatie van de drugscrimineel heeft dan ook de \"hoogste prioriteit\".",
-        "imageUrl": "https://images.nu.nl/m/em4xx1paqtil_sqr256/372/0/1080/1080/beloning-voor-gouden-tip-bolle-jos-verhoogd-van-200000-euro-naar-2-miljoen.jpg"
-      },
-      {
-        "title": "Hackers leggen koeling van tientallen Europese supermarkten plat",
-        "url": "https://www.nu.nl/economie/6415201/hackers-leggen-koeling-van-tientallen-europese-supermarkten-plat.html",
-        "date": "Mon, 02 Nov 2026 09:27:00 +0100",
-        "summary": "Vriezers en koelkasten van meerdere supermarktketens in België, Luxemburg en Zweden zijn gehackt. Onder andere Delhaize, Spar en Carrefour en slagerij De Laet & Van Haver hebben gemeld dat de temperaturen van hun koelsystemen ineens flink omhooggingen.",
-        "imageUrl": "https://images.nu.nl/m/1xaxpgyakpti_sqr256/315/0/2622/2622/hackers-leggen-koeling-van-tientallen-europese-supermarkten-plat.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "11:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:35",
-        "mmHour": 0.0
-      },
       {
         "time": "12:40",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "13:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "13:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:35",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 12.7,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 13.2,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T10:42:30+00:00",
-    "rainUpdatedAt": "2026-11-02T10:42:30+00:00"
+    "weatherUpdatedAt": "2026-11-02T11:36:15+00:00",
+    "rainUpdatedAt": "2026-11-02T11:36:15+00:00"
   }
 }
