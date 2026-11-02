@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-02T16:41:34+00:00",
+    "updatedAt": "2026-11-02T17:38:40+00:00",
     "headlines": [
+      {
+        "title": "Spanning stijgt: kabinet voert al hele dag overleg over belastingplan en box 3",
+        "url": "https://www.nu.nl/politiek/6415257/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.html",
+        "date": "Mon, 02 Nov 2026 18:34:12 +0100",
+        "summary": "De spanning in Den Haag stijgt. De top van het kabinet overlegt al de hele dag over het belastingplan en box 3. Waarschijnlijk is er dinsdag een extra ministerraad en de hoop is dat het kabinet er dan uit is.",
+        "imageUrl": "https://images.nu.nl/m/ln6xqdoabv2j_sqr256/964/241/4172/4172/spanning-stijgt-kabinet-voert-al-hele-dag-overleg-over-belastingplan-en-box-3.jpg"
+      },
+      {
+        "title": "Kinderen geboren uit incest hebben voortaan recht op schadevergoeding",
+        "url": "https://www.nu.nl/binnenland/6415241/kinderen-geboren-uit-incest-hebben-voortaan-recht-op-schadevergoeding.html",
+        "date": "Mon, 02 Nov 2026 18:31:09 +0100",
+        "summary": "Kinderen uit incest hebben voortaan recht op een schadevergoeding, heeft staatssecretaris Claudia van Bruggen van Justitie en Veiligheid maandag gemeld in een Kamerbrief. Ze moeten wel kunnen aantonen dat zij ernstig psychisch letsel hebben.",
+        "imageUrl": "https://images.nu.nl/m/77wx96lapva8_sqr256/1717/0/5452/5452/kinderen-geboren-uit-incest-hebben-voortaan-recht-op-schadevergoeding.jpg"
+      },
+      {
+        "title": "Bedrijven willen werknemers vaker op kantoor zien: 'Mensen hebben contact nodig'",
+        "url": "https://www.nu.nl/economie/6415252/bedrijven-willen-werknemers-vaker-op-kantoor-zien-mensen-hebben-contact-nodig.html",
+        "date": "Mon, 02 Nov 2026 17:48:46 +0100",
+        "summary": "Steeds meer bedrijven verruilen flexibiliteit bij het thuiswerken voor duidelijkere kantoorplicht. VodafoneZiggo wil werknemers drie dagen per week op kantoor zien, bleek maandagochtend. Maar wat maakt werken op kantoor beter dan thuiswerken? \"Mensen hebben contact nodig.\"",
+        "imageUrl": "https://images.nu.nl/m/ki5xsuoa19nw_sqr256/1406/0/3800/3800/bedrijven-willen-werknemers-vaker-op-kantoor-zien-mensen-hebben-contact-nodig.jpg"
+      },
       {
         "title": "In beeld | Brit krijgt heldenonthaal in Hull na wandeling van 28 jaar rond de wereld",
         "url": "https://www.nu.nl/opmerkelijk/6415272/brit-krijgt-heldenonthaal-in-hull-na-wandeling-van-28-jaar-rond-de-wereld.html",
@@ -11,18 +32,18 @@
         "imageUrl": "https://images.nu.nl/m/n3ux6j0aibj9_sqr256/262/0/4158/4158/brit-krijgt-heldenonthaal-in-hull-na-wandeling-van-28-jaar-rond-de-wereld.jpg"
       },
       {
-        "title": "93-jarige vrouw die rug brak bij beroving maakt het goed, twee aanhoudingen",
-        "url": "https://www.nu.nl/binnenland/6415268/93-jarige-vrouw-die-rug-brak-bij-beroving-maakt-het-goed-twee-aanhoudingen.html",
+        "title": "Twee aanhoudingen voor beroving van 93-jarige vrouw die daarbij haar rug brak",
+        "url": "https://www.nu.nl/binnenland/6415268/twee-aanhoudingen-voor-beroving-van-93-jarige-vrouw-die-daarbij-haar-rug-brak.html",
         "date": "Mon, 02 Nov 2026 17:15:56 +0100",
         "summary": "De 93-jarige vrouw die vorige week haar rug brak toen ze door een onbekende man werd geslagen en beroofd in Amsterdam-West, maakt het naar omstandigheden goed. Inmiddels zijn twee verdachten aangehouden.",
-        "imageUrl": "https://images.nu.nl/m/vahx6juadxgw_sqr256/1866/0/3693/3693/93-jarige-vrouw-die-rug-brak-bij-beroving-maakt-het-goed-twee-aanhoudingen.jpg"
+        "imageUrl": "https://images.nu.nl/m/vahx6juadxgw_sqr256/1866/0/3693/3693/twee-aanhoudingen-voor-beroving-van-93-jarige-vrouw-die-daarbij-haar-rug-brak.jpg"
       },
       {
-        "title": "Explainer | De cruciale zoektocht van Oekraïne naar deze kleine straalmotoren",
-        "url": "https://www.nu.nl/331887/video/de-cruciale-zoektocht-van-oekraine-naar-deze-kleine-straalmotoren.html",
+        "title": "Explainer | Deze motor moet Oekraïne beschermen tegen Russische drones",
+        "url": "https://www.nu.nl/331887/video/deze-motor-moet-oekraine-beschermen-tegen-russische-drones.html",
         "date": "Mon, 02 Nov 2026 17:12:23 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/78cx0otakgzo_sqr256/281/0/1440/1440/de-cruciale-zoektocht-van-oekraine-naar-deze-kleine-straalmotoren.jpg"
+        "imageUrl": "https://images.nu.nl/m/78cx0otakgzo_sqr256/281/0/1440/1440/deze-motor-moet-oekraine-beschermen-tegen-russische-drones.jpg"
       },
       {
         "title": "Feyenoorder Steijn kreeg tegen Fortuna bewust geen invalbeurt: 'Zat in de emotie'",
@@ -30,27 +51,6 @@
         "date": "Mon, 02 Nov 2026 16:57:40 +0100",
         "summary": "Feyenoord-trainer Giovanni van Bronckhorst rekent dinsdag in de Champions League-wedstrijd tegen Internazionale weer op Sem Steijn. De coach besloot de middenvelder zaterdag tegen Fortuna Sittard (1-1) niet te laten invallen, omdat die er volgens hem mentaal niet klaar voor was.",
         "imageUrl": "https://images.nu.nl/m/gd7x5xyah416_sqr256/1211/348/3533/3533/feyenoorder-steijn-kreeg-tegen-fortuna-bewust-geen-invalbeurt-zat-in-de-emotie.jpg"
-      },
-      {
-        "title": "Oud-gitarist Volumia! spant rechtszaak aan tegen De Buisonjé wegens bandnaam",
-        "url": "https://www.nu.nl/muziek/6415265/oud-gitarist-volumia-spant-rechtszaak-aan-tegen-de-buisonje-wegens-bandnaam.html",
-        "date": "Mon, 02 Nov 2026 16:37:49 +0100",
-        "summary": "Hans Paul Nieskens, oud-gitarist en oprichter van Volumia!, is een rechtszaak begonnen tegen zanger Xander de Buisonjé. Nieskens is niet gevraagd voor de reünie van de band en wil niet dat de bandnaam zonder zijn toestemming wordt gebruikt.",
-        "imageUrl": "https://images.nu.nl/m/rxnxwfkafng7_sqr256/2541/527/4977/4977/oud-gitarist-volumia-spant-rechtszaak-aan-tegen-de-buisonje-wegens-bandnaam.jpg"
-      },
-      {
-        "title": "51 varkens omgekomen bij ongeval met vrachtwagen in Gelderland",
-        "url": "https://www.nu.nl/binnenland/6415255/51-varkens-omgekomen-bij-ongeval-met-vrachtwagen-in-gelderland.html",
-        "date": "Mon, 02 Nov 2026 16:15:23 +0100",
-        "summary": "Een vrachtwagen met tweehonderd varkens is maandagochtend gekanteld bij een eenzijdig ongeval in het Gelderse dorp Eibergen. 51 varkens hebben het ongeluk niet overleefd, meldt de politie aan NU.nl. De chauffeur heeft geen letsel opgelopen.",
-        "imageUrl": "https://images.nu.nl/m/33wxk86aw34l_sqr256/483/0/1080/1080/51-varkens-omgekomen-bij-ongeval-met-vrachtwagen-in-gelderland.jpg"
-      },
-      {
-        "title": "Cabaretier Gover Meit forceerde relaties door grote kinderwens",
-        "url": "https://www.nu.nl/achterklap/6415259/cabaretier-gover-meit-forceerde-relaties-door-grote-kinderwens.html",
-        "date": "Mon, 02 Nov 2026 16:02:19 +0100",
-        "summary": "Gover Meit is door zijn grote kinderwens de afgelopen tien jaar grotendeels bezig geweest met het vinden van een geschikte partner. Inmiddels ziet de 39-jarige comedian in dat die instelling hem in de liefde niet heeft geholpen.",
-        "imageUrl": "https://images.nu.nl/m/cajxyazabzeb_sqr256/824/0/3648/3648/cabaretier-gover-meit-forceerde-relaties-door-grote-kinderwens.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "17:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "17:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "18:35",
-        "mmHour": 0.0
-      },
       {
         "time": "18:40",
         "mmHour": 0.0
@@ -140,7 +96,7 @@
       },
       {
         "time": "19:25",
-        "mmHour": 0.1
+        "mmHour": 0.0
       },
       {
         "time": "19:30",
@@ -153,12 +109,56 @@
       {
         "time": "19:40",
         "mmHour": 0.0
+      },
+      {
+        "time": "19:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "19:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "20:35",
+        "mmHour": 0.0
       }
     ],
     "temperature": 11.7,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-02T16:41:34+00:00",
-    "rainUpdatedAt": "2026-11-02T16:41:35+00:00"
+    "weatherUpdatedAt": "2026-11-02T17:38:40+00:00",
+    "rainUpdatedAt": "2026-11-02T17:38:41+00:00"
   }
 }
