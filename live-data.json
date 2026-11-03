@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T04:15:31+00:00",
+    "updatedAt": "2026-11-03T05:14:53+00:00",
     "headlines": [
+      {
+        "title": "Aantal alleenstaande AOW'ers groeit sneller onder mannen dan onder vrouwen",
+        "url": "https://www.nu.nl/economie/6415260/aantal-alleenstaande-aowers-groeit-sneller-onder-mannen-dan-onder-vrouwen.html",
+        "date": "Tue, 03 Nov 2026 06:02:53 +0100",
+        "summary": "De Sociale Verzekeringsbank (SVB) keert steeds meer alleenstaande AOW-uitkeringen uit aan mannen. Die groep groeit veel sneller dan oudere vrouwen zonder partner. Alsnog zijn vrouwen in de AOW-gerechtigde leeftijd veruit in de meerderheid.",
+        "imageUrl": "https://images.nu.nl/m/mbpx6lca9f5t_sqr256/854/0/3529/3529/aantal-alleenstaande-aowers-groeit-sneller-onder-mannen-dan-onder-vrouwen.jpg"
+      },
+      {
+        "title": "Explainer | Democraten hopen op historische winst Texas: 'Klaar met deze shit!'",
+        "url": "https://www.nu.nl/331900/video/democraten-hopen-op-historische-winst-texas-klaar-met-deze-shit.html",
+        "date": "Tue, 03 Nov 2026 05:46:29 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/qo9x2pgalts2_sqr256/286/37/1402/1402/democraten-hopen-op-historische-winst-texas-klaar-met-deze-shit.jpg"
+      },
+      {
+        "title": "Vliegtuig dat neerstortte in Florida viel mogelijk al in de lucht uit elkaar",
+        "url": "https://www.nu.nl/buitenland/6415293/vliegtuig-dat-neerstortte-in-florida-viel-mogelijk-al-in-de-lucht-uit-elkaar.html",
+        "date": "Tue, 03 Nov 2026 05:40:07 +0100",
+        "summary": "Het vliegtuigje dat zondag crashte in een woonwagenpark in de Amerikaanse staat Florida, was mogelijk al in de lucht uit elkaar gevallen. Bij de crash zijn alle negen inzittenden omgekomen.",
+        "imageUrl": "https://images.nu.nl/m/enkx8g7au0ep_sqr256/500/0/1338/1338/vliegtuig-dat-neerstortte-in-florida-viel-mogelijk-al-in-de-lucht-uit-elkaar.jpg"
+      },
       {
         "title": "Amerikaanse midterms bepalen hoe laatste twee jaar Trump eruitzien",
         "url": "https://www.nu.nl/verkiezingen-vs/6414680/amerikaanse-midterms-bepalen-hoe-laatste-twee-jaar-trump-eruitzien.html",
@@ -30,27 +51,6 @@
         "date": "Mon, 02 Nov 2026 21:42:40 +0100",
         "summary": "De top van het kabinet is het na een dag onderhandelen eens over de invulling van het belastingplan en box 3. Dinsdagochtend is er een extra ministerraad. Daarna gaan de plannen, waarvan de inhoud nog niet bekend is, naar de Kamer.",
         "imageUrl": "https://images.nu.nl/m/qhgx19oaxmkv_sqr256/1001/0/3669/3669/kabinet-na-dag-vol-overleg-eens-over-route-voor-belastingplan-en-box-3.jpg"
-      },
-      {
-        "title": "Dode en zwaargewonde bij schietpartij in auto in Rotterdam, drie arrestaties",
-        "url": "https://www.nu.nl/binnenland/6415282/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.html",
-        "date": "Mon, 02 Nov 2026 21:06:10 +0100",
-        "summary": "Bij een schietpartij in een auto in Rotterdam-Oost is maandagavond een man om het leven gekomen. Hij was de bestuurder. De drie andere inzittenden zijn aangemerkt als verdachte en zijn aangehouden. Een van hen raakte zwaargewond.",
-        "imageUrl": "https://images.nu.nl/m/hbfxaavayt1j_sqr256/0/4/3020/3020/dode-en-zwaargewonde-bij-schietpartij-in-auto-in-rotterdam-drie-arrestaties.jpg"
-      },
-      {
-        "title": "Gegijzelde man bevrijd uit woning in Zwijndrecht, twee tieners opgepakt",
-        "url": "https://www.nu.nl/binnenland/6415281/gegijzelde-man-bevrijd-uit-woning-in-zwijndrecht-twee-tieners-opgepakt.html",
-        "date": "Mon, 02 Nov 2026 20:38:51 +0100",
-        "summary": "De politie heeft zaterdag een gegijzelde man uit Den Haag uit een woning in Zwijndrecht bevrijd. Twee mannen zijn daarbij aangehouden. Vermoedelijk was een eerdere aanhouding in een drugszaak in Duitsland de aanleiding voor de gijzeling.",
-        "imageUrl": "https://images.nu.nl/m/6jtxxw2aqv6k_sqr256/0/0/5504/5504/gegijzelde-man-bevrijd-uit-woning-in-zwijndrecht-twee-tieners-opgepakt.jpg"
-      },
-      {
-        "title": "Deel van Gelderland krijgt aansluitstop op stroomnet, stop Utrecht wordt verlengd",
-        "url": "https://www.nu.nl/economie/6415277/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.html",
-        "date": "Mon, 02 Nov 2026 20:23:55 +0100",
-        "summary": "Een deel van Gelderland gaat op slot voor nieuwe aanvragen op het elektriciteitsnet, meldt het ministerie van Economische Zaken en Klimaat maandagavond. Daarnaast blijft de aansluitstop in Utrecht gelden, hoewel daar wat meer ruimte op het stroomnet is vrijgekomen.",
-        "imageUrl": "https://images.nu.nl/m/eymxdt6alaxo_sqr256/875/0/3998/3998/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.jpg"
       }
     ]
   },
@@ -58,6 +58,54 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
+      {
+        "time": "04:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:15",
+        "mmHour": 0.0
+      },
       {
         "time": "05:20",
         "mmHour": 0.0
@@ -105,60 +153,12 @@
       {
         "time": "06:15",
         "mmHour": 0.0
-      },
-      {
-        "time": "06:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "06:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "07:15",
-        "mmHour": 0.0
       }
     ],
-    "temperature": 8.9,
+    "temperature": 9.0,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T04:15:31+00:00",
-    "rainUpdatedAt": "2026-11-03T04:15:32+00:00"
+    "weatherUpdatedAt": "2026-11-03T05:14:54+00:00",
+    "rainUpdatedAt": "2026-11-03T05:14:54+00:00"
   }
 }
