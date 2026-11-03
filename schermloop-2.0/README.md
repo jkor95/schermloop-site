@@ -15,6 +15,7 @@ en AVG-controles zijn afgerond.
 - Schermspeler met automatische en handmatige bediening.
 - USB-presentatieklikker: ArrowLeft/Right, PageUp/Down, Home/End, handmatig/automatisch omschakelen; na 30 minuten zonder bediening terug naar automatische lus. Compatibiliteit per klikker blijft te testen.
 - Schermachtergrond per scherm: zwart, effen kleur of vervaagde afbeelding (originele dia scherp).
+- Eigen lichtkrant onderaan het scherm, configureerbaar per bedrijf en scherm. De automatische nieuwsfeed van NU.nl is nog niet gemigreerd.
 - Tijdschema voor weergave; HDMI-CEC fysieke tv-bediening is nog NIET gebouwd.
 
 ## Nog te bouwen voor volledige verkoopversie
