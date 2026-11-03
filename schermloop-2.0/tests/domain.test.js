@@ -16,3 +16,15 @@ test('overnight schedule stays active after midnight',()=>{
  const s=sanitizeSchedule({enabled:true,days:[1],on:'22:00',off:'02:00'});
  assert.equal(isScheduleActive(s,new Date('2026-11-03T00:00:00Z')),true);
 });
+
+test('lichtkrant behoudt korte eigen tekst, beperkt invoerlengte en is standaard uit',()=>{
+ const blank=sanitizeSchedule({});
+ assert.equal(blank.tickerEnabled,false);
+ assert.equal(blank.tickerText,'');
+ const cfg=sanitizeSchedule({tickerEnabled:true,tickerText:'Welkom bij ons bedrijf'});
+ assert.equal(cfg.tickerEnabled,true);
+ assert.equal(cfg.tickerText,'Welkom bij ons bedrijf');
+ const long=sanitizeSchedule({tickerEnabled:true,tickerText:'A'.repeat(1000)});
+ assert.equal(long.tickerText.length,500);
+ assert.equal(sanitizeSchedule({tickerEnabled:'true'}).tickerEnabled,false);
+});
