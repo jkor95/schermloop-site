@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T01:32:05+00:00",
+    "updatedAt": "2026-11-03T02:24:42+00:00",
     "headlines": [
       {
         "title": "Ook jongste dochter van Brad Pitt schrapt officieel zijn achternaam",
@@ -46,11 +46,11 @@
         "imageUrl": "https://images.nu.nl/m/eymxdt6alaxo_sqr256/875/0/3998/3998/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.jpg"
       },
       {
-        "title": "Zeker 26 doden bij 'gruwelijke aanval' van Russen op Oekraïense hulppost",
-        "url": "https://www.nu.nl/spanningen-oekraine/6415278/zeker-26-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.html",
+        "title": "24 doden bij 'gruwelijke aanval' van Russen op Oekraïense hulppost",
+        "url": "https://www.nu.nl/spanningen-oekraine/6415278/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.html",
         "date": "Mon, 02 Nov 2026 19:59:50 +0100",
-        "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 26 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double tap -aanval.",
-        "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/zeker-26-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
+        "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 24 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double tap -aanval.",
+        "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "02:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "02:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "03:20",
-        "mmHour": 0.0
-      },
       {
         "time": "03:25",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "04:30",
         "mmHour": 0.0
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.4,
+    "temperature": 9.6,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T01:32:06+00:00",
-    "rainUpdatedAt": "2026-11-03T01:32:07+00:00"
+    "weatherUpdatedAt": "2026-11-03T02:24:42+00:00",
+    "rainUpdatedAt": "2026-11-03T02:24:43+00:00"
   }
 }
