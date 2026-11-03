@@ -45,7 +45,7 @@ app.use(express.static(path.join(__dirname,'public'),{index:'index.html',maxAge:
 app.get('/player',(req,res)=>res.sendFile(path.join(__dirname,'public/player.html')));
 app.get('/healthz',asyncHandler(async(req,res)=>{await db('SELECT 1');res.json({ok:true});}));
 async function requireAuth(req,res,next){try{const token=req.cookies.sl2sid;if(!token)return next(err(401,'Log eerst in.'));const r=await db('SELECT u.id,u.organization_id,u.email,u.role,u.active FROM sessions s JOIN users u ON s.user_id=u.id WHERE s.token_hash=$1 AND s.expires_at>now()',[sha(token)]);if(!r.rows[0]?.active)return next(err(401,'Sessie verlopen.'));req.user=r.rows[0];next();}catch(e){next(e);}}
-async function requireDevice(req,res,next){try{const raw=/^Bearer ([a-f0-9]{64})$/i.exec(req.get('authorization')||'');if(!raw)return next(err(401,'Scherm niet gekoppeld.'));const r=await db('SELECT id,organization_id,name,settings FROM screens WHERE device_hash=$1',[sha(raw[1])]);if(!r.rows.length)return next(err(401,'Schermkoppeling vervangen of ingetrokken.'));req.screen=r.rows[0];next();}catch(e){next(e);}}
+async function requireDevice(req,res,next){try{const raw=/^Bearer ([a-f0-9]{64})$/i.exec(req.get('authorization')||'');if(!raw)return next(err(401,'Scherm niet gekoppeld.'));const r=await db('SELECT id,organization_id,name,settings FROM screens WHERE session_hash=$1',[sha(raw[1])]);if(!r.rows.length)return next(err(401,'Schermkoppeling vervangen of ingetrokken.'));req.screen=r.rows[0];next();}catch(e){next(e);}}
 async function getScreen(req,id){const r=await db('SELECT * FROM screens WHERE id=$1 AND organization_id=$2',[validUuid(id),asOrg(req)]);if(!r.rows.length)throw err(404,'Scherm niet gevonden.');return r.rows[0];}
 app.post('/api/login',asyncHandler(async(req,res)=>{
  const email=safeEmail(req.body.email),password=String(req.body.password||'');
@@ -111,10 +111,18 @@ app.post('/api/screens/:id/pair',requireAuth,asyncHandler(async(req,res)=>{
  const hash=sha(env.APP_SECRET+':'+code),token=random(),client=await pool.connect();
  try{await client.query('BEGIN');const r=await client.query('SELECT * FROM pairing_requests WHERE code_hash=$1 FOR UPDATE',[hash]);const p=r.rows[0];
  if(!p||p.paired_screen_id||p.claimed_at||new Date(p.expires_at).getTime()<Date.now())throw err(404,'Koppelcode onbekend of verlopen.');
- await client.query('UPDATE screens SET device_hash=$1,device_version=device_version+1,last_seen_at=NULL WHERE id=$2 AND organization_id=$3',[sha(token),screen.id,screen.organization_id]);
+ await client.query('UPDATE screens SET device_hash=$1,session_hash=NULL,session_started_at=NULL,device_version=device_version+1,last_seen_at=NULL WHERE id=$2 AND organization_id=$3',[sha(token),screen.id,screen.organization_id]);
  await client.query('UPDATE pairing_requests SET encrypted_device_token=$1,paired_screen_id=$2 WHERE id=$3',[seal(token),screen.id,p.id]);
  await client.query('COMMIT');res.json({ok:true,message:'Scherm gekoppeld. Eerdere afspeelsessie is ingetrokken.'});
  }catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
+}));
+app.post('/api/player/session',asyncHandler(async(req,res)=>{
+ const raw=/^Bearer ([a-f0-9]{64})$/i.exec(req.get('authorization')||'');
+ if(!raw)throw err(401,'Scherm niet gekoppeld.');
+ const token=random();
+ const r=await db('UPDATE screens SET session_hash=$1,session_started_at=now(),last_seen_at=now() WHERE device_hash=$2 RETURNING id,name',[sha(token),sha(raw[1])]);
+ if(!r.rows.length)throw err(401,'Schermkoppeling ongeldig. Koppel het scherm opnieuw.');
+ res.set('Cache-Control','no-store').json({session_token:token,screen_id:r.rows[0].id});
 }));
 app.get('/api/player/state',requireDevice,asyncHandler(async(req,res)=>{
  await db('UPDATE screens SET last_seen_at=now() WHERE id=$1',[req.screen.id]);
