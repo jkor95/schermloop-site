@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T06:11:37+00:00",
+    "updatedAt": "2026-11-03T07:27:19+00:00",
     "headlines": [
+      {
+        "title": "Landen die Oekraïne na de oorlog gaan helpen houden militaire oefening in Polen",
+        "url": "https://www.nu.nl/buitenland/6415296/landen-die-oekraine-na-de-oorlog-gaan-helpen-houden-militaire-oefening-in-polen.html",
+        "date": "Tue, 03 Nov 2026 07:17:46 +0100",
+        "summary": "Frankrijk en Groot-Brittannië leiden binnenkort een militaire oefening in Polen, waaraan 2.800 militairen uit elf landen deelnemen. Het wordt de eerste grote militaire oefening van de zogenoemde ''coalitie van bereidwilligen''. Deze groep landen gaat Oekraïne bijstaan zodra de oorlog is afgelopen.",
+        "imageUrl": "https://images.nu.nl/m/g6kx3raa2i70_sqr256/246/0/1412/1412/landen-die-oekraine-na-de-oorlog-gaan-helpen-houden-militaire-oefening-in-polen.jpg"
+      },
       {
         "title": "In jaar tijd 22.000 huurwoningen verdwenen naar koopmarkt",
         "url": "https://www.nu.nl/economie/6415270/in-jaar-tijd-22000-huurwoningen-verdwenen-naar-koopmarkt.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 02 Nov 2026 23:37:10 +0100",
         "summary": "De jongste dochter van acteurs Angelina Jolie en Brad Pitt, Vivienne, heeft de achternaam van haar vader officieel laten schrappen, blijkt uit rechtbankdocumenten in handen van onder meer People . Een rechter in Californië keurde de wijziging maandag goed.",
         "imageUrl": "https://images.nu.nl/m/99ixfk5aoni1_sqr256/669/1/3878/3878/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.jpg"
-      },
-      {
-        "title": "Russell lucht zijn hart daags na wereldtitel Antonelli: '2026 was niet mijn jaar'",
-        "url": "https://www.nu.nl/formule-1/6415283/russell-lucht-zijn-hart-daags-na-wereldtitel-antonelli-2026-was-niet-mijn-jaar.html",
-        "date": "Mon, 02 Nov 2026 21:45:53 +0100",
-        "summary": "George Russell heeft maandag voor het eerst gereageerd op de wereldtitel van Kimi Antonelli. De Brit spreekt zijn waardering uit voor zijn Mercedes-teamgenoot. Tegelijkertijd blikt hij terug op zijn eigen seizoen, dat veelbelovend begon en uitmondde in een aaneenschakeling van teleurstellingen.",
-        "imageUrl": "https://images.nu.nl/m/0urxogcayhc2_sqr256/1023/0/3788/3788/russell-lucht-zijn-hart-daags-na-wereldtitel-antonelli-2026-was-niet-mijn-jaar.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "07:15",
+        "time": "19:35",
         "mmHour": 0.0
       },
       {
-        "time": "07:20",
+        "time": "19:40",
         "mmHour": 0.0
       },
       {
-        "time": "07:25",
+        "time": "19:45",
         "mmHour": 0.0
       },
       {
-        "time": "07:30",
-        "mmHour": 0.1
-      },
-      {
-        "time": "07:35",
-        "mmHour": 0.21
-      },
-      {
-        "time": "07:40",
-        "mmHour": 0.1
-      },
-      {
-        "time": "07:45",
-        "mmHour": 0.1
-      },
-      {
-        "time": "07:50",
+        "time": "19:50",
         "mmHour": 0.0
       },
       {
-        "time": "07:55",
+        "time": "19:55",
         "mmHour": 0.0
       },
       {
-        "time": "08:00",
+        "time": "20:00",
         "mmHour": 0.0
       },
       {
-        "time": "08:05",
+        "time": "20:05",
         "mmHour": 0.0
       },
       {
-        "time": "08:10",
+        "time": "20:10",
         "mmHour": 0.0
       },
       {
-        "time": "08:15",
+        "time": "20:15",
         "mmHour": 0.0
       },
       {
-        "time": "08:20",
+        "time": "20:20",
         "mmHour": 0.0
       },
       {
-        "time": "08:25",
+        "time": "20:25",
         "mmHour": 0.0
       },
       {
-        "time": "08:30",
+        "time": "20:30",
         "mmHour": 0.0
       },
       {
-        "time": "08:35",
+        "time": "20:35",
         "mmHour": 0.0
       },
       {
-        "time": "08:40",
+        "time": "20:40",
         "mmHour": 0.0
       },
       {
-        "time": "08:45",
+        "time": "20:45",
         "mmHour": 0.0
       },
       {
-        "time": "08:50",
+        "time": "20:50",
         "mmHour": 0.0
       },
       {
-        "time": "08:55",
+        "time": "20:55",
         "mmHour": 0.0
       },
       {
-        "time": "09:00",
+        "time": "21:00",
         "mmHour": 0.0
       },
       {
-        "time": "09:05",
+        "time": "21:05",
         "mmHour": 0.0
       },
       {
-        "time": "09:10",
+        "time": "21:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "21:30",
         "mmHour": 0.0
       }
     ],
-    "temperature": 9.4,
+    "temperature": 9.1,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T06:11:37+00:00",
-    "rainUpdatedAt": "2026-11-03T06:11:38+00:00"
+    "weatherUpdatedAt": "2026-11-03T07:27:19+00:00",
+    "rainUpdatedAt": "2026-11-03T07:27:20+00:00"
   }
 }
