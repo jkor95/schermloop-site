@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T09:25:59+00:00",
+    "updatedAt": "2026-11-03T10:23:56+00:00",
     "headlines": [
+      {
+        "title": "Tanken wordt weer iets goedkoper: benzineprijs zakt naar niveau van begin juli",
+        "url": "https://www.nu.nl/economie/6415311/tanken-wordt-weer-iets-goedkoper-benzineprijs-zakt-naar-niveau-van-begin-juli.html",
+        "date": "Tue, 03 Nov 2026 10:31:50 +0100",
+        "summary": "De prijzen aan de pomp dalen, vooral die van benzine. De adviesprijs voor een liter E95 komt dinsdag uit op 2,524 euro. In bijna vier maanden tijd is de prijs niet zo laag geweest, blijkt uit data van consumentenplatform UnitedConsumers.",
+        "imageUrl": "https://images.nu.nl/m/0qixovhagmmo_sqr256/1283/5/3995/3995/tanken-wordt-weer-iets-goedkoper-benzineprijs-zakt-naar-niveau-van-begin-juli.jpg"
+      },
       {
         "title": "Dode en gewonden bij botsing tussen twee helikopters bij Mount Everest",
         "url": "https://www.nu.nl/buitenland/6415310/dode-en-gewonden-bij-botsing-tussen-twee-helikopters-bij-mount-everest.html",
@@ -21,7 +28,7 @@
         "title": "Extra lastenverlichting voor werkenden, box 3-verbouwing zo goed als zeker uitgesteld",
         "url": "https://www.nu.nl/politiek/6415267/extra-lastenverlichting-voor-werkenden-box-3-verbouwing-zo-goed-als-zeker-uitgesteld.html",
         "date": "Tue, 03 Nov 2026 09:54:44 +0100",
-        "summary": "Het kabinet is van plan 350 miljoen euro extra uit te trekken om de lasten voor werkenden te verlagen. Ook wordt de box 3-verbouwing zo goed als zeker een jaar uitgesteld. Voor de plannen is nog geen steun in de Kamer.",
+        "summary": "Het kabinet is van plan 350 miljoen euro extra uit te trekken om de lasten voor werkenden te verlagen. Ook wordt de box 3-verbouwing zo goed als zeker een jaar uitgesteld. Voor de plannen is nog geen steun in de Tweede Kamer.",
         "imageUrl": "https://images.nu.nl/m/8gyxostaqun7_sqr256/78/0/3333/3333/extra-lastenverlichting-voor-werkenden-box-3-verbouwing-zo-goed-als-zeker-uitgesteld.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Tue, 03 Nov 2026 09:19:12 +0100",
         "summary": "De Amerikaanse actrice Mckenna Grace weigert naaktscènes te spelen in een film, omdat ze dat \"doodeng\" vindt. Rollen waarvoor ze uit de kleren moet of \"hyperseksuele dingen\" voor moet doen, slaat ze daarom af.",
         "imageUrl": "https://images.nu.nl/m/kfpxf3ranjcl_sqr256/1069/0/3245/3245/hunger-games-actrice-mckenna-grace-weigert-naaktscenes-doodeng.jpg"
-      },
-      {
-        "title": "Europese Unie gaat winter in met kleinste gasvoorraad in ruim tien jaar",
-        "url": "https://www.nu.nl/economie/6415301/europese-unie-gaat-winter-in-met-kleinste-gasvoorraad-in-ruim-tien-jaar.html",
-        "date": "Tue, 03 Nov 2026 08:20:46 +0100",
-        "summary": "Europa begint het winterse stookseizoen met de laagste aardgasvoorraden in meer dan tien jaar, staat in een nieuw rapport van het Internationaal Energieagentschap (IEA). Door die lage voorraden in Europa kan de krappe situatie op de wereldwijde gasmarkt tot ver in 2027 duren.",
-        "imageUrl": "https://images.nu.nl/m/d7axwhba4266_sqr256/1337/0/2663/2663/europese-unie-gaat-winter-in-met-kleinste-gasvoorraad-in-ruim-tien-jaar.jpg"
       }
     ]
   },
@@ -58,50 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "10:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "10:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "11:20",
-        "mmHour": 0.0
-      },
       {
         "time": "11:25",
         "mmHour": 0.0
@@ -153,12 +109,56 @@
       {
         "time": "12:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "12:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "12:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "13:20",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.7,
-    "description": "Zwaar bewolkt en regen",
+    "temperature": 9.8,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T09:25:59+00:00",
-    "rainUpdatedAt": "2026-11-03T09:25:59+00:00"
+    "weatherUpdatedAt": "2026-11-03T10:23:56+00:00",
+    "rainUpdatedAt": "2026-11-03T10:23:56+00:00"
   }
 }
