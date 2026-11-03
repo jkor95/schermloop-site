@@ -49,3 +49,18 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - Eén actieve afspeelsessie per logisch scherm wordt nu afgedwongen: een nieuwe sessie trekt de oude in en de speler controleert elke 10 seconden. Een gekopieerde apparaatsleutel kan nog een nieuwe sessie overnemen, maar mag geen twee gelijktijdig geautoriseerde sessies opleveren. Een reeds offline spelend apparaat is zonder netwerkverbinding niet direct te stoppen.
 - Er is nog geen implementatie voor veilige persistent offline bestanden en het fysiek schakelen van de tv via HDMI-CEC.
 - Er is nog geen deployment naar de eigen Coolify-server uitgevoerd.
+
+## Voortgang: bedrijfsbeheer en support
+
+- Bedrijfsbeheerder kan een medewerker-account activeren of uitschakelen zonder persoonsgegevens te verwijderen.
+  Bij uitschakeling worden de bestaande inlogsessies van die medewerker ingetrokken; opnieuw activeren
+  is alleen toegestaan wanneer de accountlimiet dat toelaat. De hoofdbeheerder van het bedrijf
+  kan niet via deze functie worden uitgeschakeld.
+- De database bereidt een supportauditlog voor. De losse supportmodule en tests staan in de code,
+  maar de module is nog niet gekoppeld aan de actieve routes. Het supportdashboard is daarom
+  **nog niet bruikbaar**.
+- Het oude, in gebruik zijnde SchermLoop-private-project wordt niet aangepast. Een overname
+  volgt pas na een volledige productietest, back-up en afgesproken omschakelmoment.
+- De losse ontwikkeltak is onderdeel van een **openbare** GitHub-repository; voeg nooit echte
+  klantdata of geheime sleutels toe. Voor commerciële uitrol migreren naar een aparte private
+  repository.
