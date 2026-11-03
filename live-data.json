@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T14:25:18+00:00",
+    "updatedAt": "2026-11-03T15:14:29+00:00",
     "headlines": [
+      {
+        "title": "Stikstofplannen op de schop: provincies maken eigen plan rond kwetsbare natuur",
+        "url": "https://www.nu.nl/politiek/6415354/stikstofplannen-op-de-schop-provincies-maken-eigen-plan-rond-kwetsbare-natuur.html",
+        "date": "Tue, 03 Nov 2026 16:01:44 +0100",
+        "summary": "Het kabinet heeft na overleg met boerenorganisaties de stikstofplannen flink aangepast. In de zones rondom kwetsbare natuurgebieden komt meer ruimte voor maatwerk en de rekenkundige ondergrens wordt een half jaar eerder ingevoerd.",
+        "imageUrl": "https://images.nu.nl/m/4bexw0bayho6_sqr256/1344/0/4000/4000/stikstofplannen-op-de-schop-provincies-maken-eigen-plan-rond-kwetsbare-natuur.jpg"
+      },
+      {
+        "title": "Protesten van Franse scholieren gaan na herfstvakantie gewoon weer door",
+        "url": "https://www.nu.nl/buitenland/6415326/protesten-van-franse-scholieren-gaan-na-herfstvakantie-gewoon-weer-door.html",
+        "date": "Tue, 03 Nov 2026 15:23:50 +0100",
+        "summary": "In meerdere Franse steden vinden deze week weer protesten van middelbare scholieren plaats. In onder meer Parijs, Marseille en Rennes blokkeren jongeren opnieuw een aantal middelbare scholen, al is onduidelijk om hoeveel scholen het momenteel gaat.",
+        "imageUrl": "https://images.nu.nl/m/9lpxiv8awfe4_sqr256/1113/14/5746/5746/protesten-van-franse-scholieren-gaan-na-herfstvakantie-gewoon-weer-door.jpg"
+      },
       {
         "title": "Robèrt van Beckhoven heeft nieuwe liefde: 'Ze heeft alles wat ik nodig heb'",
         "url": "https://www.nu.nl/achterklap/6415351/robert-van-beckhoven-heeft-nieuwe-liefde-ze-heeft-alles-wat-ik-nodig-heb.html",
@@ -37,20 +51,6 @@
         "date": "Tue, 03 Nov 2026 13:21:36 +0100",
         "summary": "In het nieuwe belastingplan van het kabinet blijft de aftrek van specifieke zorgkosten behouden, wordt de hogere btw op bloemen uitgesteld en gaat er meer geld naar de politie. Het kabinet betaalt dat grotendeels met wensdenken en creatief boekhouden.",
         "imageUrl": "https://images.nu.nl/m/q0ixsz0alihy_sqr256/1151/0/4000/4000/kabinet-komt-oppositie-tegemoet-met-onder-andere-meer-geld-voor-politie.jpg"
-      },
-      {
-        "title": "Overlijden De Miguel komt ook hard binnen bij PSV: 'Iedereen schrikt ervan'",
-        "url": "https://www.nu.nl/voetbal/6415338/overlijden-de-miguel-komt-ook-hard-binnen-bij-psv-iedereen-schrikt-ervan.html",
-        "date": "Tue, 03 Nov 2026 13:14:00 +0100",
-        "summary": "PSV-trainer Peter Bosz is net als de rest van de voetbalwereld \"geschokt\" door het overlijden van Jesús de Miguel van CD Tenerife. Het nieuws is ook bij de Eindhovense club hard binnengekomen.",
-        "imageUrl": "https://images.nu.nl/m/p52xzcha8thv_sqr256/1209/9/4147/4147/overlijden-de-miguel-komt-ook-hard-binnen-bij-psv-iedereen-schrikt-ervan.jpg"
-      },
-      {
-        "title": "Bommeldingen aan boord van twee vliegtuigen in Pools luchtruim",
-        "url": "https://www.nu.nl/buitenland/6415329/bommeldingen-aan-boord-van-twee-vliegtuigen-in-pools-luchtruim.html",
-        "date": "Tue, 03 Nov 2026 12:49:21 +0100",
-        "summary": "De luchthaven Warschau-Modlin is gesloten geweest na een onvoorziene landing van een omgeleid vliegtuig. Er was een bommelding gemaakt aan boord van het vliegtuig uit Londen. Op Warschau-Chopin, de belangrijkste luchthaven van Polen, is ook een toestel uit Denemarken onderzocht vanwege een bommelding.",
-        "imageUrl": "https://images.nu.nl/m/cqrx3x9au8ef_sqr256/332/1/1413/1413/bommeldingen-aan-boord-van-twee-vliegtuigen-in-pools-luchtruim.jpg"
       }
     ]
   },
@@ -58,42 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "15:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "16:10",
-        "mmHour": 0.0
-      },
       {
         "time": "16:15",
         "mmHour": 0.0
@@ -153,12 +117,48 @@
       {
         "time": "17:25",
         "mmHour": 0.0
+      },
+      {
+        "time": "17:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "18:10",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.5,
+    "temperature": 10.4,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T14:25:19+00:00",
-    "rainUpdatedAt": "2026-11-03T14:25:19+00:00"
+    "weatherUpdatedAt": "2026-11-03T15:14:30+00:00",
+    "rainUpdatedAt": "2026-11-03T15:14:31+00:00"
   }
 }
