@@ -1,13 +1,20 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T13:11:20+00:00",
+    "updatedAt": "2026-11-03T14:25:18+00:00",
     "headlines": [
+      {
+        "title": "Robèrt van Beckhoven heeft nieuwe liefde: 'Ze heeft alles wat ik nodig heb'",
+        "url": "https://www.nu.nl/achterklap/6415351/robert-van-beckhoven-heeft-nieuwe-liefde-ze-heeft-alles-wat-ik-nodig-heb.html",
+        "date": "Tue, 03 Nov 2026 14:44:03 +0100",
+        "summary": "Robèrt van Beckhoven heeft een nieuwe relatie. Het Heel Holland Bakt -jurylid stelde zijn nieuwe partner voor tijdens de lancering van de Lekker500 (editie 2027), de bekendste restaurantgids van Nederland. \"Debby is mijn vriendin\", zegt de 65-jarige meesterbakker.",
+        "imageUrl": "https://images.nu.nl/m/098xgs4a90se_sqr256/993/0/3939/3939/robert-van-beckhoven-heeft-nieuwe-liefde-ze-heeft-alles-wat-ik-nodig-heb.jpg"
+      },
       {
         "title": "Ziggo trekt na jaren weer klanten aan, maar houdt er minder aan over",
         "url": "https://www.nu.nl/economie/6415344/ziggo-trekt-na-jaren-weer-klanten-aan-maar-houdt-er-minder-aan-over.html",
         "date": "Tue, 03 Nov 2026 14:00:03 +0100",
-        "summary": "Na jaren van klantenverlies zit Ziggo weer in de lift. Voor het tweede kwartaal op rij trok het bedrijf meer internetklanten. Maar ondanks die groei verdient Ziggo minder dan een jaar geleden.",
+        "summary": "Na jaren van klantenverlies zit VodafoneZiggo weer in de lift. Voor het tweede kwartaal op rij trok het bedrijf meer internetklanten. Maar ondanks die groei verdient de provider minder dan een jaar geleden.",
         "imageUrl": "https://images.nu.nl/m/c6hxw1maqfhg_sqr256/573/1/2833/2833/ziggo-trekt-na-jaren-weer-klanten-aan-maar-houdt-er-minder-aan-over.jpg"
       },
       {
@@ -44,13 +51,6 @@
         "date": "Tue, 03 Nov 2026 12:49:21 +0100",
         "summary": "De luchthaven Warschau-Modlin is gesloten geweest na een onvoorziene landing van een omgeleid vliegtuig. Er was een bommelding gemaakt aan boord van het vliegtuig uit Londen. Op Warschau-Chopin, de belangrijkste luchthaven van Polen, is ook een toestel uit Denemarken onderzocht vanwege een bommelding.",
         "imageUrl": "https://images.nu.nl/m/cqrx3x9au8ef_sqr256/332/1/1413/1413/bommeldingen-aan-boord-van-twee-vliegtuigen-in-pools-luchtruim.jpg"
-      },
-      {
-        "title": "Iran bereidt zich voor op klappen na midterms: 'Aan vooravond van derde ronde'",
-        "url": "https://www.nu.nl/buitenland/6415271/iran-bereidt-zich-voor-op-klappen-na-midterms-aan-vooravond-van-derde-ronde.html",
-        "date": "Tue, 03 Nov 2026 11:52:47 +0100",
-        "summary": "De Amerikaanse president Donald Trump lijkt na de midterms een nieuwe aanval op Iran te plannen. Maar experts denken niet dat hij het land nu wel met bommen tot een deal kan dwingen. \"Wees er maar zeker van dat Iran zich hierop heeft voorbereid.\"",
-        "imageUrl": "https://images.nu.nl/m/dsjx3jlalr28_sqr256/159/0/5408/5408/iran-bereidt-zich-voor-op-klappen-na-midterms-aan-vooravond-van-derde-ronde.jpg"
       }
     ]
   },
@@ -58,66 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "14:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "14:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "15:25",
-        "mmHour": 0.0
-      },
       {
         "time": "15:30",
         "mmHour": 0.0
@@ -153,12 +93,72 @@
       {
         "time": "16:10",
         "mmHour": 0.0
+      },
+      {
+        "time": "16:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "16:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:15",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "17:25",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 10.9,
+    "temperature": 10.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T13:11:20+00:00",
-    "rainUpdatedAt": "2026-11-03T13:11:21+00:00"
+    "weatherUpdatedAt": "2026-11-03T14:25:19+00:00",
+    "rainUpdatedAt": "2026-11-03T14:25:19+00:00"
   }
 }
