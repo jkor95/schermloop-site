@@ -62,7 +62,20 @@ async function loadCompany(){
  const acts=node('div','actions');acts.append(button('Beheren',async()=>{state.selected=s.id;await loadCompany();await selectScreen();},true));
  row.append(left,acts);box.append(row);
  }
- const ub=$('users');ub.replaceChildren();for(const u of users){const row=node('div','list-row');row.append(node('strong','',u.email),node('span','pill',u.role==='owner'?'Beheerder':'Medewerker'));ub.append(row);}
+ const ub=$('users');ub.replaceChildren();
+ for(const u of users){
+  const row=node('div','list-row'),info=node('div','main'),actions=node('div','actions');
+  info.append(node('strong','',u.email),node('span','pill'+(u.active?' good':' bad'),u.role==='owner'?'Bedrijfsbeheerder':u.active?'Actief':'Uitgeschakeld'));
+  if(isOwner&&u.role==='staff'){
+   actions.append(button(u.active?'Uitschakelen':'Activeren',async()=>{
+    if(u.active&&!confirm('Account van '+u.email+' uitschakelen? De medewerker wordt op alle apparaten uitgelogd.'))return;
+    await api('/users/'+u.id+'/active',{method:'PATCH',body:{active:!u.active}});
+    message(u.active?'Medewerker uitgeschakeld en uitgelogd.':'Medewerker opnieuw geactiveerd.');
+    await loadCompany();
+   },true));
+  }
+  row.append(info,actions);ub.append(row);
+ }
  if(state.selected&&!screens.find(s=>s.id===state.selected)){state.selected=null;$('screenPanel').hidden=true;}
  if(state.selected)await selectScreen();
 }
