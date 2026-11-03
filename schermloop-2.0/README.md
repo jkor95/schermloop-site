@@ -46,6 +46,6 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - De GitHub CI controleert JavaScript-syntaxis, basisregels en integratietests met een tijdelijke PostgreSQL-database.
 - De losse supportmodule (`support.js`) en de bijbehorende unit-tests zijn toegevoegd, maar de module is nog niet aan de actieve Express-server gekoppeld. Nog niet bruikbaar via de beheerpagina.
 - Automatische retour naar de dia-lus is op 30 minuten ingesteld; dit is een voorlopige standaard die later configureerbaar kan worden.
-- Koppelen van één logisch scherm en intrekken van een vorige apparaatsleutel is geïmplementeerd, maar bescherming tegen gelijktijdig hergebruik van een gekopieerde apparaatsleutel is nog niet compleet.
+- Eén actieve afspeelsessie per logisch scherm wordt nu afgedwongen: een nieuwe sessie trekt de oude in en de speler controleert elke 10 seconden. Een gekopieerde apparaatsleutel kan nog een nieuwe sessie overnemen, maar mag geen twee gelijktijdig geautoriseerde sessies opleveren. Een reeds offline spelend apparaat is zonder netwerkverbinding niet direct te stoppen.
 - Er is nog geen implementatie voor veilige persistent offline bestanden en het fysiek schakelen van de tv via HDMI-CEC.
 - Er is nog geen deployment naar de eigen Coolify-server uitgevoerd.
