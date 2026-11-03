@@ -26,6 +26,8 @@ CREATE TABLE IF NOT EXISTS screens (
  name text NOT NULL,
  device_hash text UNIQUE,
  device_version integer NOT NULL DEFAULT 0,
+ session_hash text,
+ session_started_at timestamptz,
  last_seen_at timestamptz,
  settings jsonb NOT NULL DEFAULT '{"enabled":false,"days":[1,2,3,4,5],"on":"07:30","off":"18:00","clock":true,"background":"black"}',
  created_at timestamptz NOT NULL DEFAULT now()
@@ -59,3 +61,8 @@ CREATE INDEX IF NOT EXISTS idx_screens_org ON screens(organization_id);
 CREATE INDEX IF NOT EXISTS idx_items_screen ON items(screen_id,position,created_at);
 CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
 CREATE INDEX IF NOT EXISTS idx_pair_exp ON pairing_requests(expires_at);
+
+-- Additieve migratie: bestaande installaties krijgen dezelfde sessiekolommen.
+ALTER TABLE screens ADD COLUMN IF NOT EXISTS session_hash text;
+ALTER TABLE screens ADD COLUMN IF NOT EXISTS session_started_at timestamptz;
+CREATE UNIQUE INDEX IF NOT EXISTS idx_screens_session_hash ON screens(session_hash) WHERE session_hash IS NOT NULL;
