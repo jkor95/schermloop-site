@@ -13,6 +13,20 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: schermloop_ci
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d schermloop_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
     defaults:
       run:
         working-directory: schermloop-2.0
@@ -27,5 +41,7 @@ jobs:
           node --check domain.js
           node --check public/dashboard.js
           node --check public/player.js
-      - name: Domeinregels testen
+      - name: Dependencies installeren
+        run: npm install --omit=dev --no-audit --no-fund
+      - name: Domeinregels en integratietests
         run: npm test
