@@ -165,7 +165,7 @@ async function synchronize(){
   applySchedule();clock();updateTicker();
   if(signature!==prev&&!paused)renderSlide();
  }catch(e){
-  if(e.status===401){deviceToken='';screenSessionToken='';localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();return createPairing();}
+  if(e.status===401){deviceToken='';screenSessionToken='';localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
   else failConnection('Server niet bereikbaar. We proberen het opnieuw. '+e.message);
  }
