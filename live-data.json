@@ -1,13 +1,20 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T07:27:19+00:00",
+    "updatedAt": "2026-11-03T08:30:35+00:00",
     "headlines": [
+      {
+        "title": "Europese Unie gaat winter in met kleinste gasvoorraad in ruim tien jaar",
+        "url": "https://www.nu.nl/economie/6415301/europese-unie-gaat-winter-in-met-kleinste-gasvoorraad-in-ruim-tien-jaar.html",
+        "date": "Tue, 03 Nov 2026 08:20:46 +0100",
+        "summary": "Europa begint het winterse stookseizoen met de laagste aardgasvoorraden in meer dan tien jaar, staat in een nieuw rapport van het Internationaal Energieagentschap (IEA). Door die lage voorraden in Europa kan de krappe situatie op de wereldwijde gasmarkt tot ver in 2027 duren.",
+        "imageUrl": "https://images.nu.nl/m/d7axwhba4266_sqr256/1337/0/2663/2663/europese-unie-gaat-winter-in-met-kleinste-gasvoorraad-in-ruim-tien-jaar.jpg"
+      },
       {
         "title": "Landen die Oekraïne na de oorlog gaan helpen houden militaire oefening in Polen",
         "url": "https://www.nu.nl/buitenland/6415296/landen-die-oekraine-na-de-oorlog-gaan-helpen-houden-militaire-oefening-in-polen.html",
         "date": "Tue, 03 Nov 2026 07:17:46 +0100",
-        "summary": "Frankrijk en Groot-Brittannië leiden binnenkort een militaire oefening in Polen, waaraan 2.800 militairen uit elf landen deelnemen. Het wordt de eerste grote militaire oefening van de zogenoemde ''coalitie van bereidwilligen''. Deze groep landen gaat Oekraïne bijstaan zodra de oorlog is afgelopen.",
+        "summary": "Frankrijk en het Verenigd Koninkrijk leiden binnenkort een militaire oefening in Polen. Daar zullen 2.800 militairen uit elf landen aan deelnemen. Het wordt de eerste grote militaire oefening van de zogenoemde 'coalitie van bereidwilligen'. Deze groep landen zal Oekraïne bijstaan zodra de oorlog is afgelopen.",
         "imageUrl": "https://images.nu.nl/m/g6kx3raa2i70_sqr256/246/0/1412/1412/landen-die-oekraine-na-de-oorlog-gaan-helpen-houden-militaire-oefening-in-polen.jpg"
       },
       {
@@ -25,32 +32,25 @@
         "imageUrl": "https://images.nu.nl/m/mbpx6lca9f5t_sqr256/854/0/3529/3529/aantal-alleenstaande-aowers-groeit-sneller-onder-mannen-dan-onder-vrouwen.jpg"
       },
       {
-        "title": "Explainer | Texanen willen signaal afgeven aan Elon Musk: 'Wij zijn niet te koop'",
-        "url": "https://www.nu.nl/331900/video/texanen-willen-signaal-afgeven-aan-elon-musk-wij-zijn-niet-te-koop.html",
+        "title": "Explainer | Texanen hebben boodschap voor Elon Musk: 'Wij zijn niet te koop'",
+        "url": "https://www.nu.nl/331900/video/texanen-hebben-boodschap-voor-elon-musk-wij-zijn-niet-te-koop.html",
         "date": "Tue, 03 Nov 2026 05:46:29 +0100",
         "summary": "",
-        "imageUrl": "https://images.nu.nl/m/qo9x2pgalts2_sqr256/286/37/1402/1402/texanen-willen-signaal-afgeven-aan-elon-musk-wij-zijn-niet-te-koop.jpg"
+        "imageUrl": "https://images.nu.nl/m/qo9x2pgalts2_sqr256/286/37/1402/1402/texanen-hebben-boodschap-voor-elon-musk-wij-zijn-niet-te-koop.jpg"
       },
       {
-        "title": "Vliegtuig dat neerstortte in Florida viel mogelijk al in de lucht uit elkaar",
-        "url": "https://www.nu.nl/buitenland/6415293/vliegtuig-dat-neerstortte-in-florida-viel-mogelijk-al-in-de-lucht-uit-elkaar.html",
+        "title": "In Florida neergestort vliegtuig mogelijk al in de lucht uit elkaar gevallen",
+        "url": "https://www.nu.nl/buitenland/6415293/in-florida-neergestort-vliegtuig-mogelijk-al-in-de-lucht-uit-elkaar-gevallen.html",
         "date": "Tue, 03 Nov 2026 05:40:07 +0100",
-        "summary": "Het vliegtuigje dat zondag crashte in een woonwagenpark in de Amerikaanse staat Florida, was mogelijk al in de lucht uit elkaar gevallen. Bij de crash zijn alle negen inzittenden omgekomen.",
-        "imageUrl": "https://images.nu.nl/m/enkx8g7au0ep_sqr256/500/0/1338/1338/vliegtuig-dat-neerstortte-in-florida-viel-mogelijk-al-in-de-lucht-uit-elkaar.jpg"
+        "summary": "Het vliegtuig dat zondag in een woonwagenpark in de Amerikaanse staat Florida is gecrasht, was mogelijk al in de lucht uit elkaar gevallen. Alle negen inzittenden van het toestel zijn bij de crash omgekomen.",
+        "imageUrl": "https://images.nu.nl/m/enkx8g7au0ep_sqr256/500/0/1338/1338/in-florida-neergestort-vliegtuig-mogelijk-al-in-de-lucht-uit-elkaar-gevallen.jpg"
       },
       {
-        "title": "Amerikaanse midterms bepalen hoe laatste twee jaar Trump eruitzien",
-        "url": "https://www.nu.nl/verkiezingen-vs/6414680/amerikaanse-midterms-bepalen-hoe-laatste-twee-jaar-trump-eruitzien.html",
+        "title": "Amerikaanse midterms bepalen hoe de laatste twee jaar Trump eruitzien",
+        "url": "https://www.nu.nl/verkiezingen-vs/6414680/amerikaanse-midterms-bepalen-hoe-de-laatste-twee-jaar-trump-eruitzien.html",
         "date": "Tue, 03 Nov 2026 05:04:01 +0100",
         "summary": "Amerikanen gaan vandaag naar de stembus voor de tussentijdse verkiezingen, beter bekend als de midterms. Die bepalen voor een belangrijk deel hoe de laatste twee jaar van de termijn van president Donald Trump verlopen.",
-        "imageUrl": "https://images.nu.nl/m/xu1x8kqa9v15_sqr256/642/4/3663/3663/amerikaanse-midterms-bepalen-hoe-laatste-twee-jaar-trump-eruitzien.jpg"
-      },
-      {
-        "title": "Ook jongste dochter van Brad Pitt schrapt officieel zijn achternaam",
-        "url": "https://www.nu.nl/achterklap/6415290/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.html",
-        "date": "Mon, 02 Nov 2026 23:37:10 +0100",
-        "summary": "De jongste dochter van acteurs Angelina Jolie en Brad Pitt, Vivienne, heeft de achternaam van haar vader officieel laten schrappen, blijkt uit rechtbankdocumenten in handen van onder meer People . Een rechter in Californië keurde de wijziging maandag goed.",
-        "imageUrl": "https://images.nu.nl/m/99ixfk5aoni1_sqr256/669/1/3878/3878/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.jpg"
+        "imageUrl": "https://images.nu.nl/m/xu1x8kqa9v15_sqr256/642/4/3663/3663/amerikaanse-midterms-bepalen-hoe-de-laatste-twee-jaar-trump-eruitzien.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "19:35",
+        "time": "09:30",
         "mmHour": 0.0
       },
       {
-        "time": "19:40",
+        "time": "09:35",
         "mmHour": 0.0
       },
       {
-        "time": "19:45",
+        "time": "09:40",
         "mmHour": 0.0
       },
       {
-        "time": "19:50",
+        "time": "09:45",
         "mmHour": 0.0
       },
       {
-        "time": "19:55",
+        "time": "09:50",
         "mmHour": 0.0
       },
       {
-        "time": "20:00",
+        "time": "09:55",
         "mmHour": 0.0
       },
       {
-        "time": "20:05",
+        "time": "10:00",
         "mmHour": 0.0
       },
       {
-        "time": "20:10",
+        "time": "10:05",
         "mmHour": 0.0
       },
       {
-        "time": "20:15",
+        "time": "10:10",
         "mmHour": 0.0
       },
       {
-        "time": "20:20",
+        "time": "10:15",
         "mmHour": 0.0
       },
       {
-        "time": "20:25",
+        "time": "10:20",
         "mmHour": 0.0
       },
       {
-        "time": "20:30",
+        "time": "10:25",
         "mmHour": 0.0
       },
       {
-        "time": "20:35",
+        "time": "10:30",
         "mmHour": 0.0
       },
       {
-        "time": "20:40",
+        "time": "10:35",
         "mmHour": 0.0
       },
       {
-        "time": "20:45",
+        "time": "10:40",
         "mmHour": 0.0
       },
       {
-        "time": "20:50",
+        "time": "10:45",
         "mmHour": 0.0
       },
       {
-        "time": "20:55",
+        "time": "10:50",
         "mmHour": 0.0
       },
       {
-        "time": "21:00",
+        "time": "10:55",
         "mmHour": 0.0
       },
       {
-        "time": "21:05",
+        "time": "11:00",
         "mmHour": 0.0
       },
       {
-        "time": "21:10",
+        "time": "11:05",
         "mmHour": 0.0
       },
       {
-        "time": "21:15",
+        "time": "11:10",
         "mmHour": 0.0
       },
       {
-        "time": "21:20",
+        "time": "11:15",
         "mmHour": 0.0
       },
       {
-        "time": "21:25",
+        "time": "11:20",
         "mmHour": 0.0
       },
       {
-        "time": "21:30",
-        "mmHour": 0.0
+        "time": "11:25",
+        "mmHour": 0.1
       }
     ],
-    "temperature": 9.1,
+    "temperature": 9.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T07:27:19+00:00",
-    "rainUpdatedAt": "2026-11-03T07:27:20+00:00"
+    "weatherUpdatedAt": "2026-11-03T08:30:35+00:00",
+    "rainUpdatedAt": "2026-11-03T08:30:36+00:00"
   }
 }
