@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T11:20:50+00:00",
+    "updatedAt": "2026-11-03T12:08:38+00:00",
     "headlines": [
+      {
+        "title": "Bommeldingen aan boord van twee vliegtuigen in Pools luchtruim",
+        "url": "https://www.nu.nl/buitenland/6415329/bommeldingen-aan-boord-van-twee-vliegtuigen-in-pools-luchtruim.html",
+        "date": "Tue, 03 Nov 2026 12:49:21 +0100",
+        "summary": "De luchthaven Warschau-Modlin is gesloten geweest na een onvoorziene landing van een omgeleid vliegtuig. Er was een bommelding gemaakt aan boord van het vliegtuig uit Londen. Op Warschau-Chopin, de belangrijkste luchthaven van Polen, is ook een toestel uit Denemarken onderzocht vanwege een bommelding.",
+        "imageUrl": "https://images.nu.nl/m/cqrx3x9au8ef_sqr256/332/1/1413/1413/bommeldingen-aan-boord-van-twee-vliegtuigen-in-pools-luchtruim.jpg"
+      },
       {
         "title": "Iran bereidt zich voor op klappen na midterms: 'Aan vooravond van derde ronde'",
         "url": "https://www.nu.nl/buitenland/6415271/iran-bereidt-zich-voor-op-klappen-na-midterms-aan-vooravond-van-derde-ronde.html",
@@ -44,13 +51,6 @@
         "date": "Tue, 03 Nov 2026 10:15:49 +0100",
         "summary": "Rusland heeft een grootschalige aanval uitgevoerd op Oekraïense energiefaciliteiten. Volgens het ministerie van Energie is in zeker tien regio's schade ontstaan, onder meer aan hoogspanningskabels en onderstations. In meerdere Oekraïense regio's is daarom uit voorzorg de stroomvoorziening afgesloten.",
         "imageUrl": "https://images.nu.nl/m/jyfxwncaf8bb_sqr256/254/0/687/687/rusland-valt-energiefaciliteiten-in-oekraine-aan-drie-centrales-offline.jpg"
-      },
-      {
-        "title": "Extra lastenverlaging voor werkenden, box 3-verbouwing zo goed als zeker uitgesteld",
-        "url": "https://www.nu.nl/politiek/6415267/extra-lastenverlaging-voor-werkenden-box-3-verbouwing-zo-goed-als-zeker-uitgesteld.html",
-        "date": "Tue, 03 Nov 2026 09:54:44 +0100",
-        "summary": "Het kabinet is van plan 350 miljoen euro extra uit te trekken om de lasten voor werkenden te verlagen. Ook wordt de box 3-verbouwing zo goed als zeker een jaar uitgesteld. Voor de plannen is nog geen steun in de Tweede Kamer.",
-        "imageUrl": "https://images.nu.nl/m/8gyxostaqun7_sqr256/78/0/3333/3333/extra-lastenverlaging-voor-werkenden-box-3-verbouwing-zo-goed-als-zeker-uitgesteld.jpg"
       }
     ]
   },
@@ -58,46 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "12:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "12:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "13:05",
-        "mmHour": 0.0
-      },
       {
         "time": "13:10",
         "mmHour": 0.0
@@ -153,12 +113,52 @@
       {
         "time": "14:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "14:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "14:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "15:05",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.9,
+    "temperature": 10.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T11:20:51+00:00",
-    "rainUpdatedAt": "2026-11-03T11:20:51+00:00"
+    "weatherUpdatedAt": "2026-11-03T12:08:39+00:00",
+    "rainUpdatedAt": "2026-11-03T12:08:39+00:00"
   }
 }
