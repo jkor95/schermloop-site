@@ -66,3 +66,18 @@ CREATE INDEX IF NOT EXISTS idx_pair_exp ON pairing_requests(expires_at);
 ALTER TABLE screens ADD COLUMN IF NOT EXISTS session_hash text;
 ALTER TABLE screens ADD COLUMN IF NOT EXISTS session_started_at timestamptz;
 CREATE UNIQUE INDEX IF NOT EXISTS idx_screens_session_hash ON screens(session_hash) WHERE session_hash IS NOT NULL;
+
+-- Voorbereiding voor transparante ondersteuning door hoofdbeheer.
+-- Geen klantgegevens worden verwijderd.
+CREATE TABLE IF NOT EXISTS support_events (
+ id uuid PRIMARY KEY,
+ organization_id uuid NOT NULL REFERENCES organizations(id),
+ actor_id uuid NOT NULL REFERENCES users(id),
+ action text NOT NULL,
+ target_kind text NOT NULL,
+ target_id uuid,
+ details jsonb NOT NULL DEFAULT '{}',
+ created_at timestamptz NOT NULL DEFAULT now()
+);
+CREATE INDEX IF NOT EXISTS idx_support_events_org_time
+ ON support_events(organization_id,created_at DESC);
