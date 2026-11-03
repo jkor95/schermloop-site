@@ -2,6 +2,7 @@
 const $=id=>document.getElementById(id);
 const DEVICE_KEY='schermloop2-device-token';
 let deviceToken=localStorage.getItem(DEVICE_KEY)||'';
+let screenSessionToken='';
 let activeScreen=null,slides=[],pos=0,manual=false,paused=false;
 let slideTimeout=null,slideEpoch=0,pairTimer=null,pollTimer=null,lastManualInteraction=0;
 let pairing=null;
@@ -70,7 +71,7 @@ async function checkPairing(){
   const r=await request('/player/pair/'+pairing.request_id,{token:pairing.claim_token});
   if(r.status!=='paired')return;
   clearInterval(pairTimer);pairTimer=null;pairing=null;
-  deviceToken=r.device_token;localStorage.setItem(DEVICE_KEY,deviceToken);
+  deviceToken=r.device_token;screenSessionToken='';localStorage.setItem(DEVICE_KEY,deviceToken);
   await synchronize();
  }catch(e){
   if(e.status===410){clearInterval(pairTimer);pairTimer=null;await createPairing();}
@@ -79,7 +80,7 @@ async function checkPairing(){
 }
 async function getAsset(item){
  if(assetUrls.has(item.id))return assetUrls.get(item.id);
- const blob=await request('/player/media/'+item.id,{token:deviceToken,blob:true});
+ const blob=await request('/player/media/'+item.id,{token:screenSessionToken,blob:true});
  const url=URL.createObjectURL(blob);assetUrls.set(item.id,url);return url;
 }
 function clearExpiredAssets(){
@@ -154,7 +155,8 @@ function applySchedule(){
 async function synchronize(){
  if(!deviceToken)return createPairing();
  try{
-  const r=await request('/player/state',{token:deviceToken});
+  if(!screenSessionToken){const session=await request('/player/session',{method:'POST',token:deviceToken});screenSessionToken=session.session_token;}
+  const r=await request('/player/state',{token:screenSessionToken});
   activeScreen=r.screen;setLabel(activeScreen.name);showOnly('showView');
   const signature=JSON.stringify(r.items);
   const prev=JSON.stringify(slides);
@@ -163,7 +165,7 @@ async function synchronize(){
   applySchedule();clock();updateTicker();
   if(signature!==prev&&!paused)renderSlide();
  }catch(e){
-  if(e.status===401){deviceToken='';localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();return createPairing();}
+  if(e.status===401){deviceToken='';screenSessionToken='';localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
   else failConnection('Server niet bereikbaar. We proberen het opnieuw. '+e.message);
  }
@@ -187,6 +189,6 @@ document.addEventListener('DOMContentLoaded',async()=>{
  });
  showOnly('pairView');
  if(deviceToken)await synchronize();else await createPairing();
- pollTimer=setInterval(()=>{if(deviceToken)synchronize();},30000);
+ pollTimer=setInterval(()=>{if(deviceToken)synchronize();},10000);
  setInterval(()=>{clock();applySchedule();if(manual&&window.SchermLoopControls?.shouldResume(lastManualInteraction,Date.now()))setManual(false);},15000);
 });
