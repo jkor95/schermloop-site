@@ -97,6 +97,8 @@ async function renderSlide(){
   return;
  }
  const epoch=slideEpoch,item=slides[pos],slide=$('slide');
+ const screenBackground=activeScreen?.settings?.background||'black';
+ slide.style.backgroundColor=screenBackground==='color'?(activeScreen.settings.backgroundColor||'#172638'):'#000000';
  const duration=Math.max(2,Math.min(600,Number(item.duration)||10));
  if(item.kind==='text'){
   const p=document.createElement('div');p.className='slide-message';p.textContent=item.text_body||item.title;slide.append(p);
@@ -114,7 +116,9 @@ async function renderSlide(){
     v.play().catch(()=>{v.controls=true;});
     if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
    }else{
-    const img=document.createElement('img');img.src=url;img.alt=item.title||'Dia';slide.append(img);
+    const img=document.createElement('img');img.src=url;img.alt=item.title||'Dia';
+    if(screenBackground==='blur'){const blurred=document.createElement('img');blurred.className='slide-blurred-background';blurred.src=url;blurred.alt='';blurred.setAttribute('aria-hidden','true');slide.append(blurred);}
+    img.className='slide-foreground';slide.append(img);
     if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
    }
   }catch(e){
