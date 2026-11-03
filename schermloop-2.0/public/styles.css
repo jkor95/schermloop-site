@@ -3,3 +3,10 @@
 .settings-form select{width:100%;padding:11px 13px;border:1px solid #c8d5e4;border-radius:10px;background:#fff;color:#142238}
 .slide>img.slide-blurred-background{position:absolute;inset:0;width:100%;height:100%;max-height:none;max-width:none;object-fit:cover;filter:blur(28px);transform:scale(1.12);opacity:.82;pointer-events:none}
 .slide>img.slide-foreground{position:relative;z-index:1}
+
+/* Eigen lichtkrant onderaan het afspeelscherm; veilige tekst (geen HTML). */
+.news-ticker{position:absolute;left:0;right:0;bottom:48px;height:48px;display:flex;align-items:center;overflow:hidden;background:rgba(8,20,40,.92);color:#fff;z-index:3;font-weight:650;font-size:1.3rem}
+.news-ticker-track{display:block;width:max-content;white-space:nowrap;animation:schermloop-ticker 36s linear infinite}
+@keyframes schermloop-ticker{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
+.pause-overlay{z-index:5}
+.play-clock{z-index:4}
