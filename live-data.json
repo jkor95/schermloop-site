@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T03:18:42+00:00",
+    "updatedAt": "2026-11-03T04:15:31+00:00",
     "headlines": [
+      {
+        "title": "Amerikaanse midterms bepalen hoe laatste twee jaar Trump eruitzien",
+        "url": "https://www.nu.nl/verkiezingen-vs/6414680/amerikaanse-midterms-bepalen-hoe-laatste-twee-jaar-trump-eruitzien.html",
+        "date": "Tue, 03 Nov 2026 05:04:01 +0100",
+        "summary": "Amerikanen gaan vandaag naar de stembus voor de tussentijdse verkiezingen, beter bekend als de midterms. Die bepalen voor een belangrijk deel hoe de laatste twee jaar van de termijn van president Donald Trump verlopen.",
+        "imageUrl": "https://images.nu.nl/m/xu1x8kqa9v15_sqr256/642/4/3663/3663/amerikaanse-midterms-bepalen-hoe-laatste-twee-jaar-trump-eruitzien.jpg"
+      },
       {
         "title": "Ook jongste dochter van Brad Pitt schrapt officieel zijn achternaam",
         "url": "https://www.nu.nl/achterklap/6415290/ook-jongste-dochter-van-brad-pitt-schrapt-officieel-zijn-achternaam.html",
@@ -44,13 +51,6 @@
         "date": "Mon, 02 Nov 2026 20:23:55 +0100",
         "summary": "Een deel van Gelderland gaat op slot voor nieuwe aanvragen op het elektriciteitsnet, meldt het ministerie van Economische Zaken en Klimaat maandagavond. Daarnaast blijft de aansluitstop in Utrecht gelden, hoewel daar wat meer ruimte op het stroomnet is vrijgekomen.",
         "imageUrl": "https://images.nu.nl/m/eymxdt6alaxo_sqr256/875/0/3998/3998/deel-van-gelderland-krijgt-aansluitstop-op-stroomnet-stop-utrecht-wordt-verlengd.jpg"
-      },
-      {
-        "title": "24 doden bij 'gruwelijke aanval' van Russen op Oekraïense hulppost",
-        "url": "https://www.nu.nl/spanningen-oekraine/6415278/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.html",
-        "date": "Mon, 02 Nov 2026 19:59:50 +0100",
-        "summary": "Bij een Russische aanval op de Oekraïense plaats Komysjoevacha zijn maandag zeker 24 mensen omgekomen. De bommen kwamen neer op een school die wordt gebruikt als hulppost. Volgens de Oekraïense president Volodymyr Zelensky ging het om een zogeheten double tap -aanval.",
-        "imageUrl": "https://images.nu.nl/m/i2yx52va1f04_sqr256/175/0/960/960/24-doden-bij-gruwelijke-aanval-van-russen-op-oekraiense-hulppost.jpg"
       }
     ]
   },
@@ -58,54 +58,6 @@
     "source": "Buienradar",
     "place": "Dordrecht",
     "rain": [
-      {
-        "time": "04:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "04:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "05:15",
-        "mmHour": 0.0
-      },
       {
         "time": "05:20",
         "mmHour": 0.0
@@ -153,12 +105,60 @@
       {
         "time": "06:15",
         "mmHour": 0.0
+      },
+      {
+        "time": "06:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "06:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:05",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:10",
+        "mmHour": 0.0
+      },
+      {
+        "time": "07:15",
+        "mmHour": 0.0
       }
     ],
-    "temperature": 9.2,
+    "temperature": 8.9,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T03:18:42+00:00",
-    "rainUpdatedAt": "2026-11-03T03:18:42+00:00"
+    "weatherUpdatedAt": "2026-11-03T04:15:31+00:00",
+    "rainUpdatedAt": "2026-11-03T04:15:32+00:00"
   }
 }
