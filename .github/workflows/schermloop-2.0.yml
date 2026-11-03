@@ -45,3 +45,18 @@ jobs:
         run: npm install --omit=dev --no-audit --no-fund
       - name: Domeinregels en integratietests
         run: npm test
+
+  docker-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Docker-image bouwen zonder geheime tokens
+        run: docker build --tag schermloop2:ci ./schermloop-2.0
+      - name: Node en documentconversie controleren
+        run: |
+          docker run --rm --entrypoint node schermloop2:ci --version
+          docker run --rm --entrypoint libreoffice schermloop2:ci --version
+          docker run --rm --entrypoint pdftoppm schermloop2:ci -v 2>&1 | head -n 1
