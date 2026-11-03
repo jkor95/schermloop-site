@@ -82,6 +82,7 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  const pic=state.data.items.find(x=>x.kind==='image');assert.ok(pic?.id);
  const media=await request('/api/player/media/'+pic.id,{token});
  assert.equal(media.status,200,'Uploadbestand moet na opslaan blijven bestaan');
+ assert.equal((await request('/api/player/media/'+pic.id,{token:firstSession.data.session_token})).status,401,'Oude afspeelsessie mag geen mediabestanden meer ophalen');
  assert.equal(Buffer.from(media.data).toString('hex').slice(0,16),'89504e470d0a1a0a');
  assert.equal((await request('/api/media/'+pic.id,{cookie:B})).status,404,'Klant B mag geen media van A zien');
  const update=await request('/api/organizations/'+orgA.data.id+'/licenses',{method:'PATCH',cookie:admin,body:{user_limit:2,screen_limit:2}});
