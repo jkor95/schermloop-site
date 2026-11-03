@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id);
 const DEVICE_KEY='schermloop2-device-token';
 let deviceToken=localStorage.getItem(DEVICE_KEY)||'';
 let activeScreen=null,slides=[],pos=0,manual=false,paused=false;
-let slideTimeout=null,slideEpoch=0,pairTimer=null,pollTimer=null;
+let slideTimeout=null,slideEpoch=0,pairTimer=null,pollTimer=null,lastManualInteraction=0;
 let pairing=null;
 const assetUrls=new Map();
 const timeFormatter=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
@@ -32,6 +32,17 @@ function advance(direction=1){
  if(!slides.length||paused)return;
  pos=(pos+direction+slides.length)%slides.length;
  renderSlide();
+}
+function userAdvance(direction) {
+ if(!activeScreen || !slides.length || paused)return;
+ if(!manual){manual=true;$('toggleBtn').textContent='Automatisch';}
+ lastManualInteraction=Date.now();
+ advance(direction);
+}
+function jumpTo(index){
+ if(!activeScreen || !slides.length || paused)return;
+ if(!manual){manual=true;$('toggleBtn').textContent='Automatisch';}
+ lastManualInteraction=Date.now();pos=index;renderSlide();
 }
 function failConnection(message){
  showOnly('disconnected');
@@ -115,7 +126,7 @@ async function renderSlide(){
 }
 function clock(){if(!activeScreen)return;$('playClock').hidden=activeScreen.settings?.clock===false;if(!$('playClock').hidden)$('playClock').textContent=timeFormatter.format(new Date());}
 function setManual(v){
- manual=!!v;$('toggleBtn').textContent=manual?'Automatisch':'Handmatig';renderSlide();
+ manual=!!v;lastManualInteraction=manual?Date.now():0;$('toggleBtn').textContent=manual?'Automatisch':'Handmatig';renderSlide();
 }
 function applySchedule(){
  if(!activeScreen)return;
@@ -144,19 +155,23 @@ async function synchronize(){
 }
 function fullScreen(){if(!document.fullscreenElement){document.documentElement.requestFullscreen?.().catch(()=>{});}else document.exitFullscreen?.().catch(()=>{});}
 document.addEventListener('DOMContentLoaded',async()=>{
- $('prevBtn').addEventListener('click',()=>advance(-1));
- $('nextBtn').addEventListener('click',()=>advance(1));
+ $('prevBtn').addEventListener('click',()=>userAdvance(-1));
+ $('nextBtn').addEventListener('click',()=>userAdvance(1));
  $('toggleBtn').addEventListener('click',()=>setManual(!manual));
  $('fullBtn').addEventListener('click',fullScreen);
  document.addEventListener('keydown',e=>{
-  if(e.target instanceof HTMLInputElement)return;
-  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();advance(1);}
-  if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();advance(-1);}
-  if(e.key==='m'||e.key==='M')setManual(!manual);
-  if(e.key==='Escape')setManual(false);
+  const action=window.SchermLoopControls?.identifyKey(e);
+  if(!action)return;
+  e.preventDefault();
+  if(action==='next')userAdvance(1);
+  else if(action==='previous')userAdvance(-1);
+  else if(action==='first')jumpTo(0);
+  else if(action==='last')jumpTo(slides.length-1);
+  else if(action==='toggle')setManual(!manual);
+  else if(action==='automatic')setManual(false);
  });
  showOnly('pairView');
  if(deviceToken)await synchronize();else await createPairing();
  pollTimer=setInterval(()=>{if(deviceToken)synchronize();},30000);
- setInterval(()=>{clock();applySchedule();},15000);
+ setInterval(()=>{clock();applySchedule();if(manual&&window.SchermLoopControls?.shouldResume(lastManualInteraction,Date.now()))setManual(false);},15000);
 });
