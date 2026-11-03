@@ -77,6 +77,27 @@ app.post('/api/users',requireAuth,asyncHandler(async(req,res)=>{
  owner(req);const org=asOrg(req),email=safeEmail(req.body.email),password=req.body.password;validatePassword(password);
  const client=await pool.connect();try{await client.query('BEGIN');const r=await client.query('SELECT user_limit FROM organizations WHERE id=$1 FOR UPDATE',[org]);const n=await client.query('SELECT count(*)::int AS n FROM users WHERE organization_id=$1 AND active',[org]);if(!hasCapacity(r.rows[0].user_limit,n.rows[0].n))throw err(409,'Accountlimiet bereikt.');await client.query("INSERT INTO users(id,organization_id,email,password_hash,role) VALUES($1,$2,$3,$4,'staff')",[uuid(),org,email,await bcrypt.hash(password,12)]);await client.query('COMMIT');res.status(201).json({ok:true,email});}catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
 }));
+app.patch('/api/users/:id/active',requireAuth,asyncHandler(async(req,res)=>{
+ owner(req);
+ const org=asOrg(req),id=validUuid(req.params.id),active=req.body.active;
+ if(typeof active!=='boolean')throw err(400,'Vul actief of inactief in.');
+ const client=await pool.connect();
+ try{
+  await client.query('BEGIN');
+  const limits=await client.query('SELECT user_limit FROM organizations WHERE id=$1 FOR UPDATE',[org]);
+  const user=await client.query("SELECT id,email,role,active FROM users WHERE id=$1 AND organization_id=$2 FOR UPDATE",[id,org]);
+  if(!user.rows.length)throw err(404,'Medewerker onbekend.');
+  if(user.rows[0].role!=='staff')throw err(403,'Een hoofdbeheeraccount kun je niet uitschakelen.');
+  if(active&&!user.rows[0].active){
+   const count=await client.query('SELECT count(*)::int AS n FROM users WHERE organization_id=$1 AND active',[org]);
+   if(!hasCapacity(limits.rows[0].user_limit,count.rows[0].n))throw err(409,'Accountlicentie vol. Maak eerst een plek vrij of koop een uitbreiding.');
+  }
+  const updated=await client.query('UPDATE users SET active=$1 WHERE id=$2 AND organization_id=$3 RETURNING id,email,role,active',[active,id,org]);
+  if(!active)await client.query('DELETE FROM sessions WHERE user_id=$1',[id]);
+  await client.query('COMMIT');
+  res.json(updated.rows[0]);
+ }catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
+}));
 app.get('/api/screens',requireAuth,asyncHandler(async(req,res)=>{const org=asOrg(req);res.json((await db('SELECT id,name,device_version,last_seen_at,settings,device_hash IS NOT NULL AS paired FROM screens WHERE organization_id=$1 ORDER BY created_at',[org])).rows);}));
 app.post('/api/screens',requireAuth,asyncHandler(async(req,res)=>{
  owner(req);const org=asOrg(req),name=validName(req.body.name);
