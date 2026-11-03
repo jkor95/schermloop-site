@@ -1,0 +1,31 @@
+name: SchermLoop 2.0 checks
+on:
+  push:
+    branches: [schermloop-2.0]
+    paths:
+      - 'schermloop-2.0/**'
+      - '.github/workflows/schermloop-2.0.yml'
+  pull_request:
+    paths:
+      - 'schermloop-2.0/**'
+jobs:
+  syntax-and-tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: schermloop-2.0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntaxcontrole
+        run: |
+          node --check server.js
+          node --check domain.js
+          node --check public/dashboard.js
+          node --check public/player.js
+      - name: Domeinregels testen
+        run: npm test

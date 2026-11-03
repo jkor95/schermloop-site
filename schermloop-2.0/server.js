@@ -167,7 +167,7 @@ async function createPages(file,ext){
 }
 app.post('/api/screens/:id/items/upload',requireAuth,upload.single('file'),asyncHandler(async(req,res)=>{
  if(!req.file)throw err(400,'Kies een bestand.');
- let created=[],pages=[];try{
+ let created=[],pages=[],uploadCommitted=false;try{
  const screen=await getScreen(req,req.params.id),ext=path.extname(req.file.originalname).toLowerCase();
  await assertMagic(req.file.path,ext);pages=await createPages(req.file.path,ext);
  const title=String(req.body.title||path.basename(req.file.originalname,ext)).trim().slice(0,120)||'Presentatie';
@@ -175,10 +175,10 @@ app.post('/api/screens/:id/items/upload',requireAuth,upload.single('file'),async
  const client=await pool.connect();try{await client.query('BEGIN');const n=await client.query('SELECT coalesce(max(position),0) AS n FROM items WHERE screen_id=$1',[screen.id]);
  for(let i=0;i<pages.length;i++){const p=pages[i],id=uuid(),label=pages.length===1?title:title+' ('+(i+1)+'/'+pages.length+')';
  await client.query('INSERT INTO items(id,organization_id,screen_id,title,kind,storage_key,mime,duration,position) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9)',[id,screen.organization_id,screen.id,label,p.kind,p.key,p.mime,duration,n.rows[0].n+i+1]);created.push(id);}
- await client.query('COMMIT');}catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
+ await client.query('COMMIT');uploadCommitted=true;}catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
  res.status(201).json({created:created.length,ids:created});
  }catch(e){for(const p of pages)if(p.key!==path.basename(req.file.path))await fs.promises.rm(path.join(storage,p.key),{force:true});throw e;}
- finally{if(req.file)await fs.promises.rm(req.file.path,{force:true});}
+ finally{if(req.file&&(!uploadCommitted||['.pdf','.pptx'].includes(path.extname(req.file.originalname).toLowerCase())))await fs.promises.rm(req.file.path,{force:true});}
 }));
 app.patch('/api/items/:id',requireAuth,asyncHandler(async(req,res)=>{
  const org=asOrg(req),id=validUuid(req.params.id),prior=await db('SELECT * FROM items WHERE id=$1 AND organization_id=$2',[id,org]);if(!prior.rows.length)throw err(404,'Dia onbekend.');
