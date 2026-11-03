@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101d32">
+<title>SchermLoop 2.0 | Beheer</title>
+<link rel="stylesheet" href="/styles.css">
+<script src="/dashboard.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+ <div class="brand"><span class="brand-mark">▣</span><div><strong>SchermLoop <span class="version">2.0</span></strong><small>Bedrijfsomgeving</small></div></div>
+ <div class="header-actions"><span id="who"></span><button class="btn outline small" id="logout" hidden>Uitloggen</button></div>
+</header>
+<main class="container">
+ <section id="login" class="login-layout">
+  <div class="login-info"><span class="eyebrow">Informatieschermen eenvoudig geregeld</span><h1>Jouw schermen.<br>Jouw presentatie.</h1><p>Beheer presentaties, mededelingen en scherminstellingen vanuit één veilige omgeving. Je hebt geen GitHub-account of token nodig.</p><div class="mini-feature">✓ Eigen omgeving per bedrijf</div><div class="mini-feature">✓ Schermen koppelen met een code</div><div class="mini-feature">✓ Dia's en tijdschema's beheren</div></div>
+  <form id="loginForm" class="panel login-card">
+   <h2>Inloggen</h2><p class="muted">Gebruik je SchermLoop-account.</p>
+   <label>E-mailadres<input required id="email" type="email" autocomplete="username" placeholder="naam@bedrijf.nl"></label>
+   <label>Wachtwoord<input required id="password" type="password" autocomplete="current-password" placeholder="Minimaal 12 tekens"></label>
+   <button class="btn primary" type="submit">Inloggen</button><p id="loginError" class="error" role="alert"></p>
+  </form>
+ </section>
+ <section id="app" hidden>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <div class="page-header"><div><span class="eyebrow">SchermLoop 2.0</span><h1 id="appTitle">Dashboard</h1><p id="appSubtitle" class="muted"></p></div><a href="/player" target="_blank" rel="noopener" class="btn outline">Open schermspeler ↗</a></div>
+  <div id="adminArea" hidden>
+   <div class="summary-grid" id="adminStats"></div>
+   <section class="panel"><div class="section-heading"><h2>Bedrijven</h2><button id="addOrgBtn" class="btn primary small">+ Bedrijf toevoegen</button></div><div id="organizations" class="stack"></div></section>
+  </div>
+  <div id="companyArea" hidden>
+   <div class="summary-grid" id="companyStats"></div>
+   <div class="two-columns">
+    <section class="panel"><div class="section-heading"><h2>Mijn schermen</h2><button class="btn primary small" id="addScreenBtn">+ Scherm toevoegen</button></div><div id="screens" class="stack"></div><p class="small muted">Elke schermlicentie is gekoppeld aan één logisch scherm. Een nieuwe koppeling vervangt automatisch de vorige.</p></section>
+    <section class="panel"><div class="section-heading"><h2>Accounts</h2><button class="btn outline small" id="addUserBtn">+ Medewerker</button></div><div id="users" class="stack"></div><p class="small muted">Extra beheeraccounts moeten eerst binnen je licentie beschikbaar zijn.</p></section>
+   </div>
+   <section class="panel" id="screenPanel" hidden>
+    <div class="section-heading"><div><span class="eyebrow">Geselecteerd scherm</span><h2 id="screenName">Scherm</h2></div><button id="refreshItems" class="btn outline small">Vernieuwen</button></div>
+    <div class="two-columns">
+      <div><h3>Koppeling</h3><p id="pairStatus" class="muted"></p><form id="pairForm" class="inline-form"><input id="pairCode" maxlength="10" autocapitalize="characters" autocomplete="off" placeholder="10-letterige schermcode" required><button class="btn primary small" type="submit">Scherm koppelen</button></form><p class="small muted">Open de speler op het apparaat, neem de code over en voer die hier in.</p></div>
+      <form id="settingsForm" class="settings-form"><h3>Presentatieplanning</h3><label class="check"><input id="scheduleEnabled" type="checkbox"> Presentatie alleen op ingestelde tijden</label><div class="time-fields"><label>Aan vanaf<input id="scheduleOn" type="time" value="07:30"></label><label>Tot<input id="scheduleOff" type="time" value="18:00"></label></div><div id="days" class="days"></div><label class="check"><input id="clockEnabled" type="checkbox" checked> Klok tonen</label><button class="btn outline small" type="submit">Instellingen opslaan</button><p class="small muted">Dit schema regelt de presentatie, nog niet het fysiek aan-/uitzetten van de tv. HDMI-CEC volgt later als optie.</p></form>
+    </div>
+    <hr>
+    <div class="two-columns">
+      <form id="uploadForm" class="form-stack"><h3>Bestand toevoegen</h3><input id="uploadFile" type="file" accept=".png,.jpg,.jpeg,.webp,.gif,.mp4,.webm,.pdf,.pptx" required><label>Seconden per dia<input type="number" id="uploadDuration" min="2" max="600" value="10"></label><button id="uploadBtn" class="btn primary" type="submit">Bestand uploaden</button><p class="small muted">Foto's, video's, PDF's en PowerPoints. PDF/PPTX worden in deze eerste versie als afbeeldingen per dia getoond, zonder originele animaties.</p></form>
+      <form id="textForm" class="form-stack"><h3>Mededeling toevoegen</h3><label>Titel<input id="textTitle" required placeholder="Bijvoorbeeld: Mededeling"></label><label>Tekst<textarea id="textBody" rows="4" maxlength="5000" required></textarea></label><label>Seconden<input id="textDuration" type="number" min="2" max="600" value="15"></label><button class="btn outline" type="submit">Mededeling toevoegen</button></form>
+    </div>
+    <hr><div class="section-heading"><h3>Dia's en bestanden</h3><p id="itemsCount" class="muted small"></p></div><div id="items" class="stack"></div>
+   </section>
+  </div>
+ </section>
+</main>
+<footer>SchermLoop 2.0 · Afzonderlijke ontwikkelversie van JK Works</footer>
+<dialog id="dialog" class="dialog"><form id="dialogForm" method="dialog"><h2 id="dialogTitle"></h2><div id="dialogFields" class="form-stack"></div><p id="dialogError" class="error" role="alert"></p><div class="dialog-actions"><button id="dialogCancel" class="btn outline" value="cancel" type="button">Annuleren</button><button id="dialogSubmit" class="btn primary" type="submit">Opslaan</button></div></form></dialog>
+</body>
+</html>
