@@ -58,6 +58,7 @@ jobs:
           node --check public/excel-sync-ui.js
           node --check legacy-audit.js
           node --check legacy-import-utils.js
+          node --check legacy-import-routes.js
           node --check scripts/import-old.js
       - name: Coolify Compose-configuratie valideren
         run: |
