@@ -1,5 +1,7 @@
 # SchermLoop 2.0 — nieuwe, aparte commerciële versie
 
+**Eerste installatie op je eigen Coolify-server:** lees [INSTALLATIE-COOLIFY.md](INSTALLATIE-COOLIFY.md). Er is een apart `docker-compose.coolify.yml` dat wachtwoorden automatisch via Coolify laat genereren. Voorlopig alleen in een testomgeving plaatsen.
+
 Dit is een zelfstandige ontwikkeling in de branch schermloop-2.0, in de map schermloop-2.0.
 De bestaande SchermLoop op main blijft ongemoeid. Niet live inzetten voordat de beveiliging
 en AVG-controles zijn afgerond.
@@ -11,7 +13,7 @@ en AVG-controles zijn afgerond.
 - Hoofdbeheerder kan extra account- en schermlicenties toekennen.
 - Koppelcode per apparaat; nieuwe koppeling op hetzelfde scherm verbreekt oude sessie.
 - Beveiligde opslag, private uploads, afspeellijst, tijdsduur, verbergen, sorteren.
-- Video, afbeeldingen, tekst, PDF en PPTX als afbeeldingen per pagina.
+- Video, afbeeldingen, tekst, PDF en PPTX als afbeeldingen per pagina. Video's worden in de automatische lus volledig afgespeeld.
 - Schermspeler met automatische en handmatige bediening.
 - USB-presentatieklikker: ArrowLeft/Right, PageUp/Down, Home/End, handmatig/automatisch omschakelen; na 30 minuten zonder bediening terug naar automatische lus. Compatibiliteit per klikker blijft te testen.
 - Schermachtergrond per scherm: zwart, effen kleur of vervaagde afbeelding (originele dia scherp).
@@ -76,3 +78,10 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - Data: [MET Norway](https://api.met.no/) onder Creative Commons BY 4.0, via een gecachte serveraanvraag (dus zonder IP-adres van de klant naar MET Norway). Plaatsnamen: GeoNames via [cities.json](https://www.npmjs.com/package/cities.json), eveneens CC BY 4.0. Vermeld beide bronnen bij commercieel gebruik en geef aan dat we de weersdata vertalen/samenvatten.
 - MET Norway vereist een herkenbare User-Agent. Configureer optioneel MET_WEATHER_USER_AGENT in de serveromgeving; **geen API-sleutel nodig**.
 - Nog niet ingebouwd: historische weerdata, automatische vijfminutenregenradar, wereldwijde lokale tijdzone voor de schermklok. De SchermLoop-schermklok toont voorlopig Nederlandse tijd.
+
+## Plaatsbaarheid
+
+- CI test nu ook de volledige Coolify Compose-stack: bouwt een eigen Docker-image, start PostgreSQL + SchermLoop, controleert `/healthz` en ruimt de tijdelijke testdata op.
+- Inlogwachtwoorden zijn via het dashboard te wijzigen (ook hoofdbeheer). Nieuwe accounts tonen tijdelijk een kopieerbaar eenmalig wachtwoord.
+- Coolify gebruikt een eigen database en twee blijvende Docker-volumes. Er wordt niets in de huidige SchermLoop-database geschreven.
+- **Nog geen commerciële productie:** onafhankelijke back-ups en hersteltest, herstel van wachtwoorden, formele AVG-documentatie, externe beveiligingscontrole en de resterende nieuws/Excel/OneDrive/PowerPoint-functies ontbreken nog.
