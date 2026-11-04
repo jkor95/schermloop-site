@@ -53,5 +53,14 @@ test('Hoofdbeheer, bedrijf en scherm doorlopen de volledige koppeling',async({br
  await page.locator('#textBody').fill('Presentatie werkt.');
  await page.locator('#textForm button[type=submit]').click();
  await expect(player.locator('#slide')).toContainText('Presentatie werkt.',{timeout:30000});
+ await expect.poll(()=>player.evaluate(async()=>{
+  const saved=await window.SchermLoopOffline.get('last-presentation');
+  return saved?.items?.some(item=>item.text_body==='Presentatie werkt.')===true;
+ }),{timeout:25000}).toBe(true);
+ await player.evaluate(()=>navigator.serviceWorker.ready);
+ await expect.poll(()=>player.evaluate(()=>!!navigator.serviceWorker.controller),{timeout:15000}).toBe(true);
+ await second.setOffline(true);
+ await player.reload();
+ await expect(player.locator('#slide')).toContainText('Presentatie werkt.',{timeout:20000});
  await second.close();await owner.close();
 });
