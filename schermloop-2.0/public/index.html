@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#101d32">
 <title>SchermLoop 2.0 | Beheer</title>
 <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/weather.css">
-<script src="/dashboard.js" defer></script><script src="/support-ui.js" defer></script><script src="/mfa-ui.js" defer></script>
+<script src="/dashboard.js" defer></script><script src="/support-ui.js" defer></script><script src="/mfa-ui.js" defer></script><script src="/excel-sync-ui.js" defer></script>
 </head>
 <body>
 <header class="topbar">
@@ -102,6 +102,22 @@
       <form id="textForm" class="form-stack"><h3>Mededeling toevoegen</h3><label>Titel<input id="textTitle" required placeholder="Bijvoorbeeld: Mededeling"></label><label>Tekst<textarea id="textBody" rows="4" maxlength="5000" required></textarea></label><label>Seconden<input id="textDuration" type="number" min="2" max="600" value="15"></label><button class="btn outline" type="submit">Mededeling toevoegen</button></form>
     </div>
     <hr>
+    <section id="excelSyncPanel" class="panel" hidden style="margin-top:12px">
+      <h3>Automatisch bijwerken vanuit Excel / Power Automate</h3>
+      <p class="small muted">Voor dit scherm kun je een aparte beveiligde synchronisatiekoppeling maken. Met een Power Automate-flow kan je OneDrive-Excelbestand deze mededelingen automatisch versturen. Dit is geen rechtstreekse Microsoft-aanmelding; de benodigde Microsoft-flow moet nog worden ingericht.</p>
+      <p id="excelSyncStatus" class="small muted">Status laden...</p>
+      <div class="actions">
+       <button type="button" class="btn outline small" id="excelSyncGenerate">Nieuwe synchronisatiesleutel maken</button>
+       <button type="button" class="btn outline small" id="excelSyncDisable">Koppeling uitschakelen</button>
+      </div>
+      <div id="excelSyncSecretBox" hidden class="form-stack">
+       <p><strong>Bewaar deze sleutel nu veilig.</strong> De sleutel wordt hier maar één keer weergegeven.</p>
+       <label>Adres van de koppeling<input readonly id="excelSyncEndpoint"></label>
+       <label>Sleutel voor Authorization: Bearer<input readonly id="excelSyncToken"></label>
+       <button type="button" id="excelSyncCopy" class="btn outline small">Koppelgegevens kopiëren</button>
+       <button type="button" id="excelSyncHide" class="btn outline small">Gegevens verbergen</button>
+      </div>
+    </section>
     <form id="excelForm" class="form-stack">
       <h3>Excel-mededelingen</h3>
       <p class="muted small">Importeer uit .xlsx met de kolommen Titel, Tekst, Seconden en Tonen. Maximaal 50 actieve regels. De vorige Excel-import wordt vervangen, maar handmatige dia's blijven behouden.</p>
