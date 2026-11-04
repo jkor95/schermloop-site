@@ -119,4 +119,18 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  assert.equal(update.status,200);
  assert.equal((await request('/api/users',{method:'POST',cookie:A,body:{email:'staff@example.test',password:'Strong-Staff-1234'}})).status,201);
  assert.equal((await request('/api/screens',{method:'POST',cookie:A,body:{name:'Tweede scherm'}})).status,201);
+ const colleagues=await request('/api/users',{cookie:A});
+ const staffId=colleagues.data.find(u=>u.email==='staff@example.test').id;
+ const resetPath=base+'/api/support/organizations/'+orgA.data.id+'/users/'+staffId+'/reset-password';
+ const reset=await fetch(resetPath,{method:'POST',headers:{Cookie:admin,'Content-Type':'application/json','x-support-reason':'Klant heeft herstel van medewerkersaccount aangevraagd'},body:JSON.stringify({confirm:true})});
+ assert.equal(reset.status,200);
+ const temporary=await reset.json();
+ assert.equal(temporary.email,'staff@example.test');
+ assert.ok(temporary.temporary_password.length>20);
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'staff@example.test',password:'Strong-Staff-1234'}})).status,401);
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'staff@example.test',password:temporary.temporary_password}})).status,200);
+ const loggedActions=await request('/api/support-history',{cookie:A});
+ assert.ok(loggedActions.data.some(x=>x.action==='reset_password'));
+ assert.ok(!JSON.stringify(loggedActions.data).includes(temporary.temporary_password),'Het tijdelijke wachtwoord mag nooit in het auditlog staan');
+
 });
