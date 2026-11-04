@@ -44,6 +44,16 @@ jobs:
           node --check weather.js
           node --check weather-routes.js
           node --check public/weather-view.js
+          node --check news.js
+          node --check news-routes.js
+          node --check public/news-view.js
+          node --check public/offline-store.js
+          node --check public/service-worker.js
+          node --check excel-announcements.js
+          node --check excel-routes.js
+          node --check legacy-audit.js
+          node --check legacy-import-utils.js
+          node --check scripts/import-old.js
       - name: Coolify Compose-configuratie valideren
         run: |
           SERVICE_PASSWORD_64_SCHERMLOOPDB=test-database-password-123456789012345678901234567890 \
