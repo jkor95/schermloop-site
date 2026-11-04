@@ -199,13 +199,16 @@ async function refreshNews(force=false){
  return newsPending;
 }
 function updateTicker(){
- const settings=activeScreen?.settings||{},label=String(settings.tickerText||'').trim();
- const visible=settings.tickerEnabled===true&&label.length>0&&!paused;
+ const settings=activeScreen?.settings||{};
+ const custom=settings.tickerEnabled===true?String(settings.tickerText||'').trim():'';
+ const headlines=settings.newsEnabled===true&&settings.newsMode!=='slides'?(newsSnapshot?.headlines||[]).slice(0,7):[];
+ const label=[custom,...headlines].filter(Boolean).join('   •   ');
+ const visible=label.length>0&&!paused;
  $('ticker').hidden=!visible;
  const track=$('tickerTrack');
  if(track.textContent!==label){
   track.textContent=label;
-  track.style.animationDuration=Math.min(110,Math.max(22,Math.ceil(label.length*0.16+20)))+'s';
+  track.style.animationDuration=Math.min(180,Math.max(20,Math.ceil(label.length*4/Math.max(30,settings.newsSpeed||80))))+'s';
  }
 }
 function clock(){if(!activeScreen)return;$('playClock').hidden=activeScreen.settings?.clock===false;if(!$('playClock').hidden)$('playClock').textContent=timeFormatter.format(new Date());}
