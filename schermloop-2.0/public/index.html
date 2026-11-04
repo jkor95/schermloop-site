@@ -73,6 +73,14 @@
       <form id="uploadForm" class="form-stack"><h3>Bestand toevoegen</h3><input id="uploadFile" type="file" accept=".png,.jpg,.jpeg,.webp,.gif,.mp4,.webm,.pdf,.pptx" required><label>Seconden per dia<input type="number" id="uploadDuration" min="2" max="600" value="10"></label><button id="uploadBtn" class="btn primary" type="submit">Bestand uploaden</button><p class="small muted">Foto's, video's, PDF's en PowerPoints. PDF/PPTX worden in deze eerste versie als afbeeldingen per dia getoond, zonder originele animaties.</p></form>
       <form id="textForm" class="form-stack"><h3>Mededeling toevoegen</h3><label>Titel<input id="textTitle" required placeholder="Bijvoorbeeld: Mededeling"></label><label>Tekst<textarea id="textBody" rows="4" maxlength="5000" required></textarea></label><label>Seconden<input id="textDuration" type="number" min="2" max="600" value="15"></label><button class="btn outline" type="submit">Mededeling toevoegen</button></form>
     </div>
+    <hr>
+    <form id="excelForm" class="form-stack">
+      <h3>Excel-mededelingen</h3>
+      <p class="muted small">Importeer uit .xlsx met de kolommen Titel, Tekst, Seconden en Tonen. Maximaal 50 actieve regels. De vorige Excel-import wordt vervangen, maar handmatige dia's blijven behouden.</p>
+      <input type="file" id="excelFile" accept=".xlsx" required>
+      <p class="small muted" id="excelStatus">Nog geen Excel-import bekeken.</p>
+      <button class="btn outline" type="submit" id="excelImportButton">Excel-mededelingen importeren</button>
+    </form>
     <hr><div class="section-heading"><h3>Dia's en bestanden</h3><p id="itemsCount" class="muted small"></p></div><div id="items" class="stack"></div>
    </section>
   </div>
