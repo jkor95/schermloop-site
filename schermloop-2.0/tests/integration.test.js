@@ -38,6 +38,11 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  await waitHealthy(child,log);
  const adminLogin=await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'Testpassword!12345'}});
  assert.equal(adminLogin.status,200);const admin=adminLogin.cookie;
+ const passwordChange=await request('/api/change-password',{method:'POST',cookie:admin,body:{current_password:'Testpassword!12345',new_password:'UpdatedStrongPassword!123456'}});
+ assert.equal(passwordChange.status,200,'Hoofdbeheer moet wachtwoord kunnen wijzigen');
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'Testpassword!12345'}})).status,401,'Oude wachtwoord werkt niet meer');
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456'}})).status,200);
+
  const orgA=await request('/api/organizations',{method:'POST',cookie:admin,body:{name:'Demo Onderneming A',email:'a@example.test',password:'A-strong-password-123'}});
  const orgB=await request('/api/organizations',{method:'POST',cookie:admin,body:{name:'Demo Onderneming B',email:'b@example.test',password:'B-strong-password-123'}});
  assert.equal(orgA.status,201);assert.equal(orgB.status,201);assert.notEqual(orgA.data.id,orgB.data.id);
