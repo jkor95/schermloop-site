@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='schermloop2-player-shell-v1';
-const ASSETS=['/player','/player.js','/controls.js','/offline-store.js','/weather-view.js','/styles.css','/weather.css'];
+const CACHE='schermloop2-player-shell-v2';
+const ASSETS=['/player','/player.js','/controls.js','/offline-store.js','/weather-view.js','/news-view.js','/styles.css','/weather.css','/news.css'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));
  self.skipWaiting();
