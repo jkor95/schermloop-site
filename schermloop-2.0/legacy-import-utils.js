@@ -30,6 +30,15 @@ async function toPages(file,folder){
  if(files.length!==pages)throw Error('Niet alle PDF-pagina’s konden worden geconverteerd.');
  return files.map(x=>path.join(folder,x));
 }
+async function pptxToPages(file,folder){
+ const isolated=path.join(folder,id());
+ await fs.promises.mkdir(isolated,{recursive:true});
+ const profile='file://'+path.join(isolated,'profile');
+ await exec('libreoffice',['-env:UserInstallation='+profile,'--headless','--convert-to','pdf','--outdir',isolated,file],{timeout:120000,maxBuffer:1024*1024});
+ const pdf=path.join(isolated,path.basename(file,path.extname(file))+'.pdf');
+ if(!fs.existsSync(pdf))throw Error('PowerPoint kon niet worden omgezet naar PDF.');
+ return toPages(pdf,folder);
+}
 function translateSettings(old,options={}){
  const p=old?.presentation||{};
  return sanitizeSchedule({
@@ -57,11 +66,11 @@ async function collectLegacy(root,temp,store,playlist){
  try{
   for(const [index,item] of playlist.items.entries()){
    const full=safeRead(root,item.path),ext=path.extname(full).toLowerCase();
-   const isPdf=ext==='.pdf',type=String(item.type||'').toLowerCase();
-   if(!isPdf&&!mime[ext])throw Error('Niet-ondersteund mediatype bij dia '+(index+1));
-   const parts=isPdf?await toPages(full,temp):[full];
+   const isPdf=ext==='.pdf',isPptx=ext==='.pptx';
+   if(!isPdf&&!isPptx&&!mime[ext])throw Error('Niet-ondersteund mediatype bij dia '+(index+1));
+   const parts=isPdf?await toPages(full,temp):isPptx?await pptxToPages(full,temp):[full];
    for(const [num,source] of parts.entries()){
-    const extension=isPdf?'.png':ext,key=id()+extension;
+    const extension=(isPdf||isPptx)?'.png':ext,key=id()+extension;
     const destination=path.join(store,key);
     await fs.promises.copyFile(source,destination);files.push(destination);
     output.push({
@@ -77,4 +86,4 @@ async function collectLegacy(root,temp,store,playlist){
   return {items:output,created:files};
  }catch(e){for(const f of files)await fs.promises.rm(f,{force:true});throw e;}
 }
-module.exports={safeRead,duration,pageOption,toPages,translateSettings,translateAnnouncements,collectLegacy};
+module.exports={safeRead,duration,pageOption,toPages,pptxToPages,translateSettings,translateAnnouncements,collectLegacy};
