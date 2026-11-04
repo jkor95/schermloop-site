@@ -1,0 +1,11 @@
+/* Nieuwsweergave uit herbruikbare Rijksoverheid-teksten (geen foto's). */
+.news-slide{position:absolute;inset:0;display:flex;flex-direction:column;background:linear-gradient(140deg,#0d2442,#080f23);color:#f0f7ff;padding:clamp(18px,3vw,54px);padding-bottom:clamp(55px,7vh,105px);gap:clamp(12px,2vh,26px)}
+.news-eyebrow{font-weight:800;letter-spacing:.14em;color:#9dc4f6;font-size:clamp(13px,1.4vw,20px);margin:0}
+.news-heading{font-size:clamp(28px,3.6vw,56px);margin:0;line-height:1.2}
+.news-headlines{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.5vw,24px);flex:1;min-height:0}
+.news-headline{display:flex;gap:clamp(8px,1vw,14px);align-items:flex-start;background:#ffffff0a;border:1px solid #ffffff25;border-radius:16px;padding:clamp(10px,1.5vw,25px)}
+.news-headline p{font-size:clamp(16px,1.55vw,26px);font-weight:600;line-height:1.32;margin:0;overflow-wrap:anywhere}
+.news-dot{color:#8dc5ff;font-size:2rem;line-height:1}
+.news-empty{font-size:2rem}
+.news-credit{font-size:clamp(11px,.9vw,16px);color:#a8bddb;margin:0}
+@media(max-width:760px){.news-headlines{grid-template-columns:1fr}.news-slide{gap:10px}.news-headline{padding:9px}.news-headline p{font-size:clamp(13px,2.2vw,20px)}}
