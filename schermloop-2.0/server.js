@@ -171,8 +171,14 @@ app.post('/api/player/session',asyncHandler(async(req,res)=>{
 app.get('/api/player/state',requireDevice,asyncHandler(async(req,res)=>{
  await db('UPDATE screens SET last_seen_at=now() WHERE id=$1',[req.screen.id]);
  const items=(await db("SELECT id,title,kind,text_body,duration,enabled,position,settings FROM items WHERE screen_id=$1 AND organization_id=$2 AND enabled=true ORDER BY position,created_at",[req.screen.id,req.screen.organization_id])).rows;
+ const excelData=await db('SELECT announcements FROM screens WHERE id=$1 AND organization_id=$2',[req.screen.id,req.screen.organization_id]);
+ const excelItems=(Array.isArray(excelData.rows[0]?.announcements)?excelData.rows[0].announcements:[]).slice(0,50).map((entry,i)=>({
+  id:'excel-'+i,kind:'text',title:String(entry.title||'Mededeling'),
+  text_body:String(entry.text||''),duration:Number(entry.duration)||20,enabled:true,position:items.length+i
+ }));
+ const combinedItems=items.concat(excelItems);
  const weatherLocation=await db('SELECT weather_location FROM organizations WHERE id=$1',[req.screen.organization_id]);
- res.set('Cache-Control','no-store').json({screen:{id:req.screen.id,name:req.screen.name,settings:req.screen.settings,weather_location:weatherLocation.rows[0]?.weather_location||null},items,server_time:new Date().toISOString()});
+ res.set('Cache-Control','no-store').json({screen:{id:req.screen.id,name:req.screen.name,settings:req.screen.settings,weather_location:weatherLocation.rows[0]?.weather_location||null},items:combinedItems,server_time:new Date().toISOString()});
 }));
 app.get('/api/player/media/:id',requireDevice,asyncHandler(async(req,res)=>{
  const r=await db('SELECT storage_key,mime FROM items WHERE id=$1 AND screen_id=$2 AND organization_id=$3 AND enabled=true',[validUuid(req.params.id),req.screen.id,req.screen.organization_id]);if(!r.rows.length)throw err(404,'Bestand niet beschikbaar.');
@@ -259,6 +265,7 @@ app.delete('/api/items/:id',requireAuth,asyncHandler(async(req,res)=>{
  res.json({ok:true});
 }));
 require('./weather-routes')(app,{requireAuth,requireDevice,asOrg,owner,err,db});
+require('./excel-routes')(app,{requireAuth,getScreen,err,db});
 require('./support')(app,{pool,requireAuth,err,validUuid,validName,sanitizeSchedule,uuid});
 app.use((error,req,res,next)=>{
  if(res.headersSent)return next(error);
