@@ -16,12 +16,13 @@ en AVG-controles zijn afgerond.
 - USB-presentatieklikker: ArrowLeft/Right, PageUp/Down, Home/End, handmatig/automatisch omschakelen; na 30 minuten zonder bediening terug naar automatische lus. Compatibiliteit per klikker blijft te testen.
 - Schermachtergrond per scherm: zwart, effen kleur of vervaagde afbeelding (originele dia scherp).
 - Eigen lichtkrant onderaan het scherm, configureerbaar per bedrijf en scherm. De automatische nieuwsfeed van NU.nl is nog niet gemigreerd.
+- Klant kiest een eigen weerplaats uit een lijst wereldwijde steden. De locatie wordt uitsluitend in de eigen bedrijfsomgeving opgeslagen. Per scherm afzonderlijke keuze voor volledige weerpagina, aantal seconden en het weer in de hoek. Weergegevens via MET Norway, zonder klant-API-tokens.
 - Tijdschema voor weergave; HDMI-CEC fysieke tv-bediening is nog NIET gebouwd.
 
 ## Nog te bouwen voor volledige verkoopversie
 
 Online betaling, facturering, e-mailuitnodigingen, offline caching, volledige
-PowerPoint-animaties, nieuws, weer, Excel-/OneDrive-koppelingen, notificaties,
+PowerPoint-animaties, NU.nl-nieuws, Excel-/OneDrive-koppelingen, notificaties,
 uitgebreid rechtenbeheer, onafhankelijke back-ups, hardening en AVG-documentatie.
 
 ## Lokaal proberen
@@ -64,3 +65,14 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - De losse ontwikkeltak is onderdeel van een **openbare** GitHub-repository; voeg nooit echte
   klantdata of geheime sleutels toe. Voor commerciële uitrol migreren naar een aparte private
   repository.
+
+## Weer per bedrijf (ontwikkelversie)
+
+- Een bedrijfsbeheerder zoekt op plaatsnaam en kiest een stad uit de lijst. De standaardlocatie is Dordrecht.
+- Andere bedrijven kunnen hun eigen stad kiezen; de backend controleert de geselecteerde coördinaten.
+- De scherminstellingen bepalen apart of de weerpagina en/of een klein hoekblok zichtbaar is.
+- Volledige weerpagina: actuele verwachte temperatuur, omschrijving, wind, vochtigheid en uurlijkse neerslaggrafiek. Categorieën Droog/Licht/Matig/Zwaar.
+- Dit is een **uurlijkse modelverwachting**, geen live Buienradar-vijfminutenradar en geen actuele regenmeting. De live weergave moet nog op echte televisies worden getest.
+- Data: [MET Norway](https://api.met.no/) onder Creative Commons BY 4.0, via een gecachte serveraanvraag (dus zonder IP-adres van de klant naar MET Norway). Plaatsnamen: GeoNames via [cities.json](https://www.npmjs.com/package/cities.json), eveneens CC BY 4.0. Vermeld beide bronnen bij commercieel gebruik en geef aan dat we de weersdata vertalen/samenvatten.
+- MET Norway vereist een herkenbare User-Agent. Configureer optioneel MET_WEATHER_USER_AGENT in de serveromgeving; **geen API-sleutel nodig**.
+- Nog niet ingebouwd: historische weerdata, automatische vijfminutenregenradar, wereldwijde lokale tijdzone voor de schermklok. De SchermLoop-schermklok toont voorlopig Nederlandse tijd.
