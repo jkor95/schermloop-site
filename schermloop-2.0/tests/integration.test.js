@@ -30,7 +30,8 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
   ...process.env,PORT:'3785',STORAGE_DIR:folder,PUBLIC_URL:base,
   NODE_ENV:'test',APP_SECRET:'SchermLoop-ci-secret-at-least-64-characters-1234567890123456789',
   ADMIN_EMAIL:'beheertest@example.test',ADMIN_PASSWORD:'Testpassword!12345',
-  DATABASE_URL:'postgresql://postgres:postgres@127.0.0.1:5432/schermloop_ci'
+  DATABASE_URL:'postgresql://postgres:postgres@127.0.0.1:5432/schermloop_ci',
+  ENABLE_LEGACY_IMPORT:'true',LEGACY_SOURCE_DIR:path.join(folder,'legacy')
  }});
  child.stdout.on('data',data=>log.push(data.toString()));
  child.stderr.on('data',data=>log.push(data.toString()));
@@ -146,6 +147,30 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  assert.deepEqual(await fileIO.readFile(path.join(oldFixture,'media','poster.png')),sourceImage,'Oude bron blijft onaangetast');
  const migratedRetry=spawnSync(process.execPath,['scripts/import-old.js',oldFixture,'--apply'],{cwd:path.join(__dirname,'..'),env:migrationEnv,encoding:'utf8',timeout:45000});
  assert.notEqual(migratedRetry.status,0,'Een tweede import op een gevuld scherm moet stoppen');
+ // De hoofdbeheer-interface importeert dezelfde fictieve media via de API,
+ // uitsluitend naar een derde, leeg testscherm.
+ await fileIO.cp(oldFixture,path.join(folder,'legacy'),{recursive:true});
+ const expanded=await request('/api/organizations/'+orgA.data.id+'/licenses',{method:'PATCH',cookie:admin,body:{user_limit:2,screen_limit:3}});
+ assert.equal(expanded.status,200);
+ const freshScreen=await request('/api/screens',{method:'POST',cookie:A,body:{name:'Gecontroleerde migratie'}});
+ assert.equal(freshScreen.status,201);
+ const sourceReady=await request('/api/release/legacy-status',{cookie:admin});
+ assert.equal(sourceReady.status,200);
+ assert.equal(sourceReady.data.sourceReady,true);
+ assert.equal(sourceReady.data.slideCount,2);
+ assert.equal((await request('/api/release/legacy-status',{cookie:A})).status,403);
+ const importPayload={organization_id:orgA.data.id,screen_id:freshScreen.data.id,news_policy:'disable',confirm:true,current_password:'UpdatedStrongPassword!123456'};
+ const importedViaApi=await request('/api/release/import-legacy',{cookie:admin,method:'POST',body:importPayload});
+ assert.equal(importedViaApi.status,200);
+ assert.equal(importedViaApi.data.imported,2);
+ assert.equal(importedViaApi.data.screenEnabled,false);
+ assert.equal((await request('/api/release/import-legacy',{cookie:admin,method:'POST',body:importPayload})).status,409);
+ assert.equal((await request('/api/release/import-legacy',{cookie:A,method:'POST',body:importPayload})).status,403);
+ const importedScreenData=await request('/api/screens/'+freshScreen.data.id+'/items',{cookie:A});
+ assert.equal(importedScreenData.data.length,2);
+ assert.equal(importedScreenData.data[1].enabled,false);
+ assert.deepEqual(await fileIO.readFile(path.join(oldFixture,'media','poster.png')),sourceImage);
+
 
  const colleagues=await request('/api/users',{cookie:A});
  const staffId=colleagues.data.find(u=>u.email==='staff@example.test').id;
