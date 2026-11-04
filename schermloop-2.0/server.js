@@ -265,6 +265,7 @@ app.delete('/api/items/:id',requireAuth,asyncHandler(async(req,res)=>{
  res.json({ok:true});
 }));
 require('./weather-routes')(app,{requireAuth,requireDevice,asOrg,owner,err,db});
+require('./news-routes')(app,{requireDevice,err});
 require('./excel-routes')(app,{requireAuth,getScreen,err,db});
 require('./support')(app,{pool,requireAuth,err,validUuid,validName,sanitizeSchedule,uuid});
 app.use((error,req,res,next)=>{
