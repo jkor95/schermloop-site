@@ -36,7 +36,7 @@ function showOneTimeCredentials(email,password){
  $('newCredentials').hidden=false;
  $('newCredentials').scrollIntoView({block:'nearest',behavior:'smooth'});
 }
-function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('changePassword').hidden=true;$('who').textContent='';hideOneTimeCredentials();window.SchermLoopMfaUI?.reset();$('mfaLoginRow').hidden=true;$('mfaLoginCode').required=false;$('mfaLoginCode').value='';}
+function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('changePassword').hidden=true;$('who').textContent='';hideOneTimeCredentials();window.SchermLoopMfaUI?.reset();window.SchermLoopExcelSync?.reset();$('mfaLoginRow').hidden=true;$('mfaLoginCode').required=false;$('mfaLoginCode').value='';}
 async function refresh(){
  try{state.me=await api('/me');$('login').hidden=true;$('app').hidden=false;$('logout').hidden=false;$('changePassword').hidden=false;$('who').textContent=state.me.user.email;
  $('appTitle').textContent=state.me.organization?.name||'Hoofdbeheer';$('appSubtitle').textContent=state.me.user.role==='superadmin'?'Beheer bedrijfsomgevingen en toegekende licenties.':'Beheer de schermen en presentaties van jouw organisatie.';
@@ -126,6 +126,7 @@ async function selectScreen(){
  state.items=await api('/screens/'+screen.id+'/items');renderItems();
  try{const imported=await api('/screens/'+screen.id+'/announcements');$('excelStatus').textContent='Huidige Excel-import: '+imported.items.length+' mededelingen.';}
  catch(e){$('excelStatus').textContent='Excel-status niet beschikbaar.';}
+ window.SchermLoopExcelSync?.refresh().catch(e=>message(e.message,true));
 }
 function renderItems(){
  const box=$('items');box.replaceChildren();$('itemsCount').textContent=state.items.length+' dia(’s)';
