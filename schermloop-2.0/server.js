@@ -284,6 +284,7 @@ require('./excel-routes')(app,{requireAuth,getScreen,err,db});
 require('./excel-sync-routes')(app,{requireAuth,getScreen,owner,err,db,validUuid,publicUrl:env.PUBLIC_URL});
 require('./support')(app,{pool,requireAuth,err,validUuid,validName,sanitizeSchedule,uuid});
 require('./mfa-routes')(app,{pool,requireAuth,err,env,sha});
+require('./legacy-import-routes')(app,{pool,requireAuth,err,validUuid,storage,env});
 app.use((error,req,res,next)=>{
  if(res.headersSent)return next(error);
  const status=error.code==='23505'?409:error instanceof multer.MulterError?400:error.status||500;
