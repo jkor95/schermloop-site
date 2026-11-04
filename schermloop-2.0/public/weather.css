@@ -1,0 +1,29 @@
+/* SchermLoop 2.0: weerpagina per bedrijf, met uurverwachting. */
+.weather-slide-page{position:absolute;inset:0;display:flex;flex-direction:column;gap:min(1.4vh,13px);color:#ecf6ff;background:linear-gradient(140deg,#112f54,#09192e 75%);padding:clamp(17px,2.5vw,42px);padding-bottom:clamp(58px,7vh,94px);overflow:hidden;width:100%}
+.weather-eyebrow{font-size:clamp(13px,1.2vw,18px);font-weight:700;letter-spacing:.12em;color:#8cc5ff}
+.weather-location{font-size:clamp(24px,3.1vw,48px);line-height:1.1;margin:0;letter-spacing:-.025em}
+.weather-current-line{display:flex;align-items:center;gap:clamp(18px,3vw,52px);padding:1.5vh 0}
+.weather-temperature{font-size:clamp(55px,8.5vw,132px);font-weight:750;line-height:1;letter-spacing:-.055em}
+.weather-current-detail h3{font-size:clamp(19px,2.7vw,40px);line-height:1.15;margin:0 0 .5em}
+.weather-current-detail p{color:#b9d2e9;margin:2px 0;font-size:clamp(14px,1.3vw,22px)}
+.weather-rain{display:flex;flex-direction:column;gap:8px;background:#07152b85;border:1px solid #ffffff19;border-radius:clamp(10px,1vw,18px);padding:clamp(12px,1.5vw,25px);min-height:190px;flex:1;overflow:hidden}
+.weather-rain h3{margin:0;color:#eaf7ff;font-size:clamp(17px,1.75vw,27px)}
+.weather-bars{display:flex;gap:clamp(5px,.85vw,14px);height:100%;min-height:75px;align-items:stretch;justify-content:space-evenly}
+.weather-rain-column{min-width:0;flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:flex-end;gap:4px}
+.weather-bar-value{font-size:clamp(11px,1.1vw,18px);color:#cce6ff;font-weight:650;white-space:nowrap}
+.weather-bar-frame{width:min(100%,60px);flex:1;min-height:10px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;background:linear-gradient(to bottom,#ffffff04,#ffffff09)}
+.weather-bar{width:100%;min-height:3px;border-radius:5px 5px 0 0}
+.weather-bar.dry{background:#7896b0}.weather-bar.light{background:#4aaefa}.weather-bar.moderate{background:#ffcb5b}.weather-bar.heavy{background:#ff757d}.weather-bar.unknown{background:#586c86}
+.weather-hour{font-size:clamp(12px,1vw,17px);font-weight:600;white-space:nowrap;color:#daedff}
+.weather-legend{display:flex;justify-content:center;gap:clamp(10px,2vw,30px);font-size:clamp(11px,1vw,17px);color:#c8dff2}
+.weather-legend span{display:flex;align-items:center;gap:6px}
+.weather-legend-dot{display:inline-block;width:12px;height:12px;border-radius:3px}
+.weather-legend-dot.dry{background:#7896b0}.weather-legend-dot.light{background:#4aaefa}.weather-legend-dot.moderate{background:#ffcb5b}.weather-legend-dot.heavy{background:#ff757d}
+.weather-disclaimer,.weather-attribution{font-size:clamp(10px,.84vw,14px);color:#a2c4df;margin:0}
+.weather-attribution{margin-top:2px}
+.weather-corner{position:absolute;z-index:4;right:18px;top:74px;border-radius:12px;background:#071c32dd;padding:10px 15px;max-width:min(32vw,330px);display:flex;flex-direction:column;gap:2px;text-align:right;color:#ecf8ff;font-size:clamp(12px,1.1vw,17px);pointer-events:none}
+.weather-corner strong{font-size:clamp(14px,1.2vw,21px);color:#baddff}
+.weather-corner span{font-size:clamp(11px,1vw,16px)}
+.city-results{display:flex;flex-wrap:wrap;gap:7px}
+.city-option{text-align:left;font-size:.84rem;max-width:100%;white-space:normal}
+@media(max-width:650px){.weather-slide-page{padding-bottom:80px}.weather-current-line{gap:20px}.weather-rain{min-height:130px}.weather-legend{gap:10px;flex-wrap:wrap}.weather-current-detail p{font-size:13px}.weather-corner{right:9px;top:72px;max-width:40vw}}
