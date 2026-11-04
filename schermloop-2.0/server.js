@@ -45,7 +45,7 @@ app.set('trust proxy',1);
 app.use(helmet({contentSecurityPolicy:{directives:{defaultSrc:["'self'"],baseUri:["'self'"],frameAncestors:["'none'"],imgSrc:["'self'","blob:","data:"],mediaSrc:["'self'","blob:"],scriptSrc:["'self'"],styleSrc:["'self'"],connectSrc:["'self'"],objectSrc:["'none'"]}}}));
 app.use(express.json({limit:'100kb'}));app.use(cookieParser());
 app.use((req,res,next)=>{if(['GET','HEAD','OPTIONS'].includes(req.method))return next();const origin=req.get('origin');if(origin&&origin!==new URL(env.PUBLIC_URL||'http://localhost').origin)return next(err(403,'Onjuiste herkomst.'));next();});
-app.use('/api/login',rateLimit({windowMs:15*60*1000,limit:12,standardHeaders:'draft-7',legacyHeaders:false}));
+app.use('/api/login',rateLimit({windowMs:15*60*1000,limit:env.NODE_ENV==='test'?100:12,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/change-password',rateLimit({windowMs:15*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/mfa',rateLimit({windowMs:15*60*1000,limit:15,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/request',rateLimit({windowMs:10*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
