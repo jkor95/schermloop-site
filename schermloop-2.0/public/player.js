@@ -81,7 +81,14 @@ async function checkPairing(){
 }
 async function getAsset(item){
  if(assetUrls.has(item.id))return assetUrls.get(item.id);
- const blob=await request('/player/media/'+item.id,{token:screenSessionToken,blob:true});
+ const store=window.SchermLoopOffline;
+ let blob=null;
+ try{blob=await store?.get('media:'+item.id);}catch{}
+ if(!(blob instanceof Blob)){
+  if(!screenSessionToken)throw Error('Bestand is niet opgeslagen voor offline gebruik.');
+  blob=await request('/player/media/'+item.id,{token:screenSessionToken,blob:true});
+  store?.put('media:'+item.id,blob).catch(()=>{});
+ }
  const url=URL.createObjectURL(blob);assetUrls.set(item.id,url);return url;
 }
 function clearExpiredAssets(){
