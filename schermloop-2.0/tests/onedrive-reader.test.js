@@ -30,3 +30,27 @@ test('OneDrive fouten blijven herkenbaar en bestanden blijven begrensd',async()=
  await assert.rejects(fetchExcel('drive','item',token,{fetchImpl:async()=>({status:401,ok:false})}),/verbinding verlopen/);
  await assert.rejects(fetchExcel('drive','item',token,{fetchImpl:async()=>({status:200,ok:true,headers:{get:()=>String(4*1024*1024)}})}),/te groot/);
 });
+
+test('Microsoft-downloadredirect ontvangt nooit een toegangstoken',async()=>{
+ const book=new ExcelJS.Workbook(),sheet=book.addWorksheet('Berichten');
+ sheet.addRow(['Tekst']);sheet.addRow(['Binnenkort informatieavond']);
+ const bytes=Buffer.from(await book.xlsx.writeBuffer()),token='long-delegated-token-for-testing-only';
+ let calls=0;
+ const mock=async(url,opts)=>{
+  calls++;
+  if(calls===1){
+   assert.match(opts.headers.Authorization,/^Bearer /);
+   assert.equal(opts.redirect,'manual');
+   return {status:302,headers:{get:()=> 'https://files.example.1drv.com/download-token'}};
+  }
+  assert.equal(url,'https://files.example.1drv.com/download-token');
+  assert.equal(opts.headers.Authorization,undefined,'Nooit Bearer-token versturen naar CDN');
+  return {status:200,ok:true,headers:{get:()=>String(bytes.length)},arrayBuffer:async()=>bytes};
+ };
+ const rows=await fetchExcel('drive','item',token,{fetchImpl:mock});
+ assert.equal(calls,2);assert.equal(rows[0].text,'Binnenkort informatieavond');
+});
+test('OneDrive verwijzing naar onbekende server wordt geweigerd',async()=>{
+ const token='long-delegated-token-for-testing-only';
+ await assert.rejects(fetchExcel('drive','item',token,{fetchImpl:async()=>({status:302,headers:{get:()=> 'https://localhost/private'}})}),/Onverwachte Microsoft-downloadlocatie/);
+});
