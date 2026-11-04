@@ -13,6 +13,8 @@ const os=require('node:os');
 const {promisify}=require('node:util');
 const {execFile}=require('node:child_process');
 const {allowedExtensions,hasCapacity,normEmail,sanitizeSchedule}=require('./domain');
+const mfa=require('./mfa');
+const {recoveryHash}=require('./mfa-routes');
 const exec=promisify(execFile);
 const uuid=()=>crypto.randomUUID();
 const random=()=>crypto.randomBytes(32).toString('hex');
@@ -45,6 +47,7 @@ app.use(express.json({limit:'100kb'}));app.use(cookieParser());
 app.use((req,res,next)=>{if(['GET','HEAD','OPTIONS'].includes(req.method))return next();const origin=req.get('origin');if(origin&&origin!==new URL(env.PUBLIC_URL||'http://localhost').origin)return next(err(403,'Onjuiste herkomst.'));next();});
 app.use('/api/login',rateLimit({windowMs:15*60*1000,limit:12,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/change-password',rateLimit({windowMs:15*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
+app.use('/api/mfa',rateLimit({windowMs:15*60*1000,limit:15,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/request',rateLimit({windowMs:10*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/',rateLimit({windowMs:10*60*1000,limit:100,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use(express.static(path.join(__dirname,'public'),{index:'index.html',maxAge:'1h'}));
@@ -55,9 +58,20 @@ async function requireDevice(req,res,next){try{const raw=/^Bearer ([a-f0-9]{64})
 async function getScreen(req,id){const r=await db('SELECT * FROM screens WHERE id=$1 AND organization_id=$2',[validUuid(id),asOrg(req)]);if(!r.rows.length)throw err(404,'Scherm niet gevonden.');return r.rows[0];}
 app.post('/api/login',asyncHandler(async(req,res)=>{
  const email=safeEmail(req.body.email),password=String(req.body.password||'');
- const r=await db('SELECT id,role,organization_id,password_hash,active FROM users WHERE email=$1',[email]);
+ const r=await db('SELECT id,role,organization_id,password_hash,active,mfa_secret_enc FROM users WHERE email=$1',[email]);
  const user=r.rows[0];
  if(!user||!user.active||!await bcrypt.compare(password,user.password_hash))throw err(401,'Onjuiste inloggegevens.');
+ if(user.role==='superadmin'&&user.mfa_secret_enc){
+  const otp=req.body?.totp_code,recovery=req.body?.recovery_code;
+  if(!otp&&!recovery)return res.status(202).set('Cache-Control','no-store').json({mfa_required:true});
+  let verified=mfa.verify(mfa.open(user.mfa_secret_enc,env.APP_SECRET),otp);
+  if(!verified&&typeof recovery==='string'&&/^[a-f0-9]{20}$/i.test(recovery)){
+   const used=await db('DELETE FROM mfa_recovery_codes WHERE user_id=$1 AND code_hash=$2 RETURNING code_hash',[user.id,recoveryHash(recovery,env.APP_SECRET)]);
+   verified=used.rowCount===1;
+  }
+  if(!verified)throw err(401,'Ongeldige tweestaps- of herstelcode.');
+ }
+
  const token=random();await db("INSERT INTO sessions(token_hash,user_id,expires_at) VALUES($1,$2,now()+interval '7 days')",[sha(token),user.id]);
  res.cookie('sl2sid',token,{httpOnly:true,secure:env.NODE_ENV==='production',sameSite:'lax',path:'/',maxAge:7*24*3600*1000});
  res.json({ok:true,role:user.role});
@@ -268,6 +282,7 @@ require('./weather-routes')(app,{requireAuth,requireDevice,asOrg,owner,err,db});
 require('./news-routes')(app,{requireDevice,err});
 require('./excel-routes')(app,{requireAuth,getScreen,err,db});
 require('./support')(app,{pool,requireAuth,err,validUuid,validName,sanitizeSchedule,uuid});
+require('./mfa-routes')(app,{pool,requireAuth,err,env,sha});
 app.use((error,req,res,next)=>{
  if(res.headersSent)return next(error);
  const status=error.code==='23505'?409:error instanceof multer.MulterError?400:error.status||500;
