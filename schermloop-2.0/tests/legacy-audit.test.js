@@ -1,0 +1,27 @@
+'use strict';
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const {summarizeLegacy}=require('../legacy-audit');
+test('Waarschuwt voor PDF dia-instellingen en bewaart broninstellingen',()=>{
+ const source={items:[
+  {name:'Poster',type:'image',path:'media/uploads/test.png',duration:25},
+  {name:'Document',type:'pdf',path:'media/uploads/file.pdf',duration:10,slideDurations:[10,20,30],slideEnabled:[true,false,true]},
+  {name:'Nieuws',type:'video',path:'media/uploads/movie.mp4',enabled:false,duration:35}
+ ]};
+ const r=summarizeLegacy(source,{weather:{enabled:true},news:{enabled:true},cornerClock:true},{items:[{title:'Test'}]});
+ assert.equal(r.slides.length,3);
+ assert.equal(r.slides[2].enabled,false);
+ assert.equal(r.slides[1].pagesWithSpecialTiming,3);
+ assert.equal(r.slides[1].pagesWithSpecialVisibility,3);
+ assert.equal(r.messages,1);
+ assert.equal(r.supportsNews,true);
+ assert.equal(r.requiresManualReview,true);
+});
+test('Onbekend type krijgt een waarschuwing',()=>{
+ const r=summarizeLegacy({items:[{type:'old-format',path:'test'}]},null,null);
+ assert.equal(r.warnings.length,1);
+});
+test('Gewone presentatie hoeft niet handmatig beoordeeld te worden',()=>{
+ const r=summarizeLegacy({items:[{type:'image',path:'x.png',duration:10}]},{},{items:[]});
+ assert.equal(r.requiresManualReview,false);
+});
