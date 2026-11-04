@@ -21,7 +21,12 @@ const env=process.env;
 const port=Number(env.PORT||3000);
 const storage=path.resolve(env.STORAGE_DIR||path.join(__dirname,'storage'));
 const key=crypto.createHash('sha256').update(env.APP_SECRET||'').digest();
-const pool=new Pool({connectionString:env.DATABASE_URL,ssl:env.DB_SSL==='true'?{rejectUnauthorized:true}:undefined});
+// Coolify Compose geeft database-instellingen rechtstreeks door. Zo hoeven
+// databasewachtwoorden niet URL-gecodeerd in een connectiestring te staan.
+const databaseConfig=env.DATABASE_URL
+ ? {connectionString:env.DATABASE_URL}
+ : {host:env.DB_HOST,port:Number(env.DB_PORT||5432),user:env.DB_USER,password:env.DB_PASSWORD,database:env.DB_NAME};
+const pool=new Pool({...databaseConfig,ssl:env.DB_SSL==='true'?{rejectUnauthorized:true}:undefined,max:10,idleTimeoutMillis:30000,connectionTimeoutMillis:10000});
 function seal(plaintext){const iv=crypto.randomBytes(12),cipher=crypto.createCipheriv('aes-256-gcm',key,iv);const raw=Buffer.concat([cipher.update(plaintext,'utf8'),cipher.final()]);return Buffer.concat([iv,cipher.getAuthTag(),raw]).toString('base64');}
 function unseal(encrypted){const data=Buffer.from(encrypted,'base64'),dec=crypto.createDecipheriv('aes-256-gcm',key,data.subarray(0,12));dec.setAuthTag(data.subarray(12,28));return Buffer.concat([dec.update(data.subarray(28)),dec.final()]).toString('utf8');}
 function err(status,message){const e=new Error(message);e.status=status;return e;}
@@ -37,7 +42,7 @@ const app=express();app.disable('x-powered-by');
 app.set('trust proxy',1);
 app.use(helmet({contentSecurityPolicy:{directives:{defaultSrc:["'self'"],baseUri:["'self'"],frameAncestors:["'none'"],imgSrc:["'self'","blob:","data:"],mediaSrc:["'self'","blob:"],scriptSrc:["'self'"],styleSrc:["'self'"],connectSrc:["'self'"],objectSrc:["'none'"]}}}));
 app.use(express.json({limit:'100kb'}));app.use(cookieParser());
-app.use((req,res,next)=>{if(['GET','HEAD','OPTIONS'].includes(req.method))return next();const origin=req.get('origin');if(origin&&origin!==env.PUBLIC_URL)return next(err(403,'Onjuiste herkomst.'));next();});
+app.use((req,res,next)=>{if(['GET','HEAD','OPTIONS'].includes(req.method))return next();const origin=req.get('origin');if(origin&&origin!==new URL(env.PUBLIC_URL||'http://localhost').origin)return next(err(403,'Onjuiste herkomst.'));next();});
 app.use('/api/login',rateLimit({windowMs:15*60*1000,limit:12,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/request',rateLimit({windowMs:10*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/',rateLimit({windowMs:10*60*1000,limit:100,standardHeaders:'draft-7',legacyHeaders:false}));
@@ -244,7 +249,10 @@ app.use((error,req,res,next)=>{
  res.status(status).json({error:status>=500?'Interne fout. Controleer de serverlogs.':error.code==='23505'?'Deze waarde is al in gebruik.':error.message});
 });
 async function start(){
- for(const keyName of ['DATABASE_URL','APP_SECRET','ADMIN_EMAIL','ADMIN_PASSWORD','PUBLIC_URL'])if(!env[keyName])throw Error('Vereiste configuratie ontbreekt: '+keyName);
+ for(const keyName of ['APP_SECRET','ADMIN_EMAIL','ADMIN_PASSWORD','PUBLIC_URL'])if(!env[keyName])throw Error('Vereiste configuratie ontbreekt: '+keyName);
+ if(!env.DATABASE_URL&&['DB_HOST','DB_USER','DB_PASSWORD','DB_NAME'].some(k=>!env[k]))throw Error('DATABASE_URL of DB_HOST/DB_USER/DB_PASSWORD/DB_NAME is vereist.');
+ const publicUrl=new URL(env.PUBLIC_URL);
+ if(env.NODE_ENV==='production'&&publicUrl.protocol!=='https:')throw Error('PUBLIC_URL moet in productie HTTPS gebruiken.');
  if(env.APP_SECRET.length<32)throw Error('APP_SECRET moet minstens 32 tekens bevatten.');
  validatePassword(env.ADMIN_PASSWORD);
  await fs.promises.mkdir(storage,{recursive:true});
