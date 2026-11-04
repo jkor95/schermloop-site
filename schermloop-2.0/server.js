@@ -44,6 +44,7 @@ app.use(helmet({contentSecurityPolicy:{directives:{defaultSrc:["'self'"],baseUri
 app.use(express.json({limit:'100kb'}));app.use(cookieParser());
 app.use((req,res,next)=>{if(['GET','HEAD','OPTIONS'].includes(req.method))return next();const origin=req.get('origin');if(origin&&origin!==new URL(env.PUBLIC_URL||'http://localhost').origin)return next(err(403,'Onjuiste herkomst.'));next();});
 app.use('/api/login',rateLimit({windowMs:15*60*1000,limit:12,standardHeaders:'draft-7',legacyHeaders:false}));
+app.use('/api/change-password',rateLimit({windowMs:15*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/request',rateLimit({windowMs:10*60*1000,limit:10,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use('/api/player/pair/',rateLimit({windowMs:10*60*1000,limit:100,standardHeaders:'draft-7',legacyHeaders:false}));
 app.use(express.static(path.join(__dirname,'public'),{index:'index.html',maxAge:'1h'}));
@@ -62,6 +63,23 @@ app.post('/api/login',asyncHandler(async(req,res)=>{
  res.json({ok:true,role:user.role});
 }));
 app.post('/api/logout',requireAuth,asyncHandler(async(req,res)=>{await db('DELETE FROM sessions WHERE token_hash=$1',[sha(req.cookies.sl2sid)]);res.clearCookie('sl2sid',{path:'/'});res.json({ok:true});}));
+app.post('/api/change-password',requireAuth,asyncHandler(async(req,res)=>{
+ const oldPassword=String(req.body.current_password||''),newPassword=req.body.new_password;
+ validatePassword(newPassword);
+ const old=await db('SELECT password_hash FROM users WHERE id=$1 AND active=true',[req.user.id]);
+ if(!old.rows[0]||!await bcrypt.compare(oldPassword,old.rows[0].password_hash))throw err(401,'Huidig wachtwoord is onjuist.');
+ if(await bcrypt.compare(newPassword,old.rows[0].password_hash))throw err(400,'Gebruik een ander wachtwoord dan je vorige.');
+ const hashed=await bcrypt.hash(newPassword,12);
+ const client=await pool.connect();
+ try{
+  await client.query('BEGIN');
+  const updated=await client.query('UPDATE users SET password_hash=$1 WHERE id=$2 AND password_hash=$3',[hashed,req.user.id,old.rows[0].password_hash]);
+  if(updated.rowCount!==1)throw err(409,'Het wachtwoord is tussentijds gewijzigd. Probeer opnieuw.');
+  await client.query('DELETE FROM sessions WHERE user_id=$1 AND token_hash<>$2',[req.user.id,sha(req.cookies.sl2sid)]);
+  await client.query('COMMIT');
+ }catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
+ res.set('Cache-Control','no-store').json({ok:true});
+}));
 app.get('/api/me',requireAuth,asyncHandler(async(req,res)=>{let org=null;if(req.user.organization_id){const r=await db('SELECT id,name,user_limit,screen_limit FROM organizations WHERE id=$1',[req.user.organization_id]);org=r.rows[0]||null;}res.json({user:req.user,organization:org});}));
 app.get('/api/organizations',requireAuth,asyncHandler(async(req,res)=>{if(req.user.role!=='superadmin')throw err(403,'Geen toegang.');res.json((await db("SELECT o.*, (SELECT count(*)::int FROM users u WHERE u.organization_id=o.id AND u.active) AS users_used,(SELECT count(*)::int FROM screens s WHERE s.organization_id=o.id) AS screens_used FROM organizations o ORDER BY o.created_at DESC")).rows);}));
 app.post('/api/organizations',requireAuth,asyncHandler(async(req,res)=>{
