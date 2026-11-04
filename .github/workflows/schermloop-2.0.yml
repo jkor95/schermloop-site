@@ -38,6 +38,9 @@ jobs:
       - name: Syntaxcontrole
         run: |
           node --check server.js
+          node --check mfa.js
+          node --check mfa-routes.js
+          node --check public/mfa-ui.js
           node --check domain.js
           node --check public/dashboard.js
           node --check public/player.js
