@@ -22,6 +22,7 @@ Deze checklist beschermt de huidige SchermLoop-installatie. **Een geslaagde GitH
 - [ ] Importeer een privé-back-up in de testomgeving en vergelijk alle dia's, verborgen PDF-pagina's, tijden en instellingen.
 - [ ] Test minimaal één volledige schooldag op de Windows-mini-pc en televisie, inclusief herstart, netwerkstoring en USB-presentatieklikker.
 - [ ] Sluit OneDrive-autosynchronisatie aan, of kies bewust om voorlopig via handmatige XLSX-import te werken.
+  - De read-only Microsoft Graph XLSX-lezer is inmiddels aanwezig en getest zonder echte accounts. Nog niet aanwezig: Microsoft OAuth-toestemming, versleuteld bewaren/vernieuwen van klanttokens en de automatische synchronisatieplanning.
 - [ ] Activeer en test twee-factor-authenticatie voor superadmin; de losse TOTP-hulpmodule is nog niet aangesloten op de login.
 - [ ] Beoordeel rechten op bestaande NU.nl-bron en afbeeldingen; de 2.0-Rijksoverheid-bron is **niet exact gelijk** aan het oude nieuws.
 - [ ] Controleer beveiliging, AVG, accountuitnodigingen, wachtwoordherstel en eventuele verwerkersovereenkomsten vóór betalende klanten.
