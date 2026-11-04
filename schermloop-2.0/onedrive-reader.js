@@ -35,7 +35,15 @@ async function fetchExcel(driveId,itemId,accessToken,{fetchImpl=fetch,timeoutMs=
  const url=graphItemUrl(driveId,itemId),controller=new AbortController();
  const timer=setTimeout(()=>controller.abort(),timeoutMs);
  try{
-  const response=await fetchImpl(url,{method:'GET',redirect:'follow',headers:{Authorization:'Bearer '+accessToken,Accept:'application/octet-stream'},signal:controller.signal});
+  let response=await fetchImpl(url,{method:'GET',redirect:'manual',headers:{Authorization:'Bearer '+accessToken,Accept:'application/octet-stream'},signal:controller.signal});
+  if([301,302,303,307,308].includes(response.status)){
+   const location=new URL(String(response.headers?.get?.('location')||''));
+   const host=location.hostname.toLowerCase();
+   const approved=['.1drv.com','.sharepoint.com','.sharepointonline.com'];
+   if(location.protocol!=='https:'||location.port||location.username||location.password||!approved.some(suffix=>host.endsWith(suffix)))throw Error('Onverwachte Microsoft-downloadlocatie.');
+   // Een door Microsoft vooraf geautoriseerde downloadlink heeft geen Bearer-token nodig.
+   response=await fetchImpl(location.toString(),{method:'GET',redirect:'error',headers:{Accept:'application/octet-stream'},signal:controller.signal});
+  }
   if(response.status===401||response.status===403)throw Error('Microsoft-verbinding verlopen of onvoldoende bestandsrechten.');
   if(response.status===404)throw Error('Het geselecteerde OneDrive-bestand bestaat niet meer.');
   if(!response.ok)throw Error('Excel downloaden via Microsoft Graph mislukt ('+response.status+').');
