@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test');
 const assert=require('node:assert/strict');
-const {spawn}=require('node:child_process');
+const {spawn,spawnSync}=require('node:child_process');
 const {mkdtemp,rm}=require('node:fs/promises');
 const path=require('node:path');
 const os=require('node:os');
@@ -118,7 +118,35 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  const update=await request('/api/organizations/'+orgA.data.id+'/licenses',{method:'PATCH',cookie:admin,body:{user_limit:2,screen_limit:2}});
  assert.equal(update.status,200);
  assert.equal((await request('/api/users',{method:'POST',cookie:A,body:{email:'staff@example.test',password:'Strong-Staff-1234'}})).status,201);
- assert.equal((await request('/api/screens',{method:'POST',cookie:A,body:{name:'Tweede scherm'}})).status,201);
+
+ const migratedScreen=await request('/api/screens',{method:'POST',cookie:A,body:{name:'Tweede scherm'}});
+ assert.equal(migratedScreen.status,201);
+ // Real database migration test with synthetic source (never private media).
+ const fileIO=require('node:fs/promises');
+ const oldFixture=await mkdtemp(path.join(os.tmpdir(),'sl2-legacy-fixture-'));
+ t.after(async()=>fileIO.rm(oldFixture,{recursive:true,force:true}));
+ await fileIO.mkdir(path.join(oldFixture,'data'),{recursive:true});
+ await fileIO.mkdir(path.join(oldFixture,'media'),{recursive:true});
+ const sourceImage=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWP4z8DwHwAFgAI/ScLJ7wAAAABJRU5ErkJggg==','base64');
+ await fileIO.writeFile(path.join(oldFixture,'media','poster.png'),sourceImage);
+ await fileIO.writeFile(path.join(oldFixture,'data','playlist.json'),JSON.stringify({items:[
+  {type:'image',path:'media/poster.png',name:'Oude poster',duration:17},
+  {type:'image',path:'media/poster.png',name:'Verborgen poster',enabled:false,duration:23}
+ ]}));
+ await fileIO.writeFile(path.join(oldFixture,'data','live-settings.json'),JSON.stringify({news:{enabled:false},weather:{enabled:true,duration:13},presentation:{backgroundMode:'blur'},cornerClock:true}));
+ await fileIO.writeFile(path.join(oldFixture,'data','mededelingen.json'),JSON.stringify({items:[{title:'Oude tekst',text:'Welkom bij de migratieproef',duration:22}]}));
+ const migrationEnv={...process.env,TARGET_ORG_ID:orgA.data.id,TARGET_SCREEN_ID:migratedScreen.data.id,STORAGE_DIR:folder,DATABASE_URL:'postgresql://postgres:postgres@127.0.0.1:5432/schermloop_ci'};
+ const migratedFirst=spawnSync(process.execPath,['scripts/import-old.js',oldFixture,'--apply'],{cwd:path.join(__dirname,'..'),env:migrationEnv,encoding:'utf8',timeout:45000});
+ assert.equal(migratedFirst.status,0,'Proefmigratie moet slagen: '+migratedFirst.stderr);
+ const importedSlides=await request('/api/screens/'+migratedScreen.data.id+'/items',{cookie:A});
+ assert.equal(importedSlides.status,200);
+ assert.equal(importedSlides.data.length,2);
+ assert.equal(importedSlides.data[0].duration,17);
+ assert.equal(importedSlides.data[1].enabled,false);
+ assert.deepEqual(await fileIO.readFile(path.join(oldFixture,'media','poster.png')),sourceImage,'Oude bron blijft onaangetast');
+ const migratedRetry=spawnSync(process.execPath,['scripts/import-old.js',oldFixture,'--apply'],{cwd:path.join(__dirname,'..'),env:migrationEnv,encoding:'utf8',timeout:45000});
+ assert.notEqual(migratedRetry.status,0,'Een tweede import op een gevuld scherm moet stoppen');
+
  const colleagues=await request('/api/users',{cookie:A});
  const staffId=colleagues.data.find(u=>u.email==='staff@example.test').id;
  const resetPath=base+'/api/support/organizations/'+orgA.data.id+'/users/'+staffId+'/reset-password';
