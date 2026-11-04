@@ -161,4 +161,37 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  assert.ok(loggedActions.data.some(x=>x.action==='reset_password'));
  assert.ok(!JSON.stringify(loggedActions.data).includes(temporary.temporary_password),'Het tijdelijke wachtwoord mag nooit in het auditlog staan');
 
+ // Volledige 2FA-test: login krijgt nooit een sessie zonder tweede factor.
+ const mfaBefore=await request('/api/mfa/status',{cookie:admin});
+ assert.equal(mfaBefore.status,200);
+ assert.equal(mfaBefore.data.enabled,false);
+ assert.equal((await request('/api/mfa/status',{cookie:A})).status,403,'Bedrijfsbeheerder is geen superadmin');
+ const mfaBegin=await request('/api/mfa/start',{method:'POST',cookie:admin,body:{current_password:'UpdatedStrongPassword!123456'}});
+ assert.equal(mfaBegin.status,200);
+ assert.match(mfaBegin.data.secret,/^[A-Z2-7]{32}$/);
+ assert.ok(!JSON.stringify(mfaBegin.data).includes('UpdatedStrongPassword!123456'));
+ const otp=require('../mfa').otpAt(mfaBegin.data.secret);
+ assert.equal((await request('/api/mfa/confirm',{method:'POST',cookie:admin,body:{code:'000000'}})).status,401);
+ const mfaFinish=await request('/api/mfa/confirm',{method:'POST',cookie:admin,body:{code:otp}});
+ assert.equal(mfaFinish.status,200);
+ assert.equal(mfaFinish.data.enabled,true);
+ assert.equal(mfaFinish.data.recovery_codes.length,10);
+ assert.equal((await request('/api/mfa/status',{cookie:admin})).data.enabled,true);
+ const noFactor=await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456'}});
+ assert.equal(noFactor.status,202,'Een wachtwoord alleen mag nooit een nieuwe superadmin-sessie maken');
+ assert.equal(noFactor.data.mfa_required,true);
+ assert.equal(noFactor.cookie,null,'Zonder tweede factor mag geen sessiecookie worden verstrekt');
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456',totp_code:'000000'}})).status,401);
+ const withFactor=await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456',totp_code:otp}});
+ assert.equal(withFactor.status,200);
+ assert.ok(withFactor.cookie);
+ const code=mfaFinish.data.recovery_codes[0];
+ const recoveryLogin=await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456',recovery_code:code}});
+ assert.equal(recoveryLogin.status,200,'Eenmalige herstelcode mag toegang geven');
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456',recovery_code:code}})).status,401,'Gebruikte herstelcode moet direct ongeldig zijn');
+ assert.equal((await request('/api/mfa/disable',{method:'POST',cookie:admin,body:{current_password:'UpdatedStrongPassword!123456',code:otp,confirm:true}})).status,200);
+ assert.equal((await request('/api/mfa/status',{cookie:admin})).data.enabled,false);
+ assert.equal((await request('/api/login',{method:'POST',body:{email:'beheertest@example.test',password:'UpdatedStrongPassword!123456'}})).status,200,'Na bewust uitschakelen is 2FA niet meer vereist');
+
+
 });
