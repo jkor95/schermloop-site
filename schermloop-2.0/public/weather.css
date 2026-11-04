@@ -27,3 +27,5 @@
 .city-results{display:flex;flex-wrap:wrap;gap:7px}
 .city-option{text-align:left;font-size:.84rem;max-width:100%;white-space:normal}
 @media(max-width:650px){.weather-slide-page{padding-bottom:80px}.weather-current-line{gap:20px}.weather-rain{min-height:130px}.weather-legend{gap:10px;flex-wrap:wrap}.weather-current-detail p{font-size:13px}.weather-corner{right:9px;top:72px;max-width:40vw}}
+
+.weather-attribution a{color:#a7d6ff;text-decoration:underline}
