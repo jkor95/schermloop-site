@@ -146,9 +146,11 @@ async function renderSlide(){
    if(item.kind==='video'){
     const v=document.createElement('video');v.src=url;v.autoplay=true;v.playsInline=true;v.muted=!manual;v.controls=manual;v.preload='auto';
     v.addEventListener('ended',()=>{if(!manual)advance(1);});
+    v.addEventListener('error',()=>{if(!manual)slideTimeout=setTimeout(()=>advance(1),5000);});
     slide.append(v);
-    v.play().catch(()=>{v.controls=true;});
-    if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
+    v.play().catch(()=>{v.controls=true;if(!manual)slideTimeout=setTimeout(()=>advance(1),5000);});
+    // Een video mag helemaal afspelen; de ingestelde diatijd geldt voor foto's en tekst.
+    // Bij afspeelfouten schakelen we wel door, zodat het scherm niet blijft hangen.
    }else{
     const img=document.createElement('img');img.src=url;img.alt=item.title||'Dia';
     if(screenBackground==='blur'){const blurred=document.createElement('img');blurred.className='slide-blurred-background';blurred.src=url;blurred.alt='';blurred.setAttribute('aria-hidden','true');slide.append(blurred);}
