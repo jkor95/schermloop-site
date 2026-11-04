@@ -36,3 +36,13 @@ test('Migratie mag geen bronbestanden buiten de bronmap lezen',()=>{
  try{assert.throws(()=>safeRead(base,'../../other-place'),/ENOENT|Ongeldig/);}
  finally{fs.rmSync(base,{recursive:true,force:true});}
 });
+
+test('NU.nl wordt niet stilzwijgend overgenomen maar expliciet vervangen',()=>{
+ const old={news:{enabled:true,mode:'slides',duration:21,speed:80}};
+ const unchanged=translateSettings(old);
+ const replaced=translateSettings(old,{replaceNews:true});
+ assert.equal(unchanged.newsEnabled,false);
+ assert.equal(replaced.newsEnabled,true);
+ assert.equal(replaced.newsMode,'slides');
+ assert.equal(replaced.newsDuration,21);
+});
