@@ -1,6 +1,6 @@
 'use strict';
 const $=id=>document.getElementById(id);
-const state={me:null,organizations:[],screens:[],users:[],items:[],selected:null};
+const state={me:null,organizations:[],screens:[],users:[],items:[],selected:null,weatherLocation:null,weatherCandidate:null,weatherSearchId:0};
 const days=[['Ma',1],['Di',2],['Wo',3],['Do',4],['Vr',5],['Za',6],['Zo',0]];
 async function api(url,opts={}){
  const init={method:opts.method||'GET',credentials:'same-origin',headers:{}};
@@ -49,7 +49,35 @@ async function loadAdmin(){
  r.append(left,actions);box.append(r);
  }
 }
+let citySearchTimer=null;
+async function loadWeatherLocation(){
+ try{
+  const r=await api('/organization/weather');state.weatherLocation=r.location;
+  $('currentWeatherLocation').textContent='Ingesteld op: '+r.location.name+' ('+r.location.country+')';
+  $('citySearch').disabled=state.me.user.role!=='owner';
+  $('saveWeatherCity').disabled=true;
+ }catch(e){$('currentWeatherLocation').textContent='Locatie kon niet worden opgehaald.';}
+}
+async function searchWeatherCities(query){
+ const searchId=++state.weatherSearchId;
+ const results=$('cityResults');results.replaceChildren();
+ try{
+  const cities=await api('/weather/locations?q='+encodeURIComponent(query));
+  if(searchId!==state.weatherSearchId||$('citySearch').value.trim()!==query)return;
+  if(!cities.length){results.append(node('p','small muted','Geen plaatsen gevonden.'));return;}
+  for(const city of cities){
+   const action=button(city.name+' · '+city.country,()=>{
+    state.weatherCandidate={name:city.name,country:city.country,lat:city.lat,lon:city.lon};
+    $('citySearch').value=city.name+', '+city.country;
+    results.replaceChildren();$('saveWeatherCity').disabled=false;
+   },true);
+   action.classList.add('city-option');results.append(action);
+  }
+ }catch(e){results.replaceChildren(node('p','small muted','Zoeken mislukt. Probeer het opnieuw.'));}
+}
+
 async function loadCompany(){
+ if(!state.weatherLocation)await loadWeatherLocation();
  const [screens,users]=await Promise.all([api('/screens'),api('/users')]);state.screens=screens;state.users=users;
  const org=state.me.organization;stats($('companyStats'),[['Schermen',screens.length+' / '+org.screen_limit],['Accounts',users.filter(u=>u.active).length+' / '+org.user_limit],['Online apparaten',screens.filter(s=>s.last_seen_at&&Date.now()-new Date(s.last_seen_at).getTime()<120000).length]]);
  const isOwner=state.me.user.role==='owner';$('addScreenBtn').disabled=!isOwner||screens.length>=org.screen_limit;$('addUserBtn').disabled=!isOwner||users.filter(u=>u.active).length>=org.user_limit;
@@ -83,7 +111,7 @@ async function selectScreen(){
  const screen=state.screens.find(s=>s.id===state.selected);if(!screen)return;
  $('screenPanel').hidden=false;$('screenName').textContent=screen.name;
  $('pairStatus').textContent=screen.paired?'Gekoppeld. Een nieuwe koppeling trekt de huidige toegang automatisch in.':'Nog niet gekoppeld. Open eerst de schermspeler op het afspeelapparaat.';
- const cfg=screen.settings||{};$('scheduleEnabled').checked=!!cfg.enabled;$('scheduleOn').value=cfg.on||'07:30';$('scheduleOff').value=cfg.off||'18:00';$('clockEnabled').checked=cfg.clock!==false;$('backgroundMode').value=cfg.background||'black';$('backgroundColor').value=cfg.backgroundColor||'#172638';$('tickerEnabled').checked=cfg.tickerEnabled===true;$('tickerText').value=cfg.tickerText||'';
+ const cfg=screen.settings||{};$('scheduleEnabled').checked=!!cfg.enabled;$('scheduleOn').value=cfg.on||'07:30';$('scheduleOff').value=cfg.off||'18:00';$('clockEnabled').checked=cfg.clock!==false;$('weatherPageEnabled').checked=cfg.weatherPage===true;$('weatherCornerEnabled').checked=cfg.weatherCorner===true;$('weatherPageDuration').value=cfg.weatherDuration||20;$('backgroundMode').value=cfg.background||'black';$('backgroundColor').value=cfg.backgroundColor||'#172638';$('tickerEnabled').checked=cfg.tickerEnabled===true;$('tickerText').value=cfg.tickerText||'';
  const daybox=$('days');daybox.replaceChildren();for(const [name,num] of days){const label=node('label'),cb=node('input');cb.type='checkbox';cb.value=String(num);cb.checked=(cfg.days||[1,2,3,4,5]).includes(num);label.append(cb,document.createTextNode(name));daybox.append(label);}
  $('settingsForm').querySelector('button[type=submit]').disabled=state.me.user.role!=='owner';
  state.items=await api('/screens/'+screen.id+'/items');renderItems();
@@ -109,9 +137,11 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('addScreenBtn').addEventListener('click',()=>modal('Scherm toevoegen',[{name:'name',label:'Schermnaam',value:'Receptie'}],async v=>{const r=await api('/screens',{method:'POST',body:v});state.selected=r.id;message('Scherm toegevoegd.');await loadCompany();}));
  $('addUserBtn').addEventListener('click',()=>modal('Medewerker uitnodigen',[{name:'email',label:'E-mailadres',type:'email'},{name:'password',label:'Tijdelijk wachtwoord (veilig doorgeven)',value:randomPassword()}],async v=>{await api('/users',{method:'POST',body:v});message('Medewerker aangemaakt. Geef het wachtwoord veilig door.');await loadCompany();},'Medewerker toevoegen'));
  $('pairForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;try{await api('/screens/'+state.selected+'/pair',{method:'POST',body:{code:$('pairCode').value}});$('pairCode').value='';message('Scherm veilig gekoppeld.');await loadCompany();}catch(ex){message(ex.message,true);}});
- $('settingsForm').addEventListener('submit',async e=>{e.preventDefault();try{const selectedDays=[...$('days').querySelectorAll('input:checked')].map(x=>Number(x.value));const cfg={...state.screens.find(x=>x.id===state.selected).settings,enabled:$('scheduleEnabled').checked,days:selectedDays,on:$('scheduleOn').value,off:$('scheduleOff').value,clock:$('clockEnabled').checked,background:$('backgroundMode').value,backgroundColor:$('backgroundColor').value,tickerEnabled:$('tickerEnabled').checked,tickerText:$('tickerText').value};await api('/screens/'+state.selected,{method:'PATCH',body:{settings:cfg}});message('Presentatieplanning opgeslagen.');await loadCompany();}catch(ex){message(ex.message,true);}});
+ $('settingsForm').addEventListener('submit',async e=>{e.preventDefault();try{const selectedDays=[...$('days').querySelectorAll('input:checked')].map(x=>Number(x.value));const cfg={...state.screens.find(x=>x.id===state.selected).settings,enabled:$('scheduleEnabled').checked,days:selectedDays,on:$('scheduleOn').value,off:$('scheduleOff').value,clock:$('clockEnabled').checked,weatherPage:$('weatherPageEnabled').checked,weatherCorner:$('weatherCornerEnabled').checked,weatherDuration:Number($('weatherPageDuration').value),background:$('backgroundMode').value,backgroundColor:$('backgroundColor').value,tickerEnabled:$('tickerEnabled').checked,tickerText:$('tickerText').value};await api('/screens/'+state.selected,{method:'PATCH',body:{settings:cfg}});message('Presentatieplanning opgeslagen.');await loadCompany();}catch(ex){message(ex.message,true);}});
  $('uploadForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;const file=$('uploadFile').files[0];if(!file)return;if(file.size>50*1024*1024){message('Bestand mag maximaal 50 MB zijn.',true);return;}const btn=$('uploadBtn');btn.disabled=true;btn.textContent='Bestand verwerken...';try{const form=new FormData();form.append('file',file);form.append('duration',$('uploadDuration').value);const r=await api('/screens/'+state.selected+'/items/upload',{method:'POST',body:form});$('uploadFile').value='';message(r.created+' dia(’s) toegevoegd.');await selectScreen();}catch(ex){message(ex.message,true);}finally{btn.disabled=false;btn.textContent='Bestand uploaden';}});
  $('textForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;try{await api('/screens/'+state.selected+'/items/text',{method:'POST',body:{title:$('textTitle').value,text:$('textBody').value,duration:Number($('textDuration').value)}});$('textTitle').value='';$('textBody').value='';message('Mededeling toegevoegd.');await selectScreen();}catch(ex){message(ex.message,true);}});
  $('refreshItems').addEventListener('click',()=>selectScreen().catch(e=>message(e.message,true)));
+ $('citySearch').addEventListener('input',()=>{clearTimeout(citySearchTimer);state.weatherCandidate=null;$('saveWeatherCity').disabled=true;const q=$('citySearch').value.trim();$('cityResults').replaceChildren();if(q.length>=2)citySearchTimer=setTimeout(()=>searchWeatherCities(q),250);});
+ $('weatherLocationForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.weatherCandidate)return;try{const result=await api('/organization/weather',{method:'PATCH',body:{location:state.weatherCandidate}});state.weatherLocation=result.location;$('currentWeatherLocation').textContent='Ingesteld op: '+result.location.name+' ('+result.location.country+')';state.weatherCandidate=null;$('saveWeatherCity').disabled=true;$('citySearch').value='';$('cityResults').replaceChildren();message('Weerlocatie van het bedrijf opgeslagen.');}catch(ex){message(ex.message,true);}});
  refresh();
 });
