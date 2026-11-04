@@ -85,3 +85,6 @@ CREATE INDEX IF NOT EXISTS idx_support_events_org_time
 -- Klantlocatie voor alle gekoppelde presentatieschermen.
 ALTER TABLE organizations ADD COLUMN IF NOT EXISTS weather_location jsonb NOT NULL
  DEFAULT '{"name":"Dordrecht","country":"NL","lat":51.8133,"lon":4.6901}'::jsonb;
+
+-- Excel-mededelingen zijn gescheiden van handmatig aangemaakte dia's.
+ALTER TABLE screens ADD COLUMN IF NOT EXISTS announcements jsonb NOT NULL DEFAULT '[]'::jsonb;
