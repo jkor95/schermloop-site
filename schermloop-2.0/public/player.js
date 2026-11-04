@@ -6,6 +6,7 @@ let screenSessionToken='';
 let activeScreen=null,slides=[],pos=0,manual=false,paused=false;
 let slideTimeout=null,slideEpoch=0,pairTimer=null,pollTimer=null,lastManualInteraction=0;
 let pairing=null;
+let weatherSnapshot=null,weatherLastFetch=0,weatherPending=null;
 const assetUrls=new Map();
 const timeFormatter=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 function showOnly(id){for(const x of ['pairView','showView','disconnected'])$(x).hidden=x!==id;}
@@ -87,6 +88,31 @@ function clearExpiredAssets(){
  const ids=new Set(slides.map(x=>x.id));
  for(const [id,url] of assetUrls)if(!ids.has(id)){URL.revokeObjectURL(url);assetUrls.delete(id);}
 }
+async function refreshWeather(force=false){
+ const cfg=activeScreen?.settings||{};
+ if(!screenSessionToken||!(cfg.weatherPage||cfg.weatherCorner))return;
+ if(weatherPending)return weatherPending;
+ if(!force&&weatherSnapshot&&Date.now()-weatherLastFetch<10*60*1000)return;
+ weatherPending=(async()=>{
+  try{
+   const data=await request('/player/weather',{token:screenSessionToken});
+   weatherSnapshot=data;weatherLastFetch=Date.now();
+   updateWeatherCorner();
+   if(slides[pos]?.kind==='weather'&&!paused&&!$('showView').hidden)window.SchermLoopWeatherView?.renderPage($('slide'),data);
+  }catch(e){
+   if(!weatherSnapshot&&slides[pos]?.kind==='weather'&&!paused)$('slide').textContent='Weergegevens tijdelijk niet beschikbaar.';
+  }finally{weatherPending=null;}
+ })();
+ return weatherPending;
+}
+function updateWeatherCorner(){
+ const el=$('weatherCorner'),enabled=activeScreen?.settings?.weatherCorner===true&&!paused;
+ el.hidden=!enabled;
+ if(enabled){
+  if(weatherSnapshot)window.SchermLoopWeatherView?.renderCorner(el,weatherSnapshot);
+  else el.textContent='Weer laden...';
+ }
+}
 function clearSlide(){
  stopTimeout();slideEpoch++;
  $('slide').replaceChildren();
@@ -101,6 +127,13 @@ async function renderSlide(){
  const screenBackground=activeScreen?.settings?.background||'black';
  slide.style.backgroundColor=screenBackground==='color'?(activeScreen.settings.backgroundColor||'#172638'):'#000000';
  const duration=Math.max(2,Math.min(600,Number(item.duration)||10));
+ if(item.kind==='weather'){
+  slide.style.backgroundColor='#10223c';
+  if(weatherSnapshot)window.SchermLoopWeatherView?.renderPage(slide,weatherSnapshot);
+  else{slide.textContent='Weerbericht wordt opgehaald...';refreshWeather().catch(()=>{});}
+  if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
+  return;
+ }
  if(item.kind==='text'){
   const p=document.createElement('div');p.className='slide-message';p.textContent=item.text_body||item.title;slide.append(p);
   if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
@@ -150,22 +183,28 @@ function applySchedule(){
   paused=shouldPause;$('pauseOverlay').hidden=!paused;
   renderSlide();
  }
- updateTicker();
+ updateTicker();updateWeatherCorner();
 }
 async function synchronize(){
  if(!deviceToken)return createPairing();
  try{
   if(!screenSessionToken){const session=await request('/player/session',{method:'POST',token:deviceToken});screenSessionToken=session.session_token;}
   const r=await request('/player/state',{token:screenSessionToken});
+  const previousScreen=activeScreen;
+  const prev=JSON.stringify({slides,settings:previousScreen?.settings,weatherLocation:previousScreen?.weather_location});
   activeScreen=r.screen;setLabel(activeScreen.name);showOnly('showView');
-  const signature=JSON.stringify(r.items);
-  const prev=JSON.stringify(slides);
-  slides=r.items||[];clearExpiredAssets();
+  const locationChanged=JSON.stringify(previousScreen?.weather_location)!==JSON.stringify(activeScreen.weather_location);
+  if(locationChanged){weatherSnapshot=null;weatherLastFetch=0;}
+  const baseSlides=Array.isArray(r.items)?r.items:[];
+  slides=activeScreen.settings?.weatherPage?[...baseSlides,{id:'schermloop-weather',kind:'weather',title:'Weerbericht',duration:activeScreen.settings.weatherDuration||20}]:baseSlides;
+  const signature=JSON.stringify({slides,settings:activeScreen.settings,weatherLocation:activeScreen.weather_location});
+  clearExpiredAssets();
   if(pos>=slides.length)pos=0;
-  applySchedule();clock();updateTicker();
+  applySchedule();clock();updateTicker();updateWeatherCorner();
   if(signature!==prev&&!paused)renderSlide();
+  if(activeScreen.settings?.weatherPage||activeScreen.settings?.weatherCorner)refreshWeather(locationChanged).catch(()=>{});
  }catch(e){
-  if(e.status===401){deviceToken='';screenSessionToken='';localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
+  if(e.status===401){deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
   else failConnection('Server niet bereikbaar. We proberen het opnieuw. '+e.message);
  }
