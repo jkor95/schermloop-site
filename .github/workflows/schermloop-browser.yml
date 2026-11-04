@@ -17,3 +17,24 @@ jobs:
           node-version: '22'
       - name: Controleer browser-test syntaxis
         run: node --check schermloop-2.0/tests/smoke.browser.spec.js
+      - name: Maak tijdelijke testinstellingen
+        run: |
+          echo "ADMIN_EMAIL=ci-admin@example.test" >> "$GITHUB_ENV"
+          echo "SERVICE_PASSWORD_64_SCHERMLOOPDB=$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+          echo "SERVICE_PASSWORD_64_SCHERMLOOPSECRET=$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+          echo "SERVICE_PASSWORD_64_SCHERMLOOPADMIN=$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+          echo "SERVICE_URL_WEB_3000=https://schermloop.example.test" >> "$GITHUB_ENV"
+      - name: Start geïsoleerde tijdelijke browseromgeving
+        run: |
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml -f schermloop-2.0/docker-compose.ci.yml --project-directory schermloop-2.0 -p sl2-browser up -d --build --wait --wait-timeout 180
+      - name: Installeer testbrowser
+        working-directory: schermloop-2.0
+        run: |
+          npm install --no-save --ignore-scripts @playwright/test
+          npx playwright install --with-deps chromium
+      - name: Test loginpagina en koppelcode
+        working-directory: schermloop-2.0
+        run: npx playwright test --config=playwright.config.cjs
+      - name: Verwijder uitsluitend tijdelijke testomgeving
+        if: always()
+        run: docker compose -f schermloop-2.0/docker-compose.coolify.yml -f schermloop-2.0/docker-compose.ci.yml --project-directory schermloop-2.0 -p sl2-browser down -v --remove-orphans
