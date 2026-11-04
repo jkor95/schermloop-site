@@ -35,9 +35,16 @@ async function refreshSupport(){
  }
  const users=$('supportUsers');users.replaceChildren();
  for(const user of data.users){
-  const row=node('div','list-row');
-  row.append(node('strong','',user.email),node('span','pill'+(user.active?' good':' bad'),user.role==='owner'?'Bedrijfsbeheerder':user.active?'Actief':'Uitgeschakeld'));
-  users.append(row);
+  const row=node('div','list-row'),left=node('div','main'),actions=node('div','actions');
+  left.append(node('strong','',user.email),node('span','pill'+(user.active?' good':' bad'),user.role==='owner'?'Bedrijfsbeheerder':user.active?'Actief':'Uitgeschakeld'));
+  actions.append(button('Wachtwoord herstellen',async()=>{
+   if(!confirm('Wachtwoord van '+user.email+' opnieuw instellen? Alle bestaande sessies worden ingetrokken.'))return;
+   const result=await supportCall('/users/'+user.id+'/reset-password',{method:'POST',body:{confirm:true}});
+   showOneTimeCredentials(result.email,result.temporary_password);
+   message('Eenmalig herstelwachtwoord gemaakt. Geef dit uitsluitend veilig aan de klant.');
+   await refreshSupport();
+  },true));
+  row.append(left,actions);users.append(row);
  }
  const items=$('supportItems');items.replaceChildren();
  if(!data.items.length)items.append(node('p','muted','Geen dia’s.'));
