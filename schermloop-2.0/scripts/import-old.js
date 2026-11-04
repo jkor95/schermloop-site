@@ -19,7 +19,8 @@ async function main(){
  const dir=fs.realpathSync(source);
  const read=name=>JSON.parse(fs.readFileSync(path.join(dir,'data',name),'utf8'));
  const playlist=read('playlist.json'),settings=read('live-settings.json'),bulletins=read('mededelingen.json');
- if(settings.news?.enabled&&!process.argv.includes('--test-without-news'))throw Error('De oude nieuwsbron is actief. Migratie gestopt totdat de nieuwsvoorziening is geregeld.');
+ const replaceNews=process.argv.includes('--replace-news-with-rijksoverheid');
+ if(settings.news?.enabled&&!replaceNews&&!process.argv.includes('--test-without-news'))throw Error('Oude NU.nl-bron staat aan. Kies expliciet --replace-news-with-rijksoverheid of --test-without-news voor een interne proef.');
  const org=process.env.TARGET_ORG_ID,screen=process.env.TARGET_SCREEN_ID,store=path.resolve(process.env.STORAGE_DIR||'/app/storage');
  if(!validId(org)||!validId(screen))throw Error('TARGET_ORG_ID en TARGET_SCREEN_ID moeten naar een leeg testbedrijf/scherm verwijzen.');
  const pool=new Pool(process.env.DATABASE_URL?{connectionString:process.env.DATABASE_URL}:{
@@ -42,9 +43,9 @@ async function main(){
     [item.id,org,screen,item.title,item.kind,item.storageKey,item.mime,item.duration,item.enabled,item.position]);
   }
   await client.query('UPDATE screens SET settings=$1,announcements=$2 WHERE id=$3 AND organization_id=$4',
-   [JSON.stringify(translateSettings(settings)),JSON.stringify(translateAnnouncements(bulletins)),screen,org]);
+   [JSON.stringify(translateSettings(settings,{replaceNews})),JSON.stringify(translateAnnouncements(bulletins)),screen,org]);
   await client.query('COMMIT');
-  console.log(JSON.stringify({status:'imported',slides:result.items.length,announcements:translateAnnouncements(bulletins).length}));
+  console.log(JSON.stringify({status:'imported',slides:result.items.length,announcements:translateAnnouncements(bulletins).length,newsReplaced:replaceNews}));
  }catch(e){
   await client.query('ROLLBACK').catch(()=>{});
   for(const f of created)await fs.promises.rm(f,{force:true}).catch(()=>{});
