@@ -41,6 +41,9 @@ jobs:
           node --check domain.js
           node --check public/dashboard.js
           node --check public/player.js
+          node --check weather.js
+          node --check weather-routes.js
+          node --check public/weather-view.js
       - name: Dependencies installeren
         run: npm install --omit=dev --no-audit --no-fund
       - name: Domeinregels en integratietests
