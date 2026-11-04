@@ -124,6 +124,8 @@ async function selectScreen(){
  const daybox=$('days');daybox.replaceChildren();for(const [name,num] of days){const label=node('label'),cb=node('input');cb.type='checkbox';cb.value=String(num);cb.checked=(cfg.days||[1,2,3,4,5]).includes(num);label.append(cb,document.createTextNode(name));daybox.append(label);}
  $('settingsForm').querySelector('button[type=submit]').disabled=state.me.user.role!=='owner';
  state.items=await api('/screens/'+screen.id+'/items');renderItems();
+ try{const imported=await api('/screens/'+screen.id+'/announcements');$('excelStatus').textContent='Huidige Excel-import: '+imported.items.length+' mededelingen.';}
+ catch(e){$('excelStatus').textContent='Excel-status niet beschikbaar.';}
 }
 function renderItems(){
  const box=$('items');box.replaceChildren();$('itemsCount').textContent=state.items.length+' dia(’s)';
@@ -164,6 +166,20 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('pairForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;try{await api('/screens/'+state.selected+'/pair',{method:'POST',body:{code:$('pairCode').value}});$('pairCode').value='';message('Scherm veilig gekoppeld.');await loadCompany();}catch(ex){message(ex.message,true);}});
  $('settingsForm').addEventListener('submit',async e=>{e.preventDefault();try{const selectedDays=[...$('days').querySelectorAll('input:checked')].map(x=>Number(x.value));const cfg={...state.screens.find(x=>x.id===state.selected).settings,enabled:$('scheduleEnabled').checked,days:selectedDays,on:$('scheduleOn').value,off:$('scheduleOff').value,clock:$('clockEnabled').checked,weatherPage:$('weatherPageEnabled').checked,weatherCorner:$('weatherCornerEnabled').checked,weatherDuration:Number($('weatherPageDuration').value),background:$('backgroundMode').value,backgroundColor:$('backgroundColor').value,tickerEnabled:$('tickerEnabled').checked,tickerText:$('tickerText').value};await api('/screens/'+state.selected,{method:'PATCH',body:{settings:cfg}});message('Presentatieplanning opgeslagen.');await loadCompany();}catch(ex){message(ex.message,true);}});
  $('uploadForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;const file=$('uploadFile').files[0];if(!file)return;if(file.size>50*1024*1024){message('Bestand mag maximaal 50 MB zijn.',true);return;}const btn=$('uploadBtn');btn.disabled=true;btn.textContent='Bestand verwerken...';try{const form=new FormData();form.append('file',file);form.append('duration',$('uploadDuration').value);const r=await api('/screens/'+state.selected+'/items/upload',{method:'POST',body:form});$('uploadFile').value='';message(r.created+' dia(’s) toegevoegd.');await selectScreen();}catch(ex){message(ex.message,true);}finally{btn.disabled=false;btn.textContent='Bestand uploaden';}});
+ $('excelForm').addEventListener('submit',async e=>{
+  e.preventDefault();if(!state.selected)return;
+  const file=$('excelFile').files[0];if(!file)return;
+  if(file.size>3*1024*1024){message('Excelbestand mag maximaal 3 MB zijn.',true);return;}
+  if(!confirm('De vorige Excel-import op dit scherm vervangen? Handmatige dia’s blijven staan.'))return;
+  const button=$('excelImportButton');button.disabled=true;
+  try{
+   const form=new FormData();form.append('file',file);form.append('confirmReplace','true');
+   const result=await api('/screens/'+state.selected+'/announcements/excel',{method:'POST',body:form});
+   $('excelFile').value='';message(result.imported+' Excel-mededelingen geïmporteerd.');
+   await selectScreen();
+  }catch(ex){message(ex.message,true);}
+  finally{button.disabled=false;}
+ });
  $('textForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;try{await api('/screens/'+state.selected+'/items/text',{method:'POST',body:{title:$('textTitle').value,text:$('textBody').value,duration:Number($('textDuration').value)}});$('textTitle').value='';$('textBody').value='';message('Mededeling toegevoegd.');await selectScreen();}catch(ex){message(ex.message,true);}});
  $('refreshItems').addEventListener('click',()=>selectScreen().catch(e=>message(e.message,true)));
  $('citySearch').addEventListener('input',()=>{clearTimeout(citySearchTimer);state.weatherCandidate=null;$('saveWeatherCity').disabled=true;const q=$('citySearch').value.trim();$('cityResults').replaceChildren();if(q.length>=2)citySearchTimer=setTimeout(()=>searchWeatherCities(q),250);});
