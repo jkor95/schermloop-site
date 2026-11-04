@@ -25,7 +25,7 @@ async function toPages(file,folder){
  if(files.length!==pages)throw Error('Niet alle PDF-pagina’s konden worden geconverteerd.');
  return files.map(x=>path.join(folder,x));
 }
-function translateSettings(old){
+function translateSettings(old,options={}){
  const p=old?.presentation||{};
  return sanitizeSchedule({
   enabled:false,
@@ -35,7 +35,11 @@ function translateSettings(old){
   weatherPage:old?.weather?.enabled===true,
   weatherCorner:old?.cornerWeather===true,
   weatherDuration:old?.weather?.duration||20,
-  tickerEnabled:false
+  tickerEnabled:false,
+  newsEnabled:old?.news?.enabled===true && options.replaceNews===true,
+  newsMode:old?.news?.mode==='slides'?'slides':'ticker',
+  newsDuration:old?.news?.duration||20,
+  newsSpeed:old?.news?.speed||80
  });
 }
 function translateAnnouncements(old){
