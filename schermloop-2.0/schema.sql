@@ -88,3 +88,15 @@ ALTER TABLE organizations ADD COLUMN IF NOT EXISTS weather_location jsonb NOT NU
 
 -- Excel-mededelingen zijn gescheiden van handmatig aangemaakte dia's.
 ALTER TABLE screens ADD COLUMN IF NOT EXISTS announcements jsonb NOT NULL DEFAULT '[]'::jsonb;
+
+-- Tweestapsverificatie voor het hoofdbeheer. De sleutel wordt AES-256-GCM
+-- versleuteld met APP_SECRET. Herstelcodes worden uitsluitend gehasht bewaard.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS mfa_secret_enc text;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS mfa_pending_enc text;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS mfa_pending_at timestamptz;
+CREATE TABLE IF NOT EXISTS mfa_recovery_codes(
+ user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+ code_hash text NOT NULL,
+ created_at timestamptz NOT NULL DEFAULT now(),
+ PRIMARY KEY(user_id,code_hash)
+);
