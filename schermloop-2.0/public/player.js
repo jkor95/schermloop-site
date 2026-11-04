@@ -7,6 +7,7 @@ let activeScreen=null,slides=[],pos=0,manual=false,paused=false;
 let slideTimeout=null,slideEpoch=0,pairTimer=null,pollTimer=null,lastManualInteraction=0;
 let pairing=null;
 let weatherSnapshot=null,weatherLastFetch=0,weatherPending=null;
+let newsSnapshot=null,newsLastFetch=0,newsPending=null;
 const assetUrls=new Map();
 const timeFormatter=new Intl.DateTimeFormat('nl-NL',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 function showOnly(id){for(const x of ['pairView','showView','disconnected'])$(x).hidden=x!==id;}
@@ -136,6 +137,13 @@ async function renderSlide(){
  const screenBackground=activeScreen?.settings?.background||'black';
  slide.style.backgroundColor=screenBackground==='color'?(activeScreen.settings.backgroundColor||'#172638'):'#000000';
  const duration=Math.max(2,Math.min(600,Number(item.duration)||10));
+ if(item.kind==='news'){
+  slide.style.backgroundColor='#10223c';
+  window.SchermLoopNewsView?.render(slide,newsSnapshot);
+  if(!newsSnapshot)refreshNews().catch(()=>{});
+  if(!manual)slideTimeout=setTimeout(()=>advance(1),duration*1000);
+  return;
+ }
  if(item.kind==='weather'){
   slide.style.backgroundColor='#10223c';
   if(weatherSnapshot)window.SchermLoopWeatherView?.renderPage(slide,weatherSnapshot);
