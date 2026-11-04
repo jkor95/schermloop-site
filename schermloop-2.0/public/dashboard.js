@@ -28,9 +28,17 @@ function modal(title,fields,action,submitText='Opslaan'){
  d.addEventListener('close',()=>{form.onsubmit=previous;},{once:true});
  d.showModal();
 }
-function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('who').textContent='';}
+function hideOneTimeCredentials(){
+ $('newCredentials').hidden=true;$('createdEmail').textContent='';$('createdPassword').textContent='';
+}
+function showOneTimeCredentials(email,password){
+ $('createdEmail').textContent=email;$('createdPassword').textContent=password;
+ $('newCredentials').hidden=false;
+ $('newCredentials').scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('changePassword').hidden=true;$('who').textContent='';hideOneTimeCredentials();}
 async function refresh(){
- try{state.me=await api('/me');$('login').hidden=true;$('app').hidden=false;$('logout').hidden=false;$('who').textContent=state.me.user.email;
+ try{state.me=await api('/me');$('login').hidden=true;$('app').hidden=false;$('logout').hidden=false;$('changePassword').hidden=false;$('who').textContent=state.me.user.email;
  $('appTitle').textContent=state.me.organization?.name||'Hoofdbeheer';$('appSubtitle').textContent=state.me.user.role==='superadmin'?'Beheer bedrijfsomgevingen en toegekende licenties.':'Beheer de schermen en presentaties van jouw organisatie.';
  $('adminArea').hidden=state.me.user.role!=='superadmin';$('companyArea').hidden=state.me.user.role==='superadmin';
  if(state.me.user.role==='superadmin')await loadAdmin();else await loadCompany();
@@ -133,10 +141,26 @@ function renderItems(){
 }
 document.addEventListener('DOMContentLoaded',()=>{
  $('loginForm').addEventListener('submit',async e=>{e.preventDefault();$('loginError').textContent='';try{await api('/login',{method:'POST',body:{email:$('email').value,password:$('password').value}});$('password').value='';state.weatherLocation=null;state.weatherCandidate=null;await refresh();}catch(ex){$('loginError').textContent=ex.message;}});
+ $('changePassword').addEventListener('click',()=>modal('Wachtwoord wijzigen',[
+  {name:'current_password',label:'Huidig wachtwoord',type:'password'},
+  {name:'new_password',label:'Nieuw wachtwoord, minimaal 12 tekens',type:'password'},
+  {name:'repeat_password',label:'Herhaal het nieuwe wachtwoord',type:'password'}
+ ],async v=>{
+  if(v.new_password!==v.repeat_password)throw Error('De nieuwe wachtwoorden komen niet overeen.');
+  if(v.new_password.length<12)throw Error('Gebruik minimaal 12 tekens.');
+  await api('/change-password',{method:'POST',body:{current_password:v.current_password,new_password:v.new_password}});
+  message('Wachtwoord gewijzigd. Andere ingelogde apparaten zijn uitgelogd.');
+ },'Wachtwoord wijzigen'));
+ $('hideCredentials').addEventListener('click',hideOneTimeCredentials);
+ $('copyCredentials').addEventListener('click',async()=>{
+  const value='SchermLoop 2.0\\nE-mail: '+$('createdEmail').textContent+'\\nTijdelijk wachtwoord: '+$('createdPassword').textContent;
+  try{await navigator.clipboard.writeText(value);message('Inloggegevens gekopieerd. Geef ze veilig door.');}
+  catch{message('Kopiëren lukte niet. Selecteer de gegevens en kopieer ze handmatig.',true);}
+ });
  $('logout').addEventListener('click',async()=>{try{await api('/logout',{method:'POST'});}catch{}state.me=null;state.selected=null;state.weatherLocation=null;state.weatherCandidate=null;showLoggedOut();});
- $('addOrgBtn').addEventListener('click',()=>modal('Nieuw bedrijf',[{name:'name',label:'Bedrijfsnaam'},{name:'email',label:'Beheeraccount (e-mail)',type:'email'},{name:'password',label:'Tijdelijk wachtwoord (veilig doorgeven)',value:randomPassword()}],async v=>{const r=await api('/organizations',{method:'POST',body:v});message('Bedrijf '+r.name+' aangemaakt. Geef het wachtwoord veilig door aan de beheerder.');await loadAdmin();},'Bedrijf aanmaken'));
+ $('addOrgBtn').addEventListener('click',()=>modal('Nieuw bedrijf',[{name:'name',label:'Bedrijfsnaam'},{name:'email',label:'Beheeraccount (e-mail)',type:'email'},{name:'password',label:'Tijdelijk wachtwoord (veilig doorgeven)',value:randomPassword()}],async v=>{const r=await api('/organizations',{method:'POST',body:v});showOneTimeCredentials(v.email,v.password);message('Bedrijf '+r.name+' aangemaakt. Kopieer de eenmalige inloggegevens.');await loadAdmin();},'Bedrijf aanmaken'));
  $('addScreenBtn').addEventListener('click',()=>modal('Scherm toevoegen',[{name:'name',label:'Schermnaam',value:'Receptie'}],async v=>{const r=await api('/screens',{method:'POST',body:v});state.selected=r.id;message('Scherm toegevoegd.');await loadCompany();}));
- $('addUserBtn').addEventListener('click',()=>modal('Medewerker uitnodigen',[{name:'email',label:'E-mailadres',type:'email'},{name:'password',label:'Tijdelijk wachtwoord (veilig doorgeven)',value:randomPassword()}],async v=>{await api('/users',{method:'POST',body:v});message('Medewerker aangemaakt. Geef het wachtwoord veilig door.');await loadCompany();},'Medewerker toevoegen'));
+ $('addUserBtn').addEventListener('click',()=>modal('Medewerker uitnodigen',[{name:'email',label:'E-mailadres',type:'email'},{name:'password',label:'Tijdelijk wachtwoord (veilig doorgeven)',value:randomPassword()}],async v=>{await api('/users',{method:'POST',body:v});showOneTimeCredentials(v.email,v.password);message('Medewerker aangemaakt. Kopieer de eenmalige inloggegevens.');await loadCompany();},'Medewerker toevoegen'));
  $('pairForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;try{await api('/screens/'+state.selected+'/pair',{method:'POST',body:{code:$('pairCode').value}});$('pairCode').value='';message('Scherm veilig gekoppeld.');await loadCompany();}catch(ex){message(ex.message,true);}});
  $('settingsForm').addEventListener('submit',async e=>{e.preventDefault();try{const selectedDays=[...$('days').querySelectorAll('input:checked')].map(x=>Number(x.value));const cfg={...state.screens.find(x=>x.id===state.selected).settings,enabled:$('scheduleEnabled').checked,days:selectedDays,on:$('scheduleOn').value,off:$('scheduleOff').value,clock:$('clockEnabled').checked,weatherPage:$('weatherPageEnabled').checked,weatherCorner:$('weatherCornerEnabled').checked,weatherDuration:Number($('weatherPageDuration').value),background:$('backgroundMode').value,backgroundColor:$('backgroundColor').value,tickerEnabled:$('tickerEnabled').checked,tickerText:$('tickerText').value};await api('/screens/'+state.selected,{method:'PATCH',body:{settings:cfg}});message('Presentatieplanning opgeslagen.');await loadCompany();}catch(ex){message(ex.message,true);}});
  $('uploadForm').addEventListener('submit',async e=>{e.preventDefault();if(!state.selected)return;const file=$('uploadFile').files[0];if(!file)return;if(file.size>50*1024*1024){message('Bestand mag maximaal 50 MB zijn.',true);return;}const btn=$('uploadBtn');btn.disabled=true;btn.textContent='Bestand verwerken...';try{const form=new FormData();form.append('file',file);form.append('duration',$('uploadDuration').value);const r=await api('/screens/'+state.selected+'/items/upload',{method:'POST',body:form});$('uploadFile').value='';message(r.created+' dia(’s) toegevoegd.');await selectScreen();}catch(ex){message(ex.message,true);}finally{btn.disabled=false;btn.textContent='Bestand uploaden';}});
