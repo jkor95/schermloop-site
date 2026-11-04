@@ -11,7 +11,7 @@
 <body>
 <header class="topbar">
  <div class="brand"><span class="brand-mark">▣</span><div><strong>SchermLoop <span class="version">2.0</span></strong><small>Bedrijfsomgeving</small></div></div>
- <div class="header-actions"><span id="who"></span><button class="btn outline small" id="logout" hidden>Uitloggen</button></div>
+ <div class="header-actions"><span id="who"></span><button class="btn outline small" id="changePassword" hidden>Wachtwoord wijzigen</button><button class="btn outline small" id="logout" hidden>Uitloggen</button></div>
 </header>
 <main class="container">
  <section id="login" class="login-layout">
@@ -25,6 +25,13 @@
  </section>
  <section id="app" hidden>
   <div id="notice" class="notice" role="status" hidden></div>
+  <div id="newCredentials" class="panel" hidden style="margin-bottom:16px">
+    <div class="section-heading"><h2>Eenmalige inloggegevens</h2><button id="hideCredentials" class="btn outline small" type="button">Verbergen</button></div>
+    <p class="small muted">Kopieer deze gegevens en geef ze veilig door aan de betreffende persoon. Het wachtwoord wordt daarna niet opnieuw getoond.</p>
+    <p><strong>Account:</strong> <span id="createdEmail"></span></p>
+    <p><strong>Tijdelijk wachtwoord:</strong> <code id="createdPassword"></code></p>
+    <button class="btn primary small" type="button" id="copyCredentials">Inloggegevens kopiëren</button>
+   </div>
   <div class="page-header"><div><span class="eyebrow">SchermLoop 2.0</span><h1 id="appTitle">Dashboard</h1><p id="appSubtitle" class="muted"></p></div><a href="/player" target="_blank" rel="noopener" class="btn outline">Open schermspeler ↗</a></div>
   <div id="adminArea" hidden>
    <div class="summary-grid" id="adminStats"></div>
