@@ -21,9 +21,9 @@ Deze checklist beschermt de huidige SchermLoop-installatie. **Een geslaagde GitH
 - [ ] Activeer automatisch geplande back-ups naar een **andere** opslaglocatie, inclusief media, en controleer herstel buiten GitHub.
 - [ ] Importeer een privé-back-up in de testomgeving en vergelijk alle dia's, verborgen PDF-pagina's, tijden en instellingen.
 - [ ] Test minimaal één volledige schooldag op de Windows-mini-pc en televisie, inclusief herstart, netwerkstoring en USB-presentatieklikker.
-- [ ] Sluit OneDrive-autosynchronisatie aan, of kies bewust om voorlopig via handmatige XLSX-import te werken.
+- [ ] Test de nieuwe beveiligde Excel-webhook met een echte Power Automate-flow, of kies voorlopig bewust voor handmatige XLSX-import. Rechtstreekse OneDrive OAuth is nog niet aangesloten.
   - De read-only Microsoft Graph XLSX-lezer is inmiddels aanwezig en getest zonder echte accounts. Nog niet aanwezig: Microsoft OAuth-toestemming, versleuteld bewaren/vernieuwen van klanttokens en de automatische synchronisatieplanning.
-- [ ] Activeer en test twee-factor-authenticatie voor superadmin; de losse TOTP-hulpmodule is nog niet aangesloten op de login.
+- [ ] Activeer de ingebouwde TOTP-tweestapsverificatie voor superadmin op de eigen Coolify-installatie; bewaar herstelcodes apart en controleer de inlog met je telefoon. Automatische tests voor TOTP en eenmalige herstelcodes zijn geslaagd.
 - [ ] Beoordeel rechten op bestaande NU.nl-bron en afbeeldingen; de 2.0-Rijksoverheid-bron is **niet exact gelijk** aan het oude nieuws.
 - [ ] Controleer beveiliging, AVG, accountuitnodigingen, wachtwoordherstel en eventuele verwerkersovereenkomsten vóór betalende klanten.
 - [ ] Maak een verifieerbare back-up van de bestaande `schermloop-private`-repository met de actuele mediabestanden en instellingen.
@@ -38,3 +38,5 @@ De huidige ontwikkelbranch is openbaar. Er zijn geen schoolmedia, klantwachtwoor
 ## Back-up-instructies
 
 Zie [INSTALLATIE-COOLIFY.md](INSTALLATIE-COOLIFY.md) voor het maken, verifiëren en veilig opslaan van een back-up. De scripts zijn ontworpen voor een bestaande Docker Compose-stack en zijn niet automatisch gepland.
+
+- [ ] Controleer dat het Excel-webhook na sleutelrotatie en uitschakelen geen updates meer accepteert. De uitgebreide automatische integratietest hiervoor kon niet worden opgeslagen; deze functie is nog niet afgetekend voor productie.
