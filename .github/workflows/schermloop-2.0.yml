@@ -62,6 +62,12 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: read
+    env:
+      ADMIN_EMAIL: beheer@example.test
+      SERVICE_PASSWORD_64_SCHERMLOOPDB: temporary-ci-database-password-123456789012345678901234567890
+      SERVICE_PASSWORD_64_SCHERMLOOPSECRET: temporary-ci-app-secret-123456789012345678901234567890
+      SERVICE_PASSWORD_64_SCHERMLOOPADMIN: temporary-ci-admin-password-123456789012345678901234567890
+      SERVICE_URL_WEB_3000: https://schermloop.example.test
     steps:
       - uses: actions/checkout@v4
       - name: Docker-image bouwen zonder geheime tokens
@@ -71,3 +77,13 @@ jobs:
           docker run --rm --entrypoint node schermloop2:ci --version
           docker run --rm --entrypoint libreoffice schermloop2:ci --version
           docker run --rm --entrypoint pdftoppm schermloop2:ci -v 2>&1 | head -n 1
+      - name: Start complete tijdelijke Coolify-opstelling
+        run: |
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci up -d --build --wait --wait-timeout 180
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci ps
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci exec -T web node -e "fetch('http://127.0.0.1:3000/healthz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+      - name: Stop en verwijder tijdelijke testdatabase
+        if: always()
+        run: |
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci down -v --remove-orphans
+
