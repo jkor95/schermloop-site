@@ -49,7 +49,8 @@
   if(Number.isFinite(data?.current?.humidity))detail.append(element('p','', 'Luchtvochtigheid '+Math.round(data.current.humidity)+'%'));
   current.append(detail);wrap.append(current);
   addRainChart(wrap,data);
-  wrap.append(element('p','weather-attribution',(data?.stale?'Laatst bekende verwachting · ':'')+'Weergegevens: MET Norway · CC BY 4.0 · Plaatsnamen: GeoNames'));
+  const credit=element('p','weather-attribution',(data?.stale?'Laatst bekende verwachting · ':'')+'Weergegevens: MET Norway · Plaatsnamen: GeoNames · ');
+  const license=element('a','','CC BY 4.0');license.href='https://creativecommons.org/licenses/by/4.0/';license.target='_blank';license.rel='noopener noreferrer';credit.append(license);wrap.append(credit);
   into.append(wrap);
  }
  function renderCorner(into,data){
