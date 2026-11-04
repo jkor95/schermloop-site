@@ -234,6 +234,7 @@ app.delete('/api/items/:id',requireAuth,asyncHandler(async(req,res)=>{
  const key=r.rows[0].storage_key;if(key&&/^[a-f0-9-]{36}\.[a-z0-9]+$/i.test(key))await fs.promises.rm(path.join(storage,key),{force:true});
  res.json({ok:true});
 }));
+require('./weather-routes')(app,{requireAuth,requireDevice,asOrg,owner,err,db});
 app.use((error,req,res,next)=>{
  if(res.headersSent)return next(error);
  const status=error.code==='23505'?409:error instanceof multer.MulterError?400:error.status||500;
