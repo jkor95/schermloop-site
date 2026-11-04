@@ -13,6 +13,11 @@ function safeRead(root,relative){
  if(!full.startsWith(base+path.sep)||!fs.statSync(full).isFile())throw Error('Ongeldig mediabestand in de bron.');
  return full;
 }
+function pageOption(overrides,pageIndex){
+ if(Array.isArray(overrides))return overrides[pageIndex];
+ if(overrides&&typeof overrides==='object'&&!Array.isArray(overrides))return overrides[String(pageIndex+1)];
+ return undefined;
+}
 function duration(v,fallback=10){const n=Number(v);return Number.isFinite(n)&&n>0?Math.max(2,Math.min(600,Math.round(n))):fallback;}
 async function toPages(file,folder){
  const info=await exec('pdfinfo',[file],{timeout:15000});
@@ -63,8 +68,8 @@ async function collectLegacy(root,temp,store,playlist){
      id:id(),title:parts.length>1?String(item.name||'Document').slice(0,100)+' ('+(num+1)+'/'+parts.length+')':String(item.name||'Dia').slice(0,120),
      kind:['.mp4','.webm'].includes(extension)?'video':'image',
      storageKey:key,mime:mime[extension],
-     duration:duration(Array.isArray(item.slideDurations)?item.slideDurations[num]:undefined,duration(item.duration)),
-     enabled:item.enabled!==false&&(!Array.isArray(item.slideEnabled)||item.slideEnabled[num]!==false),
+     duration:duration(pageOption(item.slideDurations,num),duration(item.duration)),
+     enabled:item.enabled!==false&&pageOption(item.slideEnabled,num)!==false,
      position:output.length+1
     });
    }
@@ -72,4 +77,4 @@ async function collectLegacy(root,temp,store,playlist){
   return {items:output,created:files};
  }catch(e){for(const f of files)await fs.promises.rm(f,{force:true});throw e;}
 }
-module.exports={safeRead,duration,toPages,translateSettings,translateAnnouncements,collectLegacy};
+module.exports={safeRead,duration,pageOption,toPages,translateSettings,translateAnnouncements,collectLegacy};
