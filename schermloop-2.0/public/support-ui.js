@@ -15,6 +15,7 @@ async function openSupport(org){
 }
 async function refreshSupport(){
  const data=await supportCall();
+ const legacy=await api('/release/legacy-status').catch(()=>null);
  $('supportCompanyTitle').textContent=data.organization.name;
  const screens=$('supportScreens');screens.replaceChildren();
  if(!data.screens.length)screens.append(node('p','muted','Geen schermen toegevoegd.'));
@@ -31,6 +32,24 @@ async function refreshSupport(){
    await supportCall('/screens/'+screen.id+'/disconnect',{method:'POST',body:{}});
    message('Schermkoppeling ingetrokken en geregistreerd.');await refreshSupport();
   },true));
+  if(legacy?.sourceReady&&!screen.paired&&!data.items.some(x=>x.screen_id===screen.id)){
+   actions.append(button('Oude SchermLoop importeren',()=>modal(
+    'Bestaande presentatie veilig importeren',[
+     {name:'current_password',label:'Je hoofdbeheerwachtwoord',type:'password'},
+     {name:'news_policy',label:'Nieuwsbron: typ RIJK voor Rijksoverheid of UIT om nieuws uit te schakelen'}
+    ],async v=>{
+     const choice=String(v.news_policy||'').trim().toUpperCase();
+     const news_policy=choice==='RIJK'?'rijksoverheid':choice==='UIT'?'disable':null;
+     if(!news_policy)throw Error('Typ RIJK of UIT voor de nieuwsbron.');
+     if(!confirm('De oude presentatie uit de privé-back-up importeren naar het LEGE scherm '+screen.name+'? De oude versie blijft ongewijzigd.'))return;
+     const result=await api('/release/import-legacy',{method:'POST',body:{
+      organization_id:supportState.id,screen_id:screen.id,current_password:v.current_password,
+      news_policy,confirm:true
+     }});
+     message(result.imported+' dia\'s geïmporteerd uit '+result.sourceSlides+' bronitems. Het scherm blijft voorlopig uitgeschakeld.');
+     await refreshSupport();
+    },'Import uitvoeren'),true));
+  }
   row.append(left,actions);screens.append(row);
  }
  const users=$('supportUsers');users.replaceChildren();
