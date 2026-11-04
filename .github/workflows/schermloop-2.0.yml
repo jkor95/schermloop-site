@@ -99,6 +99,20 @@ jobs:
           FILE="$(find "$RUNNER_TEMP/schermloop-backups" -name 'schermloop2-*.tar.gz' -print -quit)"
           test -n "$FILE"
           bash schermloop-2.0/scripts/verify-backup.sh "$FILE"
+      - name: Herstel back-up naar aparte tijdelijke PostgreSQL-database
+        run: |
+          FILE="$(find "$RUNNER_TEMP/schermloop-backups" -name 'schermloop2-*.tar.gz' -print -quit)"
+          mkdir -p "$RUNNER_TEMP/schermloop-restore"
+          tar -xzf "$FILE" -C "$RUNNER_TEMP/schermloop-restore"
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci exec -T db createdb -U schermloop schermloop_restore_ci
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci exec -T db pg_restore -U schermloop -d schermloop_restore_ci --no-owner --no-acl < "$RUNNER_TEMP/schermloop-restore/database.dump"
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci exec -T db psql -U schermloop -d schermloop_restore_ci -tAc "SELECT count(*) FROM users" | grep -E '^[1-9][0-9]*
+        if: always()
+        run: |
+          docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci down -v --remove-orphans
+
+
+          tar -tzf "$RUNNER_TEMP/schermloop-restore/media.tar.gz" > /dev/null
       - name: Stop en verwijder tijdelijke testdatabase
         if: always()
         run: |
