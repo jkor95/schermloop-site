@@ -100,3 +100,8 @@ CREATE TABLE IF NOT EXISTS mfa_recovery_codes(
  created_at timestamptz NOT NULL DEFAULT now(),
  PRIMARY KEY(user_id,code_hash)
 );
+
+-- Voor Excel/OneDrive-automatisering: per scherm een intrekbaar geheim,
+-- nooit in plaintext in de database.
+ALTER TABLE screens ADD COLUMN IF NOT EXISTS excel_sync_hash text;
+ALTER TABLE screens ADD COLUMN IF NOT EXISTS excel_last_sync_at timestamptz;
