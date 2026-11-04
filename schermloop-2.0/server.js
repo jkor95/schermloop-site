@@ -236,6 +236,7 @@ app.delete('/api/items/:id',requireAuth,asyncHandler(async(req,res)=>{
  res.json({ok:true});
 }));
 require('./weather-routes')(app,{requireAuth,requireDevice,asOrg,owner,err,db});
+require('./support')(app,{pool,requireAuth,err,validUuid,validName,sanitizeSchedule,uuid});
 app.use((error,req,res,next)=>{
  if(res.headersSent)return next(error);
  const status=error.code==='23505'?409:error instanceof multer.MulterError?400:error.status||500;
