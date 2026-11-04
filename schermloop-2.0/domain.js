@@ -6,7 +6,7 @@ function validTime(value){return typeof value==='string' && /^([01]\d|2[0-3]):[0
 function sanitizeSchedule(input){
  const x=input && typeof input==='object' ? input : {};
  const days=Array.isArray(x.days)?[...new Set(x.days.map(Number).filter(n=>Number.isInteger(n)&&n>=0&&n<=6))]:[1,2,3,4,5];
- return {enabled:x.enabled===true,days,on:validTime(x.on)?x.on:'07:30',off:validTime(x.off)?x.off:'18:00',clock:x.clock!==false,background:['black','blur','color'].includes(x.background)?x.background:'black',backgroundColor:/^#[0-9A-Fa-f]{6}$/.test(x.backgroundColor||'')?x.backgroundColor:'#172638',tickerEnabled:x.tickerEnabled===true,tickerText:typeof x.tickerText==='string'?x.tickerText.slice(0,500):''};
+ return {enabled:x.enabled===true,days,on:validTime(x.on)?x.on:'07:30',off:validTime(x.off)?x.off:'18:00',clock:x.clock!==false,background:['black','blur','color'].includes(x.background)?x.background:'black',backgroundColor:/^#[0-9A-Fa-f]{6}$/.test(x.backgroundColor||'')?x.backgroundColor:'#172638',tickerEnabled:x.tickerEnabled===true,tickerText:typeof x.tickerText==='string'?x.tickerText.slice(0,500):'',weatherPage:x.weatherPage===true,weatherCorner:x.weatherCorner===true,weatherDuration:Number.isInteger(Number(x.weatherDuration))?Math.min(600,Math.max(5,Number(x.weatherDuration))):20};
 }
 function isScheduleActive(settings,date=new Date()){
  if(!settings?.enabled)return true;
