@@ -247,6 +247,7 @@ async function restoreLastPresentation(){
   const snapshot=await store.get('last-presentation');
   if(!snapshot||!snapshot.screen||!Array.isArray(snapshot.items))return false;
   activeScreen=snapshot.screen;slides=snapshot.items;pos=0;
+  const news=await store.get('last-news');if(news?.headlines)newsSnapshot=news;
   const weather=await store.get('last-weather');
   if(weather?.location?.name===activeScreen.weather_location?.name)weatherSnapshot=weather;
   setLabel(activeScreen.name+' · Offline kopie');
@@ -267,16 +268,18 @@ async function synchronize(){
   if(locationChanged){weatherSnapshot=null;weatherLastFetch=0;}
   const baseSlides=Array.isArray(r.items)?r.items:[];
   slides=activeScreen.settings?.weatherPage?[...baseSlides,{id:'schermloop-weather',kind:'weather',title:'Weerbericht',duration:activeScreen.settings.weatherDuration||20}]:baseSlides;
+  if(activeScreen.settings?.newsEnabled&&activeScreen.settings.newsMode==='slides')slides.push({id:'schermloop-news',kind:'news',title:'Nieuws',duration:activeScreen.settings.newsDuration||20});
   const signature=JSON.stringify({slides,settings:activeScreen.settings,weatherLocation:activeScreen.weather_location});
   clearExpiredAssets();
   if(pos>=slides.length)pos=0;
   applySchedule();clock();updateTicker();updateWeatherCorner();
   if(signature!==prev&&!paused)renderSlide();
   if(activeScreen.settings?.weatherPage||activeScreen.settings?.weatherCorner)refreshWeather(locationChanged).catch(()=>{});
+  if(activeScreen.settings?.newsEnabled)refreshNews().catch(()=>{});
   window.SchermLoopOffline?.put('last-presentation',{screen:activeScreen,items:slides,savedAt:Date.now()}).catch(()=>{});
   warmOfflineMedia().catch(()=>{});
  }catch(e){
-  if(e.status===401){window.SchermLoopOffline?.clear().catch(()=>{});deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
+  if(e.status===401){window.SchermLoopOffline?.clear().catch(()=>{});deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;newsSnapshot=null;newsLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
   else failConnection('Server niet bereikbaar. We proberen het opnieuw. '+e.message);
  }
