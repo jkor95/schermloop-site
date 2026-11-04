@@ -44,3 +44,17 @@ Deze installatie maakt een nieuwe webapp en een **nieuwe PostgreSQL-database**. 
 - `Service cannot start: PUBLIC_URL must use HTTPS` → configureer eerst HTTPS in Coolify.
 
 Voorlopig alleen deze afzonderlijke testapp plaatsen. **De originele SchermLoop op main en de bestaande private repository blijven onveranderd.**
+
+## Back-up en gecontroleerd herstel
+
+De app heeft nu twee scripts voor een volledige back-up van **de database en de geüploade mediabestanden**. Deze werken op een host waarop de SchermLoop 2.0 Compose-stack actief is en Docker Compose is geïnstalleerd.
+
+- `bash scripts/backup-stack.sh /veilig/prive-backup-pad COMPOSE_PROJECT` maakt een nieuw archief. De bestaande database en mediabestanden worden niet gewijzigd.
+- `bash scripts/verify-backup.sh /veilig/prive-backup-pad/schermloop2-DATUM.tar.gz` controleert beide bestandscontrolesommen en of het archief leesbaar is.
+- Zoek de exacte Compose-projectnaam op in Coolify of via `docker compose ls`. De standaardprojectnaam in het script is alleen voor de GitHub-testomgeving, **niet** automatisch je eigen Coolify-project.
+- Bewaar een extra versleutelde kopie op een andere machine of externe opslag. De back-up bevat persoonlijke gegevens; zet hem nooit in een openbare repository.
+- Behoud ook je oorspronkelijke `APP_SECRET` veilig: versleutelde gegevens kunnen na herstel dezelfde geheime sleutel nodig hebben. Deel hem niet via de chat.
+- Zet de gegevens nooit rechtstreeks terug in een bestaande of gevulde productiedatabase. De GitHub-test bouwt de back-up daarom terug op in een **andere tijdelijke database**.
+- De database en mediabestanden worden na elkaar opgeslagen. Voer een volledige back-up bij voorkeur uit terwijl niemand presentaties uploadt of wijzigt; een gelijktijdige wijziging kan anders tot verschillen tussen beide snapshots leiden.
+
+**Automatische dagelijkse back-ups en een externe opslaglocatie worden pas geactiveerd zodra de nieuwe omgeving daadwerkelijk in Coolify is aangemaakt.** De scripts maken nog geen autonome planning.
