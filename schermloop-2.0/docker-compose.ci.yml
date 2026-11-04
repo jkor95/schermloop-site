@@ -1,0 +1,8 @@
+# Alleen voor GitHub Actions browser-smoke; nooit gebruiken als productieconfiguratie.
+services:
+  web:
+    environment:
+      NODE_ENV: test
+      PUBLIC_URL: http://127.0.0.1:3785
+    ports:
+      - "127.0.0.1:3785:3000"
