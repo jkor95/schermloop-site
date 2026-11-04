@@ -25,3 +25,20 @@ test('Gewone presentatie hoeft niet handmatig beoordeeld te worden',()=>{
  const r=summarizeLegacy({items:[{type:'image',path:'x.png',duration:10}]},{},{items:[]});
  assert.equal(r.requiresManualReview,false);
 });
+
+test('Voorcontrole telt ontbrekende en onveilige oude mediapaden',()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'sl2-legacy-'));
+ try{
+  fs.mkdirSync(path.join(dir,'media'),{recursive:true});
+  fs.writeFileSync(path.join(dir,'media','ok.png'),Buffer.from('test'));
+  const {checkMediaFiles}=require('../legacy-audit');
+  const result=checkMediaFiles(dir,{items:[
+   {path:'media/ok.png'},{path:'media/missing.pdf'},{path:'../../bad.txt'}
+  ]});
+  assert.equal(result.found,1);
+  assert.equal(result.missing,1);
+  assert.equal(result.unsafe,1);
+  assert.equal(result.ready,false);
+ }finally{fs.rmSync(dir,{recursive:true,force:true});}
+});
