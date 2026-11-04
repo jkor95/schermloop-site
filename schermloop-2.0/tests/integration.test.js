@@ -59,6 +59,18 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
 
  const screen=await request('/api/screens',{method:'POST',cookie:A,body:{name:'Receptie A'}});
  assert.equal(screen.status,201);const id=screen.data.id;
+ const supportRoute=base+'/api/support/organizations/'+orgA.data.id;
+ const unauthorisedSupport=await fetch(supportRoute,{headers:{Cookie:A,'x-support-reason':'Hulp na melding van klant'}});
+ assert.equal(unauthorisedSupport.status,403,'Klant krijgt geen toegang tot hoofdbeheersupport');
+ const missingReason=await fetch(supportRoute,{headers:{Cookie:admin}});
+ assert.equal(missingReason.status,400,'Hoofdbeheer moet een ondersteuningsreden vermelden');
+ const supportAccess=await fetch(supportRoute,{headers:{Cookie:admin,'x-support-reason':'Klant vraagt hulp bij een presentatie'}});
+ assert.equal(supportAccess.status,200);
+ const supportOverview=await supportAccess.json();
+ assert.equal(supportOverview.organization.id,orgA.data.id);
+ assert.ok(supportOverview.screens.some(x=>x.id===id));
+ assert.ok(!JSON.stringify(supportOverview).includes('password_hash'),'Geen wachtwoorden in supportoverzicht');
+
  assert.equal((await request('/api/screens',{method:'POST',cookie:A,body:{name:'Tweede scherm'}})).status,409,'Één scherm standaard');
  assert.equal((await request('/api/users',{method:'POST',cookie:A,body:{email:'staff@example.test',password:'Strong-Staff-1234'}})).status,409,'Één account standaard');
  assert.equal((await request('/api/screens/'+id+'/items',{cookie:B})).status,404,'Andere klant mag scherm niet zien');
