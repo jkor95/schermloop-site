@@ -8,18 +8,19 @@ function summarizeLegacy(playlist,settings,bulletins){
   const type=String(slide.type||'unknown').toLowerCase();
   byType[type]=(byType[type]||0)+1;
   const duration=Number(slide.duration)||10;
-  const customTimes=Array.isArray(slide.slideDurations)?slide.slideDurations:[];
-  const pageEnabled=Array.isArray(slide.slideEnabled)?slide.slideEnabled:[];
-  if(customTimes.length||pageEnabled.length)warnings.push('Document '+(index+1)+' heeft eigen pagina-instellingen.');
+  const configuredPages=value=>Array.isArray(value)?value.length:value&&typeof value==='object'?Object.keys(value).length:0;
+  const customTimes=configuredPages(slide.slideDurations);
+  const pageEnabled=configuredPages(slide.slideEnabled);
+  if(customTimes||pageEnabled)warnings.push('Document '+(index+1)+' heeft eigen pagina-instellingen.');
   if(!['image','video','pdf','pptx','text'].includes(type))warnings.push('Dia '+(index+1)+' heeft een onbekend bestandstype.');
   return {index,type,name:String(slide.name||''),enabled:slide.enabled!==false,
     duration:Math.min(600,Math.max(2,duration)),
-    mediaPresent:Boolean(slide.path),pagesWithSpecialTiming:customTimes.length,
-    pagesWithSpecialVisibility:pageEnabled.length};
+    mediaPresent:Boolean(slide.path),pagesWithSpecialTiming:customTimes,
+    pagesWithSpecialVisibility:pageEnabled};
  });
  return {slides:mapped,byType,messages:messages.length,
-  supportsWeather:Boolean(settings?.weather),
-  supportsNews:Boolean(settings?.news),
+  supportsWeather:settings?.weather?.enabled===true,
+  supportsNews:settings?.news?.enabled===true,
   supportsClock:typeof settings?.cornerClock==='boolean',
   warnings,requiresManualReview:warnings.length>0};
 }
