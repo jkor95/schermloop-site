@@ -1,0 +1,19 @@
+name: SchermLoop browser-test
+on:
+  push:
+    branches: [schermloop-2.0]
+    paths:
+      - 'schermloop-2.0/public/**'
+      - 'schermloop-2.0/tests/smoke.browser.spec.js'
+      - '.github/workflows/schermloop-browser.yml'
+jobs:
+  browser-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controleer browser-test syntaxis
+        run: node --check schermloop-2.0/tests/smoke.browser.spec.js
