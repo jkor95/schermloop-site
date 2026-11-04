@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id);
 const state={me:null,organizations:[],screens:[],users:[],items:[],selected:null,weatherLocation:null,weatherCandidate:null,weatherSearchId:0};
 const days=[['Ma',1],['Di',2],['Wo',3],['Do',4],['Vr',5],['Za',6],['Zo',0]];
 async function api(url,opts={}){
- const init={method:opts.method||'GET',credentials:'same-origin',headers:{}};
+ const init={method:opts.method||'GET',credentials:'same-origin',headers:{...(opts.headers||{})}};
  if(opts.body instanceof FormData)init.body=opts.body;
  else if(opts.body!==undefined){init.body=JSON.stringify(opts.body);init.headers['Content-Type']='application/json';}
  const r=await fetch('/api'+url,init);
@@ -45,6 +45,7 @@ async function loadAdmin(){
  const r=node('div','list-row'),left=node('div','main');
  left.append(node('strong','',org.name),node('small','',org.users_used+'/'+org.user_limit+' accounts · '+org.screens_used+'/'+org.screen_limit+' schermen'));
  const actions=node('div','actions');
+ actions.append(button('Ondersteunen',()=>openSupport(org),true));
  actions.append(button('Licenties aanpassen',()=>modal('Licenties: '+org.name,[{name:'user_limit',label:'Maximaal aantal accounts',type:'number',min:1,max:500,value:org.user_limit},{name:'screen_limit',label:'Maximaal aantal schermen',type:'number',min:1,max:500,value:org.screen_limit}],async v=>{await api('/organizations/'+org.id+'/licenses',{method:'PATCH',body:v});message('Licenties bijgewerkt.');await loadAdmin();}),true));
  r.append(left,actions);box.append(r);
  }
