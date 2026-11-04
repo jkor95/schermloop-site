@@ -1,14 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-03T21:49:08+00:00",
+    "updatedAt": "2026-11-04T01:43:53+00:00",
     "headlines": [
       {
-        "title": "Spaanse transportminister vertrekt na twee treinrampen in een jaar tijd",
-        "url": "https://www.nu.nl/buitenland/6415412/spaanse-transportminister-vertrekt-na-twee-treinrampen-in-een-jaar-tijd.html",
+        "title": "Feyenoord moet vrezen voor UEFA-straf: vuurwerk op veld en dak van De Kuip",
+        "url": "https://www.nu.nl/voetbal/6415420/feyenoord-moet-vrezen-voor-uefa-straf-vuurwerk-op-veld-en-dak-van-de-kuip.html",
+        "date": "Wed, 04 Nov 2026 02:36:31 +0100",
+        "summary": "De kansloze 0-3-nederlaag van Feyenoord tegen Internazionale heeft mogelijk meer vervelende gevolgen voor de Rotterdamse club. Tijdens de Champions League-wedstrijd werd buiten De Kuip vuurwerk afgeschoten dat op het dak van het stadion en op het veld belandde. Daarmee dreigt een straf van de UEFA.",
+        "imageUrl": "https://images.nu.nl/m/nylxqbeayc4b_sqr256/2349/6/4541/4541/feyenoord-moet-vrezen-voor-uefa-straf-vuurwerk-op-veld-en-dak-van-de-kuip.jpg"
+      },
+      {
+        "title": "Eerste peilingen midterms laten ontevredenheid van kiezers over Trump zien",
+        "url": "https://www.nu.nl/verkiezingen-vs/6415417/eerste-peilingen-midterms-laten-ontevredenheid-van-kiezers-over-trump-zien.html",
+        "date": "Wed, 04 Nov 2026 00:12:59 +0100",
+        "summary": "Amerikaanse kiezers zijn over het algemeen ontevreden over de toestand van het land, de staat van de economie en het functioneren van president Donald Trump, blijkt uit een eerste peiling van onder meer AP . Wat dit uiteindelijk betekent voor de uitslagen, is nog afwachten.",
+        "imageUrl": "https://images.nu.nl/m/gslxg8ka2xem_sqr256/1716/0/5504/5504/eerste-peilingen-midterms-laten-ontevredenheid-van-kiezers-over-trump-zien.jpg"
+      },
+      {
+        "title": "Video | Astronaut vertelt hoe hij vanuit ISS heeft gestemd voor midterms",
+        "url": "https://www.nu.nl/331934/video/astronaut-vertelt-hoe-hij-vanuit-iss-heeft-gestemd-voor-midterms.html",
+        "date": "Tue, 03 Nov 2026 23:02:04 +0100",
+        "summary": "",
+        "imageUrl": "https://images.nu.nl/m/tylxxxia4j5o_sqr256/23/0/454/454/astronaut-vertelt-hoe-hij-vanuit-iss-heeft-gestemd-voor-midterms.jpg"
+      },
+      {
+        "title": "Kuijt loopt weerzien met Liverpool mogelijk mis: Fenerbahçe vindt nieuwe trainer",
+        "url": "https://www.nu.nl/voetbal/6415413/kuijt-loopt-weerzien-met-liverpool-mogelijk-mis-fenerbahce-vindt-nieuwe-trainer.html",
+        "date": "Tue, 03 Nov 2026 22:59:24 +0100",
+        "summary": "Interim-coach Dirk Kuijt van Fenerbahçe loopt woensdag mogelijk een weerzien met zijn oude club Liverpool mis. De Turkse topclub heeft dinsdagavond met Emre Belözoglu een nieuwe trainer gepresenteerd.",
+        "imageUrl": "https://images.nu.nl/m/do9xvjtapxqv_sqr256/1025/0/2626/2626/kuijt-loopt-weerzien-met-liverpool-mogelijk-mis-fenerbahce-vindt-nieuwe-trainer.jpg"
+      },
+      {
+        "title": "Feyenoord verliest kansloos van Internazionale in Champions League",
+        "url": "https://www.nu.nl/voetbal/6415404/feyenoord-verliest-kansloos-van-internazionale-in-champions-league.html",
+        "date": "Tue, 03 Nov 2026 22:55:35 +0100",
+        "summary": "Feyenoord heeft dinsdag een kansloze nederlaag geleden in de Champions League-wedstrijd tegen Internazionale. De Italianen wonnen in De Kuip met 0-3.",
+        "imageUrl": "https://images.nu.nl/m/ly0xqhealsnk_sqr256/1052/0/2854/2854/feyenoord-verliest-kansloos-van-internazionale-in-champions-league.jpg"
+      },
+      {
+        "title": "Spaanse transportminister vertrekt na tweede treinramp in een jaar tijd",
+        "url": "https://www.nu.nl/buitenland/6415412/spaanse-transportminister-vertrekt-na-tweede-treinramp-in-een-jaar-tijd.html",
         "date": "Tue, 03 Nov 2026 22:14:57 +0100",
-        "summary": "De Spaanse minister van Transport Óscar Puente heeft dinsdagavond zijn ontslag aangekondigd na de treinramp nabij Urda vorige week. Daarbij kwamen 69 mensen om. Het is de tweede dodelijke treinramp in nauwelijks een jaar tijd.",
-        "imageUrl": "https://images.nu.nl/m/ryexm69abmo8_sqr256/315/5/2075/2075/spaanse-transportminister-vertrekt-na-twee-treinrampen-in-een-jaar-tijd.jpg"
+        "summary": "De Spaanse transportminister Óscar Puente heeft dinsdagavond zijn ontslag aangekondigd na de treinramp van vorige week, waarbij 69 mensen omkwamen. Het was de tweede dodelijke treinramp in nauwelijks een jaar tijd in Spanje.",
+        "imageUrl": "https://images.nu.nl/m/ryexm69abmo8_sqr256/315/5/2075/2075/spaanse-transportminister-vertrekt-na-tweede-treinramp-in-een-jaar-tijd.jpg"
       },
       {
         "title": "Duitse politie arresteert vermoedelijk brein achter brandstichting Starlink in Polen",
@@ -16,41 +51,6 @@
         "date": "Tue, 03 Nov 2026 21:36:18 +0100",
         "summary": "De man die vermoedelijk opdracht heeft gegeven tot brandstichting bij een Starlink-station in september is dinsdag opgepakt in Duitsland. De Turkse man zou twee landgenoten hebben opgedragen de brand te stichten.",
         "imageUrl": "https://images.nu.nl/m/vkzxf62aen09_sqr256/664/0/2860/2860/duitse-politie-arresteert-vermoedelijk-brein-achter-brandstichting-starlink-in-polen.jpg"
-      },
-      {
-        "title": "Video | Koning en Yesilgöz bezoeken Liverpool: 'Bouwen aan sterker Europa'",
-        "url": "https://www.nu.nl/331933/video/koning-en-yesilgoz-bezoeken-liverpool-samen-bouwen-aan-sterker-europa.html",
-        "date": "Tue, 03 Nov 2026 21:28:01 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/ky0xhriagrii_sqr256/164/0/888/888/koning-en-yesilgoz-bezoeken-liverpool-samen-bouwen-aan-sterker-europa.jpg"
-      },
-      {
-        "title": "Verdachte dodelijke schietpartij in auto Rotterdam is buiten levensgevaar",
-        "url": "https://www.nu.nl/binnenland/6415398/verdachte-dodelijke-schietpartij-in-auto-rotterdam-is-buiten-levensgevaar.html",
-        "date": "Tue, 03 Nov 2026 21:18:52 +0100",
-        "summary": "De 35-jarige man die maandagavond zwaargewond raakte bij een schietpartij in een auto in Rotterdam is buiten levensgevaar. Duikers van de politie hebben diezelfde avond een vuurwapen gevonden. Bij de schietpartij kwam een 36-jarige Dordtenaar om het leven.",
-        "imageUrl": "https://images.nu.nl/m/fpzxoqraslaz_sqr256/304/0/450/450/verdachte-dodelijke-schietpartij-in-auto-rotterdam-is-buiten-levensgevaar.jpg"
-      },
-      {
-        "title": "Live | Voetbal | Malen scoort bij United, bekijk alle Champions League-tussenstanden",
-        "url": "https://www.nu.nl/voetbal/6415397/voetbal-malen-scoort-bij-united-bekijk-alle-champions-league-tussenstanden.html",
-        "date": "Tue, 03 Nov 2026 20:58:16 +0100",
-        "summary": "Zeven Champions League-wedstrijden zijn om 21.00 uur begonnen. Onder meer FC Barcelona, Bayern München en Paris Saint-Germain komen in actie. Bekijk alle tussenstanden.",
-        "imageUrl": "https://images.nu.nl/m/c3cxcluayhye_sqr256/352/0/2832/2832/voetbal-malen-scoort-bij-united-bekijk-alle-champions-league-tussenstanden.jpg"
-      },
-      {
-        "title": "PRO steunt uitwerking stikstofplannen van kabinet: 'Eindelijk actie'",
-        "url": "https://www.nu.nl/politiek/6415401/pro-steunt-uitwerking-stikstofplannen-van-kabinet-eindelijk-actie.html",
-        "date": "Tue, 03 Nov 2026 20:38:42 +0100",
-        "summary": "PRO steunt de uitwerking van de stikstofplannen van Landbouwminister Jaimi van Essen. Kamerlid Laura Bromet is blij dat de minister \"zijn rug recht heeft gehouden\" ondanks kritiek van de boerenorganisaties en de eisen van het rechtse oppositieblok.",
-        "imageUrl": "https://images.nu.nl/m/fyux93vatep5_sqr256/2069/676/3684/3684/pro-steunt-uitwerking-stikstofplannen-van-kabinet-eindelijk-actie.jpg"
-      },
-      {
-        "title": "Japanse dief heeft spijt en stuurt horloge van 250.000 euro terug naar winkel",
-        "url": "https://www.nu.nl/opmerkelijk/6415399/japanse-dief-heeft-spijt-en-stuurt-horloge-van-250000-euro-terug-naar-winkel.html",
-        "date": "Tue, 03 Nov 2026 20:37:14 +0100",
-        "summary": "Een Japanse dief heeft een gestolen horloge ter waarde van 250.000 euro na enkele dagen teruggestuurd naar de winkel. Hij had spijt van de diefstal. De politie is nog altijd naar hem op zoek.",
-        "imageUrl": "https://images.nu.nl/m/w9wxjoraj9ig_sqr256/1397/0/5773/5773/japanse-dief-heeft-spijt-en-stuurt-horloge-van-250000-euro-terug-naar-winkel.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "22:50",
+        "time": "02:45",
         "mmHour": 0.0
       },
       {
-        "time": "22:55",
+        "time": "02:50",
         "mmHour": 0.0
       },
       {
-        "time": "23:00",
+        "time": "02:55",
         "mmHour": 0.0
       },
       {
-        "time": "23:05",
+        "time": "03:00",
         "mmHour": 0.0
       },
       {
-        "time": "23:10",
+        "time": "03:05",
         "mmHour": 0.0
       },
       {
-        "time": "23:15",
+        "time": "03:10",
         "mmHour": 0.0
       },
       {
-        "time": "23:20",
+        "time": "03:15",
         "mmHour": 0.0
       },
       {
-        "time": "23:25",
+        "time": "03:20",
         "mmHour": 0.0
       },
       {
-        "time": "23:30",
+        "time": "03:25",
         "mmHour": 0.0
       },
       {
-        "time": "23:35",
+        "time": "03:30",
         "mmHour": 0.0
       },
       {
-        "time": "23:40",
+        "time": "03:35",
         "mmHour": 0.0
       },
       {
-        "time": "23:45",
+        "time": "03:40",
         "mmHour": 0.0
       },
       {
-        "time": "23:50",
+        "time": "03:45",
         "mmHour": 0.0
       },
       {
-        "time": "23:55",
+        "time": "03:50",
         "mmHour": 0.0
       },
       {
-        "time": "00:00",
+        "time": "03:55",
         "mmHour": 0.0
       },
       {
-        "time": "00:05",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "04:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "04:40",
         "mmHour": 0.0
       }
     ],
-    "temperature": 6.0,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": 5.6,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-03T21:49:08+00:00",
-    "rainUpdatedAt": "2026-11-03T21:49:08+00:00"
+    "weatherUpdatedAt": "2026-11-04T01:43:53+00:00",
+    "rainUpdatedAt": "2026-11-04T01:43:54+00:00"
   }
 }
