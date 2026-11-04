@@ -181,6 +181,23 @@ async function renderSlide(){
   }
  }
 }
+async function refreshNews(force=false){
+ if(!activeScreen?.settings?.newsEnabled||!screenSessionToken)return;
+ if(newsPending)return newsPending;
+ if(!force&&newsSnapshot&&Date.now()-newsLastFetch<30*60*1000)return;
+ newsPending=(async()=>{
+  try{
+   const data=await request('/player/news',{token:screenSessionToken});
+   newsSnapshot=data;newsLastFetch=Date.now();
+   window.SchermLoopOffline?.put('last-news',data).catch(()=>{});
+   updateTicker();
+   if(slides[pos]?.kind==='news'&&!paused)window.SchermLoopNewsView?.render($('slide'),newsSnapshot);
+  }catch(e){
+   if(!newsSnapshot&&slides[pos]?.kind==='news'&&!paused)window.SchermLoopNewsView?.render($('slide'),null);
+  }finally{newsPending=null;}
+ })();
+ return newsPending;
+}
 function updateTicker(){
  const settings=activeScreen?.settings||{},label=String(settings.tickerText||'').trim();
  const visible=settings.tickerEnabled===true&&label.length>0&&!paused;
