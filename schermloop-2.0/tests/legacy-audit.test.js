@@ -42,3 +42,12 @@ test('Voorcontrole telt ontbrekende en onveilige oude mediapaden',()=>{
   assert.equal(result.ready,false);
  }finally{fs.rmSync(dir,{recursive:true,force:true});}
 });
+
+test('PDF-objectinstellingen uit bestaande privéomgeving geven migratiewaarschuwing',()=>{
+ const source={items:[{name:'PDF',type:'pdf',path:'media/doc.pdf',slideDurations:{'1':17,'3':23},slideEnabled:{'2':false}}]};
+ const report=summarizeLegacy(source,{news:{enabled:false},weather:{enabled:false}},{items:[]});
+ assert.equal(report.slides[0].pagesWithSpecialTiming,2);
+ assert.equal(report.slides[0].pagesWithSpecialVisibility,1);
+ assert.equal(report.requiresManualReview,true);
+ assert.equal(report.supportsNews,false);
+});
