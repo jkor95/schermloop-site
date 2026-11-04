@@ -81,3 +81,7 @@ CREATE TABLE IF NOT EXISTS support_events (
 );
 CREATE INDEX IF NOT EXISTS idx_support_events_org_time
  ON support_events(organization_id,created_at DESC);
+
+-- Klantlocatie voor alle gekoppelde presentatieschermen.
+ALTER TABLE organizations ADD COLUMN IF NOT EXISTS weather_location jsonb NOT NULL
+ DEFAULT '{"name":"Dordrecht","country":"NL","lat":51.8133,"lon":4.6901}'::jsonb;
