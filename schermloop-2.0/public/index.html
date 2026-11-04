@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#101d32">
 <title>SchermLoop 2.0 | Beheer</title>
 <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/weather.css">
-<script src="/dashboard.js" defer></script><script src="/support-ui.js" defer></script>
+<script src="/dashboard.js" defer></script><script src="/support-ui.js" defer></script><script src="/mfa-ui.js" defer></script>
 </head>
 <body>
 <header class="topbar">
@@ -20,6 +20,9 @@
    <h2>Inloggen</h2><p class="muted">Gebruik je SchermLoop-account.</p>
    <label>E-mailadres<input required id="email" type="email" autocomplete="username" placeholder="naam@bedrijf.nl"></label>
    <label>Wachtwoord<input required id="password" type="password" autocomplete="current-password" placeholder="Minimaal 12 tekens"></label>
+   <label id="mfaLoginRow" hidden>Authenticatorcode of eenmalige herstelcode
+    <input id="mfaLoginCode" type="text" autocomplete="one-time-code" autocapitalize="off" spellcheck="false" placeholder="6 cijfers of 20 tekens" maxlength="20">
+   </label>
    <button class="btn primary" type="submit">Inloggen</button><p id="loginError" class="error" role="alert"></p>
   </form>
  </section>
@@ -35,6 +38,27 @@
   <div class="page-header"><div><span class="eyebrow">SchermLoop 2.0</span><h1 id="appTitle">Dashboard</h1><p id="appSubtitle" class="muted"></p></div><a href="/player" target="_blank" rel="noopener" class="btn outline">Open schermspeler ↗</a></div>
   <div id="adminArea" hidden>
    <div class="summary-grid" id="adminStats"></div>
+   <section class="panel" id="mfaPanel" style="margin-bottom:18px">
+    <div class="section-heading"><div><h2>Beveiliging van hoofdbeheer</h2><p class="muted small" id="mfaStatus">Tweestapsverificatie controleren...</p></div><button type="button" class="btn outline small" id="mfaManageBtn">Instellen</button></div>
+    <p class="muted small">Beveilig jouw hoofdaccount met een authenticator-app. Je ontvangt eenmalige herstelcodes voor als je telefoon niet beschikbaar is.</p>
+    <section id="mfaSetup" hidden>
+      <p><strong>Stap 1:</strong> voeg het account handmatig toe in je authenticator-app met deze instelsleutel. Dit is een geheim: deel het niet.</p>
+      <p><code id="mfaSecret"></code></p>
+      <a id="mfaOpenApp" href="#" class="btn outline small">Open authenticator-app</a>
+      <form id="mfaConfirmForm" class="form-stack">
+       <label>Stap 2: voer de 6-cijferige code uit je authenticator in
+        <input id="mfaConfirmCode" inputmode="numeric" maxlength="6" pattern="[0-9]{6}" autocomplete="one-time-code" required></label>
+       <button class="btn primary small" type="submit">Tweestapsverificatie inschakelen</button>
+      </form>
+    </section>
+    <section id="mfaRecovery" hidden>
+      <p><strong>Bewaar deze herstelcodes nu veilig.</strong> Iedere code werkt maar één keer. Ze worden niet opnieuw getoond.</p>
+      <pre id="mfaRecoveryCodes" class="mfa-recovery-codes"></pre>
+      <button type="button" id="mfaCopyCodes" class="btn outline small">Herstelcodes kopiëren</button>
+      <button type="button" id="mfaHideCodes" class="btn outline small">Codes verbergen</button>
+    </section>
+    <p class="error" id="mfaError" role="alert"></p>
+   </section>
    <section class="panel"><div class="section-heading"><h2>Bedrijven</h2><button id="addOrgBtn" class="btn primary small">+ Bedrijf toevoegen</button></div><div id="organizations" class="stack"></div></section>
    <section class="panel" id="supportPanel" style="margin-top:18px" hidden>
   <div class="section-heading"><div><span class="eyebrow">Opperhoofdbeheer · Support</span><h2 id="supportCompanyTitle">Bedrijfsondersteuning</h2></div><button class="btn outline small" type="button" id="closeSupport">Sluiten</button></div>
