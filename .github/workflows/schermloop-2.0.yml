@@ -54,6 +54,8 @@ jobs:
           node --check public/service-worker.js
           node --check excel-announcements.js
           node --check excel-routes.js
+          node --check excel-sync-routes.js
+          node --check public/excel-sync-ui.js
           node --check legacy-audit.js
           node --check legacy-import-utils.js
           node --check scripts/import-old.js
