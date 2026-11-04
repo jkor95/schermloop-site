@@ -4,7 +4,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const os=require('node:os');
 const path=require('node:path');
-const {collectLegacy,translateSettings,translateAnnouncements,safeRead}=require('../legacy-import-utils');
+const {collectLegacy,translateSettings,translateAnnouncements,safeRead,pageOption}=require('../legacy-import-utils');
 test('Oude afbeeldingsdia wordt gekopieerd met tijd, volgorde en zichtbaarheid',async()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'sl2-original-'));
  const temp=fs.mkdtempSync(path.join(os.tmpdir(),'sl2-page-'));
@@ -45,4 +45,15 @@ test('NU.nl wordt niet stilzwijgend overgenomen maar expliciet vervangen',()=>{
  assert.equal(replaced.newsEnabled,true);
  assert.equal(replaced.newsMode,'slides');
  assert.equal(replaced.newsDuration,21);
+});
+
+test('Oude PDF-paginanummers zijn 1-gebaseerde objectsleutels',()=>{
+ const durations={'1':12,'3':29};
+ const visible={'2':false,'3':true};
+ assert.equal(pageOption(durations,0),12);
+ assert.equal(pageOption(durations,1),undefined);
+ assert.equal(pageOption(durations,2),29);
+ assert.equal(pageOption(visible,1),false);
+ assert.equal(pageOption(visible,2),true);
+ assert.equal(pageOption([12,29],1),29,'Ook oudere arrayvormen blijven ondersteund');
 });
