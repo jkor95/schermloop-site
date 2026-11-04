@@ -92,6 +92,13 @@ jobs:
           docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci up -d --build --wait --wait-timeout 180
           docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci ps
           docker compose -f schermloop-2.0/docker-compose.coolify.yml --project-directory schermloop-2.0 -p schermloop2-ci exec -T web node -e "fetch('http://127.0.0.1:3000/healthz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+      - name: Back-up maken en integriteit controleren
+        run: |
+          mkdir -p "$RUNNER_TEMP/schermloop-backups"
+          bash schermloop-2.0/scripts/backup-stack.sh "$RUNNER_TEMP/schermloop-backups" schermloop2-ci
+          FILE="$(find "$RUNNER_TEMP/schermloop-backups" -name 'schermloop2-*.tar.gz' -print -quit)"
+          test -n "$FILE"
+          bash schermloop-2.0/scripts/verify-backup.sh "$FILE"
       - name: Stop en verwijder tijdelijke testdatabase
         if: always()
         run: |
