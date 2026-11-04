@@ -47,7 +47,7 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 
 - De opperhoofdbeheerder kan bedrijven, schermen, accounts, dia's en supportgeschiedenis bekijken.
 - Op klantverzoek kan hoofdbeheer een tijdelijk nieuw wachtwoord maken. De actie vereist een reden, wordt vastgelegd zonder het wachtwoord in de auditlog en trekt oude inlogsessies in.
-- De klant ontvangt het herstelwachtwoord uitsluitend via een door hoofdbeheer gekozen veilige route; automatische e-mailaflevering en tweestapsverificatie zijn nog niet ingebouwd. Dit zijn vereisten voor commerciële uitrol.
+- De klant ontvangt het herstelwachtwoord uitsluitend via een door hoofdbeheer gekozen veilige route; automatische e-mailaflevering ontbreekt nog. Optionele tweestapsverificatie met herstelcodes is inmiddels ingebouwd, maar moet op de eigen server door de superadmin worden geactiveerd en getest. Dit zijn vereisten voor commerciële uitrol.
 
 ## Status en aandachtspunten
 
@@ -90,7 +90,7 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - CI test nu ook de volledige Coolify Compose-stack: bouwt een eigen Docker-image, start PostgreSQL + SchermLoop, controleert `/healthz` en ruimt de tijdelijke testdata op.
 - Inlogwachtwoorden zijn via het dashboard te wijzigen (ook hoofdbeheer). Nieuwe accounts tonen tijdelijk een kopieerbaar eenmalig wachtwoord.
 - Coolify gebruikt een eigen database en twee blijvende Docker-volumes. Er wordt niets in de huidige SchermLoop-database geschreven.
-- **Nog geen commerciële productie:** onafhankelijke back-ups en hersteltest, herstel van wachtwoorden, formele AVG-documentatie, externe beveiligingscontrole en de resterende nieuws/Excel/OneDrive/PowerPoint-functies ontbreken nog.
+- **Nog geen commerciële productie:** onafhankelijke back-ups en hersteltest, herstel van wachtwoorden, formele AVG-documentatie, externe beveiligingscontrole en rechtstreekse OneDrive OAuth, interactieve PowerPoint-animaties en enkele commerciële functies ontbreken nog.
 
 ## Nieuws en rechten
 
@@ -100,7 +100,7 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 
 ## Mededelingen en offline
 
-- Excel-mededelingen: importeer .xlsx met Titel, Tekst, Seconden en Tonen; max. 50 actieve regels. De vorige Excel-import wordt alleen met bevestiging vervangen, handmatige dia's blijven bestaan. Rechtstreekse automatische OneDrive-synchronisatie volgt nog.
+- Excel-mededelingen: importeer .xlsx met Titel, Tekst, Seconden en Tonen; max. 50 actieve regels. De vorige Excel-import wordt alleen met bevestiging vervangen, handmatige dia's blijven bestaan. Een beveiligde Power Automate-webhook kan per scherm Excelregels automatisch bijwerken. Rechtstreekse Microsoft-aanmelding binnen SchermLoop is nog niet beschikbaar.
 - Bij ondersteunde browsers bewaart de speler na succesvolle synchronisatie een lokale afspeellijst, maximaal 30 voor te laden mediabestanden en de laatst opgehaalde weer- en nieuwsgegevens. De opslag is afhankelijk van browserquota. Er is een service worker die de speler offline kan openen. Een definitief ingetrokken scherm kan zonder netwerkverbinding niet direct worden gestopt.
 
 ## Migratie van de vorige versie
@@ -109,3 +109,15 @@ bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 - `node scripts/import-old.js <pad-naar-bestaande-back-up>` is eveneens een dry-run. Met `--apply` en afzonderlijke `TARGET_ORG_ID` en `TARGET_SCREEN_ID` kan een beheerder data uitsluitend in een leeg, nog niet gekoppeld testscherm importeren. Er worden geen bronbestanden aangepast; foutieve imports worden teruggedraaid.
 - Een actieve oude NU.nl-nieuwsinstelling blokkeert standaard een volledige import zolang er geen rechten/oplossing voor zijn; uitsluitend tijdens interne proefimport is `--test-without-news` mogelijk.
 - De vorige private repository blijft staan als terugvalpunt totdat alle functies zijn gecontroleerd.
+
+## Accountbeveiliging voor hoofdbeheer
+
+- SchermLoop 2.0 ondersteunt nu TOTP-tweestapsverificatie voor het superadmin-account. De eigenaar schakelt dit zelf in in het dashboard via een authenticator-app. De sleutels worden versleuteld opgeslagen.
+- Bij activatie worden 10 eenmalige herstelcodes gegenereerd, waarvan uitsluitend hashes in de database staan.
+- Een tweede factor is vereist bij iedere **nieuwe** superadmin-aanmelding nadat 2FA is ingeschakeld. Een wachtwoord alleen geeft dan geen sessiecookie.
+- Het uitschakelen van 2FA vereist het huidige wachtwoord plus een geldige authenticator- of herstelcode. Bewaar een herstelcode buiten de server.
+- Uitgifte, opslag en inlog zijn in GitHub-integratietests getest. Activatie op de echte server en een live authenticator-praktijktest staan nog open.
+
+## Automatische Excel-mededelingen
+
+Zie [EXCEL-ONEDRIVE-AUTOMATISERING.md](EXCEL-ONEDRIVE-AUTOMATISERING.md). De bedrijfsbeheerder kan per scherm een HTTPS-webhook met intrekbare sleutel aanmaken. Die kan via een externe Power Automate-flow worden gevoed vanuit OneDrive. Dit is nog **geen ingebouwde Microsoft OAuth-verbinding** en de werking met een echte Power Automate-omgeving moet nog worden getest.
