@@ -65,6 +65,15 @@ test('Hoofdbeheer, bedrijf en scherm doorlopen de volledige koppeling',async({br
   const saved=await window.SchermLoopOffline.get('last-presentation');
   return saved?.items?.some(item=>item.text_body==='Excel-import is actief')===true;
  }),{timeout:25000}).toBe(true);
+ await player.route('**/api/player/news',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({
+  source:'Rijksoverheid',headlines:['Testnieuws op het scherm','Tweede bericht'],updatedAt:new Date().toISOString(),stale:false
+ })}));
+ await page.locator('#newsEnabled').check();
+ await page.locator('#newsMode').selectOption('slides');
+ await page.locator('#settingsForm button[type=submit]').click();
+ await expect.poll(()=>player.evaluate(()=>typeof slides!=='undefined'&&slides.some(item=>item.kind==='news')),{timeout:25000}).toBe(true);
+ await player.keyboard.press('End');
+ await expect(player.locator('#slide')).toContainText('Testnieuws op het scherm',{timeout:15000});
 
  await expect.poll(()=>player.evaluate(async()=>{
   const saved=await window.SchermLoopOffline.get('last-presentation');
