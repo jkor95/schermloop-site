@@ -43,6 +43,12 @@ schermloop-2.0/Dockerfile, PostgreSQL-database apart via Coolify en
 persistent volume voor STORAGE_DIR=/app/storage. De bijgevoegde compose is
 bedoeld voor lokale tests. De productieapp is nog niet gedeployed.
 
+## Support en accountveiligheid
+
+- De opperhoofdbeheerder kan bedrijven, schermen, accounts, dia's en supportgeschiedenis bekijken.
+- Op klantverzoek kan hoofdbeheer een tijdelijk nieuw wachtwoord maken. De actie vereist een reden, wordt vastgelegd zonder het wachtwoord in de auditlog en trekt oude inlogsessies in.
+- De klant ontvangt het herstelwachtwoord uitsluitend via een door hoofdbeheer gekozen veilige route; automatische e-mailaflevering en tweestapsverificatie zijn nog niet ingebouwd. Dit zijn vereisten voor commerciële uitrol.
+
 ## Status en aandachtspunten
 
 - Huidige productie-app op de standaardbranch blijft onaangetast.
