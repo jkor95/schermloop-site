@@ -32,8 +32,11 @@ jobs:
         run: |
           npm install --no-save --ignore-scripts @playwright/test
           npx playwright install --with-deps chromium
-      - name: Test loginpagina en koppelcode
+      - name: Test bedrijf en scherm in browser
         working-directory: schermloop-2.0
+        env:
+          E2E_ADMIN_EMAIL: ${{ env.ADMIN_EMAIL }}
+          E2E_ADMIN_PASSWORD: ${{ env.SERVICE_PASSWORD_64_SCHERMLOOPADMIN }}
         run: npx playwright test --config=playwright.config.cjs
       - name: Verwijder uitsluitend tijdelijke testomgeving
         if: always()
