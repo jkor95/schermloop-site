@@ -45,6 +45,20 @@ Deze installatie maakt een nieuwe webapp en een **nieuwe PostgreSQL-database**. 
 
 Voorlopig alleen deze afzonderlijke testapp plaatsen. **De originele SchermLoop op main en de bestaande private repository blijven onveranderd.**
 
+## Hoofdbeheerbeveiliging direct na de eerste installatie
+
+1. Log in als hoofdbeheerder op je nieuwe **testdomein**.
+2. Kies bij **Beveiliging van hoofdbeheer** voor **Tweestapsverificatie instellen**.
+3. Bevestig je huidige wachtwoord, neem de instelsleutel over in je authenticator-app en voer de 6-cijferige code in.
+4. Bewaar alle 10 eenmalige herstelcodes **buiten** de server en buiten GitHub. Herstelcodes zijn niet later terug te lezen.
+5. Log uit en test of de app bij een nieuwe aanmelding naast het wachtwoord om een authenticatorcode vraagt.
+
+Bij verlies van zowel de authenticator als alle herstelcodes is toegang mogelijk niet meer via de normale gebruikersinterface te herstellen. Een nieuwe sleutel voor APP_SECRET instellen maakt bestaande versleutelde authenticatorsleutels bovendien onleesbaar; bewaar de oorspronkelijke sleutel veilig.
+
+## Excel automatisch bijwerken
+
+Handmatige XLSX-import is meteen beschikbaar. Voor automatische updates via Power Automate kan een klant na aanmaken van zijn scherm zelf een **aparte synchronisatiesleutel** genereren. Zie [EXCEL-ONEDRIVE-AUTOMATISERING.md](EXCEL-ONEDRIVE-AUTOMATISERING.md). De rechtstreekse Microsoft OAuth-koppeling is nog niet afgerond en deze webhook moet bij de eerste plaatsing eerst met een proefscherm worden getest.
+
 ## Back-up en gecontroleerd herstel
 
 De app heeft nu twee scripts voor een volledige back-up van **de database en de geüploade mediabestanden**. Deze werken op een host waarop de SchermLoop 2.0 Compose-stack actief is en Docker Compose is geïnstalleerd.
