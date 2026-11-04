@@ -44,6 +44,14 @@ jobs:
           node --check weather.js
           node --check weather-routes.js
           node --check public/weather-view.js
+      - name: Coolify Compose-configuratie valideren
+        run: |
+          SERVICE_PASSWORD_64_SCHERMLOOPDB=test-database-password-123456789012345678901234567890 \
+          SERVICE_PASSWORD_64_SCHERMLOOPSECRET=test-long-secret-123456789012345678901234567890 \
+          SERVICE_PASSWORD_64_SCHERMLOOPADMIN=test-admin-password-123456789012345678901234567890 \
+          SERVICE_URL_WEB_3000=https://schermloop.example.nl \
+          ADMIN_EMAIL=test@example.nl \
+          docker compose -f docker-compose.coolify.yml config --quiet
       - name: Dependencies installeren
         run: npm install --omit=dev --no-audit --no-fund
       - name: Domeinregels en integratietests
