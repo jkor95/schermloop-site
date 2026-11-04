@@ -1,4 +1,6 @@
 'use strict';
+const crypto=require('node:crypto');
+const bcrypt=require('bcryptjs');
 
 // Hoofdbeheer werkt onder het eigen account: nooit inloggen als een klant.
 module.exports = function registerSupport(app, deps) {
@@ -85,6 +87,23 @@ module.exports = function registerSupport(app, deps) {
       await client.query('COMMIT');
       res.json({ok:true});
     } catch(e) {await client.query('ROLLBACK');throw e;} finally {client.release();}
+  }));
+  app.post('/api/support/organizations/:orgId/users/:userId/reset-password',requireAuth,authorized,wrap(async(req,res)=>{
+    if(req.body?.confirm!==true)throw err(400,'Bevestig expliciet dat het account opnieuw wordt ingesteld.');
+    const org=validUuid(req.params.orgId),id=validUuid(req.params.userId);
+    const client=await pool.connect();
+    const password='SL2-'+crypto.randomBytes(20).toString('base64url')+'!';
+    try{
+      await client.query('BEGIN');
+      await organization(client,org);
+      const user=await client.query('SELECT id,email,role FROM users WHERE id=$1 AND organization_id=$2 FOR UPDATE',[id,org]);
+      if(!user.rows.length)throw err(404,'Account niet gevonden.');
+      await client.query('UPDATE users SET password_hash=$1 WHERE id=$2 AND organization_id=$3',[await bcrypt.hash(password,12),id,org]);
+      await client.query('DELETE FROM sessions WHERE user_id=$1',[id]);
+      await record(client,req,org,'reset_password','user',id,{email:user.rows[0].email});
+      await client.query('COMMIT');
+      res.set('Cache-Control','no-store').json({ok:true,email:user.rows[0].email,temporary_password:password});
+    }catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
   }));
   app.get('/api/support-history',requireAuth,wrap(async(req,res) => {
     if (!req.user.organization_id) throw err(403,'Alleen bedrijfsaccounts.');
