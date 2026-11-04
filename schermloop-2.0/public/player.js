@@ -72,6 +72,7 @@ async function checkPairing(){
   const r=await request('/player/pair/'+pairing.request_id,{token:pairing.claim_token});
   if(r.status!=='paired')return;
   clearInterval(pairTimer);pairTimer=null;pairing=null;
+  await window.SchermLoopOffline?.clear().catch(()=>{});
   deviceToken=r.device_token;screenSessionToken='';localStorage.setItem(DEVICE_KEY,deviceToken);
   await synchronize();
  }catch(e){
@@ -104,6 +105,7 @@ async function refreshWeather(force=false){
   try{
    const data=await request('/player/weather',{token:screenSessionToken});
    weatherSnapshot=data;weatherLastFetch=Date.now();
+   window.SchermLoopOffline?.put('last-weather',data).catch(()=>{});
    updateWeatherCorner();
    if(slides[pos]?.kind==='weather'&&!paused&&!$('showView').hidden)window.SchermLoopWeatherView?.renderPage($('slide'),data);
   }catch(e){
@@ -246,7 +248,7 @@ async function synchronize(){
   window.SchermLoopOffline?.put('last-presentation',{screen:activeScreen,items:slides,savedAt:Date.now()}).catch(()=>{});
   warmOfflineMedia().catch(()=>{});
  }catch(e){
-  if(e.status===401){deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
+  if(e.status===401){window.SchermLoopOffline?.clear().catch(()=>{});deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
   else failConnection('Server niet bereikbaar. We proberen het opnieuw. '+e.message);
  }
@@ -268,8 +270,9 @@ document.addEventListener('DOMContentLoaded',async()=>{
   else if(action==='toggle')setManual(!manual);
   else if(action==='automatic')setManual(false);
  });
+ if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js').catch(()=>{});
  showOnly('pairView');
- if(deviceToken)await synchronize();else await createPairing();
+ if(deviceToken){await restoreLastPresentation();await synchronize();}else await createPairing();
  pollTimer=setInterval(()=>{if(deviceToken)synchronize();},10000);
  setInterval(()=>{clock();applySchedule();if(manual&&window.SchermLoopControls?.shouldResume(lastManualInteraction,Date.now()))setManual(false);},15000);
 });
