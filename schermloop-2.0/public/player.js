@@ -194,6 +194,37 @@ function applySchedule(){
  }
  updateTicker();updateWeatherCorner();
 }
+let offlineWarmup=null;
+async function warmOfflineMedia(){
+ if(offlineWarmup||!screenSessionToken)return;
+ const list=slides.filter(x=>x.kind==='image'||x.kind==='video').slice(0,30);
+ offlineWarmup=(async()=>{
+  for(const item of list){
+   if(!screenSessionToken)break;
+   try{
+    if(await window.SchermLoopOffline?.get('media:'+item.id))continue;
+    const data=await request('/player/media/'+item.id,{token:screenSessionToken,blob:true});
+    await window.SchermLoopOffline?.put('media:'+item.id,data);
+   }catch{}
+  }
+ })();
+ try{await offlineWarmup;}finally{offlineWarmup=null;}
+}
+async function restoreLastPresentation(){
+ const store=window.SchermLoopOffline;
+ if(!store)return false;
+ try{
+  const snapshot=await store.get('last-presentation');
+  if(!snapshot||!snapshot.screen||!Array.isArray(snapshot.items))return false;
+  activeScreen=snapshot.screen;slides=snapshot.items;pos=0;
+  const weather=await store.get('last-weather');
+  if(weather?.location?.name===activeScreen.weather_location?.name)weatherSnapshot=weather;
+  setLabel(activeScreen.name+' · Offline kopie');
+  showOnly('showView');
+  applySchedule();clock();updateTicker();updateWeatherCorner();renderSlide();
+  return true;
+ }catch{return false;}
+}
 async function synchronize(){
  if(!deviceToken)return createPairing();
  try{
@@ -212,6 +243,8 @@ async function synchronize(){
   applySchedule();clock();updateTicker();updateWeatherCorner();
   if(signature!==prev&&!paused)renderSlide();
   if(activeScreen.settings?.weatherPage||activeScreen.settings?.weatherCorner)refreshWeather(locationChanged).catch(()=>{});
+  window.SchermLoopOffline?.put('last-presentation',{screen:activeScreen,items:slides,savedAt:Date.now()}).catch(()=>{});
+  warmOfflineMedia().catch(()=>{});
  }catch(e){
   if(e.status===401){deviceToken='';screenSessionToken='';weatherSnapshot=null;weatherLastFetch=0;$('weatherCorner').hidden=true;localStorage.removeItem(DEVICE_KEY);activeScreen=null;slides=[];clearSlide();for(const url of assetUrls.values())URL.revokeObjectURL(url);assetUrls.clear();return createPairing();}
   if(activeScreen){setLabel(activeScreen.name+' · Offline');}
