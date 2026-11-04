@@ -36,12 +36,12 @@ function showOneTimeCredentials(email,password){
  $('newCredentials').hidden=false;
  $('newCredentials').scrollIntoView({block:'nearest',behavior:'smooth'});
 }
-function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('changePassword').hidden=true;$('who').textContent='';hideOneTimeCredentials();}
+function showLoggedOut(){$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;$('changePassword').hidden=true;$('who').textContent='';hideOneTimeCredentials();window.SchermLoopMfaUI?.reset();$('mfaLoginRow').hidden=true;$('mfaLoginCode').required=false;$('mfaLoginCode').value='';}
 async function refresh(){
  try{state.me=await api('/me');$('login').hidden=true;$('app').hidden=false;$('logout').hidden=false;$('changePassword').hidden=false;$('who').textContent=state.me.user.email;
  $('appTitle').textContent=state.me.organization?.name||'Hoofdbeheer';$('appSubtitle').textContent=state.me.user.role==='superadmin'?'Beheer bedrijfsomgevingen en toegekende licenties.':'Beheer de schermen en presentaties van jouw organisatie.';
  $('adminArea').hidden=state.me.user.role!=='superadmin';$('companyArea').hidden=state.me.user.role==='superadmin';
- if(state.me.user.role==='superadmin')await loadAdmin();else await loadCompany();
+ if(state.me.user.role==='superadmin'){await loadAdmin();window.SchermLoopMfaUI?.refreshStatus().catch(e=>message(e.message,true));}else await loadCompany();
  }catch(e){if(String(e.message).includes('Log eerst in.')||String(e.message).includes('Sessie verlopen.'))showLoggedOut();else{showLoggedOut();$('loginError').textContent=e.message;}}
 }
 async function loadAdmin(){
@@ -142,7 +142,24 @@ function renderItems(){
  }
 }
 document.addEventListener('DOMContentLoaded',()=>{
- $('loginForm').addEventListener('submit',async e=>{e.preventDefault();$('loginError').textContent='';try{await api('/login',{method:'POST',body:{email:$('email').value,password:$('password').value}});$('password').value='';state.weatherLocation=null;state.weatherCandidate=null;await refresh();}catch(ex){$('loginError').textContent=ex.message;}});
+ $('loginForm').addEventListener('submit',async e=>{
+  e.preventDefault();$('loginError').textContent='';
+  const code=$('mfaLoginCode').value.trim().replace(/[\s-]/g,'');
+  const body={email:$('email').value,password:$('password').value};
+  if(/^\d{6}$/.test(code))body.totp_code=code;
+  else if(code)body.recovery_code=code;
+  try{
+   const result=await api('/login',{method:'POST',body});
+   if(result.mfa_required){
+    $('mfaLoginRow').hidden=false;$('mfaLoginCode').required=true;
+    $('mfaLoginCode').focus();$('loginError').textContent='Voer de code uit je authenticator-app of een herstelcode in.';
+    return;
+   }
+   $('password').value='';$('mfaLoginCode').value='';$('mfaLoginCode').required=false;$('mfaLoginRow').hidden=true;
+   state.weatherLocation=null;state.weatherCandidate=null;
+   await refresh();
+  }catch(ex){$('loginError').textContent=ex.message;}
+ });
  $('changePassword').addEventListener('click',()=>modal('Wachtwoord wijzigen',[
   {name:'current_password',label:'Huidig wachtwoord',type:'password'},
   {name:'new_password',label:'Nieuw wachtwoord, minimaal 12 tekens',type:'password'},
