@@ -45,6 +45,18 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  const bLogin=await request('/api/login',{method:'POST',body:{email:'b@example.test',password:'B-strong-password-123'}});
  assert.equal(aLogin.status,200);assert.equal(bLogin.status,200);
  const A=aLogin.cookie,B=bLogin.cookie;
+ const cityResults=await request('/api/weather/locations?q=Rotterdam',{cookie:A});
+ assert.equal(cityResults.status,200);
+ const selectedCity=cityResults.data.find(c=>c.name==='Rotterdam'&&c.country==='NL');
+ assert.ok(selectedCity,'Rotterdam moet via de plaatszoeker beschikbaar zijn');
+ const savedWeather=await request('/api/organization/weather',{method:'PATCH',cookie:A,body:{location:selectedCity}});
+ assert.equal(savedWeather.status,200);
+ assert.equal(savedWeather.data.location.name,'Rotterdam');
+ assert.equal((await request('/api/organization/weather',{cookie:A})).data.location.name,'Rotterdam');
+ assert.equal((await request('/api/organization/weather',{cookie:B})).data.location.name,'Dordrecht','Locatie van bedrijf B blijft onafhankelijk');
+ const badWeather=await request('/api/organization/weather',{method:'PATCH',cookie:A,body:{location:{name:'Niet echt',country:'NL',lat:0,lon:0}}});
+ assert.equal(badWeather.status,400,'Klanten mogen geen willekeurige stad verzinnen');
+
  const screen=await request('/api/screens',{method:'POST',cookie:A,body:{name:'Receptie A'}});
  assert.equal(screen.status,201);const id=screen.data.id;
  assert.equal((await request('/api/screens',{method:'POST',cookie:A,body:{name:'Tweede scherm'}})).status,409,'Één scherm standaard');
@@ -79,6 +91,7 @@ test('SchermLoop SaaS: accounts, tenantisolatie, licenties, vervangen en uploads
  const uploaded=await request('/api/screens/'+id+'/items/upload',{method:'POST',cookie:A,form});
  assert.equal(uploaded.status,201,JSON.stringify(uploaded.data));assert.equal(uploaded.data.created,1);
  const state=await request('/api/player/state',{token});assert.equal(state.status,200);
+ assert.equal(state.data.screen.weather_location.name,'Rotterdam','Scherm ontvangt bedrijfslocatie');
  const pic=state.data.items.find(x=>x.kind==='image');assert.ok(pic?.id);
  const media=await request('/api/player/media/'+pic.id,{token});
  assert.equal(media.status,200,'Uploadbestand moet na opslaan blijven bestaan');
