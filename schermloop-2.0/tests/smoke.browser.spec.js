@@ -53,6 +53,19 @@ test('Hoofdbeheer, bedrijf en scherm doorlopen de volledige koppeling',async({br
  await page.locator('#textBody').fill('Presentatie werkt.');
  await page.locator('#textForm button[type=submit]').click();
  await expect(player.locator('#slide')).toContainText('Presentatie werkt.',{timeout:30000});
+ const ExcelJS=require('exceljs'),workbook=new ExcelJS.Workbook(),sheet=workbook.addWorksheet('Berichten');
+ sheet.addRow(['Titel','Tekst','Seconden','Tonen']);
+ sheet.addRow(['Opmerking','Excel-import is actief',10,'Ja']);
+ const excel=Buffer.from(await workbook.xlsx.writeBuffer());
+ await page.locator('#excelFile').setInputFiles({name:'mededelingen.xlsx',mimeType:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',buffer:excel});
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#excelImportButton').click();
+ await expect(page.locator('#excelStatus')).toContainText('1 mededelingen',{timeout:15000});
+ await expect.poll(async()=>player.evaluate(async()=>{
+  const saved=await window.SchermLoopOffline.get('last-presentation');
+  return saved?.items?.some(item=>item.text_body==='Excel-import is actief')===true;
+ }),{timeout:25000}).toBe(true);
+
  await expect.poll(()=>player.evaluate(async()=>{
   const saved=await window.SchermLoopOffline.get('last-presentation');
   return saved?.items?.some(item=>item.text_body==='Presentatie werkt.')===true;
