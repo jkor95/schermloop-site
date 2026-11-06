@@ -1,14 +1,21 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-05T22:50:59+00:00",
+    "updatedAt": "2026-11-06T02:57:33+00:00",
     "headlines": [
+      {
+        "title": "Acht doden in binnenland van Turkije door schietpartijen, verdachte opgepakt",
+        "url": "https://www.nu.nl/buitenland/6415672/acht-doden-in-binnenland-van-turkije-door-schietpartijen-verdachte-opgepakt.html",
+        "date": "Thu, 05 Nov 2026 23:55:38 +0100",
+        "summary": "In de Turkse provincie Afyonkarahisar zijn donderdag bij schietpartijen in verschillende dorpen in totaal acht mensen om het leven gebracht. De vermoedelijke dader sloeg op de vlucht, waarna de politie een klopjacht begon. De man werd donderdagavond in een naburige provincie opgepakt.",
+        "imageUrl": "https://images.nu.nl/m/3vqx3nrah5py_sqr256/1154/3/2997/2997/acht-doden-in-binnenland-van-turkije-door-schietpartijen-verdachte-opgepakt.jpg"
+      },
       {
         "title": "Scorende Teun Koopmeiners doet oude club AZ en broer Peer pijn met Juventus",
         "url": "https://www.nu.nl/voetbal/6415659/scorende-teun-koopmeiners-doet-oude-club-az-en-broer-peer-pijn-met-juventus.html",
         "date": "Thu, 05 Nov 2026 22:57:08 +0100",
         "summary": "AZ heeft donderdag mede door een doelpunt van Teun Koopmeiners een nederlaag geleden tegen Juventus in de Europa League. De Italiaanse club won in het AFAS Stadion met 1-2.",
-        "imageUrl": "https://images.nu.nl/m/1bnx04hasvyu_sqr256/183/0/2932/2932/scorende-teun-koopmeiners-doet-oude-club-az-en-broer-peer-pijn-met-juventus.jpg"
+        "imageUrl": "https://images.nu.nl/m/510x0jlakt80_sqr256/981/116/2079/2079/scorende-teun-koopmeiners-doet-oude-club-az-en-broer-peer-pijn-met-juventus.jpg"
       },
       {
         "title": "Ook KLM-vlucht kreeg vanmiddag bommelding, toestel staat nog altijd stil",
@@ -18,7 +25,7 @@
         "imageUrl": "https://images.nu.nl/m/kiix0f6arihw_sqr256/1760/0/4108/4108/ook-klm-vlucht-kreeg-vanmiddag-bommelding-toestel-staat-nog-altijd-stil.jpg"
       },
       {
-        "title": "Video | Herman van der Zandt over Paulien Cornelisse: 'Anders dan andere vrienden'",
+        "title": "Video | Van der Zandt over Paulien Cornelisse: 'Anders dan andere vrienden'",
         "url": "https://www.nu.nl/332017/video/herman-van-der-zandt-over-paulien-cornelisse-anders-dan-andere-vrienden.html",
         "date": "Thu, 05 Nov 2026 22:32:22 +0100",
         "summary": "",
@@ -44,13 +51,6 @@
         "date": "Thu, 05 Nov 2026 20:58:55 +0100",
         "summary": "Bezoekers van de aankomende uitvoering van The Passion moeten een kaartje kopen. Een ticket op 25 maart kost 7,50 euro. Het is voor het eerst dat het geld kost om het evenement bij te wonen.",
         "imageUrl": "https://images.nu.nl/m/ggix2sqad8s5_sqr256/999/4/3329/3329/bezoekers-the-passion-moeten-volgend-jaar-voor-het-eerst-een-kaartje-kopen.jpg"
-      },
-      {
-        "title": "Californische gouverneur zet 548 doodstraffen om in levenslang",
-        "url": "https://www.nu.nl/verkiezingen-vs/6415656/californische-gouverneur-zet-548-doodstraffen-om-in-levenslang.html",
-        "date": "Thu, 05 Nov 2026 20:55:15 +0100",
-        "summary": "Gouverneur Gavin Newsom van de Amerikaanse staat Californië heeft donderdag stappen ondernomen om 548 doodstraffen om te zetten in levenslange celstraffen. Newsom zegt tot het besluit te zijn gekomen omdat hij de doodstraf moreel verwerpelijk vindt.",
-        "imageUrl": "https://images.nu.nl/m/2cxxuy5aaptr_sqr256/544/5/3765/3765/californische-gouverneur-zet-548-doodstraffen-om-in-levenslang.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "23:55",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:00",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:05",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "04:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "04:40",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "04:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "04:50",
         "mmHour": 0.0
       },
       {
-        "time": "00:50",
+        "time": "04:55",
         "mmHour": 0.0
       },
       {
-        "time": "00:55",
+        "time": "05:00",
         "mmHour": 0.0
       },
       {
-        "time": "01:00",
+        "time": "05:05",
         "mmHour": 0.0
       },
       {
-        "time": "01:05",
+        "time": "05:10",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "05:15",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "05:20",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "05:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "05:30",
         "mmHour": 0.0
       },
       {
-        "time": "01:30",
+        "time": "05:35",
         "mmHour": 0.0
       },
       {
-        "time": "01:35",
+        "time": "05:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:40",
+        "time": "05:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:45",
+        "time": "05:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:50",
+        "time": "05:55",
         "mmHour": 0.0
       }
     ],
-    "temperature": 2.8,
+    "temperature": 2.0,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-05T22:50:59+00:00",
-    "rainUpdatedAt": "2026-11-05T22:51:00+00:00"
+    "weatherUpdatedAt": "2026-11-06T02:57:33+00:00",
+    "rainUpdatedAt": "2026-11-06T02:57:34+00:00"
   }
 }
