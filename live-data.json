@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-06T22:25:13+00:00",
+    "updatedAt": "2026-11-07T02:12:29+00:00",
     "headlines": [
       {
         "title": "Video | Zo nam De slimste mens afscheid van Paulien Cornelisse",
@@ -11,11 +11,11 @@
         "imageUrl": "https://images.nu.nl/m/l1cxl60azp17_sqr256/595/0/1080/1080/zo-nam-de-slimste-mens-afscheid-van-paulien-cornelisse.jpg"
       },
       {
-        "title": "Winnaar De slimste mens bekend, vooraf eerbetoon aan Paulien Cornelisse",
-        "url": "https://www.nu.nl/media/6415781/winnaar-de-slimste-mens-bekend-vooraf-eerbetoon-aan-paulien-cornelisse.html",
+        "title": "Eerbetoon Paulien Cornelisse voor finale De slimste mens, winnaar bekend",
+        "url": "https://www.nu.nl/media/6415781/eerbetoon-paulien-cornelisse-voor-finale-de-slimste-mens-winnaar-bekend.html",
         "date": "Fri, 06 Nov 2026 22:41:07 +0100",
         "summary": "Mats Akkerman is vrijdag uitgeroepen tot de winnaar van het 28e seizoen van De slimste mens . De politiek verslaggever van Café Kockelmann nam het in de finale op tegen NOS-journalist Jeroen Gortworst.",
-        "imageUrl": "https://images.nu.nl/m/bybxj9vautpy_sqr256/2076/0/5131/5131/winnaar-de-slimste-mens-bekend-vooraf-eerbetoon-aan-paulien-cornelisse.jpg"
+        "imageUrl": "https://images.nu.nl/m/bybxj9vautpy_sqr256/2076/0/5131/5131/eerbetoon-paulien-cornelisse-voor-finale-de-slimste-mens-winnaar-bekend.jpg"
       },
       {
         "title": "Man op Schiphol aangehouden voor valse bommelding vlucht naar Praag",
@@ -25,11 +25,11 @@
         "imageUrl": "https://images.nu.nl/m/uyixvutaq9u9_sqr256/507/4/3996/3996/man-op-schiphol-aangehouden-voor-valse-bommelding-vlucht-naar-praag.jpg"
       },
       {
-        "title": "Limburg onderzoekt of ’s werelds langstlopende festival immaterieel erfgoed wordt",
-        "url": "https://www.nu.nl/entertainment/6415776/limburg-onderzoekt-of-s-werelds-langstlopende-festival-immaterieel-erfgoed-wordt.html",
+        "title": "Limburg onderzoekt of ’s werelds langstlopende festival werelderfgoed wordt",
+        "url": "https://www.nu.nl/entertainment/6415776/limburg-onderzoekt-of-s-werelds-langstlopende-festival-werelderfgoed-wordt.html",
         "date": "Fri, 06 Nov 2026 21:28:31 +0100",
-        "summary": "De provincie Limburg gaat onderzoeken of Pinkpop de status van Nederlands immaterieel erfgoed kan krijgen. Ook moet binnen zes maanden worden onderzocht hoe haalbaar het is om het festival op termijn voor te dragen voor de Internationale UNESCO-lijst van het Immaterieel Erfgoed.",
-        "imageUrl": "https://images.nu.nl/m/wokxx32a6xdi_sqr256/1182/0/5379/5379/limburg-onderzoekt-of-s-werelds-langstlopende-festival-immaterieel-erfgoed-wordt.jpg"
+        "summary": "De provincie Limburg gaat onderzoeken of Pinkpop de status van Nederlands immaterieel erfgoed kan krijgen. Ook moet binnen zes maanden worden onderzocht hoe haalbaar het is om het festival op termijn voor te dragen voor de Werelderfgoedlijst van UNESCO.",
+        "imageUrl": "https://images.nu.nl/m/wokxx32a6xdi_sqr256/1182/0/5379/5379/limburg-onderzoekt-of-s-werelds-langstlopende-festival-werelderfgoed-wordt.jpg"
       },
       {
         "title": "Verstappen ondanks stuurproblemen derde in tweede training, Antonelli snelste",
@@ -39,11 +39,11 @@
         "imageUrl": "https://images.nu.nl/m/161xkx3a0lh1_sqr256/454/0/3587/3587/verstappen-ondanks-stuurproblemen-derde-in-tweede-training-antonelli-snelste.jpg"
       },
       {
-        "title": "Trump vervangt stafchef Witte Huis door bedenker van streng immigratiebeleid",
-        "url": "https://www.nu.nl/buitenland/6415772/trump-vervangt-stafchef-witte-huis-door-bedenker-van-streng-immigratiebeleid.html",
+        "title": "Trump vervangt stafchef Witte Huis, opvolger is man achter streng immigratiebeleid",
+        "url": "https://www.nu.nl/buitenland/6415772/trump-vervangt-stafchef-witte-huis-opvolger-is-man-achter-streng-immigratiebeleid.html",
         "date": "Fri, 06 Nov 2026 20:27:10 +0100",
         "summary": "De Amerikaanse president Donald Trump heeft vanaf maandag een nieuwe stafchef. Susie Wiles legt haar functie neer en wordt opgevolgd door Stephen Miller, die wordt beschouwd als de architect van Trumps strenge immigratiebeleid.",
-        "imageUrl": "https://images.nu.nl/m/419xerjaqgcr_sqr256/974/0/3723/3723/trump-vervangt-stafchef-witte-huis-door-bedenker-van-streng-immigratiebeleid.jpg"
+        "imageUrl": "https://images.nu.nl/m/419xerjaqgcr_sqr256/974/0/3723/3723/trump-vervangt-stafchef-witte-huis-opvolger-is-man-achter-streng-immigratiebeleid.jpg"
       },
       {
         "title": "Oekraïne niet van plan om aanvallen op Russische olieraffinaderijen te staken",
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "23:25",
+        "time": "03:10",
         "mmHour": 0.0
       },
       {
-        "time": "23:30",
+        "time": "03:15",
         "mmHour": 0.0
       },
       {
-        "time": "23:35",
+        "time": "03:20",
         "mmHour": 0.0
       },
       {
-        "time": "23:40",
+        "time": "03:25",
         "mmHour": 0.0
       },
       {
-        "time": "23:45",
+        "time": "03:30",
         "mmHour": 0.0
       },
       {
-        "time": "23:50",
+        "time": "03:35",
         "mmHour": 0.0
       },
       {
-        "time": "23:55",
+        "time": "03:40",
         "mmHour": 0.0
       },
       {
-        "time": "00:00",
+        "time": "03:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:05",
+        "time": "03:50",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "03:55",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:50",
+        "time": "04:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:55",
+        "time": "04:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:00",
+        "time": "04:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:05",
+        "time": "04:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "04:55",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "05:00",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "05:05",
         "mmHour": 0.0
       }
     ],
-    "temperature": 2.2,
+    "temperature": 2.3,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-06T22:25:13+00:00",
-    "rainUpdatedAt": "2026-11-06T22:25:14+00:00"
+    "weatherUpdatedAt": "2026-11-07T02:12:29+00:00",
+    "rainUpdatedAt": "2026-11-07T02:12:30+00:00"
   }
 }
