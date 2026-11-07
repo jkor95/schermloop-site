@@ -1,14 +1,49 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-07T19:29:41+00:00",
+    "updatedAt": "2026-11-07T22:56:27+00:00",
     "headlines": [
       {
-        "title": "Koning houdt Belgische regering overeind, maar ‘afschuwelijk falen’ dreigt",
-        "url": "https://www.nu.nl/buitenland/6415822/koning-houdt-belgische-regering-overeind-maar-afschuwelijk-falen-dreigt.html",
+        "title": "Trump zegt UFC-baas te hebben gevraagd als nieuwe persvoorlichter Witte Huis",
+        "url": "https://www.nu.nl/buitenland/6415850/trump-zegt-ufc-baas-te-hebben-gevraagd-als-nieuwe-persvoorlichter-witte-huis.html",
+        "date": "Sat, 07 Nov 2026 22:59:46 +0100",
+        "summary": "De Amerikaanse president Donald Trump zegt dat hij Dana White, de baas van de Ultimate Fighting Championship (UFC), de baan als nieuwe woordvoerder van het Witte Huis heeft aangeboden. Het is niet duidelijk of het om een serieus aanbod gaat.",
+        "imageUrl": "https://images.nu.nl/m/30gxmtoao0ou_sqr256/1184/0/5404/5404/trump-zegt-ufc-baas-te-hebben-gevraagd-als-nieuwe-persvoorlichter-witte-huis.jpg"
+      },
+      {
+        "title": "Loes Haverkort leeft bewuster sinds hersentumor: 'Wil niet denken over de dood'",
+        "url": "https://www.nu.nl/entertainment/6415861/loes-haverkort-leeft-bewuster-sinds-hersentumor-wil-niet-denken-over-de-dood.html",
+        "date": "Sat, 07 Nov 2026 22:46:23 +0100",
+        "summary": "Loes Haverkort leeft bewuster sinds enkele maanden geleden een laaggradige tumor in haar rechterhersenhelft werd ontdekt. De dood kwam daardoor opeens heel dichtbij. Iets waar ze helemaal niet over na wil denken, zegt ze zaterdag in het BNNVARA-programma De Geknipte Gast .",
+        "imageUrl": "https://images.nu.nl/m/z5xxvuwam9zd_sqr256/1372/0/3648/3648/loes-haverkort-leeft-bewuster-sinds-hersentumor-wil-niet-denken-over-de-dood.jpg"
+      },
+      {
+        "title": "Drie doden aangetroffen in woning schutter Krakau, hoogstwaarschijnlijk familie",
+        "url": "https://www.nu.nl/buitenland/6415854/drie-doden-aangetroffen-in-woning-schutter-krakau-hoogstwaarschijnlijk-familie.html",
+        "date": "Sat, 07 Nov 2026 21:46:07 +0100",
+        "summary": "In het huis van de schutter die zaterdagmiddag zes mensen doodschoot in Krakau zijn drie doden aangetroffen. Het gaat om twee vrouwen en één man. Volgens de Poolse premier Donald Tusk zijn dit zeer waarschijnlijk familieleden van de schutter.",
+        "imageUrl": "https://images.nu.nl/m/0cfxrwka0lts_sqr256/1603/0/4667/4667/drie-doden-aangetroffen-in-woning-schutter-krakau-hoogstwaarschijnlijk-familie.jpg"
+      },
+      {
+        "title": "Norris op pole na kletsnatte kwalificatie GP São Paulo, Verstappen stapt uit na Q1",
+        "url": "https://www.nu.nl/formule-1/6415852/norris-op-pole-na-kletsnatte-kwalificatie-gp-sao-paulo-verstappen-stapt-uit-na-q1.html",
+        "date": "Sat, 07 Nov 2026 21:26:29 +0100",
+        "summary": "Lando Norris heeft zaterdag in een zinderende, kletsnatte kwalificatie poleposition veroverd voor de Grand Prix van São Paulo. Max Verstappen hield het vanwege een motorstraf na Q1 voor gezien. Hij moet de race zondag achteraan beginnen.",
+        "imageUrl": "https://images.nu.nl/m/ugpxk1nanzbs_sqr256/913/246/3328/3328/norris-op-pole-na-kletsnatte-kwalificatie-gp-sao-paulo-verstappen-stapt-uit-na-q1.jpg"
+      },
+      {
+        "title": "Kans op nieuwe premierstermijn Netanyahu slinkt: rivaal krijgt eerste formatiekans",
+        "url": "https://www.nu.nl/buitenland/6415851/kans-op-nieuwe-premierstermijn-netanyahu-slinkt-rivaal-krijgt-eerste-formatiekans.html",
+        "date": "Sat, 07 Nov 2026 21:06:27 +0100",
+        "summary": "De Israëlische president Isaac Herzog heeft oppositieleider Gadi Eisenkot zaterdag aangewezen om als eerste te proberen een coalitie te vormen, melden Israëlische media. Zowel het blok van premier Benjamin Netanyahu als dat van Eisenkot wist eind oktober geen absolute meerderheid te behalen.",
+        "imageUrl": "https://images.nu.nl/m/iznx4h0agj2l_sqr256/919/0/2867/2867/kans-op-nieuwe-premierstermijn-netanyahu-slinkt-rivaal-krijgt-eerste-formatiekans.jpg"
+      },
+      {
+        "title": "Belgische situatie doet denken aan Franse problemen, 'afschuwelijk falen' dreigt",
+        "url": "https://www.nu.nl/buitenland/6415822/belgische-situatie-doet-denken-aan-franse-problemen-afschuwelijk-falen-dreigt.html",
         "date": "Sat, 07 Nov 2026 20:27:13 +0100",
         "summary": "De Belgische koning Filip wil dat premier Bart De Wever een laatste poging doet om een begrotingsakkoord te bereiken. Maar de Belgische problemen zijn diepgeworteld en gaan ver terug. Zonder doorbraak vreest De Wever voor \"een afschuwelijk falen\".",
-        "imageUrl": "https://images.nu.nl/m/1h2xwe8agd2k_sqr256/603/0/1986/1986/koning-houdt-belgische-regering-overeind-maar-afschuwelijk-falen-dreigt.jpg"
+        "imageUrl": "https://images.nu.nl/m/1h2xwe8agd2k_sqr256/603/0/1986/1986/belgische-situatie-doet-denken-aan-franse-problemen-afschuwelijk-falen-dreigt.jpg"
       },
       {
         "title": "Trump laat Justitie Democraten onderzoeken om vermeende dreiging tot afzetting",
@@ -16,41 +51,6 @@
         "date": "Sat, 07 Nov 2026 19:46:04 +0100",
         "summary": "De Amerikaanse president Donald Trump heeft het ministerie van Justitie zaterdag opdracht gegeven Democraten te onderzoeken. Volgens hem maken zij zich met dreigementen over een afzettingsprocedure en andere straffen schuldig aan een \"criminele daad\". Bewijs daarvoor leverde hij niet.",
         "imageUrl": "https://images.nu.nl/m/ghqxp58azy9x_sqr256/1273/362/4062/4062/trump-laat-justitie-democraten-onderzoeken-om-vermeende-dreiging-tot-afzetting.jpg"
-      },
-      {
-        "title": "Binance kondigt vertrek financieel directeur aan na grootste cryptohack ooit",
-        "url": "https://www.nu.nl/tech/6415842/binance-kondigt-vertrek-financieel-directeur-aan-na-grootste-cryptohack-ooit.html",
-        "date": "Sat, 07 Nov 2026 19:20:29 +0100",
-        "summary": "Cryptobeurs Binance heeft zaterdag bekendgemaakt dat financieel directeur Kaiser Ng het bedrijf zal verlaten. Het nieuws volgt op de grootste cryptodiefstal ooit, waarbij eind oktober voor miljarden euro's aan cryptovaluta werd gestolen.",
-        "imageUrl": "https://images.nu.nl/m/c4qxsdjaopp7_sqr256/166/0/2666/2666/binance-kondigt-vertrek-financieel-directeur-aan-na-grootste-cryptohack-ooit.jpg"
-      },
-      {
-        "title": "Video | Schokkende beelden uit Krakau: agent schiet op liggende verdachte",
-        "url": "https://www.nu.nl/332071/video/schokkende-beelden-uit-krakau-agent-schiet-op-liggende-verdachte.html",
-        "date": "Sat, 07 Nov 2026 19:01:54 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/8gyxmo7aio0z_sqr256/12/2/1078/1078/schokkende-beelden-uit-krakau-agent-schiet-op-liggende-verdachte.jpg"
-      },
-      {
-        "title": "Steeds meer Russen verlaten het land om aan gehaktmolen te ontsnappen",
-        "url": "https://www.nu.nl/spanningen-oekraine/6415791/steeds-meer-russen-verlaten-het-land-om-aan-gehaktmolen-te-ontsnappen.html",
-        "date": "Sat, 07 Nov 2026 19:00:49 +0100",
-        "summary": "Nu de Russische parlementsverkiezingen voorbij zijn, vrezen jonge Russische mannen voor nieuwe mobilisaties. Zij staan voor de keuze: vluchten of blijven, met het risico de Russische gehaktmolen in te worden gestuurd. Steeds meer mensen kiezen voor dat eerste.",
-        "imageUrl": "https://images.nu.nl/m/8z9x5n4ax11y_sqr256/430/0/4030/4030/steeds-meer-russen-verlaten-het-land-om-aan-gehaktmolen-te-ontsnappen.jpg"
-      },
-      {
-        "title": "Dodental schietpartij Krakau stijgt naar zes, schutter is Pools en handelde alleen",
-        "url": "https://www.nu.nl/buitenland/6415837/dodental-schietpartij-krakau-stijgt-naar-zes-schutter-is-pools-en-handelde-alleen.html",
-        "date": "Sat, 07 Nov 2026 18:20:58 +0100",
-        "summary": "Het dodental van de schietpartij zaterdag in het centrum van Krakau is opgelopen naar zes. De schutter heeft de Poolse nationaliteit en ligt gewond in het ziekenhuis nadat hij door de politie werd neergeschoten. Volgens de Poolse autoriteiten handelde de man alleen.",
-        "imageUrl": "https://images.nu.nl/m/jzmxo6fa8dc9_sqr256/992/886/2596/2596/dodental-schietpartij-krakau-stijgt-naar-zes-schutter-is-pools-en-handelde-alleen.jpg"
-      },
-      {
-        "title": "Niemand is blij na cruciaal jurybesluit bij EK veldrijden: 'Respectloos en oneerlijk'",
-        "url": "https://www.nu.nl/wielrennen/6415839/niemand-is-blij-na-cruciaal-jurybesluit-bij-ek-veldrijden-respectloos-en-oneerlijk.html",
-        "date": "Sat, 07 Nov 2026 18:08:58 +0100",
-        "summary": "De Luxemburgse Marie Schreiber voelde zich bestolen en de Nederlandse winnares Lucinda Brand stond met een vreemd gevoel op het podium. De EK veldrijden voor vrouwen eindigde zaterdag met een jurybeslissing waar niemand blij mee was. \"Dit is respectloos.\"",
-        "imageUrl": "https://images.nu.nl/m/0wvxxcdaasbf_sqr256/0/0/4666/4666/niemand-is-blij-na-cruciaal-jurybesluit-bij-ek-veldrijden-respectloos-en-oneerlijk.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "20:30",
+        "time": "23:55",
         "mmHour": 0.0
       },
       {
-        "time": "20:35",
+        "time": "00:00",
         "mmHour": 0.0
       },
       {
-        "time": "20:40",
+        "time": "00:05",
         "mmHour": 0.0
       },
       {
-        "time": "20:45",
+        "time": "00:10",
         "mmHour": 0.0
       },
       {
-        "time": "20:50",
+        "time": "00:15",
         "mmHour": 0.0
       },
       {
-        "time": "20:55",
+        "time": "00:20",
         "mmHour": 0.0
       },
       {
-        "time": "21:00",
+        "time": "00:25",
         "mmHour": 0.0
       },
       {
-        "time": "21:05",
+        "time": "00:30",
         "mmHour": 0.0
       },
       {
-        "time": "21:10",
+        "time": "00:35",
         "mmHour": 0.0
       },
       {
-        "time": "21:15",
+        "time": "00:40",
         "mmHour": 0.0
       },
       {
-        "time": "21:20",
+        "time": "00:45",
         "mmHour": 0.0
       },
       {
-        "time": "21:25",
+        "time": "00:50",
         "mmHour": 0.0
       },
       {
-        "time": "21:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "21:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "22:05",
+        "time": "00:55",
         "mmHour": 0.1
       },
       {
-        "time": "22:10",
+        "time": "01:00",
+        "mmHour": 0.21
+      },
+      {
+        "time": "01:05",
         "mmHour": 0.1
       },
       {
-        "time": "22:15",
+        "time": "01:10",
         "mmHour": 0.1
       },
       {
-        "time": "22:20",
+        "time": "01:15",
         "mmHour": 0.0
       },
       {
-        "time": "22:25",
+        "time": "01:20",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:25",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "01:50",
         "mmHour": 0.0
       }
     ],
-    "temperature": 5.6,
+    "temperature": 6.5,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-07T19:29:41+00:00",
-    "rainUpdatedAt": "2026-11-07T19:29:42+00:00"
+    "weatherUpdatedAt": "2026-11-07T22:56:27+00:00",
+    "rainUpdatedAt": "2026-11-07T22:56:28+00:00"
   }
 }
