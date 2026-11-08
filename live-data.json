@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-07T22:56:27+00:00",
+    "updatedAt": "2026-11-08T02:11:04+00:00",
     "headlines": [
       {
         "title": "Trump zegt UFC-baas te hebben gevraagd als nieuwe persvoorlichter Witte Huis",
@@ -9,13 +9,6 @@
         "date": "Sat, 07 Nov 2026 22:59:46 +0100",
         "summary": "De Amerikaanse president Donald Trump zegt dat hij Dana White, de baas van de Ultimate Fighting Championship (UFC), de baan als nieuwe woordvoerder van het Witte Huis heeft aangeboden. Het is niet duidelijk of het om een serieus aanbod gaat.",
         "imageUrl": "https://images.nu.nl/m/30gxmtoao0ou_sqr256/1184/0/5404/5404/trump-zegt-ufc-baas-te-hebben-gevraagd-als-nieuwe-persvoorlichter-witte-huis.jpg"
-      },
-      {
-        "title": "Loes Haverkort leeft bewuster sinds hersentumor: 'Wil niet denken over de dood'",
-        "url": "https://www.nu.nl/entertainment/6415861/loes-haverkort-leeft-bewuster-sinds-hersentumor-wil-niet-denken-over-de-dood.html",
-        "date": "Sat, 07 Nov 2026 22:46:23 +0100",
-        "summary": "Loes Haverkort leeft bewuster sinds enkele maanden geleden een laaggradige tumor in haar rechterhersenhelft werd ontdekt. De dood kwam daardoor opeens heel dichtbij. Iets waar ze helemaal niet over na wil denken, zegt ze zaterdag in het BNNVARA-programma De Geknipte Gast .",
-        "imageUrl": "https://images.nu.nl/m/z5xxvuwam9zd_sqr256/1372/0/3648/3648/loes-haverkort-leeft-bewuster-sinds-hersentumor-wil-niet-denken-over-de-dood.jpg"
       },
       {
         "title": "Drie doden aangetroffen in woning schutter Krakau, hoogstwaarschijnlijk familie",
@@ -51,6 +44,13 @@
         "date": "Sat, 07 Nov 2026 19:46:04 +0100",
         "summary": "De Amerikaanse president Donald Trump heeft het ministerie van Justitie zaterdag opdracht gegeven Democraten te onderzoeken. Volgens hem maken zij zich met dreigementen over een afzettingsprocedure en andere straffen schuldig aan een \"criminele daad\". Bewijs daarvoor leverde hij niet.",
         "imageUrl": "https://images.nu.nl/m/ghqxp58azy9x_sqr256/1273/362/4062/4062/trump-laat-justitie-democraten-onderzoeken-om-vermeende-dreiging-tot-afzetting.jpg"
+      },
+      {
+        "title": "Koeman jr. was bang voor rood bij bizarre eigen goal: 'Volgende keer pak ik hem'",
+        "url": "https://www.nu.nl/voetbal/6415846/koeman-jr-was-bang-voor-rood-bij-bizarre-eigen-goal-volgende-keer-pak-ik-hem.html",
+        "date": "Sat, 07 Nov 2026 19:42:39 +0100",
+        "summary": "Telstar-doelman Ronald Koeman Junior rekent zich het eigen doelpunt van zijn verdediger Sem Valk niet aan. Koeman jr. was bang voor een rode kaart als hij de bal in zijn handen zou pakken.",
+        "imageUrl": "https://images.nu.nl/m/ozzx92da1c65_sqr256/1160/0/2855/2855/koeman-jr-was-bang-voor-rood-bij-bizarre-eigen-goal-volgende-keer-pak-ik-hem.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "23:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:05",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:10",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:15",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:20",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.1
-      },
-      {
-        "time": "01:00",
+        "time": "03:10",
         "mmHour": 0.21
       },
       {
-        "time": "01:05",
+        "time": "03:15",
+        "mmHour": 0.21
+      },
+      {
+        "time": "03:20",
+        "mmHour": 0.21
+      },
+      {
+        "time": "03:25",
+        "mmHour": 0.29
+      },
+      {
+        "time": "03:30",
+        "mmHour": 0.29
+      },
+      {
+        "time": "03:35",
+        "mmHour": 0.49
+      },
+      {
+        "time": "03:40",
+        "mmHour": 0.6
+      },
+      {
+        "time": "03:45",
+        "mmHour": 0.29
+      },
+      {
+        "time": "03:50",
         "mmHour": 0.1
       },
       {
-        "time": "01:10",
-        "mmHour": 0.1
-      },
-      {
-        "time": "01:15",
+        "time": "03:55",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "01:30",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "01:35",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "01:40",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "01:45",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:50",
+        "time": "04:30",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:50",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:55",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:00",
+        "mmHour": 0.0
+      },
+      {
+        "time": "05:05",
         "mmHour": 0.0
       }
     ],
-    "temperature": 6.5,
+    "temperature": 8.2,
     "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-07T22:56:27+00:00",
-    "rainUpdatedAt": "2026-11-07T22:56:28+00:00"
+    "weatherUpdatedAt": "2026-11-08T02:11:04+00:00",
+    "rainUpdatedAt": "2026-11-08T02:11:05+00:00"
   }
 }
