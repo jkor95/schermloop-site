@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-19T23:14:31+00:00",
+    "updatedAt": "2026-11-20T04:01:54+00:00",
     "headlines": [
+      {
+        "title": "F1-coureurs komen door regen nauwelijks in actie tijdens eerste training Vegas",
+        "url": "https://www.nu.nl/formule-1/6417176/f1-coureurs-komen-door-regen-nauwelijks-in-actie-tijdens-eerste-training-vegas.html",
+        "date": "Fri, 20 Nov 2026 02:36:50 +0100",
+        "summary": "De eerste vrije training voor de Grand Prix van Las Vegas is donderdagavond (lokale tijd) letterlijk en figuurlijk in het water gevallen. Vanwege regen werd er nauwelijks gereden door de straten van het gokparadijs.",
+        "imageUrl": "https://images.nu.nl/m/i5axv48ak4sp_sqr256/1637/0/2974/2974/f1-coureurs-komen-door-regen-nauwelijks-in-actie-tijdens-eerste-training-vegas.jpg"
+      },
+      {
+        "title": "Eten van muts wordt wereldberoemde Nijlpaard in Amerikaanse dierentuin fataal",
+        "url": "https://www.nu.nl/dieren/6417175/eten-van-muts-wordt-wereldberoemde-nijlpaard-in-amerikaanse-dierentuin-fataal.html",
+        "date": "Fri, 20 Nov 2026 00:25:54 +0100",
+        "summary": "Nijlpaard Fiona is overleden in de Cincinnati Zoo, nadat het dier een gebreide muts van een bezoeker had opgegeten. Fiona is donderdag aan haar verwondingen overleden, meldt de Amerikaanse dierentuin donderdag.",
+        "imageUrl": "https://images.nu.nl/m/fsyx30oa3cch_sqr256/995/7/2844/2844/eten-van-muts-wordt-wereldberoemde-nijlpaard-in-amerikaanse-dierentuin-fataal.jpg"
+      },
       {
         "title": "Duitse douane vindt ruim 6 kilo meth verstopt in airfryer in Nederlandse auto",
         "url": "https://www.nu.nl/opmerkelijk/6417171/duitse-douane-vindt-ruim-6-kilo-meth-verstopt-in-airfryer-in-nederlandse-auto.html",
@@ -37,20 +51,6 @@
         "date": "Thu, 19 Nov 2026 19:57:56 +0100",
         "summary": "Het NET5-programma True Crime Today gaat stoppen vanwege het gebrek aan kijkers, deelt presentatrice Kirsten Westrik op Instagram. \"Zo simpel is het. En dat vind ik ontzettend jammer.\"",
         "imageUrl": "https://images.nu.nl/m/7dgxoq1a283a_sqr256/697/0/3133/3133/talpa-trekt-ook-stekker-uit-net5-programma-true-crime-today.jpg"
-      },
-      {
-        "title": "Vier Britten schuldig aan verkrachten van vrouw die door man werd gedrogeerd",
-        "url": "https://www.nu.nl/buitenland/6417153/vier-britten-schuldig-aan-verkrachten-van-vrouw-die-door-man-werd-gedrogeerd.html",
-        "date": "Thu, 19 Nov 2026 19:38:45 +0100",
-        "summary": "Vier mannen zijn in het Verenigd Koninkrijk veroordeeld voor het verkrachten van een vrouw die door haar toenmalige echtgenoot was gedrogeerd. De ex-man bekende eerder dat hij haar had gedrogeerd en verkracht en dat hij het misbruik had gefilmd en online had gezet.",
-        "imageUrl": "https://images.nu.nl/m/4l7xjpqa48aw_sqr256/595/0/3213/3213/vier-britten-schuldig-aan-verkrachten-van-vrouw-die-door-man-werd-gedrogeerd.jpg"
-      },
-      {
-        "title": "Man die GTA VI wilde kopen had nog celstraf openstaan: 'Game over'",
-        "url": "https://www.nu.nl/binnenland/6417154/man-die-gta-vi-wilde-kopen-had-nog-celstraf-openstaan-game-over.html",
-        "date": "Thu, 19 Nov 2026 19:33:33 +0100",
-        "summary": "Een Arnhemmer is woensdag tegen de lamp gelopen toen hij Grand Theft Auto VI wilde kopen in een winkel in Son en Breugel. Hij bleek nog een gevangenisstraf open te hebben staan en werd door de politie aangehouden.",
-        "imageUrl": "https://images.nu.nl/m/4q4xm4nam1o8_sqr256/977/0/5174/5174/man-die-gta-vi-wilde-kopen-had-nog-celstraf-openstaan-game-over.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "00:15",
+        "time": "05:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "05:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:30",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:35",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:40",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:45",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:50",
-        "mmHour": 0.0
-      },
-      {
-        "time": "00:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "01:00",
+        "time": "05:10",
         "mmHour": 0.1
       },
       {
-        "time": "01:05",
+        "time": "05:15",
+        "mmHour": 0.21
+      },
+      {
+        "time": "05:20",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "05:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "05:30",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "05:35",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "05:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:30",
+        "time": "05:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:35",
+        "time": "05:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:40",
-        "mmHour": 0.0
+        "time": "05:55",
+        "mmHour": 0.6
       },
       {
-        "time": "01:45",
-        "mmHour": 0.0
+        "time": "06:00",
+        "mmHour": 3.4
       },
       {
-        "time": "01:50",
-        "mmHour": 0.0
+        "time": "06:05",
+        "mmHour": 3.16
       },
       {
-        "time": "01:55",
-        "mmHour": 0.0
+        "time": "06:10",
+        "mmHour": 2.94
       },
       {
-        "time": "02:00",
-        "mmHour": 0.0
+        "time": "06:15",
+        "mmHour": 2.74
       },
       {
-        "time": "02:05",
-        "mmHour": 0.0
+        "time": "06:20",
+        "mmHour": 2.74
       },
       {
-        "time": "02:10",
+        "time": "06:25",
+        "mmHour": 2.05
+      },
+      {
+        "time": "06:30",
+        "mmHour": 1.54
+      },
+      {
+        "time": "06:35",
+        "mmHour": 0.39
+      },
+      {
+        "time": "06:40",
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:45",
+        "mmHour": 0.21
+      },
+      {
+        "time": "06:50",
+        "mmHour": 0.1
+      },
+      {
+        "time": "06:55",
         "mmHour": 0.0
       }
     ],
-    "temperature": 7.3,
-    "description": "Zwaar bewolkt",
+    "temperature": 5.5,
+    "description": "Zwaar bewolkt en regen",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-19T23:14:31+00:00",
-    "rainUpdatedAt": "2026-11-19T23:14:32+00:00"
+    "weatherUpdatedAt": "2026-11-20T04:01:54+00:00",
+    "rainUpdatedAt": "2026-11-20T04:01:55+00:00"
   }
 }
