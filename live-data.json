@@ -1,21 +1,35 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-20T20:47:00+00:00",
+    "updatedAt": "2026-11-21T01:49:40+00:00",
     "headlines": [
+      {
+        "title": "Denemarken wijst naar Rusland na verijdelde moordpoging op Oekraïense rapper",
+        "url": "https://www.nu.nl/spanningen-oekraine/6417288/denemarken-wijst-naar-rusland-na-verijdelde-moordpoging-op-oekraiense-rapper.html",
+        "date": "Fri, 20 Nov 2026 23:42:07 +0100",
+        "summary": "De Deense politie en veiligheidsdienst PET zeggen dat ze in september een geplande moordaanslag op de Amerikaans-Oekraïense rapper Kyivstoner hebben voorkomen. Volgens PET zat de Russische inlichtingendienst achter het complot.",
+        "imageUrl": "https://images.nu.nl/m/j0hxy0ca7iz9_sqr256/857/396/2337/2337/denemarken-wijst-naar-rusland-na-verijdelde-moordpoging-op-oekraiense-rapper.jpg"
+      },
+      {
+        "title": "Veel onrust rond cruciaal examen Zuid-Korea: 111 studenten betrapt met telefoon",
+        "url": "https://www.nu.nl/buitenland/6417286/veel-onrust-rond-cruciaal-examen-zuid-korea-111-studenten-betrapt-met-telefoon.html",
+        "date": "Fri, 20 Nov 2026 22:29:24 +0100",
+        "summary": "In Zuid-Korea is veel ophef vanwege onthullingen over fraude tijdens het belangrijkste schoolexamen van het land. In totaal zijn er 111 Zuid-Koreanen betrapt met hun telefoon, wat streng verboden is bij dit landelijke examen.",
+        "imageUrl": "https://images.nu.nl/m/59uxcd1ae8j9_sqr256/1875/0/5464/5464/veel-onrust-rond-cruciaal-examen-zuid-korea-111-studenten-betrapt-met-telefoon.jpg"
+      },
       {
         "title": "GTA VI levert binnen dag 3,8 miljard dollar op, bijna dubbele van gemaakte kosten",
         "url": "https://www.nu.nl/economie/6417282/gta-vi-levert-binnen-dag-38-miljard-dollar-op-bijna-dubbele-van-gemaakte-kosten.html",
         "date": "Fri, 20 Nov 2026 21:42:39 +0100",
-        "summary": "De verkoop van Grand Theft Auto VI heeft op de eerste dag 3,79 miljard dollar (zo'n 3,45 miljard euro) opgeleverd. Dat is een stuk meer dan de eerder voorspelde 2,36 miljard dollar. Het spel heeft na één dag bijna het dubbele van zijn budget terugverdiend.",
+        "summary": "Grand Theft Auto VI heeft op de eerste verkoopdag 3,79 miljard dollar (zo'n 3,45 miljard euro) opgeleverd. Dat is een stuk meer dan de voorspelde 2,36 miljard dollar. Het spel heeft na één dag bijna het dubbele van het budget terugverdiend.",
         "imageUrl": "https://images.nu.nl/m/miwx2hoaslgc_sqr256/766/0/2658/2658/gta-vi-levert-binnen-dag-38-miljard-dollar-op-bijna-dubbele-van-gemaakte-kosten.jpg"
       },
       {
-        "title": "Jennifer Lawrence vond kus met Hunger Games-collega Hutcherson beste van carrière",
-        "url": "https://www.nu.nl/film/6417279/jennifer-lawrence-vond-kus-met-hunger-games-collega-hutcherson-beste-van-carriere.html",
+        "title": "Jennifer Lawrence vond Hunger Games-kus met Hutcherson beste van carrière",
+        "url": "https://www.nu.nl/film/6417279/jennifer-lawrence-vond-hunger-games-kus-met-hutcherson-beste-van-carriere.html",
         "date": "Fri, 20 Nov 2026 21:21:15 +0100",
         "summary": "Jennifer Lawrence vond de kus met haar Hunger Games -tegenspeler Josh Hutcherson de beste die ze tijdens haar acteercarrière heeft gehad. In een gesprek met talkshowhost Andy Cohen rangschikte ze vijf filmkussen. Acteur Chris Pratt eindigde op de laatste plek.",
-        "imageUrl": "https://images.nu.nl/m/jewx2l5adttf_sqr256/617/5/3106/3106/jennifer-lawrence-vond-kus-met-hunger-games-collega-hutcherson-beste-van-carriere.jpg"
+        "imageUrl": "https://images.nu.nl/m/jewx2l5adttf_sqr256/617/5/3106/3106/jennifer-lawrence-vond-hunger-games-kus-met-hutcherson-beste-van-carriere.jpg"
       },
       {
         "title": "Man riskeert duizenden euro's boete na diefstal van 6 kilo strandzand op Sardinië",
@@ -37,20 +51,6 @@
         "date": "Fri, 20 Nov 2026 20:33:19 +0100",
         "summary": "De V8-motoren keren in 2030 definitief terug in de Formule 1. De FIA, Formula One Management (FOM), de teams en de motorfabrikanten hebben daar vrijdag unaniem overeenstemming over bereikt.",
         "imageUrl": "https://images.nu.nl/m/ikux71ha551r_sqr256/2237/0/5504/5504/v8-motoren-keren-in-2030-terug-in-formule-1-verbinding-met-dna-van-de-sport.jpg"
-      },
-      {
-        "title": "Man glijdt 173 meter over zipline terwijl hij in brand staat en vestigt wereldrecord",
-        "url": "https://www.nu.nl/opmerkelijk/6417274/man-glijdt-173-meter-over-zipline-terwijl-hij-in-brand-staat-en-vestigt-wereldrecord.html",
-        "date": "Fri, 20 Nov 2026 19:57:44 +0100",
-        "summary": "Stanislaw Madej heeft het wereldrecord gebroken voor de langste afstand die op een zipline is afgelegd terwijl het hele lichaam in brand staat. De Poolse man legde maar liefst 173 meter en 17,3 centimeter af.",
-        "imageUrl": "https://images.nu.nl/m/fl1xdujakesr_sqr256/188/83/367/367/man-glijdt-173-meter-over-zipline-terwijl-hij-in-brand-staat-en-vestigt-wereldrecord.jpg"
-      },
-      {
-        "title": "Scheidsrechter Van der Eijk lag uren wakker na Ajax-PSV met beuk Van Bommel",
-        "url": "https://www.nu.nl/voetbal/6417272/scheidsrechter-van-der-eijk-lag-uren-wakker-na-ajax-psv-met-beuk-van-bommel.html",
-        "date": "Fri, 20 Nov 2026 19:05:03 +0100",
-        "summary": "Scheidsrechter Sander van der Eijk heeft vrijdag voor het eerst gereageerd op de ophef ontstond na Ajax-PSV. Volgens velen, onder wie manager scheidsrechterszaken van de KNVB Raymond van Meenen, maakte Van der Eijk een grote fout door Ruben van Bommel geen rode kaart te geven.",
-        "imageUrl": "https://images.nu.nl/m/3ehxt1va3p75_sqr256/861/0/4547/4547/scheidsrechter-van-der-eijk-lag-uren-wakker-na-ajax-psv-met-beuk-van-bommel.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "21:45",
+        "time": "02:50",
         "mmHour": 0.0
       },
       {
-        "time": "21:50",
+        "time": "02:55",
         "mmHour": 0.0
       },
       {
-        "time": "21:55",
+        "time": "03:00",
         "mmHour": 0.0
       },
       {
-        "time": "22:00",
+        "time": "03:05",
         "mmHour": 0.0
       },
       {
-        "time": "22:05",
+        "time": "03:10",
         "mmHour": 0.0
       },
       {
-        "time": "22:10",
+        "time": "03:15",
         "mmHour": 0.0
       },
       {
-        "time": "22:15",
+        "time": "03:20",
         "mmHour": 0.0
       },
       {
-        "time": "22:20",
+        "time": "03:25",
         "mmHour": 0.0
       },
       {
-        "time": "22:25",
+        "time": "03:30",
         "mmHour": 0.0
       },
       {
-        "time": "22:30",
+        "time": "03:35",
         "mmHour": 0.0
       },
       {
-        "time": "22:35",
-        "mmHour": 0.0
+        "time": "03:40",
+        "mmHour": 0.21
       },
       {
-        "time": "22:40",
-        "mmHour": 0.0
+        "time": "03:45",
+        "mmHour": 0.49
       },
       {
-        "time": "22:45",
-        "mmHour": 0.0
+        "time": "03:50",
+        "mmHour": 0.93
       },
       {
-        "time": "22:50",
-        "mmHour": 0.0
+        "time": "03:55",
+        "mmHour": 0.49
       },
       {
-        "time": "22:55",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:00",
-        "mmHour": 0.0
-      },
-      {
-        "time": "23:05",
+        "time": "04:00",
         "mmHour": 0.1
       },
       {
-        "time": "23:10",
-        "mmHour": 1.33
-      },
-      {
-        "time": "23:15",
-        "mmHour": 1.65
-      },
-      {
-        "time": "23:20",
-        "mmHour": 0.29
-      },
-      {
-        "time": "23:25",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "23:30",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "23:35",
+        "time": "04:15",
+        "mmHour": 0.1
+      },
+      {
+        "time": "04:20",
+        "mmHour": 0.1
+      },
+      {
+        "time": "04:25",
+        "mmHour": 0.1
+      },
+      {
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "23:40",
+        "time": "04:35",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:40",
+        "mmHour": 0.0
+      },
+      {
+        "time": "04:45",
         "mmHour": 0.0
       }
     ],
-    "temperature": 2.5,
-    "description": "Zwaar bewolkt en regen",
+    "temperature": 3.5,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-20T20:47:01+00:00",
-    "rainUpdatedAt": "2026-11-20T20:47:01+00:00"
+    "weatherUpdatedAt": "2026-11-21T01:49:41+00:00",
+    "rainUpdatedAt": "2026-11-21T01:49:41+00:00"
   }
 }
