@@ -1,8 +1,29 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-21T21:52:41+00:00",
+    "updatedAt": "2026-11-22T01:51:53+00:00",
     "headlines": [
+      {
+        "title": "Jetten dineert met Britse premier in Rijksmuseum en spreekt over Oekraïne",
+        "url": "https://www.nu.nl/spanningen-oekraine/6417381/jetten-dineert-met-britse-premier-in-rijksmuseum-en-spreekt-over-oekraine.html",
+        "date": "Sun, 22 Nov 2026 00:41:32 +0100",
+        "summary": "De Britse premier Andy Burnham en zijn echtgenote waren zaterdagavond gasten van premier Jetten en zijn verloofde tijdens een diner in het Rijksmuseum in Amsterdam. Burnham en Jetten spraken onder meer over de gezamenlijke steun aan Oekraïne.",
+        "imageUrl": "https://images.nu.nl/m/pg8xydfatgyp_sqr256/230/0/1067/1067/jetten-dineert-met-britse-premier-in-rijksmuseum-en-spreekt-over-oekraine.jpg"
+      },
+      {
+        "title": "Zeker 24 doden nadat boot in Nigeria onderweg naar begrafenis kapseist",
+        "url": "https://www.nu.nl/buitenland/6417380/zeker-24-doden-nadat-boot-in-nigeria-onderweg-naar-begrafenis-kapseist.html",
+        "date": "Sat, 21 Nov 2026 23:30:45 +0100",
+        "summary": "In het zuiden van Nigeria zijn zeker 24 mensen om het leven gekomen nadat een boot met mensen op weg naar een begrafenis is gekapseisd. Mogelijk zaten er zo'n driehonderd mensen aan boord.",
+        "imageUrl": "https://images.nu.nl/m/bomxdsma1tz8_sqr256/651/0/2400/2400/zeker-24-doden-nadat-boot-in-nigeria-onderweg-naar-begrafenis-kapseist.jpg"
+      },
+      {
+        "title": "Man beschoten bij poging tot terugkopen gestolen fiets, jongen (16) aangehouden",
+        "url": "https://www.nu.nl/binnenland/6417379/man-beschoten-bij-poging-tot-terugkopen-gestolen-fiets-jongen-16-aangehouden.html",
+        "date": "Sat, 21 Nov 2026 23:04:18 +0100",
+        "summary": "Een twintigjarige man is vrijdagavond in Diemen bedreigd en beschoten toen hij zijn gestolen fiets wilde terugkopen. Hij is hierbij niet gewond geraakt. Volgens Het Parool en AT5 is er een zestienjarige jongen aangehouden.",
+        "imageUrl": "https://images.nu.nl/m/eenx0k7aeft0_sqr256/1109/0/3168/3168/man-beschoten-bij-poging-tot-terugkopen-gestolen-fiets-jongen-16-aangehouden.jpg"
+      },
       {
         "title": "Haarlok van president George Washington brengt 4.000 dollar op bij veiling",
         "url": "https://www.nu.nl/opmerkelijk/6417372/haarlok-van-president-george-washington-brengt-4000-dollar-op-bij-veiling.html",
@@ -11,11 +32,11 @@
         "imageUrl": "https://images.nu.nl/m/u2qx576absql_sqr256/0/0/4500/4500/haarlok-van-president-george-washington-brengt-4000-dollar-op-bij-veiling.jpg"
       },
       {
-        "title": "Van Gerwen naar laatste vier Grand Slam na partij met twee negendarters",
-        "url": "https://www.nu.nl/sport-overig/6417369/van-gerwen-naar-laatste-vier-grand-slam-na-partij-met-twee-negendarters.html",
+        "title": "Van Gerwen wint partij met twee negendarters en treft Van Veen in halve finales",
+        "url": "https://www.nu.nl/sport-overig/6417369/van-gerwen-wint-partij-met-twee-negendarters-en-treft-van-veen-in-halve-finales.html",
         "date": "Sat, 21 Nov 2026 21:29:49 +0100",
-        "summary": "Michael van Gerwen is zaterdagavond na een partij met twee negendarters doorgedrongen tot de halve finales van de Grand Slam of Darts. Hij versloeg in Wolverhampton de Engelsman Tom Sykes met 16-11.",
-        "imageUrl": "https://images.nu.nl/m/aekxw8vas435_sqr256/680/0/3950/3950/van-gerwen-naar-laatste-vier-grand-slam-na-partij-met-twee-negendarters.jpg"
+        "summary": "Michael van Gerwen is zaterdagavond na een partij met twee negendarters doorgedrongen tot de halve finales van de Grand Slam of Darts. Hij versloeg in Wolverhampton de Engelsman Tom Sykes met 16-11. Bij de laatste vier speelt hij tegen Gian van Veen.",
+        "imageUrl": "https://images.nu.nl/m/aekxw8vas435_sqr256/680/0/3950/3950/van-gerwen-wint-partij-met-twee-negendarters-en-treft-van-veen-in-halve-finales.jpg"
       },
       {
         "title": "Klimaattop zit muurvast, onduidelijk of er überhaupt nog een besluit komt",
@@ -30,27 +51,6 @@
         "date": "Sat, 21 Nov 2026 20:40:19 +0100",
         "summary": "Feyenoord heeft zaterdag een pijnlijke nederlaag geleden in de Eredivisie. Het kwakkelende elftal van trainer Giovanni van Bronckhorst verloor met 2-3 van stadsgenoot Excelsior en raakt daardoor verder achterop in de titelstrijd.",
         "imageUrl": "https://images.nu.nl/m/2o2xuosaylc4_sqr256/977/0/2853/2853/feyenoord-verliest-na-46-jaar-weer-thuis-van-excelsior-en-raakt-verder-achterop.jpg"
-      },
-      {
-        "title": "Alle vluchten op Belgische luchthavens maandag geschrapt door stakingen",
-        "url": "https://www.nu.nl/buitenland/6417368/alle-vluchten-op-belgische-luchthavens-maandag-geschrapt-door-stakingen.html",
-        "date": "Sat, 21 Nov 2026 20:30:23 +0100",
-        "summary": "Het vliegverkeer vanaf Belgische luchthavens zal maandag tussen 7.00 uur en 21.00 uur stilliggen door landelijke stakingen. De drie grote vakbonden in België trekken maandag door de hoofdstad Brussel om zich uit te spreken tegen het overheidsbeleid.",
-        "imageUrl": "https://images.nu.nl/m/10yxylxaqv4r_sqr256/1811/0/2854/2854/alle-vluchten-op-belgische-luchthavens-maandag-geschrapt-door-stakingen.jpg"
-      },
-      {
-        "title": "Wiskundige doorbraak met AI zorgt voor kritiek: 'Oplossen is niet het doel'",
-        "url": "https://www.nu.nl/tech/6417347/wiskundige-doorbraak-met-ai-zorgt-voor-kritiek-oplossen-is-niet-het-doel.html",
-        "date": "Sat, 21 Nov 2026 20:07:19 +0100",
-        "summary": "Met het bewijzen van de Riemann-hypothese door een wiskundige met behulp van Claude is er opnieuw een groot wiskundig vraagstuk mogelijk opgelost door een AI-model. Het gebruik van AI bij wiskunde zal niet meer verdwijnen, maar wiskundigen vrezen dat berekeningen straks niet meer worden begrepen.",
-        "imageUrl": "https://images.nu.nl/m/9dvxbj8agqy6_sqr256/862/0/3466/3466/wiskundige-doorbraak-met-ai-zorgt-voor-kritiek-oplossen-is-niet-het-doel.jpg"
-      },
-      {
-        "title": "Video | Badeendjesrace mislukt: zesduizend eendjes blijven stil liggen in water",
-        "url": "https://www.nu.nl/332508/video/badeendjesrace-mislukt-zesduizend-eendjes-blijven-stil-liggen-in-water.html",
-        "date": "Sat, 21 Nov 2026 19:59:01 +0100",
-        "summary": "",
-        "imageUrl": "https://images.nu.nl/m/sxyxvs7aydp7_sqr256/0/0/1078/1078/badeendjesrace-mislukt-zesduizend-eendjes-blijven-stil-liggen-in-water.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "22:50",
+        "time": "02:55",
         "mmHour": 0.0
       },
       {
-        "time": "22:55",
+        "time": "03:00",
         "mmHour": 0.0
       },
       {
-        "time": "23:00",
+        "time": "03:05",
         "mmHour": 0.0
       },
       {
-        "time": "23:05",
+        "time": "03:10",
         "mmHour": 0.0
       },
       {
-        "time": "23:10",
+        "time": "03:15",
         "mmHour": 0.0
       },
       {
-        "time": "23:15",
+        "time": "03:20",
         "mmHour": 0.0
       },
       {
-        "time": "23:20",
+        "time": "03:25",
         "mmHour": 0.0
       },
       {
-        "time": "23:25",
+        "time": "03:30",
         "mmHour": 0.0
       },
       {
-        "time": "23:30",
+        "time": "03:35",
         "mmHour": 0.0
       },
       {
-        "time": "23:35",
+        "time": "03:40",
         "mmHour": 0.0
       },
       {
-        "time": "23:40",
+        "time": "03:45",
         "mmHour": 0.0
       },
       {
-        "time": "23:45",
+        "time": "03:50",
         "mmHour": 0.0
       },
       {
-        "time": "23:50",
+        "time": "03:55",
         "mmHour": 0.0
       },
       {
-        "time": "23:55",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:00",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:05",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "04:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "04:40",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "04:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "04:50",
         "mmHour": 0.0
       }
     ],
-    "temperature": 0.5,
+    "temperature": -1.1,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-21T21:52:42+00:00",
-    "rainUpdatedAt": "2026-11-21T21:52:42+00:00"
+    "weatherUpdatedAt": "2026-11-22T01:51:53+00:00",
+    "rainUpdatedAt": "2026-11-22T01:51:54+00:00"
   }
 }
