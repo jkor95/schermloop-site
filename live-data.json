@@ -1,7 +1,7 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-22T22:27:59+00:00",
+    "updatedAt": "2026-11-23T03:01:46+00:00",
     "headlines": [
       {
         "title": "Democraten behalen grootste meerderheid in Amerikaans Huis sinds 1992",
@@ -21,7 +21,7 @@
         "title": "FC Utrecht ontslaat coach Correia al na vier maanden wegens slechte prestaties",
         "url": "https://www.nu.nl/voetbal/6417447/fc-utrecht-ontslaat-coach-correia-al-na-vier-maanden-wegens-slechte-prestaties.html",
         "date": "Sun, 22 Nov 2026 21:35:31 +0100",
-        "summary": "FC Utrecht heeft zondag trainer Anthony Correia al na vier maanden ontslagen. Hij wordt verantwoordelijk gehouden voor de belabberde resultaten van de Domstedelingen.",
+        "summary": "FC Utrecht heeft zondag trainer Anthony Correia al na vier maanden ontslagen. Hij wordt verantwoordelijk gehouden voor de belabberde resultaten van de Utrechters.",
         "imageUrl": "https://images.nu.nl/m/e9yxxfdaz732_sqr256/751/0/2362/2362/fc-utrecht-ontslaat-coach-correia-al-na-vier-maanden-wegens-slechte-prestaties.jpg"
       },
       {
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "23:30",
+        "time": "04:00",
         "mmHour": 0.0
       },
       {
-        "time": "23:35",
+        "time": "04:05",
         "mmHour": 0.0
       },
       {
-        "time": "23:40",
+        "time": "04:10",
         "mmHour": 0.0
       },
       {
-        "time": "23:45",
+        "time": "04:15",
         "mmHour": 0.0
       },
       {
-        "time": "23:50",
+        "time": "04:20",
         "mmHour": 0.0
       },
       {
-        "time": "23:55",
+        "time": "04:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:00",
+        "time": "04:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:05",
+        "time": "04:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "04:40",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "04:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "04:50",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "04:55",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "05:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "05:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "05:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "05:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:50",
+        "time": "05:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:55",
+        "time": "05:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:00",
+        "time": "05:30",
         "mmHour": 0.0
       },
       {
-        "time": "01:05",
+        "time": "05:35",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "05:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "05:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "05:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "05:55",
         "mmHour": 0.0
       }
     ],
-    "temperature": 1.2,
+    "temperature": -2.6,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-22T22:27:59+00:00",
-    "rainUpdatedAt": "2026-11-22T22:28:00+00:00"
+    "weatherUpdatedAt": "2026-11-23T03:01:46+00:00",
+    "rainUpdatedAt": "2026-11-23T03:01:47+00:00"
   }
 }
