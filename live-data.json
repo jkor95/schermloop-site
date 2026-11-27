@@ -1,8 +1,22 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-26T23:05:48+00:00",
+    "updatedAt": "2026-11-27T04:58:34+00:00",
     "headlines": [
+      {
+        "title": "Black Friday na 10 jaar: wat is er nog over van de echte gouden dealtjes?",
+        "url": "https://www.nu.nl/economie/6417896/black-friday-na-10-jaar-wat-is-er-nog-over-van-de-echte-gouden-dealtjes.html",
+        "date": "Fri, 27 Nov 2026 05:03:12 +0100",
+        "summary": "Vandaag een koopje scoren is moeilijker dan het lijkt. Black Friday is uitgegroeid tot een eindeloos prijzencircus met onduidelijke kortingen. De consument kan wel wat houvast en sturing gebruiken, want het product van jouw keuze was maanden geleden vaak net zo goedkoop.",
+        "imageUrl": "https://images.nu.nl/m/jb1x3vrakvxs_sqr256/873/0/4385/4385/black-friday-na-10-jaar-wat-is-er-nog-over-van-de-echte-gouden-dealtjes.jpg"
+      },
+      {
+        "title": "Ruim 900.000 huishoudens in VS zonder stroom door 'Thanksgiving-storm'",
+        "url": "https://www.nu.nl/buitenland/6417946/ruim-900000-huishoudens-in-vs-zonder-stroom-door-thanksgiving-storm.html",
+        "date": "Fri, 27 Nov 2026 00:23:36 +0100",
+        "summary": "De Verenigde Staten worden tijdens de nationale feestdag Thanksgiving getroffen door hevige windstoten en regenval. Twee stormen zorgen door het hele land voor overstromingen, omvallende bomen en stroomuitval bij honderdduizenden huishoudens en bedrijven.",
+        "imageUrl": "https://images.nu.nl/m/nbyxygnal0dl_sqr256/287/0/5504/5504/ruim-900000-huishoudens-in-vs-zonder-stroom-door-thanksgiving-storm.jpg"
+      },
       {
         "title": "AZ wint na fraaie comeback, ook NEC doet uitstekende zaken in Europa League",
         "url": "https://www.nu.nl/voetbal/6417943/az-wint-na-fraaie-comeback-ook-nec-doet-uitstekende-zaken-in-europa-league.html",
@@ -37,20 +51,6 @@
         "date": "Thu, 26 Nov 2026 21:24:37 +0100",
         "summary": "De politie van Hamburg is donderdagavond massaal uitgerukt na een melding over vermoedelijke lichaamsdelen in een kanaal in de stad. Bij het opvissen bleek dat het ging om onderdelen van een levensgrote pop.",
         "imageUrl": "https://images.nu.nl/m/yd8xeleau5ab_sqr256/1357/0/3829/3829/duitse-hulpdiensten-rukken-uit-voor-lichaamsdelen-in-kanaal-maar-vinden-pop.jpg"
-      },
-      {
-        "title": "Nicolaas Veul ziet houding tegenover lhbti'ers verharden: 'Zondebokpolitiek'",
-        "url": "https://www.nu.nl/cultuur-overig/6417720/nicolaas-veul-ziet-houding-tegenover-lhbtiers-verharden-zondebokpolitiek.html",
-        "date": "Thu, 26 Nov 2026 20:46:05 +0100",
-        "summary": "Nicolaas Veul laat in zijn debuutboek Altijd de ander zien hoe de houding tegenover de lhbtqia+-gemeenschap het afgelopen decennium is veranderd. Vroeger was hij vooral een buitenbeentje, maar tegenwoordig merkt hij dat zijn bestaan steeds vaker politiek beladen is. \"Het is zondebokpolitiek.\"",
-        "imageUrl": "https://images.nu.nl/m/34kxodjaojpf_sqr256/158/0/533/533/nicolaas-veul-ziet-houding-tegenover-lhbtiers-verharden-zondebokpolitiek.jpg"
-      },
-      {
-        "title": "Fors gewijzigd Ajax boekt vlak voor De Klassieker overtuigende zege in Europa",
-        "url": "https://www.nu.nl/voetbal/6417933/fors-gewijzigd-ajax-boekt-vlak-voor-de-klassieker-overtuigende-zege-in-europa.html",
-        "date": "Thu, 26 Nov 2026 20:39:54 +0100",
-        "summary": "Ajax heeft drie dagen voor De Klassieker tegen Feyenoord een overtuigende zege geboekt in de Conference League. De Amsterdammers wonnen met een fors gewijzigd elftal van het Zwitserse FC Thun: 4-0.",
-        "imageUrl": "https://images.nu.nl/m/vvvxnnia0eos_sqr256/1148/15/3763/3763/fors-gewijzigd-ajax-boekt-vlak-voor-de-klassieker-overtuigende-zege-in-europa.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "00:05",
+        "time": "06:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:10",
+        "time": "06:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "06:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "06:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "06:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "06:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "06:30",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "06:35",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "06:40",
         "mmHour": 0.0
       },
       {
-        "time": "00:50",
+        "time": "06:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:55",
+        "time": "06:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:00",
+        "time": "06:55",
         "mmHour": 0.0
       },
       {
-        "time": "01:05",
+        "time": "07:00",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "07:05",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "07:10",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "07:15",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "07:20",
         "mmHour": 0.0
       },
       {
-        "time": "01:30",
+        "time": "07:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:35",
+        "time": "07:30",
         "mmHour": 0.0
       },
       {
-        "time": "01:40",
+        "time": "07:35",
         "mmHour": 0.0
       },
       {
-        "time": "01:45",
+        "time": "07:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:50",
+        "time": "07:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:55",
+        "time": "07:50",
         "mmHour": 0.0
       },
       {
-        "time": "02:00",
+        "time": "07:55",
         "mmHour": 0.0
       }
     ],
-    "temperature": -4.4,
+    "temperature": -5.7,
     "description": "Vrijwel onbewolkt (zonnig/helder)",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-26T23:05:48+00:00",
-    "rainUpdatedAt": "2026-11-26T23:05:49+00:00"
+    "weatherUpdatedAt": "2026-11-27T04:58:34+00:00",
+    "rainUpdatedAt": "2026-11-27T04:58:35+00:00"
   }
 }
