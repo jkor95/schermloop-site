@@ -1,8 +1,15 @@
 {
   "news": {
     "source": "NU.nl",
-    "updatedAt": "2026-11-27T23:12:50+00:00",
+    "updatedAt": "2026-11-28T04:45:12+00:00",
     "headlines": [
+      {
+        "title": "Vechten of vertrekken: spannende congresdag voor VVD-leider Yesilgöz",
+        "url": "https://www.nu.nl/politiek/6418022/vechten-of-vertrekken-spannende-congresdag-voor-vvd-leider-yesilgoz.html",
+        "date": "Sat, 28 Nov 2026 05:13:14 +0100",
+        "summary": "Na maanden van sluimerende onvrede over de koers van de partij barstte deze week de bom bij de VVD. Partijleider Dilan Yesilgöz ligt zwaar onder vuur. Ze spreekt vandaag honderden leden toe op het congres in Den Bosch.",
+        "imageUrl": "https://images.nu.nl/m/rkpxfd5af57r_sqr256/263/0/4195/4195/vechten-of-vertrekken-spannende-congresdag-voor-vvd-leider-yesilgoz.jpg"
+      },
       {
         "title": "74-jarige man uit Gouda overleden bij auto-ongeluk in Tanzania, vrouw gewond",
         "url": "https://www.nu.nl/buitenland/6418051/74-jarige-man-uit-gouda-overleden-bij-auto-ongeluk-in-tanzania-vrouw-gewond.html",
@@ -25,11 +32,11 @@
         "imageUrl": "https://images.nu.nl/m/c0rxzuaa87c8_sqr256/562/1/1079/1079/oekraiense-kinderen-zien-na-jaren-hun-familie-terug.jpg"
       },
       {
-        "title": "Iranoorlog gaat tiende maand in en uitzicht op vrede ontbreekt",
-        "url": "https://www.nu.nl/midden-oostenconflict/6418007/iranoorlog-gaat-tiende-maand-in-en-uitzicht-op-vrede-ontbreekt.html",
+        "title": "Iranoorlog die een maand moest duren gaat tiende maand in",
+        "url": "https://www.nu.nl/midden-oostenconflict/6418007/iranoorlog-die-een-maand-moest-duren-gaat-tiende-maand-in.html",
         "date": "Fri, 27 Nov 2026 21:18:02 +0100",
         "summary": "De Amerikaans-Israëlische oorlog tegen Iran, die ongeveer een maand moest duren, gaat zijn tiende maand in. De onderhandelingen zitten muurvast. Washington lijkt geen doordachte exitstrategie te hebben en in Teheran maken revolutionaire hardliners de dienst uit.",
-        "imageUrl": "https://images.nu.nl/m/spwxqqfay7c9_sqr256/177/0/1872/1872/iranoorlog-gaat-tiende-maand-in-en-uitzicht-op-vrede-ontbreekt.jpg"
+        "imageUrl": "https://images.nu.nl/m/spwxqqfay7c9_sqr256/177/0/1872/1872/iranoorlog-die-een-maand-moest-duren-gaat-tiende-maand-in.jpg"
       },
       {
         "title": "Kabinet komt ondanks kritiek toch met plan voor eigen bijdrage in de jeugdzorg",
@@ -44,13 +51,6 @@
         "date": "Fri, 27 Nov 2026 20:03:35 +0100",
         "summary": "Max Verstappen heeft volgens teambaas Laurent Mekies een doorslaggevende rol gespeeld in de wederopstanding van Red Bull. Juist toen het team het moeilijk had, besloot de viervoudig wereldkampioen zijn vertrouwen uit te spreken in de vorm van een contractverlenging.",
         "imageUrl": "https://images.nu.nl/m/0ypxetbachdk_sqr256/634/0/2242/2242/red-bull-baas-zegt-dat-nieuw-contract-verstappen-cruciaal-was-voor-ommekeer.jpg"
-      },
-      {
-        "title": "Stemacteur van kinderseries Jan Anne Drenth (85) overleden",
-        "url": "https://www.nu.nl/entertainment/6418054/stemacteur-van-kinderseries-jan-anne-drenth-85-overleden.html",
-        "date": "Fri, 27 Nov 2026 19:51:22 +0100",
-        "summary": "Acteur Jan Anne Drenth is vrijdag op 85-jarige leeftijd overleden. Drenth speelde in bekende tv-series en leende zijn stem aan populaire kinderseries. Hij had al enkele jaren alzheimer en speelde zijn laatste rol in 2017.",
-        "imageUrl": "https://images.nu.nl/m/hncx5szaog7e_sqr256/1086/6/3724/3724/stemacteur-van-kinderseries-jan-anne-drenth-85-overleden.jpg"
       }
     ]
   },
@@ -59,106 +59,106 @@
     "place": "Dordrecht",
     "rain": [
       {
-        "time": "00:10",
+        "time": "05:45",
         "mmHour": 0.0
       },
       {
-        "time": "00:15",
+        "time": "05:50",
         "mmHour": 0.0
       },
       {
-        "time": "00:20",
+        "time": "05:55",
         "mmHour": 0.0
       },
       {
-        "time": "00:25",
+        "time": "06:00",
         "mmHour": 0.0
       },
       {
-        "time": "00:30",
+        "time": "06:05",
         "mmHour": 0.0
       },
       {
-        "time": "00:35",
+        "time": "06:10",
         "mmHour": 0.0
       },
       {
-        "time": "00:40",
+        "time": "06:15",
         "mmHour": 0.0
       },
       {
-        "time": "00:45",
+        "time": "06:20",
         "mmHour": 0.0
       },
       {
-        "time": "00:50",
+        "time": "06:25",
         "mmHour": 0.0
       },
       {
-        "time": "00:55",
+        "time": "06:30",
         "mmHour": 0.0
       },
       {
-        "time": "01:00",
+        "time": "06:35",
         "mmHour": 0.0
       },
       {
-        "time": "01:05",
+        "time": "06:40",
         "mmHour": 0.0
       },
       {
-        "time": "01:10",
+        "time": "06:45",
         "mmHour": 0.0
       },
       {
-        "time": "01:15",
+        "time": "06:50",
         "mmHour": 0.0
       },
       {
-        "time": "01:20",
+        "time": "06:55",
         "mmHour": 0.0
       },
       {
-        "time": "01:25",
+        "time": "07:00",
         "mmHour": 0.0
       },
       {
-        "time": "01:30",
+        "time": "07:05",
         "mmHour": 0.0
       },
       {
-        "time": "01:35",
+        "time": "07:10",
         "mmHour": 0.0
       },
       {
-        "time": "01:40",
+        "time": "07:15",
         "mmHour": 0.0
       },
       {
-        "time": "01:45",
+        "time": "07:20",
         "mmHour": 0.0
       },
       {
-        "time": "01:50",
+        "time": "07:25",
         "mmHour": 0.0
       },
       {
-        "time": "01:55",
+        "time": "07:30",
         "mmHour": 0.0
       },
       {
-        "time": "02:00",
+        "time": "07:35",
         "mmHour": 0.0
       },
       {
-        "time": "02:05",
+        "time": "07:40",
         "mmHour": 0.0
       }
     ],
-    "temperature": -3.1,
-    "description": "Vrijwel onbewolkt (zonnig/helder)",
+    "temperature": -3.7,
+    "description": "Zwaar bewolkt",
     "station": "Meetstation Rotterdam",
-    "weatherUpdatedAt": "2026-11-27T23:12:50+00:00",
-    "rainUpdatedAt": "2026-11-27T23:12:51+00:00"
+    "weatherUpdatedAt": "2026-11-28T04:45:13+00:00",
+    "rainUpdatedAt": "2026-11-28T04:45:13+00:00"
   }
 }
